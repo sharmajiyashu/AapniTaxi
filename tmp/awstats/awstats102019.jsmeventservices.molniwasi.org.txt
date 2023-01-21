@@ -1,0 +1,1744 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201910 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.jsmeventservices.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2700                
+POS_VISITOR 51630               
+POS_DAY 56560               
+POS_DOMAIN 3512                
+POS_LOGIN 4091                
+POS_ROBOT 4246                
+POS_WORMS 4705                
+POS_EMAILSENDER 4836                
+POS_EMAILRECEIVER 4979                
+POS_SESSION 57328               
+POS_SIDER 57535               
+POS_FILETYPES 5114                
+POS_DOWNLOADS 5346                
+POS_OS 5394                
+POS_BROWSER 5673                
+POS_SCREENSIZE 6446                
+POS_UNKNOWNREFERER 6520                
+POS_UNKNOWNREFERERBROWSER 6790                
+POS_ORIGIN 6906                
+POS_SEREFERRALS 7043                
+POS_PAGEREFS 7187                
+POS_SEARCHWORDS 7335                
+POS_KEYWORDS 7487                
+POS_MISC 2364                
+POS_ERRORS 7546                
+POS_CLUSTER 3947                
+POS_SIDER_404 7679                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191101030128 6 825 9023729757569
+FirstTime 20191001004500
+LastTime 20191031170851
+LastUpdate 20191101061158 6 0 5 0 0
+TotalVisits 163                 
+TotalUnique 123                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 125                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 20 561148 72 92 276195
+1 14 16 391906 46 51 37752
+2 7 7 144431 164 180 145676
+3 7 7 54047 18 24 28482
+4 19 67 2494901 189 193 141003
+5 5 5 38605 56 58 52435
+6 19 55 2021860 121 165 346036
+7 9 9 92085 5 7 68772
+8 9 11 262917 43 48 31167
+9 16 88 3602706 53 78 234200
+10 8 8 242536 182 185 25513
+11 16 16 213920 173 178 129037
+12 7 13 409964 212 214 117820
+13 21 21 455889 229 238 211505
+14 19 19 576023 655 681 100964
+15 21 37 420207 88 93 32401
+16 11 11 220507 126 137 53622
+17 13 15 271205 88 96 36797
+18 25 69 2545663 155 165 91401
+19 8 8 197344 446 457 81539
+20 24 26 536904 460 471 361626
+21 11 11 265699 183 186 176036
+22 11 11 333487 48 58 49404
+23 13 20 536210 89 102 82141
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 26
+us 142 186 4214399
+fr 48 48 1138872
+gb 43 79 2335019
+cn 17 97 3929732
+ru 11 11 220507
+tn 8 8 61768
+ci 7 7 212219
+ca 7 7 212219
+in 6 42 1746599
+dk 6 6 181902
+za 6 6 46326
+ie 5 41 1732998
+th 4 4 121268
+id 3 3 45759
+ma 3 3 90951
+az 2 2 15442
+md 2 2 60634
+de 2 2 60634
+pk 2 7 257851
+se 2 2 60634
+nl 2 2 60634
+pt 1 1 7721
+lr 1 1 7721
+bz 1 1 30317
+au 1 1 7721
+eu 1 1 30317
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Googlebot/ 68 553947 20191025065002 0
+spider 24 244630 20191016060410 0
+bingbot/ 12 416059 20191031192413 0
+bot[\s_+:,\.\;\/\\-] 10 303170 20191030124206 0
+(firefox/)([0-9]\.|[0-1][0]\.) 6 91518 20191031032922 0
+no_user_agent 5 128989 20191024120142 0
+Wget/ 1 30317 20191002132127 0
+Apache\-HttpClient/ 1 7721 20191011201952 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+png 30 919740 0 0
+html 308 6482819 0 0
+jpg 99 7191166 0 0
+woff2 5 322320 0 0
+ttf 3 137708 0 0
+js 72 897026 0 0
+Unknown 1 13601 0 0
+css 36 430900 0 0
+woff 16 494884 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+ios_iphone 17 17
+linux 37 25
+win7 72 21
+Unknown 63 27
+macosx12 1 1
+macosx9 1 1
+win8.1 3 3
+unix 1 1
+macosx 1 1
+macosx10 16 16
+winxp 2 2
+macosx11 19 3
+macosx8 3 3
+linuxandroid 3 3
+win2003 7 1
+win8 1 1
+win10 323 207
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 36
+safari5.1 17 17
+chrome72.0.3626.119 53 9
+firefox57.0 9 9
+opera36.0.2130.32 17 17
+firefox59.0 2 2
+mozilla 48 12
+chrome9.0.597.107 1 1
+msie7.0 8 2
+firefox28.0 12 12
+Unknown 17 17
+chrome35.0.1916.47 1 1
+chrome8.0.551.0 1 1
+chrome66.0.3359.139 21 6
+firefox54.0 1 1
+chrome46.0.2490.80 1 1
+chrome76.0.3809.132 8 8
+android 2 2
+chrome26.0.1410.63 1 1
+chrome41.0.2225.0 1 1
+chrome39.0.2171.95 14 14
+msie6.0 1 1
+firefox52.0 19 3
+firefox65.0 2 2
+chrome74.0.3729.131 1 1
+chrome45.0.2454.94 1 1
+firefox69.0 61 13
+firefox50.0 4 4
+chrome63.0.3239.132 124 124
+chrome77.0.3865.120 82 10
+chrome10.0.648.204 1 1
+chrome18.0.1025.46 1 1
+chrome74.0.3729.169 2 2
+chrome73.0.3683.86 3 3
+chrome26.0.1410.65 3 3
+firefox48.0 14 14
+firefox64.0 16 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_ips-agent) 20191028170749
+Go-http-client/1.1 20191031055042
+Mozilla/5.0_(compatible;_Dataprovider.com) 20191019041233
+Mozilla/5.0_(compatible) 20191002140415
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20191031055042
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 309 383
+From1 0 0
+From2 0 0
+From3 0 0
+From4 24 187
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 3757 1055432
+206 2 10044
+409 161 13363
+403 103 56334
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1249
+/vehiculo_photos/server/php/files/up.php 5 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-black/designit/cs/uploadImage/%3Cp%3EAn%20appropriate%20representation%20of%20the%20requested%20resource%20/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/ 1 -
+/images/anon.php 1 -
+//images/robots.txt.php 4 www.jsmeventservices.com
+/modules/advancedslider/ajax_advancedsliderUpload.php 1 -
+/dam.php 1 -
+//scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/index1.php 1 -
+/wp-content/plugins/webapp-builder/jsspwned.php 2 -
+/up.php 20 -
+/administrator/templates/bluestork/index.php 6 -
+/yy.php 1 -
+/err.php 1 -
+//libraries/joomla/wso.php 2 -
+//RoseLeif.php 4 www.jsmeventservices.com
+/js/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+//libraries/jscripts/kcfinder/upload.php 2 -
+//images/al277.php 4 www.jsmeventservices.com
+//ckeditor/kcfinder/upload.php 2 -
+/components/com_foxcontact/_func.php 1 -
+/webdev.php 1 -
+//tpl/plugins/upload9.1.0/server/php/up.php 2 -
+/wp-admin/options-general.php 2 -
+/modules/addthisplugin/file_upload.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 8 -
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__uhiof.php 1 -
+//up.php 2 -
+/wp-content/plugins/upspy/pleet.php 1 -
+//zibi.php 2 -
+//bin/logo_img.php 1 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+//cfg-contactform-1/inc/upload.php 5 -
+/n.php 1 -
+//tmp/bogel.php 1 -
+/modules/nvn_export_orders/upload.php 1 -
+//shootme.php 4 www.jsmeventservices.com
+//assets/plugins/ckeditor/kcfinder/upload.php 2 -
+/wp-content/uploads/i-dump-uploads//jsspwned.php 2 -
+/wordpress 1 http://jsmeventservices.com/wordpress
+/media/kunena/avatars/media-admin.php 1 -
+/sitemap.xml 1 -
+//images/wp-mail.php 2 -
+//images/defau1t.php 4 www.jsmeventservices.com
+/wp-content/satoshi/images/jsspwned.php 2 -
+/tmp/pz.php 1 -
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/images/newsr.php 1 -
+/media/kunena/avatars/resized/size36/users/new_side.php 1 -
+/AndroidFileUpload/uploads/up.php 4 -
+/new_license.php 6 -
+/libraries/joomla/jmail.php 6 -
+/modules/realty/evogallery2/slides/root.php 1 -
+/ajax.php 1 -
+/wp-content/themes/multimedia1/server/php/ 1 -
+/wp-content/plugins/background-image-cropper/new_license.php 1 -
+/upel.php 6 -
+/ll.php 1 -
+/blog/wp-admin/install.php 2 -
+/panel.php 1 -
+/libraries/jscripts/kcfinder/upload.php 7 -
+/link.php 1 -
+/wp-content/plugins/css-ready-seled/file.php 1 -
+/media/big.php 1 -
+/2016/wp-includes/wlwmanifest.xml 3 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/0x0.php 1 -
+/doom.php 1 -
+/za.php 1 -
+/wp-content/themes/rarebird/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/anon.php 1 -
+/xleetwolf.php 1 -
+/whmcs.php 2 -
+//cache/list.php 4 www.jsmeventservices.com
+//configurationbak.php 4 www.jsmeventservices.com
+/config2.php 1 -
+//wp-admin/network/plugin-delete.php 1 -
+/vv.php 1 -
+/wp-admin.php 1 -
+/wp-xss.php 1 -
+/cms/wp-includes/wlwmanifest.xml 69 -
+/wp-content/plugins/GREEN/xleet.php 1 -
+/infusions/mp3player_panel/upload.php 3 -
+/wp-admin/install.php 9 -
+/b.php 1 -
+/priv.php 1 -
+//wp-admin/admin-ajax.php 4 -
+/administrator/components/com_galek.php 1 -
+/modules/homepageadvertise/uploadimage.php 1 -
+//install.php 4 www.jsmeventservices.com
+/wp-content/jssor-slider/jssor-uploads/jsspwned.php 2 -
+//server/php/ 2 -
+//b1.php 1 -
+/files/ 6 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/cmd.php 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__vtrci.php 1 -
+/wp-content/plugins/upspy/t.php 1 -
+/wp-content/plugins/upspy/tbmailer.php 1 -
+//robots.txt 2 -
+/js.phtml 1 -
+//assets/ckeditor/kcfinder/upload.php 2 -
+/umapresence/umaservices/umapage/inc/contentCss.php 3 -
+//XxX.php 1 -
+/wp-content/plugins/stats/instoll.php 1 -
+/modules/columnadverts2/slides/root.php 1 -
+/wp-content/themes/centum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/modules/blocktestimonial/addtestimonial.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/ 2 -
+/10.php 1 -
+/css/dzQ.php 1 -
+/sysadmin.php 1 -
+/dz.php 2 -
+//xmlrpc.php 1 -
+/components/RxR_1570210966.php 1 -
+//templates/system/css/system.css 9 -
+/wp-content/62149921.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/jsspwned.php 4 -
+//scripts/jquery/kcfinder/upload.php 2 -
+/wss.php 1 -
+/modules/jro_homepageadvertise2/uploadimage.php 1 -
+//tpl/plugins/upload9.1.0/server/php/files/up.php 2 -
+//cache/cache_aqbmkwwx.php 4 www.jsmeventservices.com
+//wp-content/plugins/wp-footers.php 4 www.jsmeventservices.com
+/xGSx.php 1 -
+/kcfinder-2.51/upload/files/priv.php.jd 2 -
+//language/en-GB/en-GB.xml 4 -
+/wp-content/uploads/assets/temp/jsspwned.php 2 -
+/images/00.php 1 -
+/admins.asp 1 -
+/alfa.php 1 -
+/wp-content/uploads/ 6 -
+/cc.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__uhiof.php 1 -
+/images/b.php 1 -
+/modules/simpleslideshow/slides/root.php 1 -
+/modules/filesupload/uploads/root.php 1 -
+/index.php 37 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/wp-content/wljzlh.php 1 -
+//ny.php 2 -
+/lel.php 1 -
+/modules/cartabandonmentproOld/uploads/root.php 1 -
+/modules/nvn_export_orders/root.php 1 -
+//media/jss.php 2 -
+//AndroidFileUpload/uploads/up.php 2 -
+/tmp.php 1 -
+//plugins/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/xx.php 1 -
+/wp-info.php 7 -
+/wp-content/plugins/woocommerce-products-filter/lib/simple-ajax-uploader/action.php 1 -
+/v.php 1 -
+//google-assist.php 4 www.jsmeventservices.com
+/media/media/images/mime-icon-16/media-admin.php 1 -
+/robots.txt 77 -
+/modules/productpageadverts/uploadimage.php 1 -
+/wp-content/uploads/uigen_YEAR/file.php 2 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 3 -
+/bitrix/admin/index.php 2 -
+/admins.php 1 -
+/wp-content/vuln.php 9 -
+/m.php 1 -
+/RxR.php 6 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+//wp_logns.php 1 -
+/xo.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+/site/wp-includes/wlwmanifest.xml 69 -
+/images/xcontact182.php 1 -
+/img/newsr.php 1 -
+/wp-content/plugins/ubh/index.php 6 -
+/images/d.php 1 -
+/images/ls.php 1 -
+//wp-load.php 1 -
+//assets/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+//maill.php 4 www.jsmeventservices.com
+/offline.php 1 -
+/wp-content/plugins/akismet/akismet.php 1 -
+/private.php 1 -
+/dd.php 1 -
+//assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/wp-content/themes/twentyseventeen/content-post.php 1 -
+/css.php 1 -
+/up1.php 1 -
+/wp-content/plugins/css-ready-selectors/file.php 1 -
+/images/g.php 1 -
+/admin/libraries/ajaxfilemanager/inc/data.php 2 -
+//wp-content/uploads/YDRaKX.php 1 -
+/setting.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/jsspwned.php 2 -
+/wp-admin/shapes.php 6 -
+//user/login 2 -
+/installation/index.php 9 -
+/LICENSE 2 -
+/wp-crons.php 1 -
+/wp-content/plugins/pitchprint/uploader/ 4 -
+/up3.php 1 -
+/wp-load.php 1 -
+/templates/rhuk_milkyway/index.php 6 -
+//wp-content/plugins/cherry-plugin/admin/import-export/upload.php 1 -
+/uploadshell.php 1 -
+/shelled.php 1 -
+/cfgs.php 1 -
+//libraries/joomla/css.php 2 -
+/images/shell.php 1 -
+/public/js/plugins/imgsurfer/main.php 5 -
+//assets/global/plugins/jquery-file-upload/server/php/files/up.php 2 -
+/abcd.php 1 -
+/wp-content/plugins/spirit-templates/accdb.php 1 -
+//media/jmail.php 1 -
+/wp-content/plugins/wp-manager/x.php 1 -
+/um3r.php 1 -
+/modules/addthisplugin/file_uploads/root.php 1 -
+/wp-content/plugins/vwcleanerplugin/bump.php 6 -
+//configbak.php 4 www.jsmeventservices.com
+/js/ckeditor/kcfinder/upload.php 7 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads//jsspwned.php 2 -
+/wp-content/plugins/GREEN/GREENX.php 1 -
+/images/jdownloads/screenshots/xWarning.php 2 -
+/downloader/ 1 -
+/components/com_finder/views/search/tmpl/souf.php 1 -
+//admin/ckeditor/kcfinder/upload.php 2 -
+/wp-content/plugins/magic-fields/RCCWP_upload_ajax.php 2 -
+/wp-content/plugins/social-networking-e-commerce-1/classes/views/social-options/form_cat_add.php 2 -
+/wp-content/plugins/upspy/up.php 1 -
+//kcfinder-2.51/upload.php 2 -
+/wp-content/plugins/ubh/Meuhy.php 1 -
+/spy.php 1 -
+/images/jdownloads/screenshots/rxrking.php3.g 3 -
+/wp-content/plugins/theme-configurator/mini.php 6 -
+/wp-content/plugins/simple-ads-manager/jsspwned.php 2 -
+//public/upload_nhieuanh/server/php/_index.php 7 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/sa.php 1 -
+/masseditproduct/uploads/file/root.php 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 2 -
+/ads.txt 1 -
+/admin/ckeditor/kcfinder/upload/files/priv.php.jd 2 -
+/modules/lib/redactor/file_upload.php 1 -
+/web/image/Images/up.php 4 -
+//server/php/files/up.php 2 -
+//assets/admin/ckeditor/kcfinder/upload.php 2 -
+/_404.php 1 -
+/modules/attributewizardpro/file_uploads/root.php 1 -
+/d7.php 1 -
+/wp-content/uploads/jsspwned.php 4 -
+/ini.php 1 -
+/images/block/up.php 5 -
+/wp-content/plugins/downloads-manager/upload/jsspwned.php 2 -
+//tinymce/plugins/imgsurfer/main.php 5 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/xWarning.php 2 -
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 2 -
+/rss/order/new/ 1 -
+/cracker.php 1 -
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/editor/plugins/filemanager/inc/data.php 2 -
+/images/DZ.php 1 -
+/indo.php 1 -
+/modules/1attributewizardpro/file_upload.php 1 -
+/dz1.php 1 -
+/mini.php 1 -
+/no.php 1 -
+//images/xxx.php 4 www.jsmeventservices.com
+//default_component.php 1 -
+/panel/ 1 -
+//admin/images/cal_date_over.gif 11 -
+/modules/attributewizardpro.OLD/file_upload.php 1 -
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+/Symlink.php 1 -
+/wp-content/uploads/wysija/themes/Master/un.php 1 -
+/1337.php 1 -
+//configurationbak.php.suspected 4 www.jsmeventservices.com
+/ajax/api/hook/decodeArguments 3 -
+/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/wordpress/wp-includes/wlwmanifest.xml 68 -
+/old/ 1 -
+//cache/news.php 4 www.jsmeventservices.com
+/modules/cartabandonmentproOld/upload.php 1 -
+/rss.php 1 -
+/ess.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 18 -
+/tmp/dz1.php 1 -
+/modules/fieldvmegamenu/uploads/root.php 1 -
+/administrator/manifests/files/joomla.xml 4 -
+//phpMyAdmin 1 -
+//pma 1 -
+/wp-content/themes/pindol/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/911.php 1 -
+/wp-content/plugins/wp-property/third-party/uploadify/jsspwned.php 2 -
+//robot.php 4 www.jsmeventservices.com
+/modules/fieldvmegamenu/ajax/upload.php 1 -
+/wp-content/themes/satoshi/upload-file.php 2 -
+/wp-content/plugins/showbiz/temp/update_extract/jsspwned.php 2 -
+//admin/login.php 11 -
+/com_sexycontactform/fileupload/index.php 2 -
+/cocot.php 1 -
+/administrator/templates/hathor/index.php 6 -
+/1337w0rm.php 1 -
+/baba.php 1 -
+/good.php 1 -
+/idx.php 1 -
+//wp-data.php 4 www.jsmeventservices.com
+/00.php 1 -
+/assets/ckeditor/kcfinder/upload.php 7 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 2 -
+/ff.php 1 -
+/joomla/administrator/index.php 9 -
+/3.php 1 -
+/xx1.php 1 -
+/hhh.php 1 -
+/modules/cartabandonmentpro/uploads/root.php 1 -
+/wp-content/plugins/ppus/up.php 7 -
+/pdf/ 6 -
+/modules/homepageadvertise/slides/root.php 1 -
+/rxr.php 9 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__uhiof.php 1 -
+/1.php 2 -
+/wp-content/uploads/product_files/jsspwned.php 2 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 5 -
+/wp/ 19 -
+/bbb.php 1 -
+/wp-content/plugins/wpstorecart/php/upload.php 2 -
+/modules/pk_vertflexmenu/ajax/upload.php 1 -
+/wp 1 http://jsmeventservices.com/wp
+/ckeditor/kcfinder/upload/files/priv.php.jd 2 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 2 -
+/6.php 1 -
+/zz.php 1 -
+/templates/beez3/index.php 6 -
+/templates/beez/index.php 6 -
+/help.php 1 -
+/j.php 1 -
+/x0.php 1 -
+//modules/mod_simplefileuploadv1.3/elements/udd.php 2 http://www.jsmeventservices.com//modules/mod_simplefileuploadv1.3/elements/udd.php
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 5 -
+/admin/editor/plugins/filemanager/inc/izo.php 2 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 4 -
+/wawa.php 1 -
+/nn.php 1 -
+/leaf3.php 1 -
+/msss.php 1 -
+//kcfinder-2.51/upload/files/up.php.jd 2 -
+//assets/js/mylibs/kcfinder/upload/files/up.php.jd 2 -
+/simulasi.php 1 -
+/wp-content/upgrade/404.php 1 -
+//wp-content/plugins/wpfootes.php 4 www.jsmeventservices.com
+/wp-content/themes/andre/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/web_xml.php 1 -
+/server/php/files/ddd.php 2 -
+/big.php 1 -
+/theme.php 1 -
+/images/php_ini.php 1 -
+/gallery/ 6 -
+/sym.php 1 -
+/util/login.aspx 1 -
+/assets/uploadify/old/uploadify.php 2 -
+/wp-admin/user/user-new.php 1 -
+/wsos.php 1 -
+/modules/advancedslider/uploads/root.php 1 -
+/leafmailer.php 1 -
+/assets/admin/ckeditor/kcfinder/upload.php 7 -
+/wp-content/files_mf/jsspwned.php 2 -
+/modules/jro_homepageadvertise/slides/root.php 1 -
+/images/wp.php 1 -
+/wp-contacts.php 1 -
+/sc.php 1 -
+//tmp/guide.php 2 -
+/modules/realty/evogallery2/uploadimage.php 1 -
+/wp-content/plugins/barclaycart/uploadify/jsspwned.php 2 -
+/newrs.php 1 -
+//adminside/server/php/ 7 -
+/wp-content/plugins/ppus/suram.php 1 -
+/libraries/jscripts/kcfinder/upload/files/priv.php.jd 2 -
+/wp-includes/setup.php 1 -
+/tpl/plugins/upload9.1.0/server/php/up.php 5 -
+/admin.php 2 -
+/ALFA-SHELL-V3.php 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 2 -
+/bb.php 1 -
+//images/google-assist.php 4 www.jsmeventservices.com
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+/cw.php 1 -
+/as.php 1 -
+/uploader.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/YDRaKX.php 1 -
+//feal.php 1 -
+/cp.php 2 -
+/admin/js/tinymce/plugins/imgsurfer/imglist.php 2 -
+/web/wp-includes/wlwmanifest.xml 5 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/com_sexycontactform/fileupload/files/xWarning.php 2 -
+/vuln.php 1 -
+//ajax/api/hook/decodeArguments 5 -
+/vehiculo_photos/server/php/ 7 -
+/killer.php 2 -
+/wp-content/plugins/apikey/apikey.php 1 -
+/ww3.php 1 -
+/p.php 1 -
+//robots.txt.php 4 www.jsmeventservices.com
+/tooler.php 1 -
+/wp-content/themes/multimedia1/server/php/files/jsspwned.php 2 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-deep-gray/designit/cs/upload.php 2 -
+//elements.php 4 www.jsmeventservices.com
+/log.php 1 -
+/modules/realty/include/uploadimage.php 1 -
+/Sh3ll.php 1 -
+/ee.php 1 -
+//al277.php 4 www.jsmeventservices.com
+/alf2.php 1 -
+/000.php 1 -
+//images/block/up.php 2 -
+/iindex.php 1 -
+/wp-content/plugins/zen-mobile-app-native/server/images.php 2 -
+/tmp/mad.php 1 -
+/wp-content/themes/satoshi/functions/upload-handler.php 2 -
+//admin/libraries/ajaxfilemanager/ajax_create_folder.php 5 -
+//application/configs/application.ini 2 -
+/sd.php 1 -
+/o.php 1 -
+/wp-content/plugins/mobile-app-builder-by-wappress/jsspwned.php 2 -
+/tinymce/js/tinymce/plugins/imgsurfer/imglist.php 2 -
+/admin1.php 1 -
+//administrator/dbconfig.php 4 www.jsmeventservices.com
+/administrator/components/com_rokdownloads/assets/uploadhandler.php 1 -
+/ks.php 1 -
+/ox.php 1 -
+/upload.php 19 -
+/wp-content/plugins/vr-seo/up.php 1 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 2 -
+/xxx.php 1 -
+/modules/columnadverts2/uploadimage.php 1 -
+/a9.php 1 -
+/images/guide.php 1 -
+/templates/ja_purity/index.php 6 -
+/2017/wp-includes/wlwmanifest.xml 3 -
+/worot.php 1 -
+/azshell.php 1 -
+/GreenPxOK.php 1 -
+/web/image/Images/ddd.php 2 -
+/wp-content/uploads/settingsimages/2019/10/en/jsspwned.php 50 -
+/h4xor.php 1 -
+/images/X.php 1 -
+/administrator/templates/isis/index.php 6 -
+/modules/simpleslideshow/uploadimage.php 1 -
+/madspot.php 1 -
+/mail.php 1 -
+/px.php 1 -
+/tmp/uploads.php 1 -
+/aaa.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads/jsspwned.php 2 -
+/12.php 1 -
+/editor/plugins/filemanager/inc/izo.php 2 -
+/WSO.php 1 -
+/components/com_jbcatalog/libraries/jsupload/ 3 -
+/shop/wp-includes/wlwmanifest.xml 5 -
+/king.php 1 -
+/images/block/ddd.php 2 -
+/templates/beez3/error.php 6 -
+//sites/all/libraries/elfinder/php/connector.minimal.php 2 http://www.jsmeventservices.com//sites/all/libraries/elfinder/php/connector.minimal.php
+/media/kunena/avatars/resized/size72/ex_liner.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/settings_auto.php 2 -
+/xai.php 1 -
+//news.php 4 www.jsmeventservices.com
+/wp-content/uploads/2018/03/xWarning.php 4 -
+/tt.php 1 -
+/prv.php 1 -
+/wso404.php 1 -
+/wp-content/uploads/wysija/themes/v5wysija/jsspwned.php 2 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload/jsspwned.php 4 -
+/components/RxR_1572010533.php 1 -
+/wp-includes/SimplePie/xsef.php 1 -
+/404.php 2 -
+/modules/orderfiles/ajax/upload.php 1 -
+//uploadify/uploadify.php 2 http://www.jsmeventservices.com//uploadify/uploadify.php
+/components/com_foxcontact/mrpatate.php 1 -
+//admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/wordpress/wp-content/plugins/css-ready-seled/file.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ddd.php 2 -
+/oo.php 1 -
+/wp-content/plugins/widget-logic/mini.php 6 -
+//x.php 2 -
+//wp-content/upgrade/theme-compat/popup-pomo.php 3 -
+/ccp.php 1 -
+//images/logo_img.php 2 -
+/produtos.php 1 -
+/q.php 1 -
+/jj.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 2 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/templates/system/error.php 6 -
+/xleet.php 1 -
+//Jijle3.php 1 -
+/assets/ckeditor/kcfinder/upload/files/priv.php.jd 2 -
+/0x.php 1 -
+/wp-content/themes/beach_apollo/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+//js/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/k.php 1 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/jsspwned.php 4 -
+/qq.php 1 -
+/0.php 1 -
+/7.php 1 -
+//libraries/respectMuslims.php 2 -
+/images/test.php 1 -
+/catalog/view/indess.php 1 jsmeventservices.com
+/wp-update.php 1 -
+/zone-h.php 1 -
+/wp-content/plugins/wp-simple-cart/request/simple-cart-upload.php 2 -
+/img/ 6 -
+/wso24.php 1 -
+/wp-content/plugins/ubh/o.php 1 -
+//umapresence/umaservices/umapage/inc/contentCss.php 5 -
+/wp-content/bsn.php 1 -
+//administrator/webconfig.txt.php 4 www.jsmeventservices.com
+//tmp/petx.php 2 -
+/blog/administrator/index.php 9 -
+/rdpl.php 1 -
+/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+/wp-admin/ 2 -
+/uploads.php 1 -
+/language/en-GB/en-GB.xml 9 -
+//error-log.php 4 www.jsmeventservices.com
+//images/upxx.php 2 -
+/wp-content/w.php 1 -
+/joomla/robots.txt 10 -
+/bypass.php 1 -
+/c22.php 1 -
+/vvv.php 1 -
+/gg.php 1 -
+/null.php 1 -
+/weak.php 1 -
+/images/vuln.php 7 -
+/components/com_foxcontact/home.php 1 -
+/xupe.php 1 -
+/modules/soopamobile2/uploadimage.php 1 -
+/ande.php 1 -
+/modules/pk_flexmenu/ajax/upload.php 3 -
+/wp-content/plugins/upspy/sllolx.php 1 -
+/base.php 1 -
+/admin2.asp 1 -
+/public/js/plugins/imgsurfer/imglist.php 1 -
+/media/editor/plugins/filemanager/inc/data.php 2 -
+/public/upload_nhieuanh/server/php/files/up.php 5 -
+/wp-content/plugins/ubh/shell.php 1 -
+/send.php 1 -
+/dick.php 1 -
+/upload/ 6 -
+/modules/vtermslideshow/uploadimage.php 1 -
+/Server.php 1 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+//images/xxu.php 2 -
+/admin/ 6 -
+/js.php 1 -
+/images/up.php 1 -
+//sites/all/libraries/elfinder/files/AT6Vbj.php 1 -
+/wp.php 3 -
+/indx.php 1 -
+/tmp/upload.php 1 -
+//vehiculo_photos/server/php/ 2 -
+/admin/images/cal_date_over.gif 16 -
+//tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+//bgeiis.php 4 www.jsmeventservices.com
+/website/wp-includes/wlwmanifest.xml 5 -
+/rss/catalog/notifystock/ 1 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-black/designit/cs/upload.php 1 -
+/ww.php 1 -
+/wp-content/uploads/2018/08/shell.php 1 -
+/media/xWarning.php 2 -
+/editor/plugins/filemanager/ajax_create_folder.php 3 -
+//web/image/Images/up.php 2 -
+/SSS.php 1 -
+/userfiles/file/spy.txt 1 -
+/k2.php 1 -
+/images/cp.php 1 -
+/wp-content/plugins/woocommerce-products-filter/lib/simple-ajax-uploader/root.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/RxR__qflda.php 1 -
+/modules/modules/modules.php 6 -
+/cp/ 1 -
+/lfishell.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/files/xWarning.php 2 -
+/123.php 1 -
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.php 1 -
+/wp-content/themes/twentynineteen/content-post.php 1 -
+/id.php 1 -
+//infos.php 4 www.jsmeventservices.com
+//u.php 2 -
+/wp-content/jsspwned.php 2 -
+//sqlbak.php 4 www.jsmeventservices.com
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 4 -
+/tbshell.php 1 -
+/mb.php 1 -
+/wp-content/plugins/social-networking-e-commerce-1/images/uploads/jsspwned.php 2 -
+/wp-content/plugins/vr-seo/wp-2017.php 1 -
+/wp-content/plugins/contus-video-galleryversion-10/jsspwned.php 2 -
+/dz0.php 1 -
+/wp-content/uploads/uigen_2015/jsspwned.php 2 -
+/images/stories/w.php 1 -
+/kcfinder-2.51/upload/files/up.php.jd 5 -
+//README.txt 2 -
+/xup.php 1 -
+/wp13.php 1 -
+/web.php 1 -
+/modules/filesupload/root.php 1 -
+/images/2.php 1 -
+/a.php 2 -
+/admin/ckeditor/kcfinder/upload.php 7 -
+/fun.php 1 -
+/wp-mas.php 2 -
+/info.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/uploads/jsspwned.php 4 -
+/ii.php 1 -
+/wp-content/themes/cubed_v1.2/functions/upload-handler.php 2 -
+/wp-content/plugins/upspy/lama.php 1 -
+/webr00tv3.php 1 -
+/fuck.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/wp/wp-includes/wlwmanifest.xml 67 -
+/modules/psmodthemeoptionpanel/upload/root.php 1 -
+//cache/cachee.php 4 www.jsmeventservices.com
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 7 -
+//js/ckeditor/kcfinder/upload.php 2 -
+/XxX.php 7 -
+/wp-admin/network/wp-footer.php 6 -
+/lama.php 1 -
+/y.php 1 -
+/templates/system/index.php 6 -
+/kk.php 1 -
+/modules/videostab/ajax_videostab.php 1 -
+/js/tinymce/plugins/imgsurfer/imglist.php 2 -
+/modules/wg24themeadministration/wg24_ajax.php 1 -
+//bookmark.php 4 www.jsmeventservices.com
+//media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+//wp-content/uploads/AT6Vbj.php 1 -
+/modules/videostab/uploads/root.php 1 -
+/wp12.php 1 -
+/wp-content/plugins/wp-simple-cart/files/$uploadfolder/temporary/jsspwned.php 2 -
+/jwallpapers_files/plupload/xWarning.php 2 -
+/images/gh.php 1 -
+/eror.php 1 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 5 -
+/wp-content/plugins/wp-manager/file.php 1 -
+//public/upload_nhieuanh/server/php/files/up.php 2 -
+/modules/homepageadvertise2/slides/root.php 1 -
+/admin/webroot/cache/59725b922cb18ad815fffe5446463048.php 1 -
+/user/ 1 -
+/wp-time.php 1 -
+/wp-content/uploads/2019/07/rsx.php 1 -
+/wp-content/plugins/xichang/x.php 6 -
+/adminpanel/ 1 -
+/adminside/server/php/ 10 -
+/modules/soopamobile/slides/root.php 1 -
+/sok.php 1 -
+/images/1.php 1 -
+//CHANGELOG.txt 2 -
+/a 2 -
+/tpl/plugins/upload9.1.0/server/php/ 21 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/jsspwned.php 2 -
+/alf.php 1 -
+/wp-content/logs.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 5 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 6 -
+/wp-includes/wp-inc.php 1 -
+/shellwow.php 1 -
+/modules/resaleform/upload.php 1 -
+//functions.php 4 www.jsmeventservices.com
+/wp-content/plugins/ubh/up.php 1 -
+//administrator/includes/readmy.php 4 www.jsmeventservices.com
+//editor/plugins/filemanager/ajax_create_folder.php 5 -
+/web/image/upload.php 6 -
+/22.php 1 -
+/11.php 1 -
+/wp-content/plugins/disqus-comment-system/disqus.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/uploadify.php 3 -
+/database.php 2 -
+//SessionController.php 4 www.jsmeventservices.com
+/wp-content/themes/ultimatum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/wp-content/plugins/upspy/lux.php 1 -
+/wp-admin/setup-config.php 9 -
+/images/stories/xWarning.php 2 -
+/cpcrack.php 1 -
+//server/php 5 -
+/README.txt 2 -
+/wp-admin/admin-post.php 7 -
+/u.php 1 -
+/s2.php 1 -
+/modules/bamegamenu/ajax_phpcode.php 4 -
+/wp-content/uploads/2019/10/ 6 -
+/modules/cartabandonmentpro/upload.php 1 -
+//libraries/joomla/zipy.php 3 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/admin/js/tinymce/plugins/imgsurfer/main.php 2 -
+/modules/attributewizardpro_x/file_upload.php 1 -
+/wp-content/uploads/$year/$month/jsspwned.php 6 -
+/wp-content/plugins/wordpress-member-private-conversation/doupload.php 4 -
+/images/f.php 1 -
+/az.php 1 -
+//libraries/joomla/web.php 2 -
+//images/404.php 4 www.jsmeventservices.com
+/leaf.php 1 -
+/components/com_foxcontact/fx.php 1 -
+//wp-content/uploads/assignments/Raiz0_1569929176.php. 1 -
+//wp-installation.php 2 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+/s.php 1 -
+/anonymous.php 1 -
+//modules/mod_simplefileuploadv1.3/elements/AT6Vbj.php 1 -
+/wp-admin/admin.php 5 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/modules/realty/evogallery/slides/root.php 1 -
+/templates/beez_20/error.php 6 -
+// 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+//wp-configuration.php 2 -
+/wp-content/plugins/upspy/index.php 6 -
+/assets/js/mylibs/kcfinder/upload.php 7 -
+/default.php 1 -
+/images/m.php 1 -
+/wp-content/plugins/zen-mobile-app-native/jsspwned.php 2 -
+/images/wso.php 1 -
+/blog/ 19 -
+//xup.php 1 -
+/modules/columnadverts/slides/root.php 1 -
+/webr00t.php 1 -
+/modules/pk_vertflexmenu/uploads/root.php 1 -
+/wp-content/plugins/pitchprint/uploader/files/jsspwned.php 2 -
+/server/php 3 -
+/403.php 1 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 2 -
+/gino/awso.php 1 -
+/cpbrute.php 1 -
+/modules/megaproduct/root.php 1 -
+/2.php 2 -
+/wp-content/plugins/upspy/f.php 1 -
+/modules/soopamobile2/uploadproduct.php 1 -
+//YDRaKX.php 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/jmx.php 1 -
+/modules/columnadverts/uploadimage.php 1 -
+//cli/40dd1d.php 4 www.jsmeventservices.com
+/wp-includes/wlwmanifest.xml 67 -
+//ws0.php 2 -
+//modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 2 -
+/templates/atomic/error.php 6 -
+/wordpress/ 19 -
+/Marvins.php 7 -
+/tbmailer.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/modules/vtemskitter/uploadimage.php 1 -
+/upload/root.php 1 -
+/spyshell.php 1 -
+//includes/u2p.php 4 www.jsmeventservices.com
+/xmlrpc.php 31 -
+//libraries/jscripts/kcfinder/upload/files/up.php.jd 2 -
+/wp-content/plugins/membership-simplified-for-oap-members-only/download.php 2 -
+/modules/psmodthemeoptionpanel/psmodthemeoptionpanel_ajax.php 1 -
+/olux.php 18 -
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 2 -
+/uu.php 1 -
+//active.php 2 -
+//license.txt 2 -
+//mide.php 2 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 4 -
+/assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 2 -
+/tmp/up.php 1 -
+/modules/vtemslideshow/uploadimage.php 1 -
+/user.ini.php 1 -
+/xp.php 1 -
+/modules/filesupload/upload.php 1 -
+/xWarning.php 4 -
+/admin/login.php 17 -
+/modules/soopabanners/uploadimage.php 1 -
+/wp-content/uploads/headway/header-uploads//jsspwned.php 2 -
+/list.php 1 -
+/I.php 1 -
+/cfg.php 1 -
+/admin/libraries/ajaxfilemanager/inc/izo.php 2 -
+/wp-content/plugins/ubh/shelll.php 1 -
+/modules/tdpsthemeoptionpanel/upload/root.php 1 -
+/wp-content/themes/dance-studio/core/libs/imperavi/tests/file_upload.php 2 -
+/wp-content/uploads/wpstorecart/jsspwned.php 2 -
+/ss.php 1 -
+/ws0.php 1 -
+/news/wp-includes/wlwmanifest.xml 5 -
+/blog/wp-includes/wlwmanifest.xml 68 -
+/098.php 6 -
+/lol.php 1 -
+//sites/all/libraries/elfinder/files/YDRaKX.php 1 -
+//app/webroot/js/tinymce/plugins/imgsurfer/main.php 5 -
+/blog 1 http://jsmeventservices.com/blog
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-white/designit/cs/uploadImage/$uploadfolder/jsspwned.php 2 -
+/error.php 7 -
+/modules/mod_banners/tmpl/defult.php 1 -
+/cfg-contactform-1/inc/upload.php 3 -
+/cPanelCracker.php 1 -
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/wp-content/themes/library/visual-editor/lib/upload-header.php 2 -
+//kk.php 1 -
+//images/w0rm.php 1 -
+/root.php 3 -
+/wp-content/plugins/upspy/leafn.php 1 -
+/h.php 1 -
+/images/k.php 1 -
+/components/RxR_1571582414.php 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/administrator/components/com_config/models/0x.php 1 -
+//tmp.php 8 www.jsmeventservices.com
+/modules/1attributewizardpro/file_uploads/root.php 1 -
+/wp-includes/cm3.php 1 -
+/hx.php 1 -
+/modules/mod_simplefileupload.3/elements/xWarning.php 2 -
+//modules/mod_simplefileuploadv1.3/elements/YDRaKX.php 1 -
+/AndroidFileUpload/fileUpload.php 6 -
+/modules/attributewizardpro/file_upload.php 1 -
+//media/css.php 2 -
+/downloads/dom.php 1 -
+//logs.asp 4 www.jsmeventservices.com
+/awso.php 1 -
+/modules/productpageadverts/slides/root.php 1 -
+/cgi.php 1 -
+/images/WSO.php 1 -
+/server/php/ 7 -
+//web/image/upload.php 2 -
+/dr.php 1 -
+/modules/pk_flexmenu_old/uploads/root.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/field_upload.php 2 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 1 -
+/wp-add.php 1 -
+/proshell.php 1 -
+//vehiculo_photos/server/php/files/up.php 2 -
+/fozi.php 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 5 -
+/orvx.php 1 -
+/user.php 2 -
+/q1.php 1 -
+/r00t.php 2 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 2 -
+/rsx.php 1 -
+/img/index.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 4 -
+/wpmass.php 1 -
+/vendor_extra/elfinder/php/connector.minimal.php 3 -
+//ldskflks 3 -
+/administrator/templates/hathor/error.php 6 -
+/hacked.php 2 -
+/rox.php 1 -
+/wp-content/plugins/upspy/ms.php 1 -
+/hh.php 1 -
+/public/upload_nhieuanh/server/php/files/ddd.php 2 -
+//assets/global/plugins/jquery-file-upload/server/php/ 7 -
+/2018/wp-includes/wlwmanifest.xml 6 -
+/docs/ 6 -
+/modules/attributewizardpro.OLD/file_uploads/root.php 1 -
+/modules/homepageadvertise2/uploadimage.php 1 -
+/img.php 1 -
+/saa.php 1 -
+//wsdl.php 4 www.jsmeventservices.com
+/idiot.php 1 -
+/admin/index.php 1 -
+/wp-admin/m4d.php 1 -
+/dir.php 1 -
+//site/tmp/cTivrC.php 4 www.jsmeventservices.com
+/logo_img.php 1 -
+//fckeditor/editor/filemanager/connectors/php/connector.php 2 -
+/z.php 1 -
+/wp-content/plugins/ppus/ns.php 1 -
+/ficheiros/conteudos/spy.txt 1 -
+//wp-content/plugins/SocketIasrgasfontrol.php 4 www.jsmeventservices.com
+/up2.php 1 -
+/images/admin.php 1 -
+/tpl/plugins/upload9.1.0/server/php/files/ddd.php 2 -
+/v3.php 1 -
+/configuration.php 1 -
+/noname.php 1 -
+/templates/protostar/index.php 6 -
+//themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 2 -
+/shells/b374k.php 1 -
+/modules/megaproduct/ 1 -
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 2 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 1 -
+/scripts/jquery/kcfinder/upload/files/priv.php.jd 2 -
+/wp-content/themes/konzept/includes/uploadify/uploads/jsspwned.php 2 -
+/modules/soopamobile2/slides/root.php 2 -
+//infusions/mp3player_panel/upload.php 5 -
+/wp-includes/css/modules.php 6 -
+//userfiles/file/spy.txt 2 -
+/wp-content/plugins/upspy/orvx.php 1 -
+/wp-content/plugins/dzs-videowhisper/upload/jsspwned.php 2 -
+/wp-content/_input_3_raiz0.php5 1 -
+/mm.php 1 -
+/modules/realty/include/slides/root.php 1 -
+/includes/up.php 1 -
+//wp-content/plugins/Analyser.php 4 www.jsmeventservices.com
+/modules/mod_simplefileupload.3/elements/udd.php 2 -
+/readme.php 1 -
+/wp-config-backup.php 1 -
+/wp-waf.php 1 -
+/favicon.php 1 -
+/_admin/files/upload/server/php/ 2 -
+/modules/jro_homepageadvertise2/slides/root.php 1 -
+/modules/pk_flexmenu/uploads/root.php 1 -
+/admin/editor/plugins/filemanager/inc/data.php 2 -
+/modules/vtermslideshow/slides/root.php 1 -
+//goog1es.php 4 www.jsmeventservices.com
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/wp-content/plugins/html404/index.html 6 -
+//assets/uploadify/old/uploadify.php 5 -
+/db.php 1 -
+/templates/system/css/system.css 11 -
+/backup.php 1 -
+/ok.php 1 -
+//administrator/manifests/files/joomla.xml 1 -
+/blog/robots.txt 27 -
+/zx.php 1 -
+/_admin/files/upload/server/php/files/ddd.php 2 -
+/components/Raiz0WorM_1570455353.php 1 -
+/v5.php 1 -
+/wp-content/themes/pinboard/uploads/jsspwned.php 2 -
+/modules/soopabanners/slides/root.php 1 -
+/modules/jro_homepageadvertise/uploadimage.php 1 -
+/p8.php 1 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 5 -
+/administrator/templates/isis/error.php 6 -
+/modules/leosliderlayer/upload_images.php 1 -
+/X.php 1 -
+/components/com_b2jcontact/izoc.php 6 -
+/5.php 1 -
+/magento_version 1 -
+/forbiddens.php 1 -
+/x3.php 1 -
+/wp-content/themes/MoneyTheme/uploads/upload.php 2 -
+/i.php 1 -
+/uploads/ 6 -
+/cfgsi.php 1 -
+/images/upload.php 1 -
+/scripts/jquery/kcfinder/upload.php 7 -
+/wp-content/_input_3_xWarning.phtml 2 -
+//log.php 4 www.jsmeventservices.com
+/wp-upgrade.php 1 -
+/home.php 1 -
+/aa.php 1 -
+//tmp/pz.php 2 -
+/wp-content/plugins/vr-seo/vr.php 1 -
+/modules/realty/evogallery/uploadimage.php 1 -
+/administrator/index.php 14 -
+/indoxploit.php 24 -
+/assets/tinymce/plugins/imgsurfer/main.php 5 -
+/gino/k.php 1 -
+/mailer.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/jsspwned.php 4 -
+/wp-content/plugins/revslider/temp/update_extract/RxR__qflda.php 1 -
+/c.php 1 -
+/why.php 1 -
+/symsa2.php 1 -
+/tinymce/plugins/imgsurfer/main.php 5 -
+/wp-content/sloolx.php 1 -
+/wp-content/bees.php 1 -
+//images/1ndex.php 4 www.jsmeventservices.com
+/f.php 1 -
+//images/head.php 4 www.jsmeventservices.com
+//images/laj.php 4 www.jsmeventservices.com
+/GreenS.php 1 -
+/helpdesk/media/editor/plugins/filemanager/inc/data.php 2 -
+/login/ 1 -
+/ckeditor/kcfinder/upload.php 7 -
+/confiq.php 1 -
+/files/uploadify/uploadify.php 2 -
+/wp-login.php 9 -
+/wp-content/plugins/ubh/uplo.php 1 -
+/smtp.php 1 -
+/modules/orderfiles/files/root.php 1 -
+//email.php 4 www.jsmeventservices.com
+/wp-content/uploads/2019/10/jsspwned.php 4 -
+/wp-content/plugins/radykal-fancy-gallery/admin/image-upload.php 2 -
+/config.php 1 -
+/tmp/vuln.php 6 -
+//tpl/plugins/upload9.1.0/server/php/ 6 -
+/js2.php 1 -
+//r3x.php 4 www.jsmeventservices.com
+/admin 5 -
+/wp-content/plugins/spirit-templates/up.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 2 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/modules/vtemskitter/img/root.php 1 -
+/tinymce/js/tinymce/plugins/imgsurfer/main.php 2 -
+/ls.php 1 -
+/modules/vtemslideshow/slides/root.php 1 -
+/g.php 1 -
+/anu.php 1 -
+/wp-content/uploads/2017/06/20170623054016_bcc.php 1 -
+//tmp/sfx.php 2 -
+/assets/tinymce/plugins/imgsurfer/imglist.php 2 -
+/kcfinder-2.51/upload.php 7 -
+/privmailer.php 1 -
+/images/Sym.php 1 -
+/wp-content/themes/MoneyTheme/uploads/uploads/jsspwned.php 2 -
+//wp-support.php 1 -
+/ssl.php 1 -
+/images/ini.php 1 -
+/wp-json/wp/v2/users/ 1 -
+//go.php 1 -
+/images/ww.php 1 -
+/mini.phtml 1 -
+//nktt.php 2 -
+/405.php 1 -
+/wso.php 20 -
+//public/js/plugins/imgsurfer/main.php 5 -
+/images/cpanel.php 1 -
+//helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/gaza.php 2 -
+//cv.php 1 -
+/tool.php 1 -
+//wp-content/uploads/Fbrrchive.php 4 www.jsmeventservices.com
+/cv.php 1 -
+/index.php/admin 1 -
+/application/configs/application.ini 6 -
+/wp-content/plugins/webapp-builder/server/images.php 2 -
+/0day.php 1 -
+//show.php 4 www.jsmeventservices.com
+/un.php 1 -
+/modules/leosliderlayer/slides/root.php 2 -
+/wp2/wp-includes/wlwmanifest.xml 6 -
+/imdex.php 1 -
+/new/ 1 -
+//thumb.php 4 www.jsmeventservices.com
+/c100.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 7 -
+//assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/test/ 1 -
+//wp-content/plugins/revslider/temp/update_extract/AT6Vbj.php 1 -
+/9.php 1 -
+/tmp/1.php 1 -
+/media/editor/plugins/filemanager/inc/izo.php 2 -
+/inbox.php 1 -
+//license.php 2 -
+/py.php 1 -
+//includes.php 4 www.jsmeventservices.com
+/wp-content/plugins/vcrm/Z586.php 1 -
+/1234.php 1 -
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__vtrci.php 1 -
+//phpmyadmin 1 -
+/templates/protostar/error.php 6 -
+/helpdesk/media/editor/plugins/filemanager/inc/izo.php 2 -
+//cache/defau1t.php 4 www.jsmeventservices.com
+/ 108 -
+/admin/editor/plugins/ajaxfilemanager/inc/data.php 2 -
+//wp-content/plugins/wp-cache.php 4 www.jsmeventservices.com
+//assets/js/mylibs/kcfinder/upload.php 2 -
+/priv8.php 2 -
+//AT6Vbj.php 1 -
+//wp-content/plugins/myshe.php 4 www.jsmeventservices.com
+/wp-content/plugins/wp-mobile-detector/resize.php 2 -
+/templates/beez5/error.php 6 -
+/media/wp-includes/wlwmanifest.xml 6 -
+//administrator/administrator.php 4 www.jsmeventservices.com
+/wp-includes/SimplePie/Canonical.php 1 -
+//sql_dump.php 4 www.jsmeventservices.com
+/cfq.php 1 -
+/whmcskiller.php 1 -
+/xaishell.php 1 -
+//files/uploadify/uploadify.php 5 -
+/templates/beez_20/index.php 6 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/AndroidFileUpload/uploads/ddd.php 2 -
+/shell.php 29 -
+/modules/leosliderlayer/uploadimage.php 1 -
+/webadmin/ 2 -
+/modules/additionalproductstabs/file_upload.php 1 -
+/xd.php 2 -
+//wp-content/plugins/SocketIontrol.php 4 www.jsmeventservices.com
+/modules/megamenu/uploadify/xWarning.php 2 -
+/components/com_sexycontactform/fileupload/ 1 -
+/lean.php 1 -
+/b374k.php 2 -
+/assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 2 -
+/wp-includes/wolfm.php 1 -
+/r.php 1 -
+/e.php 1 -
+//components/Raiz0WorM_1569929176.php 1 -
+/admin/editor/plugins/filemanager/ajax_create_folder.php 2 -
+/wordpress/wp-admin/install.php 2 -
+/modules/soopamobile/uploadimage.php 1 -
+/d00.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 5 -
+//wp-content/plugins/sql_dump.php 4 www.jsmeventservices.com
+/prv8.php 1 -
+//images/p.php 1 -
+/wso26.php 1 -
+//webconfig.txt.php.suspected 4 www.jsmeventservices.com
+/wp/wp-admin/install.php 2 -
+/templates/ja-helio-farsi/index.php 1 -
+//wp-cache.php 4 www.jsmeventservices.com
+//assets/uploadify/uploadify.php 5 -
+/modules/pk_flexmenu_old/ajax/upload.php 1 -
+/feal.php 1 -
+/pp.php 1 -
+/wp-content/uploads/user_uploads/test/jsspwned.php 4 -
+/wp-2018.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/jsspwned.php 2 -
+/mad.php 1 -
+//wp-content/plugins/wp-plugins.php 1 -
+//admin/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/8.php 1 -
+/js/tinymce/plugins/imgsurfer/main.php 2 -
+/administrator/components/com_bt_portfolio/xWarning.php 1 -
+/scan.php 1 -
+/azzoulshell.php 1 -
+/install.php 1 -
+//media/1ndex.php 4 www.jsmeventservices.com
+/wp-admin/admin-ajax.php 17 -
+/xz.php 1 -
+/.well-known/ZoneDNS.php 1 -
+//wp-main.php 4 www.jsmeventservices.com
+/dashboard.php 1 -
+//scripts/jquery/kcfinder/upload/files/up.php.jd 2 -
+/V3.php 6 -
+/temp1-1.php 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+//ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/sado.php 1 -
+/ler.php 1 -
+//tmp/upxx.php 2 -
+/wp-log.php 1 -
+/md.php 1 -
+/c9.php 1 -
+/wp-content/uploads/wpmp-previews/jsspwned.php 2 -
+/settings.php 1 -
+//css.php 2 -
+/phpmailer.php 1 -
+//ficheiros/conteudos/spy.txt 2 -
+/cpn.php 2 -
+/4.php 1 -
+/wp-content/plugins/asset-manager/upload.php 1 -
+/sito/wp-includes/wlwmanifest.xml 6 -
+//media/404.php 4 www.jsmeventservices.com
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/jsspwned.php 2 -
+/components/com_hdflvplayer/hdflvplayer/download.php 3 -
+/app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 2 -
+//media/reads.php 4 www.jsmeventservices.com
+//media/tmp.php 4 www.jsmeventservices.com
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/d.php 2 -
+/test.php 1 -
+//zebda.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+//vendor/phpunit/phpunit/src/Util/PHP/king.php 1 -
+//webconfig.txt.php 4 www.jsmeventservices.com
+/madspotshell.php 1 -
+/wp-con.php 1 -
+/templates/atomic/html/lndex.php 1 -
+/test/wp-includes/wlwmanifest.xml 6 -
+/abc.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__vtrci.php 1 -
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+//cache/support.php 4 www.jsmeventservices.com
+/tinymce/plugins/imgsurfer/imglist.php 2 -
+//wp-content/plugins/Fbrrchive.php 4 www.jsmeventservices.com
+/roots.php 1 -
+/modules/megamenu/uploadify/uploadify.php 2 -
+/wp-content/themes/medicate/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/wp-content/uploads/2018/01/Raiz0__uhiof.php 1 -
+/modules/wg24themeadministration/img/upload/root.php 1 -
+//E.php 1 -
+//jconfig.php 4 www.jsmeventservices.com
+/user/login 10 -
+/assets/uploadify/uploadify.php 3 -
+/modules/attributewizardpro_x/file_uploads/root.php 1 -
+/wp-content/plugins/dzs-videowhisper/upload.php 2 -
+/wp-content/plugins/lb-mixed-slideshow/gallery/1/jsspwned.php 2 -
+/xml.php 1 -
+//images/sym.php 2 -
+/wp-content/plugins/background-image-cropper/content-post.php 1 -
+/sender.php 1 -
+/wp-content/uploads/settingsimages/jsspwned.php 2 -
+/server/php/files/up.php 5 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 2 -
+/Uploader.php 1 -
+/libraries/joomla/css.php 6 -
+/assets/js/mylibs/kcfinder/upload/files/priv.php.jd 2 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 10 -
+/wp-signup.php 1 -
+/V5.php 12 -
+/themes/404/404.php 1 -
+/modules/pk_flexmenu/uploads/xWarning.php 2 -
+/wp-content/plugins/upspy/xleet.php 1 -
+/modules/404.php 1 -
+/wp-content/plugins/ubh/raw.php 1 -
+//authenticating.php 4 www.jsmeventservices.com
+/wp-content/xml.php 1 -
+/public/upload_nhieuanh/server/php/_index.php 10 -
+/angel.php 1 -
+/Sym.php 1 -
+//assets/tinymce/plugins/imgsurfer/main.php 5 -
+//AndroidFileUpload/fileUpload.php 2 -
+/libraries/joomla/jmails.php 6 -
+/wp-content/plugins/ppus/joom.php 1 -
+//images/upa.php 2 -
+/cpanel.php 2 -
+//up14.php 2 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/upload.php 1 -
+/dew.php 1 -
+//admin 1 -
+/templates/atomic/html/leaf3.php 1 -
+//hh.php 1 -
+/sh3ll.php 1 -
+/js/ckeditor/kcfinder/upload/files/priv.php.jd 2 -
+/t.php 1 -
+/libraries/imports.legacy.php 1 -
+/modules/additionalproductstabs/file_uploads/root.php 1 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php 5 -
+//cache/clean.php 2 -
+/wp-includes/cfgsi.php 1 -
+/system.php 2 -
+/modules/tdpsthemeoptionpanel/tdpsthemeoptionpanelAjax.php 1 -
+/sql.php 2 -
+//update.php 4 www.jsmeventservices.com
+/.well-known/tmp.php 1 -
+/mary.php 1 -
+//vendor_extra/elfinder/php/connector.minimal.php 5 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 4 -
+/w.php 3 -
+/images/c.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 4 -
+/raw.php 1 -
+//xmlsrpc.php 4 www.jsmeventservices.com
+//fckeditor/editor/filemanager/connectors/php/upload.php 8 -
+/l.php 1 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 5 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/hb.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 10 -
+/templates/beez5/index.php 7 -
+//wp-content/_input_3_raiz0.php5 1 -
+/vehiculo_photos/server/php/files/ddd.php 2 -
+/administrator/templates/bluestork/error.php 6 -
+/fckeditor/editor/filemanager/connectors/php/jsspwned.php 2 -
+//help.php 2 -
+/IndoXploit.php 1 -
+/images/ 6 -
+/login.php 1 -
+/wp-content/uploads/assignments/Raiz0_1570455353.php. 1 -
+/wp-content/themes/pinboard/themify/themify-ajax.php 2 -
+//m.php 2 -
+/components/com_banners/metadata.php 1 -
+/admin/editor/plugins/ajaxfilemanager/inc/izo.php 2 -
+/images/k2.php 1 -
+/templates/atomic/index.php 7 -
+//Abbrevsprl.php 4 www.jsmeventservices.com
+//dswat.org/wsdl.php 4 www.jsmeventservices.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 125
+13.90.201.180 18 18 545706 20191024223758
+185.81.157.137 18 18 319746 20191028001128
+51.89.171.236 14 14 108094 20191018155454
+188.165.56.102 12 12 363804 20191029022644
+40.87.125.220 12 12 363804 20191016105746
+163.172.203.77 9 9 272853 20191017234954
+149.28.64.147 8 8 242536 20191025115239
+41.230.157.20 8 8 61768 20191021115315
+167.71.110.235 6 6 181902 20191025105539
+217.61.56.65 6 6 181902 20191025044049
+3.16.48.8 6 6 181902 20191018175539
+185.81.157.112 6 6 91518 20191025140222
+100.35.75.170 6 18 257862 20191024230852
+51.36.232.230 6 6 46326 20191012201619
+144.202.94.161 6 6 181902 20191025012607
+14.139.243.114 6 42 1746599 20191019090120
+116.206.14.30 5 41 1732998 20191025060814
+51.77.129.159 5 41 1732998 20191019041232
+54.91.25.8 4 4 30884 20191020152736
+157.245.210.90 4 4 121268 20191014192500
+198.50.231.135 4 4 121268 20191007024710
+111.7.100.26 4 24 897377 20191029183238
+3.17.180.126 4 4 98672 20191023065548
+3.19.218.126 4 4 121268 20191019001913
+196.75.96.173 4 4 30884 20191007161314
+45.32.14.134 1 1 30317 20191002135721
+41.193.50.102 1 1 7721 20191002181136
+5.62.43.230 1 1 30317 20191006183056
+40.89.137.103 2 2 60634 20191021003726
+212.227.201.159 2 2 60634 20191026134949
+18.236.178.221 1 1 7721 20191008054131
+34.222.82.159 1 1 7721 20191010054853
+77.222.99.214 1 1 30317 20191028220331
+34.221.99.71 1 1 7721 20191002011441
+93.119.227.91 1 1 30317 20191002134450
+105.66.1.176 2 2 60634 20191022221721
+118.174.204.209 2 2 60634 20191022141526
+37.114.180.174 2 2 15442 20191008063501
+51.143.138.174 2 2 60634 20191020140917
+34.211.173.10 1 1 7721 20191018054728
+167.99.159.150 2 2 60634 20191021223921
+196.229.151.32 1 1 7721 20191020151035
+51.68.223.52 1 1 7721 20191012112049
+104.198.126.228 1 1 7721 20191028042237
+180.248.123.127 1 1 7721 20191008172244
+38.100.53.89 1 7 228062 20191009120915
+50.112.209.236 1 1 7721 20191011093729
+212.32.234.23 2 2 60634 20191004185353
+111.7.100.27 2 3 104997 20191029183238
+178.17.171.194 2 2 60634 20191006181825
+34.94.246.185 3 3 68355 20191002132603
+51.79.4.180 1 1 30317 20191001165053
+35.164.233.123 1 1 7721 20191005071043
+154.0.26.76 2 2 60634 20191001004510
+185.81.157.154 1 1 30317 20191030084139
+102.157.87.75 1 1 7721 20191016022602
+52.170.25.189 2 2 60634 20191026145155
+157.245.61.102 1 1 30317 20191014095230
+82.102.21.187 1 1 7721 20191011174832
+34.222.98.236 1 1 7721 20191025210432
+34.219.128.31 1 1 7721 20191025073311
+1.0.184.5 1 1 30317 20191011131843
+221.234.158.167 2 2 15442 20191026025426
+54.201.242.0 1 1 7721 20191002213506
+193.128.108.254 1 1 0 20191014041322
+5.188.62.5 1 1 7721 20191019011312
+54.39.245.135 2 2 15442 20191017115306
+154.0.26.85 3 3 90951 20191009061506
+216.145.11.94 2 2 15442 20191024070410
+111.7.100.24 2 16 769405 20191029183238
+37.59.75.130 3 3 90951 20191029065718
+18.229.142.165 1 1 7721 20191005063653
+110.36.216.10 2 7 257851 20191003045402
+31.13.127.3 2 12 734013 20191022094645
+51.15.124.33 1 1 7721 20191028174715
+221.234.157.229 1 1 7721 20191022095647
+54.244.106.31 1 1 30317 20191022074732
+52.25.223.207 1 1 7721 20191009073818
+52.204.27.85 1 1 30317 20191002140415
+111.7.100.22 0 1 53912 
+35.161.238.214 1 1 7721 20191004001903
+31.13.127.6 2 17 486393 20191022094645
+51.89.169.22 2 2 38038 20191027003433
+199.244.88.124 1 1 7721 20191031170851
+203.98.92.72 1 1 7721 20191013195925
+196.112.89.114 1 1 7721 20191001113707
+54.36.17.98 2 2 60634 20191006155239
+34.90.43.212 4 4 30884 20191004180627
+104.223.28.137 2 7 257851 20191019042500
+54.198.55.229 1 1 30317 20191002134037
+192.99.150.97 3 3 90951 20191018165751
+35.226.215.151 2 2 60634 20191007084333
+23.94.229.202 2 7 257851 20191007234412
+209.141.53.185 2 2 60634 20191003125042
+31.13.127.21 1 12 512592 20191022094645
+54.188.89.100 1 1 7721 20191012063831
+108.62.9.210 1 1 7721 20191015080005
+101.109.159.19 1 1 30317 20191009010424
+52.10.11.40 1 1 7721 20191004074145
+54.187.240.124 1 1 7721 20191003161610
+105.67.7.200 1 1 30317 20191006205635
+54.70.35.94 1 1 7721 20191013072913
+212.83.160.29 2 2 60634 20191015084553
+54.184.223.108 1 1 7721 20191021055618
+185.219.168.254 3 3 68355 20191012193636
+18.237.2.138 1 1 7721 20191029065408
+54.200.133.180 1 1 7721 20191028075253
+154.68.5.151 2 2 60634 20191014004259
+185.215.150.204 3 3 23163 20191002131324
+34.77.23.225 2 18 205720 20191010151335
+40.112.185.217 2 2 60634 20191005184405
+34.76.235.133 1 1 7721 20191009175429
+185.246.210.171 2 2 60634 20191006081447
+104.198.253.53 1 1 30317 20191015092915
+212.83.173.129 2 2 60634 20191009091128
+111.7.100.25 1 8 304079 20191029183238
+192.162.102.230 1 1 30317 20191022133628
+18.236.238.16 1 1 7721 20191015072739
+36.99.136.140 0 1 43801 
+69.58.178.57 1 1 7721 20191028170749
+36.72.213.83 1 1 30317 20191005150435
+179.42.219.127 1 1 30317 20191001141044
+185.81.157.31 4 4 121268 20191027171835
+194.68.44.127 2 2 60634 20191006135545
+35.166.94.105 1 1 7721 20191031055042
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20191001 5 5 128989 4
+20191002 14 14 243670 10
+20191003 6 11 339807 4
+20191004 8 8 106960 4
+20191005 6 6 136710 5
+20191006 14 14 424438 8
+20191007 12 17 470637 5
+20191008 4 4 30884 3
+20191009 15 21 584712 8
+20191010 6 24 317052 4
+20191011 5 5 106393 4
+20191012 12 12 183036 5
+20191013 2 2 15442 2
+20191014 11 11 303170 5
+20191015 8 8 197344 5
+20191016 3 3 68355 2
+20191017 11 11 197911 5
+20191018 23 25 461395 8
+20191019 16 95 3835179 6
+20191020 7 7 99239 3
+20191021 20 22 370444 9
+20191022 31 67 2363068 11
+20191023 5 7 119053 4
+20191024 9 11 240321 6
+20191025 34 70 2454019 9
+20191026 8 8 197344 4
+20191027 9 9 272853 4
+20191028 7 7 121835 6
+20191029 19 63 2454145 7
+20191030 1 1 30317 1
+20191031 2 2 15442 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 6
+30s-2mn 1
+30mn-1h 6
+2mn-5mn 2
+15mn-30mn 4
+0s-30s 142
+1h+ 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 308 6482819 157 152
+/fonts/fontawesome-webfont.woff2 5 322320 0 2
+/custom-font/futuralt-book-webfont.woff 5 108320 1 1
+/custom-font/futuralt-bold-webfont.woff 5 111920 2 3
+/custom-font/GillSansMT-UltraBold.woff 5 193360 0 4
+/fonts/fontawesome-webfont.woff 1 81284 0 0
+/custom-font/GillSansMT-UltraBold.ttf 1 59456 1 0
+/webmail 1 13601 1 1
+/custom-font/futuralt-bold-webfont.ttf 1 39612 1 0
+/custom-font/futuralt-book-webfont.ttf 1 38640 0 0
+END_SIDER

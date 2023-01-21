@@ -1,0 +1,651 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201912 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.silkroute.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2685                
+POS_VISITOR 16166               
+POS_DAY 20543               
+POS_DOMAIN 3479                
+POS_LOGIN 3963                
+POS_ROBOT 4118                
+POS_WORMS 4698                
+POS_EMAILSENDER 4829                
+POS_EMAILRECEIVER 4972                
+POS_SESSION 21252               
+POS_SIDER 21420               
+POS_FILETYPES 5107                
+POS_DOWNLOADS 5362                
+POS_OS 5410                
+POS_BROWSER 5667                
+POS_SCREENSIZE 6621                
+POS_UNKNOWNREFERER 6695                
+POS_UNKNOWNREFERERBROWSER 6842                
+POS_ORIGIN 6984                
+POS_SEREFERRALS 7124                
+POS_PAGEREFS 7328                
+POS_SEARCHWORDS 7553                
+POS_KEYWORDS 7705                
+POS_MISC 2349                
+POS_ERRORS 7764                
+POS_CLUSTER 3819                
+POS_SIDER_404 7940                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200101021749 67 16224 9827138587414
+FirstTime 0
+LastTime 20191231175820
+LastUpdate 20200101041708 67 0 66 0 0
+TotalVisits 138                 
+TotalUnique 105                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 112                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 33 52 368782
+1 7 7 27886 30 79 2098117
+2 10 10 37339 37 50 26416
+3 16 65 4055608 37 260 3911952
+4 3 3 13491 28 38 17607
+5 16 16 76176 29 75 2112630
+6 5 34 790536 24 35 16698
+7 17 17 80036 38 73 621671
+8 39 74 2447457 99 137 1618093
+9 32 80 3344445 36 43 58692
+10 25 62 2631265 53 93 767133
+11 12 12 48822 28 33 70817
+12 22 57 2400360 84 125 1462827
+13 18 18 81062 72 97 695576
+14 7 7 33189 33 92 973485
+15 23 116 6136459 131 142 1411140
+16 1 1 6381 29 39 98450
+17 16 52 1243308 31 41 72664
+18 15 15 74977 71 130 1217659
+19 8 8 37189 40 105 1377539
+20 15 15 58540 39 50 93868
+21 14 14 65399 40 56 121755
+22 15 15 64198 61 140 4015272
+23 3 3 18299 19 58 602813
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 141 390 14495113
+ru 62 62 245634
+gb 25 25 210043
+hu 24 24 146284
+in 13 96 5520937
+fr 12 12 61650
+no 12 12 45144
+jp 8 38 2852020
+lv 7 7 31015
+pt 7 7 25944
+il 6 6 22270
+eu 6 6 21712
+md 5 5 20893
+cn 3 3 18334
+nl 2 2 15135
+bd 2 2 12176
+ua 2 2 13443
+br 1 1 7355
+gr 1 1 7320
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bingpreview 143 6969657 20191228191124 0
+bingbot/ 104 2285500 20191231184700 0
+Googlebot/ 101 1295580 20191231141143 0
+crawl 93 3943278 20191205225653 0
+msnbot/ 63 1693624 20191220192141 0
+bot[\s_+:,\.\;\/\\-] 43 568805 20191204192137 0
+YandexBot/ 19 80610 20191223103636 0
+facebookexternalhit/ 4 251484 20191210103259 0
+no_user_agent 2 12262 20191222112800 0
+Googlebot\-Image/ 1 233220 20191212121251 0
+DomainSONOCrawler/ 1 6088 20191206222209 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+png 21 4436622 0 0
+eot 1 78748 0 0
+php 19 26813 0 0
+Unknown 176 652627 0 0
+woff2 1 77160 0 0
+woff 9 504972 0 0
+css 117 1169312 0 0
+js 176 4228236 0 0
+jpg 48 11708034 0 0
+html 133 889898 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+Unknown 6 4
+linux 114 25
+winlong 6 6
+macosx8 1 1
+linuxandroid 2 2
+ios_iphone 99 17
+winvista 1 1
+macosx10 1 1
+win8.1 20 20
+win8 5 5
+macosx 1 1
+winxp 4 4
+win7 272 118
+win10 168 133
+macosx9 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 45
+chrome76.0.3809.100 2 2
+opera53.0.2907.68 4 4
+chrome41.0.2228.0 1 1
+chrome67.0.3396.87 12 12
+chrome42.0.2311.90 1 1
+chrome68.0.3440.106 51 15
+chrome66.0.3359.181 89 72
+firefox68.0 1 1
+msie6.0 3 3
+opera55.0.2994.44 5 5
+safari 58 10
+safari9.0 39 7
+chrome34.0.1847.116 6 6
+chrome76.0.3809.132 16 16
+chrome9.0.587.0 1 1
+chrome55.0.2883.87 2 2
+chrome71.0.3578.98 1 1
+msie8.0 1 1
+msie11.0 22 3
+netscape5.0 1 1
+chrome78.0.3904.70 46 6
+chrome78.0.3904.108 147 13
+chrome24585 1 1
+firefox57.0 1 1
+chrome68.0.3440.84 7 7
+opera54.0.2952.64 15 15
+opera53.0.2907.99 28 28
+opera54.0.2952.54 12 12
+chrome22.0.1207.1 2 2
+edge17 3 3
+opera36.0.2130.32 1 1
+opera53.0.2907.106 19 19
+chrome26.0.1410.65 1 1
+safari5.1 4 4
+chrome63.0.3239.132 6 6
+Unknown 6 4
+firefox59.0 1 1
+chrome21.0.1180.89 1 1
+opera54.0.2952.71 5 5
+chrome68.0.3440.75 2 2
+safari13.0.3 37 3
+firefox61.0 24 24
+edge16 4 4
+android 2 2
+chrome67.0.3396.99 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Go-http-client/1.1 20191230081346
+cortex/1.0 20191210103259
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20191230081346
+cortex/1.0 20191210103259
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 102 141
+From1 1 1
+From2 4 4
+From3 24 24
+From4 208 531
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+yahoo_catchall 1 1
+www_google_com 2 2
+www_google_com_hk 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://brandnewblogs.com/site-browser 12 12
+https://brandnewblogs.com 12 12
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+206 3 18264
+500 613 0
+403 3 1350
+302 150 56972
+409 93 7719
+404 584 6018720
+406 15 386637
+301 7 1886
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 160
+/assets/frontend/img/gallery/gallery_section/gallery_1577297145.jpg 4 http://silkrouteresort.com/
+/assets/admin/ckeditor/kcfinder/upload.php 1 -
+/assets/frontend/js/wow.min.js 6 http://silkrouteresort.com/room-details/1
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 1 -
+/js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297227.jpg 4 http://silkrouteresort.com/
+/user/login 2 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297078.jpg 4 http://silkrouteresort.com/
+/language/en-GB/en-GB.xml 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297103.jpg 4 http://silkrouteresort.com/
+/assets/frontend/img/gallery/gallery_section/gallery_1577296354.jpg 4 http://silkrouteresort.com/
+/pma.php 1 -
+/_adminer.php 2 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297030.jpg 4 http://silkrouteresort.com/
+/2016/wp-includes/wlwmanifest.xml 3 -
+/admin/images/cal_date_over.gif 2 -
+/api/vendor/phpunit/phpunit/LICENSE 1 -
+/adm.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__wsipu.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297202.jpg 4 http://silkrouteresort.com/
+/panel/tables.php 1 -
+/adminer-4.3.1.php 1 -
+/db.php 1 -
+/adminer-4.2.5.php 1 -
+/wp-content/_input_3_raiz0.php5 1 -
+/ckeditor/kcfinder/upload.php 1 -
+/assets/frontend/js/slick.min.js 5 -
+/wp/wp-includes/wlwmanifest.xml 10 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297003.jpg 4 http://silkrouteresort.com/
+/assets/frontend/js/magnific-popup.min.js 6 http://silkrouteresort.com/room-details/1
+/assets/frontend/js/jquery.counterup.min.js 6 http://silkrouteresort.com/room-details/1
+/adminer-4.1.0-mysql.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297117.jpg 4 http://silkrouteresort.com/
+/.env 2 -
+/admin/login.php 2 -
+/news/wp-includes/wlwmanifest.xml 10 -
+/admin/ckeditor/kcfinder/upload.php 1 -
+/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/wp-content/uploads/wysija/themes/Master/un.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297016.jpg 4 http://silkrouteresort.com/
+/wp-content/uploads/assignments/Raiz0_1575805217.php. 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296233.jpg 4 http://silkrouteresort.com/
+/assets/frontend/img/gallery/gallery_section/gallery_1577296965.jpg 4 http://silkrouteresort.com/
+/assets/frontend/img/gallery/gallery_section/gallery_1577296291.jpg 4 http://silkrouteresort.com/
+/laravel/vendor/phpunit/phpunit/LICENSE 1 -
+/assets/frontend/js/jquery-ui.js 7 http://silkrouteresort.com/room-details/1
+/assets/frontend/img/gallery/gallery_section/gallery_1577296936.jpg 4 http://silkrouteresort.com/
+/wp-json/wp/v2/users 1 -
+/assets/frontend/js/bootstrap.min.js 5 -
+/__media__/js/netsoltrademark.php 2 -
+/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/vendor/phpunit/phpunit/composer.json 1 -
+/wp-includes/wlwmanifest.xml 10 -
+/scripts/jquery/kcfinder/upload.php 1 -
+/adminer-4.2.4-mysql.php 1 -
+//vendor/phpunit/phpunit/LICENSE 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296114.jpg 4 http://silkrouteresort.com/
+/adminer-4.6.2.php 1 -
+/wp-admin/admin-post.php 1 -
+/wp-admin/setup-config.php 2 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296989.jpg 4 http://silkrouteresort.com/
+/assets/frontend/img/gallery/gallery_section/gallery_1577296271.jpg 4 http://silkrouteresort.com/
+/unzip.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296252.jpg 4 http://silkrouteresort.com/
+/components/com_sexycontactform/fileupload/ 1 -
+/2019/wp-includes/wlwmanifest.xml 7 -
+/installation/index.php 1 -
+/assets/ckeditor/kcfinder/upload.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/XxX.php 1 -
+/2018/wp-includes/wlwmanifest.xml 10 -
+/assets/frontend/js/waypoints.min.js 6 http://silkrouteresort.com/room-details/1
+//admin/images/cal_date_over.gif 1 http://www.google.com.hk
+/wp1/wp-includes/wlwmanifest.xml 10 -
+/joomla/robots.txt 1 -
+/administrator/index.php 2 -
+/wp2/wp-includes/wlwmanifest.xml 10 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/cms/wp-includes/wlwmanifest.xml 10 -
+/wp-login.php 12 -
+/templates/system/css/system.css 1 -
+/joomla/administrator/index.php 1 -
+/unzipper.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296096.jpg 4 http://silkrouteresort.com/
+/2017/wp-includes/wlwmanifest.xml 3 -
+/js/ckeditor/kcfinder/upload.php 1 -
+/blog/robots.txt 1 -
+/.git/HEAD 2 -
+/2015/wp-includes/wlwmanifest.xml 3 -
+/phpmyadmin 1 http://silkrouteresort.com:80/phpmyadmin/
+/assets/frontend/js/jquery-3.2.1.min.js 8 http://silkrouteresort.com/room-details/1
+/adminer 1 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 1 -
+/.svn/all-wcprops 1 -
+/assets/frontend/img/testimonial/testimonial_section/testimonial_1577299276.jpg 3 http://www.silkrouteresort.com/
+/assets/plugins/ckeditor/kcfinder/upload.php 1 -
+/test/wp-includes/wlwmanifest.xml 10 -
+/kcfinder-2.51/upload/files/priv.php.jd 1 -
+/searchreplacedb2.php 1 -
+/_adminer 1 -
+/assets/frontend/js/jquery-migrate.js 6 -
+/assets/frontend/js/popper.js 6 http://silkrouteresort.com/room-details/1
+/assets/frontend/js/script.js 5 -
+/adminer-4.1.0.php 1 -
+/sito/wp-includes/wlwmanifest.xml 10 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297089.jpg 4 http://silkrouteresort.com/
+//templates/system/css/system.css 1 http://www.google.com.hk
+/shop/wp-includes/wlwmanifest.xml 10 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__wsipu.php 1 -
+/blog/administrator/index.php 1 -
+/.git/config 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/assets/frontend/js/SmoothScroll.js 5 -
+/adminer-4.2.5-mysql.php 1 -
+/adminer-4.3.1-mysql.php 1 -
+/kcfinder-2.51/upload.php 1 -
+/assets/frontend/js/imagesloaded.pkgd.min.js 6 -
+/wp-admin/install.php 2 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297131.jpg 4 http://silkrouteresort.com/
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__wsipu.php 1 -
+/website/wp-includes/wlwmanifest.xml 10 -
+/wp-content/uploads/2018/01/Raiz0__wsipu.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296385.jpg 4 http://silkrouteresort.com/
+/adminer-4.6.2-mysql.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296950.jpg 4 http://silkrouteresort.com/
+/assets/frontend/js/scrollUp.min.js 6 http://silkrouteresort.com/room-details/1
+/scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/media/wp-includes/wlwmanifest.xml 10 -
+/wp-admin/admin-ajax.php 3 -
+/replace.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 10 -
+/adminer-4.2.4.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297216.jpg 4 http://silkrouteresort.com/
+/robots.txt 80 -
+/web/wp-includes/wlwmanifest.xml 10 -
+/sitemap.xml 2 -
+/README.txt 1 -
+/application/configs/application.ini 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577297162.jpg 4 http://silkrouteresort.com/
+/adminer.php 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296071.jpg 4 http://silkrouteresort.com/
+/mysql.php 1 -
+/root.php 1 -
+/ad.php 1 -
+/libraries/jscripts/kcfinder/upload.php 1 -
+/assets/frontend/js/isotope.pkgd.min.js 5 -
+/assets/frontend/js/owl.carousel.min.js 5 -
+/site/wp-includes/wlwmanifest.xml 10 -
+/connect.php 1 -
+/assets/js/mylibs/kcfinder/upload.php 1 -
+/blog/wp-includes/wlwmanifest.xml 10 -
+/assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577296369.jpg 4 http://silkrouteresort.com/
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 1 -
+/assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/administrator 1 -
+/assets/frontend/img/gallery/gallery_section/gallery_1577295852.jpg 4 http://silkrouteresort.com/
+/components/Raiz0WorM_1575805217.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 112
+77.68.5.243 14 14 160512 20191226121229
+84.236.87.171 12 12 73056 20191215144809
+31.13.191.71 12 12 44527 20191222024743
+134.90.149.148 12 12 45144 20191231091935
+185.253.96.26 10 10 37504 20191231073155
+173.44.36.101 10 10 37175 20191224080415
+206.217.139.200 10 10 37525 20191229102844
+188.143.1.114 10 10 61052 20191222173748
+172.241.131.139 10 10 37179 20191223225000
+185.253.96.27 10 10 37139 20191221075040
+23.94.74.109 10 10 37184 20191224084546
+31.13.191.89 10 10 37515 20191231175820
+217.138.194.121 8 8 29967 20191231090030
+65.154.226.220 8 84 3406856 20191220170112
+45.118.132.130 8 38 2852020 20191231034759
+106.197.210.125 8 56 3222337 20191205093021
+69.12.94.118 7 7 25943 20191220134808
+82.102.18.43 7 7 25944 20191221084523
+178.62.74.6 6 6 21712 20191223010544
+2.58.29.145 6 6 22270 20191225082503
+157.47.227.193 5 40 2301035 20191211105724
+107.150.29.161 5 5 18597 20191226205814
+206.217.139.198 5 5 18602 20191226100056
+23.81.177.22 5 5 18602 20191226084332
+85.254.72.26 5 5 18753 20191229082717
+89.147.68.120 2 2 12176 20191208103624
+66.102.6.151 0 3 376058 
+185.131.53.24 1 1 6088 20191217192040
+218.241.108.76 2 2 12211 20191220141835
+173.252.127.10 0 2 643792 
+139.162.1.48 2 2 15135 20191231034736
+62.210.79.40 3 3 13811 20191225094133
+35.161.108.114 1 1 6088 20191210095745
+18.237.135.195 1 1 6088 20191206123306
+203.202.252.104 2 2 12176 20191203130530
+34.219.235.144 1 1 6088 20191205102012
+216.19.195.230 1 1 6088 20191207124018
+52.10.90.230 1 1 6088 20191220090835
+13.70.154.68 1 1 6174 20191221180917
+188.92.72.129 2 2 12262 20191224072810
+54.214.114.198 1 1 6088 20191212051724
+34.211.145.175 1 1 6088 20191214082536
+206.189.131.213 1 1 6381 20191224161229
+54.245.142.112 1 1 6088 20191204122846
+54.186.140.163 1 1 7318 20191227093648
+62.210.140.4 1 1 6088 20191204182137
+34.221.225.89 1 1 6390 20191224104323
+178.175.132.72 2 2 7405 20191218130617
+34.211.243.203 1 1 7359 20191229102948
+52.12.205.143 1 1 6088 20191219095815
+195.154.182.89 4 4 19579 20191218042716
+173.252.127.16 0 3 125979 
+216.145.11.94 1 1 6123 20191208184657
+1.39.212.25 3 38 2294104 20191203085144
+107.173.185.110 2 2 7405 20191219181424
+54.188.108.161 1 1 6088 20191219095815
+222.79.45.60 1 1 6123 20191212204135
+173.252.127.9 0 10 525962 
+173.252.127.25 0 1 0 
+212.103.50.78 3 3 14848 20191230223406
+191.252.103.228 1 1 7355 20191230081346
+54.191.231.143 1 1 7355 20191230080115
+46.105.99.163 1 1 7324 20191225210453
+157.37.203.194 2 31 772272 20191205062334
+185.136.159.26 1 1 6174 20191224013228
+54.245.133.22 1 1 6381 20191225084934
+208.80.194.42 1 1 6088 20191212053119
+54.212.9.220 1 1 7318 20191225212712
+54.149.59.84 1 1 7321 20191226104157
+52.41.180.45 1 1 6088 20191216071857
+208.80.194.41 2 2 12176 20191219062101
+167.99.105.195 2 2 12176 20191220080517
+54.186.78.133 1 1 6088 20191203122414
+54.202.225.150 1 1 7351 20191231094014
+178.175.132.77 3 3 13488 20191205054413
+35.163.125.135 1 1 6174 20191222155655
+95.216.149.140 1 1 6123 20191209092004
+128.199.34.210 2 2 12211 20191218230520
+185.112.82.229 2 2 7423 20191226090733
+34.222.50.1 1 1 6088 20191204081854
+92.118.208.181 1 1 7320 20191227092403
+14.143.7.250 2 2 4496 20191205112931
+31.13.191.118 5 5 18747 20191229184201
+74.125.210.40 1 12 115208 20191221152245
+74.208.183.53 1 1 6088 20191207212043
+34.211.227.73 1 1 6088 20191215113838
+34.219.251.109 1 1 7348 20191228090857
+128.90.167.170 1 1 6088 20191204120758
+104.140.15.222 1 1 7359 20191230214112
+74.125.210.38 2 14 744546 20191221152248
+35.160.52.93 1 1 6088 20191209122724
+66.102.6.150 1 12 1290388 20191221152334
+173.252.127.17 3 23 998336 20191203124940
+34.219.12.254 1 1 6174 20191221110847
+52.192.42.165 2 2 13077 20191224103625
+176.98.69.217 1 1 7320 20191226092228
+74.208.239.244 2 2 12176 20191207132632
+74.125.210.42 0 11 1201216 
+185.130.184.250 2 2 7408 20191218103532
+173.252.127.28 0 1 233220 
+52.13.239.204 1 1 6088 20191208104233
+34.220.124.145 1 1 6088 20191212113001
+172.105.112.66 3 8 634083 20191231034807
+172.105.122.205 3 17 554370 20191231034943
+66.102.6.152 2 7 35337 20191221152330
+34.217.47.114 1 1 6088 20191211122119
+18.237.1.6 1 1 6088 20191207122252
+185.246.210.138 4 4 24352 20191208120313
+54.70.134.189 1 1 6088 20191213074829
+104.129.40.69 1 1 6088 20191219181419
+31.13.191.85 5 5 18757 20191228055039
+51.15.124.33 1 1 7353 20191227173951
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20191203 10 80 4612525 5
+20191204 5 5 30440 5
+20191205 16 93 4018681 5
+20191206 1 1 6088 1
+20191207 5 5 30440 4
+20191208 8 8 48739 4
+20191209 6 6 36563 3
+20191210 1 3 239308 1
+20191211 8 43 2319299 3
+20191212 7 7 42651 6
+20191213 1 1 6088 1
+20191214 4 4 24352 3
+20191215 3 3 18264 2
+20191216 5 45 2227756 2
+20191217 5 5 30440 3
+20191218 13 13 60092 6
+20191219 8 8 39160 6
+20191220 30 66 1295904 9
+20191221 15 68 3801115 8
+20191222 37 37 246148 8
+20191223 14 14 53985 4
+20191224 15 15 69130 7
+20191225 8 8 42255 5
+20191226 21 21 92513 7
+20191227 12 12 55741 6
+20191228 6 6 26105 2
+20191229 18 18 71109 5
+20191230 18 18 82061 7
+20191231 39 88 4145470 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 2
+0s-30s 135
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/contact 170 633808 42 45
+/ 129 889898 92 76
+/assets/frontend/css/color.php 17 13736 1 4
+/assets/frontend/fonts/themify.woff 9 504972 0 5
+/assets/backend/image/room_type_image_th/ 4 0 0 3
+/about 2 6902 0 0
+/index.php 2 13077 2 2
+/room-list 1 3426 0 0
+/assets/frontend/fonts/themify.eot 1 78748 1 1
+/blog 1 2736 0 0
+/assets/frontend/fonts/fontawesome-webfont.woff2 1 77160 0 1
+/gallery 1 2980 0 0
+/faq 1 2775 0 1
+END_SIDER

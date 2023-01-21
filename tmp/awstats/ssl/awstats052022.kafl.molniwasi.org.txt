@@ -1,0 +1,606 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202205 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.kafl.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2692                
+POS_VISITOR 10988               
+POS_DAY 14843               
+POS_DOMAIN 3580                
+POS_LOGIN 3881                
+POS_ROBOT 4036                
+POS_WORMS 4385                
+POS_EMAILSENDER 4516                
+POS_EMAILRECEIVER 4659                
+POS_SESSION 15573               
+POS_SIDER 15780               
+POS_FILETYPES 4794                
+POS_DOWNLOADS 5070                
+POS_OS 5227                
+POS_BROWSER 5411                
+POS_SCREENSIZE 6170                
+POS_UNKNOWNREFERER 6244                
+POS_UNKNOWNREFERERBROWSER 6760                
+POS_ORIGIN 7127                
+POS_SEREFERRALS 7267                
+POS_PAGEREFS 7433                
+POS_SEARCHWORDS 7581                
+POS_KEYWORDS 7733                
+POS_MISC 2355                
+POS_ERRORS 7792                
+POS_CLUSTER 3737                
+POS_SIDER_404 7984                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220601033133 1 0 5282903369834
+FirstTime 20220501021842
+LastTime 20220531152650
+LastUpdate 20220601181243 1 0 0 0 0
+TotalVisits 100                 
+TotalUnique 78                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 103                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 31 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 8868 69 69 154410
+1 3 15 11095775 46 58 1031073
+2 14 26 26970805 20 34 10575
+3 5 11 1047595 20 22 37382
+4 5 55 19453387 107 110 244210
+5 200 545 19870456 581 588 2935944
+6 269 579 9099727 569 571 1518035
+7 243 618 33636362 585 589 2321616
+8 180 448 109538271 380 380 6464307
+9 224 401 32882887 613 619 3999297
+10 140 349 10061836 436 438 1733971
+11 233 412 112712269 589 593 5082772
+12 320 465 57974447 803 804 9286739
+13 154 277 22377734 409 410 1652162
+14 1 5 880424 9 11 11744
+15 2 2 38895 9 16 492650
+16 13 64 1443652 56 62 590482
+17 9 14 732249 32 43 1246903
+18 72 132 5619569 167 169 1517770
+19 121 190 33635566 212 215 2364156
+20 58 109 1845211 185 186 2831550
+21 98 112 2402146 278 279 1572543
+22 22 27 696699 84 84 2906341
+23 2 2 38893 4 9 10454
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+in 2186 4104 400166180
+us 183 708 33810091
+ca 19 23 1231328
+cn 3 25 3500349
+de 0 1 358804
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+YandexBot/ 32 372398 20220529165413 22
+Googlebot/ 12 1862412 20220521015648 4
+unknown 9 216 20220531154346 9
+bingbot/ 8 932678 20220528195202 3
+crawl 5 490494 20220515142714 0
+no_user_agent 3 1004024 20220530225551 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+jpeg 75 2035610 0 0
+Unknown 2299 22343556 0 0
+cgi 3 12696 0 0
+png 1005 1842788 0 0
+css 449 5367140 0 0
+html 88 1692745 0 0
+txt 1 1116 0 0
+js 82 23377399 0 0
+php 1 0 0 0
+jpg 853 213223456 0 0
+pdf 5 169170246 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/public/assets/uploads/B7bf_073511_2mm.pdf 5 8 169170246
+/public/assets/uploads/VE2K_091454_89b.txt 1 0 1116
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win10 4791 2348
+macosx12 1 1
+linuxandroid 15 0
+linux 26 16
+Unknown 22 20
+win8.1 2 2
+macosx 2 2
+win7 8 1
+ios_iphone 2 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 32
+chrome101.0.4951.41 80 39
+chrome102.0.5005.61 13 6
+msie9.0 1 0
+mozilla 3 1
+chrome102.0.5005.62 6 2
+msie11.0 2 2
+chrome59.0.3071.115 1 0
+firefox100.0 64 0
+chrome61.0.3163.128 12 0
+chrome91.0.4472.114 1 0
+Unknown 19 19
+chrome42.0.2311.90 1 1
+chrome101.0.4951.67 835 464
+chrome95.0.4638.69 3 0
+chrome85.0.4183.121 1 1
+chrome83.0.4103.97 15 15
+chrome100.0.4896.127 347 137
+safari11.0 2 1
+chrome78.0.3904.87 7 1
+chrome87.0.4280.88 3 0
+chrome60.0.3112.90 3 0
+chrome76.0.3809.71 12 0
+safari12.0.2 1 1
+firefox55.0 1 1
+chrome83.0.4103.61 3 0
+chrome80.0.3987.132 1 1
+chrome98.0.4758.102 7 0
+chrome75.0.3765.0 3 0
+chrome79.0.3945.79 9 0
+chrome101.0.4951.64 783 481
+chrome101.0.4951.54 2629 1217
+chrome85.0.4183.102 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220530055758
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220526005526
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220513184328
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220530055758
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 705 720
+From1 0 0
+From2 1 1
+From3 0 0
+From4 1685 4148
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com_hk 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+302 308 65890
+500 134 29698388
+401 9 315
+419 6 11886
+206 1 0
+406 11 2486
+405 7 1558807
+404 5780 14015793
+403 3 1074
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 83
+/wp-content/export.php 1 -
+/beence.php 1 -
+/assets/web/fontawesome/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff 1475 https://www.kafl.in/public/assets/css/style.css
+/pay-emi/1 1 https://www.kafl.in/collect-emi-pay
+/ups.php 1 -
+/wp-includes/css/css.php 1 -
+/gank.php.PhP 1 -
+/s_ne.php 1 -
+/z.php 1 -
+/x.php 1 -
+/old-index.php 2 -
+/wp.php 1 -
+/get-customer-enquiry 1 https://www.kafl.in/add-member
+/new/ 1 -
+/wp-admin/style.php 1 -
+/assets/web/glyphicons/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2 420 https://kafl.in/public/assets/css/style.css
+/images/no.jpg 1 -
+/baindex.php 1 -
+/s_e.php 1 -
+/wp-includes/images/css.php 1 -
+/wp-includes/css/wp-config.php 1 -
+/wp-signin.php 1 -
+/archives.php 1 -
+/xmrlpc.php 1 -
+/css.php 1 -
+/lock360.php 1 -
+/shells.php 1 -
+/view-member 1 https://kafl.in/collect-emi-pay
+/pay-emi-collect 4 https://www.kafl.in/pay-emi/1
+/media-admin.php 1 -
+/config.php 1 -
+/qindex.php 1 -
+/assets/web/fontawesome/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf 1474 https://www.kafl.in/public/assets/css/style.css
+/1index.php 1 -
+/get-emi-collect 2 https://www.kafl.in/pay-emi/1
+/wp-plugins.php 1 -
+/wp-load.php 2 -
+/assets/web/glyphicons/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf 422 https://kafl.in/public/assets/css/style.css
+/olux.php 1 -
+/about.php 1 -
+/style.php 1 -
+/wso.php 1 -
+/new/member-list 7 -
+/1.php 1 -
+/new/public/assets/image/images.png 1 http://kafl.in/
+/upload.php 1 -
+/error.php 1 -
+/export.php 1 -
+/up.php 1 -
+/getSchemeDetails 2 https://www.kafl.in/add-application
+/assets/web/fontawesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2 1478 https://www.kafl.in/public/assets/css/style.css
+/defau1t.php 1 -
+/test.php 1 -
+/assets/web/glyphicons/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff 420 https://kafl.in/public/assets/css/style.css
+/templates/beez3/index.php 1 -
+/radio.php 1 -
+/wikindex.php 1 -
+/new/member-details/1 1 -
+/static/js/main.js 1 -
+/wp-content/mu-plugins-old/index.php 1 -
+/new 2 -
+/h5/ 1 -
+/sindex.php 1 -
+/a.php 1 -
+/wp-booking.php 1 -
+/moduless.php 1 -
+/myConfig.js 1 -
+/alfa.php 1 -
+/doc.php 1 -
+/ads.txt 1 -
+/wp-admin.php 1 -
+/wp-content/plugins/backup_index.php 1 -
+/wp-content/plugins/ubhup.php 1 -
+/shell.php 1 -
+/3index.php 1 -
+/wp-includes/wp-class.php 1 -
+/members 1 https://kafl.in/member-details/17
+/xleet.php 1 -
+/xindex.php 1 -
+/wp-content/mu-plugins/db-safe-mode.php 1 -
+/new-index.php 1 -
+/xmlrpcs.php 1 -
+/2index.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 103
+49.204.160.185 629 837 68321305 20220516223028
+49.36.232.60 374 553 45122763 20220512134242
+49.36.235.96 246 329 7532940 20220516135647
+49.36.233.107 217 551 75091914 20220513134031
+49.36.232.204 174 319 6512545 20220509125528
+49.36.237.110 149 337 35901916 20220510125116
+49.36.238.166 99 304 1973930 20220511120624
+49.36.238.146 69 193 13178275 20220503100158
+157.38.2.173 67 182 531419 20220516071009
+103.167.194.46 63 143 6235476 20220521072912
+157.38.42.154 60 219 633942 20220517083134
+49.36.238.134 56 77 558994 20220502082553
+49.36.237.22 29 177 70551783 20220517084635
+49.36.232.39 27 76 1132687 20220506125428
+157.38.49.31 13 118 5026395 20220521073328
+49.36.234.61 10 11 105215 20220505113147
+49.36.237.248 10 73 25832381 20220526061956
+157.38.43.65 9 24 87404 20220511161338
+106.79.202.170 7 12 727638 20220505175230
+49.204.161.66 6 13 850255 20220526092741
+49.204.161.84 5 48 101267 20220518202936
+49.36.237.170 4 7 60255 20220518090334
+49.36.236.234 4 12 1308017 20220512045139
+157.38.139.228 3 55 19341155 20220506100551
+157.38.55.90 3 33 44531 20220521163119
+65.154.226.170 0 6 968348 
+171.13.14.76 0 3 484174 
+65.154.226.220 0 8 1685956 
+171.79.150.164 1 1 9875 20220505113358
+54.187.65.224 1 1 1450 20220520024513
+198.235.24.133 1 1 3160 20220501171055
+171.13.14.41 1 2 108229 20220522213139
+42.236.10.114 0 1 18595 
+35.87.105.156 1 1 1455 20220512023837
+198.235.24.6 1 1 3180 20220522014436
+101.36.109.59 1 1 1447 20220523234110
+157.38.135.12 2 6 19011 20220531100410
+157.38.58.100 1 1 1376 20220521065213
+198.235.24.20 1 1 3180 20220514013523
+135.125.154.36 0 3 484174 
+49.36.119.121 1 4 485623 20220521063744
+198.235.24.3 1 1 3180 20220508001337
+157.55.39.173 0 1 358804 
+54.203.73.198 0 3 484174 
+106.79.193.164 1 25 38039903 20220506012431
+35.87.246.103 0 3 484174 
+65.154.226.171 0 3 484174 
+205.210.31.131 1 1 3176 20220529185748
+35.87.44.254 1 1 1448 20220501021842
+18.236.141.172 1 1 1452 20220521023437
+207.102.138.93 0 2 465579 
+27.115.124.70 0 6 968348 
+35.243.23.191 0 1 358804 
+198.235.24.139 2 2 6336 20220514192217
+205.169.39.131 0 4 842978 
+34.219.42.115 1 1 1454 20220510020823
+142.54.177.164 1 1 1449 20220531152650
+176.9.8.180 0 1 358804 
+198.235.24.146 1 1 3160 20220521163656
+198.235.24.148 1 1 3180 20220530055758
+20.117.169.239 1 1 1456 20220531003026
+34.212.135.194 1 1 1452 20220505025911
+199.127.56.236 0 3 484174 
+207.102.138.83 0 2 465579 
+52.12.194.0 1 1 1451 20220515023142
+27.115.124.45 0 3 484174 
+205.169.39.28 0 3 484174 
+150.249.214.249 1 1 1449 20220510054113
+149.56.160.231 0 2 465579 
+54.191.173.152 1 1 1449 20220521024537
+34.241.192.139 1 1 1455 20220530034253
+35.167.29.208 1 1 1454 20220501022036
+34.220.131.4 1 1 1455 20220513022016
+106.207.132.187 0 3 484174 
+198.235.24.9 1 1 37446 20220517031852
+35.223.41.67 1 1 1451 20220515035528
+198.235.24.16 1 1 37446 20220514122432
+34.212.36.142 1 1 1449 20220505030003
+205.210.31.28 1 1 37446 20220516054637
+42.236.10.125 0 2 465579 
+107.173.183.141 1 1 1451 20220521210501
+54.245.69.216 1 1 1453 20220529024700
+35.88.141.222 1 1 1447 20220521024557
+171.13.14.22 0 1 18595 
+106.79.201.177 1 1 9099 20220506124541
+35.165.215.140 0 3 484174 
+18.237.39.28 1 1 1453 20220522024018
+198.235.24.35 1 1 3160 20220507060312
+35.165.180.177 1 1 1444 20220502023832
+205.210.31.149 1 1 37446 20220510152958
+171.13.14.75 0 1 18595 
+198.235.24.18 1 1 37446 20220520033610
+162.142.125.221 1 1 4232 20220526005526
+198.235.24.128 1 1 37446 20220514141438
+150.249.214.253 1 1 1450 20220510054112
+205.210.31.144 1 1 3160 20220529133258
+157.38.37.165 2 4 19012 20220520215138
+171.13.14.23 0 2 465579 
+171.13.14.20 1 3 467034 20220522213200
+49.36.233.198 1 2 1450 20220527061944
+49.36.234.122 3 4 36500 20220504053502
+205.210.31.148 1 1 3176 20220523044947
+205.210.31.146 1 1 37446 20220521232505
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20220501 4 4 9238 4
+20220502 57 78 560438 2
+20220503 69 193 13178275 4
+20220504 3 4 36500 1
+20220505 20 26 845629 7
+20220506 32 157 58522844 6
+20220507 1 1 3160 1
+20220508 1 1 3180 1
+20220509 358 574 33708407 3
+20220510 153 346 36893468 6
+20220511 108 342 4715638 3
+20220512 470 782 84175253 5
+20220513 381 715 114254981 4
+20220514 90 92 492212 5
+20220515 2 2 2902 2
+20220516 419 626 10227430 8
+20220517 90 409 111848616 3
+20220518 9 58 645696 2
+20220520 4 6 57908 3
+20220521 87 311 12808154 11
+20220522 4 14 1566839 4
+20220523 2 8 972971 2
+20220525 5 7 44653 1
+20220526 12 83 27126389 3
+20220527 1 6 844428 1
+20220529 3 3 7789 3
+20220530 2 2 4635 2
+20220531 4 11 506090 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 6
+0s-30s 58
+2mn-5mn 4
+5mn-15mn 4
+30s-2mn 7
+1h+ 18
+15mn-30mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 89
+/customer-enquiry 287 3026285 0 0
+/uploadFile 236 13828 0 2
+/add-member 232 7174672 0 7
+/pay-emi/1 153 1364170 0 1
+/enquiry-list 140 1366568 1 3
+/list-application 130 1143716 1 3
+/add-application 100 1373236 3 6
+/sign-in 97 161787 77 39
+/get-emi-collect 93 32711 0 3
+/ 88 1692745 12 13
+/match-old-customer-equiry 79 7479 0 1
+/collect-emi-pay 74 517464 1 2
+/member-list 69 1178760 0 0
+/view-application/4 59 545792 0 0
+/pay-emi-collection 45 81441 0 0
+/view-application/1 33 311057 0 0
+/getMembers 33 62617 0 0
+/pay-emi 32 329445 0 2
+/pay-emi/2 30 310426 0 0
+/edit-customer-enquiry/1 28 305608 0 0
+/disbursements 27 251165 0 0
+/view-account 27 255341 0 1
+/get-scheme-details 25 7131 0 0
+/list-scheme 21 208591 0 0
+/account-list 20 186303 0 0
+/pay-emi/3 2 21188 0 0
+/_ignition/health-check 7 323 0 0
+/view-member/1 3 49861 0 0
+/daily-collection 2 13756 0 0
+/edit-application/1 4 61977 0 0
+/view-members/13 1 12560 0 0
+/loan-approval 19 156979 1 1
+/view-scheme/1 2 15109 0 0
+/salary-list 2 14175 0 0
+/update-customer-enquiry-status 3 16206 0 0
+/add-employee 4 45112 0 0
+/edit-member/8 1 33840 0 0
+/journal-entry 2 18572 0 0
+/edit-application/15 2 28030 0 0
+/add-calculators 8 7072 0 2
+/view-application/3 1 9431 0 0
+/view-application/14 4 37869 0 1
+/view-member/7 1 16699 0 0
+/member-details/3 1 19162 0 0
+/report 1 9444 0 1
+/member-details/17 1 19014 0 1
+/view-employee/1 3 24886 0 0
+/memberReport 1 8405 0 0
+/disbursements-property-loan 1 7919 0 0
+/view-application/2 12 113000 0 1
+/view-application/13 1 9442 0 0
+/cgi-sys/suspendedpage.cgi 3 12696 2 1
+/public/index.php/sign-in 1 1456 1 1
+/nomineeDetails1 3 2106 0 0
+/calculators 19 198132 0 0
+/guranteeDetails1 5 1333 0 1
+/add-scheme 11 104863 0 2
+/edit-customer-enquiry/10 2 20110 0 0
+/public/assets/uploads/XWWr_091522_Qcj.php 1 0 0 0
+/save-application 2 26615 0 0
+/member-details/2 7 136113 0 1
+/list-scheme-vehicle-loan 1 7714 0 0
+/member-details/15 3 57904 0 0
+/edit-member/1 4 137839 0 1
+/add-holiday 1 7472 0 0
+/edit-customer-enquiry/5 2 21199 0 0
+/view-member/12 1 16570 0 0
+/logout 3 4128 1 1
+/edit-customer-enquiry/2 9 97267 0 0
+/update-customer-enquiry 7 8112 0 0
+/edit-application/2 6 84922 0 0
+/member-details/1 3 58047 0 1
+/view-member/15 1 16885 0 0
+/get-customer-enquiry 9 176 0 0
+/edit-customer-enquiry/8 3 29991 0 0
+/collect-emi 3 21011 0 0
+/view-application/5 1 9319 0 0
+/edit-application/3 1 15379 0 1
+/member-details/4 1 19751 0 0
+/edit-customer-enquiry/9 10 100250 0 0
+/view-application/15 6 19302 0 0
+/member-details/7 1 18998 0 0
+/view-application/12 1 9489 0 0
+/add-salary 3 27381 0 0
+/employee-list 4 29318 0 0
+/staff-attendence 3 25068 0 0
+/account-list-group-loan 1 8338 0 0
+/pay-emi/15 1 0 0 0
+/edit-application/4 1 15374 0 0
+END_SIDER

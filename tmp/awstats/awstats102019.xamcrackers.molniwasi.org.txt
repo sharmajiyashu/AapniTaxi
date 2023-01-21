@@ -1,0 +1,1731 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201910 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.xamcrackers.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2701                
+POS_VISITOR 43949               
+POS_DAY 49337               
+POS_DOMAIN 3576                
+POS_LOGIN 4125                
+POS_ROBOT 4280                
+POS_WORMS 4911                
+POS_EMAILSENDER 5042                
+POS_EMAILRECEIVER 5185                
+POS_SESSION 50133               
+POS_SIDER 50341               
+POS_FILETYPES 5320                
+POS_DOWNLOADS 5623                
+POS_OS 5732                
+POS_BROWSER 5997                
+POS_SCREENSIZE 7065                
+POS_UNKNOWNREFERER 7139                
+POS_UNKNOWNREFERERBROWSER 7590                
+POS_ORIGIN 7744                
+POS_SEREFERRALS 7883                
+POS_PAGEREFS 8046                
+POS_SEARCHWORDS 8263                
+POS_KEYWORDS 8415                
+POS_MISC 2364                
+POS_ERRORS 8474                
+POS_CLUSTER 3981                
+POS_SIDER_404 8705                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191101033522 61 10939 9257727047016
+FirstTime 20191001004520
+LastTime 20191031091503
+LastUpdate 20191101061156 61 0 60 0 0
+TotalVisits 173                 
+TotalUnique 133                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 136                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 95 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 31 31 228111 90 120 823728
+1 6 6 103799 64 74 122980
+2 35 89 1918080 197 228 989787
+3 41 106 1828164 146 157 192167
+4 310 335 2330611 758 776 1210115
+5 182 304 4758215 157 214 2618654
+6 92 236 5067892 111 152 674988
+7 30 61 1731203 228 263 1303944
+8 5 33 953985 162 183 457771
+9 25 80 2059216 223 325 5121748
+10 40 41 273925 168 241 3208075
+11 51 75 1381002 233 257 884867
+12 10 37 995458 68 74 142234
+13 39 39 286433 262 274 807287
+14 15 41 865043 268 334 1246452
+15 62 62 341945 577 591 122293
+16 6 6 62600 216 232 939899
+17 37 37 317034 180 286 3252714
+18 36 63 1096343 184 218 1050073
+19 31 56 923630 114 138 437790
+20 70 76 482117 401 425 539779
+21 66 66 280050 291 310 319286
+22 241 241 13382198 125 149 2399818
+23 4 4 23687 100 122 984359
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+us 1246 1665 32575128
+cn 67 168 3235456
+gb 37 94 1980264
+fr 32 35 434392
+in 16 71 1978825
+ca 14 14 237526
+ru 10 10 72775
+tn 8 8 47223
+au 6 6 104112
+za 4 4 23704
+se 3 3 17938
+dk 3 3 58590
+id 3 3 31365
+nl 3 3 28933
+de 3 28 743526
+ua 2 2 38732
+ci 1 1 19530
+pt 1 1 5928
+hu 1 1 5907
+gr 1 1 0
+rs 1 1 5896
+ma 1 1 19530
+lr 1 1 5931
+eu 1 1 19530
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+Googlebot/ 488 5659954 20191031211631 40
+bot[\s_+:,\.\;\/\\-] 183 3149757 20191031105201 2
+aiHitBot/ 86 1417483 20191024094506 1
+unknown 86 0 20191031105052 86
+YandexBot/ 78 1532986 20191022072308 13
+bingpreview 63 4737951 20191025095904 0
+bingbot/ 25 524145 20191025095900 7
+curl 9 57626 20191030185640 0
+no_user_agent 5 97486 20191028160804 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 17771 20191022210323 0
+Python\-urllib/ 1 0 20191030140642 1
+msnbot/ 1 0 20191016103720 1
+Wget/ 1 19530 20191002132128 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+ttf 4 168560 0 0
+png 107 4323782 0 0
+jpeg 21 573598 0 0
+woff 1 98024 0 0
+php 68 332010 0 0
+woff2 25 1978032 0 0
+js 235 10028781 0 0
+txt 6 0 0 0
+xsd 1 13734 0 0
+Unknown 1366 20802096 0 0
+svg 1 3060 0 0
+jpg 1 152881 0 0
+css 289 3216183 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+//README.txt 2 0 0
+//CHANGELOG.txt 2 0 0
+//license.txt 2 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win7 665 474
+macosx9 5 5
+macosx12 5 5
+linuxandroid 92 9
+winxp 72 17
+win8 2 2
+winlong 2 2
+ios_iphone 49 21
+macosx10 18 18
+macosx8 2 2
+Unknown 129 75
+macosx6 1 1
+linux 341 309
+win10 741 524
+win8.1 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 50
+firefox52.0 2 2
+opera62.0.3331.99 1 1
+chrome68.0.3440.75 4 4
+chrome17.0.963.56 1 1
+firefox65.0 2 2
+chrome76.0.3809.132 7 7
+chrome19.0.1061.1 1 1
+firefox69.0 281 281
+firefox50.0 2 2
+chrome71.0.3578.80 2 2
+chrome77.0.3865.90 254 105
+chrome64.0.3282.186 2 2
+firefox14.0 1 1
+edge12 259 238
+firefox62.0 1 1
+chrome41.0.2227.1 1 1
+chrome13.0.782.20 1 1
+mozilla 105 51
+Unknown 24 24
+chrome77.0.3865.75 234 165
+firefox60.0 248 248
+firefox59.0 1 1
+safari5.1 16 16
+chrome58.0.3029.110 4 4
+chrome72.0.3626.109 1 1
+chrome39.0.2171.95 15 15
+safari 33 5
+chrome45.0.2454.94 1 1
+chrome49.0.2623.112 71 16
+firefox64.0 15 15
+chrome26.0.1410.65 2 2
+firefox35.0 1 1
+msie6.0 1 1
+chrome65.0.3325.181 2 2
+android 58 4
+msie9.0 48 48
+chrome77.0.3865.120 57 10
+chrome35.0.1916.47 5 5
+chrome74.0.3729.131 159 62
+firefox57.0 9 9
+chrome63.0.3239.132 70 70
+chrome74.0.3729.169 3 3
+safari5.0 1 1
+firefox61.0 1 1
+chrome26.0.1410.63 2 2
+chrome45.0.2454.85 2 2
+firefox28.0 19 13
+chrome73.0.3683.86 28 3
+chrome75.0.3770.142 34 8
+chrome78.0.3904.62 33 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_ips-agent) 20191029105421
+Mozilla/5.0_Firefox/35.0 20191025161048
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20191007043325
+Cpanel-HTTP-Client/1.0 20191007043257
+Mozilla/5.0_(compatible) 20191002131341
+Go-http-client/1.1 20191029095803
+Mozilla/5.0_(compatible;_Dataprovider.com) 20191026062923
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20191029095803
+Cpanel-HTTP-Client/1.0 20191007043257
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 906 941
+From1 0 0
+From2 3 3
+From3 3 3
+From4 553 1178
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.webmail.xamcrackers.com 2 2
+https://brandnewblogs.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+301 76 18800
+405 13 407720
+500 98 4868482
+404 3027 3949584
+206 36 374408
+406 183 2449997
+403 94 53412
+419 1 1577
+401 10 280
+409 232 19256
+302 1248 492603
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1001
+/login/media/wp-includes/wlwmanifest.xml 6 -
+/abcd.php 1 -
+/webr00t.php 1 -
+/oo.php 1 -
+/cfg.php 1 -
+/RxR.php 6 -
+/wp13.php 1 -
+/Symlink.php 1 -
+/6.php 1 -
+/wp-content/plugins/php-event-calendar/server/file-uploader 4 -
+/administrator/components/com_config/models/0x.php 1 -
+/confiq.php 1 -
+//admin/ckeditor/kcfinder/upload.php 2 -
+/ficheiros/conteudos/spy.txt 1 -
+/tooler.php 1 -
+/assets/scripts/slick.js%2Bjquery.mobile-menu.min.js.pagespeed.jc.ciYH8bBvrV.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+//modules/mod_simplefileuploadv1.3/elements/apYuSR.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ 12 -
+/log.php 1 -
+/wp-content/plugins/wp-property/third-party/uploadify/jsspwned.php 2 -
+/wp-content/themes/twentynineteen/content-post.php 1 -
+/Sh3ll.php 1 -
+/wp-content/themes/twentyseventeen/content-post.php 1 -
+//wp-content/plugins/wp-footers.php 4 www.xamcrackers.com
+/t.php 1 -
+/modules/pk_flexmenu/ajax/upload.php 2 -
+/mary.php 1 -
+/ws0.php 1 -
+/fckeditor/editor/filemanager/connectors/php/jsspwned.php 2 -
+/admin1.php 1 -
+/.well-known/ZoneDNS.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload/jsspwned.php 4 -
+//scripts/jquery/kcfinder/upload.php 2 -
+/id.php 1 -
+/rss.php 1 -
+/wp-content/plugins/vr-seo/up.php 1 -
+//cache/clean.php 2 -
+/templates/system/css/system.css 10 -
+//ckeditor/kcfinder/upload.php 2 -
+/baba.php 1 -
+/user.php 1 -
+/includes/up.php 1 -
+/wp-content/plugins/membership-simplified-for-oap-members-only/download.php 2 -
+/v.php 1 -
+//vehiculo_photos/server/php/ 2 -
+/logo_img.php 1 -
+/wp-content/themes/rarebird/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__vmkta.php 1 -
+//wp-admin/admin-ajax.php 3 -
+/wp1/wp-includes/wlwmanifest.xml 3 -
+/indo.php 1 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/modules/modules/modules.php 6 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/tbmailer.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/jsspwned.php 2 -
+/database.php 1 -
+/wp-content/plugins/ubh/index.php 6 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/jsspwned.php 4 -
+/ALFA-SHELL-V3.php 1 -
+/wp-content/plugins/contus-video-galleryversion-10/jsspwned.php 2 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/assets/uploadify/uploadify.php 3 -
+/images/f.php 1 -
+/Server.php 1 -
+/wp-content/uploads/uigen_YEAR/file.php 2 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 3 -
+/wp-content/plugins/xichang/x.php 6 -
+//tmp/bogel.php 1 -
+/media/xWarning.php 2 -
+/k.php 1 -
+/modules/mod_simplefileupload.3/elements/xWarning.php 2 -
+/wp-content/plugins/simple-ads-manager/jsspwned.php 2 -
+/mail.php 1 -
+/v3.php 1 -
+//images/upa.php 2 -
+/user/login 10 -
+/wp-content/themes/MoneyTheme/uploads/uploads/jsspwned.php 2 -
+/wp-content/themes/andre/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/jj.php 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/upload.php 1 -
+/gallery/ 6 -
+/modules/404.php 1 -
+//assets/tinymce/plugins/imgsurfer/main.php 5 -
+//administrator/webconfig.txt.php 4 www.xamcrackers.com
+/templates/atomic/html/lndex.php 1 -
+/d7.php 1 -
+//images/sym.php 2 -
+//wp-content/plugins/myshe.php 4 www.xamcrackers.com
+/components/com_jbcatalog/libraries/jsupload/server/php/ 2 -
+/k2.php 1 -
+/cpanel.php 1 -
+/Themes/themeone/assets/css/bootstrap.min.css.map 32 -
+/aa.php 1 -
+/wp-content/plugins/downloads-manager/upload/jsspwned.php 2 -
+/wso.php 19 -
+/temp1-1.php 1 -
+/wp-includes/wp-inc.php 1 -
+/components/com_foxcontact/mrpatate.php 1 -
+//tmp/sfx.php 2 -
+/d.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 8 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 4 -
+/xleetwolf.php 1 -
+/_404.php 1 -
+/tt.php 1 -
+//kcfinder-2.51/upload.php 2 -
+/images/m.php 1 -
+/rsx.php 1 -
+/server/php/files/up.php 4 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 4 -
+//files/uploadify/uploadify.php 5 -
+/css.php 1 -
+/wp-content/uploads/assignments/Raiz0_1570455353.php. 1 -
+/files/ 6 -
+/inbox.php 1 -
+/az.php 1 -
+//cache/news.php 4 www.xamcrackers.com
+/AndroidFileUpload/fileUpload.php 4 -
+/test/ 1 -
+/public/uploads/exams/categories/5-catimage.jpeg 13 http://xamcrackers.com/exams/student/categories
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads//jsspwned.php 2 -
+/images/g.php 1 -
+/administrator/index.php 11 -
+/images/cp.php 1 -
+/wp-content/satoshi/images/jsspwned.php 2 -
+//libraries/respectMuslims.php 3 -
+/err.php 1 -
+/catalog/view/indess.php 1 xamcrackers.com
+/css/dzQ.php 1 -
+/wp-admin 2 -
+/readme.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/jsspwned.php 4 -
+//media/jmail.php 1 -
+/images/jdownloads/screenshots/xWarning.php 2 -
+//AndroidFileUpload/fileUpload.php 2 -
+/wp/wp-admin/install.php 2 -
+/phpmailer.php 1 -
+/idiot.php 1 -
+/leaf3.php 1 -
+/wp-content/plugins/ppus/up.php 7 -
+/wp-content/plugins/upspy/orvx.php 1 -
+/theme.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/image-upload.php 2 -
+//userfiles/file/spy.txt 2 -
+//administrator/manifests/files/joomla.xml 1 -
+/shell.php 39 -
+/uploadshell.php 1 -
+/12.php 1 -
+/base.php 1 -
+/assets/js/mylibs/kcfinder/upload.php 4 -
+/xGSx.php 1 -
+/xo.php 1 -
+/wp-content/plugins/asset-manager/upload.php 2 -
+//images/xxu.php 2 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 4 -
+/wp-includes/SimplePie/xsef.php 1 -
+/wp-content/themes/medicate/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/wp-content/plugins/ubh/raw.php 1 -
+/X.php 1 -
+/sc.php 1 -
+//language/en-GB/en-GB.xml 4 -
+/wp-content/bsn.php 1 -
+/q1.php 1 -
+/cfq.php 1 -
+/simulasi.php 1 -
+/w.php 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 2 -
+/wp-content/plugins/ubh/Meuhy.php 1 -
+/wp-admin/user/user-new.php 1 -
+/images/WSO.php 1 -
+/a9.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/jsspwned.php 2 -
+/rox.php 1 -
+/dd.php 1 -
+/wp-content/plugins/vr-seo/vr.php 1 -
+/images/cpanel.php 1 -
+//images/head.php 4 www.xamcrackers.com
+/kcfinder-2.51/upload/files/up.php.jd 4 -
+//wp-admin/admin-post.php 1 -
+/wp-login.php 4 -
+/wp-content/plugins/html404/index.html 6 -
+/templates/atomic/index.php 6 -
+/leaf.php 1 -
+/j.php 1 -
+/wp-add.php 1 -
+/server/php 3 -
+/wp-content/plugins/zen-mobile-app-native/server/images.php 2 -
+//libraries/joomla/zipy.php 2 -
+/GreenPxOK.php 1 -
+/raw.php 1 -
+/azzoulshell.php 1 -
+/assets/scripts/functions.js.pagespeed.jm.oxrwdZ_e3Y.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+/modules/mod_simplefileupload.3/elements/udd.php 2 -
+//sites/all/libraries/elfinder/php/connector.minimal.php 1 http://www.xamcrackers.com//sites/all/libraries/elfinder/php/connector.minimal.php
+/p8.php 1 -
+//libraries/joomla/css.php 2 -
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+//media/tmp.php 4 www.xamcrackers.com
+/8.php 1 -
+/cv.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 10 -
+/info.php 1 -
+//bin/logo_img.php 2 -
+/py.php 1 -
+/000.php 1 -
+/cgi.php 1 -
+/dick.php 1 -
+/public/upload_nhieuanh/server/php/files/up.php 4 -
+/i.php 1 -
+/administrator/templates/bluestork/error.php 6 -
+/AndroidFileUpload/uploads/up.php 4 -
+//cfg-contactform-1/inc/upload.php 5 -
+/config2.php 1 -
+/xx1.php 1 -
+//images/google-assist.php 4 www.xamcrackers.com
+/wp-content/themes/MoneyTheme/uploads/upload.php 2 -
+/ww3.php 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 4 -
+/5.php 1 -
+/null.php 1 -
+//themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 2 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-deep-gray/designit/cs/upload.php 2 -
+/uploads.php 1 -
+/nn.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/field_upload.php 2 -
+/assets/admin/ckeditor/kcfinder/upload.php 4 -
+/user 1 -
+/e.php 1 -
+/c9.php 1 -
+/wp-admin/shapes.php 6 -
+/login/2017/wp-includes/wlwmanifest.xml 1 -
+/no.php 1 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 1 -
+/sado.php 1 -
+/images/vuln.php 7 -
+/wp-content/uploads/2019/10/jsspwned.php 4 -
+/wp.php 2 -
+/wp-includes/setup.php 1 -
+/911.php 1 -
+//vehiculo_photos/server/php/files/up.php 2 -
+/umapresence/umaservices/umapage/inc/contentCss.php 3 -
+/login/shop/wp-includes/wlwmanifest.xml 6 -
+/assets/uploadify/old/uploadify.php 3 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 4 -
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__vmkta.php 1 -
+/templates/beez5/error.php 6 -
+/libraries/jscripts/kcfinder/upload.php 4 -
+//vendor/phpunit/phpunit/src/Util/PHP/king.php 1 -
+/modules/megamenu/uploadify/uploadify.php 2 -
+/wp-content/themes/multimedia1/server/php 2 -
+/1.php 1 -
+/awso.php 1 -
+//admin/libraries/ajaxfilemanager/ajax_create_folder.php 5 -
+/cfgs.php 1 -
+/wp-content/uploads/2018/01/Raiz0__dknjl.php 1 -
+/components/com_banners/metadata.php 1 -
+/images/b.php 1 -
+/1337.php 1 -
+/components/com_jbcatalog/libraries/jsupload/ 3 -
+/images/c.php 1 -
+/images/k2.php 1 -
+/wp-content/plugins/pitchprint/uploader/ 2 -
+/wp-content/plugins/wpstorecart/php/upload.php 1 -
+//tpl/plugins/upload9.1.0/server/php/files/up.php 2 -
+/assets/ckeditor/kcfinder/upload.php 4 -
+//helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/modules/megamenu/uploadify/xWarning.php 2 -
+/server/php/ 4 -
+//wp-content/plugins/Fbrrchive.php 4 www.xamcrackers.com
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+//images/p.php 3 -
+/default.php 1 -
+/123.php 1 -
+/tmp/upload.php 1 -
+/hb.php 1 -
+/wp-content/plugins/upspy/sllolx.php 1 -
+/templates/atomic/html/leaf3.php 1 -
+/templates/beez5/index.php 6 -
+//infusions/mp3player_panel/upload.php 5 -
+/wp-content/plugins/apikey/apikey.php 1 -
+/ll.php 1 -
+/wp-content/plugins/ppus/ns.php 1 -
+/images/2.php 1 -
+/wp-content/plugins/vcrm/Z586.php 1 -
+/images/anon.php 1 -
+/cms/wp-includes/wlwmanifest.xml 7 -
+/gino/k.php 1 -
+/msss.php 1 -
+/s2.php 1 -
+/index.php/frontend/contact 1 -
+/assets/extracss/style1.css 1 http://www.xamcrackers.com/index.php/frontend/contact
+/wp-content/plugins/wp-simple-cart/request/simple-cart-upload.php 2 -
+/indoxploit.php 24 -
+/angel.php 1 -
+//cache/defau1t.php 4 www.xamcrackers.com
+/login/wp-includes/wlwmanifest.xml 62 -
+/403.php 1 -
+//administrator/administrator.php 4 www.xamcrackers.com
+/wp-content/uploads/2018/03/xWarning.php 4 -
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__dknjl.php 1 -
+/images/jdownloads/screenshots/rxrking.php3.g 3 -
+/wp-content/plugins/vwcleanerplugin/bump.php 6 -
+/dew.php 1 -
+/l.php 1 -
+/components/com_foxcontact/fx.php 1 -
+/wp-content/plugins/background-image-cropper/content-post.php 1 -
+/tinymce/plugins/imgsurfer/main.php 3 -
+/templates/ja_purity/index.php 6 -
+/jmx.php 1 -
+/administrator/manifests/files/joomla.xml 5 -
+/templates/rhuk_milkyway/index.php 6 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 2 -
+/images/Sym.php 1 -
+/wp-content/plugins/ubh/shell.php 1 -
+/y.php 1 -
+/templates/beez_20/index.php 6 -
+/administrator/templates/isis/index.php 6 -
+/fun.php 1 -
+/wp-admin/admin-ajax.php 14 -
+//wp-content/uploads/2018/01/Raiz0__vmkta.php 1 -
+//images/wp-mail.php 2 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 2 -
+/orvx.php 1 -
+/rxr.php 9 -
+/s.php 1 -
+/x0.php 1 -
+//cache/cache_aqbmkwwx.php 4 www.xamcrackers.com
+/sito/wp-includes/wlwmanifest.xml 3 -
+/b.php 1 -
+/lama.php 1 -
+//assets/admin/ckeditor/kcfinder/upload.php 2 -
+/mb.php 1 -
+/priv.php 1 -
+/v5.php 1 -
+/components/com_hdflvplayer/hdflvplayer/download.php 3 -
+//includes/u2p.php 4 www.xamcrackers.com
+/ww.php 1 -
+/0x.php 1 -
+/wsos.php 1 -
+/cPanelCracker.php 1 -
+/prv8.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads/jsspwned.php 2 -
+/b374k.php 1 -
+/dz0.php 1 -
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/media/kunena/avatars/resized/size72/ex_liner.php 1 -
+/wp-content/logs.php 1 -
+/dz1.php 1 -
+//components/com_sexycontactform/fileupload/ 1 -
+/aaa.php 1 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 3 -
+/joomla/administrator/index.php 8 -
+//wp-content/plugins/wpfootes.php 4 www.xamcrackers.com
+/wordpress 1 http://xamcrackers.com/wordpress
+/ee.php 1 -
+/wp-content/_input_3_xWarning.phtml 2 -
+/0.php 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 2 -
+/shell.php%20http://www.premad.in///shell.php 1 -
+/imdex.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/xWarning.php 2 -
+/webr00tv3.php 1 -
+/wp-content/plugins/magic-fields/RCCWP_upload_ajax.php 2 -
+//assets/plugins/ckeditor/kcfinder/upload.php 2 -
+/wp/ 1 -
+//wp-content/uploads/assignments/Raiz0_1569929176.php. 1 -
+//AndroidFileUpload/uploads/up.php 2 -
+/vendor_extra/elfinder/php/connector.minimal.php 3 -
+/images/DZ.php 1 -
+/wp-content/plugins/GREEN/GREENX.php 1 -
+/ff.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 3 -
+/sd.php 1 -
+/wp-content/plugins/upspy/up.php 1 -
+/LICENSE 2 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/prv.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 4 -
+/idx.php 1 -
+/home.php 1 -
+/ini.php 1 -
+/components/RxR_1572010533.php 1 -
+/login.php 1 -
+/lel.php 1 -
+/2.php 1 -
+/sok.php 1 -
+/abc.php 1 -
+/modules/bamegamenu/ajax_phpcode.php 4 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 4 -
+/wp-content/uploads/wysija/themes/Master/un.php 1 -
+/bbb.php 1 -
+/libraries/imports.legacy.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/files/xWarning.php 2 -
+/components/RxR_1570210966.php 1 -
+/login/2016/wp-includes/wlwmanifest.xml 1 -
+/11.php 1 -
+/wp-content/plugins/zen-mobile-app-native/jsspwned.php 2 -
+//tinymce/plugins/imgsurfer/main.php 5 -
+/wordpress/wp-admin/install.php 2 -
+/wp-content/themes/konzept/includes/uploadify/uploads/jsspwned.php 2 -
+/images/stories/xWarning.php 2 -
+/media/media/images/mime-icon-16/media-admin.php 1 -
+/admin/ 1 -
+/login/wp1/wp-includes/wlwmanifest.xml 6 -
+/public/js/bootstrap-toggle.min.js.map 16 -
+/wp-content/sloolx.php 1 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/public/js/plugins/imgsurfer/main.php 3 -
+/wp-content/files_mf/jsspwned.php 2 -
+/wp-content/_input_3_raiz0.php5 1 -
+//umapresence/umaservices/umapage/inc/contentCss.php 5 -
+/application/configs/application.ini 5 -
+/1234.php 1 -
+//media/css.php 2 -
+/wpmass.php 1 -
+/assets/tinymce/plugins/imgsurfer/main.php 2 -
+/ccp.php 1 -
+/wp12.php 1 -
+//wp-content/uploads/Fbrrchive.php 4 www.xamcrackers.com
+/link.php 1 -
+/wp-content/plugins/upspy/t.php 1 -
+/.env 1 -
+/send.php 1 -
+//scripts/jquery/kcfinder/upload/files/up.php.jd 2 -
+//editor/plugins/filemanager/ajax_create_folder.php 5 -
+/Themes/themeone/assets/site/css/bootstrap.min.css.map 14 -
+/login/blog/robots.txt 1 -
+/assets/scripts/jquery.mCustomScrollbar.concat.min.js%2bjquery.mobile-menu.min.js%2bcounter.js%2bfunctions.js.pagespeed.jc.Jl_cheJoIj.js 2 -
+/newrs.php 1 -
+/admin/ckeditor/kcfinder/upload.php 4 -
+/Marvins.php 7 -
+/q.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 18 -
+/images/wso.php 1 -
+/images/1.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 6 -
+/wp-content/plugins/ubh/up.php 1 -
+//wp-content/plugins/SocketIontrol.php 4 www.xamcrackers.com
+/un.php 1 -
+/as.php 1 -
+/system.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/jsspwned.php 2 -
+//public/upload_nhieuanh/server/php/_index.php 7 -
+/configuration.php 1 -
+//images/404.php 4 www.xamcrackers.com
+/dir.php 1 -
+/wp-admin.php 1 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 4 -
+/wp-content/plugins/social-networking-e-commerce-1/images/uploads/jsspwned.php 2 -
+/wp-content/uploads/2019/10/ 6 -
+/za.php 1 -
+/kk.php 1 -
+//assets/uploadify/uploadify.php 5 -
+/xup.php 1 -
+/tbshell.php 1 -
+/admin.php 2 -
+/anu.php 1 -
+/22.php 1 -
+/wordpress/ 1 -
+/vendor/phpunit/phpunit/src/Utils 1 -
+/images/test.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 6 -
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.php 1 -
+/images/up.php 1 -
+/up1.php 1 -
+/f.php 1 -
+/xz.php 1 -
+/website/wp-includes/wlwmanifest.xml 3 -
+//images/upxx.php 1 -
+/admin/editor/plugins/filemanager/ajax_create_folder.php 2 -
+/alf2.php 1 -
+//administrator/dbconfig.php 4 www.xamcrackers.com
+//administrator/includes/readmy.php 4 www.xamcrackers.com
+//admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+//components/Raiz0WorM_1569929176.php 1 -
+/zz.php 1 -
+//vendor_extra/elfinder/php/connector.minimal.php 5 -
+/webdev.php 1 -
+/tmp/up.php 1 -
+/wp-content/plugins/wp-simple-cart/files/$uploadfolder/temporary/jsspwned.php 2 -
+/wp-content/uploads/product_files/jsspwned.php 2 -
+/leafmailer.php 1 -
+/wp-content/uploads/settingsimages/jsspwned.php 2 -
+/wp-content/uploads/i-dump-uploads//jsspwned.php 2 -
+/wp-content/plugins/spirit-templates/up.php 1 -
+/up.php 19 -
+/wp-content/themes/dance-studio/core/libs/imperavi/tests/file_upload.php 2 -
+/weak.php 1 -
+/shells/b374k.php 1 -
+//application/configs/application.ini 2 -
+/templates/beez3/index.php 6 -
+/tmp/uploads.php 1 -
+/modules/pk_flexmenu/uploads/xWarning.php 2 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 2 -
+/vendor/phpunit/phpunit/src/sca 1 -
+/wp-content/plugins/upspy/pleet.php 1 -
+/upload.php 19 -
+/wp-content/plugins/wp-mobile-detector/resize.php 2 -
+/wp-load.php 1 -
+/vvv.php 1 -
+/why.php 1 -
+/wp-content/plugins/lb-mixed-slideshow/gallery/1/jsspwned.php 2 -
+/ss.php 1 -
+/uu.php 1 -
+//server/php/files/up.php 2 -
+/wss.php 1 -
+/media/kunena/avatars/media-admin.php 1 -
+/wp-content/plugins/css-ready-seled/file.php 1 -
+/images/ini.php 1 -
+/wp-content/plugins/vr-seo/wp-2017.php 1 -
+/upel.php 6 -
+/rdpl.php 1 -
+/gino/awso.php 1 -
+/sysadmin.php 1 -
+/xml.php 1 -
+/wp-content/uploads/ 6 -
+/old/ 1 -
+/dashboard.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 4 -
+/web.php 1 -
+/web/image/upload.php 4 -
+/gaza.php 1 -
+/templates/beez3/error.php 6 -
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/jsspwned.php 2 -
+//wp-content/plugins/Analyser.php 4 www.xamcrackers.com
+/sitemap.xml 1 -
+/images/block/up.php 4 -
+/wp-content/plugins/dzs-videowhisper/upload/jsspwned.php 2 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__dknjl.php 1 -
+/wp-content/themes/pindol/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/wp-content/uploads/uigen_2015/jsspwned.php 2 -
+/login/site/wp-includes/wlwmanifest.xml 60 -
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__dknjl.php 1 -
+/wawa.php 1 -
+/com_sexycontactform/fileupload/index.php 2 -
+/wp-content/plugins/dzs-videowhisper/upload.php 2 -
+/wp-admin/admin.php 5 -
+//assets/js/mylibs/kcfinder/upload.php 2 -
+/vv.php 1 -
+/wp-admin/options-general.php 2 -
+/wp-content/themes/ultimatum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/spy.php 1 -
+//assets/global/plugins/jquery-file-upload/server/php/files/up.php 2 -
+/cfgsi.php 1 -
+/wp-admin/network/wp-footer.php 6 -
+/joomla/robots.txt 9 -
+/azshell.php 1 -
+/favicon.php 1 -
+/login/website/wp-includes/wlwmanifest.xml 6 -
+/login/2015/wp-includes/wlwmanifest.xml 1 -
+/wp-content/themes/cubed_v1.2/functions/upload-handler.php 2 -
+/V3.php 6 -
+/wp-content/plugins/barclaycart/uploadify/jsspwned.php 2 -
+/IndoXploit.php 1 -
+/wp-content/plugins/ubh/uplo.php 1 -
+/modules/mod_banners/tmpl/defult.php 1 -
+/libraries/joomla/css.php 6 -
+/shellwow.php 1 -
+/wp-content/w.php 1 -
+/wp-content/plugins/GREEN/xleet.php 1 -
+/wp-content/plugins/ppus/suram.php 1 -
+//libraries/jscripts/kcfinder/upload/files/up.php.jd 2 -
+/u.php 1 -
+/md.php 1 -
+//assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/panel.php 1 -
+/offline.php 1 -
+//media/reads.php 4 www.xamcrackers.com
+/blog/administrator/index.php 7 -
+//wp-content/plugins/sql_dump.php 4 www.xamcrackers.com
+/ess.php 1 -
+/wp-content/plugins/ubh/o.php 1 -
+/admins.php 1 -
+//admin/images/cal_date_over.gif 11 -
+/wp-content/themes/satoshi/functions/upload-handler.php 2 -
+/lfishell.php 1 -
+/cpn.php 1 -
+//templates/system/css/system.css 8 -
+/templates/system/index.php 6 -
+/ls.php 1 -
+/2016/wp-includes/wlwmanifest.xml 3 -
+/components/Raiz0WorM_1570455353.php 1 -
+/images/wp.php 1 -
+//site/tmp/cTivrC.php 4 www.xamcrackers.com
+/wp-content/62149921.php 1 -
+/wp-includes/css/modules.php 6 -
+/wp-content/plugins/ubh/shelll.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php 2 -
+/smtp.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/assets/scripts/chosen.select.js.pagespeed.jm.t_fBfMNklS.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 3 -
+/3.php 1 -
+//images/laj.php 4 www.xamcrackers.com
+/tpl/plugins/upload9.1.0/server/php/up.php 4 -
+/web/wp-includes/wlwmanifest.xml 3 -
+/7.php 1 -
+/405.php 1 -
+//wp-content/plugins/wp-cache.php 4 www.xamcrackers.com
+/ok.php 1 -
+/9.php 1 -
+/img.php 1 -
+/backup.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/uploads/jsspwned.php 4 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 3 -
+/wp-content/uploads/wpmp-previews/jsspwned.php 2 -
+/blog 1 http://xamcrackers.com/blog
+/vehiculo_photos/server/php/files/up.php 4 -
+/images/shell.php 1 -
+/front/index.php/frontend/index 4 -
+/upload/ 6 -
+/config.php 1 -
+//cache/cachee.php 4 www.xamcrackers.com
+/assets/global/plugins/jquery-file-upload/server/php/ 7 -
+//public/upload_nhieuanh/server/php/files/up.php 2 -
+/news/wp-includes/wlwmanifest.xml 3 -
+/cp.php 1 -
+/login/blog/wp-includes/wlwmanifest.xml 60 -
+/images/xcontact182.php 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-white/designit/cs/uploadImage/$uploadfolder/jsspwned.php 2 -
+/wp-content/plugins/theme-configurator/mini.php 6 -
+/dz.php 1 -
+/mm.php 1 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/upload.php 2 -
+//images/logo_img.php 2 -
+/blog/wp-includes/wlwmanifest.xml 7 -
+/r00t.php 1 -
+/madspot.php 1 -
+/SSS.php 1 -
+/bitrix/admin/index.php 2 -
+/ckeditor/kcfinder/upload.php 4 -
+/wp-config-backup.php 1 -
+/bypass.php 1 -
+/bb.php 1 -
+/shop/wp-includes/wlwmanifest.xml 3 -
+/tmp.php 1 -
+/wp-log.php 1 -
+/a.php 1 -
+/2015/wp-includes/wlwmanifest.xml 3 -
+/templates/protostar/error.php 6 -
+/m.php 1 -
+/images/php_ini.php 1 -
+/wp-content/plugins/ppus/joom.php 1 -
+/components/com_finder/views/search/tmpl/souf.php 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/administrator/components/com_bt_portfolio/xWarning.php 1 -
+/xxx.php 1 -
+//wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 1 -
+/adminside/server/php/ 7 -
+/r.php 1 -
+/up2.php 1 -
+//wp-content/plugins/wp-plugins.php 1 -
+/wp-content/bees.php 1 -
+/login/wordpress/wp-includes/wlwmanifest.xml 60 -
+//assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 3 -
+/wp-content/plugins/upspy/leafn.php 1 -
+/wp-content/uploads/headway/header-uploads//jsspwned.php 2 -
+//ajax/api/hook/decodeArguments 5 -
+/new/ 1 -
+//images/w0rm.php 1 -
+/xWarning.php 4 -
+/Sym.php 1 -
+/templates/system/error.php 6 -
+/pp.php 1 -
+/mailer.php 1 -
+/0x0.php 1 -
+/10.php 1 -
+/libraries/joomla/jmail.php 6 -
+/js.phtml 1 -
+/wp-content/themes/centum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+//admin/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/wp-content/uploads/assets/temp/jsspwned.php 2 -
+/ii.php 1 -
+/templates/protostar/index.php 6 -
+/worot.php 1 -
+/saa.php 1 -
+/admin/login.php 15 -
+/Themes/themeone/assets/site/css/bbpress.css.map 15 -
+//user/login 2 -
+/sql.php 1 -
+/wp-info.php 7 -
+/public/upload_nhieuanh/server/php/_index.php 7 -
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 2 -
+/libraries/joomla/jmails.php 6 -
+//ficheiros/conteudos/spy.txt 2 -
+//images/al277.php 4 www.xamcrackers.com
+/GreenS.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/settings_auto.php 2 -
+//assets/js/mylibs/kcfinder/upload/files/up.php.jd 2 -
+/c.php 1 -
+/wp-content/plugins/css-ready-selectors/file.php 1 -
+/h.php 1 -
+/px.php 1 -
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 2 -
+//web/image/Images/up.php 2 -
+/wp-admin/admin-post.php 7 -
+//app/webroot/js/tinymce/plugins/imgsurfer/main.php 5 -
+//libraries/joomla/wso.php 1 -
+/wp-content/xml.php 1 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php 5 -
+/images/gh.php 1 -
+/king.php 1 -
+//wp-content/uploads/apYuSR.php 1 -
+/admin2.asp 1 -
+/xmlrpc.php 12 -
+//sites/all/libraries/elfinder/files/apYuSR.php 1 -
+/4.php 1 -
+/assets/scripts/modernizr.bootstrap.min.pagespeed.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+/cpcrack.php 1 -
+/olux.php 18 -
+/hx.php 1 -
+/p.php 1 -
+//cli/40dd1d.php 4 www.xamcrackers.com
+/wp-content/uploads/jsspwned.php 4 -
+//cache/support.php 4 www.xamcrackers.com
+//wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__vmkta.php 1 -
+/images/ls.php 1 -
+/good.php 1 -
+/media/kunena/avatars/resized/size36/users/new_side.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/jsspwned.php 2 -
+/wp-content/jssor-slider/jssor-uploads/jsspwned.php 2 -
+/ajax.php 1 -
+/hhh.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 4 -
+//libraries/jscripts/kcfinder/upload.php 2 -
+/wp-content/upgrade/404.php 1 -
+/index.php/frontend/index 9 -
+/wp-content/plugins/mobile-app-builder-by-wappress/jsspwned.php 2 -
+/images/newsr.php 1 -
+//images/xxx.php 4 www.xamcrackers.com
+/administrator/components/com_rokdownloads/assets/uploadhandler.php 1 -
+/images/admin.php 1 -
+/img/ 6 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 4 -
+/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/ande.php 1 -
+/fozi.php 1 -
+/wp-content/plugins/upspy/lama.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 3 -
+/wp-content/plugins/upspy/lux.php 1 -
+//web/image/upload.php 2 -
+/administrator/components/com_galek.php 1 -
+/xaishell.php 1 -
+/tool.php 1 -
+/templates/beez/index.php 6 -
+/index1.php 1 -
+/xai.php 1 -
+/components/com_foxcontact/_func.php 1 -
+/userfiles/file/spy.txt 1 -
+/ajax/api/hook/decodeArguments 3 -
+/images/X.php 1 -
+/wp-content/themes/satoshi/upload-file.php 2 -
+//wp-admin/network/plugin-delete.php 1 -
+//js/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+//modules/mod_simplefileuploadv1.3/elements/udd.php 1 http://www.xamcrackers.com//modules/mod_simplefileuploadv1.3/elements/udd.php
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/wp-content/plugins/wp-manager/x.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/scan.php 1 -
+/0day.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 4 -
+//uploadify/uploadify.php 1 http://www.xamcrackers.com//uploadify/uploadify.php
+/xleet.php 1 -
+//modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/lean.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 4 -
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/com_sexycontactform/fileupload/files/xWarning.php 2 -
+/wp-content/plugins/spirit-templates/accdb.php 1 -
+/wp-waf.php 1 -
+//server/php 5 -
+//tpl/plugins/upload9.1.0/server/php/ 6 -
+/wp-time.php 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 4 -
+/z.php 1 -
+/images/guide.php 1 -
+/root.php 2 -
+/files/uploadify/uploadify.php 3 -
+/wp-update.php 1 -
+//images/block/up.php 2 -
+/wp 1 http://xamcrackers.com/wp
+/tmp/vuln.php 6 -
+/iindex.php 1 -
+/dr.php 1 -
+//media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/00.php 1 -
+/cfg-contactform-1/inc/upload.php 3 -
+/help.php 1 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/098.php 6 -
+//server/php/ 2 -
+/cw.php 1 -
+/zx.php 1 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 2 -
+/ssl.php 1 -
+/wp-contacts.php 1 -
+//public/js/plugins/imgsurfer/main.php 5 -
+/wp-content/plugins/stats/instoll.php 1 -
+//assets/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+//js/ckeditor/kcfinder/upload.php 2 -
+/admin 11 -
+//assets/global/plugins/jquery-file-upload/server/php/ 7 -
+/new_license.php 6 -
+/blog/ 1 -
+/xx.php 1 -
+/vehiculo_photos/server/php/ 4 -
+/xupe.php 1 -
+/list.php 1 -
+/assets/css/A.bootstrap.css%2Bbootstrap-theme.css%2Biconmoon.css%2Bchosen.css%2Bjquery.mobile-menu.css%2CMcc.nFVI-iJzkJ.css.pagespeed.cf.Ge17Y27ILx.css 1 http://www.xamcrackers.com/index.php/frontend/contact
+/cc.php 1 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/blog/robots.txt 26 -
+/wp-xss.php 1 -
+/wp-admin/install.php 9 -
+/alf.php 1 -
+/I.php 1 -
+/assets/scripts/jquery.js.pagespeed.jm.J-8M9bCq0j.js 2 http://www.xamcrackers.com/index.php/frontend/contact
+/produtos.php 1 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 4 -
+/killer.php 1 -
+/wp-content/uploads/settingsimages/2019/10/en/jsspwned.php 50 -
+/web/image/Images/up.php 4 -
+/js2.php 1 -
+//ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/hh.php 1 -
+//media/1ndex.php 4 www.xamcrackers.com
+/xp.php 1 -
+/admin/webroot/cache/59725b922cb18ad815fffe5446463048.php 1 -
+/priv8.php 1 -
+/login/news/wp-includes/wlwmanifest.xml 6 -
+/wp-includes/SimplePie/Canonical.php 1 -
+/g.php 1 -
+/roots.php 1 -
+/wp-content/plugins/upspy/xleet.php 1 -
+/img/newsr.php 1 -
+/V5.php 12 -
+/wp-content/themes/multimedia1/server/php/files/jsspwned.php 2 -
+/wp-content/uploads/user_uploads/test/jsspwned.php 4 -
+/hacked.php 1 -
+/web_xml.php 1 -
+/Themes/themeone/assets/css/materialdesignicons.css.map 33 -
+/pdf/ 6 -
+/sender.php 1 -
+//images/1ndex.php 4 www.xamcrackers.com
+/wp-content/plugins/pitchprint/uploader 1 -
+/wp-includes/cm3.php 1 -
+/x3.php 1 -
+/wp-content/uploads/wpstorecart/jsspwned.php 2 -
+/ler.php 1 -
+/wp-content/uploads/2019/07/rsx.php 1 -
+/wp-content/themes/beach_apollo/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 2 -
+/XxX.php 7 -
+/fuck.php 1 -
+/ks.php 1 -
+/yy.php 1 -
+/js/ckeditor/kcfinder/upload.php 4 -
+/components/com_sexycontactform/fileupload/ 1 -
+/wp-content/plugins/wordpress-member-private-conversation/doupload.php 4 -
+//tmp/petx.php 3 -
+/wp-content/plugins/widget-logic/mini.php 6 -
+/1337w0rm.php 1 -
+/n.php 1 -
+//wp-content/_input_3_raiz0.php5 2 -
+/wp-content/themes/library/visual-editor/lib/upload-header.php 2 -
+/ads.txt 27 -
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 1 -
+//wp-content/plugins/SocketIasrgasfontrol.php 4 www.xamcrackers.com
+/blog/wp-admin/install.php 2 -
+/setting.php 1 -
+/wp-crons.php 1 -
+//kcfinder-2.51/upload/files/up.php.jd 2 -
+/qq.php 1 -
+/img/index.php 1 -
+/wp-content/plugins/wp-manager/file.php 1 -
+/wp-content/plugins/webapp-builder/server/images.php 2 -
+/up3.php 1 -
+/wp-content/uploads/wysija/themes/v5wysija/jsspwned.php 2 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/uploadify.php 2 -
+/kcfinder-2.51/upload.php 4 -
+/wp-content/vuln.php 9 -
+/login/2019/wp-includes/wlwmanifest.xml 5 -
+//images/robots.txt.php 4 www.xamcrackers.com
+/wp-content/uploads/$year/$month/jsspwned.php 6 -
+/gg.php 1 -
+/wp/wp-includes/wlwmanifest.xml 7 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 3 -
+/sa.php 1 -
+/feal.php 1 -
+//fckeditor/editor/filemanager/connectors/php/connector.php 2 -
+/media/wp-includes/wlwmanifest.xml 3 -
+/wp-includes/wolfm.php 1 -
+//assets/ckeditor/kcfinder/upload.php 2 -
+/wp-content/plugins/webapp-builder/jsspwned.php 2 -
+/admin/index.php 1 -
+/lol.php 1 -
+/noname.php 1 -
+/wp-content/plugins/upspy/tbmailer.php 1 -
+/o.php 1 -
+/wp-content/wljzlh.php 1 -
+/scripts/jquery/kcfinder/upload.php 4 -
+/components/com_b2jcontact/izoc.php 6 -
+/wp-content/plugins/background-image-cropper/new_license.php 1 -
+/wp-content/plugins/upspy/index.php 6 -
+/images/00.php 1 -
+//assets/uploadify/old/uploadify.php 5 -
+//tmp/pz.php 2 -
+/db.php 1 -
+/components/RxR_1571582414.php 1 -
+/wp-2018.php 1 -
+/docs/ 6 -
+/ox.php 1 -
+/login/wp/wp-includes/wlwmanifest.xml 60 -
+/error.php 7 -
+/images/k.php 1 -
+/404.php 1 -
+/wp-signup.php 1 -
+/images/ww.php 1 -
+/mini.php 1 -
+/whmcs.php 1 -
+//images/defau1t.php 4 www.xamcrackers.com
+/wp-content/themes/pinboard/uploads/jsspwned.php 1 -
+/administrator/templates/hathor/error.php 6 -
+/images/d.php 1 -
+/admins.asp 1 -
+/wordpress/wp-content/plugins/css-ready-seled/file.php 1 -
+/components/com_foxcontact/home.php 1 -
+/templates/beez_20/error.php 6 -
+/.well-known/tmp.php 1 -
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/administrator/templates/bluestork/index.php 6 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/wp-con.php 1 -
+/administrator/templates/hathor/index.php 6 -
+/wp-content/plugins/social-networking-e-commerce-1/classes/views/social-options/form_cat_add.php 2 -
+/installation/index.php 9 -
+/login/cms/wp-includes/wlwmanifest.xml 60 -
+/wp-includes/cfgsi.php 1 -
+//cache/list.php 4 www.xamcrackers.com
+//wp-content/plugins/revslider/temp/update_extract/apYuSR.php 1 -
+//scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+//tmp/guide.php 2 -
+//adminside/server/php/ 7 -
+/cocot.php 1 -
+/login/sito/wp-includes/wlwmanifest.xml 6 -
+/vuln.php 1 -
+/infusions/mp3player_panel/upload.php 3 -
+/spyshell.php 1 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 4 -
+/wp-content/jsspwned.php 2 -
+/xd.php 1 -
+/wp-admin/setup-config.php 9 -
+/alfa.php 1 -
+//plugins/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+//libraries/joomla/web.php 2 -
+/wp-content/themes/pinboard/themify/themify-ajax.php 1 -
+/user.ini.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/site/wp-includes/wlwmanifest.xml 7 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 7 -
+/eror.php 1 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+//media/jss.php 2 -
+//tmp/upxx.php 1 -
+/login/test/wp-includes/wlwmanifest.xml 6 -
+/cmd.php 1 -
+/wp-includes/wlwmanifest.xml 3 -
+/tmp/pz.php 1 -
+/wp-content/plugins/upspy/f.php 1 -
+/privmailer.php 1 -
+/jwallpapers_files/plupload/xWarning.php 2 -
+/admin/images/cal_date_over.gif 13 -
+/wp-mas.php 2 -
+/login/2018/wp-includes/wlwmanifest.xml 6 -
+//wp-content/upgrade/theme-compat/popup-pomo.php 2 -
+//media/404.php 4 www.xamcrackers.com
+/wp-upgrade.php 1 -
+/settings.php 1 -
+//admin/login.php 11 -
+/wp-content/plugins/upspy/ms.php 1 -
+/templates/atomic/error.php 6 -
+/login/wp2/wp-includes/wlwmanifest.xml 6 -
+/language/en-GB/en-GB.xml 7 -
+/indx.php 1 -
+/js.php 1 -
+/administrator/templates/isis/error.php 6 -
+/tmp/dz1.php 1 -
+/mini.phtml 1 -
+/images/upload.php 1 -
+/wp-content/plugins/pitchprint/uploader/files/jsspwned.php 2 -
+/Uploader.php 1 -
+/proshell.php 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 4 -
+/2017/wp-includes/wlwmanifest.xml 3 -
+//dswat.org/wsdl.php 4 www.xamcrackers.com
+/login/web/wp-includes/wlwmanifest.xml 6 -
+//tpl/plugins/upload9.1.0/server/php/up.php 2 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/jsspwned.php 4 -
+//tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 136
+157.47.161.143 290 322 2474689 20191011045338
+100.35.75.170 281 281 1354634 20191024202234
+50.7.234.242 248 248 13530896 20191027113323
+157.47.228.169 103 103 586665 20191001053836
+157.47.236.187 60 130 2485442 20191011073654
+221.234.157.229 31 31 5921 20191022210338
+157.37.218.171 28 29 96545 20191014105543
+216.10.241.54 20 20 1556 20191007043324
+111.175.6.65 18 18 0 20191026202403
+157.47.221.35 16 18 53671 20191013112724
+157.47.232.49 16 82 2037052 20191011060934
+157.37.209.68 15 37 1101176 20191014110905
+185.81.157.137 14 17 137228 20191026110932
+51.89.171.236 14 14 82621 20191018155436
+13.90.201.180 13 13 253890 20191024223759
+142.4.218.156 12 12 198794 20191026062708
+116.206.14.30 11 58 1491983 20191025061147
+42.107.227.7 9 63 1597780 20191020094648
+157.47.191.15 9 64 1533706 20191011033119
+18.217.150.56 8 34 728333 20191030140649
+41.230.157.20 8 8 47223 20191021115305
+157.37.186.240 8 9 133999 20191012054039
+51.36.232.230 7 10 35586 20191012201415
+42.107.224.151 7 8 381045 20191022091135
+149.28.64.147 6 6 117180 20191025115240
+157.37.158.118 4 4 12660 20191012055039
+35.226.215.151 1 1 19366 20191007084333
+198.50.231.135 2 2 38732 20191007024711
+18.237.166.39 1 1 5902 20191012093556
+216.145.5.42 1 1 5931 20191010152500
+34.217.72.161 1 1 5903 20191020062558
+157.37.184.142 4 4 12660 20191012061040
+178.171.93.212 1 1 5905 20191024112647
+51.143.138.174 1 1 19530 20191020140917
+51.68.152.26 1 1 5896 20191002175854
+185.17.149.168 4 4 79277 20191024103440
+34.210.112.154 1 1 5902 20191028073614
+54.39.245.135 2 2 11844 20191017115309
+3.16.48.8 3 3 58590 20191018175539
+157.47.211.24 5 33 913645 20191001053326
+74.125.210.63 0 9 453152 
+46.243.221.63 1 1 5904 20191025134520
+52.204.27.85 1 1 19530 20191002131341
+193.25.101.187 2 27 723996 20191001194458
+3.19.218.126 2 2 39060 20191019014629
+118.127.15.84 5 5 98183 20191013174930
+74.125.210.61 1 8 208450 20191030185648
+40.87.125.220 4 4 78120 20191010001137
+54.36.17.98 2 2 39060 20191006155240
+176.8.90.196 1 1 19366 20191010081919
+185.246.210.171 1 1 19530 20191006081447
+66.129.102.52 2 2 38732 20191018045639
+157.41.35.112 1 1 19530 20191017105539
+173.252.95.4 1 1 5902 20191012085344
+54.89.3.29 1 1 19366 20191009023556
+185.215.150.204 3 3 17777 20191002131404
+173.252.95.28 1 10 235842 20191012085349
+105.66.1.176 1 1 19530 20191022221720
+34.215.18.153 1 1 5895 20191023053931
+185.81.157.31 4 4 78120 20191027171836
+173.252.95.20 0 11 544423 
+220.181.77.162 4 58 1706336 20191018024415
+173.252.95.42 0 8 109556 
+51.77.246.199 2 29 853167 20191026062923
+185.81.157.112 6 6 62804 20191025140224
+54.91.25.8 4 4 23692 20191020152805
+40.89.137.103 1 1 19530 20191021003726
+158.46.208.65 1 1 5905 20191010125544
+40.112.185.217 2 2 39060 20191005184407
+54.244.49.57 1 1 5904 20191024054144
+167.71.110.235 3 3 58590 20191025105539
+212.83.173.129 2 2 39060 20191009091129
+34.215.184.21 1 1 5897 20191029095803
+217.61.56.65 3 3 58590 20191025044050
+52.88.110.186 1 1 5902 20191003222252
+34.209.189.47 1 1 5907 20191006061646
+74.125.210.59 1 12 191545 20191030185645
+102.157.87.75 1 1 5930 20191016022603
+51.89.169.22 3 3 25458 20191027003437
+34.90.43.212 4 4 23712 20191004180714
+34.219.168.5 1 1 5896 20191003203123
+157.245.210.90 4 4 78120 20191014192501
+34.94.246.185 2 2 25455 20191002132652
+54.202.75.50 1 1 5902 20191022054324
+3.14.255.131 5 5 435 20191007043325
+35.167.233.44 1 1 5899 20191011092232
+18.197.227.110 5 5 435 20191007043325
+5.188.62.5 1 1 5902 20191019105426
+212.227.201.159 1 1 19530 20191026134949
+212.69.0.10 1 1 5896 20191020050049
+180.248.123.127 1 1 5905 20191008171752
+144.202.94.161 2 2 39306 20191025012611
+34.222.229.130 4 4 348 20191007043323
+221.234.158.167 2 2 11850 20191026025429
+54.189.37.103 1 1 5912 20191014090644
+67.227.34.201 1 1 5898 20191005181025
+173.211.111.7 1 1 5900 20191031045406
+185.219.168.254 2 2 11852 20191009041442
+45.32.14.134 1 1 19530 20191002135724
+196.75.96.173 4 4 23704 20191007162618
+51.77.246.200 2 29 853171 20191002122304
+52.42.63.82 1 1 5899 20191002000907
+3.17.180.126 1 1 5929 20191023065550
+34.213.54.225 1 1 5903 20191026014632
+93.119.227.91 1 1 19530 20191002134451
+178.128.157.240 1 1 0 20191022045839
+178.137.86.189 1 1 19366 20191027125753
+54.203.215.92 1 1 5903 20191015094300
+69.58.178.28 3 3 14081 20191029105421
+212.32.234.23 1 1 19366 20191004185354
+196.229.151.32 1 1 5931 20191020151041
+209.141.53.185 2 2 39060 20191003125044
+157.47.177.217 1 4 14457 20191011033229
+66.133.109.36 5 5 435 20191007043325
+52.24.62.183 1 1 5899 20191026070748
+154.0.26.76 1 1 19530 20191001004520
+124.206.180.180 1 1 19366 20191025161048
+35.165.116.141 1 1 5899 20191004072416
+203.98.92.72 1 1 5929 20191013195939
+178.164.164.35 1 1 5907 20191008064004
+38.145.76.83 1 1 5900 20191017063029
+157.47.189.56 2 29 853142 20191011055917
+157.47.221.146 4 33 1358223 20191027075224
+51.158.125.36 1 1 5897 20191031091503
+188.166.114.112 2 2 9567 20191002061752
+18.237.250.56 1 1 5899 20191016070733
+51.68.223.52 1 1 5927 20191012112051
+137.59.226.98 3 3 17938 20191006071438
+104.198.126.228 1 1 5925 20191028042240
+188.165.56.102 6 6 117180 20191029022646
+82.102.21.187 1 1 5928 20191011174836
+157.37.145.49 4 4 12660 20191012060039
+36.72.213.83 1 1 19530 20191005145331
+157.37.185.14 6 8 273318 20191012062205
+51.38.198.214 1 1 13734 20191006005952
+54.212.87.146 1 1 19366 20191022125553
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20191001 111 164 2243836 4
+20191002 14 41 976355 9
+20191003 4 4 50858 3
+20191004 6 6 48977 3
+20191005 4 4 64488 3
+20191006 10 10 135229 6
+20191007 46 46 85011 9
+20191008 2 2 11812 2
+20191009 8 8 128868 4
+20191010 27 27 161724 5
+20191011 406 659 9564960 10
+20191012 38 72 1407965 11
+20191013 46 48 273883 4
+20191014 48 71 1281753 4
+20191015 237 237 13304407 2
+20191016 2 2 11829 2
+20191017 81 81 427208 11
+20191018 45 99 2015646 7
+20191019 22 22 119835 3
+20191020 17 71 1658732 6
+20191021 41 44 244883 6
+20191022 52 53 627064 8
+20191023 51 51 264543 6
+20191024 35 35 293368 9
+20191025 29 76 1762001 9
+20191026 44 71 1230869 10
+20191027 18 47 1610965 7
+20191028 2 2 11827 2
+20191029 7 7 78568 3
+20191030 10 63 1581480 3
+20191031 2 2 11797 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+0s-30s 119
+30mn-1h 7
+15mn-30mn 6
+30s-2mn 19
+5mn-15mn 8
+2mn-5mn 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 198
+/login 401 3696830 143 135
+/exams/student/categories 92 287342 4 0
+/dashboard 68 269224 0 0
+/register 55 349477 0 2
+/site/about-us 45 204085 0 1
+/site/pricing 32 143521 0 0
+/site/terms-conditions 28 258933 0 0
+/site/pattren 28 152759 0 0
+/exams/student/start-exam/refresh-csrf 28 88750 0 4
+/LMS/all-categories 27 242810 0 0
+/site/privacy-policy 27 163703 0 1
+/site/syllabus 26 176186 0 0
+/LMS/all-categories/english-grammer-3e78195ac5113afd87a1e9d19bc54e358e5edaa1-2 24 153011 0 0
+/exams/student/quiz/getList/railway-exam-5 20 20278 0 3
+/site/courses 18 99935 0 0
+/LMS/contents/english-33405445ff8fe7e2319552cc38be167fd8730f84-3 17 106563 0 0
+/login/xmlrpc.php 17 332010 12 0
+/exams/student/exams/railway-exam-5 16 72148 0 0
+/Themes/themeone/assets/site/fonts/fontawesome-webfont.woff2 15 1157400 2 8
+/home 12 209604 1 1
+/LMS/contents/english-conversation-practice-841eb404762bb5a6d27df7d59580cd96bce5456e-13 9 75406 0 0
+/practice-exams 7 125709 0 0
+/exams/categories 7 32790 1 0
+/exams/categories/getList 7 62026 0 1
+/exams/start-exam/reasoning-ff5f6112ffc91c1745460088e840d89339bb4c5e-16 6 400708 0 0
+/exams/start-exam/chemistry-basics-3c5a73f893b391c74ecf1cb37c7432208661883b-20 3 205389 0 0
+//zibi.php 2 0 0 0
+//up.php 2 0 0 0
+/exams/start-exam/udaan-demo-c6cbfce0617ba3c13117245323de0e3bb482c16f-21 4 145152 0 0
+/public/fonts/materialdesignicons-webfont.woff2 2 170664 0 1
+//mide.php 2 0 0 0
+/users/settings/roopsingh-52 2 9495 0 0
+//up14.php 1 0 0 0
+/users/settings/dashrath-37 2 9494 0 0
+/users/settings/kalua-35 4 18851 0 0
+/exams/quiz/edit/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23 2 16848 0 0
+//cv.php 1 0 0 0
+//vendor/phpunit/phpunit/phpunit.xsd 1 13734 1 1
+/Themes/themeone/assets/fonts/materialdesignicons-webfont.woff2 4 341328 0 0
+/exam/categories/maths-category 4 90904 0 0
+/exams/start-exam/electricity-and-magnetism-6a1f813a2716c80b8650c762a6bfc2d68561c320-10 3 268217 0 0
+/Themes/themeone/assets/fonts/university-system.ttf 4 168560 0 0
+/lms/video/thermodynamics-4fa10a0b4383c3b247703b7cb3ba1cd64977131c-6/7 3 52452 0 0
+//wp_logns.php 1 0 0 0
+/exams/student/start-exam/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23 4 435448 0 0
+/LMS/all-categories/physics-beab6e9d5be5ffdf4d99f0366bd72953f085a52e-1 3 52209 0 0
+/exam/categories/chemistry-5 4 47300 0 0
+/.well-known/acme-challenge/S_ANCDTFE384C88Z_QTD6E_P13UGPG45 1 64 0 0
+/users/settings/vinod-21 2 9475 0 0
+//E.php 1 0 0 0
+/users/settings/chandrabihari-48 2 9517 0 0
+/download/lms/contents/costing-9dbebffa2138e0c554684ef306eaa33944d72609-12 3 58368 0 0
+/users/settings/mohan-45 2 9474 0 0
+//wp-installation.php 1 0 0 0
+//help.php 4 0 0 0
+/student/analysis/get-by-exam/sohan-44 1 711 0 0
+/LMS/contents/spotting-errors-98ba23ddfd59e6a0a7e6648831947a44a9252543-12 3 44253 0 0
+/exams/quiz/getList 3 55515 0 0
+/users/settings/ramsingh-20 2 9488 0 0
+/users/settings/sumer-17 2 9474 0 0
+/LMS/contents/calculus-and-analysis-3f78c3f3655aa7bcb4e4f5ea2b2bdf6ab8f52eb6-4 3 44331 0 0
+/.well-known/acme-challenge/cFBXtrWvSQaFLy4oD_51MmYj8ZhaVUvxtjnJQ8qEiYw 4 348 0 0
+//active.php 2 0 0 0
+/exams/start-exam/reasoning-i-34df71e652129e3c25dd86db87bba30b483347de-19 4 357924 0 0
+/LMS/contents/history-of-the-world-3c3849ad9c7df38d1162ddd77ca923874bb8fac3-15 3 41970 0 0
+/Themes/themeone/assets/font-awesome/fonts/fontawesome-webfont.woff2 4 308640 0 0
+/LMS/contents/applied-mathematics-d7e9b1f2bb663187684226881301fffd4815e687-11 3 46746 0 0
+/users/edit/kalua-35 1 5854 0 0
+/lms/video/maths-basics-107ad449a80a7641d61acd2a3b97805c61682016-4/12 3 69387 0 0
+/download/lms/contents/number-theory-027a83b74bd41863994f834632d9d5cd3a6eefb9-7 3 23835 0 0
+//license.php 2 0 0 0
+//xup.php 1 0 0 0
+/users/settings/umashankar-50 2 9506 0 0
+/exams/categories/edit/railway-exam-5 5 28185 1 1
+/lms/video/maths-basics-107ad449a80a7641d61acd2a3b97805c61682016-4/16 3 69387 0 0
+/LMS/contents/history-ba8f8fc4664e3ab7e417d9b1c42aeefe938e2d4d-1 3 41676 0 0
+/users/settings/anil-56 3 14154 0 1
+/users/settings/dharmsingh-33 2 9501 0 0
+/users/settings/hanuman-23 2 9485 0 0
+/users/settings/amit-54 2 9470 0 0
+/users/settings/rajendra-22 2 9492 0 0
+/users/settings/demo-11 2 9479 0 0
+/exams/start-exam/oscillations-aa1e28d08e2f94a40979e15f604e7fe8571f35e3-11 3 468387 0 0
+/users/settings/virendra-29 2 9493 0 0
+/.well-known/acme-challenge/pn_PBVgzOKV3mbxwsEbVd7GyI6xtf9g0Y_KIEUHD83o 4 348 0 0
+/users/settings/manish-53 2 9481 0 0
+/users/settings/hukam-18 2 9476 0 0
+/LMS/contents/physics-7d2d479b3f6c02a4a14e5bd39ecbfdc0f0d1946a-2 3 44322 0 0
+/.well-known/acme-challenge/XKMCC-UAPYQEQBT_UO6Q2RU5XUDCJ_NU 1 64 0 0
+//zebda.php 1 0 0 0
+/download/lms/contents/formulas-89638507510a0a3f95623d4b48c91d9efa304296 3 23835 0 0
+/exam/categories 4 90848 0 0
+//kk.php 1 0 0 0
+//ny.php 2 0 0 0
+/users/settings/hemraj-15 2 9483 0 0
+/refresh-csrf 4 160 0 0
+/download/lms/contents/antonyms-lms-f061ad97a159b3c903cac5c5ca297a46a000b6c1-2 3 23835 0 0
+/users/settings/dilkhush-31 3 14293 0 0
+/users/settings/nehru-26 2 9475 0 0
+/LMS/all-categories/maths-formulas-832d885822d1d19e60bf151d237d03d3db14cbb5 4 92160 0 0
+/exams/questionbank/view/railway-0195f58384b31a98f84a037a70c0e028a429c6d2-1 1 4793 0 0
+/users/settings/chetram-24 2 9486 0 0
+/student/bookmarks/getSavedList 4 8 0 1
+/users/settings/munesh-32 2 9480 0 0
+/.well-known/acme-challenge/tfdIiPAIUjqPo3cnuJknhVcdZHvg_okT5XAyxysKqj0 4 348 0 0
+/exam/categories/physics-2 4 99144 0 0
+/exam/categories/history-category-4 4 75312 0 0
+/lms/video/maths-basics-107ad449a80a7641d61acd2a3b97805c61682016-4/9 3 69366 0 0
+/users/settings/shivkesh-49 2 9500 0 0
+/.well-known/acme-challenge/_2-BDGPHA_IJR2VOY4YH5UPC-BC-MEDC 1 64 0 0
+/exams/start-exam/history-quiz-i-dbb36c717b2a546395bca4f01cf8b8e2fe763b5d-6 3 448158 0 0
+/exams/start-exam/thermodynamics-b7d789e1b3223850cb80d3b09d70604fda2ec42f-9 3 307804 0 0
+/exams/quizzes 3 14071 0 0
+/users/settings/harisingh-38 2 9493 0 0
+/LMS/contents/electricity-and-magnetism-fc97e568de2d19ea12e149c24870afe2c0d861f7-9 3 46923 0 0
+/users/settings/kishan-28 2 9480 0 0
+//admin 1 0 0 1
+/users/settings/kamlesh-16 2 9489 0 0
+//u.php 2 0 0 0
+/exams/student-exam-series/list 5 15175 0 0
+/LMS/contents/algebra-a303119e0db6a9bbc428921315f37ce44de97b59-4 4 45981 0 0
+/.well-known/acme-challenge/FBT9BRRZDZQW9Q_XWU3V_80TI-LC-30S 1 64 1 0
+/download/lms/contents/fluid-mechanics-lms-d79ac2a53ff73a7984bd598bfba010cc4cc111b4-1 3 2743296 0 0
+/exams/start-exam/economy-30e573651e6eb3e2f1eafca3af77b36555d919d4-12 3 226620 0 0
+/users/edit/chandrabihari-48 1 5913 0 0
+/users/settings/kamlesh-43 2 9489 0 0
+/LMS/contents/geometry-and-topology-7134f19b23a31a5f254d6ebda1c819fd9a48d94f-5 5 53313 0 0
+/lms/video/thermodynamics-4fa10a0b4383c3b247703b7cb3ba1cd64977131c-6/14 3 52461 0 0
+/users/settings/manoj-19 2 9477 0 0
+/exams/questionbank 2 9288 0 0
+//apYuSR.php 1 0 0 0
+/exams/start-exam/algebra-1b226e24d5b271cfa1ca8938903937e0f6f1150d-17 4 393276 0 0
+/lms/video/maths-basics-107ad449a80a7641d61acd2a3b97805c61682016-4/15 3 69387 0 0
+/LMS/contents/number-theory-14c4eb60b5804580be846562d6adb696c6e1037f-10 4 48775 0 0
+//default_component.php 2 0 0 1
+/.well-known/acme-challenge/EP436AXN8C2EJ2INBF5I4U8Z5WSBLG-O 1 64 0 0
+/.well-known/acme-challenge/NWEIImM0Cs6o4PX3ftdfJBYVSnfR_MLVKp8JartByWs 4 348 4 0
+/download/lms/contents/accounting-04b97ec6c35a7a9ed09a954aadc34bb5dd28a24b-11 3 23835 0 0
+//go.php 2 0 0 0
+/exams/start-exam/number-series-83ea7318a8a7c823875d535d7bb1e0c9800f763d-18 5 348947 0 0
+/student/exam/answers/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23/8b0c838aa58d0441d0a31de3ddd53c4de76bf6ba 1 120215 0 1
+/lms/video/maths-basics-107ad449a80a7641d61acd2a3b97805c61682016-4/10 3 69387 0 0
+/lms/video/maths-basics-107ad449a80a7641d61acd2a3b97805c61682016-4/11 3 69387 0 0
+/.well-known/acme-challenge/HNs1kyjPPNfi2yfbgWML6Z4-nhttjyycX-X2rZw-ibA 3 261 0 3
+/exams/student/finish-exam/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23 2 7779 0 0
+/.well-known/acme-challenge/oQbioPf8jxHXXGUymVYpsJx8-eSdaOd-iiIpr6MKMAI 4 348 0 1
+//ws0.php 2 0 0 0
+/lms/video/thermodynamics-4fa10a0b4383c3b247703b7cb3ba1cd64977131c-6/13 3 52461 0 0
+//Jijle3.php 1 0 0 0
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 0 0 0
+/users/settings/nihal-25 2 9474 0 0
+/exams/start-exam/fluid-mechanics-62fd2efd2af587e03d55ae2c7e8a98fd0e02c81f-8 3 231487 0 0
+//nktt.php 2 0 0 0
+/contact-us 3 13758 0 0
+/download/lms/contents/synonyms-f5dfd2147e803dfe5fc7330fd8f73e87816dc019-3 3 58368 0 0
+//xmlrpc.php 1 0 0 0
+/LMS/all-categories/history-5de9a37daba64875a5d5fad74880e69555bca034-5 3 52020 0 0
+/.well-known/acme-challenge/AYIL8AS1IWW3SE4A0NZ-CJT9Z0TO763Y 1 64 0 0
+//ldskflks 1 0 1 1
+/users/settings/lalit-55 2 9472 0 0
+/users/settings/balicharan-57 2 9499 0 0
+/LMS/contents/fundamental-concepts-d82b9e0a2653dc56be4c92e5a06ca3c4a1fbd962-8 3 44403 0 0
+/.well-known/acme-challenge/12GB98186EOCPN-4WPQK83-VK1O2YPMR 1 64 0 0
+/users/settings/sohan-44 2 9474 0 0
+/users/settings/narayansingh-41 2 9515 0 0
+//m.php 2 0 0 0
+/exams/start-exam/mechanics-quiz-63064939929acb5c58676d3621e06368ddadb5ee-7 3 374404 0 0
+//wp-support.php 1 0 0 1
+//wp-configuration.php 2 0 0 0
+/student/analysis/by-exam/sohan-44 1 4017 0 0
+/lms/video/history-of-the-world-56199d0fd6adf849d03e59f2d9ff389aa7025a11-13/20 3 52461 0 1
+//css.php 2 0 0 0
+/exams/questionbank/getquestionslist/railway-0195f58384b31a98f84a037a70c0e028a429c6d2-1 1 15565 0 0
+/users/settings/vrijesh-58 2 9488 0 0
+/users/settings/hemant-34 2 9480 0 0
+/LMS/contents/number-theory-2e9b0c61e053d6ae4a2e4cd7fe2be5993e8a0b22-6 4 51428 0 0
+/exams/student/quiz/take-exam/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23 4 23580 0 0
+/exams/questionbank/getList 2 23152 0 0
+/student/exam/answers/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23/d0fa729c3d0e25cb2c71d18dcd350682750befc4 1 119725 0 1
+/download/lms/contents/electricity-and-magnetism-56ed809154e59c8b3534e53569ad261ab0551014-8 3 2743296 0 0
+/users/settings/tikamchand-39 2 9499 0 0
+//hh.php 1 0 0 0
+/users/settings/devendra-42 2 9494 0 0
+/Themes/themeone/assets/site/fonts/fontawesome-webfont.woff 1 98024 0 0
+/exams/start-exam/history-quiz-903b752583675e25a6f7569d85c2f5da42638954-6 3 293787 0 0
+/users/settings/arvind-51 2 9481 0 0
+/lms/video/english-conversation-practice-285b88f3e0d6b509354f24e9c23ca99e6ae5d8d6-10/18 3 52593 0 0
+/exam/categories/chemistry-category-3 4 59732 0 0
+//x.php 2 0 2 0
+/LMS/contents/costing-7d5b6f0eebfb087b77e431f8767f6d000e42bb2e-14 3 46482 0 0
+//b1.php 2 0 0 0
+/.well-known/acme-challenge/Aigk6QeLR8WDtZW96i6zwqAEixadJg5qwke2hvmk7NQ 4 348 0 0
+/users/settings/bablu-27 2 9479 0 0
+/.well-known/acme-challenge/85lGwzF2FPYXmRbL8Jyd4Lxi1hRREPRMnJJKgChtkoA 4 348 0 1
+/.well-known/acme-challenge/A8I-W2FZCZ1OS69N34ALW35YAEGJEMU7 1 64 0 0
+/users/settings/nepali-36 2 9479 0 0
+/exams/start-exam/fundamentals-56514734f3af5b4c300aeb3cbde243da5f80f366-7 3 311451 0 0
+/LMS/contents/mathematical-physics-0a4862bc4960b3b0feb14f26bb0366008e334ba8-7 6 60913 0 0
+END_SIDER

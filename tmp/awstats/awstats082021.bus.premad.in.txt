@@ -1,0 +1,699 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202108 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/awstats.bus.premad.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2683                
+POS_VISITOR 18876               
+POS_DAY 20212               
+POS_DOMAIN 3348                
+POS_LOGIN 3656                
+POS_ROBOT 3811                
+POS_WORMS 3943                
+POS_EMAILSENDER 4074                
+POS_EMAILRECEIVER 4217                
+POS_SESSION 20674               
+POS_SIDER 20841               
+POS_FILETYPES 4352                
+POS_DOWNLOADS 4468                
+POS_OS 4516                
+POS_BROWSER 4707                
+POS_SCREENSIZE 5036                
+POS_UNKNOWNREFERER 5110                
+POS_UNKNOWNREFERERBROWSER 5784                
+POS_ORIGIN 6327                
+POS_SEREFERRALS 6461                
+POS_PAGEREFS 6605                
+POS_SEARCHWORDS 6753                
+POS_KEYWORDS 6905                
+POS_MISC 2347                
+POS_ERRORS 6964                
+POS_CLUSTER 3512                
+POS_SIDER_404 7080                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210901120958 1 0 13788449958006
+FirstTime 20210801094357
+LastTime 20210830060944
+LastUpdate 20210901181241 1 0 0 0 0
+TotalVisits 39                  
+TotalUnique 34                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 34                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+AddToFavourites 0 2 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 512 28 30 10476
+1 16 16 6770 82 82 43492
+2 0 0 0 7 7 2824
+3 2 2 512 19 19 6406
+4 8 8 2048 236 503 175680
+5 4 4 1024 47 47 10512
+6 2 2 894 25 25 8554
+7 12 12 5364 116 116 60776
+8 2 2 894 7 11 6056
+9 4 4 1406 89 93 31578
+10 2 2 512 4 4 1168
+11 0 0 0 4 4 1168
+12 14 14 5876 88 88 46276
+13 10 10 4470 72 72 39834
+14 6 6 2504 69 73 28252
+15 0 0 0 1 1 226
+16 8 8 3398 100 100 42208
+17 2 2 894 1 1 226
+18 2 2 894 0 0 0
+19 0 0 0 13 13 4654
+20 10 10 4292 38 38 20726
+21 6 6 2682 61 61 23702
+22 18 18 2488 234 501 174964
+23 0 0 0 79 79 27016
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 92 92 36182
+cn 14 14 3584
+gb 8 8 2812
+in 6 6 768
+gr 4 4 1788
+sg 2 2 512
+nl 2 2 894
+fr 2 2 894
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+Unknown 12 952 0 0
+html 116 45766 0 0
+php 2 716 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+winxp 2 2
+win8.1 2 2
+Unknown 24 24
+linuxandroid 4 4
+macosx9 12 12
+linux 2 2
+win10 72 72
+win7 2 2
+macosx10 8 8
+ios_iphone 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+chrome85.0.4183.102 4 4
+chrome88.0.4240.193 34 34
+chrome39.0.2171.95 8 8
+safari9.0 2 2
+chrome60.0.3112.107 2 2
+chrome78.0.3904.108 30 30
+Unknown 14 14
+netscape 2 2
+chrome36.0.1985.125 14 14
+android 2 2
+firefox63.0 2 2
+firefox58.0 2 2
+firefox17.0 2 2
+firefox50.0 4 4
+mozilla 8 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210828144943
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210828011540
+Mozilla 20210823040130
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210829223138
+Cpanel-HTTP-Client/1.0 20210829221932
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Cpanel-HTTP-Client/1.0 20210829221932
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210828011540
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210828144943
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 130 130
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+406 132 24860
+404 1810 741130
+409 4 332
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 371
+/images/default/post_bt.gif 4 -
+/console/auth/reg_newuser.jsp 4 -
+/test/ 2 -
+/system/Login.aspx 4 -
+/cindex.php 4 anonymousfox.co
+//DesktopModules/YA.Controls/AngularMain/Telerik.Web.UI.DialogHandler.aspx 1 -
+/alfa.php 8 anonymousfox.co
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 4 -
+/help/user/index.html 4 -
+/fckeditor/fckconfig.js 4 -
+/style/default/hdwiki.css 4 -
+/themes/graphics/horde-power1.png 4 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 4 -
+/wp-includes/lfx.php 4 anonymousfox.co
+/wso.php 4 -
+/includes/general.js 4 -
+/examples/index.html 4 -
+/wp-cron.php 4 -
+/ycportal/js/wbTextBox/showimg.jsp 4 -
+/phpmyadmin/ 4 -
+/editor/fckeditor.js 4 -
+/Editor.js 4 -
+/system/Update.aspx 4 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 4 -
+/robots.txt 8 -
+/plus/rssmap.html 4 -
+/admin/admin_login.php 4 -
+/old-index.php 4 anonymousfox.co
+/static/hgicon.png 4 -
+//DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 1 -
+/dup-installer/main.installer.php 2 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 4 anonymousfox.co
+/style.php 4 anonymousfox.co
+/UserCenter/css/admin/bgimg/admin_all_bg.png 4 -
+/wp-content/ 14 -
+/boom.php 4 anonymousfox.co
+/base/login/login.php 4 -
+//Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 4 -
+/forums/list.page 4 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 4 -
+/business/images/index-gg1.jpg 4 -
+/wordpress/ 14 -
+/CHANGELOG.txt 4 -
+/2020/wp-includes/wlwmanifest.xml 12 -
+/plus/heightsearch.php 4 -
+/adminsoft/templates/images/login_bg_top.jpg 4 -
+/legion.php 4 anonymousfox.co
+/license.txt 4 -
+/images/hwem.css 4 -
+/wp-admin/css/ 2 binance.com
+/js/ajax_x.js 4 -
+/web/wp-includes/wlwmanifest.xml 22 -
+/ymail/images/index_r1_c4.jpg 4 -
+/common/help/images/helplogo_zh.gif 4 -
+/licence.txt 4 -
+/sh3ll.php 4 -
+/siteserver/upgrade/default.aspx 4 -
+/wp/wp-includes/wlwmanifest.xml 24 -
+/admin/login.aspx 4 -
+/wp2/wp-includes/wlwmanifest.xml 24 -
+/console/js/CWCMDialogHead.js 4 -
+/wp-content/plugins/ubh/up.php 4 anonymousfox.co
+/leaf.php 4 -
+/desktopmodules/telerikwebui/radeditorprovider/telerik.web.ui.dialoghandler.aspx 1 -
+/DesktopModules/Base/EditControls/Telerik.Web.UI.DialogHandler.aspx 1 -
+/archive/archive.css 4 -
+/ids/admin/userhome/forgetPwd.jsp 4 -
+/_profiler/phpinfo 2 -
+/was/main.html 4 -
+/nobody/mobile.htm 4 -
+/up.php 4 anonymousfox.co
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 1 -
+/pub/guiedit/guiedit.js 4 -
+/config.js 2 -
+/aws.yml 2 -
+/static/images/logo/webserver_small.gif 4 -
+/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 1 -
+/mini.php 4 -
+/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css 4 anonymousfox.co
+/siteserver/login.aspx 4 -
+/fckeditor/editor/dtd/fck_dtd_test.html 4 -
+/wp-content/mu-plugins/db-safe-mode.php 4 anonymousfox.co
+/mailer.php 4 -
+/phpmyadmin/themes/original/img/logo_right.png 4 -
+/v.php 4 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 4 -
+/themes/default/default.css 4 -
+/readme.html 4 -
+/phpmyadmin/docs.css 4 -
+/XxX.php 4 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 4 -
+/404.php 4 -
+/changelog.txt 4 -
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 1 -
+/wp-content/plugins/backup_index.php 4 anonymousfox.co
+/examples/readonly.html 4 -
+/forum.php 4 -
+/jcms/index.jsp 4 -
+/uc_server/control/admin/db.php 4 -
+/admin/controller/extension/extension/ 4 binance.com
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 4 -
+/phpinfo.php 2 -
+/api/api_user.xml 4 -
+/editor/js/fckeditorcode_ie.js 4 -
+/images/login_Name.jpg 4 -
+/sym.php 4 -
+/FCK/fckeditor.js 4 -
+///about.php 2 -
+/docs/DOCUMENTATION.txt 4 -
+/admin.php 12 anonymousfox.co
+/Admin/Common/HelpLinks.xml 4 -
+/website/wp-includes/wlwmanifest.xml 22 -
+/kindeditor-min.js 4 -
+/sites/default/files/ 4 binance.com
+/plugin.php 4 -
+/ks_inc/ajax.js 4 -
+/cgi/index.cgi 4 -
+/media/wp-includes/wlwmanifest.xml 12 -
+/install 4 -
+//DesktopModules/News/Telerik.Web.UI.DialogHandler.aspx 1 -
+/phpinfo 2 -
+/was/help.jsp 4 -
+/fckeditor/fckeditor.js 4 -
+/License.txt 4 -
+/wp-includes/fonts/css.php 4 anonymousfox.co
+/digg.php 4 -
+/alex.php 4 -
+/mar.php 4 -
+/Ntalker/lawfirm.aspx 4 -
+//dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx 1 -
+//app_master/telerik.web.ui.dialoghandler.aspx 1 -
+/Prompt/images/P_Wrong.gif 4 -
+/m 4 -
+/lang/en.js 4 -
+/history.txt 4 -
+/.aws/credentials 2 -
+/admin/SouthidcEditor/Dialog/dialog.js 4 -
+/admin/SouthidcEditor/ewebeditor.asp 4 -
+/cms/wp-includes/wlwmanifest.xml 24 -
+/Admin/Images/LoginImages/admin_top.gif 4 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 4 -
+/plugins/filemanager/filemanager/js 4 -
+/wp-content/plugins/ioptimization/IOptimize.php 4 anonymousfox.co
+/div/ 2 -
+/uploads/ 4 binance.com
+/CuteSoft_Client/CuteEditor/Help/default.htm 4 -
+/include/install_ocx.aspx 4 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 4 -
+/index.cgi 4 -
+/coremail/common/help/images/helplogo_zh.gif 4 -
+/news/wp-includes/wlwmanifest.xml 24 -
+/wp-content/plugins/t_file_wp/t_file_wp.php 4 anonymousfox.co
+/Install/logo.gif 4 -
+/admin/template/article_more/config.htm 4 -
+/coremail/common/help/images/helplogo.gif 4 -
+/Search.html 4 -
+/deptWebsiteAction.do 4 -
+/config.php 4 anonymousfox.co
+/bbs/ 4 -
+/images/logo_88x31.gif 4 -
+/common/help/images/helplogo.gif 4 -
+/app/login.jsp 4 -
+/fckeditor.js 4 -
+/jcms/index_jcms.jsp 4 -
+/include/dialog/config.php 4 -
+/issmall/ 2 -
+/ckfinder/ckfinder.html 4 -
+/feed.asp 4 -
+/blog/wp-includes/wlwmanifest.xml 22 -
+/Images/login/biaoti.jpg 4 -
+/customdir/images/english_logo.jpg 4 -
+//DesktopModules/Base/EditControls/Telerik.Web.UI.DialogHandler.aspx 1 -
+/console/include/not_login.htm 4 -
+/addons/theme/stv1/_static/ts2/layout.css 4 -
+/app_master/telerik.web.ui.dialoghandler.aspx 1 -
+/wp-content/langar.php 4 anonymousfox.co
+/new/ 10 -
+/test/wp-includes/wlwmanifest.xml 24 -
+/Admin/Login.aspx 4 -
+/next/img/logo.gif 4 -
+/shell.php 4 -
+/404.jpg 4 -
+/weblog/ 4 -
+/whir_system/login.aspx 4 -
+/fckeditor/license.txt 4 -
+/help/ch_gb/images/help-title.gif 4 -
+/images/branding/logo.gif 4 -
+/ckeditor/ckeditor.js 4 -
+/plug/publish 4 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 4 -
+/system/language/zh-cn.xml 4 -
+/Error.aspx 4 -
+/tpl/login/user/images/login_bg_1.jpg 4 -
+/examples/file-manager.html 4 -
+/admin/ 4 -
+/files/ 4 binance.com
+/doku.php 4 -
+/info.php 2 -
+/1.php 4 -
+/wp-content/db_cache.php 4 anonymousfox.co
+/pub/skins/pmwiki/pmwiki.css 4 -
+/data/images/wap_logo.gif 4 -
+/blog/ 18 -
+/eams/static/scripts/grade/course/input.js 4 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 4 -
+/anone.php 4 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 1 -
+/admin/js/IdSUtil.js 4 -
+/forum/ 4 -
+/DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx 1 -
+/temp/ 4 -
+/stylesheet.css 4 -
+/m.php 4 -
+/template/1/bluewise/_files/jspxcms.css 4 -
+/extern.php 4 -
+/Help 4 -
+/images/2_11.gif 4 -
+/Scripts/jquery/maticsoft.jquery.min.js 4 -
+/DesktopModules/YA.Controls/AngularMain/Telerik.Web.UI.DialogHandler.aspx 1 -
+/images/login/logo.gif 4 -
+/wp-includes/small.php 4 anonymousfox.co
+/docs/ 4 -
+/login/Jeecms.do 4 -
+/themes/default/graphics/horde-power1.png 4 -
+/pak.php 4 -
+//common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 1 -
+/master/login.aspx 4 -
+/addons/theme/stv2/_static/ts2/layout.css 4 -
+/script/valid_formdata.js 4 -
+/maintlogin.jsp 4 -
+/test.php 4 anonymousfox.co
+/xmlrp.php 4 anonymousfox.co
+/g.php 4 -
+/default/css/em_css.css 4 -
+/1337.php 4 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 4 -
+/Wq_StranJF.js 4 -
+/bb.php 4 -
+/haders.php 4 anonymousfox.co
+/images/ 4 binance.com
+/Admin/Images/LoginImages/admin_text.gif 4 -
+/inc/Templates/rss.xslt 4 -
+/Images/login/lefttu.jpg 4 -
+/images/zh-CN/logo.ico 4 -
+/public/about.html 4 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 4 -
+//DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx 1 -
+/plugins/anchor/anchor.js 4 -
+/help/en/h_authenticate.html 4 -
+/system/skins/default/system.login.htm 2 -
+/asp.net/README.txt 4 -
+/fckeditor/editor/js/fckeditorcode_ie.js 4 -
+/was5/web/index.jsp 4 -
+/leafmailer2.8.php 4 -
+/README.txt 4 -
+/z.php 4 -
+/wp-content 4 -
+/User/Login.aspx 4 -
+/archiver 4 -
+/2018/ 2 -
+/rss.aspx 4 -
+/apps/admin/_static/image/login_box_bg.png 4 -
+/images/login/eyoumail.gif 4 -
+/wp-includes/wlwmanifest.xml 24 -
+/inc/playerKinds.xml 4 -
+/back/scripts/jspxcms_choose.js 4 -
+/sito/wp-includes/wlwmanifest.xml 24 -
+/include/dedeajax2.js 4 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 4 -
+/c.php 4 -
+/index.php 24 anonymousfox.co
+/wp-includes/css/css.php 4 anonymousfox.co
+/images/login/icon-up.gif 4 -
+/wp-content/wp-old-index.php 4 anonymousfox.co
+/wp/ 14 -
+/ckeditor/ckfinder/install.txt 4 -
+/send.php 4 -
+/images/Default_bg_002.gif 4 -
+/list.php 4 -
+/Images/login/mainlogo.gif 4 -
+/advfile/ad12.js 4 -
+/dialog/dialog.js 4 -
+/imagesschool/style1/flash2.jpg 4 -
+/Template/Default/Skin/user/images/login_back.jpg 4 -
+/member/space/company/info.txt 4 -
+/Public/Admin/Images/login_main_bg.jpg 4 -
+/wcm/ 4 -
+/backup/ 10 -
+/images/logo-white.png 4 -
+/kindeditor.js 4 -
+/test_404_page/ 4 -
+/old/ 10 -
+/admin 4 -
+/app/images/login/logo.png 4 -
+/ckeditor/ckfinder/ckfinder.html 4 -
+//desktopmodules/telerikwebui/radeditorprovider/telerik.web.ui.dialoghandler.aspx 1 -
+/wp-content/wp-1ogin_bak.php 4 anonymousfox.co
+/images/login9/login_33.jpg 4 -
+/datacenter/downloadApp/showDownload.do 4 -
+/data/admin/ver.txt 4 -
+/2019/wp-includes/wlwmanifest.xml 24 -
+/2017/ 2 -
+/wp1/wp-includes/wlwmanifest.xml 24 -
+/admin/inc/xml.xslt 4 -
+/plus/download.php 4 -
+/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx 1 -
+/upload.php 8 anonymousfox.co
+/rss.php 4 -
+/js/buttons.js 4 -
+/ids/admin/login.jsp 4 -
+/app/js/source/wcmlib/WCMConstants.js 4 -
+/oldsite/ 8 -
+/common/common.js 4 -
+/admin/login.php 4 -
+/admin/start/index.php 4 -
+/logo/logo_jw.png 4 -
+/alfindex.php 4 anonymousfox.co
+/helpnew/faq/faq_simple_zh_CN.jsp 4 -
+/tpl/user/tpl1/css/skins/blue.css 4 -
+/2018/wp-includes/wlwmanifest.xml 12 -
+/app/images/login/toplogo.gif 4 -
+/xsendx.php 4 -
+/images/logo_product-cml.png 4 -
+/skin/frontend/default/modern/css/styles.css 4 -
+/new_gb/help/images/usage/3.3.gif 4 -
+/ckfinder/install.txt 4 -
+/plus/sitemap.html 4 -
+/e/master/login.aspx 4 -
+/xx.php 4 -
+/Include/EcsServerApi.js 4 -
+/moduless.php 4 anonymousfox.co
+/app/home/skins/default/style.css 4 -
+/web2/login_template/1.files/Logo1.jpg 4 -
+/wp-booking.php 4 anonymousfox.co
+/.git/config 4 -
+/shop/wp-includes/wlwmanifest.xml 24 -
+/public/js/ipb.js 4 -
+/admin/index.php 4 -
+/media/com_hikashop/js/hikashop.js 4 -
+/archiver/ 4 -
+/a.php 4 -
+/site/wp-includes/wlwmanifest.xml 24 -
+/tools/rss.aspx 4 -
+/about.php 2 -
+/admin/login.asp 4 -
+/x.php 4 -
+//DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 1 -
+/DesktopModules/News/Telerik.Web.UI.DialogHandler.aspx 1 -
+/docs.css 4 -
+/bencandy.php 4 -
+/blog/robots.txt 4 -
+/srx.php 4 -
+/template/home.htm 4 -
+/script/login.js 4 -
+/whir_system/module/security/login.aspx 4 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 4 -
+/auth/login 4 -
+/max-templates/classic/styles/app.css 4 -
+/default/images/logo.gif 4 -
+/extman/default/images/logo.gif 4 -
+/wp-1ogin_bak.php 4 anonymousfox.co
+/FCK/editor/js/fckeditorcode_ie.js 4 -
+/inc/rsd.php 4 -
+/admin/editor/ 4 -
+/wordpress/wp-includes/wlwmanifest.xml 22 -
+/.well-known/ 4 binance.com
+/back/ 8 -
+/img/pic/login/top-left.jpg 4 -
+/console/js/CTRSRequestParam.js 4 -
+/images/vuln.php 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 34
+34.106.64.2 11 11 4917 20210821070949
+20.69.240.176 10 10 4470 20210805133007
+51.13.81.205 8 8 2812 20210826141456
+207.46.134.205 6 6 2682 20210803164734
+156.146.56.117 6 6 2682 20210828124223
+149.28.135.136 6 6 2682 20210812014858
+40.65.99.132 6 6 2682 20210813133903
+106.55.150.83 6 6 1536 20210805222510
+206.189.144.241 6 6 2682 20210825213831
+45.32.101.121 6 6 2682 20210813014821
+125.64.94.214 6 6 1536 20210827043416
+34.132.166.162 4 4 1432 20210812162707
+45.76.156.195 4 4 1788 20210825073925
+103.21.58.155 4 4 256 20210829221932
+40.117.77.156 3 3 1341 20210822072808
+150.255.35.82 2 2 512 20210827051307
+144.86.173.5 2 2 894 20210828011540
+62.4.14.198 2 2 894 20210830060944
+64.78.149.164 2 2 174 20210829223138
+18.116.86.117 2 2 174 20210829223137
+93.190.142.7 2 2 894 20210814181802
+65.21.245.64 2 2 512 20210829123121
+40.82.208.253 2 2 512 20210809003100
+35.240.239.36 2 2 512 20210823040130
+144.86.173.11 2 2 894 20210819205559
+92.118.160.13 2 2 894 20210823171128
+111.221.46.53 2 2 512 20210801094357
+144.86.173.12 2 2 894 20210825093822
+45.135.187.161 2 2 512 20210819102644
+3.120.130.29 2 2 174 20210829223137
+92.118.160.1 2 2 894 20210828144943
+3.17.13.185 2 2 716 20210829204916
+23.95.9.7 2 2 512 20210824055553
+52.39.4.59 2 2 174 20210829223138
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20210801 2 2 512 1
+20210803 6 6 2682 1
+20210805 16 16 6006 2
+20210809 2 2 512 1
+20210812 10 10 4114 3
+20210813 12 12 5364 2
+20210814 2 2 894 1
+20210816 2 2 512 1
+20210819 4 4 1406 2
+20210820 6 6 2682 1
+20210821 5 5 2235 1
+20210822 3 3 1341 1
+20210823 8 8 2812 4
+20210824 2 2 512 1
+20210825 12 12 5364 3
+20210826 2 2 894 1
+20210827 8 8 2048 2
+20210828 10 10 4470 3
+20210829 16 16 2180 7
+20210830 2 2 894 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 36
+2mn-5mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 113 44692 31 32
+/.well-known/acme-challenge/9IsOIwmJHqwL-o5oSuvUshd9wRa4u07yP8bfvKaUHQ0 8 696 4 4
+/c99.php 2 716 0 2
+/cgi-sys/403.html 2 716 2 0
+/.well-known/acme-challenge/Q0W0BF49OGIJGHARYBNBTG_UJWK_BR1D 2 128 1 0
+/.well-known/acme-challenge/CNJ15BHGQ8B_KHWCV90BEFVEOQ9C3XM5 2 128 0 1
+/cgi-sys/404.html 1 358 1 0
+END_SIDER

@@ -1,0 +1,2072 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.agesr.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2016                
+POS_TIME 2698                
+POS_VISITOR 41884               
+POS_DAY 55927               
+POS_DOMAIN 3614                
+POS_LOGIN 4316                
+POS_ROBOT 4471                
+POS_WORMS 5435                
+POS_EMAILSENDER 5566                
+POS_EMAILRECEIVER 5709                
+POS_SESSION 56807               
+POS_SIDER 57017               
+POS_FILETYPES 5844                
+POS_DOWNLOADS 6182                
+POS_OS 6489                
+POS_BROWSER 6792                
+POS_SCREENSIZE 9254                
+POS_UNKNOWNREFERER 9328                
+POS_UNKNOWNREFERERBROWSER 9801                
+POS_ORIGIN 10121               
+POS_SEREFERRALS 10267               
+POS_PAGEREFS 10474               
+POS_SEARCHWORDS 10911               
+POS_KEYWORDS 11092               
+POS_MISC 2362                
+POS_ERRORS 11182               
+POS_CLUSTER 4172                
+POS_SIDER_404 11360               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201002431 425 63039 12523271632292
+FirstTime 20200101004639
+LastTime 20200131211615
+LastUpdate 20200202041525 425 0 424 0 0
+TotalVisits 694                 
+TotalUnique 322                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 367                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 1 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 108 164 3119332 211 268 3632302
+1 97 168 6307235 147 197 4840254
+2 76 76 1105120 209 262 1657976
+3 148 198 3361375 174 222 1925995
+4 91 119 2750668 98 154 3685075
+5 78 155 7091500 126 166 1394703
+6 121 327 23573471 210 249 2316295
+7 68 145 8471279 77 133 2375953
+8 84 109 1694512 115 178 1469530
+9 100 140 3793342 110 167 3701025
+10 69 146 4960850 115 181 3136683
+11 65 135 6117657 79 109 3330471
+12 71 78 1449791 63 100 998081
+13 47 48 910886 65 289 6137851
+14 45 46 1021547 544 731 2281843
+15 73 87 1728703 189 342 2749343
+16 60 60 1383365 87 116 684360
+17 37 65 2586724 97 143 1051459
+18 78 78 1404505 456 503 4258133
+19 78 120 7053912 177 197 1263401
+20 70 108 3540455 67 94 1054863
+21 78 90 4831636 153 266 2959820
+22 84 85 1722122 95 130 2152045
+23 117 186 3158129 138 184 1831760
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 31
+us 644 966 17579504
+cl 256 256 1796954
+ru 214 215 6848885
+cn 189 261 17723221
+ua 101 101 2931669
+in 94 564 33180152
+gb 83 110 4351124
+pl 76 76 544190
+ca 38 39 1479172
+bd 34 103 6426313
+it 33 33 1206057
+fr 26 27 978677
+nl 26 26 772135
+de 23 24 2251816
+ro 22 22 778691
+il 20 20 717754
+no 12 12 444024
+cz 11 11 168901
+dk 8 8 296016
+ge 8 8 282432
+pt 5 5 178218
+mu 4 4 27487
+za 3 3 88688
+au 3 3 104214
+br 2 2 74004
+ee 1 1 40312
+sc 1 1 40312
+jp 1 27 1721252
+al 2 2 80624
+lv 2 2 16878
+bg 1 1 8440
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+Googlebot/ 583 6705401 20200131042619 40
+bot[\s_+:,\.\;\/\\-] 366 3834062 20200130163143 1
+baidu 153 9519973 20200130231038 0
+bingbot/ 143 8837881 20200131234204 40
+aiHitBot/ 78 765615 20200116211020 2
+bingpreview 66 1445763 20200120105840 0
+msnbot/ 52 479912 20200131093945 23
+YandexBot/ 44 413589 20200131030255 21
+Baiduspider/ 43 6769230 20200130231036 0
+unknown 27 48960 20200129054725 27
+Mail\.RU_Bot/ 20 101491 20200131013751 10
+LinkpadBot/ 19 138678 20200110055104 0
+Konqueror/ 10 81040 20200120075817 0
+Googlebot\-Image/ 7 2231578 20200126123915 0
+YandexImages/ 4 1328934 20200116064716 0
+[\s_+:,\.\;\/\\-]bot 3 78120 20200113002905 1
+(firefox/)([0-9]\.|[0-1][0]\.) 2 16886 20200121190502 0
+netEstate[\x20]NE[\x20]Crawler 1 740 20200103141222 1
+2345Explorer/ 1 17747 20200127204403 0
+no_user_agent 1 40482 20200113033218 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+png 114 15884092 0 0
+css 318 2284269 0 0
+js 369 7668868 0 0
+xml 23 51292 0 0
+Unknown 807 16876940 0 0
+aspx 1 32063 0 0
+jpeg 52 14137552 0 0
+gif 4 75204 0 0
+html 992 14425530 0 0
+jpg 104 26716909 0 0
+txt 28 1438490 0 0
+cgi 73 1360519 0 0
+php 47 548572 0 0
+pdf 1 1637816 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/CHANGELOG.txt 27 0 1436141
+/sites/default/files/AGESRCON_2018_Brochure.pdf 5 0 8189080
+/sites/default/files/off_line_registration_form.pdf 2 0 1588758
+/README.txt 1 0 2349
+/rhinoplastyupdate.in/sites/default/files/Rhinoplasty_2019_Conference4.pdf 1 0 236955
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+Unknown 99 72
+macosx9 3 3
+winxp 16 14
+winlong 5 5
+macosx10 40 12
+macosx12 2 2
+macosx11 3 3
+win7 1153 1011
+macosx8 1 1
+win8.1 309 112
+ios_iphone 146 37
+ios_ipad 54 54
+macosx 174 148
+linuxandroid 330 43
+win10 385 341
+win8 1 1
+linux 212 84
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 114
+chrome67.0.3396.99 68 68
+chrome36.0.1985.143 28 28
+chrome67.0.3396.62 61 61
+firefox59.0 2 2
+chrome38.0.1025.166 19 1
+chrome74.0.3729.108 1 1
+chrome65.0.3325.181 11 11
+firefox4 8 8
+netscape5.0 1 1
+firefox62.0 1 1
+opera62.0.3331.99 9 9
+firefox36.0 13 12
+chrome71.0.3578.99 29 1
+safari 61 5
+chrome78.0.3904.70 2 2
+safari7.0.3 1 1
+firefox47.0 3 3
+chrome39.0.2171.95 9 9
+chrome54.0.2840.59 3 3
+chrome40.0.2214.109 33 3
+firefox50.0 3 2
+chrome68.0.3440.106 54 54
+chrome66.0.3359.170 36 36
+chrome67.0.3396.79 170 170
+chrome45.0.2454.94 1 1
+chrome22.0.1207.1 2 2
+opera54.0.2952.71 10 10
+chrome53.0.2785.104 54 54
+chrome79.0.3945.116 25 3
+opera54.0.2952.54 27 27
+opera12.0 2 0
+firefox28.0 32 32
+firefox30.0 1 1
+chrome68.0.3440.84 20 20
+chrome77.0.3865.120 54 5
+edge17 9 9
+mozilla 40 13
+firefox61.0 26 26
+chrome66.0.3359.181 81 81
+safari10.1.2 30 2
+msie8.0 1 1
+chrome75.0.3770.67 50 8
+firefox71.0 61 12
+chrome76.0.3809.132 26 26
+chrome78.0.3904.97 151 151
+chrome70.0.3538.110 1 0
+msie10.0 2 0
+firefox63.0 1 1
+chrome41.0.2228.0 5 4
+chrome73.0.3683.103 4 4
+chrome35.0.1916.153 1 1
+chrome68.0.3440.75 10 10
+chrome48.0.2564.116 1 1
+firefox57.0 6 6
+chrome79.0.3945.88 97 36
+firefox54.0 1 1
+chrome71.0.3578.98 1 1
+firefox56.0 15 14
+safari11.1.2 23 23
+opera55.0.2962.0 25 25
+chrome79.0.3945.79 1 1
+opera54.0.2952.64 11 11
+opera53.0.2907.68 16 16
+firefox67.0 3 2
+chrome69.0.3497.100 1 1
+opera54.0.2952.51 12 12
+chrome63.0.3239.132 62 61
+firefox53.0 1 1
+chrome79.0.3945.117 29 1
+chrome76.0.3809.100 2 2
+chrome34.0.1847.116 5 5
+firefox64.0 35 35
+firefox66.0 1 1
+chrome67.0.3396.87 245 245
+chrome78.0.3904.108 25 25
+chrome46.0.2490.80 2 0
+chrome65.0.3325.146 11 11
+opera36.0.2130.32 2 2
+msie11.0 237 41
+opera55.0.2994.44 32 32
+opera55.0.2711.50289 31 2
+safari9.0 1 1
+safari13.0.1 4 4
+chrome79.0.3945.130 21 1
+firefox51.0 1 1
+opera53.0.2907.37 31 31
+chrome74.0.3729.169 50 5
+firefox68.0 3 3
+firefox 4 4
+chrome74.0.3729.131 1 1
+chrome5.0.375.99 4 4
+chrome40.0.2214.85 1 0
+chrome64.0.3282.140 32 2
+chrome58.0.3029.110 1 1
+chrome64.0.3282.137 87 22
+chrome41.0.2224.3 1 1
+chrome49.0.2623.112 7 7
+chrome49.0.2623.75 2 1
+chrome53.0.2785.89 8 8
+Unknown 58 58
+chrome26.0.1410.65 1 1
+chrome79.0.3945.93 60 2
+opera53.0.2907.99 59 59
+chrome72.0.3626.121 23 2
+chrome48.0.2564.109 1 1
+edge16 2 2
+chrome75.0.3770.100 27 7
+firefox69.0 1 1
+chrome30.0.1599.101 4 4
+msie6.0 1 1
+opera53.0.2907.106 9 9
+safari11.0 135 82
+firefox52.0 6 6
+firefox45.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200118014514
+colly_-_https://github.com/gocolly/colly 20200114081809
+okhttp/3.6.0 20200131083542
+Mozilla/5.0_3578.98_Safari/537.36 20200101015518
+WhatsApp/2.19.124_i 20200111052723
+Ruby 20200110210735
+Cpanel-HTTP-Client/1.0 20200131043831
+Mozilla/5.0_(compatible) 20200123081900
+ia_archiver 20200121113724
+Go-http-client/1.1 20200131185130
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Cpanel-HTTP-Client/1.0 20200131043831
+Ruby 20200110210735
+WhatsApp/2.19.124_i 20200111052723
+okhttp/3.6.0 20200131083542
+colly_-_https://github.com/gocolly/colly 20200114081809
+Go-http-client/1.1 20200131185130
+ia_archiver 20200121113724
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 633 653
+From1 4 4
+From2 61 64
+From3 109 350
+From4 1136 1862
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+sogou 5 5
+www_google_com 28 31
+bing 26 26
+www_google_co_in 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://www.facebook.com 49 49
+https://sucuri.net 29 225
+http://webcache.googleusercontent.com/search 27 27
+http://sucuri.net 2 2
+http://www.nancyblog.top/home/18314099/profile/ 1 1
+http://www.ninacecillia.top/blog/18314099/profile/ 1 1
+http://basichttpserverv3.venus.odin.sogou/post 0 45
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+bing 26
+site+www.agesr.com 5
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+bing 26
+www.agesr.com 5
+site 5
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+206 1 27235
+500 10 66731
+403 194 616258
+302 432 36765
+406 297 2759237
+404 1927 14455390
+409 861 71297
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1125
+/newrs.php 1 -
+/main//wp-admin/install.php 1 -
+/adminer-4.6.2-cs.php 1 -
+/wp-content/plugins/ubh/shell.php 1 -
+/adminer-3.6.4-cs.php 1 -
+/wsos.php 1 -
+/tmp/ 1 -
+/components/com_foxcontact/mrpatate.php 1 -
+/q1.php 1 -
+/hacked.php 1 -
+/adminer-4.0.3-mysql.php 1 -
+/member-center/member-info 3 http://agesr.com
+/x0.php 1 -
+/wp-content/bsn.php 1 -
+/zz.php 1 -
+/adminer-3.6.0.php 1 -
+/adminer-3.7.0-en.php 1 -
+/adminer-4.0.1-mysql-en.php 1 -
+/adminer-3.0.1-cs.php 1 -
+/xx.php 1 -
+/readme.php 2 -
+/images/m.php 1 -
+/user.ini.php 1 -
+/adminer-3.6.1-mysql-cs.php 1 -
+/k.php 1 -
+/adminer-4.2.5-mysql.php 1 -
+/sites/default/files/coming_soon.gif 1 -
+/lean.php 1 -
+//wp-content/plugins/prh-api/vendor/phpunit/phpunit/build.xml 3 -
+/adminer-4.2.1.php 1 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 3 -
+/mysql.sql 1 -
+/wp-content/plugins/ppus/joom.php 1 -
+/spy.php 1 -
+/adminer-3.5.1-cs.php 1 -
+/404javascript.js 25 https://www.google.com/url/
+/ls.php 1 -
+/wp-content/cache/log/000000/varnish.log 1 -
+/adminer-4.2.3-mysql-cs.php 1 -
+//wp-content/plugins/category-page-icons/css/menu.css 3 -
+/ss.php 1 -
+/gino/k.php 1 -
+/adminer-3.3.3-mysql.php 1 -
+/wp-content/themes/felis/download.php 1 -
+/adminer-3.6.3-mysql-cs.php 1 -
+/core/composer.json 25 https://sucuri.net
+/images/gh.php 1 -
+/components/com_jce/jce.php 1 -
+/s2.php 1 -
+/adminer-3.2.1-mysql.php 1 -
+/webalizer/ 1 -
+/backup.sql 1 -
+/sitemap.xml 9 -
+/u.php 1 -
+/modx.php 1 -
+/wp-includes/css/modules.php 3 -
+/adminer-4.3.1-cs.php 1 -
+/test 3 -
+/tooler.php 1 -
+/a.php 2 -
+/t.php 1 -
+/ee.php 1 -
+/king.php 1 -
+/adminer-4.2.3-cs.php 1 -
+/wp-content/uploads/2019/07/rsx.php 1 -
+/wp-log.php 1 -
+/wp-content/plugins/background-image-cropper/new_license.php 1 -
+/config2.php 1 -
+/templates/atomic/html/lndex.php 1 -
+/adminer-4.2.0-mysql-en.php 1 -
+/phpmyadmin/print.css 1 -
+/adminer-3.7.0-mysql-cs.php 1 -
+/templates/beez/index.php 1 -
+/adminer-4.6.0-mysql.php 1 -
+/uu.php 1 -
+/js/kcfinder/browse.php 1 -
+/templates/ja_purity/index.php 1 -
+/adminer-4.3.1-mysql-en.php 1 -
+/wp-content/plugins/GREEN/xleet.php 1 -
+/adminer-4.1.0-cs.php 1 -
+/adminer-3.5.1-mysql-en.php 1 -
+/adminer-3.6.3-mysql-en.php 1 -
+/p.php 1 -
+/templates/protostar/html/modules.php 1 -
+/awstats/ 1 -
+/xo.php 1 -
+/sad.php 1 -
+/adminer-3.5.0-mysql-en.php 1 -
+/dz.php 1 -
+/user/member.php 2 -
+/assets/images/pas.php 1 -
+/templates/system/error.php 1 -
+/wp-config.php 2 -
+/site//wp-admin/install.php 1 -
+//wp-content/plugins/dzs-videogallery-3/class_parts/vendor/phpunit/phpunit/phpunit.xml 1 -
+/site.sql 1 -
+/wp-update.php 1 -
+/lel.php 1 -
+/admins.asp 1 -
+/0.php 1 -
+/wp-content/force-download.php 2 -
+/cms/ 1 -
+/adminer-3.3.2-en.php 1 -
+/adminer-4.7.1-mysql.php 1 -
+/aaa.php 1 -
+/un.php 1 -
+/wp-content/plugins/hd-webplayer/playlist.php 3 -
+/upload.php 4 -
+/images/Sym.php 1 -
+/wp-content/uploads/ 2 -
+//wp-admin/setup-config.php 3 -
+/ok.php 1 -
+/wp-content/plugins/Green/GreenGo.php 1 -
+/wp2//wp-admin/install.php 1 -
+/installer.zip 5 -
+/cms//wp-admin/install.php 1 -
+/adminer-3.5.0-mysql-cs.php 1 -
+/ww3.php 1 -
+/agesr-2016 2 -
+/adminer-3.6.1-en.php 1 -
+/adminer-3.7.1.php 1 -
+/wp-admin/user/user-new.php 1 -
+/wso.php 5 -
+/administrator/ 1 -
+/wp-content/plugins/ppus/up.php 3 -
+/sd.php 1 -
+/master.zip 5 -
+/dev//wp-admin/install.php 1 -
+/wp-add.php 1 -
+/images/1.php 1 -
+/zx.php 1 -
+/wp-content/themes/twentynineteen/content-post.php 1 -
+/webr00t.php 1 -
+/xz.php 1 -
+/adminer-4.2.0-en.php 1 -
+/templates/system/css/system.css 1 -
+/prv.php 1 -
+/ALFA-SHELL-V3.php 1 -
+/feal.php 1 -
+/wp-signup.php 1 -
+/settings.php 1 -
+/adminer-4.0.2-en.php 1 -
+/indoxploit.php 4 -
+/whmcs.php 1 -
+/wp-admin/admin-ajax.php 36 -
+/tmp//wp-admin/install.php 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 3 -
+/adminer-4.4.0-cs.php 1 -
+/vuln.php 1 -
+/wp-content/plugins/vr-seo/up.php 1 -
+/tmp/upload.php 1 -
+/files.sql 1 -
+/components/com_foxcontact/_func.php 1 -
+/py.php 1 -
+/foo/wp-login.php 1 -
+/images/newsr.php 1 -
+/adminer-3.6.4-en.php 1 -
+/js.phtml 1 -
+/adminer.php 3 -
+/adminer-4.6.1-mysql-cs.php 1 -
+/wp-content/uploads/2019/12/settings_auto.php 3 -
+/wp-content/plugins/widget-logic/mini.php 2 -
+/adminer-4.6.2-en.php 1 -
+/adminer-4.7.2.php 1 -
+/pp.php 1 -
+/adminer-3.7.0-cs.php 1 -
+/images/k.php 1 -
+/404.php 1 -
+/.well-known/ZoneDNS.php 1 -
+/sender.php 1 -
+/gaza.php 1 -
+//wp-content/plugins/contabileads/integracoes/mautic/api-library/vendor/phpunit/phpunit/build.xml 3 -
+/data.zip 5 -
+/adminer-3.5.1-mysql-cs.php 1 -
+/wp//wp-admin/install.php 1 -
+/adminer-4.6.2-mysql-en.php 1 -
+/adminer-4.6.0-mysql-cs.php 1 -
+/wp-content/plugins/upspy/tbmailer.php 1 -
+/blog//wp-admin/install.php 1 -
+/k2.php 1 -
+/test/ 1 -
+/agliafrica.com.zip 5 -
+/bbb.php 1 -
+/mysql.php 1 -
+/ox.php 1 -
+/ks.php 1 -
+/adminer-3.0.1-en.php 1 -
+/3.php 1 -
+/adminer-3.2.0-mysql-cs.php 1 -
+/adminer-4.2.1-mysql-cs.php 1 -
+/vendor/kcfinder/upload.php 1 -
+/xleetwolf.php 1 -
+/up2.php 1 -
+/wp-config.php_bak 1 -
+/beck/cron.php 1 -
+/app/member/ref_money.php 1 http://agesr.com
+/app/member/ajaxleft/bet_match.php 1 http://agesr.com
+/know-about-speaker-data 6 -
+/adminer-3.6.2-mysql-cs.php 1 -
+/adminer-3.5.1-en.php 1 -
+/uploads.php 1 -
+/adminer-4.6.3-mysql-en.php 1 -
+/adminer-4.7.3-mysql-en.php 1 -
+/l.php 1 -
+/adminer-3.3.0-mysql-en.php 1 -
+/adminer-4.3.0-mysql-cs.php 1 -
+/s.php 1 -
+/wp-content/plugins/upspy/pleet.php 1 -
+/c9.php 1 -
+//wp-json/wp/v2/posts/None 3 -
+/xup.php 1 -
+/as.php 1 -
+/wp-content/uploads/2020/01/ 2 -
+/adminer-4.2.3-en.php 1 -
+/wp-admin.php 1 -
+/sites/default/files/AGESRCON_2018_Brochure.pdf 1 -
+//wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/build.xml 3 -
+/web.php 1 -
+/adminer-4.3.1-en.php 1 -
+/interface/zh-CN/account/login.json 1 http://agesr.com
+/images/wso.php 1 -
+/templates/beez5/error.php 1 -
+/db.sql 2 -
+/v1//wp-admin/install.php 1 -
+/mini.php 1 -
+/n.php 1 -
+/test/README.txt 1 -
+/adminer-4.1.0-en.php 1 -
+/contact/member.php 1 http://agesr.com/contact/member.php
+/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/build.xml 3 -
+/uploadshell.php 1 -
+/nn.php 1 -
+/wp-content/plugins/ubh/Meuhy.php 1 -
+/oo.php 1 -
+/adminer-3.6.3.php 1 -
+/_input_3_vuln.htm 3 -
+/adminer-3.5.0.php 1 -
+/wp-config.php.bakwp-config.php~ 1 -
+/adminer-4.2.2-mysql.php 1 -
+/saa.php 1 -
+//wp-content/plugins/formcraft/file-upload/server/content/upload.php 6 -
+/_404.php 1 -
+/adminer-4.0.0-mysql.php 1 -
+/includes/up.php 1 -
+/adminer-3.3.2-cs.php 1 -
+/adminer-3.3.4-mysql-en.php 1 -
+/author-sitemap.xml 6 -
+/wp-content/themes/twentyseventeen/content-post.php 1 -
+//a.php 1 -
+/GreenS.php 1 -
+/rdpl.php 1 -
+/theme.php 1 -
+/adminer-4.0.3-mysql-en.php 1 -
+/graphql 3 -
+/adminer-4.0.0-mysql-cs.php 1 -
+/adminer-4.3.0.php 1 -
+/main.sql 1 -
+/tmp/dz1.php 1 -
+/simulasi.php 1 -
+/wp-content/themes/epic/includes/download.php 2 -
+/adminer-4.2.4-mysql-cs.php 1 -
+/0day.php 1 -
+/up.php 5 -
+/adminer-3.6.1-cs.php 1 -
+/wp-content/plugins/upspy/orvx.php 1 -
+/setting.php 1 -
+/adminer-4.2.0-mysql-cs.php 1 -
+/tt.php 1 -
+/jm-ajax/upload_file/ 3 -
+/adminer-4.6.0-mysql-en.php 1 -
+/1234.php 1 -
+/Sym.php 1 -
+/xaishell.php 1 -
+/hx.php 1 -
+/Front/GetVerifyImg 1 http://agesr.com
+/backup.php 1 -
+/adminer-3.3.0-mysql.php 1 -
+/Symlink.php 1 -
+/leaf.php 1 -
+/adminer-4.2.0-cs.php 1 -
+/idx.php 1 -
+//wp-admin/install.php 1 -
+/robots.txt 78 -
+/adminer-4.0.2-cs.php 1 -
+/libraries/joomla/jmails.php 1 -
+/fullwebsite.sql 1 -
+/sites/all/themes/drup/index.php 1 -
+/app/member/reloadCredit 1 http://agesr.com
+/ad.php 1 -
+/wp-content/plugins/upspy/lux.php 1 -
+/adminer 1 -
+/adminer-4.7.0-mysql-cs.php 1 -
+/adminer-4.2.4.php 1 -
+/adminer-4.4.0-en.php 1 -
+//wp-json/wp/v2/posts/ 3 -
+/adminer-4.5.0-mysql.php 1 -
+/adminer-4.6.3-mysql.php 1 -
+/modules/modules/modules.php 1 -
+/adminer-3.0.0.php 1 -
+/wp-content/plugins/wp-hide-security-enhancer/router/file-process.php 1 -
+/adminer-3.1.0-mysql-en.php 1 -
+/wp-admin/ 4 -
+/adminer-3.2.2.php 1 -
+//wp-admin/ 3 -
+/p8.php 1 -
+/dick.php 1 -
+/w.php 1 -
+/sql.php 1 -
+/098.php 2 -
+/null.php 1 -
+/plugins/system/debug/debug.xml 1 -
+/md.php 1 -
+/adminer-4.7.3-cs.php 1 -
+/wp-content/plugins/spirit-templates/accdb.php 1 -
+/i.php 1 -
+/x3.php 1 -
+/templates/protostar/index.php 1 -
+/sado.php 1 -
+/wp-config.php_bak/wp-config.php-bak 1 -
+/alfa.php 1 -
+/node/member.php 5 -
+/dir.php 1 -
+//_input_3_vuln.htm 3 -
+/drupal/README.txt 1 -
+/wp-content/plugins/upspy/f.php 1 -
+/blog/wp-admin/ 1 -
+/cgi.php 1 -
+/adminer-3.1.0-cs.php 1 -
+//jm-ajax/upload_file/ 3 -
+/images/xcontact182.php 1 -
+/wp-content/plugins/ubh/index.php 4 -
+/wp-includes/SimplePie/Parse/xleet.php 1 -
+/cw.php 1 -
+/images/anon.php 1 -
+/Account/ValidateCode/7845 1 http://agesr.com
+/website.sql 1 -
+/adminer-4.1.0-mysql-en.php 1 -
+/wpmass.php 1 -
+/adminer-3.7.1-mysql-cs.php 1 -
+/cfg.php 1 -
+/db.zip 5 -
+/1337.php 1 -
+/adminer-3.3.4-en.php 1 -
+/adminer-3.7.1-mysql.php 1 -
+/ckeditor/plugins/kcfinder/upload.php 1 -
+/administrator/templates/hathor/index.php 1 -
+/wp-content/themes/urbancity/lib/scripts/download.php 1 -
+/.bitcoin/ 1 -
+/wp-json/wp/v2/posts/ 3 -
+/cmd.php 1 -
+/feed 5 -
+/adminer-4.2.5-mysql-en.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 6 -
+/modules/404.php 1 -
+//.env 3 -
+/meniacle/wp-blog-header.php 1 -
+/rt18_archive.zip 5 -
+/d.php 1 -
+/Office-Bearers.html 2 -
+/media/media/images/mime-icon-16/media-admin.php 1 -
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/build.xml 3 -
+/wp-waf.php 1 -
+/roots.php 1 -
+/adminer-4.6.1-en.php 1 -
+/img/index.php 1 -
+/adminer-4.7.1.php 1 -
+/xxx.php 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/build.xml 3 -
+/file.sql 1 -
+/css.php 1 -
+/adminer-4.2.4-mysql-en.php 1 -
+/wp-content/plugins/vwcleanerplugin/bump.php 3 -
+/dz1.php 1 -
+/wp-admin/shapes.php 3 -
+/adminer-3.4.0-cs.php 1 -
+/good.php 1 -
+/wp-content/plugins/ubh/up.php 1 -
+/tmp/uploads.php 1 -
+/user.php 1 -
+/wp-content/plugins/stats/instoll.php 1 -
+/adminer-4.2.2-mysql-en.php 1 -
+/adm.php 1 -
+/wp/ 1 -
+/index.php/webcenter/Login/login_do 1 http://agesr.com
+/adminer-3.2.0-en.php 1 -
+/11.php 2 -
+/wordpress/ 1 -
+/tmp.php 1 -
+/px.php 1 -
+/app/member/reloadCredit.php 1 http://agesr.com
+/cache/accesson.php 1 -
+/wp-content/plugins/dude/cred.php 1 -
+/bk//wp-admin/install.php 1 -
+/ages-inauguration 4 -
+/adminer-4.7.0-en.php 1 -
+/adminer-4.6.0.php 1 -
+/admin1.php 1 -
+/d7.php 1 -
+/adminer-3.6.2-cs.php 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 1 -
+/privmailer.php 1 -
+/wp-content/plugins/upspy/xleet.php 1 -
+/yy.php 1 -
+/00.php 1 -
+//wp-content/uploads/2020/01/settings_auto.php 3 -
+/0x.php 1 -
+/kcfinder/upload.php 1 -
+/old/ 1 -
+/adminer-4.7.2-mysql-en.php 1 -
+/adminer-3.3.3-mysql-cs.php 1 -
+/adminer-3.3.3.php 1 -
+/wp-content/themes/cafesalivation/download.php 1 -
+/adminer-4.7.1-mysql-en.php 1 -
+/403.php 1 -
+/az.php 1 -
+/wp-content/plugins/vcrm/Z586.php 1 -
+/adminer-3.2.1.php 1 -
+/wp-content/uploads/file-manager/log.txt 1 -
+/mary.php 1 -
+/rss.php 1 -
+/adminer-4.0.1-cs.php 1 -
+/wp-content/plugins/iwp-client/clipboard.min.js 4 -
+/wp-content/62149921.php 1 -
+/wp-content/plugins/mac-photo-gallery/macdownload.php 1 -
+/wp-content/plugins/thecartpress/modules/Miranda.class.php 1 -
+/adminer-4.2.5.php 1 -
+/mm.php 1 -
+/azshell.php 1 -
+/phpMyAdmin/print.css 1 -
+/adminer-3.4.0-mysql-en.php 1 -
+/templates/protostar/error.php 1 -
+/wp-content/plugins/css-ready-selectors/file.php 1 -
+/adminer-4.2.1-mysql.php 1 -
+/mysql/print.css 1 -
+/InCreate-FullPackage.zip 5 -
+/sites/all/modules/elfinder_library/elfinder-1.2/src/elfinder-src.php.html 1 http://www.google.com/
+/wp-content/plugins/theme-configurator/mini.php 2 -
+/smtp.php 1 -
+/administrator/help/en-GB/toc.json 1 -
+/anu.php 1 -
+/cgi-bin.zip 5 -
+/xx1.php 1 -
+/z.php 1 -
+/backup/ 1 -
+/authorization/verify 1 http://agesr.com
+/adminer-4.6.2-mysql-cs.php 1 -
+/adminer-4.0.3.php 1 -
+/_wpeprivate/config.json 1 -
+/wp-content/plugins/ppus/ns.php 1 -
+/why.php 1 -
+/adminer-3.6.0-mysql.php 1 -
+/gallary 1 -
+/wp-content/uploads/adminer.php 1 -
+/templates/beez_20/index.php 1 -
+/images/wp.php 1 -
+/components/com_finder/views/search/tmpl/souf.php 1 -
+/wp-content/plugins/vr-seo/vr.php 1 -
+/wp-content/w.php 1 -
+/baba.php 1 -
+/adminer-3.3.1-cs.php 1 -
+/sc.php 1 -
+/adminer-4.2.4-mysql.php 1 -
+/inbox.php 1 -
+/wp-content/plugins/wp-manager/file.php 1 -
+/adminer-4.5.0.php 1 -
+/adminer-4.7.3-en.php 1 -
+/adminer-4.6.3.php 1 -
+/adminer-3.0.0-mysql.php 1 -
+/adminer-4.0.0-mysql-en.php 1 -
+/admins.php 1 -
+/feed/ 1 -
+/wp-content/xml.php 1 -
+/adminer-3.2.2-mysql.php 1 -
+/ess.php 1 -
+/wp-content/plugins/downloads-manager/img/unlock.gif 3 -
+/y.php 1 -
+/azzoulshell.php 1 -
+/wp-content/themes/twentyeleven/download.php 2 -
+/templates/system/index.php 1 -
+/adminer-3.1.0-en.php 1 -
+/index1.php 1 -
+/fullbackup.sql 1 -
+/9.php 1 -
+/wp-content/plugins/sf-booking/lib/downloads.php 2 -
+/wp-config-backup.txt 1 -
+/dr.php 1 -
+/adminer-4.4.0-mysql-en.php 1 -
+/wp-content/themes/twentytwenty/404.php 1 -
+/adminer-3.2.1-mysql-cs.php 1 -
+/adminer-3.3.0.php 1 -
+/core/assets/vendor/ckeditor/ckeditor.js 25 https://sucuri.net
+/wp-content/plugins/cip4-folder-download-widget/cip4-download.php 1 -
+/o.php 1 -
+/wp-includes/wolfm.php 1 -
+/olux.php 5 -
+/up1.php 1 -
+/wp-json/wp/v2/users/ 65 -
+/alf.php 1 -
+/help.php 1 -
+/adminer-3.3.4-cs.php 1 -
+/ii.php 1 -
+/wp-content/plugins/ubh/uplo.php 1 -
+/qq.php 1 -
+/php.php 1 -
+/wp-content/_input_3_vuln.htm 3 -
+/.git/HEAD 36 http://sucuri.net
+/wp-config.php.original 1 -
+/adminer-4.3.0-mysql.php 1 -
+/wp-config.php.save.1 1 -
+/adminer-4.3.1-mysql-cs.php 1 -
+/wp-content/cache/log/000000/dbcache.log 1 -
+/shell.php 6 -
+/ini.php 1 -
+/raw.php 1 -
+/adminer-4.6.1-cs.php 1 -
+/fozi.php 1 -
+/home//wp-admin/install.php 1 -
+/adminer-3.6.3-mysql.php 1 -
+/adminer-3.5.0-mysql.php 1 -
+/jj.php 1 -
+/adminer-3.4.0-en.php 1 -
+/g.php 1 -
+/b.php 1 -
+/adminer-4.2.2.php 1 -
+/admin2.asp 1 -
+/adminer-4.0.0.php 1 -
+/bypass.php 1 -
+/checkxe.php 2 http://agesr.com
+/adminer-3.2.0-cs.php 1 -
+/adminer-4.2.2-mysql-cs.php 1 -
+/wp-content/plugins//hb-audio-gallery-lite/gallery/audio-download.php 1 -
+/404testpage4525d2fdc 24 https://sucuri.net
+/new.zip 5 -
+/api/user/login 1 http://agesr.com
+//wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 3 -
+/images/g.php 1 -
+/adminer-4.7.0-cs.php 1 -
+/m.php 1 -
+/wp-content/plugins/GREEN/GREENX.php 1 -
+/r00t.php 1 -
+/adminer-3.7.1-mysql-en.php 1 -
+/abcd.php 1 -
+/adminer-3.3.4-mysql-cs.php 1 -
+/123.php 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 3 -
+/app_hg/member/ajaxleft/bet_match.php 1 http://agesr.com
+/connect.php 1 -
+/wp.php 2 -
+/adminer-3.3.2-mysql-en.php 1 -
+/adminer-3.6.2-en.php 1 -
+/id.php 1 -
+/wp-content/themes/acento/includes/view-pdf.php 1 -
+/temp//wp-admin/install.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 3 -
+/IndoXploit.php 1 -
+/wp-includes/SimplePie/xsef.php 1 -
+/wp-config.zip 1 -
+/xd.php 1 -
+/awso.php 1 -
+/mail.php 1 -
+/wp-content/plugins/photocart-link/decode.php 1 -
+/adminer-3.6.2-mysql-en.php 1 -
+/ande.php 1 -
+/xp.php 1 -
+/1337w0rm.php 1 -
+/indx.php 1 -
+/wp-includes/cm3.php 1 -
+/kk.php 1 -
+/adminer-4.0.1-en.php 1 -
+/hh.php 1 -
+/wordpress.zip 5 -
+/pma/print.css 1 -
+/no.php 1 -
+/wp-content/uploads/wp-config-backup.txt 1 -
+/wp-upgrade.php 1 -
+/wp-content/upgrade/404.php 1 -
+/images/admin.php 1 -
+/wp-content/plugins/ubh/con.php 1 -
+/h.php 1 -
+/app/member/index/login 1 http://agesr.com
+/libraries/imports.legacy.php 1 -
+/dd.php 1 -
+/wp/wp-admin/ 1 -
+/wp-content/plugins/upspy/up.php 1 -
+/web/ 1 -
+/plesk-stat/webstat/ 1 -
+/libraries/joomla/css.php 1 -
+/produtos.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 3 -
+/abc.php 1 -
+/sites/all/modules/elfinder_library/elfinder-1.2/elfinder.php.html 1 http://www.google.com/
+/adminer-4.7.2-mysql.php 1 -
+/adminer-3.3.1-en.php 1 -
+/backup//wp-admin/install.php 1 -
+/weak.php 1 -
+/adminer-3.3.1-mysql-en.php 1 -
+/wp-includes/SimplePie/Canonical.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
+/wp.zip 5 -
+/wp-content/plugins/hb-audio-gallery-lite/gallery/audio-download.php 1 -
+/demo/ 1 -
+/templates/beez3/error.php 1 -
+/pma.php 1 -
+/adminer-3.3.2-mysql-cs.php 1 -
+/cgi-sys/Agesr.com 5 -
+/hhh.php 1 -
+/adminer-3.3.0-mysql-cs.php 1 -
+//wp-content/plugins/cloudflare/vendor/phpunit/phpunit/build.xml 3 -
+/adminer-4.1.0.php 1 -
+/wp-content/plugins/realia/libraries/PayPal-PHP-SDK/vendor/phpunit/phpunit/build.xml 3 -
+/js.php 1 -
+/administrator/templates/hathor/error.php 1 -
+/new//wp-admin/install.php 1 -
+/wp-content/plugins/background-image-cropper/content-post.php 1 -
+/adminer-3.4.0-mysql.php 1 -
+/adminer-3.5.0-en.php 1 -
+/wp-content/plugins/category-page-icons/css/menu.css 3 -
+/adminer-3.6.3-en.php 1 -
+/administrator/templates/isis/error.php 1 -
+/hb.php 1 -
+/tbmailer.php 1 -
+/templates/beez_20/error.php 1 -
+/wp-content/plugins/imdb-widget/pic.php 1 -
+/_adminer.php 1 -
+/adminer-4.3.0-en.php 1 -
+/wp12.php 1 -
+/images/X.php 1 -
+//wp-content/plugins/barclaycart/uploadify/uploadify.php 3 -
+/adminer-4.2.3-mysql-en.php 1 -
+/uploads/rsx.php 1 -
+/wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.min.css 1 -
+/wp-content/plugins/barclaycart/uploadify/settings_auto.php 3 -
+/adminer-4.0.3-mysql-cs.php 1 -
+/adminer-3.6.1-mysql-en.php 1 -
+/adminer-3.7.1-cs.php 1 -
+/adminer-4.2.5-mysql-cs.php 1 -
+/plugins/kcfinder/upload.php 1 -
+/Marvins.php 1 -
+/xml.php 1 -
+/wp-config.txt 1 -
+/wp-json/oembed/1.0/embed 22 -
+/css/dzQ.php 1 -
+/sa.php 1 -
+/backup.zip 5 -
+/images/b.php 1 -
+/new/ 1 -
+/rsx.php 1 -
+/adminer-3.1.0-mysql.php 1 -
+/media/kunena/avatars/media-admin.php 1 -
+/adminer-3.2.2-en.php 1 -
+/OMC_template.zip 5 -
+/eror.php 1 -
+/adminer-3.0.0-en.php 1 -
+/adminer-4.7.3-mysql.php 1 -
+/I.php 1 -
+/wp-content/plugins/html404/index.html 3 -
+/mb.php 1 -
+/adminer-4.4.0.php 1 -
+/adminer-4.2.4-en.php 1 -
+/adminer-3.3.1-mysql.php 1 -
+/wp-config.save 1 -
+//wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/build.xml 3 -
+/adminer-4.7.2-en.php 1 -
+/app/member/getCredit.php 1 http://agesr.com
+/adminer-4.6.2.php 1 -
+/adminer-4.2.1-mysql-en.php 1 -
+/sports1/hg/getData.do 1 http://agesr.com
+//wp-admin/vuln.htm 3 -
+/wp-option.php 1 -
+/adminer-4.7.1-mysql-cs.php 1 -
+/gino/awso.php 1 -
+/adminer-3.6.4.php 1 -
+/bb.php 1 -
+/wp-config.xml 1 -
+/wp-content/plugins/upspy/leafn.php 1 -
+/home/ 1 -
+/blog/ 2 -
+/dz0.php 1 -
+/vendor/phpunit/phpunit/build.xml 3 -
+/images/2.php 1 -
+/adminer-3.6.0-cs.php 1 -
+/administrator/templates/bluestork/error.php 1 -
+/adminer-4.6.1-mysql-en.php 1 -
+/scan.php 1 -
+/node/know-about-speaker-data 1 -
+/adminer-3.0.1.php 1 -
+/administrator/templates/isis/index.php 1 -
+/images/cpanel.php 1 -
+/confiq.php 1 -
+/indo.php 1 -
+/webdev.php 1 -
+/Server.php 1 -
+/8.php 1 -
+/fun.php 1 -
+/12.php 1 -
+/dump.zip 5 -
+/adminer-4.2.1-cs.php 1 -
+/root.php 1 -
+/database.php 1 -
+/main/ 1 -
+/adminer-4.0.1-mysql.php 1 -
+/panel.php 1 -
+/wp-config.tar 1 -
+/images/php_ini.php 1 -
+/wp-content/plugins/sam-pro-free/sam-pro-ajax-admin.php 1 -
+/adminer-3.5.1.php 1 -
+/agesr.sql 1 -
+/lol.php 1 -
+/sites/default/files/58.jpg 1 -
+/sysadmin.php 1 -
+/assets/plugin/kcfinder/upload.php 1 -
+/adminer-4.6.3-mysql-cs.php 1 -
+/madspot.php 1 -
+/images/WSO.php 1 -
+/wp-admin/network/wp-footer.php 2 -
+/adminer-4.4.0-mysql-cs.php 1 -
+/wp-content/wljzlh.php 1 -
+/adminer-3.1.0-mysql-cs.php 1 -
+/adminer-3.6.2-mysql.php 1 -
+/js2.php 1 -
+/adminer-4.3.1.php 1 -
+/config.php 2 -
+/wp-content/themes/kap/download.php 1 -
+/adminer-4.2.3.php 1 -
+/player/getBalanceInfo 1 http://agesr.com
+/templates/atomic/index.php 1 -
+/web.zip 5 -
+/wp-content/plugins/upspy/index.php 3 -
+/adminer-3.3.3-mysql-en.php 1 -
+//wp-content/plugins/woocommerce-software-license-manager/vendor/phpunit/phpunit/build.xml 3 -
+/send.php 1 -
+//wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/build.xml 3 -
+/dump.sql 1 -
+/info.php 1 -
+//language/en-GB/en-GB.xml 2 -
+/adminer-3.2.0-mysql.php 1 -
+/backups.sql 1 -
+/configuration.php 7 -
+/home.php 1 -
+/images/test.php 1 -
+//wp-content/plugins/viral-optins/api/uploader/file-uploader.php 3 -
+/ads.txt 1 -
+/prv8.php 1 -
+/j.php 1 -
+/adminer-3.5.0-cs.php 1 -
+/wp-content/plugins/upspy/ms.php 1 -
+/adminer-3.6.3-cs.php 1 -
+/images/d.php 1 -
+/wp-content/plugins/upspy/sllolx.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/adminer-4.6.1-mysql.php 1 -
+/.well-known/tmp.php 1 -
+/cocot.php 1 -
+/adminer-3.3.2.php 1 -
+/adminer-3.7.0-mysql-en.php 1 -
+/new_license.php 2 -
+/base.php 1 -
+/Uploader.php 1 -
+/Account/LoginToSing 1 http://agesr.com
+/default.php 1 -
+/wp-config.php.bak 1 -
+/images/up.php 1 -
+/adminer-4.3.0-cs.php 1 -
+/wp-includes/SimplePie/Parse/heck.php 1 -
+/wordpress//wp-admin/install.php 1 -
+/images/cp.php 1 -
+/v3.php 1 -
+/assets/kcfinder/upload.php 1 -
+/adminer-3.6.1.php 1 -
+/adminer-3.7.1-en.php 1 -
+/adminer-3.3.4-mysql.php 1 -
+/index.php/component/users 18 -
+/components/com_foxcontact/fx.php 1 -
+/wp-config.php~ 1 -
+/cpn.php 1 -
+/serviceAg/rest/loginProcess/login 1 http://agesr.com
+//wp-content/plugins/hd-webplayer/playlist.php 3 -
+/phpmailer.php 1 -
+/api/v1/web/login 1 http://agesr.com
+/wp-config.php.orig 1 -
+/wordpress/wp-admin/ 1 -
+/adminer-4.0.2.php 1 -
+/adminer-4.0.2-mysql-cs.php 1 -
+/cme-credit-point 1 -
+/adminer-4.2.0.php 1 -
+/wp-admin/vuln.htm 3 -
+/wp-admin/admin-post.php 15 -
+/aa.php 1 -
+/priv.php 1 -
+/proshell.php 1 -
+/xGSx.php 1 -
+/adminer-4.2.4-cs.php 1 -
+/v.php 1 -
+/adminer-3.2.2-cs.php 1 -
+/administrator/templates/bluestork/index.php 1 -
+/adminer-3.0.0-cs.php 1 -
+/site/README.txt 1 -
+/wp-admin/edit.php 1 -
+//wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/phpunit.xml 1 -
+/tool.php 1 -
+//vendor/phpunit/phpunit/build.xml 3 -
+/adminer-4.7.2-cs.php 1 -
+/cv.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 1 -
+/wp-content/plugins/ppus/suram.php 1 -
+/infe/verify/mkcode 1 http://agesr.com
+/adminer-3.3.1-mysql-cs.php 1 -
+/adminer-3.6.0-en.php 1 -
+/adminer-3.7.0.php 1 -
+/templates/atomic/html/leaf3.php 1 -
+/adminer-3.6.4-mysql-en.php 1 -
+/cc.php 1 -
+/wp-content/plugins/css-ready-seled/file.php 1 -
+/veggiedog.zip 5 -
+/wp-content/plugins/upspy/t.php 1 -
+/adminer-3.0.0-mysql-en.php 1 -
+/images/00.php 1 -
+/wp-content/plugins/advanced-uploader/upload.php 1 -
+/wp-admin/setup-config.php 3 -
+/db.php 2 -
+/media/kunena/avatars/resized/size36/users/new_side.php 1 -
+/noname.php 1 -
+/temp/ 1 -
+/1.php 1 -
+/adminer-4.2.1-en.php 1 -
+/adminer-3.6.4-mysql-cs.php 1 -
+/Sh3ll.php 1 -
+/wp-admin/vuln.php 3 -
+/old.zip 5 -
+//wp-content/_input_3_vuln.htm 3 -
+/temp1-1.php 1 -
+//wp-content/themes/enfold-child/update_script/vendor/phpunit/phpunit/build.xml 3 -
+/test//wp-admin/install.php 1 -
+/dew.php 1 -
+/adminer-4.5.0-mysql-cs.php 1 -
+/wp-mas.php 2 -
+/shellwow.php 1 -
+/adminer-4.1.0-mysql-cs.php 1 -
+/adminer-4.0.2-mysql-en.php 1 -
+/wp-includes/wlwmanifest.xml 10 -
+/templates/atomic/error.php 1 -
+/2018//wp-admin/install.php 1 -
+/wp-content/plugins/spirit-templates/up.php 1 -
+/v5.php 1 -
+/site/ 1 -
+/adminer-3.2.2-mysql-cs.php 1 -
+/worot.php 1 -
+/wp-content/plugins/rafda/cred.php 1 -
+/sites/default/files/69.php 2 -
+/wp-content/sloolx.php 1 -
+/adminer-3.4.0-mysql-cs.php 1 -
+/adminer-4.3.0-mysql-en.php 1 -
+/logo_img.php 1 -
+/adminer-4.7.0-mysql.php 1 -
+/agesr.com.sql 1 -
+/images/ini.php 1 -
+/wp-content/plugins/adminer/inc/editor/index.php 1 -
+/wp-json/siteground-optimizer/v1/enable-option 1 -
+/upel.php 2 -
+/cpcrack.php 1 -
+/adminer-4.6.0-cs.php 1 -
+/6.php 1 -
+/GreenPxOK.php 1 -
+/favicon.php 1 -
+/images/guide.php 1 -
+/database_backup.sql 1 -
+/wp-con.php 1 -
+/webstat/ 2 -
+/wp-json/wp/v2/posts 10 -
+/tmp/up.php 1 -
+/idiot.php 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/adminer-3.6.2.php 1 -
+/myadmin/print.css 1 -
+/templates/beez3/index.php 1 -
+/adminer-4.3.1-mysql.php 1 -
+/X.php 1 -
+/adminer-4.5.0-mysql-en.php 1 -
+/tmp/pz.php 1 -
+/adminer-4.2.3-mysql.php 1 -
+/wp-json/wp/v2/posts/None 3 -
+/wp-content/themes/twentynineteen/404.php 1 -
+/adminer-3.3.3-cs.php 1 -
+/images/upload.php 1 -
+/images/shell.php 1 -
+/adminer-3.2.1-cs.php 1 -
+/jmx.php 1 -
+/sql.sql 1 -
+/vvv.php 1 -
+/wp-content/cache/log/000000/minify.log 1 -
+/adminer-4.0.1.php 1 -
+/portal/ 1 -
+/ccp.php 1 -
+/adminer-3.2.0-mysql-en.php 1 -
+/leafmailer.php 1 -
+/adminer-3.5.1-mysql.php 1 -
+/mailer.php 1 -
+/cpanel.php 1 -
+/22.php 1 -
+/adminer-4.2.5-cs.php 1 -
+/adminer-3.0.0-mysql-cs.php 1 -
+/wp-content/plugins/membership-simplified-for-oap-members-only/download.php 1 -
+/ajax.php 1 -
+/cp.php 1 -
+/sok.php 1 -
+//wp-content/plugins/barclaycart/uploadify/settings_auto.php 3 -
+/V5.php 2 -
+/adminer-4.7.2-mysql-cs.php 1 -
+/adminer-3.0.1-mysql.php 1 -
+/plugins/content/apismtp/josmtpapi.php 1 http://www.google.com/
+/wp-content/plugins/wp-time-capsule/js/opentip-jquery.js 6 -
+//wp-admin/admin-post.php 12 -
+/adminer-4.0.3-cs.php 1 -
+/adminer-3.6.0-mysql-en.php 1 -
+/wp-content/plugins/upspy/lama.php 1 -
+/error.php 1 -
+/alf2.php 1 -
+/.well-known.zip 5 -
+/list.php 1 -
+/wp-time.php 1 -
+/lfishell.php 1 -
+/adminer-3.3.1.php 1 -
+/wp-content/plugins/ubh/o.php 1 -
+/adminer-4.6.2-mysql.php 1 -
+/login/check 1 http://agesr.com
+/link.php 1 -
+/adminer-3.6.4-mysql.php 1 -
+/adminer-3.2.2-mysql-en.php 1 -
+/Interface/1/account/login.json 1 http://agesr.com
+/connectors/resource/s_eval.php 1 -
+/app/member/login.ashx 1 http://agesr.com
+/backups.zip 5 -
+/modules/mod_banners/tmpl/defult.php 1 -
+/adminer-4.6.3-en.php 1 -
+//wp-admin/vuln.php 3 -
+/adminer-4.7.3.php 1 -
+/avtogear63_ru_cron.php 1 -
+/users/member.php 2 -
+/adminer-4.5.0-en.php 1 -
+/adminer-4.4.0-mysql.php 1 -
+/ll.php 1 -
+/demo//wp-admin/install.php 1 -
+/wp-content/plugins/vr-seo/wp-2017.php 1 -
+/000.php 1 -
+/xai.php 1 -
+/admin.php 1 -
+/%23wp-config.php%23 1 -
+/adminer-3.1.0.php 1 -
+/web_xml.php 1 -
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 3 -
+/adminer-4.0.1-mysql-cs.php 1 -
+/wp-config.inc 1 -
+/xupe.php 1 -
+/adminer-3.3.0-en.php 1 -
+/wp-content/plugins/xichang/x.php 3 -
+/wp-config.php.swp 1 -
+//graphql 3 -
+/err.php 1 -
+/0x0.php 1 -
+/www.php 1 -
+/offline.php 1 -
+/wp-includes/setup.php 1 -
+/imdex.php 1 -
+/templates/rhuk_milkyway/index.php 1 -
+/portal//wp-admin/install.php 1 -
+/shells/b374k.php 1 -
+/ff.php 1 -
+/e.php 1 -
+/leaf3.php 1 -
+/wp-content/plugins/ubh/raw.php 1 -
+/fuck.php 1 -
+/wp-content/plugins/Green/m.php 1 -
+/plugins/content/apismtp/apismtp.php 1 http://www.google.com/
+/orvx.php 1 -
+/wp-config.php1 1 -
+/adminer-4.7.1-cs.php 1 -
+/wp-content/plugins/woocommerce-software-license-manager/vendor/phpunit/phpunit/build.xml 3 -
+/wp-content/vuln.php 3 -
+/cPanelCracker.php 1 -
+/wp-content/wp-info.php 1 -
+/adminer-4.0.0-en.php 1 -
+/wp-info.php 3 -
+//wp-content/plugins/downloads-manager/img/unlock.gif 3 -
+/adminer-4.2.2-en.php 1 -
+/images/DZ.php 1 -
+/911.php 1 -
+/adminer-3.4.0.php 1 -
+/msss.php 1 -
+/up3.php 1 -
+/adminer-3.2.1-mysql-en.php 1 -
+/adminer-4.7.3-mysql-cs.php 1 -
+/lama.php 1 -
+/images/vuln.php 1 -
+//wp-content/plugins/realia/libraries/PayPal-PHP-SDK/vendor/phpunit/phpunit/build.xml 3 -
+/ler.php 1 -
+/angel.php 1 -
+/templates/beez5/index.php 1 -
+/adminer-4.1.0-mysql.php 1 -
+/a9.php 1 -
+/spyshell.php 1 -
+/adminer-4.7.0.php 1 -
+/adminer-4.6.0-en.php 1 -
+/gg.php 1 -
+/assets//wp-admin/install.php 1 -
+/webr00tv3.php 1 -
+/wp-config.php.old 1 -
+/iindex.php 1 -
+/v2//wp-admin/install.php 1 -
+/agliafrica.zip 5 -
+/images/ww.php 1 -
+/ws0.php 1 -
+/wp13.php 1 -
+/dev/ 1 -
+/r.php 1 -
+/q.php 1 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/build.xml 3 -
+/adminer-3.2.1-en.php 1 -
+/wp-config.php.1 1 -
+/adminer-3.3.3-en.php 1 -
+/pdf/sage_2017_final_brochure.pdf 5 -
+/old//wp-admin/install.php 1 -
+/archive.zip 5 -
+/stats/ 1 -
+/wp-content/logs.php 1 -
+/vv.php 1 -
+/adminer-3.0.1-mysql-en.php 1 -
+/killer.php 1 -
+/7.php 1 -
+/wp-content/plugins/history-collection/download.php 1 -
+/wp-content/plugins/wp-manager/x.php 1 -
+/2.php 1 -
+/adminer-4.2.5-en.php 1 -
+/images/3xp.php 1 -
+/wordpress/wp-content/plugins/css-ready-seled/file.php 1 -
+/images/f.php 1 -
+/adminer-3.6.0-mysql-cs.php 1 -
+/administrator/language/en-GB/install.xml 1 -
+/wp-xss.php 1 -
+/img/newsr.php 1 -
+/media/kunena/avatars/resized/size72/ex_liner.php 1 -
+/agesr-2015 2 -
+/adminer-3.7.0-mysql.php 1 -
+/wp-json/wp/v2/users 6 -
+/app/member/login.php 1 http://agesr.com
+/wp-koli.php 1 -
+/wp-content/plugins/Green/mini.php 1 -
+/old/wp-admin/ 1 -
+/ssl.php 1 -
+/wp-content/themes/enfold-child/update_script/vendor/phpunit/phpunit/build.xml 3 -
+/adminer-4.0.3-en.php 1 -
+/wawa.php 1 -
+/components/com_foxcontact/home.php 1 -
+/images/k2.php 1 -
+/f.php 1 -
+/wp1//wp-admin/install.php 1 -
+//hello.txt 1 -
+/images/c.php 1 -
+/img.php 1 -
+/wp-login.php 7 -
+/adminer-4.6.3-cs.php 1 -
+/10.php 1 -
+//wp-admin/admin-ajax.php 15 -
+/adminer-4.5.0-cs.php 1 -
+/pdf/life_membership_form.pdf 3 -
+/pdf/iage2017.pdf 4 -
+/wp-includes/wp-inc.php 1 -
+/mini.phtml 1 -
+/vpn/../vpns/cfg/smb.conf 2 http://www.agesr.com/vpn/../vpns/cfg/smb.conf
+/adminer-4.0.2-mysql.php 1 -
+/wp-content/plugins/prh-api/vendor/phpunit/phpunit/build.xml 3 -
+/adminer-4.2.0-mysql.php 1 -
+/cfq.php 1 -
+/wp-content/plugins/barclaycart/uploadify/uploadify.php 3 -
+/5.php 1 -
+/SSS.php 1 -
+/v/user/login 1 http://agesr.com
+/wp-content/plugins/ubh/shelll.php 1 -
+/Account/LoginToIbo 1 http://agesr.com
+/wss.php 1 -
+/adminer-3.3.0-cs.php 1 -
+/htaccess.php 1 -
+/test/wp-admin/ 1 -
+/wp-config.php.swo 1 -
+/cms.zip 5 -
+/database/print.css 1 -
+/4.php 1 -
+/adminer-3.6.1-mysql.php 1 -
+/adminer-4.7.0-mysql-en.php 1 -
+/adminer-3.3.4.php 1 -
+/app.zip 5 -
+/public_html.zip 5 -
+/wp-content/plugins/contabileads/integracoes/mautic/api-library/vendor/phpunit/phpunit/build.xml 3 -
+/system.php 1 -
+/quick_install_archive.zip 5 -
+/c.php 1 -
+/adminer-4.6.1.php 1 -
+/adminer-4.7.1-en.php 1 -
+/database.sql 1 -
+/wp-config.php.save 1 -
+/sports/hg/getData.do 1 http://agesr.com
+/adminer-3.3.2-mysql.php 1 -
+/components/com_banners/metadata.php 1 -
+/log.php 1 -
+/rox.php 1 -
+/web//wp-admin/install.php 1 -
+/wp-content/cache/log/000000/pagecache.log 1 -
+/priv8.php 1 -
+/za.php 1 -
+/.env 15 -
+/adminer-3.0.1-mysql-cs.php 1 -
+/wp-content/bees.php 1 -
+/adminer-4.0.0-cs.php 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/upload.php 3 -
+/b374k.php 1 -
+/adminer-4.2.2-cs.php 1 -
+/2019//wp-admin/install.php 1 -
+/ww.php 1 -
+/adminer-3.2.0.php 1 -
+/_adminer 1 -
+/xleet.php 1 -
+/wp-content/adminer.php 1 -
+/tbshell.php 1 -
+/IdentifyingCode/index 1 http://agesr.com
+/wp-crons.php 1 -
+/405.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 367
+179.61.173.153 252 252 1725153 20200115070000
+158.222.14.164 206 206 1423437 20200126163054
+69.164.211.37 122 250 4192506 20200131002350
+155.94.176.91 120 120 821818 20200114195236
+106.39.246.14 41 41 346186 20200131185428
+49.7.20.28 41 41 346186 20200131185428
+58.250.125.185 41 41 346186 20200131185425
+83.25.202.124 36 36 252421 20200119224417
+203.189.254.26 34 103 6426313 20200127090819
+178.137.82.147 25 25 350059 20200127080348
+3.84.136.189 21 21 177318 20200117021611
+185.219.168.116 21 21 177316 20200101080819
+2.58.29.146 20 20 717754 20200118104637
+84.17.53.19 19 19 698950 20200118153145
+216.10.241.54 18 18 1152 20200125044235
+103.21.58.155 18 18 1152 20200131043831
+49.32.50.67 14 56 5951376 20200124194003
+128.199.242.83 14 14 532496 20200123034809
+114.143.144.162 14 15 380937 20200106030708
+77.243.239.18 14 14 532496 20200122220147
+158.69.116.77 12 12 469899 20200118014500
+5.188.210.18 12 12 394152 20200131201005
+62.76.40.90 11 11 411560 20200123063920
+79.163.134.28 11 11 76265 20200109150118
+46.37.172.123 11 11 411560 20200123010356
+123.245.13.228 1 1 32846 20200107151754
+46.118.126.112 2 2 74004 20200116092502
+77.247.127.176 2 2 80624 20200112231408
+36.110.147.95 0 5 1365100 
+182.68.74.141 1 21 251658 20200129054725
+106.220.91.70 2 4 51252 20200102080115
+220.249.46.82 1 1 8445 20200130061028
+27.59.73.184 1 27 1721252 20200112104410
+51.89.228.179 5 5 201560 20200120055457
+62.210.83.78 2 2 16883 20200125143013
+31.13.191.89 2 2 74004 20200101065334
+158.69.38.243 5 5 201560 20200111161403
+181.215.121.255 1 1 17010 20200127120033
+95.24.142.252 2 2 74004 20200122085847
+185.112.82.239 2 2 74004 20200112002346
+98.143.145.30 2 2 74004 20200131095330
+106.204.188.14 1 22 223371 20200131103836
+78.47.228.112 1 1 8441 20200124052124
+183.150.236.149 2 2 80624 20200111080254
+125.105.80.239 1 1 40312 20200107054602
+123.148.241.36 1 1 40312 20200109085043
+182.19.41.145 1 1 40312 20200129201209
+123.126.68.143 1 1 8445 20200112060841
+46.147.244.97 6 6 208428 20200117030029
+5.157.55.87 1 1 40312 20200108130538
+180.123.209.169 1 1 40312 20200110142131
+157.37.188.185 1 28 1748487 20200104172048
+31.13.191.107 2 2 74004 20200105111743
+51.77.111.224 2 2 80624 20200110184731
+93.73.199.52 1 1 32846 20200103060340
+185.93.3.114 3 3 114316 20200111063915
+156.67.237.114 3 3 89064 20200123003258
+148.251.138.219 2 2 16884 20200125033838
+31.184.194.114 1 1 2354 20200110210735
+79.163.136.181 7 7 60756 20200101151021
+82.102.20.175 3 3 104214 20200130030305
+79.142.197.218 6 6 208428 20200131154814
+79.163.139.78 8 8 54958 20200120100523
+195.181.166.142 8 8 296016 20200120144805
+130.211.81.116 1 1 8440 20200116044030
+183.36.114.114 0 1 503311 
+64.246.165.190 1 1 8444 20200114101935
+106.120.188.151 0 5 2339495 
+221.192.134.90 2 2 16881 20200131083542
+178.238.8.112 3 3 25323 20200107040811
+5.182.210.219 2 2 40448 20200130011328
+45.76.45.198 1 1 32846 20200110023955
+74.125.212.15 0 9 123354 
+157.37.189.180 1 1 0 20200105040446
+78.47.228.111 1 1 8442 20200124052123
+18.207.98.167 5 5 87261 20200126235949
+165.22.19.225 3 3 120936 20200105001530
+54.189.134.158 0 1 39872 
+125.105.36.139 1 1 40312 20200125043836
+220.181.51.122 1 1 16682 20200127220218
+77.244.42.178 3 3 104214 20200121193938
+5.9.17.118 1 1 28900 20200126032209
+46.188.98.10 10 10 355543 20200126215053
+49.76.117.108 5 5 184882 20200119015119
+81.92.207.107 2 2 74004 20200120195757
+185.212.171.150 2 2 74004 20200125074825
+84.17.53.22 6 6 214573 20200106130430
+18.209.211.175 7 15 251308 20200129001228
+183.150.236.3 3 3 120936 20200116012240
+77.234.43.186 7 7 46143 20200127155446
+79.142.76.211 2 2 74004 20200130012452
+36.110.147.80 0 1 503311 
+134.249.147.157 2 2 74004 20200129194612
+188.163.109.153 5 5 180854 20200124154006
+185.103.254.51 2 2 74004 20200103222954
+82.202.226.49 2 2 75931 20200115190507
+37.120.146.188 3 3 104214 20200118155001
+223.188.113.199 1 29 1748775 20200111044312
+192.99.36.177 0 1 113808 
+223.238.212.16 0 16 1089880 
+40.76.79.103 3 3 120936 20200104112303
+36.110.147.101 1 1 8443 20200124060957
+84.17.48.99 3 3 114316 20200129222130
+159.89.84.203 1 1 40312 20200110223416
+94.228.207.1 3 3 104214 20200123200252
+37.120.192.22 10 10 370020 20200125210003
+185.164.72.126 2 2 80624 20200119212745
+27.97.86.233 0 1 18801 
+83.25.194.105 3 3 23402 20200123091401
+42.107.228.225 0 1 195762 
+37.115.186.196 2 2 74004 20200124194901
+161.129.66.236 4 4 148008 20200130020323
+106.120.188.138 0 1 273020 
+78.107.195.137 2 2 95909 20200124072506
+51.15.15.164 3 3 104214 20200107062140
+183.36.115.147 0 1 104497 
+83.25.206.197 3 3 21068 20200114233515
+54.218.116.149 0 1 17765 
+206.189.195.54 1 1 32846 20200116014750
+52.54.70.28 7 15 251303 20200131002409
+49.207.90.17 0 1 18801 
+183.36.114.148 0 2 518653 
+31.173.82.18 2 2 74004 20200131211615
+157.37.181.186 8 50 2985175 20200123110401
+62.113.202.69 1 1 8439 20200109011536
+188.163.109.74 2 2 74004 20200125061058
+163.172.182.111 1 1 8442 20200129141513
+5.188.62.147 1 1 8442 20200128130753
+178.137.86.30 5 5 201560 20200131101723
+178.47.131.202 2 2 74004 20200110190550
+212.106.54.36 3 3 104214 20200125101955
+123.148.247.46 2 2 80624 20200116202121
+183.36.115.5 0 1 273020 
+159.89.138.9 2 2 80624 20200116091101
+95.216.149.140 1 1 15986 20200126050450
+117.97.159.169 2 32 1801521 20200109063718
+188.163.60.158 3 3 104214 20200118232357
+95.217.73.247 1 1 8442 20200114081809
+31.173.85.41 1 1 30210 20200112170128
+52.11.94.217 7 15 251313 20200114051519
+176.212.75.250 5 5 162803 20200121034220
+35.230.27.100 1 1 8442 20200128215747
+134.19.231.200 8 8 282432 20200116143253
+54.198.59.129 1 1 17279 20200127101631
+222.78.201.236 1 1 40312 20200101015759
+183.150.216.98 2 2 80624 20200123044625
+104.245.145.5 1 1 8441 20200124074654
+93.89.159.15 1 1 8442 20200119110822
+185.112.82.235 6 6 222012 20200131113933
+171.22.76.58 3 3 120936 20200124003136
+34.205.28.156 7 15 251307 20200130001816
+171.22.76.11 2 2 80624 20200112043900
+185.159.158.58 2 2 74004 20200108160327
+134.90.149.150 4 4 148008 20200106122609
+123.148.211.82 1 1 40312 20200121174049
+44.226.199.99 1 1 8442 20200125155552
+178.137.88.65 5 5 201560 20200130205226
+31.181.240.231 3 3 104214 20200124075928
+123.148.245.59 1 1 40312 20200118123538
+188.17.71.208 4 4 140768 20200119103044
+66.102.6.163 0 1 27235 
+134.90.149.148 8 8 296016 20200104160821
+123.148.147.157 1 1 40312 20200121174440
+213.166.71.244 2 2 74004 20200109162453
+222.82.53.88 1 1 8440 20200108092546
+31.13.191.94 5 5 180854 20200114132932
+181.215.80.138 1 1 20891 20200127130012
+18.236.158.215 0 1 490 
+185.212.171.153 8 8 296016 20200105213234
+46.118.115.255 4 4 148008 20200120115335
+36.110.147.92 0 1 273020 
+78.47.49.93 1 1 8441 20200124052127
+154.16.61.6 4 4 27487 20200114212429
+5.167.145.221 3 3 104217 20200106003159
+36.110.147.106 0 1 467899 
+139.224.232.10 1 1 8446 20200101015518
+123.148.244.19 1 1 40312 20200113035209
+162.251.61.213 3 3 104214 20200120104354
+223.178.178.16 1 13 658896 20200103111933
+188.240.223.5 1 1 8441 20200117071320
+212.92.117.55 1 1 8441 20200107053628
+104.236.133.77 1 1 8441 20200117093910
+47.52.196.152 1 1 0 20200108142108
+3.234.210.193 5 12 226838 20200119031603
+62.149.29.52 2 2 74004 20200115003228
+106.12.138.191 1 1 8442 20200102033438
+188.93.56.216 1 2 35675 20200103095150
+54.69.15.3 0 1 1560 
+181.215.51.49 1 1 16946 20200127120136
+54.191.171.1 0 1 2664 
+91.76.171.180 2 2 74004 20200108021752
+18.232.184.201 4 4 30355 20200102231810
+3.87.34.49 5 5 83472 20200128000600
+185.210.219.154 1 1 14678 20200112033637
+74.125.212.17 0 3 158 
+181.214.181.27 1 1 16954 20200127120136
+183.36.115.11 0 2 740919 
+52.56.213.147 2 2 74004 20200117000544
+52.91.43.55 2 2 16882 20200118031502
+75.119.218.217 0 1 2349 
+73.32.91.238 1 1 8439 20200111052723
+31.13.191.77 4 4 133116 20200109093236
+193.106.30.99 6 6 27027 20200129060437
+185.131.52.90 1 1 8440 20200101201728
+46.173.55.27 9 9 326226 20200125115909
+165.225.104.100 0 1 18801 
+106.220.91.118 1 29 1748778 20200102075431
+5.62.58.15 2 2 80624 20200129145712
+46.101.9.216 5 5 34533 20200124020607
+183.36.114.119 0 3 152262 
+123.103.213.74 3 3 104214 20200124082301
+122.232.220.106 1 1 40312 20200101144610
+183.36.114.24 0 5 522485 
+188.165.232.202 5 5 162823 20200129082617
+193.176.86.58 2 2 74004 20200116044621
+94.23.61.181 9 9 352404 20200122061039
+185.81.157.154 2 2 80624 20200122091709
+85.141.95.227 2 2 74004 20200124230938
+196.247.163.134 1 1 40312 20200114093833
+123.148.240.167 1 1 40312 20200123051111
+111.202.102.73 1 1 8441 20200106063135
+173.212.230.124 3 3 89064 20200101152301
+123.148.243.160 1 1 40312 20200107055336
+8.208.20.89 1 1 8442 20200103030447
+123.148.144.110 2 2 80624 20200106091030
+94.50.183.227 2 2 74007 20200129163609
+188.19.246.218 2 2 74007 20200112085008
+175.42.87.51 1 1 16994 20200128095309
+34.215.78.198 1 1 8441 20200125010342
+178.19.253.157 2 2 74004 20200110022008
+196.52.60.56 1 1 14684 20200105064456
+46.101.122.215 1 1 40312 20200115150057
+188.17.157.238 2 2 70384 20200108074659
+188.165.235.173 1 1 8442 20200102150546
+171.79.184.25 2 30 1757218 20200118063156
+223.188.78.80 7 46 1963174 20200109095455
+31.23.122.128 2 2 74007 20200118003057
+115.207.108.121 1 1 40312 20200104225818
+183.36.115.77 0 1 104497 
+34.197.76.213 1 1 8441 20200118004453
+123.148.240.168 1 1 40312 20200129113646
+123.148.210.50 1 1 40312 20200123051727
+185.246.89.189 2 2 74004 20200112122617
+123.148.245.221 2 2 80624 20200105023434
+200.255.122.170 2 2 74004 20200118004857
+183.36.115.12 0 3 313491 
+151.106.11.182 3 3 114316 20200101081113
+107.175.90.222 8 8 54974 20200115083149
+78.47.40.121 1 1 8441 20200124052124
+31.173.82.2 2 2 74004 20200117200852
+171.22.76.56 2 2 80624 20200109012514
+74.125.212.13 1 7 87169 20200113203914
+178.159.37.85 3 3 104214 20200111154126
+36.110.147.85 0 5 2516555 
+36.110.147.94 0 1 467899 
+104.168.173.90 2 2 80624 20200114215932
+79.173.83.153 3 3 104214 20200123082154
+123.148.219.117 1 1 40312 20200113034537
+123.126.68.126 0 1 503311 
+183.36.115.105 0 1 50754 
+125.106.92.227 1 1 40312 20200101082655
+18.237.79.15 0 1 50754 
+3.8.29.47 2 2 74004 20200123001250
+176.31.105.112 0 1 113808 
+93.120.155.144 4 4 148008 20200111202304
+178.159.37.88 4 4 191819 20200124180511
+46.118.117.29 4 4 134424 20200129045525
+134.249.215.200 5 5 180008 20200105132422
+188.163.109.140 2 2 74004 20200120154029
+51.68.152.26 9 9 84209 20200130061926
+123.126.68.114 1 1 8445 20200118063043
+185.104.187.115 10 10 370020 20200119205652
+123.148.243.95 1 1 40312 20200101110535
+185.206.224.215 6 6 222012 20200125234109
+164.132.201.87 3 3 104214 20200117063244
+31.23.93.208 2 2 74007 20200121090839
+188.166.114.112 2 2 16786 20200110122233
+35.173.36.110 2 2 16199 20200124001544
+59.46.0.89 1 28 1721542 20200107060136
+1.39.238.16 1 1 8440 20200123082729
+106.207.207.36 0 1 21248 
+36.5.133.200 2 2 74004 20200120120556
+49.32.238.35 7 18 1970856 20200125212253
+123.148.210.14 1 1 40312 20200129113402
+5.188.84.230 3 3 104214 20200103224159
+88.198.90.9 0 1 1637816 
+1.39.238.35 1 1 8440 20200122063009
+86.181.217.233 5 5 67799 20200114222746
+91.122.30.68 1 1 40312 20200117051045
+118.1.241.122 1 27 1721252 20200115060201
+91.207.175.49 1 1 14684 20200125223957
+185.38.160.168 1 1 6914 20200102192200
+51.140.8.14 9 9 299066 20200131185153
+117.200.219.37 3 24 232551 20200116103629
+148.64.5.244 1 1 32846 20200119020121
+213.226.124.22 1 1 8440 20200115215010
+148.163.76.212 1 1 8439 20200109031834
+123.148.245.126 1 1 40312 20200110012313
+103.207.98.78 1 1 32846 20200111041414
+18.236.88.61 1 1 8442 20200119125558
+185.130.184.212 2 2 74004 20200123210518
+94.130.66.50 1 1 40312 20200123081900
+77.120.102.132 2 2 74004 20200129074814
+49.33.217.176 1 13 1729379 20200107201954
+18.206.151.190 7 15 251308 20200125235411
+93.124.39.2 2 2 74004 20200119213336
+125.105.100.92 2 2 80624 20200131051133
+79.163.132.140 8 8 55320 20200121203812
+94.247.180.91 1 1 8441 20200117114705
+167.172.125.64 2 2 32776 20200126194522
+117.228.101.76 1 30 1799529 20200105100021
+37.120.203.72 2 2 74004 20200128210631
+172.245.34.58 4 4 27487 20200115073724
+158.69.158.101 2 2 80624 20200128165549
+1.39.226.130 0 27 1712810 
+58.22.65.236 1 1 8441 20200106220821
+207.154.206.75 3 3 89066 20200113214747
+1.39.245.62 0 2 2844 
+18.232.145.249 7 15 251298 20200124234756
+160.116.0.27 2 2 74004 20200101184519
+188.92.72.129 2 2 16878 20200110121647
+141.0.9.132 2 31 1772791 20200104013200
+122.232.220.176 2 2 80624 20200106090517
+185.85.162.242 2 2 74004 20200109093449
+84.17.46.21 2 2 74004 20200131102057
+183.36.114.182 0 1 996 
+144.168.163.34 2 2 74004 20200131095732
+51.77.246.76 1 28 1721546 20200118014513
+188.187.190.64 2 2 74004 20200125110736
+125.105.81.95 2 2 80624 20200119094704
+185.112.82.229 8 8 281121 20200110114006
+35.183.61.73 2 2 80624 20200110115914
+37.120.154.46 2 2 74004 20200125161329
+199.116.118.175 1 1 14673 20200118225218
+123.148.245.27 1 1 40312 20200115130119
+117.215.78.228 10 59 5730220 20200107055136
+198.12.156.154 1 1 8440 20200116113309
+123.148.144.69 1 1 40312 20200101142731
+158.69.158.103 9 9 362808 20200131172523
+54.147.118.190 3 9 163704 20200123013304
+185.122.54.20 2 2 63056 20200131191804
+3.80.253.200 5 7 95181 20200120032238
+185.112.82.237 4 4 148008 20200122234453
+3.95.37.22 2 2 71218 20200121113724
+123.148.147.217 2 2 80624 20200121012542
+35.172.121.76 1 6 192076 20200117150904
+144.76.174.7 8 8 322496 20200130063254
+37.120.203.71 4 4 148008 20200130233738
+123.148.210.51 1 1 40312 20200121013915
+194.167.44.91 2 2 74004 20200113122153
+183.36.115.82 0 1 290 
+128.78.109.155 4 4 161248 20200121234352
+77.232.153.155 1 1 32846 20200113035231
+5.188.210.81 1 1 32846 20200130032718
+46.118.118.35 4 4 148008 20200118091941
+185.206.224.216 4 4 140486 20200122222646
+5.255.174.141 1 1 31658 20200122125728
+61.0.30.8 1 23 242381 20200110060443
+183.36.114.152 0 1 273020 
+167.71.209.183 6 6 90284 20200126110502
+45.12.223.189 1 1 40312 20200130134814
+185.206.224.214 2 2 74004 20200119202117
+103.99.177.247 2 2 65692 20200125124340
+66.102.6.169 1 1 8439 20200105154658
+35.165.15.27 0 1 757 
+198.50.243.169 2 2 16882 20200117223441
+183.36.114.7 0 1 503311 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200101 56 64 1141649 20
+20200102 25 63 2400656 12
+20200103 19 48 2387217 13
+20200104 17 73 4058320 9
+20200105 26 56 2610889 15
+20200106 27 38 3184881 10
+20200107 29 117 9690499 13
+20200108 21 21 569583 12
+20200109 64 133 4656517 20
+20200110 76 107 3309579 28
+20200111 73 101 3338666 24
+20200112 105 142 6144661 35
+20200113 107 126 1446336 31
+20200114 131 139 1398346 33
+20200115 62 110 2917546 24
+20200116 51 52 1019963 21
+20200117 61 74 1447026 26
+20200118 77 151 7656691 27
+20200119 72 94 1654156 28
+20200120 118 197 7531014 30
+20200121 59 67 1427123 26
+20200122 76 112 3451305 25
+20200123 98 156 5743513 33
+20200124 109 183 10578573 37
+20200125 107 134 3717332 37
+20200126 24 24 434868 11
+20200127 61 61 792552 10
+20200128 22 22 544223 10
+20200129 55 91 1775403 26
+20200130 51 75 4104188 22
+20200131 64 102 2004841 26
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 4
+30s-2mn 20
+30mn-1h 20
+5mn-15mn 5
+1h+ 9
+0s-30s 624
+15mn-30mn 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 84
+/ 979 14134549 433 406
+/contact 248 6833045 188 38
+/node/32/done 173 6824738 9 151
+/events 169 1098175 3 7
+/cgi-sys/suspendedpage.cgi 73 1360519 23 22
+/member.php 39 486406 1 5
+/organising-committee 31 301366 0 12
+/agesr-committee 31 310763 4 3
+/invitation 28 212755 2 3
+/registration-information 28 254435 1 11
+/member/register 13 432527 6 8
+/gallery 11 82523 0 1
+/contact/ 8 263301 6 1
+/tourism 7 76838 1 0
+/user/register 6 52786 4 0
+/registration.php 6 45910 4 5
+/members 5 55857 0 0
+/node/add 4 96285 0 3
+/scientific 4 47067 0 1
+/research 3 43321 0 1
+/imporant-dates 3 20208 0 2
+// 3 25326 0 0
+/about 3 52315 0 2
+/cgi-sys/suspendedpage.cgi/wp-includes/wlwmanifest.xml 2 544 1 0
+/member/member.php 2 16256 0 0
+/.well-known/acme-challenge/4L88THRMR_GQMA_L6X5E1T28E90AYL5F 1 64 0 0
+/.well-known/acme-challenge/V2764XXA7CF9KIFVOW9C0FHCRZQGR0UC 1 64 0 0
+/.well-known/acme-challenge/OGNT2RHP_Y75J9ED6_NDNNMNP62AW02A 1 64 0 0
+/.well-known/acme-challenge/0Q5__SUBJCW588AN5C7IF8EOWZIH_CM- 1 64 0 0
+/.well-known/acme-challenge/3ZPXHJKLWYJN562IYP85PX4RVKJ1YJUK 1 64 1 0
+/.well-known/acme-challenge/4ZD2AROBTBPAO2VDBT4UUXJFNRCIV167 1 64 0 1
+/cgi-sys/suspendedpage.cgi/wp1/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/12XHFTETLS-AVFEXH9FA6K4O74KPSHOG 1 64 0 1
+/cgi-sys/suspendedpage.cgi/website/wp-includes/wlwmanifest.xml 1 272 0 0
+/coming-soon 1 30770 0 1
+/cgi-sys/suspendedpage.cgi/test/wp-includes/wlwmanifest.xml 1 7778 0 0
+/cgi-sys/suspendedpage.cgi/cms/wp-includes/wlwmanifest.xml 2 8050 0 1
+/.well-known/acme-challenge/BYQHPM1J98BDF4YWT4H9NZ3M1G10IRVF 1 64 1 0
+/cgi-sys/suspendedpage.cgi/blog/wp-includes/wlwmanifest.xml 2 544 0 0
+/.well-known/acme-challenge/JDT30Q3NFF-K_YL-FQ_CD7RVGTMUB-9R 1 64 1 0
+/user 1 8712 0 1
+/.well-known/acme-challenge/80AYK0T-GB5RBHLF8VU8EEEOU21VSKHW 1 64 0 0
+/.well-known/acme-challenge/G3B82_XJKY1SUW6V-JTGM7GZ7R__WS01 1 64 0 0
+/cgi-sys/suspendedpage.cgi/2018/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/V-3P392BEYB1GZFAYJ4J31962X8WKONZ 1 64 1 0
+/.well-known/acme-challenge/WAAS1M-88W7MY6ICZIWYBI7BFDHJU5_T 1 64 0 0
+/.well-known/acme-challenge/ICGVHLOKTURH-6HQ30AA8R-P3GR-5RKV 1 64 0 0
+/cgi-sys/suspendedpage.cgi/news/wp-includes/wlwmanifest.xml 1 272 0 0
+/cgi-sys/suspendedpage.cgi/2019/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/L1QQ39ZFY8G9ZYWRERMDCR9U9YQ_V_01 1 64 0 0
+/cgi-sys/suspendedpage.cgi/web/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/X0U7497-Y1GXZ7A8S0SX-9HH6LA6AI00 1 64 0 1
+/member/member 1 31883 0 0
+/cgi-sys/suspendedpage.cgi/shop/wp-includes/wlwmanifest.xml 1 272 0 0
+/cgi-sys/suspendedpage.cgi/site/wp-includes/wlwmanifest.xml 2 544 0 0
+/.well-known/acme-challenge/DKB_QDR0_F3SY_H8EI-IQ5C0YRJ6JL2C 1 64 0 0
+/.well-known/acme-challenge/DESJ39V77FP_XA-BY8K7GD1Y543D-XAG 1 64 0 0
+/.well-known/acme-challenge/FIPV_9RXGLU2K8NDR3JV5UY5F_519UA8 1 64 0 0
+/.well-known/acme-challenge/NU6H0AH6HR9ZVIOV3FTP1SIQ_09BJYOG 1 64 1 0
+/cgi-sys/suspendedpage.cgi/wordpress/wp-includes/wlwmanifest.xml 2 544 0 0
+/.well-known/acme-challenge/C_-TEQTZ799A5YZJ4NW8AIXSHB4CE_6T 1 64 0 0
+/cgi-sys/suspendedpage.cgi/wp2/wp-includes/wlwmanifest.xml 1 7778 0 0
+/.well-known/acme-challenge/6EVQ7AWA0WP109NYR2PH-IA6SX3SPUI5 1 64 0 0
+/.well-known/acme-challenge/MKT8X6MGPCSAGQESV8JM0GMJXOBW189O 1 64 0 0
+/file/ajax/name/%23value/ 1 2354 1 1
+/.well-known/acme-challenge/Q9WZ04O-KEYB098RB56EUFI0SRXZP-T7 1 64 0 0
+/sites/ 1 0 1 1
+/.well-known/acme-challenge/DIBWL5MF926YY4F-2ZGYG38D9U9ZY9YH 1 64 0 0
+/.well-known/acme-challenge/BIJ89YL4J8JDFU-TFTPVZO2OS390TSBS 1 64 0 0
+/.well-known/acme-challenge/94XZWUSVSLOR7BICH7M6NGR8H1ZPCG16 1 64 0 0
+/.well-known/acme-challenge/88AUUXTAVRYRSJDE5FG0_FV24J8WH21Z 1 64 0 0
+/user/password 1 8267 0 0
+/member/aspx/do.aspx 1 32063 0 0
+/cgi-sys/suspendedpage.cgi/wp/wp-includes/wlwmanifest.xml 2 8050 0 0
+/.well-known/acme-challenge/I3I3KU_T03L5B98MEOEGOG48L1_PFYE0 1 64 0 0
+/.well-known/acme-challenge/KUN5B3YWNSKMZ44IHJWHGVVN_DFVDRQC 1 64 0 0
+/.well-known/acme-challenge/A2-9RM9RAJ14MY9J0HN0QENB3MF00PTL 1 64 0 1
+/cgi-sys/suspendedpage.cgi/media/wp-includes/wlwmanifest.xml 1 7778 0 0
+/cgi-sys/suspendedpage.cgi/sito/wp-includes/wlwmanifest.xml 1 7778 0 1
+/.well-known/acme-challenge/9MW_FLJ560YE8K9FFQTFVSTJ7NAVGMY- 1 64 1 0
+/.well-known/acme-challenge/-UX3ADHSI-MORAV0E834H4Y9FJMKCQKM 1 64 0 0
+/.well-known/acme-challenge/I6W96AMYNQOSIBAGGFK7JH4_X0YBXEBN 1 64 0 1
+/.well-known/acme-challenge/LWGS4SSF3VGM24ZQGWEKV09JORYKE1MB 1 64 0 0
+/.well-known/acme-challenge/DVE6J0O4H1MYDD819617LVLNXNTW40SF 1 64 0 1
+END_SIDER

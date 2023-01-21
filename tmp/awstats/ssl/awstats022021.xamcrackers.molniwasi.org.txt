@@ -1,0 +1,374 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202102 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.xamcrackers.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2701                
+POS_VISITOR 9176                
+POS_DAY 10271               
+POS_DOMAIN 3370                
+POS_LOGIN 3672                
+POS_ROBOT 3827                
+POS_WORMS 4257                
+POS_EMAILSENDER 4388                
+POS_EMAILRECEIVER 4531                
+POS_SESSION 10637               
+POS_SIDER 10795               
+POS_FILETYPES 4666                
+POS_DOWNLOADS 4829                
+POS_OS 4911                
+POS_BROWSER 5083                
+POS_SCREENSIZE 5418                
+POS_UNKNOWNREFERER 5492                
+POS_UNKNOWNREFERERBROWSER 5959                
+POS_ORIGIN 6421                
+POS_SEREFERRALS 6554                
+POS_PAGEREFS 6717                
+POS_SEARCHWORDS 6865                
+POS_KEYWORDS 7017                
+POS_MISC 2365                
+POS_ERRORS 7076                
+POS_CLUSTER 3528                
+POS_SIDER_404 7200                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210301040305 3 501 11435147265925
+FirstTime 20210201061219
+LastTime 20210227135452
+LastUpdate 20210301181305 3 0 2 0 0
+TotalVisits 30                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 10156 19 45 23237
+1 0 0 0 26 50 41369
+2 0 0 0 16 22 6287
+3 2 2 4288 6 24 122710
+4 4 6 18976 8 8 2338
+5 2 2 10156 10 12 2754
+6 9 25 304230 2 2 914
+7 6 6 30468 25 41 50815
+8 1 1 0 14 34 143892
+9 2 2 4288 18 34 56579
+10 4 4 14444 17 79 45502
+11 0 0 0 6 20 17184
+12 4 4 8576 15 23 21982
+13 2 2 10156 20 22 17783
+14 2 2 8478 20 34 9490
+15 19 30 28013 22 46 17927
+16 0 0 0 16 28 60819
+17 0 0 0 12 12 1627
+18 0 0 0 5 7 541
+19 2 2 10156 13 29 18201
+20 2 2 10156 21 27 18153
+21 3 3 10156 18 24 12049
+22 2 2 10156 7 11 11766
+23 0 0 0 12 24 32157
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 45 56 123155
+ca 8 26 314630
+fr 4 4 20312
+gr 4 4 20312
+de 3 3 0
+gb 2 2 10156
+ru 2 2 4288
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Googlebot/ 64 383064 20210226101925 0
+YandexBot/ 28 60032 20210225203501 0
+crawl 24 5484 20210224144207 0
+bingbot/ 14 12864 20210223102308 0
+bot[\s_+:,\.\;\/\\-] 14 71092 20210212075147 0
+no_user_agent 4 20312 20210228124633 0
+link 2 4288 20210209122453 0
+Googlebot\-Image/ 2 4288 20210220152115 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+js 10 124434 0 0
+html 64 188477 0 0
+woff2 2 143792 0 0
+css 8 27672 0 0
+cgi 2 8478 0 0
+png 11 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/app-ads.txt 6 0 0
+/ads.txt 6 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+macosx9 4 4
+macosx10 12 12
+win10 4 4
+win7 1 1
+linux 18 14
+win8.1 4 4
+macosx 18 4
+Unknown 34 23
+macosx5 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+firefox15.0.1 2 2
+chrome85.0.4183.121 18 4
+firefox65.0 12 12
+chrome80.0.3987.122 2 2
+chrome41.0.2225.0 2 2
+chrome40.0.2214.85 1 1
+chrome85.0.4183.102 4 4
+msie11.0 2 2
+chrome83.0.4103.97 2 2
+Unknown 34 23
+chrome88.0.4324.146 2 2
+chrome34.0.1847.137 4 4
+firefox72.0 6 2
+firefox58.0 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+got_(https://github.com/sindresorhus/got) 20210220152117
+panscient.com 20210215095549
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210225211710
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210227135452
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+panscient.com 20210215095549
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210225211710
+got_(https://github.com/sindresorhus/got) 20210220152117
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210227135452
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 62 73
+From1 0 0
+From2 2 6
+From3 0 0
+From4 4 18
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 34 7130
+406 33 7458
+404 436 159981
+409 1 83
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 50
+/student/bookmarks/delete/ 2 -
+/___proxy_subdomain_cpcalendars/.git/HEAD 1 -
+/js/admin.js 2 -
+/cgi-sys/404.html 2 -
+/apple-touch-icon-114x114-precomposed.png 2 -
+/apple-touch-icon-176x176-precomposed.png 2 -
+/ads.txt 67 -
+/___proxy_subdomain_cpanel/cgi-sys/404.html 3 -
+/LMS/all-categories/english-grammer-3e78195ac5113afd87a1e9d19bc54e358e5edaa1-2 2 -
+/apple-touch-icon.png 2 -
+/exam/categories/maths-category 2 -
+/___proxy_subdomain_cpcontacts/cgi-sys/404.html 3 -
+/LMS/all-categories 4 -
+/site/privacy-policy 2 -
+/LMS/all-categories/history-5de9a37daba64875a5d5fad74880e69555bca034-5 2 -
+/index.php/frontend/index 2 -
+/___proxy_subdomain_cpcalendars/ 4 -
+/index.php/frontend/exam 2 -
+/js/mage/cookies.js 2 -
+/___proxy_subdomain_webdisk/cgi-sys/404.html 4 -
+/apple-touch-icon-72x72-precomposed.png 2 -
+/apple-touch-icon-152x152-precomposed.png 2 -
+/apple-touch-icon-144x144-precomposed.png 2 -
+/public/uploads/settings/tjWzv3GTcocjDTv.png 2 -
+/___proxy_subdomain_webmail/cgi-sys/404.html 4 -
+/___proxy_subdomain_webmail/ 10 -
+/index.php 4 -
+/home 2 -
+/apple-touch-icon-precomposed.png 2 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/ 47 -
+/composer.json 4 -
+/login 40 -
+/___proxy_subdomain_webdisk/ 5 -
+/exam/categories/chemistry-5 2 -
+/practice-exams 2 -
+/index.php/frontend/about 2 -
+/apple-touch-icon-180x180-precomposed.png 2 -
+/site/about-us 2 -
+/site/courses 2 -
+/site/pricing 2 -
+/robots.txt 146 -
+/___proxy_subdomain_cpcalendars/cgi-sys/404.html 3 -
+/apple-touch-icon-76x76-precomposed.png 2 -
+/.git/HEAD 1 -
+/___proxy_subdomain_cpanel/ 8 -
+/register 4 -
+/app-ads.txt 13 -
+/apple-touch-icon-57x57-precomposed.png 2 -
+/___proxy_subdomain_cpcontacts/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+192.99.18.136 6 24 304474 20210213041741
+173.193.191.202 6 6 12864 20210220151715
+3.208.93.39 5 16 2285 20210220152117
+68.183.64.4 4 4 8576 20210216122225
+3.137.173.93 4 4 8576 20210201061219
+138.246.253.24 3 3 0 20210220085521
+34.86.35.219 2 2 10156 20210225211710
+72.79.45.58 2 2 4288 20210215095549
+52.26.82.182 2 2 8478 20210226141341
+34.86.35.204 2 2 10156 20210215223716
+34.86.35.107 2 2 10156 20210225194143
+34.96.130.234 2 2 10156 20210215002421
+34.86.35.187 2 2 10156 20210221042143
+75.126.154.10 2 2 4288 20210220150211
+75.126.32.186 2 2 4288 20210220151716
+62.4.14.206 2 2 10156 20210220074350
+195.201.151.200 2 2 4288 20210208030227
+34.86.35.111 2 2 10156 20210224200712
+40.123.251.130 2 2 4288 20210207103818
+92.118.160.5 2 2 10156 20210227135452
+50.97.77.188 2 2 4288 20210220150805
+212.83.146.233 2 2 10156 20210220073552
+92.118.160.9 2 2 10156 20210227104007
+158.69.228.209 2 2 10156 20210205052515
+51.15.191.81 2 2 10156 20210220074228
+34.83.142.223 1 1 0 20210221153112
+34.105.78.26 1 1 0 20210221153114
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20210201 4 4 8576 1
+20210204 4 20 295654 1
+20210205 3 3 10156 2
+20210207 2 2 4288 1
+20210208 2 2 4288 1
+20210211 1 1 0 1
+20210213 2 4 8820 1
+20210215 6 6 24600 3
+20210216 4 4 8576 1
+20210220 24 35 58481 9
+20210221 4 4 10156 3
+20210224 2 2 10156 1
+20210225 4 4 20312 2
+20210226 2 2 8478 1
+20210227 4 4 20312 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+5mn-15mn 1
+0s-30s 29
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 59 186192 28 27
+/cgi-sys/404.html 5 2285 1 1
+/fonts/fontawesome-webfont.woff2 2 143792 0 1
+/cgi-sys/suspendedpage.cgi 2 8478 1 1
+END_SIDER

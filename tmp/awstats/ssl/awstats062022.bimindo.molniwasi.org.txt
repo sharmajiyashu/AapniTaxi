@@ -1,0 +1,458 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202206 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.bimindo.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2698                
+POS_VISITOR 9393                
+POS_DAY 11988               
+POS_DOMAIN 3377                
+POS_LOGIN 3720                
+POS_ROBOT 3875                
+POS_WORMS 4103                
+POS_EMAILSENDER 4234                
+POS_EMAILRECEIVER 4377                
+POS_SESSION 12651               
+POS_SIDER 12829               
+POS_FILETYPES 4512                
+POS_DOWNLOADS 4789                
+POS_OS 4837                
+POS_BROWSER 5020                
+POS_SCREENSIZE 5745                
+POS_UNKNOWNREFERER 5819                
+POS_UNKNOWNREFERERBROWSER 6369                
+POS_ORIGIN 6770                
+POS_SEREFERRALS 6906                
+POS_PAGEREFS 7069                
+POS_SEARCHWORDS 7217                
+POS_KEYWORDS 7369                
+POS_MISC 2362                
+POS_ERRORS 7428                
+POS_CLUSTER 3576                
+POS_SIDER_404 7566                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220701041709 5 1128 11501154860021
+FirstTime 20220601063826
+LastTime 20220630212731
+LastUpdate 20220701181618 5 0 4 0 0
+TotalVisits 67                  
+TotalUnique 61                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 65                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 2 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 59560 4 9 9343
+1 2 2 60631 4 4 904
+2 5 18 3582050 10 11 245316
+3 25 45 1154639 0 0 0
+4 15 51 4001699 29 29 8386
+5 1 1 14695 3 3 41908
+6 4 4 90021 11 13 6792
+7 2 2 60631 2 2 46162
+8 13 49 3895132 28 28 342746
+9 0 0 0 0 0 0
+10 10 46 3498646 4 4 904
+11 5 5 104716 3 3 1358
+12 3 3 75966 0 0 0
+13 2 32 515721 7 7 1922
+14 3 3 137808 0 0 0
+15 0 0 0 5 5 1810
+16 19 80 7399739 3 7 2150
+17 4 5 125931 0 0 0
+18 1 1 14695 25 25 6802
+19 1 1 45936 1 1 226
+20 4 4 121262 62 63 11682
+21 18 68 4892701 23 23 1018
+22 39 111 8167711 6 6 138486
+23 2 2 60631 1 1 226
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 129 435 29420109
+ca 18 18 764366
+in 16 65 7431246
+ru 7 7 196588
+gb 5 5 73475
+nl 5 5 73475
+ir 2 2 29390
+it 1 1 45936
+cl 1 1 45936
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+(firefox/)([0-9]\.|[0-1][0]\.) 3 137808 20220614223227 0
+no_user_agent 2 83382 20220622070126 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+html 80 1700872 0 0
+Unknown 4 11555 0 0
+css 74 1795064 0 0
+js 132 2019115 0 0
+jpeg 59 1985544 0 0
+png 10 355700 0 0
+woff2 42 1548876 0 0
+jpg 80 24658364 0 0
+ttf 15 1827496 0 0
+woff 42 2163240 0 0
+php 1 14695 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+ios_ipad 1 1
+Unknown 67 31
+win7 17 3
+winxp 1 1
+macosx11 12 12
+linuxandroid 75 26
+linux 116 34
+macosx 3 3
+win10 247 73
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 32
+chrome90.0.4430.85 2 2
+chrome34.0.1847.131 1 1
+firefox90.0 1 1
+firefox59.0 1 1
+chrome89.0.4389.82 2 1
+chrome71.0.3578.99 65 16
+chrome50.0.2661.102 12 12
+chrome34.0.1847.132 1 1
+safari14.1.2 1 1
+firefox83.0 7 7
+Unknown 21 21
+chrome100.0.4896.127 1 1
+chrome99.0.4844.84 1 1
+chrome92.0.4515.131 73 12
+chrome94.0.4606.61 2 2
+chrome83.0.4103.61 16 2
+chrome79.0.3945.79 48 12
+safari14.1.1 1 1
+safari9.0 1 1
+firefox28.0 1 1
+android 10 10
+chrome91.0.4472.124 1 1
+chrome45.0.2444.0 1 1
+chrome84.0.4147.125 9 9
+chrome91.0.4472.114 2 2
+chrome83.0.4103.24 1 1
+mozilla 46 10
+chrome84.0.4147.105 30 0
+msie6.0 1 1
+chrome77.0.3835.0 32 12
+chrome87.0.4280.88 48 12
+chrome76.0.3809.71 100 28
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220610185101
+Go-http-client/1.1 20220614223851
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220616101448
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220629195824
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20220614223851
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220629195824
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 69 78
+From1 5 5
+From2 2 2
+From3 0 0
+From4 108 454
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+404 80 22640
+206 17 585606
+403 5 1790
+302 1 228
+406 128 28928
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 47
+/wp-round.php 1 -
+/cp.php 1 -
+/webdata.php 1 -
+/wp-plain.php 7 www.google.com
+/radio.php 1 -
+/iirjpezt.php 1 www.google.com
+/bat/phpmailer/phpmailer.php 2 -
+/D1EbA.php 1 www.google.com
+/id=q6P8tFLJfzJtsSy8fH9HQ4UXGebd26KShgnr7dqtEFbBp5ckxPVQ3myDCTFmzcJaQMX8ETty 1 https://mangohost.net/user/tickets/ticket/1861
+/slicemap.php 2 -
+/wp-includes/wp-includes.php 2 -
+/.well-known/acme-challenge/a/a/a/a/a.php 2 -
+/d2.php 1 -
+/admin/.env 5 -
+/wp-admin/css/colors/blue/blue.php 2 -
+/DaB12.php 1 www.google.com
+/nc_assets/css/css.php 2 -
+/vcguyfdm.php 1 www.google.com
+/awstats-icon/browser/browser.php 2 -
+/yfngtlme.php 1 www.google.com
+/assets/images/images.php 2 -
+/image/favicon.png 4 -
+/.well-known/slicemap.php 2 -
+/cgi-bin/slicemap.php 2 -
+/get.php 1 -
+/infodat.php 1 -
+/wp-slicemap.php 2 -
+/wp-content/local.php 1 -
+/wp-admin/images/images.php 2 -
+/cgi-bin/cgi-bin.php 2 -
+/nc_assets/img/featured/600/600.php 2 -
+/local.php 1 -
+/porjoton.netlify.app/mekanic/js/waypoints.min.js 1 https://www.bimindo.in/Home/about/
+/wp-content/uploads/typehub/custom/vmbznzoz/.sp3ctra_XO.php 1 www.google.com
+/dup-installer/assets/font-awesome/css/css.php 2 -
+/web.php 1 -
+/class-wp-type-registroy.php 1 -
+/ajax/jquery.validate/1.11.1/1.11.1.php 2 -
+/wp-content/wp-content.php 2 -
+/uhphzylq.php 1 www.google.com
+/wp-admin/admin-ajax.php 1 www.google.com
+/5eF64.php 1 www.google.com
+/assets/images/about/about.php 2 -
+/wp-json/am-member/license 1 -
+/wp-admin/wp-admin.php 2 -
+/wp-admin/css/colors/colors.php 2 -
+/payment/index.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 65
+65.154.226.170 14 50 3971792 20220621220603
+65.154.226.168 14 50 3971792 20220614223114
+112.79.205.186 12 48 3895132 20220602083327
+52.40.94.195 12 48 3895132 20220615041138
+3.101.41.128 12 32 1066978 20220623032642
+65.154.226.220 12 62 4804531 20220604214141
+52.8.101.223 12 12 41725 20220623032630
+35.226.130.222 12 12 703052 20220615160643
+144.217.135.144 8 44 3469256 20220616101448
+52.31.49.23 5 5 44865 20220615003309
+95.211.187.223 5 5 73475 20220614223851
+42.105.201.89 4 17 3536114 20220608023809
+23.101.121.222 4 4 58780 20220617214547
+198.12.107.235 3 3 75966 20220601122200
+198.235.24.22 2 2 91872 20220619041240
+51.38.107.237 2 2 29390 20220603115308
+46.161.11.83 2 2 91872 20220604205922
+87.247.174.250 2 2 29390 20220603215608
+20.197.180.8 2 2 29390 20220614074812
+205.210.31.28 2 2 91872 20220629195824
+142.93.114.5 2 2 29390 20220604100205
+144.126.220.243 2 2 29390 20220623001648
+205.210.31.128 1 1 45936 20220618231514
+185.94.189.14 1 1 14695 20220605213943
+3.72.51.73 1 1 14695 20220621010123
+144.91.106.14 1 2 19364 20220630171559
+34.67.190.118 0 50 6207303 
+167.248.133.117 1 1 14695 20220607174129
+46.161.11.213 1 1 45936 20220625224117
+45.76.45.11 1 1 14695 20220621051905
+51.91.121.242 1 1 14695 20220607201146
+198.235.24.128 1 1 45936 20220618144718
+205.210.31.24 1 1 45936 20220624062342
+198.74.62.90 1 1 14695 20220628061059
+23.80.150.156 1 1 14695 20220606201003
+84.17.49.41 1 1 45936 20220621042014
+158.247.198.109 1 1 14695 20220621041738
+167.71.79.130 1 1 14695 20220624220223
+65.21.206.43 1 1 14695 20220618111744
+205.210.31.14 1 1 45936 20220610115810
+51.75.123.243 1 1 14695 20220601063826
+162.214.112.164 1 1 14695 20220625133545
+15.222.21.79 1 1 0 20220610083219
+89.104.101.53 1 1 14695 20220616164356
+205.210.31.135 1 1 45936 20220629145523
+13.37.105.31 1 1 0 20220607165419
+18.118.212.155 1 1 14695 20220620061851
+167.94.138.63 1 1 14695 20220610185101
+198.235.24.156 1 1 45936 20220619012942
+198.235.24.18 1 1 45936 20220619022105
+164.92.77.72 1 1 14695 20220629165041
+185.255.89.45 1 1 14695 20220605213909
+54.185.146.197 1 1 14695 20220630212731
+205.210.31.155 1 1 45936 20220621165352
+198.235.24.33 1 1 45936 20220627145857
+79.104.53.14 1 1 14695 20220614223331
+198.235.24.23 1 1 45936 20220629174953
+198.235.24.31 1 1 45936 20220629173835
+191.96.168.144 1 1 45936 20220625204620
+65.21.206.45 1 1 7716 20220627165352
+89.104.101.137 1 1 14695 20220615163650
+198.235.24.138 1 1 45936 20220617223517
+18.189.189.237 0 19 293281 
+34.135.25.172 0 11 376952 
+35.217.19.207 0 11 161809 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20220601 4 4 90661 2
+20220602 12 48 3895132 1
+20220603 5 5 104716 3
+20220604 15 65 4879857 3
+20220605 2 2 29390 2
+20220606 1 1 14695 1
+20220607 3 3 29390 3
+20220608 4 17 3536114 1
+20220610 3 3 60631 3
+20220611 3 3 44085 1
+20220613 1 1 14695 1
+20220614 23 59 4166529 6
+20220615 30 127 11241999 4
+20220616 9 45 3483951 2
+20220617 2 2 60631 2
+20220618 3 3 106567 3
+20220619 3 3 137808 3
+20220620 1 1 14695 1
+20220621 19 55 4107749 6
+20220622 1 1 14695 1
+20220623 25 45 1123398 3
+20220624 2 2 60631 2
+20220625 3 3 106567 3
+20220627 2 32 508742 2
+20220628 1 1 14695 1
+20220629 5 5 198439 5
+20220630 2 3 34059 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+2mn-5mn 1
+0s-30s 63
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/ 57 1308081 48 47
+/Home/ 10 319701 7 6
+/landing-mlm-nw/fonts/typography-font/MazzardH-Bold.woff2 8 233856 1 0
+/landing-mlm-nw/fonts/typography-font/MazzardH-SemiBold.woff 8 333536 0 0
+/landing-mlm-nw/fonts/icon-font/fonts/Grayic.woff 8 281856 0 0
+/landing-mlm-nw/fonts/fontawesome-5/webfonts/fa-solid-900.woff 8 784160 0 0
+/landing-mlm-nw/fonts/typography-font/MazzardH-Bold.woff 8 337120 0 0
+/landing-mlm-nw/fonts/icon-font/fonts/Grayic.woff2 8 232672 0 0
+/landing-mlm-nw/fonts/icon-font/fonts/Grayic.ttf 8 484672 1 2
+/landing-mlm-nw/fonts/typography-font/MazzardH-SemiBold.woff2 8 231072 3 0
+/landing-mlm-nw/fonts/typography-font/MazzardH-Regular.woff 8 335712 0 1
+/landing-mlm-nw/fonts/typography-font/MazzardH-Regular.woff2 8 231584 4 0
+/landing-mlm-nw/fonts/fontawesome-5/webfonts/fa-solid-900.ttf 7 1342824 0 5
+/landing-mlm-nw/fonts/fontawesome-5/webfonts/fa-solid-900.woff2 7 528080 0 0
+/Home/about/ 5 27809 0 1
+/front/login/ 4 23148 1 2
+/Home/product/ 4 22133 1 0
+/front/Register 2 7977 0 1
+/landing-mlm-nw/fonts/typography-font/MazzardH-Italic.woff 2 90856 0 0
+/landing-mlm-nw/fonts/typography-font/MazzardH-Italic.woff2 2 62464 0 0
+/front/Forgot_Password 2 3578 0 0
+/landing-mlm-nw/fonts/typography-font/MazzardH-Medium.woff2 1 29148 0 1
+/index.php 1 14695 1 1
+END_SIDER

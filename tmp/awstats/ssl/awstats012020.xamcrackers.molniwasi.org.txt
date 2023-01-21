@@ -1,0 +1,337 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.xamcrackers.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2703                
+POS_VISITOR 7138                
+POS_DAY 7780                
+POS_DOMAIN 3411                
+POS_LOGIN 3701                
+POS_ROBOT 3856                
+POS_WORMS 4235                
+POS_EMAILSENDER 4366                
+POS_EMAILRECEIVER 4509                
+POS_SESSION 8396                
+POS_SIDER 8574                
+POS_FILETYPES 4644                
+POS_DOWNLOADS 4877                
+POS_OS 4925                
+POS_BROWSER 5060                
+POS_SCREENSIZE 5248                
+POS_UNKNOWNREFERER 5322                
+POS_UNKNOWNREFERERBROWSER 5603                
+POS_ORIGIN 5685                
+POS_SEREFERRALS 5821                
+POS_PAGEREFS 5965                
+POS_SEARCHWORDS 6144                
+POS_KEYWORDS 6296                
+POS_MISC 2367                
+POS_ERRORS 6355                
+POS_CLUSTER 3557                
+POS_SIDER_404 6512                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201152528 16 4575 9398484432544
+FirstTime 20200101080200
+LastTime 20200131202113
+LastUpdate 20200202041527 16 0 15 0 0
+TotalVisits 48                  
+TotalUnique 14                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 35983 6 7 6424
+1 1 1 19391 9 12 28759
+2 3 3 58173 11 19 87497
+3 0 0 0 16 25 128161
+4 7 7 126548 5 14 369640
+5 7 34 826290 14 20 70699
+6 1 1 19391 8 10 4101
+7 2 2 4260 17 25 630303
+8 3 3 58583 16 21 79690
+9 0 0 0 4 4 849
+10 2 2 38782 13 16 86345
+11 0 0 0 12 22 117752
+12 3 3 58788 10 18 34552
+13 4 4 64697 19 28 51282
+14 1 1 19596 7 8 12677
+15 1 1 19391 7 12 141534
+16 3 19 623213 9 11 6645
+17 3 3 40311 17 34 53011
+18 2 2 39192 8 26 520986
+19 40 609 12955909 24 39 72242
+20 1 1 19391 10 35 401046
+21 2 2 38782 16 19 75916
+22 2 18 639952 15 30 690371
+23 1 1 19596 10 17 92105
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 43 639 13624780
+fr 29 29 591755
+ru 8 8 109705
+gb 7 7 136352
+de 4 36 1263627
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 166 2465762 20200131202812 34
+YandexBot/ 15 78303 20200130113302 7
+Googlebot\-Image/ 13 799754 20200131100956 0
+bingbot/ 2 0 20200103171343 2
+(firefox/)([0-9]\.|[0-1][0]\.) 1 5892 20200118035244 0
+YandexImages/ 1 99488 20200130113305 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 322 3237209 0 0
+jpeg 26 676762 0 0
+png 45 3768665 0 0
+cgi 10 200066 0 0
+js 235 5790405 0 0
+env 3 3972 0 0
+json 2 4260 0 0
+woff2 16 1242732 0 0
+Unknown 60 802148 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+Unknown 607 38
+win2000 5 5
+win10 2 2
+win7 28 1
+linux 71 39
+win8.1 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+firefox71.0 1 1
+wap 606 37
+edge12 1 1
+chrome79.0.3945.88 28 1
+firefox58.0 36 36
+mozilla 1 1
+firefox66.0 6 6
+firefox50.0 35 3
+msie5.01 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20200107133635
+Mozilla/5.0_(compatible;_Wappalyzer;_https://www.wappalyzer.com) 20200119191553
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 74 106
+From1 0 0
+From2 0 0
+From3 1 1
+From4 16 612
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://216.10.241.214:443 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+405 1 31362
+500 3 138621
+301 26 4933
+401 2 56
+404 51 77362
+406 3 0
+302 188 61054
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 7
+/assets/extra-images/xcourse-grid-img5.jpg.pagespeed.ic.w_INz5jKaA.jpg 1 -
+/.well-known/assetlinks.json 9 -
+/cgi-sys/Xamcrackers.com 1 -
+/ads.txt 29 -
+/public/uploads/exams/categories/23-examimage.png 1 https://www.xamcrackers.com/exam/categories/chemistry-category-3
+/index.php/frontend/index 8 -
+/DS/index.html 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 14
+13.236.85.198 37 606 12902139 20200119191555
+62.210.5.253 10 10 213054 20200131202113
+195.154.63.222 8 8 164580 20200129050404
+163.172.70.242 7 7 136352 20200117014305
+185.234.218.50 7 7 103821 20200128041939
+165.22.255.247 5 5 8232 20200121162458
+195.154.62.232 5 5 97365 20200119052023
+62.210.10.77 5 5 97365 20200130001032
+137.226.113.34 2 34 1241126 20200109224539
+137.226.113.21 1 1 16592 20200128003700
+51.255.109.171 1 1 19391 20200130022203
+137.226.113.26 1 1 5909 20200107133635
+157.47.161.50 1 28 714409 20200103053717
+213.159.213.137 1 1 5884 20200123055751
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20200101 1 1 19596 1
+20200102 3 3 58378 3
+20200103 3 30 753396 3
+20200104 3 19 646047 3
+20200105 1 1 19596 1
+20200106 2 2 38987 2
+20200107 2 2 25505 2
+20200109 2 18 639952 2
+20200110 2 2 38987 2
+20200111 1 1 19596 1
+20200112 2 2 38987 2
+20200113 1 1 19596 1
+20200114 1 1 19596 1
+20200115 3 3 58378 3
+20200117 1 1 19391 1
+20200118 1 1 19391 1
+20200119 38 607 12921530 2
+20200120 2 2 20715 2
+20200121 5 5 26299 3
+20200122 1 1 19391 1
+20200123 2 2 25275 2
+20200124 1 1 19391 1
+20200128 9 9 171633 4
+20200129 1 1 28433 1
+20200130 2 2 38782 2
+20200131 1 1 19391 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+2mn-5mn 1
+0s-30s 45
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/login 41 689771 40 39
+/Themes/themeone/assets/site/fonts/fontawesome-webfont.woff2 15 1157400 0 1
+/cgi-sys/suspendedpage.cgi 10 200066 5 5
+/.env 3 3972 2 2
+/composer.json 2 4260 1 1
+/practice-exams 2 11096 0 0
+/site/privacy-policy 1 4441 0 0
+/exam/categories/maths-category 1 5557 0 0
+/public/fonts/materialdesignicons-webfont.woff2 1 85332 0 0
+/site/pricing 1 3306 0 0
+/exam/categories/physics-2 1 6429 0 0
+/LMS/all-categories 1 5784 0 0
+/site/pattren 1 3974 0 0
+/exam/categories/chemistry-category-3 1 4238 0 0
+/home 1 8068 0 0
+/exams/start-exam/reasoning-ff5f6112ffc91c1745460088e840d89339bb4c5e-16 1 21431 0 0
+/site/terms-conditions 1 7218 0 0
+/register 1 6030 0 0
+/contact-us 1 4563 0 0
+/exam/categories/chemistry-5 1 3545 0 0
+/site/courses 1 3422 0 0
+/site/about-us 1 3667 0 0
+/exam/categories/history-category-4 1 5106 0 0
+/site/syllabus 1 4502 0 0
+END_SIDER

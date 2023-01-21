@@ -1,0 +1,425 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202004 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.agesr.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2699                
+POS_VISITOR 8405                
+POS_DAY 10757               
+POS_DOMAIN 3449                
+POS_LOGIN 3780                
+POS_ROBOT 3935                
+POS_WORMS 4573                
+POS_EMAILSENDER 4704                
+POS_EMAILRECEIVER 4847                
+POS_SESSION 11389               
+POS_SIDER 11553               
+POS_FILETYPES 4982                
+POS_DOWNLOADS 5235                
+POS_OS 5373                
+POS_BROWSER 5544                
+POS_SCREENSIZE 6231                
+POS_UNKNOWNREFERER 6305                
+POS_UNKNOWNREFERERBROWSER 6748                
+POS_ORIGIN 6957                
+POS_SEREFERRALS 7093                
+POS_PAGEREFS 7256                
+POS_SEARCHWORDS 7404                
+POS_KEYWORDS 7556                
+POS_MISC 2363                
+POS_ERRORS 7615                
+POS_CLUSTER 3636                
+POS_SIDER_404 7774                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200501115306 923 179485 10281377523234
+FirstTime 20200401001550
+LastTime 20200426140924
+LastUpdate 20200502041414 1 0 0 0 0
+TotalVisits 115                 
+TotalUnique 57                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 61                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 26 26 479930 9 22 1886775
+1 25 26 1075064 7 68 1152743
+2 16 16 135106 13 57 1172826
+3 3 3 50551 5 10 821904
+4 4 5 905483 9 38 724332
+5 3 4 112909 18 46 983880
+6 3 3 48791 8 26 680537
+7 1 1 40516 13 19 553119
+8 3 30 1765366 4 8 422271
+9 3 3 105784 14 25 364913
+10 0 0 0 7 33 1236178
+11 0 0 0 10 51 956689
+12 3 30 1729989 9 16 1047917
+13 8 9 399438 9 18 605478
+14 3 3 16879 3 54 540053
+15 4 4 110600 6 12 48876
+16 7 36 2742232 8 21 998462
+17 4 5 345130 5 7 70073
+18 6 6 254934 4 7 383875
+19 3 30 1789090 11 37 747122
+20 2 2 32838 10 26 263381
+21 6 6 215231 4 6 24940
+22 9 10 585528 10 16 1452199
+23 8 8 261203 10 15 365087
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 64 119 4086211
+ru 56 60 4844758
+de 18 73 3557973
+by 5 5 207531
+gb 5 5 106017
+ua 1 1 8445
+ca 1 2 113808
+kh 0 1 277849
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+msnbot/ 267 3346452 20200425202055 0
+bingbot/ 172 11962236 20200426110142 60
+bingpreview 31 577587 20200426023557 0
+Googlebot/ 25 18500 20200426092044 25
+bot[\s_+:,\.\;\/\\-] 20 808824 20200429103436 0
+SurdotlyBot/ 5 34512 20200415053211 1
+(firefox/)([0-9]\.|[0-1][0]\.) 3 25335 20200419042139 0
+netEstate[\x20]NE[\x20]Crawler 3 75406 20200426073538 1
+[\s_+:,\.\;\/\\-]bot 3 25333 20200424212356 0
+Konqueror/ 2 15724 20200426120223 0
+unknown 2 2929 20200414134643 2
+no_user_agent 2 80692 20200425200111 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+Unknown 36 1566561 0 0
+html 96 1043730 0 0
+png 14 2204469 0 0
+pdf 3 2383137 0 0
+jpeg 5 1365939 0 0
+css 52 302888 0 0
+js 28 559928 0 0
+php 18 610119 0 0
+txt 1 113808 0 0
+jpg 13 3052013 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/sites/default/files/off_line_registration_form.pdf 3 0 2383137
+/CHANGELOG.txt 1 0 113808
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win8.1 3 3
+linux 94 11
+winxp 1 1
+win10 91 89
+macosx 29 1
+Unknown 10 10
+win8 1 1
+ios_iphone 1 0
+win7 36 34
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 31
+opera54.0.2952.51 12 12
+chrome40.0.2214.93 1 1
+firefox57.0 2 2
+firefox61.0 50 50
+safari11.0 1 0
+chrome80.0.3987.0 28 1
+chrome58.0.3029.110 1 1
+chrome75.0.3770.142 4 4
+chrome68.0.3440.106 4 4
+chrome67.0.3396.99 6 5
+edge16 6 6
+firefox50.0 57 2
+opera55.0.2994.44 6 4
+safari13.0.5 1 0
+chrome66.0.3359.181 5 5
+mozilla 4 4
+Unknown 6 6
+chrome40.0.2214.85 12 12
+chrome36.0.1985.67 1 1
+opera54.0.2952.54 4 4
+chrome74.0.3694.0 28 1
+chrome67.0.3396.79 7 7
+chrome79.0.3945.130 1 1
+firefox64.0 1 1
+chrome68.0.3440.84 3 3
+chrome46.0.2490.80 1 0
+chrome5.0.307.7 1 0
+firefox72.0 3 3
+opera54.0.2952.64 8 8
+chrome67.0.3396.87 1 1
+chrome65.0.3325.181 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20200426140924
+https://gdnplus.com:Gather_Analyze_Provide. 20200407090017
+Go-http-client/2.0 20200421231644
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20200426083035
+Go-http-client/1.1 20200425220045
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+https://gdnplus.com:Gather_Analyze_Provide. 20200407090017
+Go-http-client/2.0 20200421231644
+Go-http-client/1.1 20200425220045
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 88 145
+From1 0 0
+From2 3 5
+From3 0 0
+From4 59 116
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 2 1464
+301 26 3353
+409 8 664
+302 2 227
+500 4 22209
+404 49 367546
+406 12 134637
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 15
+/.well-known/assetlinks.json 26 -
+/console 1 -
+/tmp/license.txt 1 -
+/horde/imp/test.php 1 -
+/asset-manifest.json 1 https://www.agesr.com/
+/temp/ 1 -
+/robots.txt 10 -
+/site/license.txt 1 -
+/login 1 -
+/cgi-bin/test-cgi 1 -
+/license.txt 1 -
+/atutor/index.php 1 -
+/www/license.txt 1 -
+/test/license.txt 1 -
+/login.action 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 61
+5.188.84.6 26 26 1084808 20200417192750
+69.164.211.37 25 25 211099 20200425024621
+5.188.84.3 12 15 2787230 20200416012456
+138.246.253.15 9 9 0 20200426122738
+5.188.84.76 9 9 331679 20200419032307
+37.212.55.224 5 5 207531 20200404220740
+5.188.84.130 4 4 193346 20200418162252
+138.246.253.5 3 3 0 20200404222430
+5.188.84.66 3 3 156953 20200416155527
+51.91.129.4 3 3 25325 20200421154827
+137.226.113.27 2 2 16884 20200426140924
+3.17.60.111 2 2 16886 20200406032346
+3.21.171.123 2 2 16886 20200406024723
+62.232.184.170 2 2 80692 20200421054545
+3.235.11.36 1 1 8444 20200423022828
+34.204.180.0 1 1 8444 20200416014023
+54.197.217.152 1 1 40482 20200412000550
+35.173.122.163 1 1 8444 20200406004327
+185.129.148.31 1 1 8438 20200418085806
+3.93.70.120 1 1 8446 20200408005407
+137.226.113.21 1 28 1748487 20200408081901
+3.230.143.120 1 1 8444 20200404003144
+18.205.176.227 1 1 8444 20200420020833
+18.236.133.51 1 28 1721540 20200409193029
+35.170.65.242 1 1 8445 20200422022126
+192.95.29.220 0 1 113808 
+3.85.124.187 0 1 0 
+35.153.179.54 1 1 8445 20200421021451
+3.226.248.52 1 1 8443 20200402002148
+45.77.134.191 1 1 8443 20200425220045
+3.80.88.242 1 28 1721544 20200410122041
+34.232.51.69 1 1 8445 20200417014622
+34.219.91.154 1 1 8443 20200402010052
+94.253.95.110 0 1 273859 
+137.226.113.26 1 1 8438 20200420144356
+104.206.128.70 1 1 40346 20200407065002
+3.90.150.201 1 1 8441 20200405003819
+35.175.136.57 1 1 8441 20200403002633
+35.164.235.49 1 1 8445 20200419064011
+54.173.194.212 1 1 8444 20200424023703
+34.204.177.8 1 1 8443 20200413012342
+52.90.105.129 1 1 8445 20200419020156
+195.114.148.31 1 1 8445 20200421231644
+137.226.113.28 1 1 8441 20200426083035
+3.80.3.96 1 1 8445 20200418015243
+203.144.88.6 0 1 277849 
+54.208.80.228 1 1 8444 20200411011028
+3.94.53.207 1 1 8445 20200415013438
+159.203.32.136 1 1 0 20200422014556
+159.89.115.29 1 1 0 20200422014554
+104.206.128.54 1 1 40482 20200407090017
+34.200.228.63 1 1 8443 20200401001608
+54.197.25.114 1 1 8445 20200412011738
+137.226.113.34 1 29 1775723 20200421162512
+34.204.206.42 1 1 8444 20200407004845
+3.91.34.36 1 1 8445 20200414012900
+18.232.137.157 1 1 8443 20200425024646
+104.140.188.18 1 1 40516 20200407071611
+3.81.29.72 1 1 8444 20200409005924
+18.208.204.34 1 1 8443 20200410010516
+185.162.235.194 1 1 8445 20200421122230
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20200401 7 7 148795 7
+20200402 3 3 25329 3
+20200403 2 2 16882 2
+20200404 9 9 224419 5
+20200405 2 2 16882 2
+20200406 6 6 50660 4
+20200407 5 5 138232 5
+20200408 6 33 1765379 5
+20200409 3 31 2012287 3
+20200410 16 45 3816904 6
+20200411 3 3 76939 3
+20200412 12 12 415500 7
+20200413 3 3 77915 3
+20200414 5 6 251015 5
+20200415 4 6 358593 4
+20200416 12 13 1194517 6
+20200417 14 14 383461 9
+20200418 5 5 136158 5
+20200419 5 5 67443 5
+20200420 3 3 25326 3
+20200421 9 37 1907079 7
+20200422 4 4 16890 4
+20200423 2 2 16888 2
+20200424 2 2 16888 2
+20200425 5 5 25329 5
+20200426 3 3 16882 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30mn-1h 2
+0s-30s 112
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 15
+/ 96 1043730 87 87
+/member.php 16 510517 1 6
+/member/register 9 567850 0 0
+/users/seller-products-add 3 104136 3 3
+/tourism 3 100995 3 3
+/scientific 3 98514 3 3
+/user/password 3 96652 3 1
+/research 3 92082 3 1
+/node/add 3 90291 1 2
+/about 2 71288 2 2
+/contact 2 65742 2 0
+/registration.php 2 99602 2 2
+/agesr-committee 2 122058 2 2
+/organising-committee 2 120102 2 2
+/invitation 1 36851 1 1
+END_SIDER

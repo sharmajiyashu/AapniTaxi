@@ -1,0 +1,2292 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201908 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.premad.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2686                
+POS_VISITOR 61833               
+POS_DAY 66665               
+POS_DOMAIN 3530                
+POS_LOGIN 4219                
+POS_ROBOT 4374                
+POS_WORMS 5321                
+POS_EMAILSENDER 5452                
+POS_EMAILRECEIVER 5595                
+POS_SESSION 67115               
+POS_SIDER 67322               
+POS_FILETYPES 5730                
+POS_DOWNLOADS 6021                
+POS_OS 6069                
+POS_BROWSER 6329                
+POS_SCREENSIZE 7570                
+POS_UNKNOWNREFERER 7644                
+POS_UNKNOWNREFERERBROWSER 7907                
+POS_ORIGIN 8040                
+POS_SEREFERRALS 8179                
+POS_PAGEREFS 8363                
+POS_SEARCHWORDS 8593                
+POS_KEYWORDS 8745                
+POS_MISC 2350                
+POS_ERRORS 8804                
+POS_CLUSTER 4075                
+POS_SIDER_404 8937                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190901002629 683 165901 8801996583487
+FirstTime 0
+LastTime 20190831221114
+LastUpdate 20190901044326 683 0 682 0 0
+TotalVisits 128                 
+TotalUnique 118                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 122                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 117415 195 223 220577
+1 8 14 285506 97 130 317229
+2 3 3 55464 419 424 431545
+3 7 7 163664 564 571 192216
+4 3 3 87669 19 37 81213
+5 8 110 5975555 204 217 188690
+6 36 161 6826227 32 84 621757
+7 12 71 3302350 13 85 1496761
+8 30 83 3550587 26 49 750140
+9 5 5 155064 11 18 90970
+10 187 248 8215976 1738 1758 1441515
+11 17 123 7058720 31 57 360860
+12 13 66 3395964 127 148 245635
+13 38 38 610503 63 157 3885344
+14 19 128 6450026 73 160 1322416
+15 5 56 3120368 356 426 804547
+16 14 67 3485746 32 51 137601
+17 19 46 810441 230 284 119839
+18 6 59 3155371 261 299 1704122
+19 5 5 99769 215 229 128547
+20 8 39 1248573 457 477 114665
+21 14 14 478095 501 523 318785
+22 7 7 198762 76 116 320626
+23 19 19 557869 166 217 564781
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 33
+ro 156 156 5626608
+us 155 505 21240560
+iq 30 122 3584684
+in 21 307 16010192
+it 14 14 504952
+de 13 13 468884
+id 12 12 147061
+ua 8 8 288544
+gb 8 8 161864
+cn 7 13 249438
+tn 7 56 2904979
+fr 6 6 189551
+vn 6 57 3148195
+ma 6 6 108980
+au 5 5 180340
+ru 4 4 97420
+my 4 4 144272
+pl 3 3 108204
+dz 3 58 3736426
+ge 2 2 18422
+lt 2 2 72136
+cz 2 2 72136
+lu 2 2 25284
+kz 2 2 72136
+at 1 1 36068
+ng 1 1 36068
+sc 1 1 9211
+eu 1 1 36068
+cl 1 1 36443
+lr 1 1 9211
+kh 1 1 9211
+ie 1 1 36068
+sg 1 1 36068
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+Googlebot/ 342 2386881 20190831233205 0
+bingpreview 89 2840672 20190831075600 0
+YandexBot/ 79 689517 20190830141915 0
+Baiduspider/ 67 528204 20190831181206 0
+bingbot/ 56 404974 20190831211226 0
+baidu 53 3653281 20190828135335 0
+Googlebot\-Image/ 25 876816 20190819072951 0
+(firefox/)([0-9]\.|[0-1][0]\.) 17 202901 20190831153614 0
+facebookexternalhit/ 14 467244 20190822080324 0
+no_user_agent 5 218199 20190827065429 0
+Applebot/ 4 36844 20190831182543 0
+bot[\s_+:,\.\;\/\\-] 4 144272 20190831092227 0
+Wget/ 3 111365 20190824103224 0
+TelegramBot 2 18422 20190826030629 0
+YandexImages/ 2 76451 20190831140943 0
+libwww\-perl 2 72136 20190828055213 0
+archive\.org_bot 1 36068 20190829102730 0
+PhantomJS 1 703 20190821143301 0
+DuckDuckGo\-Favicons\-Bot/ 1 9211 20190822170514 0
+Python\-urllib/ 1 36068 20190822102622 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff 16 956264 0 0
+png 209 4599361 0 0
+jpg 154 36248245 0 0
+jpeg 2 32326 0 0
+js 228 2101927 0 0
+woff2 15 1157400 0 0
+css 296 2767639 0 0
+Unknown 2 14290 0 0
+php 40 441894 0 0
+htm 7 5572 0 0
+alfa 1 78 0 0
+html 406 11080688 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+macosx12 1 1
+macosx 62 62
+macosx10 4 4
+ios_iphone 55 4
+Unknown 10 10
+macosx8 1 1
+win10 617 309
+win7 92 39
+winxp 7 7
+winnt 1 1
+macosx6 1 1
+macosx9 1 1
+linux 94 16
+win8.1 55 6
+linuxandroid 375 25
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 59
+firefox15.0.1 1 1
+firefox58.0 3 3
+firefox48.0 12 12
+chrome76.0.3809.132 56 3
+chrome20.0.1092.0 1 1
+chrome45.0.2454.101 2 2
+chrome53.0.2785.49 8 2
+firefox68.0 55 4
+msie7.0 1 1
+opera53.0.2907.106 2 2
+safari10.0 54 3
+safari5.1 1 1
+chrome75.0.3770.100 1 1
+firefox66.0 1 1
+chrome66.0.3359.139 62 62
+chrome68.0.3440.106 4 4
+netscape5.0 3 3
+safari5.0 1 1
+msie6.0 1 1
+firefox52.0 54 3
+edge16 1 1
+chrome49.0.2623.112 6 6
+chrome67.0.3396.99 2 2
+chrome76.0.3809.111 313 22
+chrome63.0.3239.132 219 219
+chrome66.0.3359.181 3 3
+chrome67.0.3396.87 4 4
+firefox50.0 4 4
+chrome76.0.3809.100 303 48
+chrome67.0.3396.62 2 2
+chrome60.0.3112.50 28 1
+chrome74.0.3729.131 2 2
+chrome61.0.3163.100 2 2
+opera53.0.2907.68 1 1
+chrome11.0.678.0 1 1
+chrome76.0.3809.87 55 4
+opera36.0.2130.32 2 2
+msie11.0 1 1
+chrome42.0.2311.90 1 1
+chrome39.0.2171.95 1 1
+chrome38.0.1025.166 54 1
+safari7.0.3 1 1
+chrome64.0.3282.186 2 2
+chrome42.0.2311.135 4 4
+chrome59.0.3071.125 2 2
+chrome26.0.1410.65 1 1
+mozilla 5 5
+chrome68.0.3440.75 2 2
+chrome65.0.3325.181 1 1
+chrome11.0.696.12 1 1
+chrome26.0.1410.63 6 6
+chrome50.0.2661.94 1 1
+firefox43.0 3 3
+safari5.0.3 1 1
+firefox57.0 4 4
+firefox29.0 2 2
+msie9.0 1 1
+Unknown 7 7
+firefox64.0 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+PleskBot 20190824200458
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/)/2.4w 20190822091624
+Mozilla/5.0_(compatible) 20190822080414
+ia_archiver 20190826083317
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+ia_archiver 20190826083317
+PleskBot 20190824200458
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 340 340
+From1 0 0
+From2 2 2
+From3 2 2
+From4 143 1032
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 1 1
+www_google_co_in 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://dissiti.com/about-time-2013-dvdrip-xvid-maxspeed-461059-freedownloads 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 15 392537
+404 5699 2590714
+409 79 6391
+403 101 60510
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1745
+/wp-content/plugins/cherry-plugin/admin/import-export/jsspwned.php 12 -
+/config.php 2 -
+/alf.Php5 1 -
+//cfgs.php 1 -
+/images/WSO.php 1 -
+/tt.php 2 -
+/admin1.php 1 -
+//admin/editor/plugins/filemanager/inc/izo.php 1 -
+/administrator/manifests/files/joomla.xml 2 -
+/wp-content/plugins/akismet/akismet.php 4 -
+/c100.php 3 -
+/bl.php 1 -
+/cpcrack.php 1 -
+/tmp/upxx.php 1 -
+/mast.php 2 -
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 4 -
+/anon.php 3 -
+/b1.php 3 -
+/wp-content/plugins/ubh/up.php 1 -
+/joomla/robots.txt 1 -
+/user.php 3 -
+/ssl.php 1 -
+/cpx.php 1 -
+/wp.PhP 1 -
+/ls.php 2 -
+/mb.php 1 -
+/templates/system/css/system.css 15 -
+/assets/admin/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/server/php/ 2 -
+/q1.php 1 -
+/wp-content/plugins/spirit-templates/up.php 1 -
+/shells/b374k.php 1 -
+/wp-content/uploads/2018/08/shell.php 2 -
+/wp-content/plugins/easyrotator-for-wordpress/a.php 2 www.premad.in
+/media/1ndex.php 2 www.premad.in
+/Server.php 1 -
+//admin/ckeditor/kcfinder/upload.php 1 -
+/lama.php 1 -
+/wp-content/uploads/2019/07/rsx.php 1 -
+/administrator/templates/isis/error.php 2 -
+//web/image/upload.php 1 -
+/umapresence/style/izoname.php 2 -
+/js/ckeditor/kcfinder/upload.php 4 -
+/wp-content/uploads/2019/08/ 2 -
+/bih.php 1 -
+/xmlrpc.php 94 -
+/lol.php 1 -
+/components/com_foxcontact/home.php 1 -
+/elements.php 2 www.premad.in
+/wp-waf.php 1 -
+/so.php 1 -
+/administrator/dbconfig.php 2 www.premad.in
+/tmp/1.php 2 -
+/k2.php 1 -
+/goog1es.php 2 www.premad.in
+//laravel/.env 1 -
+//user/login 1 -
+//wp-content/themes/versatile/lib/includes/timthumb.php 1 -
+//helpdesk/media/editor/plugins/filemanager/inc/data.php 1 -
+/orvx.php 3 -
+/wp.phtml 1 -
+//.env 7 -
+/ox.php 2 -
+/gelap.php 1 -
+/eddy.php 1 -
+/22.php 2 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/index.php 5 -
+//assets/ckeditor/kcfinder/upload.php 1 -
+/xnxx.php 2 -
+/wp-includes/js/jquery/jquery.js 4 -
+/images.php 1 -
+/4.php 3 -
+/e.php 3 -
+/wp-content/plugins/css-ready-selectors/file.php 1 -
+/blog/robots.txt 10 -
+/xzarox.php 1 -
+/whmcs.php 3 -
+/idiot.php 1 -
+//scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/wp-content/uploads/rKpZkS.php 1 -
+/setting.php 2 -
+/iam.php 1 -
+/lfishell.php 1 -
+/uu.php 1 -
+/smart.php 1 -
+/file1.php 1 -
+/shm.php 1 -
+/webr00t.php 1 -
+/0byte.php 1 -
+/administrator/templates/isis/index.php 2 -
+/egy.php 1 -
+/happynes.php 1 -
+/blog/wp-includes/wlwmanifest.xml 111 -
+/images/guide.php 1 -
+/7..php 1 -
+/.n.php 1 -
+/media/kunena/avatars/media-admin.php 1 -
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+//thumb.php 1 -
+/secureHigh.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 2 -
+/def.php 1 -
+/mlx.php 1 -
+/alf.php 2 -
+/mini.php 2 -
+/tbon.php 1 -
+//admin/libraries/ajaxfilemanager/ajax_create_folder.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/xWarning.php 1 -
+/backup.php 2 -
+/wp-content/wljzlh.php 1 -
+/wp-admin.php 1 -
+/vendor_extra/elfinder/files/DC0mmand3r.php 1 -
+/n.php 2 -
+/pzug.php 1 -
+/Rweb.php 1 -
+/WLV790.php 1 -
+//wp-admin/install.php 2 -
+/12.php 2 -
+/gator.php 1 -
+/monster.php 1 -
+/wp-content/uploads/2019/08/jsspwned.php 12 -
+/wp-content/plugins/myshe.php 2 www.premad.in
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 4 -
+/123.php 2 -
+/admin/webroot/cache/59725b922cb18ad815fffe5446463048.php 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 4 -
+/user/ 3 -
+/xup.php 2 -
+/666.php 2 -
+/x3d.php 1 -
+/azzoulshell.php 1 -
+/configuration.php 3 -
+/images/jdownloads/screenshots/xWarning.php 1 -
+/meta.php 2 -
+/z4n.php 1 -
+/asw.php 1 -
+/wp-admin/admin-post.php 18 -
+/ee.php 1 -
+/baba.php 1 -
+/dal.php 1 -
+/wp-cofigs.php 2 -
+/indo.php 2 -
+/libraries/jscripts/kcfinder/upload/files/ups.php.jd 2 -
+/2016/wp-includes/wlwmanifest.xml 84 -
+//wp-content/plugins/advanced-dewplayer/admin-panel/download-file.php 1 -
+/sab3on.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/RxR__uforv.php 1 -
+/pc.php 1 -
+/wp-content/plugins/caches.php 2 www.premad.in
+//assets/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/gaza.php 3 -
+/authenticating.php 2 www.premad.in
+/sym.php 3 -
+/wp-content/plugins/asset-manager/upload.php 6 -
+/file.php 1 -
+//javascript/valums/server/php.php 1 -
+/wp-content/bk.php 2 www.premad.in
+/admin/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/priv.php 3 -
+///shell.phpdz.php 1 -
+//wp-admin/setup-config.php 1 -
+/.env 2 -
+/logo_img.php 1 -
+//public/upload_nhieuanh/server/php/files/ddd.php 1 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 3 -
+/vuln.php 1 -
+/un.php 2 -
+/111.php 1 -
+/language/en-GB/en-GB.xml 12 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/CPl.php 1 -
+/modules/vtemskitter/uploadimage.php 1 -
+/xGSx.php 2 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 2 -
+/77.php 1 -
+/11b.php 1 -
+/mysheller.php 1 -
+/templates/atomic/html/leaf3.php 1 -
+//vehiculo_photos/server/php/ 1 -
+//responsivefilemanager/plugin.min.js 1 -
+/sheller.php 1 -
+//modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/shellxo.php 1 -
+/cracker.php 2 -
+/wp-content/themes/beach_apollo/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/edit-site.php 1 -
+/ok.php 1 -
+/new.php 1 -
+/images/head.php 2 www.premad.in
+/save.php 1 -
+/templates/beez5/index.php 5 -
+/modules/pk_flexmenu/uploads/HolaPresME_72029.php 1 -
+//AndroidFileUpload/uploads/ddd.php 1 -
+/phpMyAdmin/f1.php 1 -
+/wsos.php 1 -
+/server/php 4 -
+//public/filemanager/plugin.min.js 1 -
+//wp-content/themes/churchope/lib/downloadlink.php 1 -
+/cache/list.php 2 www.premad.in
+/cPanelCracker.php 1 -
+///shell.phpbkht.php 1 -
+//admin/login.php 2 -
+/images/logo_img.php 1 -
+/new_license.php 2 -
+/wp-content/themes/ultimatum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/ny.php 1 -
+/wp-content/uploads/2019/media-admin.php 1 -
+/wawa.php 2 -
+//wp-content/plugins/gallery-plugin/upload/php.php 1 -
+/proshell1.php 1 -
+/1337w0rm.php 2 -
+/mysqli.php 1 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 2 -
+//libraries/jscripts/kcfinder/upload.php 1 -
+/as.php 1 -
+/iiWgga.php 1 -
+/sym403.php 1 -
+/669N.php 1 -
+/reasdme.php 1 -
+/shell.php 19 -
+/administrator/templates/bluestork/error.php 2 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 2 -
+/wso.php 12 -
+/roots.php 1 -
+/ALFA-SHELL-V3.php 1 -
+/images/cp.php 1 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+/webconfig.txt.php.suspected 2 www.premad.in
+/harishell-1.php 1 -
+/assets/js/mylibs/kcfinder/upload.php 4 -
+/kcfinder-2.51/upload.php 4 -
+/news.php 2 www.premad.in
+//server/php/index.php 1 -
+/wp-upgrade.php 1 -
+/6.php 4 -
+/modules/megamenu/uploadify/uploadify.php 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/tbshell.php 1 -
+/wsd.php 1 -
+//components/com_creativecontactform/fileupload/index.php 1 -
+//admin/filemanager/plugin.min.js 1 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 http://www.premad.in/sites/all/libraries/elfinder/php/connector.minimal.php
+/images/404.php 2 www.premad.in
+/components/com_b2jcontact/izoc.php 2 -
+/symsa2.php 2 -
+/footer.php 1 -
+/wp-content/plugins/ppus/suram.php 1 -
+/d4rk.php 1 -
+/tinymce/plugins/imgsurfer/imglist.php 2 -
+/wg-waf.php 1 -
+/um3r.php 2 -
+/update.php 5 -
+/v.php 2 -
+///shell.phpw.php 1 -
+/leaf3.php 1 -
+/rdp.php 1 -
+/big.php 3 -
+/site/wp-includes/wlwmanifest.xml 110 -
+/modules/mod_simplefileupload.3/elements/udd.php 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-deep-gray/designit/cs/upload.php 6 -
+/admin/ckeditor/kcfinder/upload.php 4 -
+/cache/cachee.php 2 www.premad.in
+///shell.phpfooter.php 1 -
+/indx.php 1 -
+/wp-crons.php 1 -
+//wpnew/wp-admin/install.php 1 -
+/jconfig.php 2 www.premad.in
+/wso24.php 2 -
+/user/file_text/xlog..php 1 -
+/wp-contacts.php 1 -
+//app/webroot/js/tinymce/plugins/imgsurfer/main.php 2 -
+/098.php 2 -
+/indexe.php 2 -
+/mailer.php 2 -
+/RxR.php 2 -
+/up1.php 2 -
+/zab.php 1 -
+/2xdfv.php 1 -
+//wp-content/themes/bigfeature/library/timthumb/timthumb.php 2 -
+/cc.php 3 -
+//assets/plugins/ckeditor/kcfinder/upload.php 1 -
+//filemanager/plugin.min.js 1 -
+/ham.php 1 -
+/wp-content/uploads/wpmp-previews/jsspwned.php 6 -
+//js/filemanager/plugin.min.js 1 -
+/images/ 2 -
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 6 -
+/modules/bamegamenu/HolaPresME_72029.php 4 -
+/pmSDDSD.php 1 -
+/11.phtml 1 -
+/templates/beez/index.php 3 -
+/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/depriving.php 1 -
+//plugins/content/jw_allvideos/includes/download.php 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 12 -
+//tinymce/js/tinymce/plugins/imgsurfer/main.php 1 -
+/cache/wcache7675n.PHP 2 www.premad.in
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/AndroidFileUpload/fileUpload.php 2 -
+/zb.php 1 -
+//admin/editor/plugins/ajaxfilemanager/inc/data.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/rKpZkS.php 1 -
+/Marvins.php 3 -
+/wp-signup.php 1 -
+/wp-content/plugins/ppus/ns.php 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 2 -
+/indexx.php 1 -
+/idx.php 2 -
+//js/tinymce/plugins/imgsurfer/main.php 1 -
+/wp-root.php 1 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+//assets/uploadify/old/uploadify.php 1 -
+///shell.php 39 -
+/templates/beez_20/index.php 2 -
+/mek.php 1 -
+/jembot.php 1 -
+/wp-content/uploads/2018/03/xWarning.php 2 -
+/system.php 3 -
+/web/image/upload.php 2 -
+/images/b.php 1 -
+/dac.php 1 -
+/rox.php 1 -
+/bitrix/admin/index.php 4 -
+/sh3ll.php 4 -
+/wp-includes/wp-inc.php 1 -
+/dz1.php 1 -
+/187.php 1 -
+/logs.asp 2 www.premad.in
+//modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/wp-includes/wolfm.php 1 -
+/content.php 2 www.premad.in
+/components/com_foxcontact/_func.php 1 -
+/modules/fieldvmegamenu/uploads/HolaPresME_72029.php 1 -
+/shell2.php 1 -
+/cfg-contactform-1/upload/ddd.php 2 -
+//helpdesk/media/editor/plugins/filemanager/inc/izo.php 1 -
+/wp-2018.php 1 -
+//files/uploadify/uploadify.php 1 -
+/sysadmin.php 1 -
+/newps.php 1 -
+/wp-content/plugins/ubh/index.php 2 -
+/mm.php 5 -
+//js/tinymce1/plugins/filemanager/language/index.php 1 -
+/tmp/up.php 1 -
+/nunu.php 1 -
+/ccp.php 1 -
+/wp-content/plugins/akismet/widget.php 1 -
+/ler.php 1 -
+/upel.php 2 -
+/sites/all/libraries/elfinder/files/rKpZkS.php 1 -
+/yusa.php 1 -
+/private.php 3 -
+/wsozo.php 1 -
+/000.php 1 -
+/kk.php 2 -
+/M4r0c.php 1 -
+/tmp/mad.php 2 -
+/ddd.php 5 -
+//admin/js/tinymce/plugins/imgsurfer/main.php 1 -
+/img/ 2 -
+//tpl/plugins/upload9.1.0/server/php/ddd.php 1 -
+/configurationbak.php 2 www.premad.in
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/user/file_text/ 1 -
+/zabi.php 1 -
+/zebda.php 1 -
+/wp-content/themes/rarebird/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/media/editor/plugins/filemanager/inc/izo.php 2 -
+//tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+//scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/jjl.php 1 -
+/wp-content/uploads/$year/$month/jsspwned.php 18 -
+//wp-content/themes/ninetofive/scripts/doajaxfileupload.php 1 -
+/xxxxxx.php 1 -
+/wp-admin/m4d.php 2 -
+/wordpress/wp-includes/wlwmanifest.xml 111 -
+/8.php 2 -
+/md.php 1 -
+//wp-content/plugins/evarisk/include/lib/actionsCorrectives/activite/uploadPhotoApres.php 1 -
+//panel/kcfinder/css.php 1 -
+/libraries/jscripts/kcfinder/upload.php 4 -
+/sl.php 1 -
+/robot.php 2 www.premad.in
+/send.php 1 -
+/qp.php 1 -
+/tmp/as.php 1 -
+/wp-configuration.php 1 -
+/wp-content/plugins/wp-cache.php 2 www.premad.in
+/shellwow.php 1 -
+/err.php 1 -
+/bigdump.php 1 -
+/media/xWarning.php 1 -
+/pm.php 1 -
+/wp-includes/cm3.php 1 -
+/ini.php 3 -
+/indexok.php 1 -
+/civil.php 1 -
+/components/com_jbcatalog/libraries/jsupload/ 1 -
+/.wp-trc.php 1 -
+/apc.php 1 -
+/components/com_banners/metadata.php 1 -
+/set.php 1 -
+/view.php 1 -
+/assets/tinymce/plugins/imgsurfer/main.php 4 -
+//kcfinder-2.51/upload/files/priv.php.jd 1 -
+/joomla/ 4 -
+/ff.php 1 -
+/7.php 3 -
+/xx.php 4 -
+/sell.php 1 -
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/luck.php 1 -
+/js.phtml 1 -
+/libraries/imports.legacy.php 1 -
+//tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+/admins.asp 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/wp-content/plugins/simple-ads-manager/jsspwned.php 6 -
+/cache/support.php 2 www.premad.in
+/assets/tinymce/plugins/imgsurfer/imglist.php 2 -
+/sim.php 1 -
+/robots.txt.php 2 www.premad.in
+/administrator/templates/hathor/index.php 2 -
+/x.php 5 -
+/fozi.php 2 -
+/images/cpanel.php 1 -
+/sql_dump.php 2 www.premad.in
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 6 -
+/gg.php 1 -
+/pop-side.php 1 -
+/.php 1 -
+/favicon.php 1 -
+/mo.php 1 -
+/wpmass.php 1 -
+/smile.php 1 -
+/wp-content/w.php 1 -
+/mide.php 1 -
+/p8.php 2 -
+/libraries/joomla/wso.php 1 -
+/uploadify/uploadify.php 1 http://www.premad.in/uploadify/uploadify.php
+/wp-content/_input_3_xWarning.phtml 1 -
+/phpMyAdmin/00.php 1 -
+/wahyata.php 1 -
+/images/robots.txt.php 2 www.premad.in
+/images/g.php 1 -
+/wp-content/uploads/user_uploads/test/jsspwned.php 12 -
+/msss.php 1 -
+/noname.php 2 -
+/abcd.php 1 -
+/modules/columnadverts/slides/HolaPresME_72029.php 1 -
+/homepage-4.html 1 -
+/wordpress/ 11 -
+/pay.php 2 -
+/vehiculo_photos/server/php/files/up.php 2 -
+/ckeditor/kcfinder/upload.php 4 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 6 -
+/ya3sine.php 1 -
+/admin/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/3.php 5 -
+/wp-content/plugins/magic-fields/RCCWP_upload_ajax.php 6 -
+/.+.php 1 -
+/ss.php 1 -
+/images/m.php 1 -
+//media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/wp-puplic.php 1 -
+/500.php 1 -
+/Sym.php 2 -
+//getsimple/plugins/items/uploader/server/php.php 1 -
+/u.php 4 -
+/sado.php 1 -
+/templates/beez/beez.php 1 -
+/server/php/files/up.php 2 -
+/error.php 4 -
+/hb.php 1 -
+/includes/WSO.php 1 -
+/templates/default/jQuery-File-Upload/server/php/index.php 1 -
+/ande.php 1 -
+/wp-content/plugins/upspy/leafn.php 1 -
+/sym1.php 1 -
+/cache/news.php 2 www.premad.in
+//newsite/wp-admin/install.php 1 -
+//editor/plugins/filemanager/ajax_create_folder.php 1 -
+/minis.php 1 -
+/IndoXploit.php 1 -
+///shell.phpWSO.php 1 -
+/-_-.php 1 -
+/images/ww.php 1 -
+/assets/js/bluimp/server/php/index.php 1 -
+/wp-content/plugins/SocketIontrol.php 2 www.premad.in
+/wp-includes/css/css.php 1 -
+/27126397x.php 1 -
+/public/js/plugins/imgsurfer/main.php 4 -
+/wp-add.php 1 -
+/css.php 3 -
+/wp-content/themes/twentyseventeen/content-post.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/jsspwned.php 6 -
+/admin/editor/plugins/filemanager/inc/izo.php 2 -
+/scan.php 1 -
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 4 -
+/templates/beez5/error.php 2 -
+//jQuery-File-Upload/server/php/index.php 1 -
+/iyh.php 1 -
+//tt.php 1 -
+/xxx.p 1 -
+/.foxcontatx.php 1 -
+/1.php 7 -
+/scripts/jquery/kcfinder/upload.php 4 -
+/t.php 3 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+/zz.php 3 -
+/ind.php 2 -
+/wp-content/plugins/sql_dump.php 2 www.premad.in
+//shop/js/rokmage_tinymce/tinyupload.js 1 -
+/GREEN.php 1 -
+/ccc.php 1 -
+//TimThumb.php 1 -
+/xmlrpe.php 1 -
+/pp.php 1 -
+/bio.php 1 -
+//admin/libraries/ajaxfilemanager/inc/data.php 1 -
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 6 -
+/portfolio-4col.html 1 -
+/maklo.php 1 -
+/xxx.php 3 -
+/cho.php 1 -
+/administrator/administrator.php 2 www.premad.in
+//theme/plugins/jquery-file-upload/server/php/index.php 1 -
+/wp-installation.php 1 -
+/helpdesk/media/editor/plugins/filemanager/inc/izo.php 2 -
+/mary.php 1 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 1 -
+//js/tinymce/plugins/moxiemanager/api.php 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/tmp/r00t.php 1 -
+/wp-info.php 4 -
+/rxr.php 4 -
+//components/com_hdflvplayer/hdflvplayer/download.php 1 -
+/sqlbak.php 2 www.premad.in
+/nn.php 1 -
+/wp-content/plugins/social-networking-e-commerce-1/images/uploads/jsspwned.php 6 -
+/2531.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads/jsspwned.php 6 -
+/zibi.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 2 -
+/active.php 1 -
+/images/anon.php 1 -
+/1han.php 1 -
+/wp-content/jsspwned.php 6 -
+/nktt.php 1 -
+/panel.php 1 -
+/jwallpapers_files/plupload/xWarning.php 1 -
+/license.php 1 -
+/wp-includes/css/modules.php 2 -
+/user/login 7 -
+/wp-content/plugins/downloads-manager/upload/jsspwned.php 6 -
+/m3x.php 1 -
+/images/test.php 1 -
+/1234.php 1 -
+/hayquwieorpcll.php 1 -
+/2.php 7 -
+/server.php 1 -
+/admins.php 1 -
+/golden.php 1 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 12 -
+/r3x.php 2 www.premad.in
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 2 -
+/w.php 10 -
+/PZUG.php 1 -
+/xleet.php 1 -
+/wp-content/plugins/upspy/lux.php 1 -
+/kh.php 1 -
+/newshell.phtml 1 -
+/b374k.php 5 -
+//ajax/api/hook/decodeArguments 1 -
+//web/image/Images/ddd.php 1 -
+/web/image/Images/up.php 2 -
+/gino/k.php 1 -
+/maro.php 1 -
+/egyshell.php 1 -
+/zan.php 1 -
+/killer.php 3 -
+//upload.php 2 -
+/Cpanel.php 1 -
+/sc.php 1 -
+/Shadow.php 1 -
+/wp-content/plugins/xichang/x.php 2 -
+/smiley/1.gif 4 -
+//assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/media/jss.php 1 -
+/modules/columnadverts/uploadimage.php 1 -
+/leaf.php 1 -
+/X.php 2 -
+/test/wp-includes/wlwmanifest.xml 84 -
+/images/gh.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/j.php 2 -
+/m.phtml 1 -
+/mka7.php5 1 -
+/mad.php 4 -
+/wp-content/plugins/GREEN/GREENX.php 1 -
+/editor/plugins/filemanager/inc/data.php 2 -
+/wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 2 www.premad.in
+/k.php 3 -
+/apara999.php 1 -
+/database.php 3 -
+/seal.php 1 -
+/I.php 1 -
+/tester.php 1 -
+/d7.php 1 -
+/V5.php 4 -
+/images/stories/xWarning.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ 8 -
+/wp-content/uploads/jsspwned.php 12 -
+/wp-content/plugins/ubh/shell.php 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/gaza.ph 1 -
+/wp12.php 1 -
+/id.php 2 -
+/145.php 1 -
+/cyber.php 1 -
+/uploader.php 2 -
+/cfg-contactform-1/inc/upload.php 4 -
+/temp1-1.php 1 -
+/bin/logo_img.php 1 -
+//wp-config.php.000 1 -
+/wp1/wp-includes/wlwmanifest.xml 84 -
+/indoxploit.php 11 -
+//cfgsi.php 1 -
+/changeall.ph 1 -
+/hacked.php 3 -
+/Uploader.php 1 -
+/swah.php 2 -
+/Sh3ll.php 2 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/uploadify.php 2 -
+/tmp/ss.php 1 -
+/wp-data.php 2 www.premad.in
+/a1.php 1 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+/modules/megamenu/uploadify/xWarning.php 1 -
+//assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 1 -
+/modules/vtemslideshow/uploadimage.php 1 -
+/xupe.php 1 -
+/melex1.php 1 -
+/media/big.php 3 -
+/editor/plugins/filemanager/inc/izo.php 2 -
+/theme/plugins/jquery-file-upload/server/php/index.php 1 -
+/shel1.php 1 -
+//assets/admin/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/media/kunena/avatars/resized/size36/users/new_side.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/settings_auto.php 6 -
+/modules/mod_simplefileupload.3/elements/xWarning.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 6 -
+/lz.php 1 -
+/shop/wp-includes/wlwmanifest.xml 85 -
+/syrian_shell.php 1 -
+/awso.php 1 -
+//tinymce/plugins/imgsurfer/main.php 2 -
+/flame.php 1 -
+/components/RxR_1566474427.php 1 -
+/tmp/sfx.php 1 -
+/xGassrinix.php 1 -
+/forum/register.php 3 -
+/wp-content/themes/dance-studio/core/libs/imperavi/tests/file_upload.php 6 -
+/secret.php 1 -
+/keceval.php 1 -
+//assets/bower_components/filemanager/plugin.min.js 1 -
+/spymass.php 1 -
+/go.php 1 -
+/wpo.php 1 -
+/vehiculo_photos/server/php/ 4 -
+/k.htm 1 -
+/root.php 4 -
+/media.php 1 -
+//wp-content/plugins/user-meta/framework/helper/uploader.php 1 -
+/alfa.php 2 -
+/d0mains.php 1 -
+/f.php 4 -
+/Cgishell.plkiller.php 1 -
+//File-Upload/server/php/index.php 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/admin.php 4 -
+/wp-admin/setup-config.php 4 -
+/wp-content/uploads/assets/temp/jsspwned.php 6 -
+/cpanel.php 5 -
+/whmcskiller.php 2 -
+/list.php 2 -
+/wp-content/plugins/akismet/admin.php 1 -
+/tesmini.php 1 -
+/wp-content/plugins/Fbrrchive.php 2 www.premad.in
+/templates/atomic/html/lndex.php 1 -
+/anislama.php 1 -
+/tmp/root.php 1 -
+/news/wp-includes/wlwmanifest.xml 84 -
+/images/php_ini.php 1 -
+/includes/b374k.php 1 -
+/bestside.php 1 -
+/alf2.php 1 -
+/weso.php 1 -
+/mrx.php 1 -
+/exp.php 1 -
+/cw.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 2 -
+/templates/system/error.php 2 -
+/wp-admin/admin-ajax.php 38 -
+/wp-cache.php 2 www.premad.in
+/administrator/includes/readmy.php 2 www.premad.in
+/my-account.html 4 -
+//phpminiadmin.php 1 -
+///xnxxx.php 2 -
+/SSS.php 1 -
+/wp-content/plugins/zen-mobile-app-native/jsspwned.php 6 -
+/wp-content/plugins/vwcleanerplugin/bump.php 2 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-black/designit/cs/upload.php 1 -
+//js/rokmage_tinymce/tinyupload.js 1 -
+/wp-content/themes/pinboard/uploads/jsspwned.php 6 -
+//app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/autoloadV.php 1 -
+/00.php 1 -
+//assets/global/plugins/File-Upload/server/php/index.php 1 -
+/y.php 2 -
+/webr00tv3.php 1 -
+//modules/mod_dvfoldercontent/download.php 1 -
+//wp-content/plugins/wp-checkout.bk/vendors/timthumb.php 1 -
+/44.php 1 -
+/wp-check.php 1 -
+/media/media/images/mime-icon-16/media-admin.php 1 -
+/fshell.php 1 -
+//editor/assetmanager/jqueryFileTree/jqueryFileTree.js 1 -
+/%0A/.env 2 -
+/contact_us.html 1 -
+/up14.php 1 -
+/seter.php 1 -
+//wp-content/themes/saico/framework/_scripts/valums_uploader/php.php 1 -
+/dew.php 1 -
+/media/jmails.php 1 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/config. 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 9 -
+/jscripts/tiny_mce/plugins/ajaxfilemanager/inc/data.php 2 -
+/vinex.php 1 -
+/settings.php 2 -
+/admin2.asp 1 -
+/dark.php 1 -
+/Shell.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/angel.php 1 -
+//blog/wp-admin/install.php 1 -
+/rsx.php 3 -
+/imdex.php 1 -
+/modules/pk_vertflexmenu/uploads/HolaPresME_72029.php 1 -
+/wp-content/plugins/wpfootes.php 2 www.premad.in
+/show.php 2 www.premad.in
+/wp-content/plugins/upspy/ms.php 1 -
+/v5.php 1 -
+/wp-content/uploads/2017/06/20170623054016_bcc.php 2 -
+//core/third-party/filemanager/plugin.min.js 1 -
+/wp-content/themes/multimedia1/server/php/ 6 -
+/priv8-sym.php 1 -
+/cfg.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/wp-content/themes/MoneyTheme/uploads/upload.php 6 -
+/muri.php 1 -
+/cp.php 7 -
+/ena.php 3 -
+/administrator/templates/hathor/error.php 2 -
+/modules/404.php 1 -
+/freshrdp.com.php 1 -
+/wp-content/files_mf/jsspwned.php 6 -
+/okay.php 1 -
+/spy3xp.php 1 -
+//tinymce/filemanager/plugin.min.js 1 -
+/fallaga.php 1 -
+/shootmei.php 2 www.premad.in
+//admin/editor/plugins/filemanager/inc/data.php 1 -
+/by.phtml 1 -
+/wp-admin/admin.php 18 -
+/wp-content/plugins/webapp-builder/server/images.php 6 -
+/ran.php 1 -
+/madspotshe 1 -
+//tinymce/js/filemanager/plugin.min.js 1 -
+/gallery/ 2 -
+/tzn.php 1 -
+/newp.php 1 -
+//public/js/plugins/imgsurfer/main.php 2 -
+/upz.php 1 -
+/pl.php 1 -
+/man.php 1 -
+//admin/editor/plugins/ajaxfilemanager/inc/izo.php 1 -
+/_404.php 1 -
+/Amora.php 1 -
+/provisional.php 1 -
+/o.php 3 -
+/hhh.php 1 -
+/ima.php 1 -
+/vv.php 1 -
+/wsoo.php 1 -
+/WhiteRose1337.php 1 -
+/files/uploadify/DC0mmand3r.php 1 -
+//js/tinymce4/js/tinymce/plugins/moxiemanager/api.php 1 -
+//js/ckeditor/kcfinder/upload.php 1 -
+/abc.php 2 -
+/wp-content/themes/centum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/mailbotspy.php 1 -
+/GreenS.php 2 -
+//wp-content/themes/switchblade/framework/_scripts/valums_uploader/php.php 1 -
+/madspot.php 3 -
+/mk7ico.php 1 -
+/wp-content/themes/satoshi/functions/upload-handler.php 1 -
+/tooler.php 1 -
+/wp-mas.php 2 -
+/crazy.php 1 -
+//components/com_contushdvideoshare/hdflvplayer/download.php 1 -
+/xx.pl 1 -
+/wp-time.php 1 -
+/ubh.php 1 -
+/d.php 5 -
+/.well-known/tmp.php 1 -
+/wp-load.php 1 -
+/wp-content/bsn.php 1 -
+/assets/admin/ckeditor/kcfinder/upload.php 4 -
+/components/com_finder/views/search/tmpl/souf.php 1 -
+/Color.php 1 -
+//templates/default/jQuery-File-Upload/server/php/index.php 1 -
+/cont.php 1 -
+/alfaa.php 1 -
+/jj.php 2 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 2 -
+/images/defau1t.php 2 www.premad.in
+/rss.php 1 -
+/0day.php 1 -
+/cms/wp-includes/wlwmanifest.xml 110 -
+/images/wso.php 1 -
+/madspotshell.php 4 -
+/media/css.php 1 -
+/bb.php 3 -
+/myshell.php 1 -
+/yy.php 1 -
+/modules/simpleslideshow/uploadimage.php 1 -
+/tmp/bogel.php 1 -
+//tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/ll.php 1 -
+//admin/includes/filemanager/plugin.min.js 1 -
+//wp-content/themes/antioch/lib/scripts/download.php 1 -
+/media/reads.php 2 www.premad.in
+/mysql.php 1 -
+/templates/ja-helio-farsi/index.php 2 -
+/infusions/mp3player_panel/upload.php 4 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 4 -
+/az.php 1 -
+//assets/admin/ckeditor/kcfinder/upload.php 1 -
+/GreenPxOK.php 2 -
+//media/editor/plugins/filemanager/inc/data.php 1 -
+/wp-content/plugins/wp-manager/x.php 1 -
+/hd.php 2 -
+/sd.php 1 -
+/simple.php 1 -
+//admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//administrator 1 -
+//_admin/files/upload/server/php/ 1 -
+/rootx.php 1 -
+/dz0.php 2 -
+//infusions/mp3player_panel/upload.php 1 -
+/4ever.php 1 -
+/wp-errer.php 1 -
+/XxX.php 2 -
+/xb.php 1 -
+//installation/index.php 1 -
+/sql.php 4 -
+/.h..php 1 -
+/WSO.php 4 -
+/images/xcontact182.php 1 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 3 -
+//js/tinymce4/plugins/filemanager/plugin.min.js 1 -
+/tmp/whmcs.php 1 -
+/kyuKaz.php 1 -
+/modules/vtemskitter/img/HolaPresME_72029.php 1 -
+/dd.php 1 -
+/admin/editor/plugins/filemanager/inc/data.php 2 -
+/administrator 8 -
+/cocot.php 1 -
+/website/wp-includes/wlwmanifest.xml 84 -
+/wp-content/themes/library/visual-editor/lib/upload-header.php 6 -
+/libraries/joomla/juser.php 1 -
+//assets/js/filemanager/plugin.min.js 1 -
+/mode.php 1 -
+/mi.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 84 -
+//server/php 1 -
+/wsogold.php 1 -
+//phpformbuilder/plugins/filemanager/plugin.min.js 1 -
+/utility.php 1 -
+/adminside/server/php/ 6 -
+/wp-content/uploads/i-dump-uploads//jsspwned.php 6 -
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 2 -
+/h.php 2 -
+/s.php 5 -
+//public/theme/server/fileupload/index.php 1 -
+/administrator/index.php 1 -
+/modules/bamegamenu/ajax_phpcode.php 2 -
+/administrator/templates/bluestork/index.php 2 -
+/long.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/jsspwned.php 12 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 -
+//assets/global/plugins/jquery-file-upload/server/php/ 2 -
+/np.php 1 -
+/libraries/joomla/1ndex.php 2 www.premad.in
+/media/jmail.php 1 -
+/wp-copy.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 11 -
+//tinymce/plugins/moxiemanager/api.php 1 -
+//plugins/vmcustom/photoupload/assets/server/php/index.php 1 -
+/dm2.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/cloud.php 1 -
+/win.php 1 -
+/403.php 1 -
+/66.php 3 -
+/r00t.php 5 -
+/wp-content/plugins/wp-simple-cart/request/simple-cart-upload.php 6 -
+/infos.php 2 www.premad.in
+/jijle3.php 1 -
+/images/clean.php 1 -
+/sexx.php 1 -
+/hh.php 2 -
+/3Turrshell.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 6 -
+/libraries/joomla/css.php 3 -
+//admin/images/cal_date_over.gif 2 -
+//wp-login.php 1 -
+/dick.php 1 -
+/wp-content/plugins/wp-property/third-party/uploadify/jsspwned.php 6 -
+/scripts/jquery/kcfinder/upload/files/ups.php.jd 2 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/jsspwned.php 12 -
+/saa.php 1 -
+/wp-swin.php 1 -
+/modules/simpleslideshow/slides/HolaPresME_72029.php 1 -
+/cache/clean.php 1 -
+/nkr.php 1 -
+/modules/pk_vertflexmenu/ajax/upload.php 1 -
+/images/X.php 1 -
+/info@premad.in 5 -
+/uploadshell.php 1 -
+/cpbrute.php 3 -
+/umapresence/umaservices/umapage/inc/contentCss.php 4 -
+/gass.php 1 -
+//timthumb.php 1 -
+/img.php 2 -
+/jscripts/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/wp-update.php 2 -
+/upload/ 2 -
+/feter.php 1 -
+/images/vuln.php 3 -
+/wp-content/jssor-slider/jssor-uploads/jsspwned.php 6 -
+//admin/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/v3-OLD.php 1 -
+/wp/ 11 -
+/see.php 1 -
+//plugins/kcfinder/css.php 1 -
+/media/tmp.php 2 www.premad.in
+/no.php 1 -
+/cloud.php 1 -
+/tmp/cpn.php 1 -
+/maill.php 2 www.premad.in
+/zarox.php 2 -
+/wp-content/62149921.php 1 -
+/wp-content/logs.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/jsspwned.php 6 -
+//adminside/server/php/ 2 -
+/modules/wg24themeadministration/wg24_ajax.php 1 -
+/images/DZ.php 1 -
+//wp-content/plugins/flipbook/php.php 1 -
+/wp-includes/upgrade/theme-compat/popup-pomo.php 1 -
+/install.php 3 -
+/libraries/joomla/jmails.php 4 -
+/bhx1.php 1 -
+/wp-content/plugins/woocommerce-products-filter/lib/simple-ajax-uploader/root.php 1 -
+/produtos.php 1 -
+/tmp/dz1.php 1 -
+/images/xxu.php 1 -
+/how.php5 1 -
+/fares.php 1 -
+/blog/wp-login.php 2 -
+/zct.php 1 -
+/downloads/dom.php 2 -
+/images/al277.php 2 www.premad.in
+/shelled.php 2 -
+//modul/tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+//wp-content/plugins/sell-downloads/sell-downloads.php 1 -
+/includes/u2p.php 2 www.premad.in
+/groupusers.php 1 -
+//wp-content/mu-plugins/cfgs.php 1 -
+/zx.php 1 -
+/wp-content/plugins/upspy/f.php 1 -
+/0x.php 2 -
+/images/jdownloads/screenshots/rxrking.php3.g 1 -
+/wp-log.php 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 6 -
+/webconfig.txt.php 2 www.premad.in
+/tr.php 1 -
+/cgi.php 1 -
+/AndroidFileUpload/uploads/up.php 2 -
+//media/editor/plugins/filemanager/inc/izo.php 1 -
+//themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 1 -
+/wp-content/plugins/vr-seo/vr.php 1 -
+/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/sajjad.php 1 -
+/wp-content/plugins/woocommerce-products-filter/lib/simple-ajax-uploader/action.php 1 -
+//_admin/files/upload/server/php/files/ddd.php 1 -
+/user/file_text/shell.php 1 -
+/freshrdp.com2.php 2 -
+/wp-content/themes/margreetalgra/404.php 2 www.premad.in
+//timthumb/timthumb.php 1 -
+/sy.php 1 -
+/sniper.php 1 -
+/2015/wp-includes/wlwmanifest.xml 84 -
+/email.php 2 www.premad.in
+/agent.php 1 -
+/ws.php 1 -
+//kcfinder-2.51/upload.php 1 -
+/dof.php 1 -
+/bbb.php 3 -
+/f0x.php 1 -
+//wp-content/plugins/wp-image-news-slider/js/swfupload/js/upload.php 1 -
+/components/com_foxcontact/mrpatate.php 1 -
+/js.php 2 -
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+/privmailer.php 1 -
+/xmlsrpc.php 2 www.premad.in
+/SessionController.php 2 www.premad.in
+/olux.php 8 -
+/libraries/respectMuslims.php 1 -
+/offline.php 2 -
+/libraries/joomla/go.php 1 -
+/rip.php 1 -
+/404.php 7 -
+/wp-content/uploads/Fbrrchive.php 2 www.premad.in
+/wp-content/uploads/wpstorecart/jsspwned.php 6 -
+/wp-content/uploads/headway/header-uploads//jsspwned.php 6 -
+/yourshell.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 4 -
+/fuck.php 2 -
+/ks.php 1 -
+/wp-content/plugins/ubh/uplo.php 1 -
+/cli/40dd1d.php 3 -
+/wp13.php 1 -
+/aq032.php 1 -
+/ym.php 1 -
+//assets/tinymce/plugins/imgsurfer/main.php 2 -
+/wp-content/plugins/background-image-cropper/content-post.php 1 -
+/wp47/ 2 -
+/mgh.php 1 -
+/idx_shell.php 1 -
+/user/file_text/00.php 1 -
+/tinymce/plugins/imgsurfer/main.php 4 -
+/tmp/r1z.php 1 -
+/doc.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/lisx.php 1 -
+/wp-content/plugins/upspy/up.php 1 -
+/5.php 2 -
+/wp-content/plugins/wpstorecart/php/upload.php 6 -
+/bypas.php 1 -
+/media/gass.php 1 -
+/js2.php 1 -
+/files/files.php 2 www.premad.in
+/mv.php 1 -
+/base.php 1 -
+/log.php 3 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/cloud.php 1 -
+/xc.php 1 -
+/lel.php 1 -
+/iboy.php 1 -
+/Abbrevsprl.php 2 www.premad.in
+/.olux.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 6 -
+//admin/libraries/ajaxfilemanager/inc/izo.php 1 -
+/tmps.php 1 -
+/simulasi.php 1 -
+/wp-content/plugins/webapp-builder/jsspwned.php 6 -
+//public/upload_nhieuanh/server/php/_index.php 2 -
+//assets/tinymce/plugins/imgsurfer/imglist.php 1 -
+/wp-content/plugins/ppus/up.php 3 -
+/tool.php 2 -
+/r0 1 -
+/components/com_foxcontact/fx.php 1 -
+/needing.php 1 -
+/images/upa.php 2 -
+/Symlink.php 1 -
+/ZzZ.php 1 -
+//js/swfupload/js/upload.php 1 -
+/tmp/setting.php 1 -
+/wp-includes/SimplePie/xsef.php 1 -
+/wp-content/themes/konzept/includes/uploadify/uploads/jsspwned.php 6 -
+/bypass.php 1 -
+/d00.php 2 -
+/fak.php 1 -
+/assets/js/mylibs/kcfinder/upload/files/ups.php.jd 2 -
+/haxor.php 1 -
+/iindex.php 1 -
+/alfa-1.phtml 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/2017/wp-includes/wlwmanifest.xml 84 -
+/user/file_text/(ls.php 1 -
+//index.php 11 -
+/wp-content/uploads/uigen_2015/jsspwned.php 6 -
+/files/conn.php 2 www.premad.in
+/images/upload.php 1 -
+/33.php 1 -
+/wp-db.php 1 -
+/spy.php 2 -
+//magmi/web/download_file.php 1 -
+/modules/mod_bookmark/helper.php 2 www.premad.in
+/dr.php 1 -
+/default_component.php 1 -
+/sni 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-black/designit/cs/uploadImage/%3Cp%3EAn%20appropriate%20representation%20of%20the%20requested%20resource%20/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/ 1 -
+/test1.php 1 -
+/assets/ckeditor/kcfinder/upload.php 4 -
+/dc.php 1 -
+/images/2.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 14 -
+/0x1999.PhP 1 -
+/web.php 3 -
+//options.php 1 -
+/wp-admin/options-general.php 5 -
+/files/uploadify/XAttacker.php 1 -
+/tmp.php 6 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/i.php 2 -
+/kos.php 1 -
+/x3.php 1 -
+//admin 1 -
+/configurationbak.php.suspected 2 www.premad.in
+/wp-content/plugins/showbiz/temp/update_extract/jsspwned.php 6 -
+/RoseLeif.php 2 www.premad.in
+//wp-admin/admin-ajax.php 7 -
+/sg_shell.php 1 -
+/wso26.php 2 -
+//tinymce/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+//wp-content/mu-plugins/cfgsi.php 1 -
+/ficheiros/conteudos/spy.txt 2 -
+/cart.cart 1 -
+/xm1rpc.php 1 -
+/wra.php 1 -
+/cv.php 2 -
+/99.php 1 -
+/wp-content/themes/ultimatum/wonderfoundry/addons/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+//admin/kcfinder/css.php 1 -
+//wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/xai.php 1 -
+/psy.php 1 -
+/wp-content/plugins/SocketIasrgasfontrol.php 2 www.premad.in
+/worot.php 1 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/joomla/administrator/index.php 1 -
+//include/config.php.000 1 -
+//wp-content/themes/modularity/includes/timthumb.php 1 -
+/sa.php 2 -
+/wp-content/themes/ut-gogreen/addpress/includes/ap_fileupload.php 1 -
+/indexz.php 1 -
+/tpl/plugins/upload9.1.0/server/php/up.php 2 -
+/wp-content/uploads/ 2 -
+/priv8.php 6 -
+/admin/libraries/ajaxfilemanager/inc/izo.php 2 -
+/images/Sym.php 1 -
+/r0k.php 1 -
+/13.php 1 -
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads//jsspwned.php 6 -
+/1997.php 1 -
+/c22.php 3 -
+/wp-trackback.php 1 -
+/fckeditor/editor/filemanager/connectors/php/jsspwned.php 6 -
+/modules/wg24themeadministration/img/upload/HolaPresME_72029.php 1 -
+/by.php 5 -
+/inbox.php 1 -
+//ckeditor/kcfinder/upload.php 1 -
+/images/laj.php 2 www.premad.in
+/cgh.php 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 6 -
+/.root.php 1 -
+/wp-content/plugins/wp-simple-cart/files/$uploadfolder/temporary/jsspwned.php 6 -
+/mk.php 1 -
+//editor/plugins/filemanager/inc/data.php 1 -
+/upload.php 7 -
+/mSloyw.php 1 -
+/robots.txt 135 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 12 -
+//modules/megaproduct/upload/index.php 1 -
+/error-log.php 2 www.premad.in
+//wp-admin/admin.php 2 -
+/templates/atomic/error.php 2 -
+//surveys.php 1 -
+/kcfinder-2.51/upload/files/up.php.jd 2 -
+/public/upload_nhieuanh/server/php/files/up.php 2 -
+/images/sym.php 1 -
+/wp-content/plugins/vr-seo/up.php 1 -
+/index1.php 2 -
+/wsa.php 1 -
+/fun.php 1 -
+/88.php 1 -
+/9.php 2 -
+/k2ll3d.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/jsspwned.php 6 -
+/wp-content/plugins/dzs-videowhisper/upload/jsspwned.php 6 -
+/dam.phpuser.php 1 -
+/tmp/pz.php 2 -
+/iiq.php 1 -
+/os2.php 1 -
+/xm2.php 1 -
+/wp-mike.php 1 -
+/help.php 3 -
+/mmm.php 1 -
+/libraries/joomla/zipy.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 12 -
+//tinymce/plugins/filemanager/language/index.php 1 -
+/wp-content/plugins/upspy/index.php 2 -
+/px.php 3 -
+/wp-content/themes/MoneyTheme/uploads/uploads/jsspwned.php 6 -
+/images/up.php 1 -
+/docs/ 2 -
+/server/php/files/ddd.php 2 -
+/wp-content/plugins/theme-configurator/mini.php 2 -
+//shop/filemanager/plugin.min.js 1 -
+/wp-admin/install.php 3 -
+/wp-con.php 1 -
+/thumb.php 2 www.premad.in
+/installation/index.php 3 -
+/ess.php 3 -
+//include/swf_upload.php 1 -
+/sts.php 1 -
+/dir2.php 1 -
+/anu.php 1 -
+/wp-content/themes/pinboard/themify/themify-ajax.php 6 -
+/wp-includes/setup.php 1 -
+/assets/uploadify/old/uploadify.php 4 -
+/cmd.php 1 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 4 -
+/admin/libraries/ajaxfilemanager/inc/data.php 2 -
+/wp_data.php 1 -
+/wp-content/plugins/dzs-videowhisper/upload.php 6 -
+/haider.php 1 -
+//wordpress/wp-admin/install.php 1 -
+/wp-content/plugins/barclaycart/uploadify/jsspwned.php 6 -
+//wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/public/js/plugins/imgsurfer/imglist.php 2 -
+/admin/images/cal_date_over.gif 12 -
+/assets/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/xmlrpc-activate.php 2 www.premad.in
+/modules/fieldvmegamenu/ajax/upload.php 1 -
+/web/wp-includes/wlwmanifest.xml 85 -
+/tmp/sok.php 1 -
+/A.php 2 www.premad.in
+/images/block/up.php 2 -
+/xd.php 5 -
+/wp-content/plugins/revslider/temp/update_extract/RxR__uforv.php 1 -
+/wp-admin/network/wp-footer.php 2 -
+/test.php 3 -
+/forbiddens.php 3 -
+/ajax.php 1 -
+/hoagy.php 1 -
+/wp-content/plugins/vr-seo/wp-2017.php 1 -
+//wp-contacts.php 1 -
+/wp-content/plugins/stats/instoll.php 1 -
+/images/w0rm.php 1 -
+/vvv.php 1 -
+/olx.php 1 -
+/wp-content/plugins/html404/index.html 2 -
+/dswat.org/wsdl.php 2 www.premad.in
+/images/admin.php 1 -
+/css/dzQ.php 1 -
+/db.php 1 -
+/q.php 3 -
+/wp-content/themes/twentyeleven-child/footer.php 2 www.premad.in
+/lolz.php 1 -
+/wp-content/languages/wp-block.php 1 -
+/images/google-assist.php 2 www.premad.in
+/xp-upload.php 1 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/aaaa.php 1 -
+/shell9090.php 1 -
+/ksa.php 1 -
+/wp-includes/SimplePie/Canonical.php 1 -
+/alfap.php 1 -
+//xml.php 1 -
+/tmp/king.php 1 -
+/wp/wp-includes/wlwmanifest.xml 110 -
+//assets/js/bluimp/server/php/index.php 1 -
+/bkht.php 1 -
+/b.php 3 -
+/fire.php 1 -
+/templates/atomic/index.php 5 -
+/includes/up.php 1 -
+/weak.php 1 -
+/wp-content/themes/satoshi/upload-file.php 6 -
+//wp/wp-admin/install.php 1 -
+//umapresence/umaservices/umapage/inc/contentCss.php 1 -
+/images/d.php 1 -
+/wp-content/themes/multimedia1/server/php/files/jsspwned.php 6 -
+/wp-content/plugins/upspy/sllolx.php 1 -
+/xroot.php 1 -
+/GreenUP.php 1 -
+/aaxd.php 1 -
+/tmp/petx.php 1 -
+/smtp.php 3 -
+/admin 6 -
+/wp-content/plugins/ppus/joom.php 1 -
+/x0.php 1 -
+/up3.php 1 -
+/r.php 2 -
+/za.php 1 -
+/images/xxx.php 2 www.premad.in
+/wp-content/sloolx.php 1 -
+/up.php 12 -
+/xo.php 2 -
+//admin/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/libraries/joomla/jmail.php 3 -
+/wp-content/ran.php 1 -
+/M-J!r4ya-F4r3s.php 2 www.premad.in
+/cloudxv3.php 1 -
+/templates/beez3/index.php 2 -
+/v3.php 1 -
+/com_sexycontactform/fileupload/files/xWarning.php 1 -
+/rdpl.php 3 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 1 -
+/l.php 2 -
+/admin/login.php 15 -
+/default.php 1 -
+/wp-config.php 1 -
+//javascript/filemanager/plugin.min.js 1 -
+/m0m.php 1 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 2 -
+//wp-content/plugins/dreamworkgallery/js/swfupload/js/upload.php 1 -
+//modules/hdi/hdi-tinymce/tiny_mce4/plugins/moxiemanager/api.php 1 -
+/wp-gs.php 1 -
+//tpl/plugins/upload9.1.0/server/php/files/ddd.php 1 -
+/m.php 5 -
+/mrspy.php 1 -
+//admin/tinymce/filemanager/plugin.min.js 1 -
+/sphinx.php 1 -
+//admin/plugin.min.js 1 -
+/a9.php 1 -
+/minim.php 1 -
+/configbak.php 2 www.premad.in
+/up2.php 1 -
+/tmp/madspotshell.php 1 -
+/gns.php 1 -
+/language/en-GB/en-GB.ini 1 -
+//asset/kcfinder/css.php 1 -
+/images/newsr.php 1 -
+//cmd.php 1 -
+/config2.php 1 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+//public/js/plugins/imgsurfer/imglist.php 1 -
+/payload3.php 1 -
+/user.ini.php 1 -
+//editor/plugins/filemanager/inc/izo.php 1 -
+/admin/ 3 -
+/BDG.php 1 -
+/wp-content/uploads/uigen_YEAR/file.php 6 -
+/xp.php 2 -
+/images/k.php 1 -
+//tinymce/plugins/imagemanager/language/index.php 1 -
+/ph.php 1 -
+/uploads.php 1 -
+/0x55.php 2 -
+/doom.php 2 -
+/wsdl.php 2 www.premad.in
+//kcfinder/css.php 1 -
+/wp-content/plugins/wp-manager/file.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/field_upload.php 6 -
+//cfg-contactform-1/inc/upload.php 1 -
+/wp-xss.php 1 -
+/petz.php 1 -
+//wp-content/plugins/wp-checkout/vendors/timthumb.php 1 -
+//AndroidFileUpload/fileUpload.php 1 -
+/tbmailer.php 1 -
+/newrs.php 1 -
+/files/uploadify/uploadify.php 4 -
+/ww3.php 1 -
+/tastibeya.php 1 -
+//ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/lean.php 1 -
+/55.php 1 -
+/wp-content/plugins/pitchprint/uploader/files/jsspwned.php 6 -
+/phpmailer.php 1 -
+//js/server/php/index.php 1 -
+/userfiles/file/spy.txt 2 -
+//public/.env 1 -
+/theme.php 2 -
+/0x0.php 1 -
+/llo.php 1 -
+/ww.php 1 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 6 -
+/p.php 3 -
+/link.php 1 -
+/zone-h.php 2 -
+/wp-content/plugins/contus-video-galleryversion-10/jsspwned.php 6 -
+/saif.php 1 -
+/public/upload_nhieuanh/server/php/_index.php 6 -
+/oss.php 2 -
+/themes/404/404.php 3 -
+/wp_logns.php 1 -
+/tesl.php 1 -
+/wp-content/plugins/css-ready-seled/file.php 1 -
+//ajaxupload.php 1 -
+/info.php 5 -
+/p20.php 1 -
+/uploads/ 2 -
+/to.php 1 -
+/12..php 1 -
+/webdev.php 1 -
+/wp-content/bees.php 1 -
+/10.php 2 -
+/ws0.php 2 -
+/wp-content/languages/404.php 1 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php 2 -
+//assets/global/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/tmp/vuln.php 2 -
+/wp-content/plugins/social-networking-e-commerce-1/classes/views/social-options/form_cat_add.php 6 -
+/wp-main.php 2 www.premad.in
+/wso404.php 2 -
+//js/kcfinder/css.php 1 -
+/wp-content/plugins/mobile-app-builder-by-wappress/jsspwned.php 6 -
+//templates/system/css/system.css 2 -
+/public/theme/server/fileupload/index.php 1 -
+/ns.php 1 -
+//assets/backend/tinymce/plugins/filemanager/plugin.min.js 1 -
+//js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/mail.php 1 -
+//server/php/files/ddd.php 1 -
+/mh.php 1 -
+/rss.xml 4 -
+/mini.phtml 1 -
+/2018/wp-includes/wlwmanifest.xml 85 -
+//wp-content/themes/lightspeed/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/prv.php 1 -
+/modules/mod_banners/tmpl/defult.php 1 -
+/azshell.php 1 -
+/img/newsr.php 1 -
+/olad.php 2 -
+/images/1ndex.php 2 www.premad.in
+/regran.php 1 -
+//Modules/Logo/LogoHandler.ashx 1 -
+//tinymce/plugins/imgsurfer/imglist.php 1 -
+/framework/img/isometric_words.jpg 1 -
+/wp.php 4 -
+/gino/awso.php 1 -
+/images/shell.php 1 -
+/wp-content/uploads/wysija/themes/v5wysija/jsspwned.php 6 -
+//novi/admin/engine/lib/valums/server/php.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/upgrade/404.php 1 -
+/images/1.php 1 -
+//shop/admin/filemanager/plugin.min.js 1 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 2 -
+/Dz.php 1 -
+/gassrini.php.php.j 1 -
+//plugins/jquery-file-upload/server/php/index.php 1 -
+/user/file_text/wso.php 1 -
+/auithorze.php 1 -
+//public/javascript/filemanager/plugin.min.js 1 -
+/dir.php 1 -
+/ah.php 1 -
+/sito/wp-includes/wlwmanifest.xml 84 -
+/Zxboss.php 1 -
+/wp-content/plugins/lb-mixed-slideshow/gallery/1/jsspwned.php 6 -
+/1w.php 1 -
+//cms/filemanager/plugin.min.js 1 -
+/v4team.php 1 -
+/wp-content/themes/cubed_v1.2/functions/upload-handler.php 6 -
+/vendor_extra/elfinder/php/connector.minimal.php 4 -
+/wp-captcha.php 1 -
+/xx1.php 1 -
+/GreenMini.php 1 -
+/modules/pk_flexmenu/ajax/upload.php 2 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 6 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 6 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/upload.php 6 -
+/aaa.php 3 -
+/editor/plugins/filemanager/ajax_create_folder.php 3 -
+//server/php/ 1 -
+/misel.php 1 -
+/markindo.php 1 -
+/vendor_extra/elfinder/files/XAttacker.php 1 -
+/leafmailer.php 1 -
+/shootme.php 2 www.premad.in
+/dam.php 2 -
+//vehiculo_photos/server/php/files/ddd.php 1 -
+/king.php 1 -
+/media/wp-includes/wlwmanifest.xml 84 -
+/wp-content/plugins/vcrm/Z586.php 1 -
+//wp-config.php.bak 1 -
+/S.php 1 -
+/x.php78412628 1 -
+//assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/lou-bna.php 1 -
+//vendor_extra/elfinder/php/connector.minimal.php 1 -
+/wp-content/plugins/Analyser.php 2 www.premad.in
+/wp-content/themes/medicate/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/anonymous.php 3 -
+/z0z.php 1 -
+/tmp/uploads.php 2 -
+/index.php 18 -
+/tmp/guide.php 1 -
+/wp-content/1ndex.php 2 www.premad.in
+/functions.php 2 www.premad.in
+/prv8.php 1 -
+/wp-content/plugins/pitchprint/uploader/ 7 -
+/wp-admin/user/user-new.php 1 -
+/you.php 1 -
+//tinymce/responsivefilemanager/plugin.min.js 1 -
+/sfdsfsd.php 1 -
+/minishell.php 1 -
+/X-Sec.php 1 -
+/me.php 1 -
+/dz.php 6 -
+/lon.php 1 -
+//wp-content/themes/newspro/timthumb.php 1 -
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 6 -
+/mini_shell.php 1 -
+/application/configs/application.ini 2 -
+/py.php 1 -
+/kil3r.php 1 -
+/site/tmp/cTivrC.php 2 www.premad.in
+/k.html 1 -
+/s2.php 1 -
+/ko.php 1 -
+/3xPloiTeR.php 1 -
+/wp-content/plugins/wp-footers.php 2 www.premad.in
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 3 -
+/wp-content/themes/andre/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/administrator/ 3 -
+/helpdesk/media/editor/plugins/filemanager/inc/data.php 2 -
+//tpl/plugins/upload9.1.0/server/php/ 3 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload/jsspwned.php 12 -
+/wp-content/plugins/disqus-comment-system/disqus.php 3 -
+/tmp/readme.php 1 -
+/wp-content/plugins/ubh/o.php 1 -
+//assets/uploadify/uploadify.php 1 -
+/templates/ja_purity/index.php 2 -
+//address.php 1 -
+//laravel-sites/.env 1 -
+//libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+//admin/timthumb.php 1 -
+/a.php 5 -
+/mmk.php 1 -
+/sender.php 1 -
+/wp-meta.php 1 -
+//include/config.php.bak 1 -
+/Jijle3.php 1 -
+/templates/beez3/error.php 2 -
+/images/ls.php 1 -
+/k.phpzone-h.php 1 -
+/shellzsb.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/files/xWarning.php 1 -
+/jmx.php 1 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/files/ 5 -
+/cache/cache_aqbmkwwx.php 2 www.premad.in
+/wp-content/plugins/revslider/temp/update_extract/rKpZkS.php 1 -
+/wp-logins.php 1 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/images/stories/w.php 2 -
+/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+/google-assist.php 2 www.premad.in
+/components/com_jbcatalog/libraries/jsupload/server/php/ 1 -
+/wp-content/plugins/membership-simplified-for-oap-members-only/download.php 1 -
+/xz.php 1 -
+/cache/defau1t.php 2 www.premad.in
+/1337.php 2 -
+/upil.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/wkwk.php 1 -
+/raw.php 1 -
+/images/wp-mail.php 1 -
+/wp-content/plugins/wordpress-member-private-conversation/doupload.php 12 -
+//scripts/jquery/kcfinder/upload.php 1 -
+//helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+//admin/core/third-party/filemanager/plugin.min.js 1 -
+/framework/img/handz_lineart_final.jpg 21 http://www.premad.in/framework/css/page/main.css
+/ii.php 1 -
+/wp-content/vuln.php 9 -
+/sheeel.php 1 -
+/wp-content/xml.php 1 -
+//assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+/utilitys.php 1 -
+/clearwp.php 1 -
+/xvis.php 1 -
+/Meuhy.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 1 -
+/helloworld.php 1 -
+/null.php 1 -
+/js/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/wp-includes/wlwmanifest.xml 110 -
+/wp-content/plugins/zen-mobile-app-native/server/images.php 6 -
+/wp-admin/ 6 -
+//clients/.env 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-white/designit/cs/uploadImage/$uploadfolder/jsspwned.php 6 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/bsn.php 1 -
+/wp-set.php 1 -
+/kcfinder-2.51/upload/files/ups.php.jd 2 -
+/pdf/ 2 -
+//assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/assets/uploadify/uploadify.php 4 -
+/wp-content/plugins/widget-logic/mini.php 2 -
+/Ok.php 1 -
+/wp-words.php 1 -
+/wp-login.php 12 -
+//admin/jQuery-File-Upload/server/php/index.php 1 -
+/%E2%84%96 1 -
+//plugins/content/s5_media_player/helper.php 1 -
+//app/etc/local.xml 1 -
+/wp-admin/shapes.php 2 -
+/blog/administrator/index.php 1 -
+/g.php 3 -
+/911.php 2 -
+//js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/X1.php 1 -
+/iq.php 1 -
+/wp-content/plugins/google-sitemap-generator/sitemap-core.php 1 -
+/images/f.php 1 -
+/wp-content/uploads/settingsimages/jsspwned.php 6 -
+/master.php 1 -
+/q2.php 1 -
+/AROn2.php 1 -
+/bookmark.php 2 www.premad.in
+/media/editor/plugins/filemanager/inc/data.php 2 -
+/xWarning.php 4 -
+/templates/protostar/index.php 2 -
+/confiq.php 1 -
+/includes/r00t.php 1 -
+/media/404.php 2 www.premad.in
+/21.php 1 -
+/modules/pk_flexmenu/uploads/xWarning.php 1 -
+/templates/beez_20/error.php 2 -
+/cpn.php 5 -
+/.well-known/ZoneDNS.php 1 -
+/ads.txt 1 -
+/wss.php 1 -
+/xleetwolf.php 1 -
+/dom.phpwhmcs.php 1 -
+/h4xor.php 2 -
+/good.php 1 -
+/includes.php 2 www.premad.in
+/newsleter.php 1 -
+/zer0x.php 1 -
+/E.php 1 -
+/images/wp.php 1 -
+/0.php 2 -
+/z.php 5 -
+/sok.php 1 -
+//images/block/ddd.php 1 -
+//new/wp-admin/install.php 1 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/92.php 1 -
+/wp-content/plugins/background-image-cropper/new_license.php 1 -
+/toor.php 1 -
+/images/upxx.php 2 -
+/c9.php 1 -
+/V3.php 2 -
+/modules/vtemslideshow/slides/HolaPresME_72029.php 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/jsspwned.php 6 -
+/tmp/w.php 1 -
+// 1 -
+/eror.php 1 -
+//admin/js/filemanager/plugin.min.js 1 -
+/wp-content/themes/twentynineteen/content-post.php 1 -
+/proshell.php 1 -
+/administrator/webconfig.txt.php 2 www.premad.in
+/indox.php 1 -
+/images/k2.php 1 -
+/4min2.php 1 -
+/xml.php 2 -
+/aa.php 2 -
+/ 35 -
+/wp-content/plugins/radykal-fancy-gallery/admin/image-upload.php 6 -
+/11.php 3 -
+/images/00.php 1 -
+/wptimers.php 1 -
+/wp-content/themes/pindol/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/home.php 1 -
+/libraries/joomla/web.php 1 -
+/wp-content/uploads/product_files/jsspwned.php 6 -
+/_sheller.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/uploads/jsspwned.php 12 -
+/media/kunena/avatars/resized/size72/ex_liner.php 1 -
+/c.php 3 -
+/spyshell.php 2 -
+/tmp/dz.php 1 -
+//modules/hdi/hdi-tinymce/filemanager/plugin.min.js 1 -
+/blog/ 9 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 12 -
+/xlog..php 1 -
+/roro.php 1 -
+/mine.php5 1 -
+//assets/js/mylibs/kcfinder/upload.php 1 -
+/img/index.php 1 -
+/oo.php 2 -
+/zzz.php 1 -
+/why.php 1 -
+/ajax/api/hook/decodeArguments 2 -
+/readme.php 2 -
+/tmp/sa.php 1 -
+/modules/modules/modules.php 4 -
+/tmp/user.phptmp/Sym.php 1 -
+/hx.php 1 -
+/php5.php 1 -
+/wp-logs.php 2 -
+/shx.php 1 -
+/components/com_hdflvplayer/hdflvplayer/download.php 1 -
+/dssd.php 1 -
+/wp-content/satoshi/images/jsspwned.php 6 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 2 -
+/wp-content/uploads/settingsimages/2019/08/en/jsspwned.php 125 -
+/templates/system/index.php 2 -
+/roubt.php 2 www.premad.in
+/al277.php 2 www.premad.in
+/qq.php 1 -
+/wp-content/plugins/spirit-templates/accdb.php 1 -
+/rKpZkS.php 1 -
+/about-us.php 1 -
+//doajaxfileupload.php 1 -
+/cache/asdf.php 2 -
+/hph.php 1 -
+/templates/rhuk_milkyway/index.php 3 -
+/wp-content/plugins/ubh/shelll.php 1 -
+/templates/protostar/error.php 2 -
+/wp_fox.php 1 -
+/images/ini.php 1 -
+/images/c.php 1 -
+/xaishell.php 1 -
+/images/p.php 1 -
+/wordpress/wp-content/plugins/css-ready-seled/file.php 1 -
+/tmp/upload.php 2 -
+/web_xml.php 1 -
+/lux.php 2 -
+/images/gass.php 1 -
+/wp-menus.php 1 -
+/files/ 2 -
+/405.php 1 -
+/jtk.php 1 -
+/cfq.php 1 -
+/com_sexycontactform/fileupload/index.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 122
+176.223.138.109 156 156 5626608 20190822105632
+37.237.77.18 27 88 2516451 20190822101829
+104.223.69.252 22 22 113986 20190828064912
+50.3.197.108 22 22 113986 20190829130404
+107.183.117.80 16 16 73736 20190826084525
+79.50.5.175 12 12 432816 20190823173521
+5.83.162.60 10 10 360680 20190825230525
+54.173.35.129 6 6 144277 20190826083317
+157.47.220.33 6 59 3143488 20190831123959
+117.225.25.134 6 80 3448304 20190831062037
+114.142.169.20 5 5 180340 20190827135841
+125.166.127.52 4 4 17532 20190822075650
+36.69.193.92 4 4 12114 20190822103952
+37.115.184.193 4 4 144272 20190823113105
+103.50.76.146 4 55 3111157 20190821141748
+147.135.167.211 4 4 144272 20190824201717
+27.3.88.254 4 55 3111157 20190821151529
+113.210.119.153 4 4 144272 20190823133102
+145.239.32.197 4 4 17592 20190821114813
+104.215.91.4 4 4 144272 20190826170241
+209.234.253.126 4 4 36844 20190822020308
+49.37.204.199 4 63 3229120 20190828072432
+105.66.3.241 3 3 27633 20190825174333
+41.107.66.79 3 58 3736426 20190823115838
+103.85.234.61 3 54 3110454 20190829062808
+104.194.220.9 1 1 36068 20190827232150
+216.10.241.54 1 1 78 20190822101550
+185.93.3.114 2 2 72136 20190830172017
+66.55.156.50 1 1 5453 20190822080657
+103.115.101.87 1 1 703 20190821142547
+31.204.181.238 2 2 25284 20190816074057
+5.253.204.22 2 2 72136 20190816173932
+148.251.151.235 1 1 36068 20190821212249
+204.12.194.234 1 1 36068 20190826032321
+40.117.212.66 2 2 72136 20190831221114
+197.14.123.253 2 2 72136 20190821232142
+64.233.173.53 2 24 1031050 20190824142340
+13.57.19.38 1 1 9211 20190831030017
+69.4.89.106 2 2 73715 20190822080625
+212.129.40.135 2 2 72136 20190827141456
+52.114.6.38 2 2 72136 20190826030546
+112.215.210.131 1 1 36068 20190830230946
+66.249.88.93 0 14 774407 
+66.249.88.91 0 21 877243 
+13.72.230.96 2 2 72136 20190824210118
+149.28.125.28 1 1 9211 20190827225426
+87.101.95.148 1 1 36068 20190826003740
+23.98.157.146 2 2 72136 20190826015924
+51.15.191.81 1 1 36068 20190823142953
+106.11.222.116 1 1 9211 20190823011348
+123.245.26.91 1 1 9211 20190823132407
+194.61.24.29 2 2 72136 20190816121144
+181.214.208.92 1 1 36443 20190821114906
+106.11.222.243 1 1 9211 20190823011348
+37.230.114.129 2 2 25284 20190830230629
+216.151.180.166 2 2 72136 20190821165540
+197.26.74.178 1 1 9211 20190828145539
+185.232.21.189 2 2 72136 20190818114926
+34.67.63.216 2 2 72136 20190829001617
+45.32.14.134 1 1 36068 20190822085716
+157.47.203.200 3 56 3115855 20190831051834
+107.178.114.166 1 1 9211 20190831000511
+64.233.173.49 3 31 2560770 20190829163805
+106.75.85.117 1 1 36068 20190822134420
+196.196.47.4 1 1 9211 20190828064857
+106.11.222.228 0 2 38689 
+178.162.216.32 2 2 72136 20190816091746
+208.98.49.44 1 1 703 20190821141247
+51.68.125.189 2 2 72136 20190823125106
+157.47.202.50 3 56 3115855 20190831083814
+35.193.52.161 2 2 72136 20190825214135
+52.114.14.102 1 1 36068 20190822081110
+52.204.27.85 2 2 73716 20190822080414
+93.119.227.91 1 1 36068 20190822080932
+132.145.164.8 2 2 13533 20190815113946
+185.81.157.154 2 2 72136 20190819061741
+193.32.161.130 1 1 36068 20190830015805
+114.134.191.166 1 1 9211 20190825191405
+104.160.15.37 1 1 37649 20190822095338
+18.234.252.147 2 2 72136 20190827043120
+45.41.134.54 1 1 9211 20190825030127
+91.242.162.2 1 1 9211 20190822091624
+84.17.51.16 2 2 72136 20190827212814
+34.68.46.113 2 2 72136 20190821230200
+63.211.111.51 2 2 72136 20190828200202
+157.47.193.0 1 22 225319 20190829163757
+197.2.97.191 1 1 36068 20190821221417
+161.69.99.11 2 2 18422 20190816234417
+144.202.90.87 2 2 72136 20190824105426
+69.4.87.74 2 2 73714 20190822080728
+117.2.97.232 2 2 37038 20190822033945
+196.232.63.1 1 1 9211 20190831025404
+188.169.98.50 2 2 18422 20190821193911
+46.51.203.18 1 1 36068 20190824200458
+41.225.194.148 3 52 2787564 20190828055231
+62.4.14.198 1 1 36068 20190823142952
+41.143.186.94 2 2 72136 20190821174811
+41.249.106.129 1 1 9211 20190826223151
+52.59.104.188 2 2 72136 20190827230814
+106.75.85.103 3 3 108204 20190822134432
+40.74.245.6 1 1 36068 20190826122418
+64.233.173.51 1 41 2470582 20190831142425
+50.3.197.244 1 1 9211 20190829130351
+3.16.157.192 2 2 72136 20190821211348
+54.201.37.89 1 1 9211 20190827160320
+54.197.110.167 2 29 277856 20190827171136
+52.55.217.163 1 1 703 20190821141505
+85.206.165.15 2 2 72136 20190831124140
+162.212.173.50 1 1 37042 20190822025356
+37.237.77.7 3 34 1068233 20190826201200
+95.174.64.153 2 2 72136 20190826062826
+36.68.83.136 1 1 9211 20190822151300
+212.24.109.25 1 1 36068 20190823183856
+178.137.82.147 2 2 72136 20190816210016
+66.249.88.95 1 19 1323381 20190827180534
+102.157.53.175 2 2 72136 20190821232332
+106.11.222.160 0 4 38844 
+42.111.25.218 3 54 3110454 20190821114620
+154.118.42.177 1 1 36068 20190822031608
+104.207.140.226 1 1 9211 20190820131249
+24.217.98.117 1 1 36068 20190829195759
+111.223.75.181 1 1 36068 20190829195756
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20190815 2 2 13533 1
+20190816 12 12 332250 6
+20190818 2 2 72136 1
+20190819 2 2 72136 1
+20190820 3 3 81347 2
+20190821 46 199 10158527 21
+20190822 213 274 8861155 22
+20190823 29 90 4671156 13
+20190824 10 63 3368331 6
+20190825 13 13 334599 5
+20190826 38 69 1728273 12
+20190827 19 99 3776261 10
+20190828 33 141 6221228 6
+20190829 33 137 6493778 8
+20190830 6 6 169556 4
+20190831 26 264 13051418 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 7
+30mn-1h 1
+0s-30s 106
+1h+ 2
+15mn-30mn 3
+2mn-5mn 6
+5mn-15mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/ 331 10380802 95 85
+//xnxxx.php 20 119870 0 1
+//shell.php 18 284986 11 6
+/framework/css/font-awesome/fonts/fontawesome-webfont.woff2 14 1080240 1 3
+/framework/css/elegant-font/fonts/ElegantIcons.woff 14 891296 1 7
+// 10 333823 7 9
+/contacts.html 9 69553 3 4
+/k.htm 6 4218 5 5
+/cart.html 5 23790 0 0
+/portfolio.html 4 25566 1 0
+/service.html 4 46837 0 1
+/portfolio-1.html 4 14756 1 1
+/portfolio-item-3.html 4 28499 1 1
+/account.html 4 12884 0 0
+/blog.html 3 10926 0 0
+/checkout.html 3 15087 0 0
+/portfolio-item.html 3 24607 0 0
+/portfolio-2.html 3 12105 0 0
+/portfolio-4.html 3 9591 0 0
+/portfolio-3.html 3 12756 0 0
+/about.html 3 18687 0 0
+/portfolio-5.html 3 9711 0 0
+/shop.html 3 15276 0 0
+/shell.php 2 37038 1 1
+/portfolio-item-1.html 2 8066 0 0
+/cpanel 1 13587 0 0
+/framework/css/shop/star.woff 1 1304 0 1
+/c.htm 1 1354 0 0
+//framework/css/font-awesome/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/k 1 703 0 1
+//framework/css/elegant-font/fonts/ElegantIcons.woff 1 63664 0 1
+/portfolio-item-2.html 2 7366 0 0
+//alfacgiapi/perl.alfa 1 78 1 1
+END_SIDER

@@ -1,0 +1,2287 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201908 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.xamcrackers.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2691                
+POS_VISITOR 68704               
+POS_DAY 69874               
+POS_DOMAIN 3458                
+POS_LOGIN 3845                
+POS_ROBOT 4000                
+POS_WORMS 4289                
+POS_EMAILSENDER 4420                
+POS_EMAILRECEIVER 4563                
+POS_SESSION 70009               
+POS_SIDER 70215               
+POS_FILETYPES 4698                
+POS_DOWNLOADS 5048                
+POS_OS 5172                
+POS_BROWSER 5350                
+POS_SCREENSIZE 5677                
+POS_UNKNOWNREFERER 5751                
+POS_UNKNOWNREFERERBROWSER 6019                
+POS_ORIGIN 6139                
+POS_SEREFERRALS 6277                
+POS_PAGEREFS 6421                
+POS_SEARCHWORDS 6596                
+POS_KEYWORDS 6748                
+POS_MISC 2354                
+POS_ERRORS 6807                
+POS_CLUSTER 3701                
+POS_SIDER_404 6989                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190901000724 338 80304 8826040870291
+FirstTime 0
+LastTime 20190822101500
+LastUpdate 20190901044331 338 0 337 0 0
+TotalVisits 32                  
+TotalUnique 28                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 28                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 27 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 38 38 3122 210 224 109172
+1 0 0 0 75 79 50101
+2 1 1 12557 238 249 84738
+3 0 0 0 313 321 199857
+4 0 0 0 23 36 20126
+5 0 0 0 101 113 22382
+6 2 2 12555 515 525 37527
+7 29 31 32024752 45 143 65752
+8 15 15 76263 41 67 57346
+9 51 66 754136 83 95 45883
+10 16 16 107124 108 117 23381
+11 3 3 19507 38 47 23401
+12 0 0 0 136 142 57971
+13 5 5 19537 99 111 74306
+14 71 139 1844410 284 314 271723
+15 114 310 4658540 379 401 427523
+16 14 14 43000 54 64 37156
+17 73 137 1324618 236 288 121310
+18 12 21 102887 237 246 102178
+19 0 0 0 318 335 106414
+20 0 0 0 510 521 58284
+21 0 0 0 440 450 127806
+22 13 13 52739 218 230 97012
+23 43 68 738013 203 213 97517
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 377 632 38727184
+tn 43 164 2722956
+hu 20 20 80781
+in 15 15 1236
+iq 15 15 107046
+ma 11 11 31384
+id 10 13 77934
+dz 2 2 7959
+pl 2 2 3366
+gb 2 2 8802
+vn 2 2 12555
+cl 1 1 12557
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+libwww\-perl 3 33913 20190821141653 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 2462 20190822093808 0
+Wget/ 2 27343 20190822080226 0
+PhantomJS 1 703 20190821143200 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+alfa 1 78 0 0
+svg 26 88700 0 0
+js 119 2721628 0 0
+ico 7 400026 0 0
+jpg 19 822113 0 0
+gif 14 25224 0 0
+Unknown 39 31920913 0 0
+png 89 1491569 0 0
+txt 2 2945 0 0
+tmp 1 24 0 0
+htm 4 2812 0 0
+php 368 1494349 0 0
+css 103 1527199 0 0
+woff2 29 774762 0 0
+html 49 129956 0 0
+woff 9 391462 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+//home/gbsgroquWORDPRESS.txt 1 0 1254
+//home/zabraup3WORDPRESS.txt 1 0 1691
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win8.1 1 1
+win7 176 55
+macosx10 2 2
+win10 649 393
+winxp 1 1
+symbian 9 7
+winnt 1 1
+Unknown 39 39
+linuxandroid 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+mozilla 32 32
+msie9.0 1 1
+msie7.0 1 1
+chrome42.0.2311.135 2 2
+chrome42.0.2311.90 1 1
+chrome59.0.3071.125 1 1
+msie11.0 1 1
+chrome39.0.2171.95 1 1
+chrome64.0.3282.186 1 1
+samsung 9 7
+chrome71.0.3578.98 1 1
+Unknown 8 8
+firefox63.0 1 1
+chrome76.0.3809.100 816 439
+firefox43.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible) 20190822080026
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190807005046
+Cpanel-HTTP-Client/1.0 20190807004954
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20190807004954
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 114 116
+From1 0 0
+From2 0 0
+From3 4 4
+From4 382 759
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://l.facebook.com 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 605 335652
+404 4440 1549516
+500 22 2629
+301 22 5937
+302 73 126289
+206 2 8363
+409 76 6142
+303 10 95027
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1849
+/hayquwieorpcll.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/ubh.php 1 -
+/webr00tv3.php 1 -
+/madspotshell.php 4 -
+/tmp/1.php 2 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+/components/com_jbcatalog/libraries/jsupload/server/php/ 1 -
+//wp/wp-admin/install.php 2 -
+/up1.php 2 -
+//wp-content/plugins/user-meta/framework/helper/uploader.php 1 -
+/wp-mike.php 1 -
+/wp-content/themes/cubed_v1.2/functions/upload-handler.php 6 -
+/wp-trackback.php 1 -
+/remote.html 3 -
+/wso404.php 2 -
+/vehiculo_photos/server/php/ 5 -
+/ssl.php 1 -
+/saa.php 1 -
+/images/anon.php 1 -
+/lz.php 1 -
+/shell2.php 1 -
+/wp-admin/admin-post.php 18 -
+/dz0.php 2 -
+/V5.php 6 -
+/email.php 2 www.xamcrackers.com
+//web/wp-admin/install.php 1 -
+/wp-content/plugins/ppus/ns.php 1 -
+/wp-content/plugins/upspy/sllolx.php 1 -
+/offline.php 2 -
+/uu.php 1 -
+/modules/columnadverts/slides/HolaPresME_20605.php 1 -
+/images/f.php 1 -
+/uploads/ 3 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 12 -
+/imdex.php 1 -
+/inbox.php 1 -
+/dark.php 1 -
+/monster.php 1 -
+//vendor_extra/elfinder/php/connector.minimal.php 1 -
+//cfgs.php 1 -
+/6.php 3 -
+/file1.php 1 -
+/administrator 5 -
+//timthumb/timthumb.php 1 -
+/admin/ 2 -
+/cache/clean.php 1 -
+/images/wp.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 3 -
+/simple.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+//wp-content/themes/bigfeature/library/timthumb/timthumb.php 2 -
+/f.php 3 -
+/scripts/jquery/kcfinder/upload/files/ups.php.jd 2 -
+/wp-data.php 2 www.xamcrackers.com
+/wp-content/plugins/wp-property/third-party/uploadify/jsspwned.php 6 -
+/azzoulshell.php 1 -
+/PPsc-2017-2018/593035/font/PayPalSansBig-Regular.woff 2 http://www.xamcrackers.com/PPsc-2017-2018/593035/css/font-sans.css
+/xxxxxx.php 2 -
+/sts.php 1 -
+/000.php 1 -
+/wp-content/uploads/wpstorecart/jsspwned.php 6 -
+/media/kunena/avatars/resized/size36/users/new_side.php 1 -
+//tinymce/filemanager/plugin.min.js 1 -
+/media/kunena/avatars/resized/size72/ex_liner.php 1 -
+/proshell1.php 1 -
+/fuck.php 3 -
+//shop/admin/filemanager/plugin.min.js 1 -
+/fallaga.php 1 -
+/wp-content/themes/multimedia1/server/php/ 6 -
+/GreenMini.php 1 -
+/wp-swin.php 1 -
+//assets/global/plugins/File-Upload/server/php/index.php 1 -
+/_404.php 1 -
+/0x55.php 2 -
+//amad.php 1 -
+//admin/filemanager/plugin.min.js 1 -
+/assets/scripts/functions.js.pagespeed.jm.oxrwdZ_e3Y.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+/administrator/templates/bluestork/error.php 2 -
+/ns.php 1 -
+/WLV790.php 1 -
+/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/dzx/js/info.js 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/identity.php
+/minis.php 1 -
+/wp-content/plugins/webapp-builder/server/images.php 6 -
+/I.php 1 -
+/maro.php 1 -
+/0day.php 2 -
+//javascript/valums/server/php.php 1 -
+/pc.php 1 -
+/wp-content/plugins/html404/index.html 3 -
+/wp-content/themes/satoshi/upload-file.php 6 -
+/wp-content/plugins/asset-manager/upload.php 6 -
+/jconfig.php 2 www.xamcrackers.com
+/zone-h.php 3 -
+/phpmailer.php 1 -
+/wp-cofigs.php 2 -
+/Meuhy.php 1 -
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/wp-content/1ndex.php 2 www.xamcrackers.com
+/dr.php 1 -
+/gns.php 1 -
+/xlog..php 1 -
+/W0rmVps 2 https://l.facebook.com/
+/assets/scripts/chosen.select.js.pagespeed.jm.t_fBfMNklS.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+/cfg.php 1 -
+/helpdesk/media/editor/plugins/filemanager/inc/izo.php 2 -
+/p8.php 1 -
+/iiWgga.php 1 -
+/rox.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/jsspwned.php 12 -
+//admin/libraries/ajaxfilemanager/ajax_create_folder.php 1 -
+/modules/vtemskitter/uploadimage.php 1 -
+/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/V3.php 3 -
+/wp-admin/ 7 -
+//assets/tinymce/plugins/imgsurfer/imglist.php 1 -
+/site/courses 1 -
+//templates/default/jQuery-File-Upload/server/php/index.php 1 -
+/66.php 2 -
+/whmcs.php 4 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/js/jq.css 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 http://www.xamcrackers.com/sites/all/libraries/elfinder/php/connector.minimal.php
+/gaza.php 4 -
+//assets/uploadify/uploadify.php 1 -
+/harishell-1.php 1 -
+/tmp/sok.php 1 -
+//assets/plugins/jQuery-File-Upload/server/php/index.php 1 -
+//assets/global/plugins/jquery-file-upload/server/php/ 2 -
+/Confirm/customer_center/customer_Case=IDPP00C564/myaccount/security/ 2 http://www.xamcrackers.com/Confirm/customer_center/customer_Case=IDPP00C564/myaccount/security/
+//wp-content/plugins/wp-checkout.bk/vendors/timthumb.php 1 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/js/jquery.min.js 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+/u.php 3 -
+/4min2.php 1 -
+/wp-admin/m4d.php 2 -
+/wso26.php 2 -
+/tinymce/plugins/imgsurfer/main.php 4 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/xWarning.php 1 -
+/js.phtml 1 -
+/google-assist.php 2 www.xamcrackers.com
+/cv.php 2 -
+/media/media/images/mime-icon-16/media-admin.php 1 -
+/wsd.php 1 -
+/wp-content/files_mf/jsspwned.php 6 -
+/wp.zipwp-content/plugins/disqus-comment-system/disqus.php 1 -
+/CPl.php 1 -
+/hoagy.php 1 -
+/0x.php 2 -
+/s.php 4 -
+/0.php 2 -
+//surveys.php 1 -
+/wp-gs.php 1 -
+/wp-content/uploads/uigen_2015/jsspwned.php 6 -
+/wp-includes/SimplePie/Canonical.php 1 -
+/404.php 6 -
+//kcfinder-2.51/upload.php 1 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 4 -
+//tinymce/plugins/imgsurfer/main.php 2 -
+/mka7.php5 1 -
+/cpbrute.php 2 -
+/xleet.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload/jsspwned.php 12 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 6 -
+//AndroidFileUpload/fileUpload.php 1 -
+/wp-includes/setup.php 1 -
+/BDG.php 1 -
+//admin/jQuery-File-Upload/server/php/index.php 1 -
+/x3.php 1 -
+/gelap.php 1 -
+/see.php 1 -
+/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/fonts/30969C_0_0.ttf 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/identity/css/page.css
+/images/2.php 1 -
+/i.php 1 -
+/wp.phtml 1 -
+/cracker.php 2 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/wp-content/themes/dance-studio/core/libs/imperavi/tests/file_upload.php 6 -
+/dc.php 1 -
+/h4xor.php 2 -
+//site.rar 1 -
+/wp-content/themes/twentyeleven-child/footer.php 2 www.xamcrackers.com
+//_admin/files/upload/server/php/ 1 -
+/images/cpanel.php 1 -
+/eror.php 1 -
+/wp-content/satoshi/images/jsspwned.php 6 -
+/tooler.php 1 -
+/contact-us 1 -
+/assets/scripts/jquery.js.pagespeed.jm.J-8M9bCq0j.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+//js/ckeditor/kcfinder/upload.php 1 -
+/wp-content/bk.php 2 www.xamcrackers.com
+/images/jdownloads/screenshots/xWarning.php 1 -
+/wp-content/plugins/wordpress-member-private-conversation/doupload.php 12 -
+/up.php 16 -
+/ande.php 1 -
+/umapresence/umaservices/umapage/inc/contentCss.php 4 -
+/wp-content/themes/andre/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/wp-content/plugins/social-networking-e-commerce-1/images/uploads/jsspwned.php 6 -
+/xamcrackers.com.sql 1 -
+/mary.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/image-upload.php 6 -
+/tmps.php 1 -
+/private.php 2 -
+/sysadmins/ 1 -
+/administrator/manifests/files/joomla.xml 3 -
+/wp-content/uploads/2018/08/shell.php 2 -
+/tmp/setting.php 1 -
+/wp-content/vuln.php 10 -
+/wp-content/uploads/2019/07/rsx.php 1 -
+/downloads/dom.php 2 -
+/xx.pl 1 -
+/simulasi.php 1 -
+/tbshell.php 1 -
+/gino/k.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/templates/beez_20/index.php 3 -
+/store/wp-includes/wlwmanifest.xml 1 -
+/sender.php 1 -
+/user/ 3 -
+//infusions/mp3player_panel/upload.php 1 -
+/templates/beez/beez.php 1 -
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/images/superbowlAsset.png 1 http://www.xamcrackers.com/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/gs_websc.php
+/fire.php 1 -
+/ajax/api/hook/decodeArguments 2 -
+/modules/megamenu/uploadify/xWarning.php 1 -
+/wp/wp-admin/ 1 -
+/public/js/plugins/imgsurfer/imglist.php 2 -
+/public/theme/server/fileupload/index.php 1 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php 2 -
+/images/php_ini.php 1 -
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 6 -
+/np.php 1 -
+/ll.php 1 -
+/webdev.php 1 -
+/kcfinder-2.51/upload/files/ups.php.jd 2 -
+//kcfinder-2.51/upload/files/priv.php.jd 1 -
+/cgi.php 1 -
+/wp-content/plugins/wpstorecart/php/upload.php 6 -
+//public/js/plugins/imgsurfer/main.php 2 -
+/wp-content/uploads/KFQ5ej.php 1 -
+/cpx.php 1 -
+/panel.php 1 -
+//tinymce/js/filemanager/plugin.min.js 1 -
+/Themes/themeone/assets/js/sweetalert-dev.js 1 http://www.xamcrackers.com/login
+/2.php 6 -
+/how.php5 1 -
+/web.php 3 -
+/xx.php 3 -
+/shell.php 65 -
+/x.php 4 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 3 -
+/server/php/ 3 -
+/ckeditor/kcfinder/upload/files/up.php.jd 3 -
+//shop/filemanager/plugin.min.js 1 -
+/RxR.php 3 -
+/wp-info.php 5 -
+/administrator/dbconfig.php 2 www.xamcrackers.com
+/wp-content/uploads/wysija/themes/v5wysija/jsspwned.php 6 -
+/server/php/files/up.php 3 -
+/wp-content/plugins/sql_dump.php 2 www.xamcrackers.com
+//wp-content/themes/churchope/lib/downloadlink.php 1 -
+/agent.php 1 -
+/images/vuln.php 4 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/happynes.php 1 -
+/oo.php 2 -
+/modules/modules/modules.php 5 -
+/wp-content/plugins/upspy/index.php 3 -
+/wp-content/themes/MoneyTheme/uploads/uploads/jsspwned.php 6 -
+/ww.php 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 12 -
+/wp-content/plugins/zen-mobile-app-native/jsspwned.php 6 -
+/media/editor/plugins/filemanager/inc/data.php 2 -
+/templates/protostar/error.php 3 -
+/kyuKaz.php 1 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/anonymous.php 2 -
+//plugins/content/s5_media_player/helper.php 1 -
+/wp-content/plugins/ppus/suram.php 1 -
+/wp-content/plugins/barclaycart/uploadify/jsspwned.php 6 -
+/fak.php 1 -
+/098.php 3 -
+//phpformbuilder/plugins/filemanager/plugin.min.js 1 -
+/wp-content/sloolx.php 1 -
+/wp-content/plugins/wp-simple-cart/files/$uploadfolder/temporary/jsspwned.php 6 -
+/ya3sine.php 1 -
+//components/com_hdflvplayer/hdflvplayer/download.php 1 -
+/Themes/themeone/assets/js/notify.js 1 http://www.xamcrackers.com/login
+/Dz.php 1 -
+/freshrdp.com2.php 2 -
+/Sh3ll.php 2 -
+//assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 1 -
+/idiot.php 1 -
+/images/google-assist.php 2 www.xamcrackers.com
+/sexx.php 1 -
+//web/image/Images/ddd.php 1 -
+//include/config.php.000 1 -
+/modules/pk_flexmenu/uploads/HolaPresME_20605.php 1 -
+/templates/beez5/error.php 3 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/error-log.php 2 www.xamcrackers.com
+/pdf/ 3 -
+//helpdesk/media/editor/plugins/filemanager/inc/data.php 1 -
+/js/ckeditor/kcfinder/upload.php 5 -
+//app/etc/local.xml 1 -
+/wp-content/themes/twentynineteen/content-post.php 1 -
+/images/xcontact182.php 1 -
+/fdgq.php 2 http://www.xamcrackers.com/fdgq.php
+/master.php 1 -
+/err.php 1 -
+/modules/wg24themeadministration/img/upload/HolaPresME_20605.php 1 -
+/n.php 1 -
+/modules/404.php 1 -
+//home.zip 1 -
+/server/php/files/ddd.php 2 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 3 -
+/ficheiros/conteudos/spy.txt 3 -
+/wp-content/plugins/lb-mixed-slideshow/gallery/1/jsspwned.php 6 -
+/indexx.php 1 -
+/utility/convert/data/config.inc.php 2 http://www.xamcrackers.com/utility/convert/data/config.inc.php
+/.root.php 1 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/newsleter.php 1 -
+/1337.php 2 -
+/idx.php 2 -
+/plus/moon.php 2 http://www.xamcrackers.com/plus/moon.php
+/xp.php 2 -
+//home.tar 1 -
+/log.php 3 -
+/leaf3.php 1 -
+/saif.php 1 -
+/ff.php 1 -
+/SSS.php 1 -
+/assets/scripts/slick.js.pagespeed.jm.6IoKNE4wGt.js 1 -
+/wp-admin/user/user-new.php 1 -
+//getsimple/plugins/items/uploader/server/php.php 1 -
+/ccp.php 1 -
+/front/index.php/frontend/index 4 -
+/ss.php 1 -
+/RoseLeif.php 2 www.xamcrackers.com
+/tmp/as.php 1 -
+/zebda.php 1 -
+/img/index.php 1 -
+//assets/tinymce/plugins/imgsurfer/main.php 2 -
+/ii.php 1 -
+/wp-content/plugins/spirit-templates/accdb.php 1 -
+/Themes/themeone/assets/site/js/main.js 1 http://www.xamcrackers.com/login
+/modules/mod_simplefileuploadv1.3/elements/udd.php 10 -
+//Modules/Logo/LogoHandler.ashx 1 -
+/logo_img.php 1 -
+/145.php 1 -
+/file.php 1 -
+/rip.php 1 -
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 2 -
+/tmp/pz.php 2 -
+/bhx1.php 1 -
+/system.php 3 -
+/xml.php 2 -
+/cpanel.php 5 -
+/1337w0rm.php 2 -
+/thumb.php 2 www.xamcrackers.com
+/mail.php 1 -
+/Themes/themeone/assets/site/js/jquery-3.1.1.min.js 1 http://www.xamcrackers.com/login
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 3 -
+/Sym.php 2 -
+/Jijle3.php 1 -
+//wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/X-Sec.php 1 -
+/b.php 2 -
+/libraries/jscripts/kcfinder/upload/files/ups.php.jd 2 -
+/public/js/angular-messages.js 1 http://www.xamcrackers.com/login
+/wp-content/plugins/background-image-cropper/content-post.php 1 -
+/admin/editor/plugins/filemanager/inc/data.php 2 -
+//ajaxupload.php 1 -
+/f0x.php 1 -
+/olx.php 1 -
+/info.php 5 -
+/md.php 1 -
+/p20.php 1 -
+/spyshell.php 2 -
+/uploader.php 2 -
+/mv.php 1 -
+/mysqli.php 1 -
+/lou-bna.php 1 -
+/dac.php 1 -
+/administrator/templates/bluestork/index.php 2 -
+/apc.php 1 -
+/admins.asp 1 -
+/lama.php 1 -
+/me.php 1 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 6 -
+/xx1.php 1 -
+//javascript/filemanager/plugin.min.js 1 -
+/readme.php 2 -
+/xGSx.php 2 -
+/12.php 2 -
+/db.php 1 -
+/wp-content/uploads/Fbrrchive.php 2 www.xamcrackers.com
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 6 -
+/smtp.php 3 -
+/forbiddens.php 2 -
+/.well-known/ZoneDNS.php 1 -
+/spymass.php 1 -
+/wp-content/w.php 1 -
+/modules/mod_simplefileupload.3/elements/xWarning.php 1 -
+/templates/ja-helio-farsi/index.php 2 -
+/wp-content/plugins/contus-video-galleryversion-10/jsspwned.php 6 -
+/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/fonts/30969C_0_0.woff2 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/identity/css/page.css
+/Themes/themeone/assets/site/css/main.css 1 http://www.xamcrackers.com/login
+/2015/wp-includes/wlwmanifest.xml 5 -
+/m3x.php 1 -
+/sites/all/libraries/elfinder/files/KFQ5ej.php 1 -
+/admins.php 1 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/media/big.php 2 -
+//tinymce/plugins/filemanager/language/index.php 1 -
+/uploads.php 2 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 7 -
+/server.php 1 -
+/proshell.php 1 -
+/login 2 -
+/wp-copy.php 1 -
+/mad.php 4 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 4 -
+/wp-content/plugins/ubh/o.php 1 -
+/smile.php 1 -
+/wp-content/languages/wp-block.php 1 -
+/xGassrinix.php 1 -
+/7..php 1 -
+/worot.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 12 -
+/nkr.php 1 -
+/q1.php 1 -
+/wp-puplic.php 1 -
+/editor/plugins/filemanager/inc/data.php 2 -
+/o.php 2 -
+//js/tinymce/plugins/imgsurfer/main.php 1 -
+/upz.php 1 -
+/ox.php 2 -
+/wp-content/plugins/vwcleanerplugin/bump.php 3 -
+/modules/fieldvmegamenu/uploads/HolaPresME_20605.php 1 -
+/templates/system/index.php 3 -
+//wp-admin/admin-ajax.php 7 -
+/rsx.php 3 -
+/wp-content/plugins/magic-fields/RCCWP_upload_ajax.php 6 -
+/wp-set.php 1 -
+/wp-content/plugins/widget-logic/mini.php 3 -
+/tmp/king.php 1 -
+/ess.php 3 -
+//laravel-sites/.env 1 -
+/media/jmail.php 1 -
+/administrator/webconfig.txt.php 2 www.xamcrackers.com
+/includes.php 2 www.xamcrackers.com
+/images/al277.php 2 www.xamcrackers.com
+/tmp/guide.php 1 -
+/gino/awso.php 1 -
+/%0A/.env 2 -
+/xvis.php 1 -
+//assets/uploadify/old/uploadify.php 1 -
+/lux.php 2 -
+/images/1ndex.php 2 www.xamcrackers.com
+/index.php/api/Uploadify/preview 2 http://www.xamcrackers.com/index.php/api/Uploadify/preview
+/logs.asp 2 www.xamcrackers.com
+/templates/atomic/html/lndex.php 1 -
+/admin/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/wp-upgrade.php 1 -
+/subscription/email 1 -
+/list.php 2 -
+/assets/admin/ckeditor/kcfinder/upload.php 5 -
+/GreenS.php 2 -
+//assets/ckeditor/kcfinder/upload.php 1 -
+/media/tmp.php 2 www.xamcrackers.com
+/php5.php 1 -
+/92.php 1 -
+/wp-content/themes/satoshi/functions/upload-handler.php 1 -
+/sql_dump.php 2 www.xamcrackers.com
+/cho.php 1 -
+/images/test.php 1 -
+/libraries/joomla/go.php 1 -
+/sql-new.php 1 -
+/no.php 1 -
+/files/files.php 2 www.xamcrackers.com
+//plugins/jquery-file-upload/server/php/index.php 1 -
+/tmp/up.php 1 -
+/images/stories/xWarning.php 1 -
+/lon.php 1 -
+//media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/xc.php 1 -
+/assets/scripts/slick.js%2Bjquery.mobile-menu.min.js.pagespeed.jc.ciYH8bBvrV.js 1 http://www.xamcrackers.com/index.php/frontend/contact
+/Login/Signin/b.css 2 http://www.xamcrackers.com/Login/Signin/
+/long.php 1 -
+/wp13.php 1 -
+/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/dzx/css/loading.css 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/identity.php
+/wss.php 1 -
+/provisional.php 1 -
+/tmp/sa.php 1 -
+//public/.env 1 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 3 -
+/wp-content/plugins/background-image-cropper/new_license.php 1 -
+/ph.php 1 -
+/500.php 1 -
+/shellxo.php 1 -
+//asset/kcfinder/css.php 1 -
+/flame.php 1 -
+/ler.php 1 -
+/wp-content/uploads/uigen_YEAR/file.php 6 -
+/wp-content/plugins/wp-simple-cart/request/simple-cart-upload.php 6 -
+/cms/wp-includes/wlwmanifest.xml 36 -
+/images/ 3 -
+/cache/support.php 2 www.xamcrackers.com
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 4 -
+//File-Upload/server/php/index.php 1 -
+/anislama.php 1 -
+/1han.php 1 -
+/zz.php 2 -
+/zarox.php 2 -
+//assets/js/filemanager/plugin.min.js 1 -
+/madspot.php 2 -
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 4 -
+/pm.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/myshe.php 2 www.xamcrackers.com
+/def.php 1 -
+/modules/pk_vertflexmenu/uploads/HolaPresME_20605.php 1 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/index.php 5 -
+/bih.php 1 -
+/vv.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 3 -
+/123.php 2 -
+/cpcrack.php 1 -
+/IndoXploit.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/jsspwned.php 6 -
+/jwallpapers_files/plupload/xWarning.php 1 -
+/newps.php 1 -
+/b374k.php 3 -
+//responsivefilemanager/plugin.min.js 1 -
+/Themes/themeone/assets/site/js/wow.min.js 1 http://www.xamcrackers.com/login
+/tmp.php 6 -
+/idx_shell.php 1 -
+/fshell.php 1 -
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 2 -
+/wp-logins.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/cloud.php 1 -
+//wp-admin/install.php 2 -
+/wp-content/uploads/2018/03/xWarning.php 2 -
+//include/swf_upload.php 1 -
+/ksa.php 1 -
+/xo.php 2 -
+/dick.php 1 -
+/secret.php 1 -
+//administrator 1 -
+/images/d.php 1 -
+/site/terms-conditions 1 -
+/components/com_foxcontact/_func.php 1 -
+//user/login 1 -
+/components/com_b2jcontact/izoc.php 3 -
+/images/guide.php 1 -
+//admin/editor/plugins/filemanager/inc/izo.php 1 -
+/az.php 1 -
+//tinymce/responsivefilemanager/plugin.min.js 1 -
+/wp-content/uploads/assets/temp/jsspwned.php 6 -
+/meta.php 2 -
+/depriving.php 1 -
+//.env 7 -
+/index1.php 2 -
+//admin/js/tinymce/plugins/imgsurfer/main.php 1 -
+/templates/ja_purity/index.php 3 -
+/gass.php 1 -
+/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/gg/zeb.css 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/identity.php
+/wp-content/uploads/2019/media-admin.php 1 -
+//wp-config.php.bak 1 -
+/images/xxu.php 1 -
+/test/wp-includes/wlwmanifest.xml 7 -
+/wp-includes/css/modules.php 3 -
+/wp-content/plugins/xichang/x.php 3 -
+//js/rokmage_tinymce/tinyupload.js 1 -
+/egyshell.php 1 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/b.css 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+/administrator/administrator.php 2 www.xamcrackers.com
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 6 -
+/images/up.php 1 -
+/x3d.php 1 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 3 -
+/media/reads.php 2 www.xamcrackers.com
+/modules/bamegamenu/HolaPresME_20605.php 4 -
+//server/php/ 1 -
+/administrator/templates/hathor/error.php 2 -
+/user/login 4 -
+//wp-content/themes/antioch/lib/scripts/download.php 1 -
+//plugins/kcfinder/css.php 1 -
+/xm1rpc.php 1 -
+/vinex.php 1 -
+/pop-side.php 1 -
+/wp-log.php 1 -
+/tmp/changeall.php 1 -
+/wp-content/plugins/Fbrrchive.php 2 www.xamcrackers.com
+/wp-content/uploads/ 3 -
+/templates/atomic/html/leaf3.php 1 -
+/5.php 1 -
+/GreenUP.php 1 -
+//tpl/plugins/upload9.1.0/server/php/files/ddd.php 1 -
+/upil.php 1 -
+/components/com_hdflvplayer/hdflvplayer/download.php 2 -
+/wp-content/themes/MoneyTheme/uploads/upload.php 6 -
+/king.php 1 -
+/xai.php 1 -
+/smart.php 1 -
+//admin/editor/plugins/ajaxfilemanager/inc/data.php 1 -
+/theme.php 2 -
+/kmskq.php 1 http://www.xamcrackers.com/kmskq.php
+/mysql.php 1 -
+/r3x.php 2 www.xamcrackers.com
+/sym1.php 1 -
+/includes/up.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/uploadify.php 1 -
+/tmp/r1z.php 1 -
+/dom.php 1 -
+/cpn.php 5 -
+/sab3on.php 1 -
+/wp-crons.php 1 -
+//modul/tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+/WSO.php 4 -
+/user.php 8 45ea207d7a2b68c49582d2d22adf953aads|a:2:{s:3:\"num\"
+/assets/js/mylibs/kcfinder/upload.php 5 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 1 -
+/wp-content/plugins/ubh/index.php 3 -
+/webconfig.txt.php 2 www.xamcrackers.com
+/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/fonts/30969C_0_0.ttf 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/identity/css/page.css
+/modules/mod_banners/tmpl/defult.php 1 -
+/lel.php 1 -
+/tesmini.php 1 -
+/pay.php 2 -
+/wp-installation.php 1 -
+/wp-content/themes/multimedia1/server/php/files/jsspwned.php 6 -
+/xnxx.php 2 -
+/zabi.php 1 -
+/maill.php 2 www.xamcrackers.com
+/helpdesk/media/editor/plugins/filemanager/inc/data.php 2 -
+/modules/simpleslideshow/slides/HolaPresME_20605.php 1 -
+/files/uploadify/XAttacker.php 1 -
+/blog/administrator/index.php 1 -
+/includes/u2p.php 2 www.xamcrackers.com
+//tt.php 1 -
+//js/swfupload/js/upload.php 1 -
+/images/robots.txt.php 2 www.xamcrackers.com
+/r00t.php 6 -
+/wp-content/plugins/radykal-fancy-gallery/admin/jsspwned.php 6 -
+/wp-content/plugins/akismet/admin.php 2 -
+/Cpanel.php 1 -
+//media/editor/plugins/filemanager/inc/izo.php 1 -
+/bigdump.php 1 -
+/GreenPxOK.php 2 -
+/freshrdp.com.php 1 -
+/config.php 3 -
+/wp-content/uploads/settingsimages/2019/08/en/jsspwned.php 150 -
+//js/tinymce1/plugins/filemanager/language/index.php 1 -
+/templates/beez3/index.php 3 -
+//clients/.env 1 -
+/crazy.php 1 -
+/admin.php 2 -
+/666.php 2 -
+/j.php 1 -
+/ww3.php 1 -
+/sym403.php 1 -
+/tbon.php 1 -
+/cfq.php 1 -
+//admin/libraries/ajaxfilemanager/inc/izo.php 1 -
+/ads.txt 19 -
+/images/wso.php 1 -
+/upel.php 3 -
+/show.php 2 www.xamcrackers.com
+/xleetwolf.php 1 -
+/zer0x.php 1 -
+/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/dzx/css/loading.css 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/identity.php
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+//wp-contacts.php 1 -
+/images/ls.php 1 -
+/wp-2018.php 1 -
+/templates/beez3/error.php 3 -
+/wp-content/themes/medicate/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/gator.php 1 -
+/ysyqq.php 2 http://www.xamcrackers.com/ysyqq.php
+/.n.php 1 -
+/reasdme.php 1 -
+/components/RxR_1566474427.php 1 -
+/403.php 1 -
+/wsozo.php 1 -
+/produtos.php 1 -
+/wp-waf.php 1 -
+/wp-content/plugins/akismet/akismet.php 4 -
+/ena.php 3 -
+//themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 1 -
+/wp-config.php 1 -
+/images/newsr.php 1 -
+/wp-con.php 1 -
+/wp-content/plugins/ubh/shell.php 1 -
+/userfiles/file/spy.txt 3 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 15 -
+/pp.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 6 -
+/d00.php 2 -
+//public/js/plugins/imgsurfer/imglist.php 1 -
+/images/stories/w.php 2 -
+/components/com_banners/metadata.php 1 -
+//assets/admin/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/configbak.php 2 www.xamcrackers.com
+/muri.php 1 -
+/aaxd.php 1 -
+/authenticating.php 2 www.xamcrackers.com
+/11b.php 1 -
+/wp-content/themes/twentyseventeen/content-post.php 1 -
+/wp-content/plugins/vr-seo/vr.php 1 -
+/robot.php 2 www.xamcrackers.com
+//cfgsi.php 1 -
+/rdpl.php 3 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 3 -
+/wordpress/wp-admin/ 1 -
+/wp-content/plugins/membership-simplified-for-oap-members-only/download.php 1 -
+/2xdfv.php 1 -
+/user/file_text/(ls.php 1 -
+/xb.php 1 -
+/admin1/ 1 -
+/error.php 5 -
+/wp-content/plugins/wp-footers.php 2 www.xamcrackers.com
+/anu.php 1 -
+/xamcrackers.sql 1 -
+/d0mains.php 1 -
+/za.php 1 -
+/inboxv2.php 2 -
+/needing.php 1 -
+//wp-content/plugins/wp-checkout/vendors/timthumb.php 1 -
+/wp-admin/shapes.php 3 -
+/clearwp.php 1 -
+/leafmailer.php 1 -
+/tmp/uploads.php 2 -
+/assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 2 -
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 6 -
+//assets/js/mylibs/kcfinder/upload.php 1 -
+/tmp/2.php 1 -
+//wp-content/themes/lightspeed/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/wp-content/plugins/social-networking-e-commerce-1/classes/views/social-options/form_cat_add.php 6 -
+//server/php/files/ddd.php 1 -
+/up3.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads/jsspwned.php 6 -
+/elements.php 2 www.xamcrackers.com
+/wp-main.php 2 www.xamcrackers.com
+/mmkny.php 1 http://www.xamcrackers.com/mmkny.php
+//core/third-party/filemanager/plugin.min.js 1 -
+/yy.php 1 -
+//components/com_contushdvideoshare/hdflvplayer/download.php 1 -
+/dir2.php 1 -
+/ini.php 3 -
+/blog/wp-includes/wlwmanifest.xml 37 -
+/tmp/mad.php 2 -
+/p.php 2 -
+/modules/vtemskitter/img/HolaPresME_20605.php 1 -
+/21.php 1 -
+/px.php 3 -
+/roots.php 1 -
+/phpMyAdmin/f1.php 1 -
+/promailer.php 1 -
+//public/javascript/filemanager/plugin.min.js 1 -
+/admin 6 -
+/assets/uploadify/old/uploadify.php 4 -
+/wp-includes/wlwmanifest.xml 36 -
+/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/wp-cache.php 2 www.xamcrackers.com
+/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/fonts/30969C_0_0.woff 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/identity/css/page.css
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/media/404.php 2 www.xamcrackers.com
+/temp1-1.php 1 -
+/assets/js/bluimp/server/php/index.php 1 -
+/wg-waf.php 1 -
+//wp-content/themes/ninetofive/scripts/doajaxfileupload.php 1 -
+/dir.php 1 -
+/wp12.php 1 -
+//js/kcfinder/css.php 1 -
+/fares.php 1 -
+/tmp/whmcs.php 2 -
+/cloud.php 1 -
+//modules/hdi/hdi-tinymce/tiny_mce4/plugins/moxiemanager/api.php 1 -
+//assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/indexok.php 1 -
+/wp-content/plugins/wp-manager/x.php 1 -
+/kcfinder-2.51/upload.php 5 -
+/abc.php 2 -
+//assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/tester.php 1 -
+/wp_logns.php 1 -
+/wp-content/uploads/i-dump-uploads//jsspwned.php 6 -
+/images/head.php 2 www.xamcrackers.com
+/wp-includes/upgrade/theme-compat/popup-pomo.php 1 -
+/aa.php 1 -
+//wp-login.php 1 -
+/plus/download.php 2 http://www.xamcrackers.com/plus/download.php
+/active.php 1 -
+/wp-content/uploads/2017/06/20170623054016_bcc.php 2 -
+/libraries/joomla/zipy.php 1 -
+//tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/upload/ 3 -
+/secureHigh.php 1 -
+//editor/plugins/filemanager/inc/data.php 1 -
+/wp-content/plugins/ppus/up.php 4 -
+/ok.php 1 -
+/wp-xss.php 1 -
+/c100.php 4 -
+/.wp-trc.php 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-white/designit/cs/uploadImage/$uploadfolder/jsspwned.php 6 -
+/bb.php 2 -
+/tmp/r00t.php 1 -
+/AndroidFileUpload/fileUpload.php 3 -
+/PPsc-2017-2018/593035/font/PayPalSansSmall-Regular.woff2 2 http://www.xamcrackers.com/PPsc-2017-2018/593035/css/font-sans.css
+/vb.zip 1 -
+/sito/wp-includes/wlwmanifest.xml 5 -
+/raw.php 1 -
+/wp-content/plugins/stats/instoll.php 1 -
+/baba.php 1 -
+/images/upxx.php 2 -
+/tmp/w.php 1 -
+/themes/404/404.php 2 -
+/blog/ 10 -
+/wp-content/plugins/simple-ads-manager/jsspwned.php 6 -
+//admin/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/q.php 2 -
+/Themes/themeone/assets/css/sweetalert.css 1 http://www.xamcrackers.com/login
+/wp-content/plugins/revslider/temp/update_extract/KFQ5ej.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/jsspwned.php 6 -
+/help.php 3 -
+/z0z.php 1 -
+/z4n.php 1 -
+//wp-admin/setup-config.php 1 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
+/L3b.php 1 -
+/wp_fox.php 1 -
+/sc.php 1 -
+/sim.php 1 -
+/wp.php 3 -
+/ham.php 1 -
+/mrx.php 1 -
+/mmk.php 1 -
+/wp-content/plugins/pitchprint/uploader/ 7 -
+/js.php 2 -
+/shm.php 1 -
+/shel1.php 1 -
+/xmlrpc.php 16 -
+/e.php 2 -
+/assets/tinymce/plugins/imgsurfer/main.php 3 -
+/modules/pk_vertflexmenu/ajax/upload.php 1 -
+/m0m.php 1 -
+/admin2.asp 2 -
+/oss.php 2 -
+/update.php 2 www.xamcrackers.com
+/admin/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/0byte.php 1 -
+//Black.php 1 -
+/hd.php 2 -
+/syrian_shell.php 1 -
+/exams/start-exam/oscillations-aa1e28d08e2f94a40979e15f604e7fe8571f35e3-11 1 -
+/d.php 5 -
+/k2.php 1 -
+/wp-content/uploads/$year/$month/jsspwned.php 18 -
+/jscripts/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/2016/wp-includes/wlwmanifest.xml 5 -
+/wp-content/plugins/theme-configurator/mini.php 3 -
+/assets/scripts/modernizr.bootstrap.min.pagespeed.js 2 -
+//assets/backend/tinymce/plugins/filemanager/plugin.min.js 1 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/images/pp-logo-151px.png 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+/tmp/petx.php 1 -
+/confiq.php 1 -
+/b1.php 3 -
+/wp-captcha.php 1 -
+/wp-content/uploads/product_files/jsspwned.php 6 -
+//phpminiadmin.php 1 -
+//templates/beez/index.php 1 -
+/admin/libraries/ajaxfilemanager/inc/izo.php 2 -
+/wp-includes/wolfm.php 1 -
+/cli/40dd1d.php 3 -
+//cms/filemanager/plugin.min.js 1 -
+/site/syllabus 1 -
+/cocot.php 1 -
+//wp-content/plugins/gallery-plugin/upload/php.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/files/xWarning.php 1 -
+/rss.xml 4 -
+/w.php 8 -
+/10.php 2 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/images/fav.ico 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+//admin/includes/filemanager/plugin.min.js 1 -
+/so.php 1 -
+//images/block/ddd.php 1 -
+/privmailer.php 1 -
+/js/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+//editor/plugins/filemanager/inc/izo.php 1 -
+/modules/pk_flexmenu/uploads/xWarning.php 1 -
+/qp.php 1 -
+/save.php 1 -
+/home 2 -
+/_sheller.php 1 -
+//assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/zct.php 1 -
+/joomla/robots.txt 1 -
+/img/newsr.php 1 -
+/cache/list.php 2 www.xamcrackers.com
+/wp-content/upgrade/404.php 1 -
+/mSloyw.php 1 -
+/libraries/joomla/jmail.php 4 -
+/wp-content/plugins/wp-mobile-detector/resize.php 6 -
+/media/wp-includes/wlwmanifest.xml 5 -
+//js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/priv.php 3 -
+/tmp/sql.php 1 -
+//wp-admin/admin.php 2 -
+/dam.php 3 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads//jsspwned.php 6 -
+/mk7ico.php 1 -
+/wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 2 www.xamcrackers.com
+/regran.php 1 -
+/v5.php 1 -
+/up14.php 1 -
+/js2.php 1 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/bl.php 1 -
+/mb.php 1 -
+/groupusers.php 1 -
+/haider.php 1 -
+/wp.PhP 1 -
+/ee.php 1 -
+/home.php 1 -
+/2531.php 1 -
+//theme/plugins/jquery-file-upload/server/php/index.php 1 -
+//timthumb.php 1 -
+/cmd.php 1 -
+/forum/register.php 3 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/jsspwned.php 12 -
+/olad.php 2 -
+/send.php 1 -
+/xmlrpc-activate.php 2 www.xamcrackers.com
+/gassrini.php.php.j 1 -
+/wordpress/wp-content/plugins/css-ready-seled/file.php 1 -
+/wp-content/languages/404.php 1 -
+/blog/robots.txt 11 -
+/cache/cache_aqbmkwwx.php 2 www.xamcrackers.com
+/images/c.php 1 -
+/aaaa.php 1 -
+/wp-content/plugins/caches.php 2 www.xamcrackers.com
+/wsos.php 1 -
+/media.php 1 -
+/asw.php 1 -
+//templates/system/css/system.css 2 -
+/libraries/joomla/1ndex.php 2 www.xamcrackers.com
+/newp.php 1 -
+/null.php 1 -
+/joomla/ 4 -
+/rxr.php 6 -
+/iq.php 1 -
+/wp-time.php 1 -
+/wp-content/uploads/wpmp-previews/jsspwned.php 6 -
+/wp-content/uploads/user_uploads/test/jsspwned.php 12 -
+/upload.php 11 -
+/a1.php 1 -
+/wp-content/plugins/dzs-videowhisper/upload.php 6 -
+/whmcskiller.php 2 -
+/utility.php 1 -
+/mide.php 1 -
+//ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/v3.php 1 -
+//assets/admin/ckeditor/kcfinder/upload.php 1 -
+/templates/atomic/error.php 3 -
+/Themes/themeone/assets/css/angular-validation.css 1 http://www.xamcrackers.com/login
+/demo/wp-includes/wlwmanifest.xml 1 -
+/iiq.php 1 -
+/wp-content/plugins/wp-manager/file.php 1 -
+/alfaa.php 1 -
+/3Turrshell.php 1 -
+/Uploader.php 1 -
+/lean.php 1 -
+/doom.php 2 -
+/cache/wcache7675n.PHP 2 www.xamcrackers.com
+/xup.php 2 -
+/beta/wp-includes/wlwmanifest.xml 2 -
+/tmp/sfx.php 1 -
+/mast.php 2 -
+/py.php 1 -
+//modules/hdi/hdi-tinymce/filemanager/plugin.min.js 1 -
+/cc.php 2 -
+/clients/.env 1 -
+/eddy.php 1 -
+/y.php 1 -
+/wp-content/uploads/jsspwned.php 12 -
+/wp-content/themes/pinboard/uploads/jsspwned.php 6 -
+/templates/default/jQuery-File-Upload/server/php/index.php 1 -
+/wp-content/plugins/ubh/up.php 1 -
+//wpnew/wp-admin/install.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/uploads/jsspwned.php 12 -
+//public/upload_nhieuanh/server/php/files/ddd.php 1 -
+/wsoo.php 1 -
+/wp-content/plugins/Analyser.php 2 www.xamcrackers.com
+/sajjad.php 1 -
+/27126397x.php 1 -
+/media/xWarning.php 1 -
+/h.php 1 -
+//wordpress/wp-admin/install.php 2 -
+//address.php 1 -
+/hx.php 1 -
+/wp-includes/cm3.php 1 -
+/dd.php 1 -
+/1.php 7 -
+/img/ 3 -
+/images/k2.php 1 -
+/wp-content/plugins/upspy/up.php 1 -
+/k.htm 2 -
+/modules/pk_flexmenu/ajax/upload.php 2 -
+/wp-content/62149921.php 1 -
+/wp-content/plugins/SocketIontrol.php 2 www.xamcrackers.com
+/dswat.org/wsdl.php 2 www.xamcrackers.com
+/vendor/phpunit/phpunit/composer.json 3 -
+/nn.php 1 -
+/22.php 1 -
+/wp-content/themes/ultimatum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/mgh.php 1 -
+/l.php 1 -
+/bio.php 1 -
+/jembot.php 1 -
+/wp-content/themes/pindol/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/wp-content/plugins/cherry-plugin/admin/import-export/jsspwned.php 12 -
+/mailer.php 3 -
+/wordpress/wp-includes/wlwmanifest.xml 36 -
+/uploadshell.php 1 -
+/E.php 1 -
+/admin1.php 2 -
+/wp-content/plugins/upspy/leafn.php 1 -
+/images/ww.php 1 -
+//tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/bypass.php 1 -
+/modules/columnadverts/uploadimage.php 1 -
+/scan.php 1 -
+/components/com_foxcontact/mrpatate.php 1 -
+/.h..php 1 -
+/web/image/upload.php 3 -
+/tmp/index.php 1 -
+/libraries/joomla/juser.php 1 -
+/application/configs/application.ini 3 -
+//wp-content/themes/modularity/includes/timthumb.php 1 -
+/libraries/joomla/wso.php 1 -
+/tmp/dz1.php 1 -
+//plugins/vmcustom/photoupload/assets/server/php/index.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/wp-content/uploads/2019/08/jsspwned.php 12 -
+/www/wp-includes/wlwmanifest.xml 2 -
+/669N.php 1 -
+/Themes/themeone/assets/site/js/jRate.min.js 1 http://www.xamcrackers.com/login
+/priv8.php 5 -
+/M4r0c.php 1 -
+/cache/asdf.php 2 -
+/dssd.php 1 -
+/jj.php 2 -
+/public/upload_nhieuanh/server/php/_index.php 7 -
+//wp-content/themes/versatile/lib/includes/timthumb.php 1 -
+/leaf.php 1 -
+//gaza.php 1 -
+/assets/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/media/gass.php 1 -
+//admin/core/third-party/filemanager/plugin.min.js 1 -
+/media/editor/plugins/filemanager/inc/izo.php 2 -
+/sms/cgi-bin/ 1 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+/admin/editor/plugins/filemanager/inc/izo.php 2 -
+/wp-content/plugins/dzs-videowhisper/upload/jsspwned.php 6 -
+//admin/libraries/ajaxfilemanager/inc/data.php 1 -
+/iboy.php 1 -
+/S.php 1 -
+/user/file_text/00.php 1 -
+//cmd.php 1 -
+/al277.php 2 www.xamcrackers.com
+/images/upa.php 2 -
+/petz.php 1 -
+/ima.php 1 -
+//tpl/plugins/upload9.1.0/server/php/ 3 -
+/golden.php 1 -
+/assets/js/mylibs/kcfinder/upload/files/ups.php.jd 2 -
+/cyber.php 1 -
+/zb.php 1 -
+/install.php 3 -
+//home/wp-admin/install.php 1 -
+/SessionController.php 2 www.xamcrackers.com
+/adminside/server/php/ 7 -
+//tinymce/plugins/imgsurfer/imglist.php 1 -
+/payload3.php 1 -
+/8.php 1 -
+/luck.php 1 -
+/wp-content/xml.php 1 -
+/d7.php 1 -
+/os2.php 1 -
+/DS/index.html 5 -
+/spy.php 2 -
+/good.php 1 -
+/wsdl.php 2 www.xamcrackers.com
+/index.php 27 -
+/configurationbak.php 2 www.xamcrackers.com
+/.foxcontatx.php 1 -
+//media/editor/plugins/filemanager/inc/data.php 1 -
+/PZUG.php 1 -
+/Color.php 1 -
+/rss.php 1 -
+/images/WSO.php 1 -
+/tmp/ss.php 1 -
+/site/tmp/cTivrC.php 2 www.xamcrackers.com
+/wso24.php 2 -
+//admin/editor/plugins/filemanager/inc/data.php 1 -
+/cfg-contactform-1/upload/ddd.php 2 -
+/wp-content/themes/library/visual-editor/lib/upload-header.php 6 -
+/tmp/vuln.php 3 -
+/robots.txt 103 -
+/lisx.php 1 -
+/templates/rhuk_milkyway/index.php 5 -
+/admin/libraries/ajaxfilemanager/inc/data.php 2 -
+/sms/cgi-bin/test.php 1 -
+/cliente/downloads/h4xor.php 1 -
+/functions.php 2 www.xamcrackers.com
+/c22.php 3 -
+/wp-content/plugins/css-ready-seled/file.php 1 -
+//scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/templates/system/css/system.css 17 -
+/vendor_extra/elfinder/files/DC0mmand3r.php 1 -
+//wp-content/themes/switchblade/framework/_scripts/valums_uploader/php.php 1 -
+/libraries/respectMuslims.php 1 -
+/images/admin.php 1 -
+/components/com_finder/views/search/tmpl/souf.php 1 -
+/modules/simpleslideshow/uploadimage.php 1 -
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+//js/tinymce4/plugins/filemanager/plugin.min.js 1 -
+/files/ 3 -
+/iindex.php 1 -
+/components/com_foxcontact/fx.php 1 -
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/tr.php 1 -
+/s2.php 1 -
+/vb.rar 1 -
+/abcd.php 1 -
+//scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/templates/system/error.php 3 -
+/mek.php 1 -
+//upload.php 3 -
+/templates/beez/index.php 5 -
+/xupe.php 1 -
+/sa.php 3 -
+/ALFA-SHELL-V3.php 1 -
+//xml.php 1 -
+/sh3ll.php 3 -
+/PayPal/myaccount/info/success.php 10 -
+/jjl.php 1 -
+/images/laj.php 2 www.xamcrackers.com
+//doajaxfileupload.php 1 -
+/911.php 2 -
+/d4rk.php 1 -
+/v4team.php 1 -
+//plugins/content/jw_allvideos/includes/download.php 1 -
+/web_xml.php 1 -
+/images/Sym.php 2 -
+/fckeditor/editor/filemanager/connectors/php/jsspwned.php 6 -
+/tmp/readme.php 1 -
+/fozi.php 2 -
+/ko.php 1 -
+/tpl/plugins/upload9.1.0/server/php/up.php 3 -
+/LMS/contents/number-theory-14c4eb60b5804580be846562d6adb696c6e1037f-10 1 -
+/alf2.php 1 -
+/root.php 4 -
+/images/block/up.php 3 -
+//panel/kcfinder/css.php 1 -
+/r.php 1 -
+/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+//editor/assetmanager/jqueryFileTree/jqueryFileTree.js 1 -
+/changeall.php 1 -
+/dm2.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 6 -
+/phpMyAdmin/00.php 1 -
+/swah.php 2 -
+/tmp/bogel.php 1 -
+/ajax.php 1 -
+//admin/ckeditor/kcfinder/upload.php 1 -
+/media/jss.php 1 -
+/wp-login.php 10 -
+/joomla/administrator/index.php 1 -
+/Shell.php 1 -
+/iyh.php 1 -
+/un.php 2 -
+//home.rar 1 -
+/xmlrpe.php 1 -
+/llo.php 1 -
+/msss.php 1 -
+/modules/bamegamenu/ajax_phpcode.php 2 -
+//js/tinymce/plugins/moxiemanager/api.php 1 -
+/gg.php 1 -
+/ran.php 1 -
+/priv8-sym.php 1 -
+/Symlink.php 1 -
+/wp-update.php 2 -
+/fun.php 1 -
+/wp-check.php 1 -
+/helloworld.php 1 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 3 -
+/media/css.php 1 -
+//wp-content/plugins/sell-downloads/sell-downloads.php 1 -
+/mo.php 1 -
+/hh.php 2 -
+/ym.php 1 -
+/wp-blog.php 1 -
+/11.phtml 1 -
+/shellwow.php 1 -
+/3.php 4 -
+/Themes/themeone/assets/css/notify.css 1 http://www.xamcrackers.com/login
+/wp-admin/admin-ajax.php 32 -
+/config2.php 1 -
+/libraries/joomla/css.php 4 -
+/modules/mod_bookmark/helper.php 2 www.xamcrackers.com
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 12 -
+/g.php 2 -
+//admin/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/assets/uploadify/uploadify.php 4 -
+//helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/wra.php 1 -
+/setting.php 2 -
+/sqlbak.php 2 www.xamcrackers.com
+/edit-site.php 1 -
+/admin/ckeditor/kcfinder/upload.php 5 -
+//filemanager/plugin.min.js 1 -
+//js/server/php/index.php 1 -
+/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/fonts/30969C_0_0.woff2 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/identity/css/page.css
+/wp-content/wljzlh.php 1 -
+//tpl/plugins/upload9.1.0/server/php/ddd.php 1 -
+/vendor_extra/elfinder/files/XAttacker.php 1 -
+/symsa2.php 2 -
+/mmm.php 1 -
+/bsn.php 1 -
+/favicon.php 1 -
+/toor.php 1 -
+/wp-content/plugins/disqus-comment-system/disqus.php 2 -
+/robots.txt.php 2 www.xamcrackers.com
+//wp-content/plugins/disqus-comment-system/disqus.php 1 -
+/language/en-GB/en-GB.xml 13 -
+/assets/ckeditor/kcfinder/upload.php 5 -
+//t00.php 1 -
+/wp-content/plugins/vr-seo/wp-2017.php 1 -
+/melex1.php 1 -
+/13.php 1 -
+/1997.php 1 -
+//admin/login.php 2 -
+/components/com_foxcontact/home.php 1 -
+/sado.php 2 -
+/misel.php 1 -
+/Server.php 1 -
+//wp-content/plugins/wp-image-news-slider/js/swfupload/js/upload.php 1 -
+/.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 7 -
+/register 1 -
+/X.php 2 -
+//blog/wp-admin/install.php 2 -
+/pmSDDSD.php 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/indo.php 2 -
+/wp-load.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/jsspwned.php 6 -
+//scripts/jquery/kcfinder/upload.php 1 -
+/images/defau1t.php 2 www.xamcrackers.com
+/tmp/cpn.php 2 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/files/ 5 -
+/images.php 1 -
+/PPsc-2017-2018/593035/font/PayPalSansBig-Regular.woff2 2 http://www.xamcrackers.com/PPsc-2017-2018/593035/css/font-sans.css
+//installation/index.php 1 -
+/media/1ndex.php 2 www.xamcrackers.com
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 4 -
+/.git/HEAD 1 -
+/roro.php 1 -
+/A.php 2 www.xamcrackers.com
+/anon.php 2 -
+/admin/webroot/cache/59725b922cb18ad815fffe5446463048.php 1 -
+/indexz.php 1 -
+/web/image/Images/up.php 3 -
+/wp-content/uploads/settingsimages/jsspwned.php 6 -
+/ls.php 2 -
+/3xPloiTeR.php 1 -
+/wp-content/bees.php 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 6 -
+//wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/administrator/ 3 -
+/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/ID/dzx/js/info.js 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/identity.php
+/uploadify/uploadify.php 1 http://www.xamcrackers.com/uploadify/uploadify.php
+//editor/plugins/filemanager/ajax_create_folder.php 1 -
+/mlx.php 1 -
+/new.php 1 -
+/wp-content/plugins/webapp-builder/jsspwned.php 6 -
+/wp-includes/SimplePie/xsef.php 1 -
+/ws0.php 2 -
+/blog/wp-login.php 2 -
+/site/privacy-policy 1 -
+//magmi/web/download_file.php 1 -
+/v.php 1 -
+/indexe.php 2 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/jsspwned.php 6 -
+/xz.php 2 -
+/wp-content/plugins/upspy/ms.php 1 -
+/wptimers.php 1 -
+/base.php 1 -
+/view.php 1 -
+//server/php/index.php 1 -
+/haxor.php 1 -
+/kos.php 1 -
+/wp-content/plugins/css-ready-selectors/file.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/wp-content/plugins/upspy/f.php 1 -
+//options.php 1 -
+/sql.php 4 -
+/vvv.php 1 -
+/AROn2.php 1 -
+/wp-content/themes/rarebird/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+//app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/jmx.php 1 -
+/wp-content/plugins/ubh/shelll.php 1 -
+/cw.php 1 -
+/css/dzQ.php 1 -
+/new_license.php 3 -
+/shootme.php 2 www.xamcrackers.com
+/wp-admin/network/wp-footer.php 3 -
+/tesl.php 1 -
+/405.php 1 -
+/tool.php 2 -
+/sym.php 3 -
+//admin/timthumb.php 1 -
+//app/webroot/js/tinymce/plugins/imgsurfer/main.php 2 -
+/M-J!r4ya-F4r3s.php 2 www.xamcrackers.com
+/xWarning.php 4 -
+/-_-.php 1 -
+/wp-content/bsn.php 1 -
+/tmp/root.php 2 -
+/images/w0rm.php 1 -
+/xzarox.php 1 -
+/cgh.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 6 -
+/2018/wp-includes/wlwmanifest.xml 7 -
+/index.php/frontend/exam 4 -
+/Ok.php 1 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+//server/php 1 -
+/.olux.php 1 -
+/alf.php 2 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 5 -
+//admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/wp-errer.php 1 -
+/uploads/dede/sys_verifies.php 2 http://www.xamcrackers.com/uploads/dede/sys_verifies.php
+//include/config.php.bak 1 -
+//assets/js/bluimp/server/php/index.php 1 -
+/wp/wp-includes/wlwmanifest.xml 35 -
+//admin/editor/plugins/ajaxfilemanager/inc/izo.php 1 -
+/to.php 1 -
+/noname.php 2 -
+/wp-admin/setup-config.php 1 -
+/by.phtml 1 -
+/wp-configuration.php 1 -
+/auithorze.php 1 -
+//assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/assets/extra-images/xBlogs-grid-img1.jpg.pagespeed.ic.ZU2TMAsjEv.jpg 1 -
+/kjkrd.php 1 http://xamcrackers.com/kjkrd.php
+/images/1.php 1 -
+/weso.php 1 -
+//modules/megaproduct/upload/index.php 1 -
+/webr00t.php 1 -
+/ddd.php 5 -
+/assets/plugins/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/mini.php 4 -
+/images/upload.php 1 -
+/aq032.php 1 -
+//libraries/jscripts/kcfinder/upload.php 1 -
+/wp-content/jssor-slider/jssor-uploads/jsspwned.php 6 -
+//admin.php 2 -
+//js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/administrator/templates/isis/error.php 2 -
+/nktt.php 1 -
+/a.php 4 -
+/wp-admin/admin.php 18 -
+//modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/alfap.php 1 -
+/plus/90sec.php 2 http://www.xamcrackers.com/plus/90sec.php
+/wp-content/plugins/upspy/lux.php 1 -
+/q2.php 1 -
+/wp-synchro.php 1 xamcrackers.com
+/FCKeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.xamcrackers.com/FCKeditor/editor/filemanager/connectors/asp/connector.asp
+/lfishell.php 1 -
+/m.php 4 -
+/seal.php 1 -
+/wkwk.php 1 -
+/bitrix/admin/index.php 2 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 12 -
+/prv8.php 1 -
+/Abbrevsprl.php 2 www.xamcrackers.com
+/jtk.php 1 -
+/assets/extracss/style1.css 1 http://www.xamcrackers.com/index.php/frontend/contact
+/images/404.php 2 www.xamcrackers.com
+/public/js/angular.js 1 http://www.xamcrackers.com/login
+//wp-config.php.000 1 -
+/exp.php 1 -
+/zibi.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/field_upload.php 6 -
+/tmp/upxx.php 1 -
+/go.php 1 -
+/assets/tinymce/plugins/imgsurfer/imglist.php 2 -
+/wp-content/plugins/google-sitemap-generator/sitemap-core.php 1 -
+/wp-admin.php 1 -
+/images/X.php 1 -
+/tmp/upload.php 2 -
+/user/file_text/ 1 -
+/admin/images/cal_date_over.gif 15 -
+/cPanelCracker.php 1 -
+/Zxboss.php 1 -
+/11.php 2 -
+/wpmass.php 1 -
+/libraries/joomla/jmails.php 5 -
+/orvx.php 3 -
+/wp-content/plugins/vr-seo/up.php 1 -
+/wp-content/plugins/pitchprint/uploader/files/jsspwned.php 6 -
+/docs/ 3 -
+/templates/beez5/index.php 5 -
+/sfdsfsd.php 1 -
+/Marvins.php 4 -
+/wp-root.php 1 -
+/psy.php 1 -
+/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/fonts/30969C_0_0.woff 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/ID/identity/css/page.css
+/whmcs/downloads/dz.php 1 -
+/lol.php 1 -
+/zab.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ 11 -
+/modules/vtemslideshow/slides/HolaPresME_20605.php 1 -
+/wp-db.php 1 -
+//components/com_creativecontactform/fileupload/index.php 1 -
+/luxzi.php 1 http://xamcrackers.com/luxzi.php
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/editor/plugins/filemanager/inc/izo.php 2 -
+//libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+//wp-content/plugins/advanced-dewplayer/admin-panel/download-file.php 1 -
+/ny.php 1 -
+//up.php 1 -
+/mode.php 1 -
+/xmlsrpc.php 2 www.xamcrackers.com
+/wp_data.php 1 -
+/.well-known/tmp.php 1 -
+/loginpaypal 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 12 -
+/Themes/themeone/assets/site/js/slider/slick.min.js 1 http://www.xamcrackers.com/login
+//public/filemanager/plugin.min.js 1 -
+/big.php 2 -
+/wp-content/plugins/wp-cache.php 2 www.xamcrackers.com
+//ldskflks 2 -
+/r0k.php 1 -
+/utilitys.php 1 -
+/images/clean.php 1 -
+/weak.php 1 -
+/site/about-us 1 -
+/jijle3.php 1 -
+/wp/ 12 -
+/wp-content/plugins/ppus/joom.php 1 -
+/shells/b374k.php 1 -
+/a9.php 1 -
+/man.php 1 -
+/website/wp-includes/wlwmanifest.xml 7 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-deep-gray/designit/cs/upload.php 6 -
+/Shadow.php 1 -
+/mrspy.php 1 -
+/wp-includes/css/css.php 1 -
+/index.php/frontend/contact 2 -
+/k.php 3 -
+/images/p.php 1 -
+/hb.php 2 -
+/images/DZ.php 1 -
+/.env 4 -
+/theme/plugins/jquery-file-upload/server/php/index.php 1 -
+/images/00.php 1 -
+//TimThumb.php 1 -
+/wp-mas.php 2 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/js/jquery-ui.min.js 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+//dz.php 1 -
+/civil.php 1 -
+/license.php 1 -
+/1234.php 1 -
+/XxX.php 3 -
+/bookmark.php 2 www.xamcrackers.com
+/yusa.php 1 -
+/tmp/L3b.php 1 -
+/tmp/user.php 1 -
+/vuln.php 1 -
+//adminside/server/php/ 2 -
+/sg_shell.php 1 -
+/wp-content/plugins/GREEN/GREENX.php 1 -
+/com_sexycontactform/fileupload/files/xWarning.php 1 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 2 -
+/assets/plugins/ckeditor/kcfinder/upload.php 5 -
+//wp-content/plugins/dreamworkgallery/js/swfupload/js/upload.php 1 -
+/wp-add.php 1 -
+/cache/news.php 2 www.xamcrackers.com
+//jQuery-File-Upload/server/php/index.php 1 -
+/user/file_text/shell.php 1 -
+/by.php 5 -
+/administrator/index.php 1 -
+/cache/cachee.php 2 www.xamcrackers.com
+/awso.php 1 -
+/mini_shell.php 1 -
+/default_component.php 1 -
+/files/uploadify/uploadify.php 4 -
+//shop/js/rokmage_tinymce/tinyupload.js 1 -
+/shelled.php 2 -
+/administrator/templates/hathor/index.php 2 -
+/jscripts/tiny_mce/plugins/ajaxfilemanager/inc/data.php 2 -
+//wp-content/themes/newspro/timthumb.php 1 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/sample.css 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 1 -
+/hph.php 1 -
+/xd.php 5 -
+//2.php 1 -
+/bbb.php 1 -
+/zan.php 1 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+//helpdesk/media/editor/plugins/filemanager/inc/izo.php 1 -
+/Cgishell.pl 1 -
+/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/gg/zeb.css 1 http://www.xamcrackers.com/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/identity.php
+//old/wp-admin/install.php 1 -
+/wp-content/themes/beach_apollo/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/minishell.php 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 2 -
+/wp-content/plugins/wp-mobile-detector/cache/settings_auto.php 6 -
+/aaa.php 2 -
+/webconfig.txt.php.suspected 2 www.xamcrackers.com
+/wso.php 15 -
+/css.php 3 -
+/xroot.php 1 -
+//admin/plugin.min.js 1 -
+/tt.php 2 -
+/test.php 2 -
+/x0.php 1 -
+/t.php 2 -
+/wahyata.php 1 -
+/187.php 1 -
+/wp-content/plugins/SocketIasrgasfontrol.php 2 www.xamcrackers.com
+/wp-content/plugins/downloads-manager/upload/jsspwned.php 6 -
+/set.php 1 -
+/student/bookmarks/delete 1 -
+/scripts/jquery/kcfinder/upload.php 5 -
+//tinymce/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/m.phtml 1 -
+/dof.php 1 -
+//AndroidFileUpload/uploads/ddd.php 1 -
+/um3r.php 2 -
+/Themes/themeone/assets/site/js/bootstrap.offcanvas.js 1 http://www.xamcrackers.com/login
+/why.php 1 -
+/1w.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 3 -
+/tmp/admin.php 1 -
+/infusions/mp3player_panel/upload.php 4 -
+/keceval.php 1 -
+/images/sym.php 1 -
+/modules/mod_simplefileupload.3/elements/udd.php 1 -
+/tmp/Sym.php 1 -
+/assets/css/A.bootstrap.css%2Bbootstrap-theme.css%2Biconmoon.css%2Bchosen.css%2Bjquery.mobile-menu.css%2CMcc.nFVI-iJzkJ.css.pagespeed.cf.Ge17Y27ILx.css 1 http://www.xamcrackers.com/index.php/frontend/contact
+/content.php 2 www.xamcrackers.com
+//wp-content/mu-plugins/cfgsi.php 1 -
+/administration/Sym.php 1 -
+/gallery/ 3 -
+/pl.php 1 -
+/components/RxR_1566505747.php 1 -
+/sphinx.php 1 -
+/x.php78412628 1 -
+/tmp/dz.php 2 -
+/index.php/frontend/keyrequest/ 1 -
+/zx.php 1 -
+/media/kunena/avatars/media-admin.php 1 -
+/z.php 4 -
+/configuration.php 3 -
+/Confirm/customer_center/customer_Case=IDPP00C776/myaccount/Safe/select.php 10 -
+/laravel-sites/.env 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/7.php 2 -
+/cont.php 1 -
+/indoxploit.php 15 -
+//modules/mod_dvfoldercontent/download.php 1 -
+/images/m.php 1 -
+/templates/beez_20/error.php 3 -
+/tinymce/plugins/imgsurfer/imglist.php 2 -
+/kcfinder-2.51/upload/files/up.php.jd 3 -
+/sheeel.php 1 -
+/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+//newsite/wp-admin/install.php 1 -
+/mine.php5 1 -
+/wp-content/uploads/2019/08/ 3 -
+/markindo.php 1 -
+//index.php 11 -
+/bestside.php 1 -
+/main/wp-includes/wlwmanifest.xml 1 -
+//assets/global/plugins/jQuery-File-Upload/server/php/index.php 1 -
+//thumb.php 1 -
+/wp-content/themes/konzept/includes/uploadify/uploads/jsspwned.php 6 -
+//admin/kcfinder/css.php 1 -
+/user.ini.php 1 -
+/.+.php 1 -
+/test1.php 1 -
+/admin/login.php 17 -
+//laravel/.env 1 -
+/c9.php 1 -
+/k2ll3d.php 1 -
+/newrs.php 1 -
+/images/k.php 1 -
+//admin/images/cal_date_over.gif 2 -
+/dew.php 1 -
+/nunu.php 1 -
+/gzaa_spysl 1 -
+/wp-content/plugins/easyrotator-for-wordpress/a.php 2 www.xamcrackers.com
+/modules/mod_simplefileuploadv1.3/elements/KFQ5ej.php 1 -
+/site/pricing 1 -
+/index-2.html 1 -
+/iam.php 1 -
+/wp-content/logs.php 1 -
+/goog1es.php 2 www.xamcrackers.com
+//products.php 1 -
+//_admin/files/upload/server/php/files/ddd.php 1 -
+/sok.php 1 -
+/images/cp.php 1 -
+/sd.php 1 -
+/default.php 1 -
+/doc.php 1 -
+/dump.sql 1 -
+/wp-logs.php 2 -
+/images/ini.php 1 -
+/templates/protostar/index.php 3 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/maklo.php 1 -
+/apara999.php 1 -
+//tinymce/plugins/imagemanager/language/index.php 1 -
+/wp47/ 2 -
+//js/filemanager/plugin.min.js 1 -
+/olux.php 11 -
+/Rweb.php 1 -
+/4.php 2 -
+/2017/wp-includes/wlwmanifest.xml 6 -
+/cp.php 6 -
+/ah.php 1 -
+/mm.php 5 -
+/kil3r.php 1 -
+/news.php 2 www.xamcrackers.com
+/as.php 1 -
+/about-us.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 6 -
+/smiley/1.gif 4 -
+/mh.php 1 -
+/seter.php 1 -
+/utility/convert/index.php 2 http://www.xamcrackers.com/utility/convert/index.php
+/CaZaNoVa163.php 1 -
+//uploads.php 1 -
+/public/js/plugins/imgsurfer/main.php 4 -
+//sa.php 1 -
+/wp-meta.php 1 -
+/azshell.php 1 -
+/00.php 1 -
+/up2.php 1 -
+/wp-content/themes/centum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 2 -
+/Amora.php 1 -
+/xxx.php 3 -
+/wp-menus.php 1 -
+//files/uploadify/uploadify.php 1 -
+/e/DoInfo/ecms.php 2 http://www.xamcrackers.com/e/DoInfo/ecms.php
+/files/conn.php 2 www.xamcrackers.com
+/wp-content/plugins/ubh/uplo.php 1 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/upload.php 6 -
+/img.php 2 -
+//wp-content/mu-plugins/cfgs.php 1 -
+/site/wp-includes/wlwmanifest.xml 35 -
+/user/file_text/wso.php 1 -
+//js/tinymce4/js/tinymce/plugins/moxiemanager/api.php 1 -
+/mi.php 1 -
+/pzug.php 1 -
+/ind.php 2 -
+/Themes/themeone/assets/site/js/bootstrap.min.js 1 http://www.xamcrackers.com/login
+/ks.php 1 -
+/win.php 1 -
+/wp-content/plugins/wpfootes.php 2 www.xamcrackers.com
+/indox.php 1 -
+/wp-content/plugins/akismet/widget.php 1 -
+//public/upload_nhieuanh/server/php/_index.php 2 -
+//oldsite/wp-admin/install.php 1 -
+//vehiculo_photos/server/php/files/ddd.php 1 -
+/kh.php 1 -
+/wp-includes/js/jquery/jquery.js 4 -
+/site/pattren 1 -
+/backup.php 2 -
+/xp-upload.php 1 -
+/shootmei.php 2 www.xamcrackers.com
+/index.php/frontend/index 15 -
+//ajax/api/hook/decodeArguments 1 -
+/v3-OLD.php 1 -
+/libraries/jscripts/kcfinder/upload.php 5 -
+/qq.php 1 -
+/dz.php 6 -
+/link.php 1 -
+//wp-content/themes/saico/framework/_scripts/valums_uploader/php.php 1 -
+/c.php 2 -
+/LMS/all-categories 1 -
+//modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/prv.php 1 -
+/vendor_extra/elfinder/php/connector.minimal.php 4 -
+/dev/wp-includes/wlwmanifest.xml 2 -
+//vehiculo_photos/server/php/ 1 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 3 -
+/PPsc-2017-2018/593035/font/PayPalSansSmall-Regular.woff 2 http://www.xamcrackers.com/PPsc-2017-2018/593035/css/font-sans.css
+/practice-exams 1 -
+/images/gass.php 1 -
+//admin 1 -
+/ 43 -
+/alfa.php 2 -
+/indx.php 1 -
+/images/wp-mail.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 6 -
+//cfg-contactform-1/inc/upload.php 1 -
+/admin_aspcms/_system/AspCms_SiteSetting.asp 4 http://www.xamcrackers.com/admin_aspcms/_system/AspCms_SiteSetting.asp
+/id.php 2 -
+//site.tar.gz 1 -
+/alf.Php5 1 -
+/ZzZ.php 1 -
+/wp-content/_input_3_xWarning.phtml 1 -
+/settings.php 2 -
+/rdp.php 1 -
+/angel.php 1 -
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/signin.js 1 http://www.xamcrackers.com/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 3 -
+/9.php 1 -
+/templates/atomic/index.php 5 -
+/hacked.php 3 -
+/sy.php 1 -
+/ckeditor/kcfinder/upload.php 5 -
+/hexor.php 1 -
+/plus/mytag_js.php 2 http://www.xamcrackers.com/plus/mytag_js.php
+/wp-words.php 1 -
+/roubt.php 2 www.xamcrackers.com
+/administrator/templates/isis/index.php 2 -
+/mk.php 1 -
+/you.php 1 -
+//web/image/upload.php 1 -
+/tmp/d.php 1 -
+/cache/defau1t.php 2 www.xamcrackers.com
+/public/upload_nhieuanh/server/php/files/up.php 3 -
+/sniper.php 3 -
+//umapresence/umaservices/umapage/inc/contentCss.php 1 -
+/images/b.php 1 -
+/wp-content/plugins/zen-mobile-app-native/server/images.php 6 -
+/xaishell.php 1 -
+/shx.php 1 -
+/web/wp-includes/wlwmanifest.xml 8 -
+/database.php 3 -
+/wp-content/themes/margreetalgra/404.php 2 www.xamcrackers.com
+/wp-signup.php 1 -
+/wp-content/plugins/vcrm/Z586.php 1 -
+/images/logo_img.php 1 -
+/media/jmails.php 1 -
+/libraries/imports.legacy.php 1 -
+/tbmailer.php 1 -
+/wordpress/ 12 -
+/wp-content/uploads/headway/header-uploads//jsspwned.php 6 -
+//wp-content/plugins/flipbook/php.php 1 -
+/tmp/madspotshell.php 1 -
+/0x1999.PhP 1 -
+/components/com_jbcatalog/libraries/jsupload/ 2 -
+/libraries/joomla/web.php 1 -
+//new/wp-admin/install.php 2 -
+/wp-content/plugins/mobile-app-builder-by-wappress/jsspwned.php 6 -
+/%D8%A1%D9%89%D8%A1%D8%A1%D8%A1.php 1 -
+/modules/vtemslideshow/uploadimage.php 1 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 3 -
+/feter.php 1 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 3 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/shell9090.php 1 -
+/sysadmin.php 1 -
+//public/theme/server/fileupload/index.php 1 -
+/bypas.php 1 -
+/files/uploadify/DC0mmand3r.php 1 -
+/configurationbak.php.suspected 2 www.xamcrackers.com
+/dz1.php 1 -
+///wp-admin/install.php 1 -
+/wsogold.php 1 -
+/images/jdownloads/screenshots/rxrking.php3.g 2 -
+/0x0.php 1 -
+/killer.php 4 -
+/bin/logo_img.php 1 -
+//wp-content/plugins/evarisk/include/lib/actionsCorrectives/activite/uploadPhotoApres.php 1 -
+/X1.php 1 -
+//novi/admin/engine/lib/valums/server/php.php 1 -
+/AndroidFileUpload/uploads/up.php 3 -
+/vehiculo_photos/server/php/files/up.php 3 -
+/umapresence/style/izoname.php 2 -
+/user/file_text/xlog..php 1 -
+//assets/plugins/ckeditor/kcfinder/upload.php 1 -
+/wp-includes/wp-inc.php 1 -
+/wp-admin/options-general.php 6 -
+//tinymce/js/tinymce/plugins/imgsurfer/main.php 1 -
+//assets/bower_components/filemanager/plugin.min.js 1 -
+/tzn.php 1 -
+/wp-content/ran.php 1 -
+/shellzsb.php 1 -
+/language/en-GB/en-GB.ini 1 -
+/dal.php 1 -
+/images/shell.php 1 -
+/wpo.php 1 -
+/wp-content/themes/pinboard/themify/themify-ajax.php 6 -
+/wp-content/jsspwned.php 6 -
+//tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+//admin/js/filemanager/plugin.min.js 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/cloud.php 1 -
+/xm2.php 1 -
+/alfa-1.phtml 1 -
+/server/php 4 -
+/modules/fieldvmegamenu/ajax/upload.php 1 -
+/wp-content/plugins/spirit-templates/up.php 1 -
+//sa2.php 1 -
+/WhiteRose1337.php 1 -
+/minim.php 1 -
+//admin/tinymce/filemanager/plugin.min.js 1 -
+//ckeditor/kcfinder/upload.php 1 -
+/infos.php 2 www.xamcrackers.com
+/com_sexycontactform/fileupload/index.php 1 -
+/images/xxx.php 2 www.xamcrackers.com
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 -
+/tmp/Cgishell.pl 1 -
+/kk.php 2 -
+/KFQ5ej.php 1 -
+/lolz.php 1 -
+/images/gh.php 1 -
+//tinymce/plugins/moxiemanager/api.php 1 -
+/administrator/includes/readmy.php 2 www.xamcrackers.com
+/mini.phtml 1 -
+/GREEN.php 1 -
+/egy.php 1 -
+/cfg-contactform-1/inc/upload.php 4 -
+/wawa.php 2 -
+/rootx.php 1 -
+/modules/wg24themeadministration/wg24_ajax.php 1 -
+/hhh.php 1 -
+/wsa.php 1 -
+/shop/wp-includes/wlwmanifest.xml 6 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/wp-contacts.php 1 -
+/cloudxv3.php 1 -
+/news/wp-includes/wlwmanifest.xml 7 -
+/images/g.php 1 -
+//kcfinder/css.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 28
+137.117.83.231 338 591 6713826 20190822094353
+41.227.223.239 43 164 2722956 20190821175725
+37.111.201.181 20 20 80781 20190822073648
+103.21.58.155 15 15 1236 20190807005046
+37.237.77.18 15 15 107046 20190822101500
+41.251.121.170 11 11 31384 20190822082116
+216.10.241.54 8 10 31939479 20190822101110
+36.69.193.92 7 7 23886 20190821140850
+18.197.227.110 5 5 435 20190807005044
+216.10.241.214 5 5 320 20190807004954
+66.133.109.36 5 5 435 20190807005045
+3.14.255.131 5 5 435 20190807005045
+34.222.229.130 3 3 261 20190807005045
+145.239.32.197 2 2 8802 20190821114825
+83.31.130.33 2 2 3366 20190822093753
+41.99.139.249 2 2 7959 20190821152449
+125.166.127.52 2 2 4570 20190822074715
+117.2.97.232 2 2 12555 20190822062321
+104.160.15.37 1 1 15003 20190822095342
+104.160.15.120 1 1 10705 20190821114911
+45.32.14.134 1 1 13672 20190822081258
+208.98.49.44 1 1 703 20190821140913
+69.4.89.106 1 1 13671 20190822080159
+52.55.217.163 1 1 703 20190821141503
+102.174.71.241 1 4 49478 20190821152806
+191.101.65.140 1 1 12557 20190822025401
+66.55.156.50 1 1 3864 20190822080655
+52.204.27.85 1 1 13672 20190822080026
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20190807 38 38 3122 6
+20190821 348 710 8803251 11
+20190822 114 131 32987387 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 1
+5mn-15mn 1
+2mn-5mn 2
+1h+ 2
+30s-2mn 2
+15mn-30mn 2
+0s-30s 22
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 112
+/shell.php 266 1149276 18 12
+/wp-blog.php 14 55661 0 1
+/xnxxx.php 13 98981 0 1
+/PPsc-2017-2018/593035/safe/homesecure.php 8 90731 0 0
+/mailer1.php 8 12170 0 0
+//home/ 7 21845 1 0
+/Login/Signin/signin/ 6 11693 0 0
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/lib/css/font/PayPalSansBig-Regular.woff2 5 39021 0 0
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/lib/css/font/PayPalSansBig-Light.woff2 5 38225 0 0
+/.well-known/acme-challenge/q2Mdg-Jfiq-PTXqHvhrVQX_bykK2i92jqFKKL_Y2tvc 4 348 0 0
+/.well-known/acme-challenge/y5MQuRk8x37BwJiFJJiVI50QgkYIUsyLzHje7hB5hBA 4 348 0 4
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/tq0m2i=/ 4 12140 0 0
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/myaccount/identity/ 4 12471 0 0
+/.well-known/acme-challenge/b_p977Roodam8c7zablAKj2JwGn9a-quhFJstV5sm8c 4 348 0 0
+/.well-known/acme-challenge/bw_wJFgGLxDSmCJB0f81e2NLLXdCl3w7PICZRGma-qw 4 348 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/myaccount/signin/ 4 9908 2 1
+/MAILER.php 4 2796 0 0
+/k.htm 4 2812 2 4
+/.well-known/acme-challenge/dscA-xS9tzQ2Ivs-Aqc25SK-7qTu8uaCSrSCFw-UY18 4 348 0 1
+/.well-known/acme-challenge/GLFuSS8SU6CqP80IOxGSXauwc2TgghzZJJ3EMRro6aU 4 348 4 0
+/test.php 3 587 0 1
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/lib/css/font/PayPalSansSmall-Regular.woff 3 47339 0 1
+/PayPal/myaccount/index.php 3 2454 0 0
+/.well-known/acme-challenge/95--YdZf0w7Ua3ayRmfFzjZeGpr1-irey0khRUt0uoc 3 261 0 0
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/myaccount/signin/ 3 7699 1 0
+/PayPal/myaccount/info/identity.php 1 1211 0 0
+/PPsc-2017-2018/593035/safe/follow/re_post.php 2 12 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/myaccount/settings/ 2 7778 0 0
+/Signin/customer_center/customer-IDPP00C548/signin/signin.php 2 4945 0 1
+/PayPal/myaccount/info/billing.php 1 1018 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/lib/css/font/PayPalSansBig-Regular.woff2 2 39021 0 0
+/Login/Signin/succure/ID-NUMB562/myaccount/security/ 1 1650 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/css/fonts/paymentfont-webfont.woff 1 107428 0 0
+/PayPal/myaccount/info/card.php 1 1795 0 0
+/PPsc-2017-2018/593035/identity.php 2 9768 0 0
+/.well-known/acme-challenge/69Q1_2U3WHUEQVLB7N8IYC1AXIUQ9T4Q 1 64 1 0
+/Confirm/customer_center/customer_Case=IDPP00C776/indexx.php 1 134 0 0
+/PayPal/myaccount/info/success.php 1 1219 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/gs_accessmail.php 1 665 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/settings/includes/post_emailaccess.php 1 0 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/myaccount/Safe/secureaccount.php 2 1744 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/myaccount/Safe/secureaccount.php 1 872 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/myaccount/security/ 2 3003 0 0
+/Login/Signin/signin/assets/fa/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/PPsc-2017-2018/593035/safe/follow/re_post2.php 2 12 0 0
+/XYSRNX.php 1 0 0 0
+/Login/Signin/succure/ID-NUMB172/myaccount/identity/my/identity.php 1 5509 0 0
+/Login/Signin/signin/actions/country.php 1 1 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/myaccount/security/ 1 1530 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/lib/css/font/PayPalSansBig-Regular.woff2 2 78042 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/ 1 1423 0 0
+/.well-known/acme-challenge/NA5QUS0I0R2GUZBB-BYMY4B-RUT03MJQ 1 64 0 1
+/Login/Signin/succure/ID-NUMB172/lib/css/font/PayPalSansSmall-Regular.woff 1 47339 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/gs_vbv.php 1 911 0 0
+/.well-known/acme-challenge/_WA8BHKVOTKW9ST1CG0-CE1_RBAX_FQS 1 64 0 0
+/PPsc-2017-2018/593035/signin.php 2 11576 0 0
+/PPsc-2017-2018/593035/safe/follow/bel_post.php 2 12 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/settings/includes/post_bill.php 1 0 0 0
+/Login/Signin/succure/ID-NUMB172/myaccount/settings/ 1 3938 0 0
+/.well-known/acme-challenge/EVL3C2FH3HIGUC8EC456TR50H0NE6L9P 1 64 0 0
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/myaccount/security/ 1 1662 0 0
+/PPsc-2017-2018/593035/ajax/login.php 2 0 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/indexx.php 1 134 0 0
+/Login/Signin/succure/ID-NUMB562/myaccount/signin/ 1 2462 0 0
+/NEW%20Scam%20Page%20PayPal%202019%20Full%20Info%20By%20Dr.Don/giyzjy=/ 1 2087 0 0
+/Login/Signin/succure/ID-NUMB172/myaccount/security/ 1 1652 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/settings/includes/post_cc.php 1 0 0 0
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/myaccount/security/INC/PayPalSansBig-Regular.woff2 1 39021 0 0
+/Login/Signin/ 1 2087 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/lib/css/font/PayPalSansSmall-Regular.woff 1 47339 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/gs_success.php 1 525 0 0
+/.well-known/acme-challenge/9N00XABU6ED1A0QS3ATW6L1TT45Z8HP9 1 64 0 0
+/gs_gen/gs2164e67d102f4668cbe8c2049a08ac8a/ 1 3366 0 1
+/Login/Signin/succure/ID-NUMB562/lib/css/font/PayPalSansSmall-Regular.woff 1 47339 0 0
+/PPsc-2017-2018/593035/getstarted.php 2 132 0 1
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/settings/includes/post_vbv.php 1 0 0 0
+/.well-known/acme-challenge/VSZJCNE-XUL50IXKR4VN65QR3PUD5WM8 1 64 1 0
+/Login/Signin/signin/actions/card.php 1 12 0 0
+/PPsc-2017-2018/593035/activity.warning.php 2 19836 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/lib/css/font/PayPalSansBig-Light.woff2 2 76450 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/myaccount/signin/ 1 2451 0 0
+/xmail.php 1 1893 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/lib/css/font/PayPalSansBig-Light.woff2 2 38225 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/gs_cc.php 1 2016 0 0
+/Login/Signin/signin/actions/credit.php 1 12 0 0
+/.well-known/acme-challenge/K4KDHRRPXFUP51BFCFKY75DROKZMJK25 1 64 0 0
+/pwd.tmp 1 24 0 0
+/Login/Signin/signin/actions/login.php 1 12 0 0
+/.well-known/acme-challenge/QZQ3sYb4k6M0tQxsHt9XCVbRIs4yY_LiMyKyM09DCb4 3 261 0 0
+/Login/Signin/succure/ID-NUMB562/myaccount/identity/my/identity.php 1 5509 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/myaccount/security/INC/PayPalSansBig-Regular.woff2 2 78042 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/myaccount/security/INC/PayPalSansBig-Regular.woff2 1 39021 0 0
+//alfacgiapi/perl.alfa 1 78 1 1
+/Login/Signin/succure/ID-NUMB562/lib/css/font/PayPalSansBig-Regular.woff2 1 39021 0 0
+/Login/Signin/succure/ID-NUMB172/myaccount/signin/ 1 2474 0 0
+/Confirm/customer_center/customer_Case=IDPP00C564/lib/css/font/PayPalSansSmall-Regular.woff 2 94678 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/myaccount/Safe/select.php 1 2762 0 0
+/Login/Signin/succure/ID-NUMB172/lib/css/font/PayPalSansBig-Light.woff2 1 38225 0 0
+/W0rmVps%20Scam%20Paypal%202019%20UNDETECTABLE/information/smarthelp/customer-id-283/myaccount/settings/ 2 8792 0 0
+/gs_gen/gsc7a27de2ad512a8926fe65a57467a984/ 1 0 1 0
+/Login/Signin/succure/ID-NUMB562/lib/css/font/PayPalSansBig-Light.woff2 1 38225 0 0
+/loginpaypal%20/gs_gen/gs1768a7564e0e84b25f88e8487af5cef5/gs_websc.php 1 2128 0 0
+/Login/Signin/signin/actions/verify.php 1 12 0 0
+/Confirm/customer_center/customer_Case=IDPP00C776/myaccount/settings/ 1 3906 0 0
+/inboxv2.php 2 4170 0 0
+/PayPal/myaccount/info/index.php 1 1136 0 0
+//home/error_log 1 31917791 0 1
+/Login/Signin/succure/ID-NUMB562/myaccount/settings/ 1 3939 0 0
+/.well-known/acme-challenge/PI6A1V7AXVR6RLQ1ZS-E79V59EHK24N_ 1 64 0 0
+/Login/Signin/succure/ID-NUMB172/myaccount/security/INC/PayPalSansBig-Regular.woff2 1 39021 0 0
+/Login/Signin/succure/ID-NUMB562/myaccount/security/INC/PayPalSansBig-Regular.woff2 1 39021 0 0
+/Login/Signin/succure/ID-NUMB172/lib/css/font/PayPalSansBig-Regular.woff2 1 39021 0 0
+END_SIDER

@@ -1,0 +1,1791 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.jsmeventservices.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2701                
+POS_VISITOR 60743               
+POS_DAY 66811               
+POS_DOMAIN 3540                
+POS_LOGIN 4159                
+POS_ROBOT 4314                
+POS_WORMS 4705                
+POS_EMAILSENDER 4836                
+POS_EMAILRECEIVER 4979                
+POS_SESSION 67568               
+POS_SIDER 67769               
+POS_FILETYPES 5114                
+POS_DOWNLOADS 5340                
+POS_OS 5388                
+POS_BROWSER 5671                
+POS_SCREENSIZE 6794                
+POS_UNKNOWNREFERER 6868                
+POS_UNKNOWNREFERERBROWSER 7246                
+POS_ORIGIN 7435                
+POS_SEREFERRALS 7573                
+POS_PAGEREFS 7750                
+POS_SEARCHWORDS 7928                
+POS_KEYWORDS 8103                
+POS_MISC 2365                
+POS_ERRORS 8185                
+POS_CLUSTER 4015                
+POS_SIDER_404 8328                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001004500 6 917 10895738583086
+FirstTime 20190901040831
+LastTime 20190930230359
+LastUpdate 20191001045827 6 0 5 0 0
+TotalVisits 190                 
+TotalUnique 148                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 154                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 45 45 132285 24 32 69821
+1 17 17 244237 1302 1311 887561
+2 4 4 98672 370 375 307440
+3 5 9 166263 288 314 382728
+4 18 54 1967130 30 32 44740
+5 14 50 1915467 117 119 21955
+6 13 13 258545 21 45 199086
+7 2 15 495820 36 50 424702
+8 10 21 622623 638 643 505001
+9 26 89 3562907 96 161 2463305
+10 15 15 341775 817 826 667799
+11 25 63 2220036 165 179 122097
+12 10 10 167594 51 69 170744
+13 10 10 196093 186 189 45950
+14 26 72 2229194 258 267 60902
+15 19 93 3703254 54 63 44244
+16 41 90 3146304 420 429 290313
+17 18 32 594636 177 208 192867
+18 26 44 1663733 172 216 216188
+19 5 9 165010 163 168 72810
+20 29 115 4025617 111 123 82036
+21 15 15 319179 135 146 64067
+22 15 15 432159 63 68 78122
+23 5 5 128989 712 723 585745
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 29
+us 219 594 19710507
+gb 50 86 3044350
+fr 33 33 910077
+za 22 22 418418
+ma 16 16 304304
+ru 13 13 228228
+ca 10 42 1543935
+id 7 7 144431
+hu 5 5 128989
+sg 5 5 151585
+de 4 4 121268
+dk 3 3 68355
+kr 3 36 1411413
+dz 2 2 60634
+in 2 2 60634
+ng 2 2 60634
+th 2 2 38038
+sa 2 2 60634
+ao 2 2 15442
+gr 2 2 60634
+bg 2 2 60634
+tn 1 1 7721
+ro 1 1 7721
+au 1 1 30317
+no 1 1 7721
+eu 1 1 7721
+tr 1 1 30317
+hn 1 1 7721
+cn 0 16 95139
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 96 883595 20190926103743 0
+bingpreview 60 2594471 20190924094652 0
+bingbot/ 35 329866 20190924212713 0
+(firefox/)([0-9]\.|[0-1][0]\.) 14 280574 20190929192019 0
+bot[\s_+:,\.\;\/\\-] 11 310891 20190930222617 0
+no_user_agent 2 60634 20190924230056 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+jpg 203 15028816 0 0
+Unknown 51 153170 0 0
+woff2 11 709104 0 0
+js 120 1331946 0 0
+html 310 6912621 0 0
+css 102 1246069 0 0
+png 67 2177868 0 0
+woff 41 1237928 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+macosx12 1 1
+bsdnetbsd 1 1
+macosx10 2 2
+linux 102 38
+macosx8 2 2
+win8.1 5 5
+linuxandroid 176 19
+linuxubuntu 1 1
+macosx 1 1
+macosx11 5 5
+winlong 1 1
+win10 184 184
+Unknown 99 63
+ios_iphone 70 34
+win7 226 45
+winxp 29 11
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 54
+msie11.0 1 1
+firefox61.0 1 1
+firefox57.0 1 1
+firefox68.0 1 1
+chrome34.0.1847.114 36 3
+chrome73.0.3683.86 5 5
+chrome61.0.3163.100 10 10
+firefox42.0 1 1
+mozilla 77 41
+firefox15.0.1 3 3
+chrome63.0.3239.132 130 130
+chrome46.0.2490.80 1 1
+safari5.1 29 29
+firefox66.0 1 1
+chrome58.0.3029.110 1 1
+chrome71.0.3578.80 1 1
+chrome76.0.3809.132 61 15
+chrome34.0.1847.116 2 2
+chrome42.0.2311.90 1 1
+firefox58.0 13 13
+firefox67.0 2 2
+opera36.0.2130.32 14 14
+firefox22.0 1 1
+Unknown 22 22
+chrome74.0.3729.131 3 3
+chrome9.0.600.0 1 1
+chrome76.0.3809.111 41 5
+netscape 2 2
+firefox59.0 1 1
+chrome41.0.2226.0 1 1
+firefox62.0 2 2
+chrome70.0.3538.110 41 5
+chrome38.0.2125.101 19 5
+chrome35.0.1916.153 1 1
+chrome75.0.3770.142 59 7
+firefox48.0 1 1
+chrome26.0.1410.65 2 2
+safari9.0.2 5 5
+msie6.0 25 7
+chrome77.0.3865.90 87 15
+chrome74.0.3729.169 4 4
+firefox65.0 1 1
+chrome69.0.3494.0 15 1
+firefox69.0 75 12
+chrome47.0.2526.111 1 1
+chrome45.0.2454.94 1 1
+chrome69.0.3497.100 41 5
+edge12 1 1
+edge16 1 1
+chrome41.0.2224.3 1 1
+chrome26.0.1410.63 6 6
+safari10.0 41 5
+firefox16.0 1 1
+firefox64.0 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190923005542
+Mozilla 20190930043408
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190922055307
+Go-http-client/1.1 20190930022038
+WhatsApp/2.19.216_A 20190901160123
+Cpanel-HTTP-Client/1.0 20190923005505
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/1.1 20190930022038
+WhatsApp/2.19.216_A 20190901160123
+Cpanel-HTTP-Client/1.0 20190923005505
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 355 404
+From1 5 23
+From2 2 2
+From3 1 1
+From4 50 475
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 1 1
+aolcom 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://brandnewblogs.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+jsmeventservices.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+jsmeventservices.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+409 574 47642
+404 5611 3282074
+403 321 208182
+301 1 243
+500 1 2051
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1227
+//priv8.php 1 -
+/configurationbak.php.suspected 6 www.jsmeventservices.com
+/images/block/up.php 5 -
+/wp-content/plugins/uploader/uploadify/uploadify.php 3 www.jsmeventservices.com
+//error-logs.php 6 www.jsmeventservices.com
+/resource/source/shell.php 3 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 1 -
+/images/upxx.php 3 -
+/wp-includes/css/ewrldhvfwg.php 5 -
+//uploader.php 1 -
+/go.php 3 -
+/libraries/joomla/web.php 3 -
+/components/com_b2jcontact/uploads/izoc.php 3 www.jsmeventservices.com
+//log.php 10 www.jsmeventservices.com
+/wp-content/plugins/revslider/temp/update_extract/payload3.php 3 -
+//wp-content/uploads/assignments/Raiz0_1568282543.php. 1 -
+/tpl/plugins/upload9.1.0/server/php/files/ddd.php 1 -
+/wp-content/plugins/easyrotator-for-wordpress/b.php 4 www.jsmeventservices.com
+/images/sym.php 3 -
+/wp-content/plugins/shell.php 5 -
+//anonymous.php 1 -
+/admin/products/shell.php 2 www.jsmeventservices.com
+//M-J!r4ya-F4r3s.php 6 www.jsmeventservices.com
+//tmp/setting.php 3 -
+/admin/images/cal_date_over.gif 33 -
+/admin/ckeditor/kcfinder/upload.php 6 -
+/wp-content/themes/ultimatum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/cache/defau1t.php 6 www.jsmeventservices.com
+//wp-content/uploads/2018/01/Raiz0__tokvl.php 1 -
+/tmp/payload3.php 3 -
+//news.php 10 www.jsmeventservices.com
+/vb/ 2 -
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__etkmy.php 1 -
+/modules/vtemslideshow/uploadimage.php 3 -
+/wp-content/uploads/uigen_2015/jsspwned.php 1 -
+/_admin/files/upload/server/php/ 1 -
+/wsdl.php 6 www.jsmeventservices.com
+/al.php 2 www.jsmeventservices.com
+//h4xor.php 1 -
+/2015/wp-includes/wlwmanifest.xml 6 -
+//images/al277.php 10 www.jsmeventservices.com
+/rrb4qR.php 2 -
+/photo.zip 1 -
+/E.php 3 -
+/wp-content/plugins/wp-mobile-detector/cache/info.php 3 www.jsmeventservices.com
+/modules/vtemslideshow/slides/HolaPresME_86476.php 1 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 5 -
+/ficheiros/conteudos/spy.txt 5 -
+/symsa2.php 8 www.jsmeventservices.com
+/user/ 3 -
+/u.php 3 -
+/wp-content/themes/blogfolio/themify/themify-ajax.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/templates/beez_20/error.php 1 -
+/wp-content/uploads/wysija/themes/Master/un.php 3 -
+//images/stories/gass.php 1 -
+//by.php 3 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 2 -
+/site/wp-includes/wlwmanifest.xml 77 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/up.php 3 www.jsmeventservices.com
+/sym3.php 8 -
+/webconfig.txt.php.suspected 6 www.jsmeventservices.com
+/wp-includes/wp-footer.php 3 www.jsmeventservices.com
+/libraries/joomla/jmails.php 7 www.jsmeventservices.com
+//templates/atomic/index.php 1 -
+//components/com_sexycontactform/fileupload/ 2 -
+/wp-content/themes/konzept/includes/uploadify/uploads/jsspwned.php 1 -
+/new/wp-content/plugins/freedom/post.php 5 -
+//modules/mod_bookmark/helper.php 6 www.jsmeventservices.com
+//wp-admin/options-media.php 6 www.jsmeventservices.com
+/wp/ 14 -
+//wp-content/uploads/xFgS4t.php 1 -
+//4f.php 3 -
+//cache/defau1t.php 10 www.jsmeventservices.com
+/administrator/templates/hathor/error.php 1 -
+/wp-content/jsspwned.php 1 -
+/images/xxx.php 6 www.jsmeventservices.com
+/test/wp-includes/wlwmanifest.xml 7 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-white/designit/cs/uploadImage/$uploadfolder/jsspwned.php 1 -
+//dcodzu.php 6 www.jsmeventservices.com
+/anonymous.php 8 www.jsmeventservices.com
+/log.php 6 www.jsmeventservices.com
+/tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 4 -
+//tmp/guide.php 5 -
+/modules/mod_simplefileuploadv1.3/elements/cloudxv3.php 3 www.jsmeventservices.com
+//includes.php 10 www.jsmeventservices.com
+/activation.php 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__tokvl.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser//upload.php 3 www.jsmeventservices.com
+/modules/wg24themeadministration/wg24_ajax.php 3 -
+/database.php 8 -
+//hacked.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/rrb4qR.php 2 -
+/libraries/joomla/1ndex.php 6 www.jsmeventservices.com
+/components/_func.php 4 -
+/wp-content/plugins/wp-simple-cart/request/simple-cart-upload.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__bekgz.php 1 -
+/webdav/greenshell.php 3 www.jsmeventservices.com
+/wp-admin/install.php 1 -
+/includes/u2p.php 6 www.jsmeventservices.com
+//admin 1 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 3 http://www.jsmeventservices.com/sites/all/libraries/elfinder/php/connector.minimal.php
+//wp-content/themes/gaukingo/db.php 3 -
+//downloads/dom.php 1 -
+//injctory.php 6 www.jsmeventservices.com
+/RxR.php 1 -
+/wp-admin/ 1 -
+/root.php 11 -
+//media/jmail.php 5 -
+//keep.php 6 www.jsmeventservices.com
+//wp-includes/css/admin-bar-rtl.php 3 -
+/wp-content/plugins/Analyser.php 6 www.jsmeventservices.com
+/images/al277.php 6 www.jsmeventservices.com
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 2 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+/tmp/petx.php 3 -
+/cli/40dd1d.php 6 www.jsmeventservices.com
+/wp-content/vuln.php 2 -
+//wp-admin/includes/rnnvhs.php 6 www.jsmeventservices.com
+/vb/js/ajax.js 1 jsmeventservices.com
+/admin/ 4 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 3 -
+/helpdesk/media/editor/plugins/filemanager/inc/data.php 1 -
+/r3x.php 6 www.jsmeventservices.com
+/wp-admin/network/post.php 5 -
+//wp-admin/m4d.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/settings_auto.php 4 -
+//kk.php 5 -
+/tmp.php 12 www.jsmeventservices.com
+/wp-content/themes/medicate/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//tmp/upxx.php 5 -
+/admin/editor/plugins/filemanager/inc/izo.php 1 -
+/wp-content/plugins/barclaycart/uploadify/jsspwned.php 1 -
+/modules/pk_vertflexmenu/uploads/HolaPresME_91699.php 1 -
+/cpbrute.php 8 www.jsmeventservices.com
+/wp-content/plugins/sexy-contact-form/includes/fileupload/files/ 1 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 2 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 5 -
+/ckeditor/kcfinder/upload.php 6 -
+//wp-content/plugins/revslider/temp/update_extract/ts9BEX.php 1 -
+//yjh.php 6 www.jsmeventservices.com
+/wp-content/themes/folo/uploads/upload.php 3 www.jsmeventservices.com
+/admin/modules/admin.php 3 -
+//administrator/includes/rnnvhs.php 6 www.jsmeventservices.com
+/components/Raiz0WorM_1568982140.php 1 -
+/wp-content/plugins/woocommerce-product-options/includes/image-upload.php 4 -
+//wp-admin/admin-post.php 2 -
+/web/image/Images/up.php 5 -
+/modules/pk_flexmenu/uploads/shellxo.php 5 -
+//libraries/joomla/zipy.php 5 -
+/wp-content/plugins/simple-ads-manager/XAttacker.php 3 -
+/error-log.php 6 www.jsmeventservices.com
+/Abbrevsprl.php 6 www.jsmeventservices.com
+/forums/ 2 -
+/images/logo_img.php 3 -
+/Marvins.php 1 -
+//reasdme.php 3 -
+/libraries/joomla/zipy.php 3 -
+/hacked.php 8 -
+/assets/plugins/ckeditor/kcfinder/upload.php 6 -
+/userfiles/file/spy.txt 5 -
+/install/includes/payload3.php 3 -
+//Abbrevsprl.php 10 www.jsmeventservices.com
+/cache/aqbmkwwx.php 2 www.jsmeventservices.com
+//M-F4r3s.php 6 www.jsmeventservices.com
+/wp-includes/js/jquery/jquery.js 2 -
+//resd.php 6 www.jsmeventservices.com
+/tmp/sfx.php 3 -
+/wp-admin/network/wp-footer.php 1 -
+//bgeiis.php 4 www.jsmeventservices.com
+/wp-content/plugins/wp-cache.php 6 www.jsmeventservices.com
+/wso24.php/ 8 -
+/wp-includes/wlwmanifest.xml 74 -
+/components/com_b2jcontact/common.php 3 www.jsmeventservices.com
+/logs.asp 6 www.jsmeventservices.com
+//wp-content/themes/colormag/404.php 3 -
+/server/php 5 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/forum/js/ajax.js 1 jsmeventservices.com
+//ny.php 5 -
+//wp-installation.php 5 -
+/wp-content/plugins/upspy/index.php 1 -
+//logs.asp 4 www.jsmeventservices.com
+//mmytc.php 6 www.jsmeventservices.com
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 4 -
+//wp-content/plugins/three-column-screen-layout/db.php 3 -
+/suitecrm-7.2.1-max/upload/tmp_logo_company_upload/suiteshell.phtml 3 www.jsmeventservices.com
+/wp-content/plugins/sql_dump.php 6 www.jsmeventservices.com
+//content.php 6 www.jsmeventservices.com
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-deep-gray/designit/cs/upload.php 1 -
+//images/head.php 10 www.jsmeventservices.com
+/administrator/templates/isis/index.php 1 -
+/wp-content/plugins/zen-mobile-app-native/server/images.php 1 -
+/wp-content/uploads/jsspwned.php 2 -
+/wp-content/plugins/disqus-comment-system/disqus.php 8 -
+//cache/support.php 10 www.jsmeventservices.com
+/cv.php 3 -
+/wp-content/plugins/simple-ads-manager/info.php 3 www.jsmeventservices.com
+/wp-includes/css/modules.php 1 -
+/cfg-contactform-1/inc/upload.php 5 -
+/modules/wg24themeadministration/img/upload/HolaPresME_66956.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/xFgS4t.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/uploads/jsspwned.php 2 -
+/wp-installation.php 3 -
+/wp-content/jssor-slider/jssor-uploads/jsspwned.php 1 -
+/sql_dump.php 6 www.jsmeventservices.com
+/tinymce/plugins/imgsurfer/main.php 5 -
+/admin.php 6 -
+/jconfig.php 6 www.jsmeventservices.com
+//sqlbak.php 10 www.jsmeventservices.com
+/shop/wp-includes/wlwmanifest.xml 7 -
+/madspot.php 8 -
+/js/ckeditor/kcfinder/upload.php 6 -
+/admin/editor/plugins/ajaxfilemanager/inc/data.php 1 -
+/admin/libraries/ajaxfilemanager/inc/izo.php 1 -
+/templates/jsstrings.php 2 www.jsmeventservices.com
+/shell.asp 2 www.jsmeventservices.com
+/components/com_facileforms/libraries/jquery/uploadify.php 3 -
+/xup.php 3 -
+//feal.php 2 -
+/components/RxR_156779209.php 1 -
+/media/jmails.php 3 -
+/wp-content/plugins/Premium_Gallery_Manager/uploadify/upload.php 3 www.jsmeventservices.com
+/templates/beez5/index.php 9 -
+/cache/log.php 1 -
+/madspotshell.php 8 -
+/files/ 1 -
+//d.php 1 -
+//components/Raiz0WorM_1568808317.php 1 -
+/1.php 10 www.jsmeventservices.com
+//wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 2 -
+/modules/vtemslideshow/slides/HolaPresME_91699.php 1 -
+/by.php 3 -
+/modules/pk_flexmenu/ajax/upload.php 3 -
+/bookmark.php 6 www.jsmeventservices.com
+/bitrix/admin/index.php 5 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/functions.php 6 www.jsmeventservices.com
+/gallery/ 1 -
+/dam.php 8 www.jsmeventservices.com
+/img/ 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 1 -
+//wp-content/themes/Avada/404.php 3 -
+//images/stories/w.php 1 -
+/wp-content/uploads/lo.php 3 www.jsmeventservices.com
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 5 -
+/wp-content/uploads/assignments/shell.php 3 www.jsmeventservices.com
+/webdav/lgxxx.php 3 -
+/wp-content/plugins/mobile-app-builder-by-wappress/jsspwned.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__bekgz.php 1 -
+/images/spy.php 3 www.jsmeventservices.com
+//libraries/joomla/web.php 5 -
+//wp-content/plugins/cherry-plugin/admin/import-export/upload.php 2 -
+/templates/beez/index.php 1 -
+/cracker.php 8 www.jsmeventservices.com
+//language/en-GB/rnnvhs.php 6 www.jsmeventservices.com
+//wp-content/plugins/wp-footers.php 10 www.jsmeventservices.com
+//tmp/pz.php 5 -
+/images/jdownloads/screenshots/spy.html.j 3 www.jsmeventservices.com
+/media/cloud.php 3 www.jsmeventservices.com
+/admin/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/wp47/ 2 -
+//images/w0rm.php 5 -
+/robots.txt 63 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+//sql_dump.php 10 www.jsmeventservices.com
+/cp.php 9 www.jsmeventservices.com
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//functions.php 10 www.jsmeventservices.com
+//xd.php 1 -
+/webconfig.txt.php 6 www.jsmeventservices.com
+/wp-content/themes/shopdock/themify/themify-ajax.php 1 -
+/modules/columnadverts/slides/HolaPresME_66956.php 1 -
+//cache/cache_aqbmkwwx.php 10 www.jsmeventservices.com
+/wp-content/plugins/pitchprint/uploader/files/jsspwned.php 1 -
+//wp-content/themes/wp-log.php 3 -
+/language/en-GB/en-GB.xml 9 -
+//wp-content/plugins/Fbrrchive.php 10 www.jsmeventservices.com
+/fckeditor/editor/filemanager/connectors/php/connector.php 5 -
+/tinymce/js/tinymce/plugins/imgsurfer/main.php 1 -
+/templates/beez3/error.php 1 -
+/wp-content/_input_3_raiz0.php5 3 -
+/wp-content/themes/sidepane/themify/themify-ajax.php 1 -
+//css.php 5 -
+//wp-configuration.php 5 -
+/administrator/ 1 -
+//um3r.php 1 -
+/wp-content/plugins/wordpress-member-private-conversation/doupload.php 2 -
+/templates/beez3/index.php 6 -
+//wp-admin/install.php 1 -
+//images/upa.php 5 -
+/wp-content/uploads/assignments/Raiz0_1567608512.php. 1 -
+/wp-content/plugins/easyrotator-for-wordpress/a.php 6 www.jsmeventservices.com
+/wp-content/payload3.php 3 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/jsspwned.php 2 -
+//c100.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/jsspwned.php 1 -
+/libraries/jscripts/kcfinder/upload.php 6 -
+/assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/cms/wp-content/plugins/freedom/post.php 5 -
+/wp-content/uploads/2015/12/upload.php 3 www.jsmeventservices.com
+/modules/modules/modules.php 7 www.jsmeventservices.com
+/cache/cache_aqbmkwwx.php 6 www.jsmeventservices.com
+/nktt.php 3 -
+/wp-admin/admin-post.php 9 -
+//wp-content/uploads/wysija/themes/Master/un.php 2 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 1 -
+/show.php 6 www.jsmeventservices.com
+/wp-content/themes/u-design/scripts/admin/uploadify/upload.php 3 www.jsmeventservices.com
+/wp-content/plugins/cherry-plugin/admin/import-export/info.php 3 www.jsmeventservices.com
+//wp-content/upgrade/theme-compat/popup-pomo.php 5 -
+/wp-content//plugins//formcraft//file-upload//server//php//files//xx.php 3 www.jsmeventservices.com
+/google-assist.php 6 www.jsmeventservices.com
+/ads.txt 1 -
+/media/tmp.php 6 www.jsmeventservices.com
+/2.php 9 www.jsmeventservices.com
+/templates/system/error.php 1 -
+/new_license.php 1 -
+/olux.php 6 www.jsmeventservices.com
+//private.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/XAttacker.php 3 www.jsmeventservices.com
+/fckeditor/editor/filemanager/connectors/php/jsspwned.php 1 -
+//sh-2017.php 3 -
+//active.php 5 -
+//b4.php 3 -
+/modules/fieldvmegamenu/uploads/HolaPresME_91699.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/XAttacker.php 3 www.jsmeventservices.com
+//gaza.php 1 -
+//elements.php 10 www.jsmeventservices.com
+//wp.php 2 -
+/oss.php 3 -
+/web/image/upload.php 6 -
+/media/reads.php 6 www.jsmeventservices.com
+/Jijle3.php 3 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+//modules/modules/modules.php 6 www.jsmeventservices.com
+//wp-content/plugins/Analyser.php 10 www.jsmeventservices.com
+//big.php 2 -
+/f.php 3 -
+/news/wp-includes/wlwmanifest.xml 8 -
+/cms/wp-includes/wlwmanifest.xml 77 -
+/wp-content/2.php 3 www.jsmeventservices.com
+//modules/mod_simplefileuploadv1.3/elements/ts9BEX.php 1 -
+/RoseLeif.php 6 www.jsmeventservices.com
+/bin/logo.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/rrb4qR.php 2 -
+/wp-content/plugins/xichang/x.php 1 -
+//dz.php 1 -
+//libraries/respectMuslims.php 5 -
+/admin/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/shootme.php 6 www.jsmeventservices.com
+//sites/all/libraries/elfinder/files/xFgS4t.php 1 -
+/assets/tinymce/plugins/imgsurfer/main.php 5 -
+//wp-content/themes/margreetalgra/404.php 6 www.jsmeventservices.com
+//configbak.php 10 www.jsmeventservices.com
+/images/p.php 3 -
+/email.php 6 www.jsmeventservices.com
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__zwaki.php 1 -
+/images/wp-mail.php 3 -
+//wp-content/uploads/LjAZ1a.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 1 -
+/images/upa.php 3 -
+//media/jss.php 5 -
+/media/css.php 3 -
+/wp-content/themes/multimedia1/server/php/ 1 -
+//wp-includes/s.php 1 -
+/server/php/files/up.php 5 -
+/2018/wp-includes/wlwmanifest.xml 7 -
+//media/tmp.php 10 www.jsmeventservices.com
+/components/com_b2jcontact/izoc.php 1 -
+//cv.php 3 -
+//whmcs.php 1 -
+//setting.php 3 -
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__xwyrm.php 1 -
+/wp-content/uploads/contact_files/ 3 www.jsmeventservices.com
+/wp-content/plugins/cherry-plugin/admin/import-export/jsspwned.php 2 -
+/wp-content/plugins/wpfootes.php 6 www.jsmeventservices.com
+//whmcskiller.php 1 -
+/wp-content/uploads/upload.php 4 www.jsmeventservices.com
+/wp-content/plugins/freedom/post.php 5 -
+/templates/system/css/system.css 25 -
+/wp-content/plugins/zen-mobile-app-native/jsspwned.php 1 -
+/wp-admin/ms-site.php 3 www.jsmeventservices.com
+/wp/wp-includes/wlwmanifest.xml 78 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/xsec.php 3 -
+/.env 13 -
+//libraries/joomla/jmails.php 9 -
+/modules/bamegamenu/HolaPresME_86476.php 4 -
+/w.php 8 -
+/wp-content/uploads/assignments/Raiz0_1567608788.php. 1 -
+/libraries/joomla/jmail.php 4 -
+/wp-content/themes/suco/uploads/upload.php 3 www.jsmeventservices.com
+/images/jdownloads/screenshots/rxrking.php3.g 4 -
+/server/php/files/ddd.php 1 -
+/wp-content/plugins/wp-footers.php 6 www.jsmeventservices.com
+//help.php 7 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 1 -
+/repository/indoxx.txt 2 www.jsmeventservices.com
+//files/files.php 6 www.jsmeventservices.com
+/components/RxR_1568291019.php 1 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+//administrator/dbconfig.php 10 www.jsmeventservices.com
+//go.php 5 -
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__bekgz.php 1 -
+/wp-content/uploads/wpmp-previews/jsspwned.php 1 -
+//sqldebug.php 6 www.jsmeventservices.com
+//zebda.php 5 -
+//images/1ndex.php 10 www.jsmeventservices.com
+/js/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 5 -
+/wp-content/plugins/html404/index.html 1 -
+/wp-admin/92041853.php 5 -
+/sito/wp-includes/wlwmanifest.xml 7 -
+/wp-login.php/wp-login.php 2 -
+/wp-content/index.php 3 www.jsmeventservices.com
+/wp-content/bk.php 6 www.jsmeventservices.com
+/bin/logo_img.php 3 -
+/vbulletin5/ 2 -
+/libraries/joomla/wso.php 3 -
+/themes/404/404.php 8 www.jsmeventservices.com
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 16 -
+/assets/js/mylibs/kcfinder/upload.php 6 -
+//wp-content/themes/twentyfourteen/404.php 3 -
+/d00.php 8 www.jsmeventservices.com
+/sites/default/files/shellxo.php 5 -
+//components/Raiz0WorM_1568126378.php 1 -
+/wp-content/themes/satoshi/upload-file.php 1 -
+/sites/default/files/payload3.php 3 -
+/index.php 41 -
+//wp-content/uploads/2019/02/shell.php 1 -
+/images/vuln2.php 3 -
+//images/upxx.php 5 -
+/wp-content/plugins/radykal-fancy-gallery/admin/jsspwned.php 1 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/upload.php 1 -
+/modules/columnadverts/slides/HolaPresME_91699.php 1 -
+/info.php 3 -
+//wp-content/plugins/revslider/temp/update_extract/LjAZ1a.php 1 -
+/modules/pk_vertflexmenu/uploads/HolaPresME_86476.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__zwaki.php 1 -
+//images/xxu.php 5 -
+/sites/default/files/up.php 3 -
+/assets/admin/ckeditor/kcfinder/upload.php 6 -
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__tokvl.php 1 -
+/js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/zone-h.php 8 -
+//RoseLeif.php 10 www.jsmeventservices.com
+/install.php 6 www.jsmeventservices.com
+/kk.php 3 -
+/wp-content/uploads/settingsimages/2019/09/en/jsspwned.php 25 -
+/wp-content/plugins/downloads-manager/upload/jsspwned.php 1 -
+//XxX.php 3 -
+/AndroidFileUpload/uploads/ddd.php 1 -
+//wp-content/plugins/sql_dump.php 10 www.jsmeventservices.com
+/wp-content/plugins/contus-video-galleryversion-10/jsspwned.php 1 -
+/wordpress/wp-admin/install.php 1 -
+/b.php 1 -
+/upload/ 1 -
+/joomla/ 2 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads/jsspwned.php 1 -
+/AndroidFileUpload/fileUpload.php 6 -
+/wp-content/themes/multimedia1/server/php/files/jsspwned.php 1 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 5 -
+/images/vuln.php 4 -
+/configurationbak.php 6 www.jsmeventservices.com
+/modules/fieldvmegamenu/uploads/HolaPresME_66956.php 1 -
+/blog/robots.txt 19 -
+/includes.php 6 www.jsmeventservices.com
+//xFgS4t.php 1 -
+//cache/cachee.php 10 www.jsmeventservices.com
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/ 69 -
+/website/wp-includes/wlwmanifest.xml 8 -
+/images/shell.php 5 -
+/edit_page.php 1 -
+/wp-content/uploads/catpro/upload.php 3 www.jsmeventservices.com
+//nktt.php 5 -
+/modules/simpleslideshow/uploadimage.php 3 -
+/wp-content/plugins/category-page-icons/include/wpdev-flash-uploader.php 3 -
+//themes/404/404.php 1 -
+//tmp/sfx.php 5 -
+//f.php 3 -
+/sqlbak.php 6 www.jsmeventservices.com
+/js/tinymce/plugins/imgsurfer/main.php 1 -
+//wp-content/plugins/SocketIasrgasfontrol.php 10 www.jsmeventservices.com
+//tmp/error.php 3 -
+//wp-coments.php 3 -
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/jsspwned.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 2 -
+/font-awesome/less/post.php 5 -
+/tinybrowser/upload.php 3 www.jsmeventservices.com
+//sym.php 1 -
+//cache/wcache7675n.PHP 6 www.jsmeventservices.com
+//cracker.php 1 -
+/vb5/ 2 -
+/xd.php 8 -
+/vbulletin/ 2 -
+/wp-content/uploads/2019/09/jsspwned.php 2 -
+/o.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 1 -
+//configurationbak.php.suspected 10 www.jsmeventservices.com
+/components/com_jbcatalog/libraries/jsupload/ 4 -
+//bin/logo_img.php 5 -
+/modules/bamegamenu/HolaPresME_91699.php 4 -
+/application/configs/application.ini 6 -
+//images/defau1t.php 10 www.jsmeventservices.com
+/helpdesk/media/editor/plugins/filemanager/inc/izo.php 1 -
+/cache/clean.php 3 -
+/active.php 3 -
+//wp-content/themes/storefront/404.php 3 -
+/site/tmp/cTivrC.php 6 www.jsmeventservices.com
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/templates/system/index.php 1 -
+/media/wp-includes/wlwmanifest.xml 7 -
+/images/jdownloads/screenshots/info.php.j 1 -
+/wp-content/themes/phototouch/themify/themify-ajax.php 1 -
+//zeubda.php 3 -
+/.ok.php 5 -
+//link.php 6 www.jsmeventservices.com
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__zwaki.php 1 -
+/wp-content/plugins/sfwd-lms/includes/ld-assignment-uploads.php 3 www.jsmeventservices.com
+/robot.php 6 www.jsmeventservices.com
+/wp-content/themes/basic/themify/themify-ajax.php 1 -
+//os.php 1 -
+/images/defau1t.php 6 www.jsmeventservices.com
+/wp-content/uploads/KnJybD.php 1 -
+//modules/mod_simplefileuploadv1.3/elements/4NioPN.php 1 -
+//google-assist.php 10 www.jsmeventservices.com
+/cache/defau1ts.php 2 www.jsmeventservices.com
+/modules/vtemskitter/img/HolaPresME_91699.php 1 -
+//index.php 4 -
+/indoxploit.php 7 www.jsmeventservices.com
+/images/biblestudy/media/upload.php 3 -
+/modules/vtemslideshow/slides/HolaPresME_66956.php 1 -
+//sh3ll.php 1 -
+//m.php 5 -
+/wp-content/themes/dolomitisales/shell.php 5 -
+/lumen/wp-admin/shell.php 5 -
+/kcfinder-2.51/upload/files/priv.php.jd 1 -
+//4NioPN.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 11 -
+/V5.php 2 -
+//error_log.php 3 -
+//administrator/administrator.php 10 www.jsmeventservices.com
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 3 -
+//up.php 6 -
+/images/jdownloads/screenshots/spy.php.j 2 www.jsmeventservices.com
+//wp-content/plugins/morepaddy.php 6 www.jsmeventservices.com
+//sites/all/libraries/elfinder/files/LjAZ1a.php 1 -
+/wp-content/uploads/2018/01/Raiz0__zwaki.php 1 -
+/sites/all/libraries/elfinder/files/KnJybD.php 1 -
+/tmp/setting.php 3 -
+/templates/beez_20/index.php 1 -
+/wp-content/_input_3.php5 3 -
+/wp-content/themes/margreetalgra/404.php 6 www.jsmeventservices.com
+/wp-admin/admin-ajax.php 25 www.jsmeventservices.com
+/administrator/manifests/files/joomla.xml 4 -
+/wp-content/themes/upload.php 2 www.jsmeventservices.com
+/templates/atomic/error.php 1 -
+/al277.php 6 www.jsmeventservices.com
+//show.php 10 www.jsmeventservices.com
+/wp-content/uploads/$year/$month/jsspwned.php 3 -
+/images/payload2.php 3 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 6 -
+/wp-content/uploads/2018/01/Raiz0__bekgz.php 1 -
+/help.php 4 -
+/wp-content/uploads/assignments/Raiz0_1568982140.php. 1 -
+//wp-content/advanced-cache.php 6 www.jsmeventservices.com
+/authenticating.php 6 www.jsmeventservices.com
+/wp-admin/shapes.php 1 -
+//pols.php 6 www.jsmeventservices.com
+/pdf/ 1 -
+//Jijle3.php 5 -
+/images/payload.php 3 -
+//libraries/joomla/go.php 3 -
+/404.php 8 www.jsmeventservices.com
+/tinymce/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/2017/wp-includes/wlwmanifest.xml 6 -
+/setting.php 3 -
+/auithorze.php 3 -
+/components/com_sexycontactform/fileupload/ 3 -
+/admin/js/plugins/elfinder/files/ 3 www.jsmeventservices.com
+/r00t.php 8 -
+//oss.php 3 -
+//wp-cache.php 10 www.jsmeventservices.com
+//WSO.php 1 -
+//configurationbak.php 10 www.jsmeventservices.com
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+//nowayfile.php 3 -
+/x.php 3 -
+//error-log.php 10 www.jsmeventservices.com
+/wp-content/uploads/ 1 -
+/wp-content/plugins/webapp-builder/server/images.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/img.php 2 www.jsmeventservices.com
+/tpl/plugins/upload9.1.0/server/php/files/up.php 5 -
+/SessionController.php 6 www.jsmeventservices.com
+/wp-content/plugins/akismet/akismet.php 8 -
+//images/logo_img.php 5 -
+//media/404.php 10 www.jsmeventservices.com
+/wp-content/uploads/wysija/themes/rock/payload3.php 3 -
+/admin 3 -
+/up.asp 2 www.jsmeventservices.com
+/cache/news.php 6 www.jsmeventservices.com
+/modules/vtemskitter/img/HolaPresME_86476.php 1 -
+/modules/fieldvmegamenu/uploads/root.php 2 www.jsmeventservices.com
+/wordpress/ 14 -
+/wp-content/uploads/assignments/shell.php.php 3 -
+/templates/beez5/error.php 1 -
+//tmpos.php 6 www.jsmeventservices.com
+/whmcs.php 8 www.jsmeventservices.com
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 5 -
+/whmcskiller.php 8 -
+//wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 6 www.jsmeventservices.com
+/infusions/mp3player_panel/upload.php 5 -
+/wp-content/themes/pinboard/uploads/jsspwned.php 1 -
+/098.php 1 -
+/wp-content/plugins/ppus/up.php 1 -
+/admin/libraries/ajaxfilemanager/inc/data.php 1 -
+/wp-content/themes/MoneyTheme/uploads/upload.php 1 -
+//404.php 3 -
+/rxr.php 6 -
+//media/1ndex.php 10 www.jsmeventservices.com
+/smiley/1.gif 3 -
+/install/includes/OsComPayLoad.php 3 -
+/wp-content/themes/gaukingo/shell.php 5 -
+/admin/test/systemProperties.asp 3 www.jsmeventservices.com
+/wp-content/uploads/wpstorecart/jsspwned.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/jsspwned.php 1 -
+/wp-content/plugins/simple-ads-manager/jsspwned.php 1 -
+/js/ajax.js 1 jsmeventservices.com
+/xmlsrpc.php 6 www.jsmeventservices.com
+//cache/list.php 10 www.jsmeventservices.com
+/administrator/templates/isis/error.php 1 -
+/cache/cachee.php 6 www.jsmeventservices.com
+/wp-content/plugins/social-networking-e-commerce-1/images/uploads/jsspwned.php 1 -
+/wp-content/uploads/wpstorecart/lo.php 3 -
+//codd.php 6 www.jsmeventservices.com
+/system.php 8 -
+/templates/rhuk_milkyway/index.php 1 -
+/shell.php' 1 -
+/assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+/wp-content//plugins//formcraft//file-upload//server//php//files//info.php 3 www.jsmeventservices.com
+/wp-content/themes/atom/uploadify/uploads/upload.php 3 www.jsmeventservices.com
+/reasdme.php 3 -
+/modules/pk_flexmenu/uploads/HolaPresME_86476.php 1 -
+/modules/simpleslideshow/slides/HolaPresME_91699.php 1 -
+/wp-content/themes/konzept/includes/uploadify/xsec.php 3 www.jsmeventservices.com
+/components/Raiz0WorM_1567608788.php 1 -
+/wso.php 19 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 4 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload/jsspwned.php 2 -
+/admin/controller/extension/module/shell.php 5 -
+/server/php/ 6 -
+//wp-content/uploads/2019/08/wso.php 1 -
+/wp-content/themes/thememin/themify/themify-ajax.php 1 -
+/vehiculo_photos/server/php/files/ddd.php 1 -
+/admin/products/lf.php 3 -
+//wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__kufsh.php 1 -
+//b1.php 5 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__etkmy.php 1 -
+//bk.php 6 www.jsmeventservices.com
+/libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+//head.php 6 www.jsmeventservices.com
+//wp-content/themes/twentyeleven-child/footer.php 6 www.jsmeventservices.com
+/wp-content/plugins/widget-logic/mini.php 1 -
+//images/clean.php 3 -
+//wp-admin/admin-ajax.php 13 http://www.jsmeventservices.com//wp-admin/admin-ajax.php
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 2 -
+/files/files.php 6 www.jsmeventservices.com
+//media/wso.php 3 -
+/modules/bamegamenu/HolaPresME_66956.php 4 -
+/cache/support.php 6 www.jsmeventservices.com
+/sites/default/files/xo.php 5 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 1 -
+//wp-content/bk.php 6 www.jsmeventservices.com
+/wp-configuration.php 3 -
+/administrator/templates/bluestork/index.php 1 -
+/wp-content/uploads/rrb4qR.php 2 -
+/media/editor/plugins/filemanager/inc/data.php 1 -
+/libraries/joomla/go.php 3 -
+/wp/wp-admin/install.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__xwyrm.php 1 -
+/wp-content/plugins/social-networking-e-commerce-1/classes/views/social-options/form_cat_add.php 1 -
+//wp_logns.php 5 -
+/b374k.php 8 www.jsmeventservices.com
+/modules/columnadverts/slides/HolaPresME_86476.php 1 -
+//x.php 5 -
+/auth.php 1 -
+/wp-includes/css/xx.php 5 -
+/private.php 8 -
+//d00.php 1 -
+/wp-content/themes/andre/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//cache/clean.php 5 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/um3r.php 8 -
+//xmlsrpc.php 10 www.jsmeventservices.com
+/priv8.php 8 -
+/wp-content/uploads/wysija/themes/v5wysija/jsspwned.php 1 -
+/admin/js/tinymce/plugins/imgsurfer/main.php 1 -
+/wp-content/plugins/custom-background/uploadify/upload.php 3 www.jsmeventservices.com
+/wp-content/plugins/pitchprint/uploader/ 1 -
+/wp-content/uploads/2018/01/RxR__fvqsu.php 1 -
+//sites/all/libraries/elfinder/php/connector.minimal.php 5 http://www.jsmeventservices.com//sites/all/libraries/elfinder/php/connector.minimal.php
+/sh3ll.php 8 -
+//jconfig.php 10 www.jsmeventservices.com
+/components/izoc.php 3 www.jsmeventservices.com
+/wp-content/themes/library/visual-editor/lib/upload-header.php 1 -
+/wp-content/uploads/assignments/assig.php 3 -
+/vBulletin/js/ajax.js 1 jsmeventservices.com
+//wp-content/plugins/unicode/info.php 3 -
+//mide.php 5 -
+/wp-content/plugins/simple-ads-manager/upload.php 3 www.jsmeventservices.com
+/modules/hous.php 3 www.jsmeventservices.com
+/wordpress/wp-includes/wlwmanifest.xml 78 -
+/wp-content/plugins/asset-manager/upload.php 1 -
+/admin/products/db.php 2 www.jsmeventservices.com
+/wp-json/wp/v2/users 1 -
+/wp-content/plugins/lb-mixed-slideshow/gallery/1/jsspwned.php 1 -
+/d.php 10 www.jsmeventservices.com
+/wp-content/info.php 2 www.jsmeventservices.com
+/administrator/index.php 10 -
+//zone-h.php 1 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+//u.php 5 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//uploadify/uploadify.php 5 http://www.jsmeventservices.com//uploadify/uploadify.php
+/c100.php 8 www.jsmeventservices.com
+/hh.php 3 -
+//files/conn.php 6 www.jsmeventservices.com
+/wp-content/themes/beach_apollo/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/modules/pk_vertflexmenu/ajax/upload.php 3 -
+/wp-symposium/server/php/UploadHandler.php 3 -
+/media/jmail.php 3 -
+//libraries/joomla/css.php 5 -
+//wp-content/plugins/revslider/temp/update_extract/QFnT1c.php 1 -
+/m.php 5 -
+/modules/mod_simplefileuploadv1.3/elements/info.php 3 www.jsmeventservices.com
+//doom.php 1 -
+/A.php 6 www.jsmeventservices.com
+/modules/fieldvmegamenu/uploads/HolaPresME_86476.php 1 -
+/xnxxx.php 1 -
+/wp-content/themes/twentyeleven-child/footer.php 6 www.jsmeventservices.com
+//wp-content/1ndex.php 6 www.jsmeventservices.com
+/license.php 5 -
+//ku.php 3 -
+/components/com_foxcontact/_func.php 4 -
+/images/w0rm.php 3 -
+/ws0.php 3 -
+//wp-content/uploads/4NioPN.php 1 -
+/lou-bna.php 3 -
+//wp-content/uploads/Fbrrchive.php 10 www.jsmeventservices.com
+/components/RxR_1568821241.php 1 -
+//system.php 1 -
+//goog1es.php 10 www.jsmeventservices.com
+/sym.php 8 www.jsmeventservices.com
+//r00t.php 1 -
+/tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+//wp-content/plugins/upspy/sllolx.php 3 -
+/wp-content/themes/dance-studio/core/libs/imperavi/tests/file_upload.php 1 -
+/cache/wcache7675n.PHP 6 www.jsmeventservices.com
+/wp-content/satoshi/images/jsspwned.php 1 -
+//license.php 5 -
+/wp-main.php 6 www.jsmeventservices.com
+//wp-content/themes/dw-minion/404.php 3 -
+//b374k.php 1 -
+/wp-content/themes/index.php 2 www.jsmeventservices.com
+/wp-content/themes/fullscreen/themify/themify-ajax.php 1 -
+/vendor_extra/elfinder/php/connector.minimal.php 5 -
+/tmp/guide.php 3 -
+/wp-content/plugins/showbiz/temp/update_extract/jsspwned.php 1 -
+/wp-includes/wp-setting.php 2 www.jsmeventservices.com
+/joomla/administrator/index.php 7 -
+/shell.php 48 -
+/wp-includes/css/uwchwggzgh.php 5 -
+/c22.php 8 www.jsmeventservices.com
+/wp-content/uploads/product_files/jsspwned.php 1 -
+//modules/mod_simplefileuploadv1.3/elements/QFnT1c.php 1 -
+//images/interface.php 6 www.jsmeventservices.com
+//wso.php 7 -
+//images/xxx.php 10 www.jsmeventservices.com
+/templates/protostar/index.php 1 -
+//w.php 3 -
+//tmp/bogel.php 5 -
+/tmp/bogel.php 3 -
+/umapresence/umaservices/umapage/inc/contentCss.php 5 -
+/kcfinder-2.51/upload.php 6 -
+/_admin/files/upload/server/php/files/ddd.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/image-upload.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/upload.php 3 www.jsmeventservices.com
+/wp1/wp-includes/wlwmanifest.xml 7 -
+/images/laj.php 6 www.jsmeventservices.com
+/wp-info.php 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+//images/google-assist.php 10 www.jsmeventservices.com
+/tpl/plugins/upload9.1.0/server/php/ 18 -
+/thumb.php 6 www.jsmeventservices.com
+//symsa2.php 1 -
+/robots.txt.php 6 www.jsmeventservices.com
+//wp-content/uploads/ts9BEX.php 1 -
+/vb5/js/ajax.js 1 jsmeventservices.com
+//libraries/joomla/1ndex.php 6 www.jsmeventservices.com
+/wp-content/uploads/product_files/upload.php 3 -
+/assets/uploadify/uploadify.php 5 -
+/blog/ 12 -
+//images/wp-mail.php 5 -
+//infos.php 10 www.jsmeventservices.com
+//sql-bak.php 6 www.jsmeventservices.com
+/wp-content/uploads/pica-photo-gallery/info.php 4 -
+//wp-content/themes/_input_3_lol.php.00 3 -
+/gaza.php 8 -
+/blog/wp-includes/wlwmanifest.xml 77 -
+//webconfig.txt.php.suspected 10 www.jsmeventservices.com
+/tmp/mad.php/tmp/1.php 8 -
+//xup.php 5 -
+/modules/wg24themeadministration/img/upload/HolaPresME_91699.php 1 -
+//images/laj.php 10 www.jsmeventservices.com
+/files/uploadify/uploadify.php 5 -
+/shelled.php 8 -
+/wp-login.php 6 -
+//popup-pomo.php 3 -
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/wp-content/plugins/wp-mobile-detector/resize.php 4 www.jsmeventservices.com
+//cli/40dd1d.php 10 www.jsmeventservices.com
+/wp-content/themes/agency/themify/themify-ajax.php 1 -
+//site/tmp/cTivrC.php 10 www.jsmeventservices.com
+/cpanel.php 8 www.jsmeventservices.com
+//images/rnnvhs.php 6 www.jsmeventservices.com
+/modules/vtemskitter/img/HolaPresME_66956.php 1 -
+/wp-includes/upgrade/theme-compat/popup-pomo.php 3 -
+//cpn.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/field_upload.php 1 -
+/assets/tinymce/plugins/imgsurfer/imglist.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 4 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 4 -
+/wp-data.php 6 www.jsmeventservices.com
+/editor/plugins/filemanager/inc/data.php 1 -
+/a.php 8 www.jsmeventservices.com
+/modules/pk_vertflexmenu/uploads/HolaPresME_66956.php 1 -
+/tmp/pz.php 3 -
+/images/404.php 6 www.jsmeventservices.com
+/wp-admin/08239674.php 5 -
+/doom.php 8 -
+/downloads/dom.php 8 www.jsmeventservices.com
+//al277.php 10 www.jsmeventservices.com
+/wp-content/plugins/Fbrrchive.php 6 www.jsmeventservices.com
+/wp-content/plugins/revslider/temp/update_extract/RxR__fvqsu.php 1 -
+/templates/beez3/jsstrings.php 5 www.jsmeventservices.com
+/images/1ndex.php 6 www.jsmeventservices.com
+//robot.php 10 www.jsmeventservices.com
+/wp-content/themes/pinboard/themify/themify-ajax.php 2 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 1 -
+/b1.php 3 -
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 1 -
+//bookmark.php 10 www.jsmeventservices.com
+//logo_img.php 3 -
+/xmlrpc-activate.php 6 www.jsmeventservices.com
+//lil.php 3 -
+/tmp/upxx.php 3 -
+/public/upload_nhieuanh/server/php/_index.php 11 -
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/wp-content/_input_3_RxR.phtml 1 -
+/modules/simpleslideshow/slides/HolaPresME_66956.php 1 -
+//wp-content/uploads/assignments/Raiz0_1568126378.php. 1 -
+//modules/mod_simplefileuploadv1.3/elements/LjAZ1a.php 1 -
+/sitemap.xml 1 -
+//shootmei.php 6 www.jsmeventservices.com
+/wp-content/themes/centum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/XAttacker.php 3 www.jsmeventservices.com
+/user/register 1 -
+/web/image/Images/ddd.php 1 -
+//aa.php 6 www.jsmeventservices.com
+/components/ 3 www.jsmeventservices.com
+/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/wp-admin/setup-config.php 1 -
+/upel.php 1 -
+//administrator/webconfig.txt.php 10 www.jsmeventservices.com
+//templates/ja-helio-farsi/index.php 1 -
+/wp-content/uploads/2018/01/Raiz0__xwyrm.php 1 -
+/docs/ 1 -
+/wp-content/uploads/i-dump-uploads//jsspwned.php 1 -
+/ny.php 3 -
+//administrator/includes/readmy.php 10 www.jsmeventservices.com
+//wp-main.php 10 www.jsmeventservices.com
+//images/robots.txt.php 10 www.jsmeventservices.com
+/wp-content/uploads/headway/header-uploads//jsspwned.php 1 -
+/sql.php 8 -
+//Ricsky.php 6 www.jsmeventservices.com
+/admin/products/info.php 3 www.jsmeventservices.com
+//wp-content/uploads/QFnT1c.php 1 -
+/assets/ckeditor/kcfinder/upload.php 6 -
+//wp-content/plugins/revslider/temp/update_extract/4NioPN.php 1 -
+//sql.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 11 http://www.jsmeventservices.com/modules/mod_simplefileuploadv1.3/elements/udd.php
+/uploader.php 8 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 3 -
+//install.php 10 www.jsmeventservices.com
+/wp-content/themes/rarebird/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/templates/ja-helio-farsi/index.php 8 -
+/wso404.php 8 www.jsmeventservices.com
+//update.php 10 www.jsmeventservices.com
+/ajax/render/widget_php 1 -
+//LjAZ1a.php 1 -
+//bypass.php 3 -
+//modules/mod_simplefileuploadv1.3/elements/xFgS4t.php 1 -
+//wso26.php 1 -
+/components/Raiz0WorM_1567608512.php 1 -
+/editor/plugins/filemanager/inc/izo.php 1 -
+/wp-content/uploads/wpallimport/uploads/evil.php 3 -
+//dam.php 1 -
+/XxX.php 4 -
+/wp-content/themes/magazine/themify/themify-ajax.php 1 -
+/roubt.php 6 www.jsmeventservices.com
+/Controller.php 2 www.jsmeventservices.com
+//SessionController.php 10 www.jsmeventservices.com
+//cpanel.php 1 -
+/maill.php 6 www.jsmeventservices.com
+//spamv6.php 3 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads//jsspwned.php 1 -
+//ytt.php 6 www.jsmeventservices.com
+/install/includes/configure.php 3 -
+/cache/list.php 6 www.jsmeventservices.com
+/wp2/wp-includes/wlwmanifest.xml 7 -
+/upload.php 3 -
+/images/block/ddd.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/jsspwned.php 2 -
+/content.php 6 www.jsmeventservices.com
+/M-J!r4ya-F4r3s.php 6 www.jsmeventservices.com
+//bl.php 3 -
+/css.php 3 -
+//wp-admin/about.php 6 www.jsmeventservices.com
+//includes/u2p.php 10 www.jsmeventservices.com
+//r3x.php 10 www.jsmeventservices.com
+/modules/mod_simplefileuploadv1.3/elements/KnJybD.php 1 -
+/admin/lf.php 2 www.jsmeventservices.com
+//ts9BEX.php 1 -
+//roubt.php 6 www.jsmeventservices.com
+//wp-content/_input_3_raiz0.php5 3 -
+/libraries/shellxo.php 5 -
+/uploadify/uploadify.php 3 http://www.jsmeventservices.com/uploadify/uploadify.php
+/blog/administrator/index.php 7 -
+//media/jmails.php 3 -
+//user.php 1 -
+//wso24.php 1 -
+/forums/js/ajax.js 1 jsmeventservices.com
+/wp_logns.php 3 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__tokvl.php 1 -
+/public/js/plugins/imgsurfer/imglist.php 1 -
+//sites/all/libraries/elfinder/files/QFnT1c.php 1 -
+/update.php 6 www.jsmeventservices.com
+//error.php 3 -
+/admin/editor/plugins/filemanager/inc/data.php 1 -
+/wp-content/themes/fullpane/themify/themify-ajax.php 1 -
+/ajax/api/hook/decodeArguments 5 -
+/wp-content/plugins/dzs-videowhisper/upload/jsspwned.php 1 -
+/killer.php 8 -
+/admin/language/en-gb/extension/extension/shellxo.php 5 -
+/modules/mod_bookmark/helper.php 6 www.jsmeventservices.com
+/media/404.php 6 www.jsmeventservices.com
+/modules/wg24themeadministration/img/upload/HolaPresME_86476.php 1 -
+//wp-content/plugins/wp-file/lang/up.php 3 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/XAttacker.php 3 www.jsmeventservices.com
+//email.php 10 www.jsmeventservices.com
+/sites/all/libraries/elfinder/files/rrb4qR.php 2 -
+/admin/modules/bibliography/pop_attach.php 4 www.jsmeventservices.com
+/wp-content/plugins/wp-property/third-party/uploadify/jsspwned.php 1 -
+/tmp/payload.php 3 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 5 -
+/dswat.org/wsdl.php 6 www.jsmeventservices.com
+//wp-data.php 10 www.jsmeventservices.com
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 1 -
+/2016/wp-includes/wlwmanifest.xml 6 -
+/kcfinder-2.51/upload/files/up.php.jd 5 -
+/vbforum/js/ajax.js 1 jsmeventservices.com
+//dswat.org/wsdl.php 10 www.jsmeventservices.com
+//libraries/joomla/jmail.php 3 -
+//a.php 1 -
+/cache/asdf.php 3 -
+//wp-content/plugins/wpfootes.php 16 www.jsmeventservices.com
+//cache/news.php 10 www.jsmeventservices.com
+/assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/modules/vtemskitter/uploadimage.php 3 -
+/forum/ 2 -
+/web/wp-includes/wlwmanifest.xml 8 -
+/admin/info.php 2 www.jsmeventservices.com
+/modules/soopamobile/uploadimage.php 3 www.jsmeventservices.com
+/api/file_uploader.php 3 -
+//te.php 3 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/index.php 1 -
+/up.php 16 -
+/scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/wp-content/plugins/three-column-screen-layout/db.php 1 -
+/modules/up.php 4 www.jsmeventservices.com
+/tinymce/plugins/imgsurfer/imglist.php 1 -
+/mad.php 8 -
+/joomla/robots.txt 9 -
+/media/1ndex.php 6 www.jsmeventservices.com
+//maill.php 10 www.jsmeventservices.com
+/wp-content/plugins/revslider/temp/update_extract/KnJybD.php 1 -
+/tmp/vuln2.php 3 -
+//tmp/petx.php 5 -
+/components/com_hdflvplayer/hdflvplayer/download.php 4 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 5 -
+/KnJybD.php 1 -
+/rss.xml 3 -
+/wp-admin/options-general.php 1 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 6 -
+//zibi.php 5 -
+/wp-content/files_mf/jsspwned.php 1 -
+/AndroidFileUpload/uploads/up.php 5 -
+/wp-content/plugins/wp-simple-cart/files/$uploadfolder/temporary/jsspwned.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/info.php 3 www.jsmeventservices.com
+/wp-content/plugins/myshe.php 6 www.jsmeventservices.com
+//mad.php 3 -
+/sites/default/files/shell.php 5 -
+//languages/rnnvhs.php 6 www.jsmeventservices.com
+//wp-content/uploads/assignments/Raiz0_1568808317.php. 1 -
+/wp/wp-admin/ 1 -
+/tmp/vuln.php 4 -
+/wp-content/plugins/ubh/index.php 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/public/upload_nhieuanh/server/php/files/up.php 5 -
+/templates/protostar/error.php 1 -
+/public/js/plugins/imgsurfer/main.php 5 -
+//A.php 12 www.jsmeventservices.com
+/wp-content/plugins/SocketIontrol.php 6 www.jsmeventservices.com
+//wp-content/plugins/easyrotator-for-wordpress/a.php 6 www.jsmeventservices.com
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 1 -
+/wp-admin/83091746.php 5 -
+//tmp/1.php 1 -
+/admin/test/systemProperties.jsp 3 -
+//wsdl.php 10 www.jsmeventservices.com
+//cache/asdf.php 3 -
+/repository/shell.php 2 www.jsmeventservices.com
+/wp-content/uploads/settingsimages/jsspwned.php 1 -
+//images/p.php 5 -
+/blog/wp-login.php 1 -
+//wp-admin/users.php 6 www.jsmeventservices.com
+//wp-includes/upgrade/theme-compat/popup-pomo.php 3 -
+/wp-content/themes/postline/themify/themify-ajax.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+/wp-content/plugins/easyrotator-for-wordpress/c.php 4 www.jsmeventservices.com
+//sites/all/libraries/elfinder/files/ts9BEX.php 1 -
+/mide.php 3 -
+/wp-content/themes/parallax/themify/themify-ajax.php 1 -
+/media/info.php 3 www.jsmeventservices.com
+//wp-content/plugins/wp-cache.php 10 www.jsmeventservices.com
+//sites/all/libraries/elfinder/files/4NioPN.php 1 -
+/wp-content/uploads/headway/header-uploads/upload.php 3 www.jsmeventservices.com
+/wp-content/plugins/wpstorecart/php/upload.php 1 -
+/admin/editor/plugins/ajaxfilemanager/inc/izo.php 1 -
+/wp-content/plugins/dzs-videowhisper/upload.php 1 -
+/cache/cache.php 2 www.jsmeventservices.com
+/uploads/ 1 -
+/images/robots.txt.php 6 www.jsmeventservices.com
+/libraries/joomla/juser.php 3 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 5 -
+/new/wp-admin/install.php 1 -
+//webconfig.txt.php 10 www.jsmeventservices.com
+//test.php 1 -
+//auithorze.php 3 -
+//wp-content/themes/zerif-lite/404.php 3 -
+//components/Raiz0WorM_1568282543.php 1 -
+/adminside/server/php/ 11 -
+/vehiculo_photos/server/php/files/up.php 5 -
+/modules/pk_flexmenu/uploads/HolaPresME_66956.php 1 -
+//v.php 1 -
+/wp-content/1ndex.php 6 www.jsmeventservices.com
+/wp-includes/css/oorqfnlzbe.php 5 -
+/wp-content/uploads/2019/09/ 1 -
+/shop/wp-login.php 1 -
+/administrator/templates/hathor/index.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 20 -
+//robots.txt.php 10 www.jsmeventservices.com
+/user.php 8 www.jsmeventservices.com
+/wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 6 www.jsmeventservices.com
+/components/versions.php 3 -
+/images/ 1 -
+//libraries/joomla/juser.php 3 -
+/installation/index.php 1 -
+/wp-content/plugins/webapp-builder/jsspwned.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 5 www.jsmeventservices.com
+//libraries/joomla/wso.php 5 -
+//cp.php 1 -
+/default_component.php 3 -
+//QFnT1c.php 1 -
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__kufsh.php 1 -
+/actions/photo_uploader.php 3 -
+//wp-content/plugins/akismet/akismet.php 1 -
+/tpl/plugins/upload9.1.0/server/php/up.php 5 -
+/libraries/respectMuslims.php 3 -
+//hh.php 5 -
+//xmlrpc-activate.php 6 www.jsmeventservices.com
+/goog1es.php 6 www.jsmeventservices.com
+/media/jss.php 3 -
+//modules/mod_simplefileuploadv1.3/elements/udd.php 5 http://www.jsmeventservices.com//modules/mod_simplefileuploadv1.3/elements/udd.php
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/xmlrpc.php 34 -
+/jobseeker_document.php 3 www.jsmeventservices.com
+/assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/WSO.php 8 www.jsmeventservices.com
+/modules/columnadverts/uploadimage.php 6 -
+/wp-content/uploads/Fbrrchive.php 6 www.jsmeventservices.com
+/h4xor.php 8 www.jsmeventservices.com
+/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//templates/beez5/index.php 1 -
+//anon.php 3 -
+/shootmei.php 6 www.jsmeventservices.com
+//wp-content/plugins/myshe.php 10 www.jsmeventservices.com
+//thumb.php 10 www.jsmeventservices.com
+/images/head.php 6 www.jsmeventservices.com
+/media/editor/plugins/filemanager/inc/izo.php 1 -
+/wp-content/themes/cubed_v1.2/functions/upload-handler.php 1 -
+/images/xxu.php 3 -
+/wp-content/plugins/fancy-box/shell.php 5 -
+/wp-content/uploads/user_uploads/test/jsspwned.php 2 -
+//css/wp-settings.php 3 -
+//wp-content/plugins/caches.php 6 www.jsmeventservices.com
+/wp-content/404.php 3 www.jsmeventservices.com
+//images/sym.php 5 -
+//ws0.php 5 -
+// 3 -
+/images/info.php 3 www.jsmeventservices.com
+/images/clean.php 3 -
+//media/reads.php 10 www.jsmeventservices.com
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//spyshell.php 3 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__xwyrm.php 1 -
+//wso404.php 1 -
+/templates/up.php 2 www.jsmeventservices.com
+/components/common.php 3 -
+/elements.php 6 www.jsmeventservices.com
+//wp-content/plugins/disqus-comment-system/disqus.php 1 -
+/templates/atomic/index.php 9 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__kufsh.php 1 -
+/%0A/.env 1 -
+//media/css.php 5 -
+/wp-content/themes/ithemes2/uploads/upload.php 3 -
+/cloud.php 2 www.jsmeventservices.com
+//images/404.php 10 www.jsmeventservices.com
+/components/RxR_1569444819.php 1 -
+//tmp/mad.php 1 -
+/wp-content/uploads/assets/temp/jsspwned.php 1 -
+/wp-content/themes/MoneyTheme/uploads/uploads/jsspwned.php 1 -
+/libraries/joomla/css.php 4 -
+/wp-content/plugins/showbiz/temp/update_extract/RxR__fvqsu.php 1 -
+//media/big.php 1 -
+/wp-content/setting.php 3 www.jsmeventservices.com
+/components/com_facileforms/libraries/jquery/up.php 3 -
+/infos.php 6 www.jsmeventservices.com
+/administrator 2 -
+/tmp/payload2.php 3 -
+/zebda.php 3 -
+//default_component.php 5 -
+/admin/login.php 37 -
+//1.php 1 -
+//tmp.php 26 www.jsmeventservices.com
+/wp-content/uploads/uigen_YEAR/file.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ddd.php 1 -
+/forum/register.php 1 -
+/webdav/shell.php 3 www.jsmeventservices.com
+//wp-content/plugins/sfn.php 6 www.jsmeventservices.com
+//up14.php 5 -
+//authenticating.php 10 www.jsmeventservices.com
+/zibi.php 3 -
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 1 -
+//info.php 3 -
+/cpn.php 8 www.jsmeventservices.com
+/user/login 3 -
+//wp-content/plugins/SocketIontrol.php 10 www.jsmeventservices.com
+//madspotshell.php 1 -
+//shell.php 5 -
+/php/connector.php 3 www.jsmeventservices.com
+/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//c22.php 1 -
+/a.asp 2 www.jsmeventservices.com
+//2.php 1 -
+/up14.php 3 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 4 -
+//cpbrute.php 1 -
+/wp-cache.php 6 www.jsmeventservices.com
+/error.php 1 -
+/wp/wp-admin/05931467.php 5 -
+/modules/pk_flexmenu/uploads/HolaPresME_91699.php 1 -
+/anon.php 8 www.jsmeventservices.com
+/cache/shell.php 1 -
+/files/conn.php 6 www.jsmeventservices.com
+/modules/mod_simplefileuploadv1.3/elements/mds_v3.php 3 www.jsmeventservices.com
+/dz.php 13 -
+//dcodqg.php 6 www.jsmeventservices.com
+/repository/index.php 2 www.jsmeventservices.com
+/wp-admin/m4d.php 6 -
+/wp-content/themes/pindol/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/modules/simpleslideshow/slides/HolaPresME_86476.php 1 -
+/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+//forbiddens.php 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/wp-content/plugins/caches.php 6 www.jsmeventservices.com
+//E.php 5 -
+/assets/uploadify/old/uploadify.php 5 -
+/images/google-assist.php 6 www.jsmeventservices.com
+/README.txt 1 -
+/wp-content/plugins/magic-fields/RCCWP_upload_ajax.php 1 -
+/images/payload3.php 3 -
+//killer.php 1 -
+/administrator/templates/bluestork/error.php 1 -
+/wp-content/plugins/SocketIasrgasfontrol.php 6 www.jsmeventservices.com
+/public/upload_nhieuanh/server/php/files/ddd.php 1 -
+/modules/fieldvmegamenu/ajax/upload.php 3 -
+/news.php 6 www.jsmeventservices.com
+//database.php 1 -
+//lou-bna.php 3 -
+/wp-content/plugins/showbiz/temp/update_extract/info.php 3 www.jsmeventservices.com
+//imdex.php 6 www.jsmeventservices.com
+/V3.php 1 -
+/wp-content/themes/ut-strange/addpress/includes/upload.php 3 www.jsmeventservices.com
+//shootme.php 28 www.jsmeventservices.com
+/templates/ja_purity/index.php 1 -
+/wp-admin/admin.php 3 -
+//vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+//wp-content/uploads/2018/01/Raiz0__kufsh.php 1 -
+/vehiculo_photos/server/php/ 6 -
+//root.php 3 -
+/configbak.php 6 www.jsmeventservices.com
+/scripts/jquery/kcfinder/upload.php 6 -
+//wp-admin/network/rnnvhs.php 12 www.jsmeventservices.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 154
+51.89.239.211 22 22 666974 20190929163021
+216.10.241.54 20 20 1556 20190923005538
+147.135.167.211 16 16 485072 20190914185028
+157.37.211.63 12 75 3161065 20190929092031
+108.171.216.162 10 10 77210 20190918010710
+51.68.125.189 8 8 242536 20190914104310
+64.233.173.52 7 27 841397 20190920154024
+157.47.161.111 6 42 1746623 20190923144832
+104.192.74.212 6 42 1740719 20190918043929
+37.59.75.130 6 6 181902 20190925182914
+212.83.173.129 6 6 181902 20190919111951
+104.211.22.104 6 6 181902 20190921205033
+157.47.139.82 6 42 1733476 20190921113148
+35.239.234.36 6 6 181902 20190908160054
+62.4.14.206 5 5 151585 20190928052305
+157.37.248.28 5 41 1732998 20190922162336
+103.250.142.137 5 5 151585 20190922115037
+51.77.129.159 5 41 1732998 20190922055307
+207.102.138.158 5 19 313495 20190917171641
+3.14.255.131 5 5 435 20190923005542
+66.133.109.36 5 5 435 20190923005542
+139.167.180.214 5 41 1732998 20190901204521
+204.101.161.159 5 23 1230440 20190917185432
+18.197.227.110 5 5 435 20190923005541
+34.222.229.130 5 5 435 20190923005542
+157.230.190.77 2 2 60634 20190922202607
+212.162.149.69 2 2 60634 20190901064617
+196.65.246.5 2 2 60634 20190915083242
+36.72.128.215 2 2 15442 20190904145445
+35.237.151.14 2 2 60634 20190919165302
+51.254.94.186 1 1 7721 20190905100002
+157.47.159.223 1 1 13625 20190901040831
+105.67.128.147 2 2 60634 20190908160844
+34.214.76.253 1 1 7721 20190925171840
+212.47.239.148 1 1 7721 20190923212005
+18.237.230.151 1 1 7721 20190911063938
+52.174.120.228 4 4 121268 20190914064242
+217.170.202.237 1 1 7721 20190930063840
+199.116.169.254 1 1 30317 20190915184547
+157.37.238.79 2 2 27250 20190925161050
+34.97.235.115 4 4 30884 20190920122738
+160.179.160.196 1 1 30317 20190918102750
+157.37.148.156 2 12 21346 20190914142844
+154.233.171.104 2 2 15442 20190904125107
+54.202.73.197 1 1 7721 20190909043559
+173.193.191.198 1 1 7721 20190930230359
+41.141.117.167 1 1 30317 20190927225310
+54.39.245.135 1 1 30317 20190919122235
+101.4.60.123 0 2 17628 
+5.196.132.116 1 1 30317 20190915163942
+197.14.159.35 1 1 7721 20190903142046
+51.15.153.72 4 4 121268 20190920141230
+212.83.146.233 3 3 90951 20190924202608
+41.104.111.195 2 2 60634 20190907160308
+35.166.104.208 1 1 7721 20190930022038
+197.242.108.9 2 2 60634 20190907220313
+114.142.171.6 1 1 30317 20190923140323
+157.47.194.123 1 1 7721 20190901070030
+196.75.40.77 4 4 30884 20190912135018
+83.169.227.230 1 1 30317 20190918094307
+165.22.32.100 1 1 30317 20190921032601
+157.47.177.173 1 1 7721 20190901160123
+195.154.61.206 2 2 60634 20190928034130
+62.189.162.61 1 1 0 20190924041210
+157.47.151.228 1 1 13624 20190921140614
+160.179.180.22 1 1 30317 20190913235258
+91.134.154.170 2 2 60634 20190912220010
+102.139.243.246 1 1 7721 20190905200547
+192.162.102.230 1 1 30317 20190901113829
+34.68.188.122 1 1 7721 20190928004906
+38.132.124.169 1 1 30317 20190905101419
+18.191.203.177 1 1 7721 20190903210712
+104.198.197.96 1 1 30317 20190915034543
+27.115.124.5 0 3 14317 
+54.187.96.151 1 1 7721 20190914042803
+160.178.231.131 4 4 30884 20190918111913
+185.254.68.84 1 1 30317 20190926183345
+35.224.153.36 2 2 60634 20190914014653
+54.245.113.223 1 1 7721 20190913043503
+196.75.98.68 3 3 23163 20190912103219
+34.223.60.119 1 1 7721 20190919053949
+34.228.187.88 1 1 7721 20190906102321
+34.215.42.176 1 1 7721 20190925015437
+94.122.209.252 1 1 30317 20190926132502
+196.65.234.197 4 4 121268 20190905094523
+92.119.160.72 2 2 60634 20190918120050
+62.165.226.158 1 1 7721 20190917223523
+191.102.165.174 1 1 7721 20190904064847
+101.4.60.64 0 4 55797 
+144.217.73.132 3 3 90951 20190920063411
+62.189.162.59 1 1 30317 20190913014406
+52.13.22.164 1 1 7721 20190915065228
+64.246.165.190 1 1 7721 20190910125740
+5.188.62.5 2 2 15442 20190924170111
+196.74.174.120 1 1 30317 20190912221106
+38.121.232.74 3 3 45759 20190915201350
+64.233.173.50 2 29 1750332 20190920154023
+160.179.68.21 4 4 30884 20190906184052
+107.178.231.239 1 15 149491 20190915201326
+185.81.157.31 4 4 121268 20190923144545
+27.115.124.2 0 2 607 
+196.112.108.114 4 4 30884 20190927214410
+14.142.64.3 2 2 60634 20190930043408
+51.89.230.56 1 1 7721 20190922054040
+64.233.173.54 1 26 874267 20190901155135
+34.221.173.54 1 1 7721 20190912050721
+185.137.234.26 1 1 7721 20190916173554
+101.4.60.124 0 2 361 
+185.81.157.154 2 2 60634 20190903205142
+157.37.248.159 1 1 13627 20190917150948
+101.51.243.152 1 1 30317 20190929192657
+145.239.209.12 1 1 30317 20190923114647
+54.39.11.194 2 2 60634 20190913215641
+52.35.74.65 1 1 7721 20190907050853
+27.115.124.3 0 3 6429 
+185.139.68.142 1 1 0 20190905085159
+91.219.236.134 4 4 121268 20190908095229
+5.181.234.172 2 2 60634 20190907161945
+108.62.69.105 1 1 7721 20190930183838
+105.159.37.146 1 1 30317 20190918131216
+67.214.104.176 4 4 121268 20190916111803
+62.210.89.11 1 1 7721 20190921092114
+196.127.82.61 4 4 121268 20190913002110
+74.208.40.161 2 2 60634 20190908210924
+176.110.134.2 1 1 30317 20190905224213
+36.84.0.44 4 4 121268 20190909054749
+185.246.210.139 2 2 60634 20190927192058
+93.90.201.197 2 2 60634 20190914154235
+51.15.191.81 3 3 90951 20190928024807
+157.47.145.155 1 1 13624 20190915135354
+34.222.213.162 1 1 7721 20190920060928
+101.109.253.120 1 1 7721 20190903202554
+206.81.29.166 1 1 7721 20190925061232
+34.70.118.106 4 4 30884 20190918183809
+176.223.131.187 1 1 7721 20190925083111
+192.210.133.5 2 2 60634 20190912231415
+185.104.184.103 2 2 60634 20190911093136
+100.25.4.54 1 1 7721 20190916163333
+157.37.243.100 5 41 1732998 20190901204337
+52.196.186.166 1 1 7721 20190916161019
+185.191.228.133 3 3 23163 20190906082406
+105.158.222.206 2 2 60634 20190914202347
+157.47.208.61 1 1 13625 20190916155634
+211.56.145.140 3 36 1411413 20190926162605
+35.225.59.66 3 3 90951 20190922175634
+40.87.125.220 3 3 90951 20190926135427
+54.212.87.20 1 1 7721 20190924045449
+46.105.99.212 1 1 7721 20190928161143
+34.219.193.89 1 1 7721 20190926155404
+178.62.82.141 1 1 7721 20190912173916
+54.80.167.137 2 2 15442 20190911150728
+67.214.104.177 4 4 121268 20190916173836
+217.61.19.234 3 3 68355 20190929203913
+148.251.151.235 2 2 60634 20190923203735
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190901 27 135 5500914 12
+20190902 5 5 151585 3
+20190903 5 5 83797 4
+20190904 13 13 281141 10
+20190905 15 15 379246 9
+20190906 9 9 69489 4
+20190907 7 7 189623 4
+20190908 17 28 955543 7
+20190909 8 8 197344 4
+20190910 1 1 7721 1
+20190911 4 4 76076 3
+20190912 17 28 752179 9
+20190913 9 9 250257 6
+20190914 28 38 764396 14
+20190915 12 26 421093 10
+20190916 8 8 158056 6
+20190917 14 46 1625917 5
+20190918 29 69 2079769 8
+20190919 6 6 159306 4
+20190920 15 51 1923188 6
+20190921 13 53 1921084 6
+20190922 21 93 3776887 6
+20190923 54 90 1969859 11
+20190924 7 11 150135 7
+20190925 12 14 240957 6
+20190926 7 18 629777 6
+20190927 8 8 152152 4
+20190928 6 6 136710 6
+20190929 30 95 3701803 4
+20190930 6 6 91518 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30mn-1h 1
+15mn-30mn 1
+0s-30s 172
+2mn-5mn 3
+5mn-15mn 7
+30s-2mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/ 299 6834933 174 161
+/custom-font/GillSansMT-UltraBold.woff 13 502736 0 4
+/custom-font/futuralt-bold-webfont.woff 13 290992 1 3
+/custom-font/futuralt-book-webfont.woff 13 281632 1 4
+/webmail 11 149874 6 9
+/fonts/fontawesome-webfont.woff2 11 709104 1 0
+// 10 77210 2 3
+/.well-known/acme-challenge/a_63-9QHfqQVaM9CpCf9kZzHPHSzhuNHQIRbA_IYqhM 4 348 4 0
+/.well-known/acme-challenge/V84BbE4PlZpONZ8zMoQbj1sg9FLX4ktspaFHJb47A-g 4 348 0 0
+/.well-known/acme-challenge/RuKp8O7mJGF9lkCP1dxFTBLlcuUAeP0GtL78CjGql2U 4 348 0 0
+/.well-known/acme-challenge/iYodirx3ef-wsbxbb246CVYILymbJlFoyiRVsAI4vBs 4 348 0 0
+/.well-known/acme-challenge/1LoGFBSl3A2M6YDZwUlEReUYpZvqzmalto6LjyLWXaU 4 348 0 0
+/.well-known/acme-challenge/hqlur5rf0No9ihi4hqdDer1VrP8ehTF1eOtKeZj14vA 4 348 0 1
+/.well-known/acme-challenge/w3AZ9FlbZ_1L_U1JydCxyKrsXGg_ffRM7R5cuvhX2hk 4 348 0 4
+/.well-known/acme-challenge/rbTnQbkx6KXn8Nz5zOAjOzbwTL0VvaSZFt7cvouahs0 4 348 0 0
+/fonts/fontawesome-webfont.woff 2 162568 0 0
+/.well-known/acme-challenge/60BND6562C6X7JYSTTJ44H2NBPY9TTJ7 1 64 0 0
+/.well-known/acme-challenge/1L73I5H8UQACEYBMKFH5LCSJC-IDZMW4 1 64 1 0
+/.well-known/acme-challenge/KME7-3A_T67KC-HU5EIC8SB0ZAZSBAEK 1 64 0 0
+/.well-known/acme-challenge/GFRNPKPRNQHPOSONDD_A3YXXZTYB4XYA 1 64 0 0
+/.well-known/acme-challenge/52XQHU-MZQMSO_VU979X3OIIY1BA2Q0N 1 64 0 0
+/admins/ 1 478 0 1
+/.well-known/acme-challenge/4U2VT_FXYZ12HPR5ZT7_CUR0OQ7B__00 1 64 0 0
+/.well-known/acme-challenge/FO5E2JQUL9JTI63ZD7MHU-SS3_MJ7T79 1 64 0 0
+/.well-known/acme-challenge/92-D8ZBFF2Z2QJPWKJ_ZFWLNZK5S-447 1 64 0 0
+END_SIDER

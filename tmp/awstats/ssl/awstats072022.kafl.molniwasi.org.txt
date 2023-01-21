@@ -1,0 +1,429 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202207 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.kafl.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2700                
+POS_VISITOR 9091                
+POS_DAY 11500               
+POS_DOMAIN 3466                
+POS_LOGIN 3785                
+POS_ROBOT 3940                
+POS_WORMS 4259                
+POS_EMAILSENDER 4390                
+POS_EMAILRECEIVER 4533                
+POS_SESSION 12000               
+POS_SIDER 12207               
+POS_FILETYPES 4668                
+POS_DOWNLOADS 4886                
+POS_OS 4960                
+POS_BROWSER 5128                
+POS_SCREENSIZE 5599                
+POS_UNKNOWNREFERER 5673                
+POS_UNKNOWNREFERERBROWSER 6045                
+POS_ORIGIN 6412                
+POS_SEREFERRALS 6553                
+POS_PAGEREFS 6738                
+POS_SEARCHWORDS 7056                
+POS_KEYWORDS 7208                
+POS_MISC 2363                
+POS_ERRORS 7267                
+POS_CLUSTER 3641                
+POS_SIDER_404 7430                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220720120643 93 30300 12903156724893
+FirstTime 20220701020238
+LastTime 20220720115146
+LastUpdate 20220720181237 93 0 93 0 0
+TotalVisits 77                  
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 56 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 6 465927
+1 2 3 361711 0 0 0
+2 7 7 11913 7 14 1559
+3 2 2 4617 4 4 221844
+4 0 0 0 4 6 2151
+5 110 159 3391712 391 399 3299785
+6 77 94 3349049 255 260 1318739
+7 91 122 1863563 211 213 948167
+8 80 146 1655319 230 234 2317207
+9 90 163 7228610 357 368 2647767
+10 134 209 7029226 368 379 7730512
+11 135 169 4828845 397 405 4728274
+12 78 92 3017904 232 234 982532
+13 13 16 581478 46 49 102506
+14 0 0 0 1 4 386
+15 0 0 0 0 3 48
+16 27 38 255462 96 98 212179
+17 75 105 838928 307 307 703493
+18 8 17 416134 44 49 95611
+19 2 2 4609 7 8 8273
+20 2 2 40792 5 5 14272
+21 2 5 488830 3 5 361978
+22 8 8 11676 15 32 1175667
+23 7 12 960066 17 31 376813
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+in 739 1058 31545507
+us 196 286 2451281
+de 5 5 7252
+ca 4 4 12660
+gb 2 3 361711
+ng 2 2 40792
+cn 2 13 1921217
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 32 3473437 20220717052140 16
+YandexBot/ 15 725067 20220717050555 8
+bingbot/ 7 932763 20220714065806 2
+unknown 6 144 20220719085157 6
+facebookexternalhit/ 1 24 20220715020957 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+jpeg 14 381004 0 0
+js 46 12183833 0 0
+jpg 65 12903941 0 0
+css 169 2262825 0 0
+Unknown 922 7653848 0 0
+png 126 437915 0 0
+html 28 516226 0 0
+gif 1 828 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/public/robots.txt 0 1 24
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+androidoreo 9 0
+win10 1316 912
+macosx15 17 17
+win7 13 5
+androidmarshmallow 1 1
+linux 11 11
+Unknown 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+Unknown 4 4
+chrome61.0.3163.128 9 0
+chrome100.0.4896.127 1 1
+chrome103.0.5060.66 22 16
+chrome96.0.4664.110 16 16
+chrome81.0.4044.138 1 1
+chrome103.0.5060.114 82 17
+chrome42.0.2311.90 1 1
+chrome78.0.3904.87 3 1
+msie9.0 1 0
+firefox102.0 6 0
+chrome103.0.5060.53 5 3
+chrome101.0.4950.0 2 1
+chrome98.0.4758.81 1 1
+chrome57.0.2987.110 1 1
+chrome83.0.4103.97 4 4
+firefox47.0 2 2
+chrome103.0.0.0 1209 880
+chrome61.0.3163.79 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220717195430
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220717195430
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 316 321
+From1 0 0
+From2 2 2
+From3 17 38
+From4 615 1010
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 1 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://mail.kafl.in 17 17
+http://mail.kafl.in/sign-in 0 9
+http://localhost:3000 0 3
+https://mail.kafl.in/sign-in 0 2
+http://localhost:3000 0 5
+http://localhost:3001 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+406 20 4520
+404 2664 6456066
+302 228 46960
+405 56 12474367
+419 13 26193
+500 15 3576149
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 16
+/assets/web/glyphicons/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf 143 https://kafl.in/public/assets/css/style.css
+/wp-content/ 1 -
+/owa/auth/logon.aspx 2 -
+/edit-ledger 1 https://kafl.in/ledger
+/assets/web/fontawesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2 737 https://kafl.in/public/assets/css/style.css
+/assets/web/fontawesome/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf 738 https://kafl.in/public/assets/css/style.css
+/view-ledger 7 https://kafl.in/ledger
+/journalentry 3 https://kafl.in/journal-entry
+/assets/web/glyphicons/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2 145 https://kafl.in/public/assets/css/style.css
+/view-ledger/2 1 https://kafl.in/expense-ledger
+/JournalEntry.journalentry 3 https://kafl.in/journal-entry
+/assets/web/glyphicons/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff 143 https://kafl.in/public/assets/css/style.css
+/get-ledger 1 -
+/assets/web/fontawesome/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff 737 https://kafl.in/public/assets/css/style.css
+/createLedger 1 https://kafl.in/add-ledger
+/wp-json/wp/v2/users 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+49.36.238.40 137 150 2720553 20220714132812
+49.36.232.30 134 152 3382597 20220701122410
+49.36.234.124 128 186 5066072 20220702124318
+49.36.236.0 79 109 2927629 20220706112001
+49.36.238.28 77 88 2172934 20220716130538
+49.36.237.51 69 72 642149 20220704113825
+157.38.16.23 42 42 372641 20220704175757
+157.38.77.193 41 82 375760 20220707181223
+49.36.232.127 34 107 903416 20220707102617
+157.38.134.46 32 65 275908 20220711084647
+157.38.78.230 25 26 211982 20220713112150
+49.36.238.15 22 33 2385363 20220718121041
+49.36.238.103 17 34 1871552 20220720115146 20220720115146 /customer-enquiry
+49.36.238.90 14 24 1674726 20220705061233
+49.36.238.68 14 73 5294524 20220718100505
+157.38.96.107 12 14 139661 20220719173809
+157.38.133.99 12 15 99823 20220711171641
+209.141.36.112 5 5 7298 20220712094015
+141.22.28.16 5 5 7252 20220710050135
+103.179.0.113 4 11 1303301 20220704092338
+49.36.236.18 4 5 30791 20220715052933
+157.38.133.57 3 5 25508 20220712053143
+49.36.238.199 3 5 198550 20220719053013
+209.141.51.222 3 3 4374 20220714225907
+157.38.135.51 3 6 28589 20220711122811
+49.36.235.113 1 1 0 20220711081922
+209.141.35.128 1 1 1462 20220711230126
+157.38.65.230 0 2 340476 
+171.13.14.20 1 3 467088 20220706234808
+205.210.31.142 1 1 3160 20220717195430
+205.210.31.6 1 1 3180 20220705020417
+51.15.130.98 1 2 360257 20220709013530
+27.115.124.45 0 3 484224 
+198.235.24.28 1 1 3160 20220704215827
+157.38.119.63 0 1 170238 
+27.115.124.101 0 3 484224 
+34.134.35.252 1 1 1449 20220702020322
+209.141.41.193 1 1 1459 20220714230133
+34.210.75.72 1 1 1449 20220710024115
+35.87.150.230 1 1 1451 20220706024415
+197.210.78.218 1 1 3180 20220710203034
+198.235.24.129 1 1 3160 20220710031504
+142.54.177.162 1 1 1449 20220718194800
+35.202.28.167 1 1 1446 20220716215859
+104.28.210.52 1 1 1462 20220715105802
+182.68.104.251 1 4 485676 20220715085517
+54.187.98.193 1 1 1451 20220706024449
+54.201.60.230 1 1 1454 20220701020238
+42.104.120.68 1 4 485674 20220715085520
+197.210.79.75 1 1 37612 20220710203030
+124.221.247.200 1 1 1457 20220712030825
+27.115.124.109 0 3 484224 
+157.55.39.125 0 1 358804 
+157.38.103.3 1 1 7912 20220713113938
+8.31.2.43 1 1 1458 20220713225730
+172.104.27.227 1 1 1455 20220706021509
+205.185.122.184 1 1 1460 20220712225630
+157.38.118.39 1 2 9024 20220713175714
+51.158.68.251 1 1 1454 20220709013325
+209.141.36.231 3 3 4378 20220714230805
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20220701 135 153 3384051 4
+20220702 129 187 5067521 4
+20220704 116 126 2321251 4
+20220705 15 25 1677906 2
+20220706 85 120 3886200 9
+20220707 75 189 1279176 3
+20220709 7 11 853205 6
+20220710 7 7 49774 6
+20220711 50 92 891466 7
+20220712 8 10 32803 5
+20220713 28 30 230376 4
+20220714 140 156 3424211 5
+20220715 7 14 1003627 4
+20220716 78 89 2174380 3
+20220717 1 1 3160 1
+20220718 37 108 7851574 5
+20220719 15 19 338211 2
+20220720 17 34 1871552 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 40
+15mn-30mn 2
+2mn-5mn 3
+5mn-15mn 9
+30mn-1h 7
+1h+ 12
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 48
+/ledger 116 1043646 2 5
+/journal-entry 97 978604 3 7
+/view-assets-ledger 75 598579 0 2
+/customer-enquiry 64 766536 3 3
+/view-ledger/CASH 64 548753 1 2
+/sign-in 61 97265 54 37
+/assets-ledger 59 487418 0 4
+/add-ledger 57 461764 0 1
+/edit-ledger 52 420531 1 2
+/enquiry-list 31 350954 3 4
+/ 28 516226 2 1
+/create-ledger 27 166868 0 0
+/view-journal-entry 22 165985 1 1
+/match-old-customer-equiry 21 1172 0 0
+/view-ledger 20 161716 2 4
+/save-journal-entry 18 136721 0 0
+/liabilities-ledger 18 146225 1 1
+/expense-ledger 18 148218 0 0
+/uploadFile 15 913 0 0
+/revenue-ledger 10 82601 0 0
+/add-member 10 321162 1 0
+/get-ledger-list 8 77104 0 0
+/save-customer-enquiry 8 83833 0 0
+/view-ledger/OFC1234 6 46272 1 0
+/_ignition/health-check 5 245 0 0
+/view-liabilities-ledger 3 21738 0 0
+/add-holiday 3 22881 0 0
+/edit-ledger/21 2 14483 0 0
+/salary-list 3 21204 0 0
+/view-ledger/CASH/29 1 22723 0 0
+/view-ledger/CASH/24 2 29348 0 0
+/pay-emi/1 1 10904 0 0
+/edit-ledger/24 2 15839 0 0
+/staff-attendence 1 8395 0 0
+/edit-customer-enquiry/5 1 11618 0 0
+/employee-list 2 14500 0 0
+/update-ledger/21 2 12893 0 0
+/get-emi-collect 1 22 0 0
+/view-ledger/21 1 7770 0 0
+/daily-collection 1 7019 0 0
+/collect-emi-pay 1 7771 0 0
+/view-ledger/INT 1 7886 0 0
+/entries 1 9103 0 0
+/member-list 4 71681 0 0
+/edit-ledger/22 2 15784 1 0
+/add-salary 2 18312 0 0
+/get-ledger-transactions 2 968 1 1
+/edit-ledger/25 1 7921 0 1
+END_SIDER

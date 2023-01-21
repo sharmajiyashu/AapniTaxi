@@ -1,0 +1,395 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.testpur.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2695                
+POS_VISITOR 9927                
+POS_DAY 10878               
+POS_DOMAIN 3313                
+POS_LOGIN 3595                
+POS_ROBOT 3750                
+POS_WORMS 3916                
+POS_EMAILSENDER 4047                
+POS_EMAILRECEIVER 4190                
+POS_SESSION 11355               
+POS_SIDER 11502               
+POS_FILETYPES 4325                
+POS_DOWNLOADS 4462                
+POS_OS 4510                
+POS_BROWSER 4629                
+POS_SCREENSIZE 4819                
+POS_UNKNOWNREFERER 4893                
+POS_UNKNOWNREFERERBROWSER 5128                
+POS_ORIGIN 5244                
+POS_SEREFERRALS 5377                
+POS_PAGEREFS 5521                
+POS_SEARCHWORDS 5700                
+POS_KEYWORDS 5852                
+POS_MISC 2359                
+POS_ERRORS 5911                
+POS_CLUSTER 3451                
+POS_SIDER_404 6041                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001000005 4 517 9509771054905
+FirstTime 20190901053328
+LastTime 20190930013006
+LastUpdate 20191001045821 4 0 3 0 0
+TotalVisits 23                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 25                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 5892 66 72 199170
+1 7 7 41054 18 18 3101
+2 0 0 0 3 3 770
+3 1 1 5872 6 7 3641
+4 0 4 3594 66 68 88350
+5 1 3 51688 6 8 2884
+6 3 19 557630 4 6 3006
+7 0 0 0 3 6 3938
+8 0 2 7678 6 8 3573
+9 0 9 776523 2 2 241
+10 3 3 17626 7 7 1677
+11 0 0 0 5 5 635
+12 0 0 0 5 7 2545
+13 0 0 0 5 5 1476
+14 0 0 0 3 3 1125
+15 1 17 532364 5 5 1117
+16 1 3 9961 7 9 3602
+17 1 1 5866 2 3 2304
+18 0 0 0 3 4 2320
+19 0 0 0 7 8 3516
+20 2 34 1064740 7 7 2362
+21 0 4 23049 5 5 1468
+22 2 2 11757 5 7 3010
+23 0 0 0 6 10 4798
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 13 13 89790
+de 7 71 2147147
+ru 2 2 11733
+fr 1 1 5864
+cn 0 23 860760
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+Googlebot/ 10 0 20190926164255 10
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+js 67 2859292 0 0
+css 16 27160 0 0
+Unknown 23 148658 0 0
+png 4 80184 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+linux 71 7
+macosx 1 1
+linuxandroid 23 0
+Unknown 15 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome75.0.3770.142 23 0
+chrome76.0.3809.100 2 2
+firefox50.0 68 4
+mozilla 3 3
+chrome74.0.3729.169 1 1
+chrome58.0.3029.110 1 1
+Unknown 12 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190925223756
+Go-http-client/2.0 20190930013006
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/2.0 20190930013006
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 20 107
+From1 0 0
+From2 0 0
+From3 3 3
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://216.10.241.214:443 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+406 6 116346
+301 43 6620
+404 121 185306
+302 103 32357
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 102
+/assets/global/plugins/jquery-file-upload/server/php/ 1 -
+/dev/rss/catalog/review 1 -
+/rss/catalog/review 1 -
+/dev/rss/catalog/notifystock 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/shop/errors/503.php 1 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 1 -
+/test/rss/catalog/review 1 -
+/application/configs/application.ini 1 -
+/store/rss/catalog/review 1 -
+/magento/downloader/index.php 1 -
+/kcfinder-2.51/upload/files/up.php.jd 1 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 1 -
+/demo/errors/503.php 1 -
+/AndroidFileUpload/uploads/up.php 1 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 1 -
+/tpl/plugins/upload9.1.0/server/php/up.php 1 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 1 -
+/store/index.php/admin 1 -
+/dev/errors/503.php 1 -
+/downloader/index.php 1 -
+/assets/js/mylibs/kcfinder/upload.php 1 -
+/libraries/jscripts/kcfinder/upload.php 1 -
+/test/rss/catalog/notifystock 1 -
+/test/index.php/admin 1 -
+/admin/images/cal_date_over.gif 1 -
+/rss/catalog/notifystock 1 -
+/demo/rss/catalog/review 1 -
+/old/index.php/admin 1 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/test/errors/503.php 1 -
+/assets/ckeditor/kcfinder/upload.php 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/shop/rss/catalog/review 1 -
+/vehiculo_photos/server/php/files/up.php 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/userfiles/file/spy.txt 1 -
+/staging/rss/catalog/review 1 -
+/staging/rss/order/new 1 -
+/index.php/admin 1 -
+/server/php/files/up.php 1 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/old/downloader/index.php 1 -
+/magento/errors/503.php 1 -
+/staging/index.php/admin 1 -
+/dev/rss/order/new 1 -
+/demo/index.php/admin 1 -
+/magento/rss/catalog/review 1 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/scripts/jquery/kcfinder/upload.php 1 -
+/shop/index.php/admin 1 -
+/staging/rss/catalog/notifystock 1 -
+/public/upload_nhieuanh/server/php/_index.php 1 -
+/old/rss/order/new 1 -
+/magento/rss/catalog/notifystock 1 -
+/store/downloader/index.php 1 -
+/web/image/upload.php 1 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/store/errors/503.php 1 -
+/admin/ckeditor/kcfinder/upload.php 1 -
+/staging/errors/503.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 1 -
+/magento/index.php/admin 1 -
+/web/image/Images/up.php 1 -
+/admin/login.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 1 -
+/rss/order/new 1 -
+/test/rss/order/new 1 -
+/demo/downloader/index.php 1 -
+/test/downloader/index.php 1 -
+/magento/rss/order/new 1 -
+/dev/index.php/admin 1 -
+/language/en-GB/en-GB.xml 1 -
+/old/rss/catalog/notifystock 1 -
+/server/php/ 1 -
+/demo/rss/catalog/notifystock 1 -
+/ckeditor/kcfinder/upload.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 1 -
+/shop/downloader/index.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ 3 -
+/store/rss/order/new 1 -
+/js/ckeditor/kcfinder/upload.php 1 -
+/public/upload_nhieuanh/server/php/files/up.php 1 -
+/images/block/up.php 1 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 1 -
+/AndroidFileUpload/fileUpload.php 1 -
+/old/errors/503.php 1 -
+/adminside/server/php/ 1 -
+/vehiculo_photos/server/php/ 1 -
+/store/rss/catalog/notifystock 1 -
+/dev/downloader/index.php 1 -
+/shop/rss/order/new 1 -
+/errors/503.php 1 -
+/shop/rss/catalog/notifystock 1 -
+/old/rss/catalog/review 1 -
+/staging/downloader/index.php 1 -
+/assets/admin/ckeditor/kcfinder/upload.php 1 -
+/ads.txt 18 -
+/ficheiros/conteudos/spy.txt 1 -
+/demo/rss/order/new 1 -
+/kcfinder-2.51/upload.php 1 -
+/administrator/manifests/files/joomla.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 25
+137.226.113.34 4 68 2129471 20190927205653
+137.226.113.28 2 2 11783 20190920100129
+35.167.68.143 1 1 5865 20190914014835
+188.165.192.220 1 1 5864 20190903220231
+34.220.197.160 1 1 5865 20190928014359
+213.159.213.137 1 1 5867 20190929160837
+54.185.145.150 1 1 5863 20190930013006
+34.216.188.227 1 1 5869 20190908100841
+54.200.57.145 1 1 5866 20190901053328
+34.222.119.114 1 1 5872 20190914065335
+34.220.71.8 1 1 5872 20190906031421
+137.226.113.26 1 1 5893 20190925223756
+82.202.161.133 1 1 5866 20190922171329
+52.88.65.158 1 1 5866 20190910103742
+18.237.58.5 1 1 5865 20190929014251
+54.245.192.159 1 1 5865 20190921013750
+34.216.86.121 1 1 5868 20190920013625
+34.220.129.42 1 1 5863 20190903010010
+35.171.83.18 1 1 19391 20190926061416
+27.115.124.3 0 2 837 
+101.4.60.124 0 4 39873 
+27.115.124.5 0 2 54769 
+27.115.124.2 0 4 17153 
+27.115.124.4 0 6 21780 
+101.4.60.123 0 5 726348 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20190901 1 1 5866 1
+20190903 2 2 11727 2
+20190905 1 17 532369 1
+20190906 1 1 5872 1
+20190908 1 1 5869 1
+20190910 1 1 5866 1
+20190914 2 2 11737 2
+20190916 1 17 532364 1
+20190917 1 1 5892 1
+20190920 2 2 11759 2
+20190921 1 1 5865 1
+20190922 1 1 5866 1
+20190923 1 22 1256487 1
+20190924 0 2 45822 0
+20190925 1 9 37457 1
+20190926 1 1 19391 1
+20190927 1 19 570378 1
+20190928 1 3 8622 1
+20190929 2 6 30222 2
+20190930 1 1 5863 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/login 23 148658 23 23
+END_SIDER

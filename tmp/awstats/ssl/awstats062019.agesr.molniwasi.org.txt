@@ -1,0 +1,382 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201906 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.agesr.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2685                
+POS_VISITOR 8666                
+POS_DAY 9604                
+POS_DOMAIN 3385                
+POS_LOGIN 3662                
+POS_ROBOT 3817                
+POS_WORMS 4191                
+POS_EMAILSENDER 4322                
+POS_EMAILRECEIVER 4465                
+POS_SESSION 10259               
+POS_SIDER 10416               
+POS_FILETYPES 4600                
+POS_DOWNLOADS 4777                
+POS_OS 4974                
+POS_BROWSER 5108                
+POS_SCREENSIZE 5430                
+POS_UNKNOWNREFERER 5504                
+POS_UNKNOWNREFERERBROWSER 5663                
+POS_ORIGIN 5817                
+POS_SEREFERRALS 5949                
+POS_PAGEREFS 6093                
+POS_SEARCHWORDS 6241                
+POS_KEYWORDS 6393                
+POS_MISC 2349                
+POS_ERRORS 6452                
+POS_CLUSTER 3518                
+POS_SIDER_404 6615                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190701000252 66 13292 5147685842274
+FirstTime 0
+LastTime 20190630184829
+LastUpdate 20190701061324 66 0 65 0 0
+TotalVisits 50                  
+TotalUnique 22                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 23                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 24 207941 13 18 242726
+1 1 1 8441 8 36 2833009
+2 0 0 0 18 80 1985664
+3 0 0 0 6 12 400044
+4 2 2 8723 9 70 1654550
+5 1 1 8438 5 5 148219
+6 3 3 57219 7 13 84943
+7 1 1 8441 7 31 690329
+8 0 0 0 16 20 3525712
+9 0 0 0 26 70 3383651
+10 4 4 23885 13 87 3131046
+11 1 1 60 16 18 351687
+12 5 5 43621 31 55 2549220
+13 0 0 0 27 32 644499
+14 0 0 0 28 36 539737
+15 1 1 0 8 52 1254772
+16 1 1 8085 26 31 514171
+17 1 1 8724 4 29 1012902
+18 5 5 42199 10 20 384082
+19 0 0 0 5 30 618833
+20 3 7 438851 17 40 1070249
+21 7 7 282422 59 139 3774594
+22 1 1 8415 7 12 72008
+23 3 3 26171 5 7 36482
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 47 51 815187
+ru 7 7 282422
+fr 5 5 43621
+de 4 4 40346
+cn 1 1 60
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bingbot/ 571 24327452 20190630214854 46
+Googlebot/ 28 20720 20190629092043 28
+bingpreview 28 697691 20190630040149 0
+bot[\s_+:,\.\;\/\\-] 16 663655 20190628035659 0
+no_user_agent 16 584191 20190627023428 0
+Konqueror/ 2 15931 20190618125346 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+inc 1 136175 0 0
+png 1 111 0 0
+js 1 984 0 0
+txt 2 227616 0 0
+html 58 760965 0 0
+php 1 60 0 0
+Unknown 4 55725 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/sites/default/files/AGESRCON_2018_Brochure.pdf 5 0 8189080
+/CHANGELOG.txt 2 0 227616
+/sites/default/files/off_line_registration_form.pdf 1 0 794379
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+macosx 1 1
+win7 14 14
+macosx6 1 0
+win10 36 36
+linux 10 7
+Unknown 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+firefox36.0 1 1
+firefox15.0.1 1 0
+firefox45.0 1 1
+firefox64.0 9 9
+firefox40.0 1 1
+Unknown 6 6
+firefox21.0 1 1
+firefox56.0.4 1 1
+chrome40.0.2214.85 3 3
+chrome26.0.1410.63 5 3
+chrome36.0.1985.143 2 2
+firefox61.0 31 31
+chrome60.0.3112.50 4 4
+firefox50.0 1 1
+safari5.0.4 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Go-http-client/2.0 20190629070413
+python-requests/2.21.0 20190619175846
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+python-requests/2.21.0 20190619175846
+Go-http-client/2.0 20190629070413
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 62 64
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2 4
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+500 4 51713
+409 11 913
+302 1 0
+404 196 3838674
+406 22 568495
+301 42 10865
+403 6 122829
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 51
+/wp-admin/ 1 -
+/shop/index.php/admin/ 5 -
+/wp-content/uploads/2019/06/settings_auto.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 1 -
+/shop/errors/503.php 5 -
+/public_html.gz 1 -
+/users/member.php 1 -
+/.well-known/assetlinks.json 30 -
+/store/index.php/admin/ 6 -
+/templates/system/css/system.css 1 -
+/wp-json/wp/v2/posts/None 1 -
+/index.php/admin/ 2 -
+/node/member.php 2 -
+/wp-content/plugins/barclaycart/uploadify/settings_auto.php 1 -
+/ages-inauguration 1 -
+/refund 1 -
+/shop/downloader/index.php 5 -
+/store/downloader/index.php 4 -
+/join 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/wp-content/plugins/downloads-manager/img/unlock.gif 1 -
+/know-about-speaker-data 2 -
+/wp-content/plugins/hd-webplayer/playlist.php 1 -
+/123.zip 1 -
+/abstract-submission-form.php/member/register 1 -
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 1 -
+/errors/503.php 2 -
+/file.sql 1 -
+/wp-content/plugins/category-page-icons/css/menu.css 1 -
+/magento/downloader/index.php 6 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/store/errors/503.php 4 -
+/wp-login.php 5 -
+/core/CHANGELOG.txt 1 -
+/master.gz 1 -
+/wp-admin/admin-post.php 21 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 1 -
+/test 2 -
+/wp-admin/admin-ajax.php 35 -
+/jm-ajax/upload_file/ 1 -
+/agesrcon-2018-venue 1 -
+/magento/index.php/admin/ 5 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 1 -
+/robots.txt 12 -
+/wp-json/wp/v2/posts/ 1 -
+/downloader/index.php 2 -
+/gallary 3 -
+/magento/errors/503.php 6 -
+/payload.php 2 -
+/wp-json/siteground-optimizer/v1/enable-option 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+69.164.211.37 23 23 199502 20190625002227
+185.224.88.162 7 7 282422 20190628211244
+52.11.94.217 5 5 42199 20190630184829
+46.105.127.166 5 5 43621 20190611123759
+138.246.253.5 3 3 0 20190627044526
+13.72.68.224 3 5 437756 20190612205207
+3.16.75.203 2 2 16873 20190630061857
+3.17.74.140 2 2 16876 20190627103622
+63.33.233.231 1 1 8723 20190604043133
+3.87.223.165 1 1 8723 20190606002053
+118.24.220.86 1 1 60 20190619110932
+78.46.82.170 1 1 40346 20190627061915
+18.212.161.188 1 1 8723 20190610002116
+54.202.76.187 1 1 8724 20190619175846
+192.227.152.75 1 1 7009 20190618104456
+3.83.20.28 1 1 8724 20190617002158
+34.215.12.31 1 1 8440 20190622000129
+35.165.50.224 1 1 8441 20190625015132
+150.109.195.10 1 1 8085 20190630162522
+144.168.131.223 1 1 8415 20190615223840
+52.12.139.248 1 1 8438 20190623053437
+34.220.178.195 1 1 8441 20190629070413
+173.249.159.44 0 2 1095 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20190601 1 1 8724 1
+20190602 1 1 8724 1
+20190603 1 1 8723 1
+20190604 1 1 8723 1
+20190605 1 1 8719 1
+20190606 2 2 17446 2
+20190607 1 1 8724 1
+20190608 1 1 8723 1
+20190609 1 1 8723 1
+20190610 2 2 17446 2
+20190611 6 6 52345 2
+20190612 5 7 446480 3
+20190613 1 1 8724 1
+20190614 1 1 8723 1
+20190615 2 2 17138 2
+20190616 1 1 8725 1
+20190617 2 2 17448 2
+20190618 2 2 15734 2
+20190619 4 4 17507 4
+20190620 1 1 8724 1
+20190622 2 2 16880 2
+20190623 2 2 16876 2
+20190624 2 2 16879 2
+20190625 2 4 17977 2
+20190626 1 1 8441 1
+20190627 4 4 57222 3
+20190628 8 8 290863 2
+20190629 2 2 16878 2
+20190630 4 4 33397 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 48
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 58 760965 46 45
+/member/password 1 8415 1 1
+/registration-information 1 8085 1 1
+/user/login 1 32216 0 0
+/contact 1 7009 1 1
+/xmlrpc.php 1 60 1 1
+/includes/bootstrap.inc 1 136175 0 1
+END_SIDER

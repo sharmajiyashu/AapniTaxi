@@ -1,0 +1,593 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202107 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.grahapurti.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2701                
+POS_VISITOR 10417               
+POS_DAY 14183               
+POS_DOMAIN 3495                
+POS_LOGIN 3880                
+POS_ROBOT 4035                
+POS_WORMS 4505                
+POS_EMAILSENDER 4636                
+POS_EMAILRECEIVER 4779                
+POS_SESSION 14968               
+POS_SIDER 15146               
+POS_FILETYPES 4914                
+POS_DOWNLOADS 5227                
+POS_OS 5275                
+POS_BROWSER 5443                
+POS_SCREENSIZE 6024                
+POS_UNKNOWNREFERER 6098                
+POS_UNKNOWNREFERERBROWSER 6711                
+POS_ORIGIN 7296                
+POS_SEREFERRALS 7435                
+POS_PAGEREFS 7644                
+POS_SEARCHWORDS 7812                
+POS_KEYWORDS 7964                
+POS_MISC 2365                
+POS_ERRORS 8023                
+POS_CLUSTER 3736                
+POS_SIDER_404 8167                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210801003208 6 1026 15667761719972
+FirstTime 20210701082506
+LastTime 20210731210151
+LastUpdate 20210801180635 6 0 5 0 0
+TotalVisits 96                  
+TotalUnique 85                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 96                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 317709 2 42 100938
+1 8 8 1322182 2 81 46286
+2 8 12 2237670 0 32 21464
+3 6 6 1104836 8 48 525440
+4 4 4 938890 0 33 23486
+5 14 16 2283448 8 55 197866
+6 6 6 798704 8 57 35010
+7 10 12 1271704 9 78 913114
+8 22 130 20422658 4 31 30966
+9 12 128 24747439 2 53 214032
+10 18 20 2239032 145 173 118642
+11 4 6 2770514 4 9 166916
+12 6 10 1903206 4 59 171514
+13 2 4 155133 66 125 296607
+14 2 8 803664 39 99 280798
+15 2 2 570820 123 169 101122
+16 6 6 482632 4 106 33868
+17 30 32 2566864 204 211 609446
+18 8 8 556872 10 26 10340
+19 10 12 2549966 49 69 641733
+20 67 67 4390884 2 47 181472
+21 55 55 4843915 38 107 109106
+22 8 8 1063843 30 81 6256626
+23 14 14 2302446 13 60 25664
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+us 176 178 22735047
+ca 60 64 4045188
+in 40 280 46711811
+gr 20 20 5188510
+gb 12 12 998688
+de 8 8 583729
+cn 8 8 656354
+ua 2 2 163992
+ge 0 2 1231934
+pk 0 2 37792
+br 0 2 291986
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[\s_+:,\.\;\/\\-] 291 6984 20210730153900 291
+YandexBot/ 37 1639698 20210727174126 17
+Googlebot/ 31 744 20210730130139 31
+(firefox/)([0-9]\.|[0-1][0]\.) 30 6236036 20210706224140 0
+unknown 24 576 20210730051931 24
+Dalvik/ 6 493126 20210716030244 0
+no_user_agent 4 956683 20210715191428 0
+facebookexternalhit/ 2 154128 20210702120037 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+js 12 2990584 0 0
+gif 2 8356 0 0
+php 37 3003230 0 0
+png 46 16170130 0 0
+ttf 8 1480748 0 0
+woff 12 1250096 0 0
+html 193 26186961 0 0
+jpeg 24 1316024 0 0
+cgi 2 15244 0 0
+jpg 164 26403650 0 0
+css 4 700368 0 0
+Unknown 66 2533768 0 0
+woff2 8 585872 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 278 44
+win10 56 40
+win8 6 6
+Unknown 130 130
+linux 86 86
+win7 10 8
+macosx 6 6
+macosx11 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 24
+chrome27.0.1453.93 6 6
+firefox84.0 8 8
+chrome58.0.3029.110 2 2
+chrome91.0.4472.114 2 2
+chrome73.0.3683.103 1 1
+netscape 4 4
+chrome42.0.2311.90 8 8
+firefox89.0 2 0
+chrome85.0.4183.83 2 0
+opera77.0.4054.203 2 0
+chrome91.0.4472.164 2 0
+chrome83.0.4103.97 64 64
+chrome75.0.3765.0 2 2
+firefox67.0 1 1
+chrome47.0.2526.106 6 6
+chrome60.0.3112.107 4 4
+chrome87.0.4280.101 124 16
+chrome85.0.4183.102 38 38
+chrome91.0.4472.120 148 22
+Unknown 126 126
+chrome91.0.4472.124 4 0
+chrome92.0.4515.107 6 0
+chrome91.0.4472.101 4 4
+firefox72.0 12 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla 20210726184018
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210726025411
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210729222111
+Yobot 20210723205348
+Jersey/2.25.1_(HttpUrlConnection_1.8.0_141) 20210726014711
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210729222111
+Yobot 20210723205348
+Jersey/2.25.1_(HttpUrlConnection_1.8.0_141) 20210726014711
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210726025411
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 214 214
+From1 0 0
+From2 20 42
+From3 4 4
+From4 88 318
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_com_pk 0 2
+www_google_com_hk 8 8
+www_google_com 12 32
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://l.wl.co 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 6 1264
+405 6 653407
+404 992 753302
+406 154 34804
+500 268 181704
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 113
+/mini.php 4 -
+/wp-content/wp-logins.php 2 -
+/wp.php 2 -
+/wp-plugins.php 2 -
+/leaf.php 4 -
+/v.php 2 -
+/cms.php 4 -
+/borneo.php 2 -
+/sh3ll.php 2 -
+/x.php 4 -
+/wp-confirm.php 8 -
+/alfa.php 4 -
+/edit-form.php 4 -
+/data.php 4 -
+/f.php 2 -
+/.well-known/security.txt 2 -
+/_ignition/execute-solution 1 -
+/alex.php 4 -
+/security.txt 2 -
+/MARIJUANA.php 2 -
+/config/aws.yml 2 -
+/root.php 2 -
+/1.php 4 -
+/m.php 2 -
+/it.php 4 -
+/wp2.php 4 -
+/.wp-cache.php 4 -
+/media-admin.php 2 -
+/wso.php 4 -
+/wp-commentin.php 2 -
+/phpinfo.php 6 -
+/ohayo.php 4 -
+/XxX.php 2 -
+/ups.php 4 -
+/web/images/miscellaneous/payments.png 8 https://grahapurti.com/login
+/app-ads.txt 613 -
+/sym403.php 4 -
+/wp-sigins.php 2 -
+/777.php 4 -
+/sendmail.php 2 -
+/c.php 4 -
+/new.php 2 -
+/vuln.php 4 -
+/owl.php 4 -
+/0byte.php 4 -
+/wp-admin.php 2 -
+/upload.php 4 -
+/xox.php 2 -
+/alfa123.php 4 -
+/admin/.env 2 -
+/wp-content/wp-admin.php 2 -
+/.aws/credentials 2 -
+/www.php 4 -
+/100.php 4 -
+/wso1337.php 4 -
+/shell.php 2 -
+/mailer.php 4 -
+/.fk.php 2 -
+/wp-rss.php 4 -
+/ty.php 4 -
+/g.php 2 -
+/a.php 4 -
+/wp-one.php 4 -
+/kiss.php 4 -
+/sendemail.php 2 -
+/wp-blog.php 4 -
+/0.php 4 -
+/send.php 4 -
+/sym.php 4 -
+/anone.php 4 -
+/nasgor.php 4 -
+/ww.php 4 -
+/lan1.php 4 -
+/mar.php 2 -
+/4price.php 2 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 2 www.google.com
+/Gel.php 4 -
+/vendor/phpunit/phpunit/phpunit.xml 2 -
+/404.php 4 -
+/1337.php 4 -
+/priv8.php 4 -
+/z.php 2 -
+/blog.php 4 -
+/41.php 2 -
+/alexus.php 4 -
+/t0.php 4 -
+/nee.php 2 -
+/rahma.php 4 -
+/beence.php 4 -
+/wp/rahma.php 4 -
+/FoxWSO.php 4 -
+/o.php 2 -
+/wi.php 2 -
+/dr.php 4 -
+/up.php 4 -
+/wp_wrong_datlib.php 4 -
+/shx.php 4 -
+/wp-wso.php 4 -
+/images/vuln.php 4 -
+/3.php 4 -
+/defau1t.php 4 -
+/wp-login.php 1 -
+/symlink.php 4 -
+/uploads/contexmini.php 4 -
+/_profiler/phpinfo 4 -
+/bypass.php 4 -
+/ads.txt 3 -
+/zcx1.php 4 -
+/doc.php 4 -
+/wp-configer.php 8 -
+/xx.php 2 -
+/wp-uploads.php 4 -
+/autoload_classmap.php 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 96
+135.181.143.209 56 56 2344758 20210723205348
+54.252.129.102 26 26 2004900 20210730173901
+51.195.233.96 12 12 998688 20210726103509
+223.233.69.190 12 14 1850736 20210713053408
+27.97.157.131 12 120 19358760 20210701082814
+223.233.67.59 10 126 24658322 20210712095437
+137.226.113.44 8 8 583729 20210728224005
+92.118.160.9 6 6 1714802 20210723234731
+167.99.96.47 6 6 291988 20210728210635
+113.31.114.242 6 6 492386 20210716121549
+67.228.197.179 4 4 328498 20210721070603
+18.219.191.46 4 4 328520 20210716163234
+192.99.18.122 4 4 328660 20210725184056
+35.164.180.181 4 4 308252 20210703213729
+92.118.160.41 4 4 799027 20210726025411
+34.77.162.3 4 4 1096292 20210710014322
+169.62.66.69 4 4 328762 20210707175202
+27.97.156.75 4 4 108920 20210701085226
+54.184.231.203 4 4 308262 20210703212845
+144.86.173.77 4 4 733760 20210728111721
+34.77.162.13 4 4 987206 20210717010421
+159.69.15.209 4 4 228212 20210726184019
+34.216.119.102 2 2 97360 20210713231516
+18.237.153.183 2 2 163606 20210730211320
+54.185.73.182 2 2 154112 20210703213819
+177.52.11.40 0 2 291986 
+223.236.161.171 0 2 233202 
+18.217.150.155 1 1 0 20210709210212
+18.237.135.5 2 2 163986 20210714210851
+106.206.164.223 2 2 89117 20210719095648
+142.54.177.2 2 2 163978 20210710205354
+165.225.124.80 0 2 1831128 
+34.218.240.178 2 2 162868 20210710025646
+35.166.241.116 2 2 163850 20210721213640
+18.188.194.178 2 2 62628 20210727192157
+54.213.133.59 2 2 162842 20210727213038
+13.212.156.133 2 2 62620 20210729062328
+54.81.134.73 2 2 526600 20210702193958
+95.217.60.174 2 2 163992 20210710071433
+144.86.173.136 2 2 374519 20210720101102
+35.165.240.40 2 2 162616 20210731210151
+54.219.82.33 1 1 0 20210720205029
+18.236.241.208 2 2 162858 20210709024702
+34.229.145.138 2 2 15244 20210726014711
+34.77.162.9 2 2 366629 20210706075518
+54.213.232.180 2 2 162797 20210715214814
+18.237.219.176 2 2 89117 20210718121553
+171.13.14.76 2 2 163968 20210713233346
+54.201.191.162 2 2 162859 20210706231654
+18.237.53.115 2 2 163898 20210725210620
+54.149.4.80 2 2 162789 20210721220201
+34.77.162.14 2 2 526600 20210702214328
+34.96.130.5 2 2 573646 20210712201212
+144.86.173.90 2 2 570820 20210721154037
+178.134.156.77 0 2 1231934 
+144.86.173.89 2 2 572620 20210719201530
+34.77.162.10 2 2 374793 20210707075238
+144.86.173.65 2 2 572358 20210729222111
+54.202.54.146 2 2 162695 20210730213712
+54.214.217.161 2 2 154122 20210703215231
+92.118.160.17 2 2 383823 20210724105648
+34.220.106.120 2 2 162860 20210728212714
+34.220.127.54 2 2 154112 20210701162555
+34.208.75.210 2 2 162829 20210728215300
+49.37.146.91 0 2 65616 
+18.236.228.229 2 2 162873 20210706004302
+54.189.175.57 2 2 162812 20210720200212
+107.150.52.194 2 2 154836 20210702003606
+144.86.173.143 2 2 573036 20210723190303
+34.211.21.26 2 2 162687 20210730213429
+34.86.35.21 2 2 570820 20210715190812
+34.217.175.106 2 2 89149 20210722213034
+18.236.184.4 2 2 162668 20210729213937
+54.212.228.82 2 2 162788 20210719212118
+63.141.251.234 2 2 154140 20210702213709
+92.118.160.1 2 2 571396 20210705231712
+144.86.173.17 2 2 367243 20210728120650
+34.86.35.15 2 2 367495 20210710083220
+34.222.252.25 2 2 162881 20210713233422
+111.119.187.57 0 2 37792 
+144.86.173.11 2 2 366304 20210724045957
+198.204.234.252 2 2 164790 20210710024307
+52.32.227.22 2 2 163972 20210711212203
+92.118.160.61 2 2 573196 20210704210508
+49.36.185.82 0 2 51054 
+103.96.47.2 0 2 65616 
+144.86.173.84 2 2 432712 20210728050242
+54.189.164.93 2 2 163978 20210707221416
+34.96.130.3 2 2 573196 20210706234812
+92.118.160.13 2 2 573070 20210718201437
+92.118.160.57 2 2 573196 20210712140434
+34.86.35.30 2 2 573070 20210717111649
+106.51.25.228 0 4 213846 
+47.31.146.173 0 4 1371770 
+144.86.173.137 2 2 572586 20210723041620
+122.171.165.37 0 2 16622 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210701 20 128 20146688 4
+20210702 8 10 3193304 4
+20210703 12 12 924748 4
+20210704 2 2 573196 1
+20210705 2 2 571396 1
+20210706 8 8 1265557 4
+20210707 8 10 884155 3
+20210708 2 2 164772 1
+20210709 3 3 162858 2
+20210710 14 16 2203707 7
+20210711 2 2 163972 1
+20210712 14 130 25805164 3
+20210713 18 20 2274945 4
+20210714 2 8 1601372 1
+20210715 6 8 2055068 3
+20210716 12 12 1237292 5
+20210717 4 4 1143890 2
+20210718 6 6 1234807 3
+20210719 8 8 1248168 4
+20210720 7 9 1137977 4
+20210721 10 12 1291573 4
+20210722 4 6 304925 2
+20210723 62 62 4061166 4
+20210724 4 4 750127 2
+20210725 6 6 492558 2
+20210726 20 20 1617528 4
+20210727 4 4 225470 2
+20210728 18 18 1948666 7
+20210729 6 6 797646 3
+20210730 32 34 2785874 4
+20210731 2 6 376462 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 89
+5mn-15mn 2
+30s-2mn 3
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 50
+/ 190 26032115 89 83
+/shop 14 577782 0 0
+/login 6 163380 1 2
+/phpinfo 6 189546 2 3
+/uindex.php 4 333470 2 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2 4 297280 0 0
+/old-index.php 4 333462 0 0
+/fonts/Montserrat-Bold.woff 4 444400 0 0
+/qindex.php 4 333470 0 0
+/stindex.php 4 333462 0 1
+/fonts/Montserrat-Regular.woff 4 444064 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2 4 288592 0 1
+/2index.php 4 333462 0 0
+/1index.php 4 333462 0 0
+/11index.php 2 167014 0 0
+/product-detail/bann-royal-bake-jeera-bite-cookies-400gm 2 80700 0 0
+/product-detail/bicano-navratan-mixture-1-kg-buy-01-get-01-1 2 80650 0 0
+/product-detail/himalaya-men-face-beard-wash-180 2 81398 0 0
+/product-detail/patanjali-dant-kanti-tooth-paste-100gm 2 81336 0 0
+/product-detail/mc-caun-chilli-garlic-potato-bites-400gm 2 63024 0 0
+/product-detail/mc-caun-mini-samosa-cheese-pizza-175-gm 2 80018 0 0
+/product-detail/gaia-lite-sugarfree-cookies-coconut-multigrains-200gm 2 80740 0 0
+/product-detail/odonil-air-freshener-mystic-rose-buy-3-get-1 2 81392 0 0
+/sindex.php 2 167014 0 0
+/product-detail/lux-soft-touch-french-rose-almond-oil-soap-bar-1 2 81396 0 0
+/c99.php 1 358 0 1
+/product-detail/roasted-badam-giri-250-gm 2 80006 0 0
+/cgi-sys/suspendedpage.cgi 2 15244 1 1
+/wikindex.php 2 167014 0 0
+/3index.php 2 167014 0 0
+/baindex.php 2 167014 0 0
+/product-detail/lifebuoy-silver-shield-formula-3-1-pc 2 81398 0 1
+/product-detail/garnier-light-complete-face-wash-100gm 2 81386 0 0
+/product-detail/colgate-max-fresh-mega-pack-300-gm 2 81380 0 0
+/product-detail/kesh-kanti-milk-protein-shampoo-200ml 2 81356 0 0
+/product-detail/nivea-men-fresh-active-long-lasting-freshness-deodorant-spray-1 2 81362 0 0
+/product-detail/mc-caun-smiles-crispy-happy-potatoes-200gm 2 80702 0 0
+/product-detail/whisper-ultra-clean-xl-7-pads 2 81362 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf 2 372456 0 0
+/product-detail/colgate-strogh-teeth-toothpaste-200gm 2 81380 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff 2 192496 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf 2 250032 0 1
+/product-detail/dettol-original-trusted-protection-125gm-5pack-set 2 81398 0 0
+// 2 154488 0 2
+/fonts/Montserrat-Bold.ttf 2 391646 1 0
+/cgi-sys/403.html 1 358 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff 2 169136 0 0
+/fonts/Montserrat-Regular.ttf 2 466614 0 0
+/product-detail/amricana-orginal-butter-cookies-200gm 2 80676 0 0
+/new-index.php 2 167014 0 0
+END_SIDER

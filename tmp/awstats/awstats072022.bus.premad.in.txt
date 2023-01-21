@@ -1,0 +1,1011 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202207 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/awstats.bus.premad.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2679                
+POS_VISITOR 25036               
+POS_DAY 25580               
+POS_DOMAIN 3347                
+POS_LOGIN 3629                
+POS_ROBOT 3784                
+POS_WORMS 3944                
+POS_EMAILSENDER 4075                
+POS_EMAILRECEIVER 4218                
+POS_SESSION 25889               
+POS_SIDER 26036               
+POS_FILETYPES 4353                
+POS_DOWNLOADS 4450                
+POS_OS 4498                
+POS_BROWSER 4638                
+POS_SCREENSIZE 4790                
+POS_UNKNOWNREFERER 4864                
+POS_UNKNOWNREFERERBROWSER 4951                
+POS_ORIGIN 5033                
+POS_SEREFERRALS 5165                
+POS_PAGEREFS 5354                
+POS_SEARCHWORDS 5502                
+POS_KEYWORDS 5654                
+POS_MISC 2343                
+POS_ERRORS 5713                
+POS_CLUSTER 3485                
+POS_SIDER_404 5847                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220720180710 106 25088 6487101939039
+FirstTime 0
+LastTime 20220720174416
+LastUpdate 20220720181235 106 0 106 0 0
+TotalVisits 20                  
+TotalUnique 12                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 12                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 48 50 16804
+1 2 2 716 7 7 1582
+2 2 2 358 83 83 23932
+3 0 0 0 107 107 33444
+4 2 2 716 90 90 26601
+5 0 0 0 163 163 58408
+6 2 2 358 68 68 19874
+7 4 4 1432 50 50 13552
+8 0 0 0 74 74 21293
+9 0 0 0 41 41 13377
+10 4 4 1432 7 7 1846
+11 4 4 1432 27 27 9793
+12 4 4 1432 236 241 81012
+13 2 2 716 197 202 66072
+14 2 2 716 20 22 7685
+15 0 0 0 21 21 6031
+16 0 0 0 221 221 79156
+17 2 2 716 211 211 72491
+18 0 0 0 58 66 30326
+19 4 4 1432 1220 1224 435381
+20 0 0 0 100 102 32333
+21 0 0 0 83 83 24162
+22 0 0 0 222 226 81000
+23 6 6 2148 381 381 134030
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 26 26 8950
+lt 4 4 1432
+fr 4 4 1432
+gb 2 2 716
+cl 2 2 716
+au 2 2 358
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+curl 2 583 20220705182122 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 3 1074 0 0
+html 37 12530 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linux 4 4
+linuxandroid 6 6
+win7 2 2
+androidkitkat 20 20
+win10 6 6
+win8 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 6
+chrome 2 2
+firefox83.0 4 4
+firefox52.0 4 4
+android 26 26
+chrome36.0.1985.67 2 2
+chrome29.0.1547.2 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 32 32
+From1 0 0
+From2 8 8
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_bing_com 2 2
+www_google_com 4 4
+bing 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+409 56 4648
+406 798 180348
+403 236 129488
+404 2671 975118
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 736
+/bencandy.php 2 -
+/a.php 6 www.bing.com
+/zone-h.php 2 -
+//wp.php 11 www.google.com
+/wp-content/ALFA_DATA 6 www.bing.com
+/laravel.php 2 -
+//qws.php 5 www.google.com
+/wp-admin/ALFA_DATA 3 www.bing.com
+/autoload.php 2 -
+/Symlink.php 2 -
+/zuoshss.php 2 -
+/up2.php 2 -
+//wp-includes/media-template-ajax.php 5 www.google.com
+/connect_meta.php 2 -
+//wp-includes/SimplePie/Net/about.php 5 www.google.com
+/nst.php 2 -
+/wp-2019.php 5 www.google.com
+/fatal.php 2 -
+/whoami.php 2 -
+/robots.txt 10 -
+/1.php 13 www.bing.com
+/51.php 2 -
+/site/wp-content/themes/sketch/404.php 4 www.google.com
+/templates/beez3/alfacgiapi 6 www.bing.com
+/xmlrpc.php 4 -
+/frox.php 2 -
+/assets/filemanager/dialog.php 2 -
+/asset/kcfinder/upload.php 2 -
+/about.php 8 www.bing.com
+/autoload_classmap.php 5 www.google.com
+/fx.php 2 -
+/wp-content/cgialfa 6 www.bing.com
+/db_session.init.php 2 -
+/peju.php 2 -
+/wp-blog-header.php 2 -
+/buluya.php 2 -
+/whoami.php.php 2 -
+/76.php 2 -
+/bypass-login.php 2 -
+/tshop.php 4 https://www.google.com
+/wp-includes/images/media/new-index.php 5 www.google.com
+/jing.php 2 -
+/kagari.php 2 -
+//wp-content/plugins/index-meta.php 5 www.google.com
+/ru24_post_sh.php 2 -
+/andela.php 2 -
+//wordpress/wp-content/themes/twentyfive/include.php 5 www.google.com
+/downloader.php 2 -
+/project.php 2 -
+/888.php 2 -
+/xx.php 6 -
+/wp-blog.php 7 www.google.com
+/nosuichfile.php 2 -
+/cv.php 5 www.google.com
+/Loaderz_WEB_Shell.php 2 -
+/octeesfes.php 2 -
+/chonx.php 2 -
+//new-index.php 5 www.google.com
+/wp-content/plugins/search-everything/uninstall-private.php 6 www.google.com
+//admin.php 5 www.google.com
+/cn.php 2 -
+/wp-log.php 2 -
+/phvayv.php 2 -
+/leafmailer2.8.php 6 -
+/ctt_sh.php 2 -
+/db.init.php 2 -
+/test1.php 2 -
+//xl33t.php 5 www.google.com
+//wp-includes/images/smilies/2index.php 5 www.google.com
+/ak48.php 2 -
+/if.php 4 https://www.google.com
+/xiu.php 2 -
+//wp-content/plugins/ubh/con.php 5 www.google.com
+/lamashell.php 2 -
+/wp-content/themes/magazine-prime/wp-aespa.php 5 www.google.com
+/index.php 8 www.bing.com
+/th3_alpha.php 2 -
+//1index.php 10 www.google.com
+/2ndex.php 2 -
+/cpn.php 2 -
+/shell20211028.php 5 www.google.com
+/wp-content/uploads/alfacgiapi 6 www.bing.com
+/bypassshell.php 2 -
+/wp_wrong_datlib.php 6 www.bing.com
+/spy.php 2 -
+/xl33t.php 5 www.google.com
+/79.php 2 -
+/wp-includes/css/css.php 6 www.bing.com
+/1337.php 4 https://www.google.com
+/h0l4.php 2 -
+/dl.php 2 -
+/defau11.php 6 www.bing.com
+/export.php 11 www.bing.com
+/mutuba.php 2 -
+/wp-booking.php 8 www.bing.com
+/defaul1.php 7 www.google.com
+/wp-backup-sql-302.php 6 www.bing.com
+/4lin.php 2 -
+/blog/ 10 -
+/wp-conde.php 2 -
+//wp-includes/Text/Diff/content.php 4 www.google.com
+/upgrade_handle.php 2 -
+/alfa.php 17 www.bing.com
+/wp-content/themes/twentytwenty/content.php 5 www.google.com
+/Bnkqbakq.php 2 -
+/lostDC.php 2 -
+//alfa.php 5 www.google.com
+/96.php 2 -
+/indonesia.php 2 -
+/wp-images.php 2 -
+/CCCC.PHP 2 -
+/hannan.php 2 -
+/Leaf.php 4 https://www.google.com
+/V5.php 2 -
+/411.php 2 -
+/kkkk.php 2 -
+/d7.php 2 -
+/wp-rss.php 2 -
+/wp/wp-includes/wp-class.php 2 www.google.com
+//wp-includes/ID3/wp-aespa.php 5 www.google.com
+/h4ntu_shell_%5Bpowered_by_tsoi%5D.php 1 -
+/wp-includes/class-wp-roles.php 5 www.google.com
+/shipu.php 2 -
+/wp-sho.php 2 -
+/linux1.php 2 -
+/defau1t.php 6 www.bing.com
+/ce.PHP 2 -
+/g.php 2 -
+/nobody-uploader.php 2 -
+/proxy.php 2 -
+/XXX.php 2 -
+/default.php 2 -
+/db_dataml.php 2 -
+/wp-header.php 2 -
+/dexgp.php 2 -
+//wp-content/themes/sketch/404.php 5 www.google.com
+/wp-includes/wp-class.php 13 www.bing.com
+/sites/default/files/cgialfa 6 www.bing.com
+//wp-content/plugins/wp-super-cache/wp-cache-core.php 4 www.google.com
+/.well-known/cgialfa 6 www.bing.com
+/assets/js/kcfinder/upload.php 2 -
+//local.php 5 www.google.com
+//wp-content/plugins/apikey/nocap.php 5 www.google.com
+/no.php 2 -
+/Pings.php 2 -
+/upload.php 6 www.bing.com
+/j4j4.php 2 -
+/moo.php 2 -
+/cmv.php 2 -
+/skipper.php 4 https://www.google.com
+/wp-content/plugins/ubh/up.php 6 www.bing.com
+/desktop.ini.php 2 -
+/aaaaaa1.php 2 -
+/d0maine.php 2 -
+/wpo.php 2 -
+/Diverses.php 2 -
+/GFS_web-shell_ver_3.1.7_-_PRiV8.php 2 -
+/21.php 2 -
+/wp-includes/alfacgiapi 6 www.bing.com
+/ru.php 4 https://www.google.com
+/rwo1tt.php 2 -
+/phpinfo.php 2 -
+//wp-content/plugins/search-everything/uninstall-private.php 6 www.google.com
+/wp-content/infodata.php 5 www.google.com
+/Hello.php 2 -
+/log.php 2 -
+/alwso.php 5 www.google.com
+/infoo.php 2 -
+/0day.php 2 -
+/CC.php 2 -
+/wp-class.php 2 www.google.com
+/madspotshell.php 2 -
+/berandal-owlsquad.php 2 -
+/wso-latest.php 2 -
+/fox.php 2 -
+/wp-content/db-cache.php 6 www.bing.com
+//wp-includes/ajax.php 5 www.google.com
+/phpinf.php 2 -
+/tttt.php 4 https://www.google.com
+/inbexw.php 5 www.google.com
+/bbv.php 2 -
+/marijuana.php 4 https://www.google.com
+/modules/mod_araticlws/mod_araticlws.php 5 www.google.com
+/pk1914.php 2 -
+/radio.php 13 www.bing.com
+/wp-mail.php 2 -
+//wp-signin.php 5 www.google.com
+/z.php 11 www.bing.com
+/templates/beez3/ALFA_DATA 6 www.bing.com
+/weixiao.php 2 -
+/baidoubi.php 2 -
+//x.php 5 www.google.com
+/hacly.php 2 -
+/edit-form.php 4 https://www.google.com
+/af.php 5 www.google.com
+/78.php 2 -
+/wp-includes/media-template-ajax.php 5 www.google.com
+/qaq.php 2 -
+/doc.php 12 www.bing.com
+/beita.php 2 -
+/wp-tugab.php 2 -
+/submit.php 2 -
+//v.php 5 www.google.com
+//wp-content/infodata.php 5 www.google.com
+/Elang.php 2 -
+/priv8.php 6 -
+/alfav4.1-tesla.php 2 -
+/swm.php 4 https://www.google.com
+/cmd-simple.php 2 -
+/function.inc.php 2 -
+/Ganteng.php 2 -
+//w0pnwc.php 5 www.google.com
+//defaul1.php 5 www.google.com
+/local.php 7 www.google.com
+/simattacker.php 2 -
+/undx.php 2 -
+/wp-comments-post.php 2 -
+/feixiang.php 2 -
+/wp-content/themes/bloft/infodata.php 5 www.google.com
+/c0derz_shell.php 2 -
+//old-index.php 5 www.google.com
+/sym3.php 2 -
+/tai.php 2 -
+/karo.php 2 -
+//wp-includes/formatting.php 5 www.google.com
+/wp-plain.php 2 -
+/www.php 2 -
+/i.php 2 -
+//modules/mod_araticlws/mod_araticlws.php 5 www.google.com
+/mailer3.php 2 -
+/wp-includes/SimplePie/Net/about.php 5 www.google.com
+//xleet.php 5 www.google.com
+/admin/controller/extension/extension/ALFA_DATA 6 www.bing.com
+/wp-includes/ajax.php 5 www.google.com
+/403.php 5 www.google.com
+//1.php 5 www.google.com
+/wp-includes/images/smilies/2index.php 5 www.google.com
+/wp.php 23 www.bing.com
+/logo.php 2 -
+//xleet-shell.php 5 www.google.com
+/3x.php 2 -
+/mo.php 2 -
+//wp-content/srluk.php 5 www.google.com
+/site/wp-class.php 2 www.google.com
+/ka_ushell.php 2 -
+/r00t.php 2 -
+/gank.php.PhP 8 www.bing.com
+/mininew.php 2 -
+//wp-includes/xleet.php 5 www.google.com
+//style.php 5 www.google.com
+/vb.zipr00t.php 1 -
+/d3f4c3r.php 2 -
+//wp-config-sample.php 5 www.google.com
+/cxfm666.php 2 -
+/coeg.php 2 -
+//wp-includes/class-wp-roles.php 5 www.google.com
+/h4llo.php 2 -
+/kontol.php 2 -
+/SnIpEr_SA.php 2 -
+/offline.php 2 -
+/pmize.php 2 -
+/k2ll33d.php 2 -
+/up3.php 2 -
+/filemanager/dialog.php 2 -
+/abuhlail.php 2 -
+/jb.php 2 -
+//ups.php 5 www.google.com
+/unzip.php 2 -
+/XxX.php 6 -
+/Ss.php 2 -
+/wp-plugins.php 11 www.bing.com
+/Rava.php 2 -
+/098.php 2 -
+/service.php 2 -
+/plugins/kcfinder/upload.php 2 -
+/c22.php 2 -
+/jiwa.php 2 -
+/46.php 2 -
+/ffr.php 2 -
+/conf1g.php 2 -
+/ntunnel_mysql.php 2 -
+/PL1k3.php 2 -
+/Vuln.php 2 -
+//modules/mod_ariimageslidersa/mod_ariimageslidersa.php 5 www.google.com
+/alex.php 4 https://www.google.com
+/specialshell_99.php 2 -
+/Predator.php 2 -
+/indeeex.php 2 -
+/wp-sling.php 2 -
+/89.php 2 -
+/2008.php 2 -
+/wp-includes/l10n-cron.php 5 www.google.com
+/wp-content/plugins/backup_index.php 6 www.bing.com
+/wp-includes/ALFA_DATA 6 www.bing.com
+/ganzhuolang.php 2 -
+//content.php 5 www.google.com
+/wp-content/themes/sketch/404.php 9 www.google.com
+/m.php 4 https://www.google.com
+/wp-admin.php 3 -
+//403.php 5 www.google.com
+/list.php 2 -
+/r577.php 2 -
+/qiqi1.php 2 -
+/wp-content/xleet.php 5 www.google.com
+//0.php 5 www.google.com
+/47.php 2 -
+/bypass529.php 2 -
+/dracos.php 2 -
+/wos.php 2 -
+/dev.php 2 -
+/code.php 2 -
+/phpinfi.php 2 -
+//wp-includes/wp-class.php 5 www.google.com
+//wp-content/themes/twentythirteen/images/headers/about.php 5 www.google.com
+/5.php 2 -
+/mangel.php 2 -
+/jyyy.php 2 -
+/bibi.php 2 -
+/gi8e6.php 2 -
+/n00b.php 2 -
+/assets/kcfinder/upload.php 2 -
+/auth.php 2 -
+/1n73ct.php 2 -
+/IndoSec.php 2 -
+/js/kcfinder/upload.php 2 -
+/x.php 17 www.bing.com
+/enak.php 2 -
+/wp-includes/images/css.php 6 www.bing.com
+//wp-includes/images/wlw/content.php 5 www.google.com
+/wp-admin/css/ 6 binance.com
+//shell20211028.php 5 www.google.com
+/ffAA531.php 5 www.google.com
+//ffAA531.php 5 www.google.com
+/NGH-encoded.php 2 -
+/wp-content/plugins/wp-super-cache/wp-cache-core.php 4 www.google.com
+//simple.php 5 www.google.com
+/cere.php 2 -
+/error.php 6 www.bing.com
+/class-wp-type-registroy.php 2 -
+/404.php 4 https://www.google.com
+/49.php 2 -
+/wp-cla.php 2 -
+/gaza.php 4 https://www.google.com
+/1337rxr.php 2 -
+/Simple_PHP_backdoor.php 2 -
+/system_log.php 6 www.bing.com
+/wp-content/uploads/ALFA_DATA 6 www.bing.com
+/egyshell.php 2 -
+/phpinf0.php 2 -
+/.git/config 2 -
+/sconfig.php 2 -
+/wp-admin/style.php 3 www.bing.com
+/wp-includes/ID3/license.txt 6 -
+/lufix.php 5 www.google.com
+/wp-content/outcms.php 4 www.bing.com
+/wp-content/admin.php 5 www.google.com
+/customizer.php 2 -
+/shells.php 6 www.bing.com
+/wp-rss2.php 2 -
+/test.php 8 www.bing.com
+/vvv.php 2 -
+/assets/plugins/kcfinder/upload.php 2 -
+/w.php 7 www.google.com
+/license.php 2 -
+/wp-SEo.php 2 -
+//wp-admin/includes/class-ftp-pure-meta.php 5 www.google.com
+/alfashell.php 2 https://www.google.com
+/wp-login.php 1 -
+/style.php 13 www.bing.com
+/wp-info.php 2 -
+/Simple-Webshell.php 2 -
+/_404.php 2 -
+//export.php 5 www.google.com
+//cgi-etc/quti.php 5 www.google.com
+/wp-includes/xleet.php 5 www.google.com
+/admin.php 9 www.google.com
+//wp-plugins.php 5 www.google.com
+/hd.php 2 -
+/Skri.php 2 -
+/wso1.php 6 -
+/981.php 2 -
+//images/mod_config.php 5 www.google.com
+/user.php 2 -
+/templates/beez3/cgialfa 6 www.bing.com
+/jo.php 2 -
+/uploader.php 4 https://www.google.com
+/Predator-encoded.php 2 -
+/wp-config-sample.php 5 www.google.com
+/wordpress/wp-content/themes/twentyfive/include.php 5 www.google.com
+//wp-content/themes/twentytwenty/content.php 5 www.google.com
+/admin/controller/extension/extension/alfacgiapi 6 www.bing.com
+/elrekt.php 2 -
+/kkl.php 2 -
+/simple.php 5 www.google.com
+/1index.php 22 www.bing.com
+/from_the_wild1.php 2 -
+/media-admin.php 6 www.bing.com
+/wp-content/upload.php 5 www.google.com
+/olux.php 6 www.bing.com
+//wp-admin/maint/langar.php 5 www.google.com
+/lifkas.php 2 -
+/manak.php 2 -
+/Moroccan_Spamers_Ma-EditioN_By_GhOsT.php 2 -
+/taisui.php 2 -
+/ldw.php 2 -
+/images/mod_config.php 5 www.google.com
+/wp-admins.php 1 -
+/302.php 2 -
+/sado.php 2 -
+/KA_uShell_0.1.6.php 2 -
+/sane.php 2 -
+//radio.php 5 www.google.com
+/xleet.php 11 www.bing.com
+/y.php 2 -
+/b374k-mini-shell-php.php 2 -
+/blog/wp-class.php 2 www.google.com
+/bra.php 2 -
+/dz1.php 2 -
+/nob.php 2 -
+/userr.php 2 -
+//wp-vatva.php 5 www.google.com
+/wp-content/plugins/wp-work/infodata.php 5 www.google.com
+/hue2.php 2 -
+/dx.php 2 -
+/zxc2.php 2 -
+/wp-sejours.php 2 -
+/hacked.php 4 https://www.google.com
+/sites/default/files/ALFA_DATA 6 www.bing.com
+/ml.php 2 -
+/27.php 2 -
+/_query.php 2 -
+/rootshell.php 2 -
+/old-index.php 7 www.google.com
+/wp-content/index.php 2 www.google.com
+/mr.php 2 -
+/Lux.php 4 https://www.google.com
+/wp-register.php 2 -
+//baindex.php 5 www.google.com
+/34.php 2 -
+/alfacgiapi 6 www.bing.com
+//wp-includes/Text/Diff/radio.php 5 www.google.com
+/moduless.php 6 www.bing.com
+/alpa.php 2 -
+/26.php 2 -
+//wp-content/themes/magazine-prime/wp-aespa.php 5 www.google.com
+/shell.php 12 www.bing.com
+/pmd_online.php 2 -
+/init.php 2 -
+/Moxin.PHP 2 -
+/ws.php 6 -
+/contents.php 2 -
+/zzz.php 2 -
+//wp-admin/admin.php 5 www.google.com
+/qindex.php 5 www.google.com
+/changeall.php 2 -
+/templates/beez3/index.php 6 www.bing.com
+/gant3n9.php 2 -
+/mailer.php 4 https://www.google.com
+//2index.php 5 www.google.com
+//wp-admin/includes/mar.php 5 www.google.com
+/smevk.php 2 -
+/kcfinder/upload.php 2 -
+/win.php 2 -
+/wp-load.php 8 www.bing.com
+/sindex.php 2 -
+//wp-admin/.okp.php 5 www.google.com
+/b374k-mini-shell-php.php.php 2 -
+/vf.php 2 -
+/idx.php 2 -
+/plugin.php 2 -
+/hola.php 2 -
+//wp-content/upload.php 5 www.google.com
+/wordpress/wp-includes/wp-class.php 2 www.google.com
+/beence.php 6 www.bing.com
+/help.php 2 -
+/.well-known/ALFA_DATA 6 www.bing.com
+/h4ntu_shell.php 2 -
+/w0pnwc.php 5 www.google.com
+/fot.php 2 -
+/bb.php 4 -
+/fuck.php 2 -
+/web.php 2 -
+/3index.php 6 -
+/srx.php 4 https://www.google.com
+/cmx.php 2 -
+//wp-content/admin.php 5 www.google.com
+/c99madshell.php 2 -
+/kvast.php 2 -
+/ks1.php 2 -
+/k-mass.php 2 -
+//alwso.php 5 www.google.com
+/mail.php 2 -
+/4.php 2 -
+/galau.php 2 -
+/uMc.php 2 -
+/sz.php 2 -
+/wp-content/plugins/index-meta.php 5 www.google.com
+/accesson0.php 2 -
+/lucky.php 2 -
+/crypted.php 2 -
+/j.php 2 -
+/smtphec.php 2 -
+/e.php 2 -
+/wp-content/plugins/ubh/con.php 5 www.google.com
+/by.php 2 -
+/wso-bug7sec.php 2 -
+/0.php 7 www.google.com
+/ngh.php 2 -
+/webshell.php 2 -
+/wts.php 2 -
+/ALFA_DATA 6 www.bing.com
+//z.php 5 www.google.com
+/wordpress/ 10 -
+/wordpress/wp-class.php 2 www.google.com
+/saudi.php 4 https://www.google.com
+/yc.php 2 -
+/functions.php 2 -
+/digg.php 2 -
+/muhstik.php 2 -
+//wp-content/themes/bloft/infodata.php 5 www.google.com
+/Dz.php 2 -
+/PHVayv-encoded.php 2 -
+/megabor.php 2 -
+//wp-content/themes/zakra/image.php 10 www.google.com
+/phantasma.php 2 -
+/qws.php 5 www.google.com
+/ma.php 2 -
+/kuda.php 2 -
+/leaf.php 4 https://www.google.com
+/antichat.php 2 -
+/wp-includes/Text/Diff/radio.php 5 www.google.com
+/bitwise.php 2 -
+//wp-content/xleet.php 5 www.google.com
+/8.php 2 -
+//w.php 5 www.google.com
+/blog/wp-content/themes/sketch/404.php 4 www.google.com
+/jgkfzzjdpa.php 2 -
+/wp-content/plugins/apikey/nocap.php 5 www.google.com
+/config.php 8 www.bing.com
+/min.php 2 -
+/killer.php 2 -
+/mils.php 2 -
+/52.php 2 -
+//images/up.php 5 www.google.com
+/62.php 2 -
+/xleet-shell.php 5 www.google.com
+/sniper_sa_shell.php 2 -
+/mini.php 2 -
+/images/up.php 5 www.google.com
+/update.php 2 -
+/pHpINJ-encoded.php 2 -
+/qsd-backdoor.php 2 -
+//wp-content/plugins/wp-work/infodata.php 5 www.google.com
+/h4ntu_shell_[powered_by_tsoi].php 1 -
+/image.php 2 -
+//wp-includes/l10n-cron.php 5 www.google.com
+/shell4.php 4 https://www.google.com
+/mm.php 2 -
+/osn.php 2 -
+/PinoyLULZSecPrivateShell2017.php 2 -
+/inc20k1.php 6 -
+/new.php 4 https://www.google.com
+/wp-includes/css/wp-config.php 6 www.bing.com
+/feed/ 8 -
+/varb.php 5 www.google.com
+/ass.php 2 -
+/wp-admin/cgialfa 3 www.bing.com
+/1337seller56.php 2 -
+/41.php 2 -
+/7.php 2 -
+/polycom_proxy.php 2 -
+/wp-0.php 2 -
+//asd.php 6 www.google.com
+/archives.php 6 www.bing.com
+/53.php 2 -
+//wp-content/export.php 5 www.google.com
+/16.php 2 -
+//wp-2019.php 5 www.google.com
+/my_alfa.php 2 https://www.google.com
+/wp-content/themes/twentythirteen/images/headers/about.php 5 www.google.com
+/notexistentpath.php 2 -
+/wp-content/themes/zakra/image.php 10 www.google.com
+/xing.php 2 -
+/haxor.php 2 https://www.google.com
+/E.php 2 -
+/shx.php 2 https://www.google.com
+/zz.php 2 -
+/wp-includes/wp-atom.php 6 www.bing.com
+/bayz21-priv-shell-v3.php 2 -
+/spygrup.php 2 -
+/modules/mod_ariimageslidersa/mod_ariimageslidersa.php 5 www.google.com
+/wp-signin.php 11 www.bing.com
+/htdocs.php 2 -
+/wp-settings.php 2 -
+/wp/wp-content/themes/sketch/404.php 4 www.google.com
+/leafmailer.php 4 https://www.google.com
+/s_ne.php 6 www.bing.com
+/id.php 2 -
+/SimAttacker-Version1.0.0-encoded.php 2 -
+/wp-includes/images/wlw/content.php 5 www.google.com
+/ups.php 17 www.bing.com
+/wp-includes/ID3/wp-aespa.php 5 www.google.com
+/wp-content/mu-plugins/db-safe-mode.php 6 www.bing.com
+//wp-includes/images/media/new-index.php 5 www.google.com
+/2index.php 7 www.google.com
+/secure.php 2 -
+//inbexw.php 5 www.google.com
+/wp-includes/plugin.php 5 www.google.com
+/rdp.php 2 -
+/new-index.php 5 www.google.com
+/baindex.php 7 www.google.com
+/inje3ctor.php 4 https://www.google.com
+//fw.php 5 www.google.com
+/s_e.php 6 www.bing.com
+/wp-content/alfacgiapi 6 www.bing.com
+/caonma.php 2 -
+/Navir.php 4 https://www.google.com
+//wp-blog.php 5 www.google.com
+//wp-content/themes/bigmart/public/data.php 5 www.google.com
+/xyz.php 2 -
+/cmd13.php 4 https://www.google.com
+/wp-content/export.php 11 www.bing.com
+/wanan.php 2 -
+/App91188618.php 2 -
+/Sincap1.0-encoded.php 2 -
+/dam.php 2 -
+/key.php 2 -
+/LEAF.php 4 https://www.google.com
+/toor.php 2 -
+/dxshell.php 2 -
+/content.php 5 www.google.com
+/wp-content/themes/twentyfive/include.php 9 www.google.com
+//wp-content/themes/twentyfive/include.php 5 www.google.com
+/wp-admin/alfacgiapi 3 www.bing.com
+/64.php 2 -
+/aa.php 2 -
+/laobiao.php 2 -
+/u.php 6 www.google.com
+/admindash.php 2 -
+/no1.php 2 -
+/Kontakt.php 2 -
+/templates/atomic/error.php 5 www.google.com
+//autoload_classmap.php 5 www.google.com
+/099.php 2 -
+/wikindex.php 8 -
+/wp-includes/formatting.php 5 www.google.com
+/pasir2.php 2 -
+/lf.php 4 https://www.google.com
+/Safe_Mode_Bypass.php 2 -
+/24.php 2 -
+/wp-activate.php 2 -
+/wp-configs.php 2 -
+/vuln.php 4 https://www.google.com
+/link.php 2 -
+/home.php 2 -
+/xi.php 2 -
+/wp-vatva.php 5 www.google.com
+/lifkaS.php 2 -
+/NoObs.php 2 -
+//af.php 5 www.google.com
+//varb.php 5 www.google.com
+/as.php 2 -
+/php-web-shell.php 2 -
+/36.php 2 -
+/v.php 5 www.google.com
+/server.php 2 -
+/mazi.php 2 -
+//templates/atomic/error.php 5 www.google.com
+/blog/robots.txt 10 -
+/cgialfa 6 www.bing.com
+//u.php 6 www.google.com
+/sean.php 2 -
+/zip.func.php 2 -
+/887.php 2 -
+//wp-includes/plugin.php 5 www.google.com
+/WSO.php 2 -
+/wp-contents.php 2 -
+/hell.php 2 -
+/make2.php 2 -
+/d.php 2 -
+/GFS_web-shell.php 2 -
+//cv.php 5 www.google.com
+/accept_language.php 2 -
+/wp-content/uploads/cgialfa 6 www.bing.com
+/legion.php 6 www.bing.com
+/xiaomi.php 2 -
+/9.php 2 -
+//qindex.php 5 www.google.com
+/lala.php 2 -
+/Simple_PHP_backdoor_by_DK-encoded.php 2 -
+/wp-content/mu-plugins-old/index.php 2 -
+/up.php 10 www.bing.com
+/xYz.php 2 -
+/ihatl3.php 2 -
+/c99ud.php 2 -
+/wordpress/wp-content/themes/sketch/404.php 9 www.google.com
+/skippershell.php 4 https://www.google.com
+/dong.php 2 -
+/wp-cron.php 2 -
+/cgi-etc/quti.php 5 www.google.com
+/matamu-encoded.php 2 -
+//wordpress/wp-content/themes/sketch/404.php 5 www.google.com
+/wp-content/srluk.php 5 www.google.com
+/wp-includes/cgialfa 6 www.bing.com
+/23.php 2 -
+/wp-content/themes/bigmart/public/data.php 5 www.google.com
+/85.php 2 -
+/muhstiks.php 2 -
+/windex.php 2 -
+/wp-conf.php 2 -
+/sites/default/files/alfacgiapi 6 www.bing.com
+//lufix.php 5 www.google.com
+/uuu.php 2 -
+/extern.php 2 -
+/wp-atom.php 2 -
+/wp-includes/Text/Diff/content.php 4 www.google.com
+/main.php 2 -
+/check.php 2 -
+/zza.php 2 -
+/mass3.php 2 -
+/cocot.php 2 -
+/wp-aespa.php 2 -
+/masuk.php 2 -
+/luoran.php 2 -
+/.well-known/alfacgiapi 6 www.bing.com
+/ww.php 2 -
+/no0bs.php 2 -
+/install.php 2 -
+/wp/ 10 -
+/fw.php 11 www.google.com
+/api.php 2 -
+/asd.php 6 www.google.com
+/1111.php 2 -
+/admin/controller/extension/extension/cgialfa 6 www.bing.com
+/wso.php 10 www.bing.com
+/sql.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 12
+20.197.180.8 6 6 2148 20220707230859
+34.211.119.170 4 4 1432 20220703015045
+185.36.81.23 4 4 1432 20220709074259
+20.7.63.130 4 4 1432 20220713232554
+54.185.146.197 4 4 1432 20220711100525
+107.172.100.198 4 4 1432 20220712195704
+193.56.29.173 4 4 1432 20220720174416 20220720174416 /
+51.79.147.13 2 2 716 20220707194430
+191.101.217.27 2 2 716 20220719110718
+143.198.235.178 2 2 358 20220715065135
+139.59.237.98 2 2 358 20220705024753
+207.154.218.42 2 2 716 20220705120917
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20220702 2 2 716 1
+20220703 2 2 716 1
+20220705 4 4 1074 2
+20220707 8 8 2864 4
+20220708 2 2 716 1
+20220709 2 2 716 1
+20220710 2 2 716 1
+20220711 2 2 716 1
+20220712 4 4 1432 2
+20220713 4 4 1432 2
+20220715 2 2 358 1
+20220719 4 4 1432 2
+20220720 2 2 716 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 17 5370 1 15
+/cgi-sys/404.html 15 5370 14 1
+/cgi-sys/403.html 5 1790 5 0
+/c99.php 3 1074 0 3
+END_SIDER

@@ -1,0 +1,415 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.xamcrackers.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2691                
+POS_VISITOR 9037                
+POS_DAY 10719               
+POS_DOMAIN 3350                
+POS_LOGIN 3650                
+POS_ROBOT 3805                
+POS_WORMS 4221                
+POS_EMAILSENDER 4352                
+POS_EMAILRECEIVER 4495                
+POS_SESSION 11307               
+POS_SIDER 11475               
+POS_FILETYPES 4630                
+POS_DOWNLOADS 4729                
+POS_OS 4811                
+POS_BROWSER 4960                
+POS_SCREENSIZE 5324                
+POS_UNKNOWNREFERER 5398                
+POS_UNKNOWNREFERERBROWSER 5785                
+POS_ORIGIN 5901                
+POS_SEREFERRALS 6035                
+POS_PAGEREFS 6179                
+POS_SEARCHWORDS 6327                
+POS_KEYWORDS 6479                
+POS_MISC 2355                
+POS_ERRORS 6538                
+POS_CLUSTER 3506                
+POS_SIDER_404 6677                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200701013319 19 3505 12161094936988
+FirstTime 0
+LastTime 20200630220617
+LastUpdate 20200701071545 19 0 18 0 0
+TotalVisits 58                  
+TotalUnique 43                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 43                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 7 1114 13 18 4374
+1 3 3 894 3 8 3639
+2 4 4 1618 36 48 15338
+3 4 4 1024 14 20 8125
+4 1 1 0 16 24 8794
+5 0 0 0 20 32 14992
+6 1 1 0 38 70 29209
+7 0 0 0 12 14 4447
+8 0 0 0 14 88 53114
+9 0 0 0 111 155 53832
+10 8 8 18070 91 107 23402
+11 2 2 594 23 33 27995
+12 6 6 1024 26 40 17408
+13 2 2 894 10 18 9464
+14 43 43 11982 12 18 7536
+15 6 6 1626 20 26 12398
+16 2 2 512 22 28 9080
+17 5 5 512 21 31 8754
+18 12 12 3596 17 25 8144
+19 1 1 0 16 22 9632
+20 2 2 512 24 34 14190
+21 2 2 512 12 22 8912
+22 6 6 1716 51 63 26926
+23 2 2 602 34 44 15570
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 70 70 27386
+de 25 25 3432
+gb 6 6 2098
+in 6 6 1708
+ru 6 6 1790
+cn 4 4 1910
+jp 2 2 8478
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+YandexBot/ 52 14582 20200628164301 0
+bingbot/ 34 8692 20200630165700 0
+bot[\s_+:,\.\;\/\\-] 32 15718 20200630064754 0
+Googlebot/ 28 39384 20200629190645 0
+[\s_+:,\.\;\/\\-]bot 6 1618 20200624031523 0
+crawl 4 914 20200627040034 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 1106 20200619004844 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 115 29846 0 0
+cgi 4 16956 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/app-ads.txt 1 0 0
+/ads.txt 1 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linux 10 10
+macosx11 4 4
+win10 64 64
+win8.1 6 6
+Unknown 18 18
+win7 15 15
+macosx 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+chrome75.0.3770.142 4 4
+firefox47.0 4 4
+Unknown 4 4
+chrome83.0.4103.97 2 2
+chrome40.0.2214.85 13 13
+chrome70.0.3538.77 2 2
+chrome65.0.3325.181 2 2
+chrome74.0.3729.169 4 4
+msie11.0 6 6
+netscape5.0 2 2
+chrome83.0.4103.61 12 12
+mozilla 12 12
+chrome47.0.2526.111 2 2
+chrome53.0.2785.143 2 2
+chrome66.0.3359.181 48 48
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_zgrab/0.x 20200627001419
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20200623201938
+Go-http-client/1.1 20200608140949
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20200622125350
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20200608140949
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 119 119
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+404 649 287233
+403 144 19296
+409 6 498
+302 14 3296
+406 13 2938
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 73
+/student/bookmarks/add 2 -
+/ads.txt 64 -
+/DS/index.html 8 -
+/index.php/frontend/exam 4 -
+/student/bookmarks/delete/ 4 -
+/ 47 -
+/.env.live 2 -
+/public/uploads/lms/series/10-image.png 2 -
+/index.php 6 -
+/student/bookmarks/delete 4 -
+/___proxy_subdomain_cpcalendars/ 2 -
+/site/courses 2 -
+/.env.rc 8 -
+/LMS/all-categories 6 -
+/.env.default 8 -
+/vendor/phpunit/phpunit/src/Util/PHP/tai.php 2 -
+/LMS/all-categories/english-grammer-3e78195ac5113afd87a1e9d19bc54e358e5edaa1-2 2 https://www.google.com/
+/.git/HEAD 2 -
+/public/uploads/lms/series/9-image.png 2 -
+/.env.test 2 -
+/.env.local 2 -
+/.env.staging 2 -
+/.env.localhost 2 -
+/___proxy_subdomain_webdisk/cgi-sys/404.html 5 -
+/login 18 -
+/site/privacy-policy 2 -
+/sitemap.xml 4 -
+/site/about-us 4 -
+/.env.production 2 -
+/___proxy_subdomain_webdisk/ 10 -
+/___proxy_subdomain_cpanel/cgi-sys/404.html 5 -
+/.env.server 2 -
+/___proxy_subdomain_cpcontacts/ 2 -
+/student/bookmarks/getSavedList 6 -
+/public/uploads/exams/categories/23-examimage.png 8 -
+/LMS/all-categories/physics-beab6e9d5be5ffdf4d99f0366bd72953f085a52e-1 8 -
+/LMS/contents/algebra-a303119e0db6a9bbc428921315f37ce44de97b59-4 4 -
+/sitemap.xml.gz 3 -
+/site/syllabus 4 -
+/.env.prelive 2 -
+/public/uploads/exams/categories/19-examimage.png 2 -
+/contact-us 6 -
+/.env.preprod 2 -
+/atom.xml 4 -
+/index.php/frontend/about 4 -
+/.env.development 8 -
+/practice-exams 4 -
+/.env.development.local 8 -
+/.env.prod 8 -
+/.env.travis 2 -
+/exams/start-exam/number-series-83ea7318a8a7c823875d535d7bb1e0c9800f763d-18 2 -
+/___proxy_subdomain_webmail/ 6 -
+/.env.qa 2 -
+/.env.production.local 2 -
+/.env.save 8 -
+/.env.jenkins 2 -
+/register 2 -
+/___proxy_subdomain_cpanel/ 13 -
+/sitemaps.xml 6 -
+/exam/categories/maths-category 2 -
+/.env.dev 2 -
+/index.php/frontend/index 16 -
+/home 6 -
+/sitemap_index.xml 4 -
+/robots.txt 230 -
+/.env.test.local 2 -
+/.env.dist 2 -
+/index.php/frontend/contact 4 -
+/exam/categories/physics-2 4 -
+/.env.testing 2 -
+/public/uploads/settings/CF3fQYykI7DLTkB.png 2 -
+/site/terms-conditions 4 -
+/___proxy_subdomain_webmail/cgi-sys/404.html 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 43
+138.246.253.15 13 13 0 20200627174111
+137.226.113.26 10 10 2920 20200622125350
+45.148.10.181 6 6 1708 20200625100634
+183.136.225.46 4 4 1910 20200619014616
+199.249.230.151 4 4 1204 20200612182941
+185.220.101.131 4 4 1188 20200612182714
+51.68.33.30 4 4 1204 20200612182815
+3.18.215.242 4 4 1024 20200627033723
+54.184.107.140 2 2 512 20200619142732
+52.39.94.59 2 2 512 20200620141128
+52.26.80.77 2 2 594 20200615143834
+18.236.191.237 2 2 512 20200618141052
+38.145.81.33 2 2 602 20200618021400
+34.216.200.12 2 2 512 20200630220617
+150.249.214.253 2 2 8478 20200626102210
+185.129.148.35 2 2 602 20200608101011
+34.222.81.215 2 2 594 20200607142910
+34.220.18.64 2 2 594 20200614144045
+54.200.234.226 2 2 594 20200613142343
+18.237.88.5 2 2 594 20200605142237
+192.35.168.246 2 2 512 20200627001419
+34.216.43.196 2 2 512 20200622152400
+54.189.28.39 2 2 594 20200617143319
+39.111.208.132 2 2 8478 20200626102207
+54.184.235.157 2 2 512 20200626150116
+143.215.247.120 2 2 512 20200627122124
+18.236.177.248 2 2 594 20200611144055
+137.226.113.27 2 2 512 20200623201938
+54.201.241.250 2 2 594 20200603145404
+81.133.241.97 2 2 894 20200626134829
+34.211.43.41 2 2 512 20200628210307
+34.223.246.176 2 2 594 20200610143923
+34.217.97.18 2 2 594 20200604142950
+54.213.201.231 2 2 512 20200625145410
+52.88.145.173 2 2 512 20200629162119
+34.218.78.18 2 2 512 20200627173157
+34.212.191.50 2 2 512 20200624142941
+34.210.232.235 2 2 594 20200602141802
+54.218.35.246 2 2 594 20200616144140
+52.43.142.66 2 2 594 20200608140949
+52.88.40.219 2 2 512 20200623144145
+34.219.205.133 2 2 594 20200612145821
+54.218.3.180 2 2 594 20200601144050
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20200601 3 3 594 2
+20200602 3 3 594 2
+20200603 2 2 594 1
+20200604 2 2 594 1
+20200605 2 2 594 1
+20200607 2 2 594 1
+20200608 8 8 2400 4
+20200610 4 4 1196 2
+20200611 2 2 594 1
+20200612 18 18 4784 7
+20200613 2 2 594 1
+20200614 4 4 1196 2
+20200615 4 4 1610 2
+20200616 4 4 1196 2
+20200617 4 4 594 3
+20200618 5 5 1114 3
+20200619 4 4 1406 2
+20200620 2 2 512 1
+20200622 4 4 1024 2
+20200623 4 4 1024 2
+20200624 5 5 512 2
+20200625 4 4 1024 2
+20200626 8 8 18362 4
+20200627 13 13 2560 5
+20200628 2 2 512 1
+20200629 2 2 512 1
+20200630 2 2 512 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 56
+30mn-1h 1
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 115 29846 56 56
+/cgi-sys/suspendedpage.cgi 4 16956 2 2
+END_SIDER

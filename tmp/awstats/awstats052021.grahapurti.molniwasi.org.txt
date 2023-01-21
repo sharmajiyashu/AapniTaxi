@@ -1,0 +1,1192 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202105 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/awstats.grahapurti.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2701                
+POS_VISITOR 13640               
+POS_DAY 24674               
+POS_DOMAIN 3656                
+POS_LOGIN 4166                
+POS_ROBOT 4321                
+POS_WORMS 5164                
+POS_EMAILSENDER 5295                
+POS_EMAILRECEIVER 5438                
+POS_SESSION 25555               
+POS_SIDER 25758               
+POS_FILETYPES 5573                
+POS_DOWNLOADS 5888                
+POS_OS 5936                
+POS_BROWSER 6235                
+POS_SCREENSIZE 8258                
+POS_UNKNOWNREFERER 8332                
+POS_UNKNOWNREFERERBROWSER 9213                
+POS_ORIGIN 9927                
+POS_SEREFERRALS 10072               
+POS_PAGEREFS 10239               
+POS_SEARCHWORDS 10387               
+POS_KEYWORDS 10539               
+POS_MISC 2364                
+POS_ERRORS 10598               
+POS_CLUSTER 4022                
+POS_SIDER_404 10789               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210601025517 32 6128 11347839888841
+FirstTime 20210501010732
+LastTime 20210531222051
+LastUpdate 20210601180405 32 0 31 0 0
+TotalVisits 389                 
+TotalUnique 266                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 277                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 12 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 22 1596520 158 189 10874324
+1 67 67 6742578 290 326 11774766
+2 171 1081 200349327 224 334 10203739
+3 60 200 37310820 298 484 18317077
+4 27 31 1379880 218 394 18872592
+5 63 73 6614903 237 408 16492905
+6 49 65 9488691 314 466 19763604
+7 50 50 2570417 236 413 26230201
+8 48 146 8408130 275 371 13957081
+9 148 424 66922665 301 708 44963615
+10 120 270 54687096 306 654 76562189
+11 71 87 9154571 284 472 18842393
+12 109 161 12484989 284 394 16695795
+13 46 60 4941127 175 290 24381554
+14 59 197 38965651 218 285 6873912
+15 50 50 1723516 167 220 10141775
+16 54 56 4577220 305 360 19033521
+17 37 39 440297 326 472 23915717
+18 90 224 40879424 405 567 25168656
+19 106 106 8855282 226 273 6968564
+20 12 12 1720820 110 127 5448126
+21 73 83 8312737 242 265 8858015
+22 532 666 33258516 293 321 10727321
+23 53 187 36377599 180 242 6792685
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 18
+us 964 1796 256475330
+in 870 1072 62059761
+gb 132 1044 197897928
+ru 33 33 4216336
+cn 30 50 5129475
+ca 18 156 30539428
+md 16 150 29903592
+ua 14 14 2617668
+ro 8 8 2283288
+gr 6 6 1491160
+id 4 4 217644
+al 4 4 1141644
+se 4 4 734634
+de 4 4 1141644
+nl 4 6 607760
+kg 2 2 570822
+ec 2 2 163840
+fr 2 2 570822
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+bot[\s_+:,\.\;\/\\-] 3380 125345358 20210531143735 310
+Dalvik/ 1278 79129554 20210531031249 0
+baidu 366 78575551 20210521071102 0
+Googlebot/ 337 25817135 20210531093308 87
+bingbot/ 117 3492966 20210529143015 39
+Googlebot\-Image/ 94 5579870 20210531182645 0
+bingpreview 48 17932656 20210528094643 0
+Apache\-HttpClient/ 40 3276760 20210515002457 0
+YandexBot/ 32 1314348 20210527191005 16
+unknown 23 552 20210530041550 23
+no_user_agent 16 3190287 20210525133302 0
+facebookexternalhit/ 10 823230 20210519062658 0
+crawl 6 382072 20210520184459 0
+discover 4 327682 20210506063156 0
+Baiduspider/ 2 163832 20210516150644 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 163806 20210518122255 0
+Python\-urllib/ 1 24 20210504052219 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+gif 26 108628 0 0
+js 218 43865635 0 0
+woff2 68 4156160 0 0
+css 104 10624406 0 0
+html 497 81711755 0 0
+woff 162 15009384 0 0
+jpeg 164 8279418 0 0
+Unknown 1378 37043552 0 0
+cgi 10 42380 0 0
+jpg 1310 284216590 0 0
+php 2 166370 0 0
+png 418 112538498 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+macosx6 4 4
+Unknown 1190 1052
+macosx10 8 8
+linuxandroid 274 74
+win8.1 36 36
+macosx12 2 2
+ios_iphone 10 6
+win8 10 10
+win7 600 322
+macosx8 2 2
+win10 1865 409
+winlong 22 22
+winxp 24 24
+macosx9 1 1
+macosx 18 18
+linux 290 126
+win2003 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 93
+firefox11.0 2 2
+chrome71.0.3563.0 150 16
+firefox81.0 8 8
+firefox40.0 4 4
+chrome86.0.4240.110 108 10
+chrome70.0.3538.102 688 72
+chrome79.0.3945.79 144 10
+chrome45.0.2454.85 2 2
+Unknown 1038 1034
+chrome78.0.3904.62 12 4
+firefox24.0 2 2
+chrome84.0.4147.135 2 2
+chrome90.0.4430.210 62 14
+chrome84.0.4147.105 8 8
+chrome67.0.3396.62 2 2
+opera12.14 4 4
+safari9.0 2 2
+chrome83.0.4099.2 2 2
+chrome90.0.4430.82 10 6
+firefox42.0 2 2
+chrome89.0.4389.105 22 10
+chrome71.0.3578.98 8 8
+safari5.0.4 4 4
+safari 2 2
+opera10.00 4 4
+chrome89.0.3945.117 6 6
+chrome28.0.1467.0 2 2
+firefox65.0 26 26
+opera10.10 8 8
+chrome73.0.3683.86 8 8
+opera54.0.2952.64 4 4
+chrome35.0.2117.157 2 2
+msie11.0 76 76
+firefox82.0 10 8
+edge17 250 36
+chrome45.0.2454.94 2 2
+chrome83.0.4103.97 54 54
+chrome79.0.3945.88 2 2
+chrome35.0.1916.47 1 1
+chrome83.0.4103.61 24 18
+chrome85.0.4183.102 28 18
+safari11.0 6 2
+firefox57.0 2 2
+chrome65.0.3325.109 2 2
+firefox72.0 2 2
+chrome5.0.375.99 2 2
+chrome75.0.3765.0 8 6
+chrome36.0.1985.67 2 2
+firefox45.0 4 4
+chrome30.0.1599.17 4 4
+chrome83.0.4103.106 26 10
+chrome86.0.4240.183 4 2
+chrome63.0.3239.132 2 2
+chrome27.0.1453.93 6 6
+chrome38.0.1025.166 20 10
+chrome49.0.2623.75 32 16
+firefox53.0 8 8
+chrome26.0.1410.65 2 2
+chrome40.0.2214.115 166 166
+firefox59.0 4 4
+chrome67.0.3396.99 6 6
+msie6.0 4 4
+chrome44.0.2403.157 24 24
+firefox63.0 106 26
+opera53.0.2907.99 2 2
+chrome76.0.3809.71 288 20
+chrome66.0.3359.181 4 4
+chrome35.0.2309.372 2 2
+chrome67.0.3381.1 4 4
+chrome90.0.4430.212 500 92
+chrome79.0.3945.130 8 8
+chrome33.0.1750.517 2 2
+opera11.00 4 4
+chrome32.0.1667.0 2 2
+firefox40.1 4 4
+chrome60.0.3112.90 24 24
+safari10.0 2 2
+chrome76.0.3809.132 4 4
+chrome67.0.3396.87 2 2
+opera10.60 4 4
+chrome83.0.4098.0 10 10
+chrome34.0.1847.116 6 6
+chrome91.0.4472.77 2 0
+chrome78.0.3904.108 42 34
+chrome41.0.2226.0 2 2
+chrome80.0.3987.149 30 30
+chrome39.0.2171.95 2 2
+opera11.51 1 1
+chrome60.0.3112.113 2 2
+chrome74.0.3729.157 1 1
+msie10.0 2 2
+mozilla 154 20
+chrome88.0.4240.193 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+GRequests/0.10 20210529163212
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210522105609
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210506223525
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210510185617
+okhttp/3.12.0 20210531031536
+panscient.com 20210523004953
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210529053744
+fasthttp 20210508115557
+colly_-_https://github.com/gocolly/colly/v2 20210531113854
+Cpanel-HTTP-Client/1.0 20210531222051
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+colly_-_https://github.com/gocolly/colly/v2 20210531113854
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210529053744
+fasthttp 20210508115557
+Cpanel-HTTP-Client/1.0 20210531222051
+GRequests/0.10 20210529163212
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210522105609
+okhttp/3.12.0 20210531031536
+panscient.com 20210523004953
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1661 1709
+From1 6 6
+From2 106 110
+From3 0 0
+From4 344 2532
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 106 110
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 22 7876
+405 22 1668015
+406 567 128142
+500 985 102920203
+302 115 25983
+409 18 1494
+301 37 9109
+404 1501 1583622
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 89
+/xmlrpc.php 4 -
+/backup/wp-admin/install.php 2 -
+/2017/wp-includes/wlwmanifest.xml 4 -
+/public/old 2 -
+/rss.xml 2 -
+/wordpress/wp-admin/install.php 2 -
+/wp-login.php 2 -
+/sitemap.xml 2 -
+/.well-known/assetlinks.json 186 -
+/wp-content/plugins/apikey/apikey.php.suspected 2 -
+/wp-includes/wlwmanifest.xml 32 -
+/dump/sxd.js 2 -
+/new/wp-admin/install.php 1 -
+/.vscode/ftp-sync.json 2 -
+/wordpress/wp-includes/wlwmanifest.xml 30 -
+/public/blog 2 -
+/contact-us 12 -
+/index.rss 2 -
+/dede/login.php 2 -
+/wp-content/plugins/ioptimizations/IOptimizes.php 2 -
+/wp-content/plugins/ioptimization/IOptimizes.php 2 -
+/admin/login.php 2 -
+/site/wp-includes/wlwmanifest.xml 32 -
+/old/wp-admin/install.php 1 -
+/website/wp-includes/wlwmanifest.xml 30 -
+/.git/config 2 -
+/shop-page1.html 12 -
+/index.rdf 2 -
+/public/wp-admin 1 -
+/cms/wp-includes/wlwmanifest.xml 32 -
+/sito/wp-includes/wlwmanifest.xml 30 -
+/2019/wp-includes/wlwmanifest.xml 26 -
+/admin/.env 5 -
+/test/wp-admin/install.php 1 -
+/feed 2 -
+/.ftpconfig 2 -
+/backup/sxd/sxd.js 2 -
+/public/backup 2 -
+/site/wp-admin/install.php 1 -
+/dumper/sxd.js 2 -
+/sftp-config.json 2 -
+/web/wp-admin/install.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 30 -
+/admin/view/javascript/common.js 2 -
+/2016/wp-includes/wlwmanifest.xml 4 -
+/humans.txt 2 -
+/wp-admin/install.php 2 -
+/public/wp 2 -
+/sxd/sxd.js 2 -
+/privacy.html 4 -
+/plugins/content/apismtp/apismtp.php.suspected 2 -
+/2020/wp-includes/wlwmanifest.xml 4 -
+/admin/dumper/sxd.js 2 -
+/plugins/content/apismtp/apismtp.php 2 -
+/web/wp-includes/wlwmanifest.xml 28 -
+/app-ads.txt 526 -
+//admin/.env 1 -
+/wp/wp-admin/install.php 1 -
+/news/wp-includes/wlwmanifest.xml 30 -
+/ads.txt 14 -
+/index.xml 2 -
+/.vscode/sftp.json 2 -
+/public/wp-content 4 -
+/null 36 -
+/test/wp-includes/wlwmanifest.xml 30 -
+/Orders 2 -
+/wp2/wp-includes/wlwmanifest.xml 30 -
+/deployment-config.json 2 -
+/public/new 2 -
+/wp/wp-includes/wlwmanifest.xml 32 -
+/2018/wp-includes/wlwmanifest.xml 24 -
+/web/images/miscellaneous/payments.png 80 http://grahapurti.com/login
+/admin/sxd/sxd.js 2 -
+/blog/wp-includes/wlwmanifest.xml 28 -
+/SypexDumper/sxd/sxd.js 2 -
+/feeds 2 -
+/FCKeditor/editor/filemanager/connectors/test.html 2 -
+/shop/wp-includes/wlwmanifest.xml 28 -
+/public/temp 2 -
+/cms/wp-admin/install.php 2 -
+/oldsite/wp-admin/install.php 1 -
+/blog/wp-admin/install.php 1 -
+/wp-content/plugins/apikey/apikey.php 2 -
+/2015/wp-includes/wlwmanifest.xml 4 -
+/media/wp-includes/wlwmanifest.xml 26 -
+/vendor/phpunit/phpunit/phpunit.xml 2 -
+/public/wordpress 2 -
+/.remote-sync.json 2 -
+/ftpsync.settings 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 277
+103.21.58.155 576 576 36864 20210531222051
+51.222.178.121 120 896 167877090 20210517023437
+104.149.88.228 76 76 3222706 20210530194140
+59.89.57.145 52 142 21949706 20210516105148
+184.94.240.92 28 28 4282245 20210520064513
+144.217.135.165 24 24 4424340 20210510185425
+54.39.29.64 24 24 5292760 20210520081906
+157.47.234.187 22 158 29890696 20210524091204
+59.92.94.30 20 20 7497 20210508122047
+18.221.38.234 18 28 2829512 20210504052238
+143.244.46.51 18 18 2607790 20210525145222
+106.206.133.154 17 29 2748006 20210502115356
+117.199.210.16 17 17 10950 20210506073754
+117.225.27.217 16 16 10840 20210506013620
+157.38.93.107 16 16 9144 20210501174450
+143.244.46.62 16 16 2167818 20210531055203
+103.211.13.12 16 16 10840 20210514112139
+176.123.5.250 16 150 29903592 20210507144020
+106.210.38.146 16 62 8630806 20210530123900
+143.244.45.141 14 14 1819038 20210525025731
+223.238.222.213 14 62 24513176 20210518104817
+143.244.46.42 14 14 1816166 20210522201703
+103.157.220.254 14 14 12352 20210516124052
+143.244.46.111 14 14 1989674 20210524130651
+34.69.234.68 13 13 5068 20210511061808
+143.244.45.61 4 4 562432 20210528095616
+34.77.162.4 4 4 1143894 20210529053744
+18.218.48.70 8 8 2283288 20210521031105
+171.13.14.76 2 2 163838 20210508105417
+45.76.149.42 6 6 1712466 20210530012549
+157.47.239.41 0 4 1786740 
+89.179.119.216 2 2 163856 20210521142728
+143.244.46.101 12 12 1674410 20210525232427
+106.206.149.16 11 11 8371 20210523105258
+59.175.144.14 6 6 493950 20210529163212
+35.203.128.1 4 4 2329 20210502092803
+192.210.189.155 4 4 217598 20210527051539
+51.77.246.205 10 144 29767972 20210510185615
+54.245.166.246 8 8 1486462 20210521104733
+34.77.162.14 4 4 936724 20210526100714
+74.125.215.21 2 2 163842 20210521143335
+27.115.124.38 0 2 89030 
+13.75.165.97 6 6 494038 20210504214020
+54.212.110.174 2 2 163077 20210531214110
+68.3.78.181 2 2 163842 20210531113854
+143.244.47.132 4 4 552848 20210531155726
+157.47.141.33 2 2 1999 20210508124040
+34.77.162.33 2 2 572622 20210520232940
+213.145.129.29 2 2 570822 20210528185038
+54.244.57.149 2 2 163836 20210523212203
+34.244.155.159 2 2 163818 20210527160148
+35.203.128.5 7 7 2635 20210502093034
+199.192.115.16 5 5 2427 20210514182710
+199.244.88.132 1 1 0 20210517105952
+64.246.165.180 2 2 164634 20210507221922
+46.4.33.48 2 2 570822 20210524034040
+157.47.216.61 7 7 6176 20210527021250
+143.244.46.32 2 2 267220 20210529040411
+1.39.212.241 12 12 10448 20210503125627
+121.5.226.36 0 2 124198 
+34.222.65.206 2 2 163832 20210520232553
+143.244.45.132 6 6 851804 20210524082327
+101.36.64.71 2 2 572622 20210512234555
+192.99.18.122 2 2 163422 20210531201010
+54.186.97.239 2 2 163818 20210526214347
+143.244.47.171 2 2 267108 20210530155150
+3.20.239.197 1 1 0 20210518214908
+54.155.157.135 4 4 325971 20210529011936
+34.86.35.27 2 2 397322 20210518092646
+54.71.215.51 2 2 163812 20210518215528
+74.208.177.88 2 2 164602 20210515093448
+52.26.72.247 2 2 163560 20210531214616
+54.203.120.108 2 2 162216 20210528212531
+77.74.177.113 2 2 163864 20210512103644
+34.72.152.244 6 6 1712466 20210515182017
+37.120.194.58 2 2 570822 20210504065055
+64.246.165.210 2 2 164648 20210527212023
+106.207.151.127 6 6 7694 20210512165716
+31.132.226.230 4 4 16952 20210526034233
+143.244.45.182 2 2 243850 20210526195916
+199.192.115.22 4 4 2329 20210511055123
+92.118.160.13 2 2 380838 20210522105609
+74.125.215.13 2 2 163836 20210506093912
+34.247.68.90 4 4 583346 20210528182826
+35.203.128.3 7 7 4251 20210502093120
+54.178.182.46 2 2 163824 20210527081823
+192.227.182.166 4 4 217608 20210508114218
+47.242.37.105 4 8 506534 20210508115548
+44.235.91.79 2 2 163850 20210508210757
+104.144.199.188 2 2 163848 20210518082704
+77.74.177.114 2 2 163842 20210526103658
+34.77.162.23 2 2 570822 20210508084901
+162.55.179.56 2 2 8476 20210526023849
+35.234.176.168 4 4 3945 20210531031441
+111.200.39.2 2 2 163842 20210508105621
+154.51.131.142 8 8 654554 20210525090612
+34.96.130.2 2 2 397728 20210508082048
+52.11.127.105 8 8 1500354 20210514110200
+1.14.17.89 0 2 43152 
+13.68.219.103 6 6 1712466 20210526082603
+44.233.155.209 2 2 163830 20210510210301
+143.244.44.32 2 2 343548 20210504074110
+121.4.163.148 0 2 43152 
+185.253.42.206 4 4 354004 20210501144742
+46.101.9.216 4 4 257576 20210506095843
+103.133.123.16 3 3 3847 20210501141202
+18.237.12.187 2 2 162114 20210516211503
+194.58.88.195 2 2 565128 20210517165502
+18.217.38.61 4 4 328506 20210512063152
+54.245.58.152 2 2 163832 20210518215442
+186.47.83.157 2 2 163840 20210504231358
+157.38.95.65 7 7 6176 20210524014559
+44.242.170.252 2 2 163822 20210525194840
+58.53.128.234 2 2 164648 20210507152714
+34.220.173.108 2 2 159211 20210521215952
+35.243.2.19 3 3 300 20210522091658
+205.169.39.224 12 152 31426278 20210505031618
+199.192.115.18 7 7 4245 20210511055439
+45.151.167.10 2 2 716 20210503193013
+103.200.84.31 5 5 4272 20210515131341
+54.203.73.198 2 4 252874 20210518171434
+34.219.135.97 2 2 163832 20210514212119
+74.125.215.7 2 4 252874 20210511044802
+185.220.100.254 2 2 716 20210503193014
+37.19.197.151 4 4 456850 20210504134952
+35.243.2.21 4 4 392 20210522091555
+188.130.219.189 4 4 747824 20210503095517
+52.232.111.151 6 6 1712466 20210506193845
+52.89.40.74 2 2 163828 20210514211736
+157.38.69.237 10 108 1334438 20210514081144
+199.192.115.19 7 7 4245 20210514182925
+143.244.47.162 2 2 203274 20210530123639
+42.236.10.78 0 2 89030 
+143.244.45.151 6 6 892914 20210520163330
+35.203.128.0 4 4 392 20210502093035
+143.244.45.82 6 6 897338 20210531064845
+52.65.15.196 2 2 163846 20210527141458
+62.109.4.125 1 1 0 20210506022627
+3.0.115.255 2 2 163822 20210515055822
+34.223.7.156 2 2 163826 20210529212154
+194.5.48.134 2 2 570822 20210516062824
+52.30.16.188 2 2 163846 20210504161623
+143.244.47.172 4 4 539424 20210528132633
+54.189.22.122 2 2 174 20210506223525
+34.96.130.3 2 2 396274 20210501074724
+76.164.198.173 2 2 572622 20210525035331
+35.243.2.17 3 3 3847 20210522091326
+156.146.55.31 2 2 341232 20210504115113
+65.155.30.101 10 144 29767150 20210506223948
+18.184.114.154 2 2 174 20210506223524
+34.86.35.32 4 4 1141644 20210525230225
+34.222.233.86 8 8 1551543 20210507110718
+185.213.155.161 4 4 327684 20210506130203
+54.203.157.139 2 2 163824 20210509211103
+92.118.160.37 2 2 539500 20210509183550
+107.175.156.144 2 2 163836 20210502044306
+185.189.114.123 2 2 570822 20210530142253
+193.111.199.61 2 2 570822 20210516035139
+34.214.206.136 2 2 163834 20210525211738
+180.163.220.66 0 2 89030 
+58.53.128.148 2 2 164650 20210502125658
+157.47.221.254 6 6 4328 20210501171646
+34.96.130.11 2 2 573072 20210521130428
+143.244.45.181 12 12 1729230 20210524214900
+199.192.115.21 2 2 202 20210514183008
+52.15.212.3 4 4 327664 20210524171155
+81.69.191.124 0 2 350184 
+74.125.215.29 2 8 296406 20210505212052
+107.172.54.200 4 4 217632 20210522053031
+66.133.109.36 2 2 174 20210506223524
+59.92.95.19 13 13 25127 20210526024205
+121.4.181.178 2 2 148640 20210508105652
+156.146.63.138 2 2 583 20210511054633
+35.234.176.173 1 1 98 20210531031253
+18.116.86.117 2 2 174 20210506223524
+34.86.35.12 6 6 1209565 20210529022358
+144.168.163.166 6 6 1712466 20210504142429
+157.47.158.19 10 22 2741836 20210509065436
+37.120.235.167 2 2 570822 20210509192834
+54.218.36.92 2 2 163828 20210519211220
+52.60.189.115 2 2 163836 20210520073059
+54.189.230.128 2 2 163866 20210504160156
+34.77.162.24 2 2 572622 20210512091234
+34.96.130.7 2 2 572622 20210504113903
+157.38.62.63 12 148 29883386 20210528095528
+34.96.130.16 2 2 573072 20210518012249
+15.237.110.153 6 6 1712466 20210502062606
+34.68.220.46 2 2 162508 20210531081537
+52.12.237.74 2 2 163830 20210501212700
+117.234.83.128 5 5 4272 20210505170249
+192.210.177.64 4 4 217628 20210508000218
+103.132.181.218 2 2 163860 20210521211836
+223.233.122.245 7 7 6176 20210515021439
+167.99.127.156 2 2 163844 20210528182628
+143.244.46.211 6 6 868642 20210524190427
+158.101.20.3 6 6 1712466 20210513231558
+66.175.233.165 2 2 163838 20210511010128
+34.236.55.223 2 2 163828 20210510105021
+119.8.240.84 2 2 83848 20210513163942
+156.146.56.116 4 4 1141644 20210523113011
+192.227.240.120 4 4 217574 20210514021218
+103.204.70.103 6 10 2029690 20210501134152
+74.125.215.27 2 4 572384 20210505212052
+13.36.167.122 2 2 163854 20210504231340
+74.125.215.1 2 4 252852 20210531041352
+31.171.152.139 2 2 570822 20210522103443
+92.118.77.10 2 2 570822 20210510110205
+157.38.34.29 6 6 6078 20210520034238
+185.200.117.195 4 4 1141644 20210527191939
+69.12.72.188 2 2 570822 20210513055240
+84.247.48.53 2 2 570822 20210508204012
+52.26.248.202 2 2 163059 20210531015418
+193.200.151.103 2 2 570822 20210522155656
+37.120.152.105 2 2 570822 20210501234841
+34.96.130.9 2 2 396832 20210519052547
+35.243.2.20 4 4 2329 20210522091330
+52.214.156.67 6 6 1712466 20210505164851
+199.192.115.20 3 3 300 20210514182926
+44.242.152.137 2 2 163838 20210503212302
+31.171.155.11 2 2 570822 20210508084751
+143.244.45.111 10 10 1336312 20210530090206
+34.216.41.212 2 2 163838 20210524220819
+223.188.172.125 3 3 3847 20210502165028
+102.128.141.201 4 4 217644 20210508125802
+34.77.162.32 2 2 572622 20210514211816
+157.38.21.76 10 10 8544 20210505155451
+13.232.96.15 2 2 163844 20210529152559
+18.183.80.172 12 12 3424932 20210508220945
+3.250.4.139 2 2 163836 20210529004939
+65.154.226.165 10 144 29767154 20210506234019
+52.192.73.251 2 2 163836 20210507061603
+217.12.221.2 2 2 163838 20210519140108
+34.77.162.29 2 2 572622 20210527191029
+37.19.210.82 4 4 1141644 20210515125319
+199.249.230.164 2 2 716 20210503193014
+117.199.204.54 7 7 6176 20210530091034
+54.186.104.244 2 2 163846 20210506213524
+121.5.103.58 2 2 163834 20210515163605
+34.96.130.31 2 2 570822 20210512025352
+93.158.91.214 2 2 163812 20210530041552
+143.244.45.191 2 2 261960 20210504144456
+100.21.218.158 4 4 327664 20210525082325
+142.4.219.91 12 146 29869472 20210517024833
+74.125.215.25 2 6 341910 20210520120000
+34.220.218.192 2 2 163824 20210505214432
+72.79.50.66 10 10 420562 20210523004953
+117.234.197.10 12 12 4958 20210505155653
+171.13.14.51 2 6 777034 20210531104104
+74.125.215.31 8 12 2036892 20210519160238
+37.19.197.141 2 2 284514 20210502032544
+74.125.215.11 4 10 594740 20210513092141
+50.222.162.241 2 2 280252 20210518013958
+35.203.128.2 1 1 98 20210502092804
+34.220.140.173 2 2 162105 20210515212048
+35.203.128.6 7 7 4239 20210502092834
+103.41.145.199 0 2 1831128 
+35.234.176.174 6 6 594 20210531031536
+54.213.95.67 2 2 163808 20210517214833
+118.26.36.169 2 2 163840 20210520113115
+54.218.127.158 2 2 162202 20210522215306
+171.13.14.37 4 4 329290 20210531103825
+157.47.210.149 7 7 6176 20210519174353
+35.234.176.170 3 3 2231 20210531031221
+157.47.193.78 12 12 10448 20210523072304
+42.236.10.93 0 2 89030 
+157.38.46.37 7 7 6176 20210523184112
+171.13.14.40 0 2 1172817 
+171.79.153.119 3 3 3847 20210501170730
+106.206.154.252 3 3 3847 20210517075244
+193.9.115.122 2 2 570822 20210503033152
+157.47.222.111 3 3 3847 20210518123935
+1.39.206.175 12 12 10448 20210511162607
+13.236.114.230 2 2 163810 20210504075024
+34.221.220.99 8 8 1553899 20210528105810
+199.192.115.17 2 2 196 20210514182738
+34.86.35.10 2 2 570822 20210504230618
+158.175.164.89 2 4 252866 20210502124156
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210501 62 66 3699880 11
+20210502 80 94 5345153 19
+20210503 44 44 1764900 9
+20210504 70 80 8705316 16
+20210505 79 229 37686642 11
+20210506 96 366 62272252 15
+20210507 52 186 32588519 9
+20210508 82 94 6481172 19
+20210509 40 52 5037616 9
+20210510 60 194 35632350 8
+20210511 66 68 873959 12
+20210512 38 38 2657804 10
+20210513 30 42 3543016 6
+20210514 161 259 4929548 19
+20210515 55 55 4096943 11
+20210516 83 173 23519262 7
+20210517 170 1080 200513051 14
+20210518 60 114 30114087 17
+20210519 59 61 5858050 15
+20210520 72 74 7942809 13
+20210521 56 58 7329527 15
+20210522 52 52 3316576 15
+20210523 66 66 2233443 9
+20210524 61 197 32341782 11
+20210525 47 47 3272807 13
+20210526 42 42 3266354 10
+20210527 45 45 3148048 11
+20210528 60 196 34767263 14
+20210529 40 40 3125210 12
+20210530 135 181 15667532 12
+20210531 54 64 6031905 17
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 26
+15mn-30mn 2
+2mn-5mn 21
+0s-30s 328
+30mn-1h 6
+5mn-15mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 388
+/ 489 81709024 186 166
+/shop 138 13299168 28 30
+/api/getfilters 138 13679 16 48
+/api/sitesetting 84 155232 40 0
+/api/getbanners 68 3808 6 0
+/api/getallpages 51 7701 0 11
+/fonts/Montserrat-Regular.woff 48 5328768 0 0
+/fonts/Montserrat-Bold.woff 48 5332800 1 4
+/api/allcategories 41 86879 0 4
+/login 34 1561504 3 1
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2 28 2080960 2 2
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2 26 1875848 0 5
+/contact 24 1015268 1 8
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff 22 1860496 0 2
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff 22 369864 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff 22 2117456 0 0
+/product-detail/biicano-aloo-bhujia-400gm 14 566522 2 1
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2 12 163296 0 1
+/cgi-sys/suspendedpage.cgi 10 42380 3 3
+/.well-known/acme-challenge/JfwvI5xnGzMuxt_nD--HCKgy7H9l9nHriidwxN5yGYQ 8 696 4 4
+/viewcart 8 328127 0 0
+/admin/login 8 193190 1 1
+/product-detail/doms-zoom-ultimate-dark-triangle-pencils 6 841824 3 3
+/product-detail/odonil-lavender-meadows 6 834396 3 3
+/product-detail/lakda-ji-suji-semolina-sooji-01-kg 6 245728 1 0
+/.well-known/acme-challenge/71I3DH_8_8GDXD7JT2QG8AX0W18DG7HX 2 128 0 1
+/.well-known/acme-challenge/Z0GVFQ8NWVS6VPH4NQZT-8FW9O52O_DX 2 128 0 0
+/product-detail/special-tulsi-dakh-munakka-250-gm 2 81618 0 0
+/forgotPassword 2 53130 1 0
+/.well-known/acme-challenge/T5ASJ2MR2O16L0NVIMO4LX14LOXX81P7 2 128 0 0
+/.well-known/acme-challenge/I8L9XYLRJWD7G6M0C3BNH7KAX7P2M1HP 2 128 0 0
+/product-detail/amricana-orginal-butter-cookies-200gm 2 80628 0 0
+/product-detail/mc-caun-chilli-garlic-potato-bites-400gm 2 63096 0 0
+/.well-known/acme-challenge/I65UL365-ZQPJ9MDXW55KBNC5GAXLXJK 2 128 0 0
+/.well-known/acme-challenge/UDXSCDUU7W7QZPTC02AR02A4T9_3UL61 2 128 0 0
+/.well-known/acme-challenge/8E4X6LVWJM_-QZKOUVUPUT5ZXYFPJLCS 2 128 0 0
+/.well-known/acme-challenge/P1RWZ6EOXISFOE39RH2MYV0WWLJBFXYE 2 128 0 0
+/.well-known/acme-challenge/-5-M7QEM57WHBEQ3R8EKO8ONS7OSL3GF 2 128 0 0
+/.well-known/acme-challenge/OX065RA8EXC882JD2Q94Z9TPLMHUF0Q0 2 128 0 0
+/.well-known/acme-challenge/Y6__HZ_W_T135L5LEVSWZAUZKGTW7F0- 2 128 0 0
+/.well-known/acme-challenge/8V7759O-7DRDU_GUCHDH2_74RYNA-WU_ 2 128 0 0
+/.well-known/acme-challenge/09AG_E0AJ7Y_5_54ATFLUXST8BMQREZW 2 128 0 0
+/.well-known/acme-challenge/E12ET_UCXEE_D4ZWJE0P81XUBMO5YFJ- 2 128 0 0
+/.well-known/acme-challenge/18IDCWQ4RVKPJKBUNW1-PPM94SALPW_Q 2 128 0 0
+/.well-known/acme-challenge/TT969VL7QZ_5C7OTMQATO_4_AZTHUEBQ 2 128 0 0
+/.well-known/acme-challenge/N2PGAM52ARAPEXU_FXBCX2I8K86W1-0P 2 128 0 0
+/product-detail/nivea-deodorant-whitening-smooth-skin-1 2 83848 1 1
+/.well-known/acme-challenge/TI9P43L65WQP6L8IDMAM3C9NVE8055M9 2 128 0 0
+/.well-known/acme-challenge/9HOKH3R8LQINNIMEHWF4BJR7JUHRYEBS 2 128 0 0
+/.well-known/acme-challenge/CB2041SBWGDORPEJYSX-FX9STA80V-VS 2 128 0 0
+/.well-known/acme-challenge/3KW4P3V59_CBPZ3UTN6VHFW8DY-COGSE 2 128 0 0
+/.well-known/acme-challenge/HMRWTB5796U52QSDOR9DSHH1LUGQFFU5 2 128 0 0
+/.well-known/acme-challenge/SW3HC_G0ITUAO8--__IYYP7DLC5737_8 2 128 0 1
+/.well-known/acme-challenge/DRDDNIURW4YKSYXRJ44FJ1678S74SYID 2 128 0 0
+/.well-known/acme-challenge/2VW4N43D8ZGOOG-XUBWDVYU4YL61_WNZ 2 128 0 0
+/.well-known/acme-challenge/OMQZUNMN9HWSD20R1FJFXT0WH-LGYUM4 2 128 0 0
+/.well-known/acme-challenge/4DY7BYWYHKNC43WJFHOZKEQNUBCS6_1T 2 128 0 0
+/.well-known/acme-challenge/FGMVV_IJ5WVSWYN6Q_PC0WQDMBBN-KFK 2 128 0 0
+/.well-known/acme-challenge/-N4EFUS054WYXSR3YJH1UG1159OC0TQK 2 128 0 0
+/.well-known/acme-challenge/VDPN9U2J82N69P2E2C0O3W2MHTFXVWV- 2 128 0 0
+/product-detail/surf-excel-matic-liquid-500ml 2 269344 1 1
+/.well-known/acme-challenge/7O8ZD67U62AODWPION68NDMETNNWFXI4 2 128 0 0
+/.well-known/acme-challenge/I1X5FAI64M5JCZOKEFJ2AVTMD8V-32O_ 2 128 0 0
+/.well-known/acme-challenge/7V-OQHAPY8OXITAI75CIIH7LTF3U9B_I 2 128 0 0
+/.well-known/acme-challenge/C09FEEH0YTHLFWWGC58PY0U2CUQRXBRD 2 128 0 0
+/.well-known/acme-challenge/E6WBOX11MYGMOXO-87484C7SHTVG2ELC 2 128 0 0
+/.well-known/acme-challenge/K2D-Z3I577PSPD5MX23NTPQ-IEPH-JTA 2 128 1 0
+/product-detail/ariel-perfect-wash-detergent-powder 2 276012 1 1
+/product-detail/maheshwari-tea-250gm 4 535248 1 1
+/.well-known/acme-challenge/_E9MELUZ4ARVE8HQ9_2SXKJWSR2AKONU 2 128 0 0
+/.well-known/acme-challenge/F7OE8VGG_9CAVNKN9E_219IG5A0OTRGG 2 128 1 0
+/.well-known/acme-challenge/-C1PN83JOAHJJ7QHK2_KUY9I_XRFG177 2 128 0 1
+/.well-known/acme-challenge/OYOYF9RGIWVQF2SW52SS-DU4KBD2MZP6 2 128 0 0
+/.well-known/acme-challenge/BF7EF1SJIRO_-9LI-NGSWMYFIIA8FPND 2 128 0 0
+/product-detail/lux-soft-touch-french-rose-almond-oil-soap-bar 2 284928 1 1
+/.well-known/acme-challenge/6LZN6CNBDZZZ5IXWFHWLJQAAEK7CVQYN 2 128 0 0
+/.well-known/acme-challenge/T-N3EBGA47B69TU53PS0VZX3T86HU6BA 2 128 0 0
+/product-detail/tops-custard-powder-vanilla 2 267106 1 1
+/.well-known/acme-challenge/T8WW1K78T0ZK14QFGHF6HJ2RDW__355Z 2 128 0 0
+/.well-known/acme-challenge/F_HRR005IPOU93YG502QBL07730UH4IL 2 128 0 0
+/.well-known/acme-challenge/7TU-X8STF7GT63YM0EQG8QTM323IWQ5Y 2 128 0 1
+/.well-known/acme-challenge/NKODM60O_0WPPN2K6NYQ21_88BG28B_- 2 128 0 0
+/product-detail/himalaya-men-face-beard-wash-180 2 272318 1 1
+/.well-known/acme-challenge/QU0ULLQ6HCLW7QTNDEI5TN5P0AR1VYDX 2 128 0 0
+/.well-known/acme-challenge/E1NNPRKA00NDGW0BL6F1_QM1MECV3S2S 2 128 1 0
+/.well-known/acme-challenge/G-HN8GYR8YWO6732W-PQ2W1A-FQZX6LW 2 128 0 1
+/.well-known/acme-challenge/U8_SXULZIBHUA727QEQL38VLU60OLX0I 2 128 1 0
+/.well-known/acme-challenge/47IFAXEBQGGEZS89ID321M_7NRE06ZKS 2 128 0 0
+/.well-known/acme-challenge/I9VF5GF8T4DEZ97C1_DTHOPB3SZLR54_ 2 128 0 0
+/.well-known/acme-challenge/OEM85FHQICCG48F4J3I_X0ZR7TCA_BS5 2 128 0 0
+/.well-known/acme-challenge/_6SXS578MV2P4RB9UAQ-3CRHUCF3_TUD 2 128 0 1
+/product-detail/amul-burger-patty-6-piece 2 80008 0 0
+/.well-known/acme-challenge/4NSBRH2M3Q0DJ8YCE4P2LWGDOCT-H0P2 2 128 1 0
+/.well-known/acme-challenge/4BVGAJIJJ_9DKU4I5GQSZ5EQPC4RUZU- 2 128 0 0
+/.well-known/acme-challenge/XFKD0CLRFS7TJGYDA0LDITGQ5SU7VOQ3 2 128 0 0
+/.well-known/acme-challenge/BEPJ_6DT3V5UJHSFFUJ1UR-HTS22CA0M 2 128 0 0
+/.well-known/acme-challenge/-KXP4D5O_6HR260M2SFDZ73V9T9X3S4Y 2 128 0 0
+/.well-known/acme-challenge/_J_4ITXT_CVYNMSY8JHGJ_H_FAKQ2CWK 2 128 0 1
+/.well-known/acme-challenge/A1IN9ATP1SYVRJIL-KPBI2-499L16VI6 2 128 0 0
+/.well-known/acme-challenge/AYK5CGM3LPFVHQYQB0T02QW1XPLJF5BS 2 128 0 0
+/.well-known/acme-challenge/8ZHXBE98QLAVXSQGV39Q91OKMNC_QGNH 2 128 1 0
+/product-detail/bann-royal-bake-jeera-bite-cookies-400gm 2 80658 0 0
+/.well-known/acme-challenge/MG4AVZSP-JBW1U1JK76JLM667Z0UF178 2 128 1 0
+/.well-known/acme-challenge/N762BBSDQWE9KHFZYOW60EN9C1AMTJUS 2 128 0 0
+/.well-known/acme-challenge/BB4K9XLTAPTUCWS6CR1IR9H1CBFSB-XS 2 128 0 0
+/.well-known/acme-challenge/EBMF-9TA87XPJ123TA49RU1LDZ26P0U- 2 128 0 0
+/.well-known/acme-challenge/O38M85V5J6R84G94_CEOROOS3S0VXUF_ 2 128 0 1
+/.well-known/acme-challenge/LXHV7W1WN9SQRBTTFPB2_81-9A8V72PY 2 128 0 1
+/.well-known/acme-challenge/TGGCYC85L6Q3YW2IR7ASNX05_H44FRAI 2 128 0 0
+/.well-known/acme-challenge/2EE3H005RHBMM8P3NVJBV5021A1P1VJ8 2 128 0 0
+/.well-known/acme-challenge/93P8G8-EY--LHKGVPH6BUN8CJRLHH_1N 2 128 0 0
+/.well-known/acme-challenge/9GTGSAVMSIAWJEQZLZO2NSYKFKZJTZZ5 2 128 0 0
+/.well-known/acme-challenge/C_IYYW9_-TKS4ZIFAX0XNZSOM023BDNT 2 128 0 0
+/.well-known/acme-challenge/G2YUL05R6DL8VOAILSEPWC1EEVGDEUF5 2 128 0 1
+/.well-known/acme-challenge/K6CIR8VCZV48M5_WSEI-XEHL1TKQHWW4 2 128 0 1
+/.well-known/acme-challenge/H9ILK5QYDP-ZTTDH2I8XWWC-OSXEZJ4C 2 128 0 0
+/.well-known/acme-challenge/DRVCOL0KEGSGXUSYBB2UY87AHLCVMXWO 2 128 0 1
+/.well-known/acme-challenge/5WJBLLLBF_USNE5YB-TARLELEW23B_OI 2 128 0 0
+/.well-known/acme-challenge/7XLCID_619RY31HXTXDEEMNE2KL9GJ_M 2 128 0 0
+/.well-known/acme-challenge/TR7ST3W43UWDBZY0V1CGA0O_JBFI6I26 2 128 1 0
+/.well-known/acme-challenge/WWU19D2AP9C0SQTIBLQVS01CAOVSJV5- 2 128 0 0
+/product-detail/johnson-s-baby-shampoo 2 261960 1 1
+/.well-known/acme-challenge/VT1R5GQCG0KOKMHQIO1TGHZX3-97C_FY 2 128 0 0
+/.well-known/acme-challenge/EZLUSUSKMMZ7ZSL8P5JUW6PATNU8O594 2 128 0 0
+/.well-known/acme-challenge/R-FY3NJI9LH7CJ26NMGEDG38LLDRPRF6 2 128 0 0
+/.well-known/acme-challenge/U3-P92LN2200AEELH4C0PZ0F3TIGQNMS 2 128 0 0
+/.well-known/acme-challenge/PWEIATBQAXYJGS23AMJ4_IUY8658TFUU 2 128 0 0
+/.well-known/acme-challenge/EUMGIGYWFWPABQCRT52M12-OK9TRSXGF 2 128 0 0
+/.well-known/acme-challenge/GIMF0_NBOZT9C1ZQ1T5OEC8I1SG9_MY3 2 128 1 0
+/.well-known/acme-challenge/2EUVCYU0V0K0N3Z5H0PNPZ5VQNFYECE9 2 128 0 0
+/.well-known/acme-challenge/EEJL23YRFQFXSOPBPAZ9VSPRU3G4SE2S 2 128 0 0
+/.well-known/acme-challenge/X9SQK6M8OGE0SRFX-O_RLQ88Z0RP4Z0M 2 128 0 0
+/.well-known/acme-challenge/5SQ8H4CNR5OIC3WB2ALJFTZG2WY8_H5S 2 128 0 0
+/.well-known/acme-challenge/T8SCCHY2PJ312QANM6U04AHJD93VOHZF 2 128 0 0
+/.well-known/acme-challenge/TST23TTPZU8NZQ96D5Q5QDAOANEGDLJT 2 128 0 0
+/product-detail/laung-cloves-50gm 2 269150 0 0
+/.well-known/acme-challenge/5A8AHV9OUJ2R4WSG5CZ7L5RE11GCBC70 2 128 0 0
+/.well-known/acme-challenge/J1WEBY7U_Z6UY85C4OU8A4T394APKZY6 2 128 0 1
+/.well-known/acme-challenge/MNE5I-E9SE0HZ8IFGMUV8NAYVJUI19A7 2 128 0 0
+/.well-known/acme-challenge/5ANM4K4-XYTRE73W9ID08-X2IBKDWZV- 2 128 0 0
+/.well-known/acme-challenge/U6VCGEIA-EDLS6ZH30RVFHYVPJS-YCSW 2 128 0 0
+/.well-known/acme-challenge/OYQDMZ02IXPATRW1HEP4AF8Q0EK_M0CI 2 128 0 0
+/.well-known/acme-challenge/1C498X46WEDR6TMJSN0RAMV1BL-_OMJC 2 128 0 0
+/product-detail/colgate-strogh-teeth-toothpaste-200gm 2 272302 1 1
+/product-detail/dettol-cool-soap-125g-buy-4-get-1-free-of-125g-cool-soap 2 284694 1 1
+/.well-known/acme-challenge/XZKKTNBVBBSED97L4XKHI-P6VZNIL57K 2 128 0 0
+/.well-known/acme-challenge/RZ3OEH-TZ62A3K2GHS0HKJX_H8B7RSLT 2 128 1 0
+/product-detail/robin-dazzling-whiteness-powder-blue 2 276012 1 1
+/.well-known/acme-challenge/5TFFOI9SUCQEL7S-B24E5K288D6H2870 2 128 0 1
+/.well-known/acme-challenge/-8RIN87LHE3QCCDD97RH-6WMIRFYZAD3 2 128 0 0
+/.well-known/acme-challenge/-IA9CDMBMM4EMK92BIEHRZ-Z_KO69F2_ 2 128 0 0
+/product-detail/lux-velvet-touch-body-wash-with-jasmine-and-almond-oil 2 284944 1 1
+/.well-known/acme-challenge/RIGEG5Y9LTNEOHX8YRFLF9W2FCO-R1D0 2 128 0 0
+/.well-known/acme-challenge/J9N82IWCTT61OFZ9AZDFH5JZQK1X6KMA 2 128 0 0
+/.well-known/acme-challenge/B8992QX-F8FD8H5T9UGX4A-61M-GLL_G 2 128 0 0
+/.well-known/acme-challenge/SG5Q333V_8A9R3LB0NROGW_6HUWYAJA2 2 128 0 0
+/.well-known/acme-challenge/2VLR9274VT0NF_5R209-_SHCMK_H63IX 2 128 0 0
+/.well-known/acme-challenge/KWJKFG_HAH268T1S4UAXLAL3-HQ3DZT6 2 128 1 0
+/product-detail/best-quality-suger-chini 2 81682 0 0
+/.well-known/acme-challenge/5RJ3FUPJGR9PTIHW8Y-UB-MWE567OXWV 2 128 0 0
+/.well-known/acme-challenge/3LAQMZ1AJ5FC7NNOC6J07TQ_AT8NX7EJ 2 128 0 0
+/.well-known/acme-challenge/PD0HUWISR8EJM9-PRBJ8_G4SC-422DFJ 2 128 0 0
+/.well-known/acme-challenge/GWTSS-LW1RAGY-KL7FZT-DV5DICGDPJ7 2 128 0 0
+/.well-known/acme-challenge/7PRF5N_PRMK8W8EFMQOQBTCBAECG1NPW 2 128 0 0
+/.well-known/acme-challenge/N1NFI8WKT1FNSM6HEC9BUQ09OI7U9_W6 2 128 0 0
+/.well-known/acme-challenge/_9_6V4PFIC1JD5R62TJGM2E6OPFW1XYW 2 128 0 0
+/.well-known/acme-challenge/404C2CWTPA2GBPNTT02M1HKSBBVW-JTG 2 128 0 0
+/.well-known/acme-challenge/AY5T4AIQLWV4PM42W110E411YS_I84R7 2 128 0 0
+/.well-known/acme-challenge/258U_NLE15O4I4HBE-64XWGK7D3-VOEQ 2 128 1 0
+/product-detail/britannia-milk-biksi 2 275036 0 0
+/.well-known/acme-challenge/SQA8MFZ9YQ1QZFIKJGQ299EBAN7X4GPY 2 128 1 0
+/.well-known/acme-challenge/0GXKR7MYGF0NCOHQ_R5F455YM2-4DODM 2 128 0 0
+/.well-known/acme-challenge/XKS3TD3WFISMYAHSZNR7O650WRD0UQYG 2 128 0 0
+/.well-known/acme-challenge/5HX50NJW6YL1W06VVE7ORN389WEBKJH3 2 128 0 0
+/product-detail/red-bull-enrrgy-drink 2 188054 1 1
+/.well-known/acme-challenge/DRLOC_6L2YCX2AIYR4-ZW9QBGPUYNZ5M 2 128 0 0
+/.well-known/acme-challenge/C1AA393K5GIRAQAR46_5A_2QKP3XMDXN 2 128 0 0
+/.well-known/acme-challenge/J5PT8WOWSY35M32-FK_55PVLEYYUO2J4 2 128 0 0
+/.well-known/acme-challenge/O-FVF5WK_6QL44TN834QXIP-O20A7FE8 2 128 0 0
+/.well-known/acme-challenge/5XJ3GS7DRLS_LHL-HMULG12WV0U4MA4K 2 128 0 0
+/.well-known/acme-challenge/0DH6AHARQ4WMY9NH7QBVJZRMN9UM50JP 2 128 0 0
+/.well-known/acme-challenge/0FEO12V6ZS13_NLA8DL28T6XVNE6EN97 2 128 0 0
+/.well-known/acme-challenge/FC_ETVRC1FR_-OY6XLCGJPSHGXOXESFP 2 128 1 0
+/product-detail/patanjali-kesh-kanti-hair-cleanser-reetha-shampoo-200ml 4 544628 2 2
+/product-detail/mangaldeep-mogra-fragrance-puja-dhoop 2 281824 1 1
+/.well-known/acme-challenge/YZ2L11SW80N49X3CYCX7VZ1LIGDLZ8IU 2 128 0 1
+/.well-known/acme-challenge/N417-A2O2JR4A3AI2G747J3H4N_RTHGO 2 128 0 0
+/.well-known/acme-challenge/H7A0WBMUR-XLLGK-XJJY4S-OPPWH3GB4 2 128 0 0
+/.well-known/acme-challenge/-DGDNPSTBKARD5K80S9H3IG-8ATNQ281 2 128 0 0
+/.well-known/acme-challenge/69J_4XWUK6DM2U778M5CPP5SHR9E_V87 2 128 0 0
+/.well-known/acme-challenge/RS_BI7I1BBQBUWDRZRMVLBOZ430ZPQUL 2 128 0 0
+/.well-known/acme-challenge/LYYW5QJU7I95UHMY_-SI_HNSC0T9R284 2 128 0 1
+/product-detail/surf-excel-matic-liquid-top-load-500ml 2 269326 1 1
+/.well-known/acme-challenge/TFM-ICK9N5R8GEVCTFMABEYZD_3CR0ZB 2 128 1 0
+/admin/index.php 2 166370 0 1
+/product-detail/brooke-bond-tea-taaza-250gm-1 2 79982 0 0
+/.well-known/acme-challenge/-7C31SVTJ4-8C0DARH0N--V48OE-W0Q3 2 128 0 1
+/product-detail/garnier-man-power-white-face-wash 2 82984 0 0
+/product-detail/johnson-s-baby-powder 2 261960 1 1
+/product-detail/tata-salt 2 281574 0 0
+/.well-known/acme-challenge/4CXTVBZUC-_GDK4G9P51WU5EKIT9T09S 2 128 0 0
+/.well-known/acme-challenge/B5ACHEUHN-PCVAV4VHIEA3B53TSCRRX1 2 128 1 0
+/product-detail/tops-ketchup-tomato 2 219042 0 0
+/.well-known/acme-challenge/AR-8WPIDCDPZCGTMEQEDD86P_-E4VNHT 2 128 1 0
+/product-detail/snow-spray 6 841134 3 3
+/.well-known/acme-challenge/TVHEA-6-95Z31A2IHSLQI5GE7FXN4NI7 2 128 0 0
+/product-detail/mc-caun-mini-samosa-cheese-pizza-175-gm 4 347222 1 1
+/.well-known/acme-challenge/Y3300GPMH_8DIKNW63B9SQ-L-A0L0LAY 2 128 0 0
+/.well-known/acme-challenge/_ZBTEISK16YERI59LQG4AHUGUBEGYYVQ 2 128 0 0
+/product-detail/mc-caun-crazy-fries-masalamik-400gm 4 347184 1 1
+/.well-known/acme-challenge/-VZK3LF3AWECD27BY7X7UDQZ-02L9O9Q 2 128 0 0
+/.well-known/acme-challenge/IPX1GIO6U1P3WMZ2QCNE3AW5UNSIM3EP 2 128 0 0
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 358 0 1
+/.well-known/acme-challenge/S69MB0I-D3MRSAHS8NU18HQ0EA9S08X6 2 128 1 0
+/.well-known/acme-challenge/C18PS7XJ4AOZ9T9RNW-8R5_06UH3R3WT 2 128 1 0
+/product-detail/lux-soft-touch-french-rose-almond-oil-soap-bar-1 6 816720 3 3
+/.well-known/acme-challenge/2671K9I6CCC3077DH9GHQQHWCHKV8QXZ 2 128 0 0
+/product-detail/lifebuoy-silver-shield-formula-3-1-pc 2 272238 1 1
+/product-detail/channa-brown-01kg 2 269066 0 0
+/product-detail/grahapurti-moong-dal-01kg 2 81616 0 0
+/.well-known/acme-challenge/7ZWPYF47RMJR8SAFY-E6JCRBOG9O-3W1 2 128 0 0
+/.well-known/acme-challenge/MB5BKJUA-8AEDQJS52MC8C6QVOWEIB9R 2 128 0 0
+/.well-known/acme-challenge/C_VRZXJW97DWBL-KKWH6KX0Q8AA79P6R 2 128 0 0
+/product-detail/balaji-i-que-fine-ball-pen 2 280514 1 1
+/.well-known/acme-challenge/4_XQ4JD49D-1AJJ-H78F20MOWRIJAOWD 2 128 0 0
+/images/ 1 0 0 1
+/.well-known/acme-challenge/AV7ZJV_C5-RZYG9G67EOIUYP8-7PTP8_ 2 128 0 0
+/.well-known/acme-challenge/IENWFHBYNPS8NZX4U3131D1H49NTX7B3 2 128 0 0
+/.well-known/acme-challenge/7N4S8X3KBVAFPZIPL56YSBK7M35F0Q4T 2 128 0 1
+/.well-known/acme-challenge/_C_R54N_3X44BFVOWVOQ4CA4PK5W-JJT 2 128 0 0
+/.well-known/acme-challenge/Q49U7D36GPD4OK69NR63ITHX36PPAYZL 2 128 0 0
+/product-detail/oswal-oil-detergent-bar 2 82634 0 0
+/.well-known/acme-challenge/XQFBN92N0HPU_4C7HKKBH67Y3CX-FYN5 2 128 0 1
+/product-detail/fevikwik-instant-glue-pack-of-5 2 280862 1 1
+/.well-known/acme-challenge/P7H-BK2X5TCM7_MYF3KJPWQ6FVD-RN_L 2 128 0 0
+/.well-known/acme-challenge/9VEGUEDPOQ7V3SJ5I89R9Z5Y5QOKNICL 2 128 1 0
+/.well-known/acme-challenge/UUMLHNAF5N-9ZPDR14H2CX151A14-Z4B 2 128 0 0
+/.well-known/acme-challenge/7S-60I0CL1ZBBYKJAPW9PMQFFT4VXK8M 2 128 0 0
+/product-detail/taj-mahal-tea-with-long-leaves-500gm 6 801570 2 3
+/.well-known/acme-challenge/L__WYFROTSG8R0GRBV9WYYKIPV7KPP0J 2 128 0 0
+/.well-known/acme-challenge/2HOXO4BDOGGCJG4_WFTSS8ER_GS381FF 2 128 0 0
+/.well-known/acme-challenge/3Y1KSMSGXCZ1SVWM6LPAW1H3X-XNYXKI 2 128 0 0
+/.well-known/acme-challenge/YLQXCOP6PXES2F1GZ-0BTORONNY5RT6S 2 128 1 0
+/.well-known/acme-challenge/_R8L2FWYMFV3HCK2FF-08C-DGBGNJBQ2 2 128 0 0
+/.well-known/acme-challenge/-Q_KBWQUP5JBXGZXSDZRHHNETSTGP5H4 2 128 0 1
+/.well-known/acme-challenge/559ZLJINQ5FCQW5HNA_QL0ND2LC1SIO0 2 128 1 0
+/.well-known/acme-challenge/QPE-_7-8JUSZOIX6YQC2UGF10PPJ9HDR 2 128 1 0
+/.well-known/acme-challenge/6TQ4RSK-VH4LADJDC34AZQI8V8MCA3R7 2 128 0 0
+/js/fckeditor/editor/filemanager/connectors/test.html 1 358 0 1
+/.well-known/acme-challenge/-JSNU3YNON-JZO-6V0K3ACJFBUS3F7J9 2 128 0 1
+/.well-known/acme-challenge/WPNES1--2LT2Z81GWH_XEQ_WWLMQKCHX 2 128 0 0
+/.well-known/acme-challenge/YRGKN1EI-6YEIM-9Z1KT9YH1O764JKF8 2 128 0 0
+/.well-known/acme-challenge/XHYNO03VBO4V1CJQXF2G2BVF7V5SL2X1 2 128 0 0
+/.well-known/acme-challenge/R4AY2IJPQ8W-U-Y2R0KO_18RXV4V-OAZ 2 128 0 0
+/.well-known/acme-challenge/KJCLCKOAV_PMD5CNQHB_BO--BJ2PH4SA 2 128 0 0
+/product-detail/bikaji-bhujia-01-kg 2 274276 1 1
+/.well-known/acme-challenge/AQLR-WHZETG9PVXQ7CVVSX0K4CE9R9MI 2 128 0 1
+/.well-known/acme-challenge/GWYUUP-5-BTIA2QCY_-EPG7VEH0KJT3A 2 128 0 0
+/.well-known/acme-challenge/ZFJ0ZY-3NZ5NAR2ZFXDW6GY2M58YJUZR 2 128 1 0
+/.well-known/acme-challenge/E162D1PXNW8M69LYP0IY9-R3S0VMOM6C 2 128 0 1
+/product-detail/haldiram-s-plain-bhujia-400gm 2 268846 1 1
+/.well-known/acme-challenge/I4AOLAHA94-HY0MMG9N6AIVEL-66U0V1 2 128 0 0
+/product-detail/baba-mixture-namkeen-400gm 2 268796 1 1
+/product-detail/grahapurti-kaju-cashew-whole-500gm 2 79982 0 0
+/.well-known/acme-challenge/7T3RW-I4ADM5G175HR8QZ_LYWUO8JH54 2 128 1 0
+/.well-known/acme-challenge/ZQBCKVXHHO-UL1IEBCI4J3PQMIFXIOP7 2 128 0 0
+/.well-known/acme-challenge/X3JHCAVS-WX74M46UATWFXIMK7O21H0Y 2 128 0 0
+/.well-known/acme-challenge/2F47U22XXQKQ5LCYH-PZYLTUMEBUOGNE 2 128 0 0
+/product-detail/johnson-s-buds 2 258596 1 1
+/product-detail/fab-df-pen 4 560736 2 2
+/.well-known/acme-challenge/B2_RN3H846RCKWW0ANUQYH1KFU9AV9AS 2 128 0 0
+/.well-known/acme-challenge/JM70CPADAUOKPC_ATF1UQIC5_1_XKP-T 2 128 0 1
+/.well-known/acme-challenge/ET4-I-0830F8HQJVTH4_-1XZHCXG4IE6 2 128 0 0
+/product-detail/nescaf-classic-coffee-mrp-10 4 534440 2 2
+/.well-known/acme-challenge/R5N6LHWSQ_3O-FPQK5PGTS5J3R97DN_K 2 128 0 1
+/.well-known/acme-challenge/7Z88Q41CII06A_GKQ20KMJ5RRH58C10L 2 128 0 0
+/.well-known/acme-challenge/L_9GY41GM88KJSZZQUYXA45CHTXXJSOS 2 128 1 0
+/.well-known/acme-challenge/DG1-W_DHH3N-V9BZWG-MCMPB030K4_LE 2 128 0 0
+/.well-known/acme-challenge/LB7KGLTUZ8_69JDUU14AFJUUMU1A9HY2 2 128 0 0
+/.well-known/acme-challenge/NZ49RIBYA0FF679JKPEUW5FGQNHOVI8C 2 128 0 0
+/.well-known/acme-challenge/S5MXFE6EFYYU6E8YEPJ9LP4IQA7RL3UK 2 128 1 0
+/.well-known/acme-challenge/E5IUTFQQP400B8SU5DOSF9U60SOGU_4N 2 128 0 0
+/.well-known/acme-challenge/Q8ZXEYI_828H_4NHOIMR2UB7R0MO4LQI 2 128 0 0
+/.well-known/acme-challenge/N_-MZKSFSJ3VBQSD_ORWW8R67SIB1QLA 2 128 0 0
+/.well-known/acme-challenge/-NT8Y07C1TKG2PMEO0FPLHXA1ZKZ4-BG 2 128 0 0
+/.well-known/acme-challenge/DMJR857XX4UZRM9U-8G9M3TQH-FFM0CO 2 128 0 0
+/.well-known/acme-challenge/XIZ43KJ6TH2DA2Z8QWP7ZSIF0Y_044A5 2 128 1 0
+/fckeditor/editor/filemanager/connectors/test.html 1 358 0 1
+/.well-known/acme-challenge/Z7E6VPEGDUN8-XTAUCASWKTXGKKN_-8Q 2 128 0 1
+/.well-known/acme-challenge/0CTQWQ7DNWT-F2EDY8N2_98CKNNHYI90 2 128 0 0
+/.well-known/acme-challenge/4BLDTVS26W3TWOYX-8Y3FQIXVVO9DLE8 2 128 0 0
+/.well-known/acme-challenge/IDRWGVNCY75E14FJOCFA-ZDXYD04VGZG 2 128 0 0
+/.well-known/acme-challenge/JN42FQIZ3EKCPAVQUVI21ASDBFSDS4WH 2 128 0 0
+/.well-known/acme-challenge/AZFT4RELGGQXOQM22ZDIPEERGJCCGA4O 2 128 1 0
+/.well-known/acme-challenge/FZLLHW2KUWYL05TELCBOIMYMCOP8B4_A 2 128 0 1
+/product-detail/mc-caun-smiles-crispy-happy-potatoes-200gm 2 80648 0 0
+/.well-known/acme-challenge/RRQ80PR3Y3W93IVE5U1DIGKWRV_2GT5Y 2 128 0 0
+/.well-known/acme-challenge/21UZKOE-J4T62AG1YG3VAIG0DQAB7SFP 2 128 1 0
+/.well-known/acme-challenge/YSSS1XZHH62H9H4-20VU8SA20MA0HQUF 2 128 0 0
+/.well-known/acme-challenge/GD6J7R_N_4LJESBM51ZUKWSNR7JDHNV6 2 128 0 0
+/.well-known/acme-challenge/FC-8K1YP5NU9A05R074LEOE367PI56BD 2 128 0 0
+/.well-known/acme-challenge/5LW-H0O6BIZFI-UAQ82T7HO0JSX9LO__ 2 128 0 1
+/product-detail/fortune-soyabean-oil 2 82010 0 1
+/.well-known/acme-challenge/Y08SKHJMYXFV1Y_KXMOA0TPXPYDS4STQ 2 128 1 0
+/product-detail/cadbury-bourn-vita-biscute 2 74960 0 0
+/.well-known/acme-challenge/9ITJF2BGGQNJXASBDKUQ7C9GA0AYFNS7 2 128 0 0
+/.well-known/acme-challenge/SFNZFUQJO6D80DW291A78FSW4CVSKD9P 2 128 0 0
+/.well-known/acme-challenge/H6F3MNDEELNZCFO_IUT7UH860DADMPLX 2 128 0 1
+/.well-known/acme-challenge/PZ2D1JRQ8_F1REU476C7H-78RWEGK7ZL 2 128 1 0
+/.well-known/acme-challenge/O-EXYTT-IVLGEH5S8CKCI4WT_EEA36EU 2 128 0 0
+/product-detail/lifebuoy-silver-shield-formula 2 284458 1 1
+/.well-known/acme-challenge/APRIPQ61TC4CFO_28S0HX89BEIJVAGJ4 2 128 0 0
+/.well-known/acme-challenge/QQXEXC6QC5MUQVMET7QARMA6C24MK11C 2 128 0 0
+/.well-known/acme-challenge/-1ZPMDZ5ZUIMOIBN_1Z7KNSOVO9LMR7C 2 128 0 0
+/.well-known/acme-challenge/6IMZSNLM-_8-W47-EZREGAHXP18S8E3N 2 128 0 0
+/product-detail/saffola-oats 4 535088 1 2
+/.well-known/acme-challenge/6THKYKKSEQZP13JDL5P3CR9N23OGL-I0 2 128 0 0
+/.well-known/acme-challenge/Q7I6H_07LVOSV-LDV590XAP4Q2QLATCY 2 128 0 0
+/.well-known/acme-challenge/JQWFM1K6_D2LJP5Q44M8QWQF84ZVJPV5 2 128 0 0
+/.well-known/acme-challenge/EDR11ULMXCB-LNVJ6J-83HTI1WW82TR4 2 128 0 0
+/.well-known/acme-challenge/AK2-7L_5F9E3GVAOOZRKOFGIA93Y7K_M 2 128 0 1
+/.well-known/acme-challenge/YMFO7VME_7KBB6N1KO1LJS9EFFH31YZ- 2 128 0 0
+/.well-known/acme-challenge/ZGSAPB7TGSNFZ_X_ARUOIDUZL3-75QR6 2 128 0 0
+/cgi-sys/403.html 4 1657 4 0
+/product-detail/dyna-soap-milk-cream-almond 2 281074 1 1
+/product-detail/kellogg-s-chocos 2 280252 1 1
+/.well-known/acme-challenge/O2UZM-X-8JMPK8GN5X91VG64OR9_W9DL 2 128 0 0
+/.well-known/acme-challenge/9ZWFQR0YH2YUGLC4WJDZO1OVB4YC08JA 2 128 0 0
+/product-detail/maggi-noodles 4 282496 0 0
+/.well-known/acme-challenge/P81NBSYA2QKIDGHP_G_TY-N-YSYFRYFV 2 128 0 0
+/.well-known/acme-challenge/P8T9I1X0T3VSNFQK2SQCFTLFC3QI5-CX 2 128 0 0
+/product-detail/rosted-pista-250gm 2 269086 0 0
+/.well-known/acme-challenge/C1788TTTETGSCB_SQWVCA9H1KKYSRUCE 2 128 0 0
+/product-detail/johnson-s-baby-lotion 2 258598 1 1
+/product-detail/shree-ajab-bhujia-namkeen-400gm 4 349396 1 1
+/.well-known/acme-challenge/5OB0YD-8B0_ZVG_S6S0D3B-SE98MQ686 2 128 0 0
+/.well-known/acme-challenge/3N724S-0QV4EHR9_BY_-TSAX9G7093GK 2 128 0 0
+/.well-known/acme-challenge/OVZYUQT7C42AA9M3XX_QFJTDX_GGISJB 2 128 0 0
+/.well-known/acme-challenge/L0GLYRX_OF2I7IH15BSTO1PFE94PUI8J 2 128 0 0
+/.well-known/acme-challenge/EUT97W6M4N8QG6OL4YYNLSZIVZ65VRPB 2 128 1 0
+/.well-known/acme-challenge/FRA56J5K--EWO8KM7RZXPV7RVW04BQNE 2 128 0 0
+/.well-known/acme-challenge/0DE-ETROIQOIY__6DYICQL594Z__IHQA 2 128 0 0
+/.well-known/acme-challenge/800UPURLNSXI62-3DMPKC4CVIF-DXB17 2 128 0 0
+/product-detail/bicano-navratan-mixture-1-kg-buy-01-get-01-1 2 80616 0 0
+/.well-known/acme-challenge/AMIM19-QNNYR002KVM5K8SGOHU6QA3IS 2 128 0 0
+/.well-known/acme-challenge/8WAFCUYI_07KPRFH887L5Y7A6Q2BKGRR 2 128 0 0
+/product-detail/gaia-lite-sugarfree-cookies-coconut-multigrains-200gm 4 349068 1 1
+/.well-known/acme-challenge/MTY6E-3YAAAUITW2WCTN-7E2H4VA50DI 2 128 1 0
+/admin/bootstrap/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/.well-known/acme-challenge/BS95MSENDPC5FHCN54ILFR5H3TNGLLXB 2 128 0 1
+/.well-known/acme-challenge/QSVA5W4LZW36LWAUZ4V264XU62ZQEZLC 2 128 0 0
+/.well-known/acme-challenge/BJG2WK8USAIL4SUXYVFLPDLX8AUEAUCA 2 128 0 0
+/.well-known/acme-challenge/UIYU22BC1UWOLFRL1YAOVSVATCANA1PI 2 128 0 0
+/.well-known/acme-challenge/WSXGN6I6NJZVU0H02V6NG89KUBRTZ_XA 2 128 0 1
+/product-detail/cinthol-lime-bath-soap-75g-pack-of-4 2 284514 1 1
+/.well-known/acme-challenge/VGA26CMSIX2B5JYG0UNOVV-AJ_HEVQ4D 2 128 0 0
+/.well-known/acme-challenge/PTKWPQHLX123Y4VIEQ13OWEJJO9M9F0J 2 128 0 0
+/.well-known/acme-challenge/I0WUJ1T__F9MD3681YG11_P9219LPH-6 2 128 0 0
+/product-detail/parle-g-biscute-1-kg-70-m-r-p 2 268426 1 1
+/.well-known/acme-challenge/5MRRTV_7BW5S67KCMT2VK9LXWHFSE1HX 2 128 0 0
+/.well-known/acme-challenge/_1AXU36QTCTILSLFDL1FT43DJPYPVE1U 2 128 0 0
+/.well-known/acme-challenge/G713PX8I-QXBRL-RYNBN_BV_TASM5O5K 2 128 0 0
+/.well-known/acme-challenge/WGM0-8X9D-N6LP8LTYWJ2JV6-7GUUXBT 2 128 0 0
+/.well-known/acme-challenge/CZ8PQGFLTIEP3AQ84RRONGTQU-FXWLUY 2 128 0 0
+/.well-known/acme-challenge/3PQZDE5N2K66XIAHFRG8_K9EKKA9L07_ 2 128 0 0
+/.well-known/acme-challenge/7LLY2KC5FB1MWT7HWSCNHAG9MYQSU1C6 2 128 0 0
+/.well-known/acme-challenge/1JDCQP5YQC9SMHO1CNDZ4DZ-F52P3AGR 2 128 0 0
+/.well-known/acme-challenge/-5MWYG915X7MMOVR6XS1MCWM9TBHUJ5A 2 128 0 0
+/.well-known/acme-challenge/YM96SFM4UQ-KVMRRHUY1_C_23PYB5LWF 2 128 0 0
+/product-detail/surf-excel-front-load-6kg 2 269322 1 1
+/.well-known/acme-challenge/S9M3YZ1JH_EFZJT8DEKPVJ2_B5OHMR2- 2 128 0 0
+/.well-known/acme-challenge/7S4XSJD1M_L9KAA_5V-BJ-GDS83RC88J 2 128 0 0
+/product-detail/odonil-air-freshener-mystic-rose-buy-3-get-1 2 272222 1 1
+/.well-known/acme-challenge/8S23J4E87RLLH1HC2VQHV_A_AYGOSDMA 2 128 0 0
+/product-detail/grahapurti-badam-almonds-500gm 2 80000 0 0
+/.well-known/acme-challenge/FDFGPHG82TUP47OH28-4935QPI05_FRI 2 128 0 0
+/.well-known/acme-challenge/Z7SPD7071CKO_B35MW_IYJL4MH5CAFNJ 2 128 0 1
+/product-detail/dry-coconut-sukha-nariyal-1pc 2 80556 0 0
+/.well-known/acme-challenge/GXDNJ0FZD9CQOEFDGP718DKAILRXD3QK 2 128 0 0
+/.well-known/acme-challenge/8FC-GHRWQCDJ18ZYWLN4HNXA-EYD560L 2 128 0 0
+/.well-known/acme-challenge/P5-7ALMTLS1G-CT2R6KY1PEVJKGB8INN 2 128 0 0
+/.well-known/acme-challenge/6CNHJ5AXFCOOZYT--KMLBI_VSJB-1XH7 2 128 0 0
+/.well-known/acme-challenge/AHUOSLJHTGT6SJUQ1UBKNKFEQEEBM6H4 2 128 0 0
+/.well-known/acme-challenge/UMFMM7FUTTIW033IQX-JVBMKFHJ_MZFX 2 128 0 1
+/.well-known/acme-challenge/VXCNEMVJHPSYKXBET9PYG_GCVKJQBNLT 2 128 0 0
+/product-detail/bicano-navratan-mixture-1-kg-buy-01-get-01 2 80648 0 0
+/.well-known/acme-challenge/WH90PUT9QR-Q5AZ7EME2_Y522PWI2FCY 2 128 0 0
+/.well-known/acme-challenge/S7DR5778L1KRWICM-EC61TBL45WJY_3W 2 128 0 0
+END_SIDER

@@ -1,0 +1,414 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202003 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.grahapurti.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2699                
+POS_VISITOR 8999                
+POS_DAY 10258               
+POS_DOMAIN 3355                
+POS_LOGIN 3675                
+POS_ROBOT 3830                
+POS_WORMS 4140                
+POS_EMAILSENDER 4271                
+POS_EMAILRECEIVER 4414                
+POS_SESSION 10917               
+POS_SIDER 11084               
+POS_FILETYPES 4549                
+POS_DOWNLOADS 4800                
+POS_OS 4848                
+POS_BROWSER 4994                
+POS_SCREENSIZE 5301                
+POS_UNKNOWNREFERER 5375                
+POS_UNKNOWNREFERERBROWSER 5873                
+POS_ORIGIN 6023                
+POS_SEREFERRALS 6159                
+POS_PAGEREFS 6343                
+POS_SEARCHWORDS 6491                
+POS_KEYWORDS 6643                
+POS_MISC 2363                
+POS_ERRORS 6702                
+POS_CLUSTER 3531                
+POS_SIDER_404 6835                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200401081317 8 1480 9746050564500
+FirstTime 20200301090248
+LastTime 20200331180804
+LastUpdate 20200402055930 1 0 0 0 0
+TotalVisits 57                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 32                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 285231 5 5 1215
+1 3 3 113964 6 22 1937213
+2 1 1 0 0 0 0
+3 1 1 246004 1 1 236672
+4 2 2 33475 0 6 6020
+5 1 2 121597 0 0 0
+6 2 2 38677 2 3 234081
+7 0 0 0 1 1 61310
+8 3 3 105281 0 0 0
+9 2 3 68452 2 3 289490
+10 2 102 26747694 1 1 56714
+11 1 2 31636 0 0 0
+12 1 1 0 1 1 288227
+13 3 3 0 1 1 286279
+14 18 295 21514169 26 29 24348
+15 10 11 121918 0 0 0
+16 5 5 60671 2 34 272699
+17 13 219 15471664 0 2 1387
+18 1 1 60668 64 64 362795
+19 1 1 56224 2 3 51587
+20 0 0 0 1 2 1387
+21 1 1 0 0 0 0
+22 1 2 91353 3 9 1087191
+23 2 2 0 1 1 286127
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 36 37 606360
+in 24 441 31933570
+de 13 182 31932828
+cl 3 3 171766
+ru 2 2 246514
+fr 1 1 246004
+ca 0 1 31636
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Googlebot/ 46 2725072 20200331172301 22
+bot[\s_+:,\.\;\/\\-] 8 2191423 20200330183209 0
+[\s_+:,\.\;\/\\-]bot 3 168224 20200324070145 0
+Googlebot\-Image/ 1 12474 20200329011149 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+jpg 231 40333032 0 0
+gif 5 974110 0 0
+js 15 3372680 0 0
+Unknown 8 155781 0 0
+css 23 1897617 0 0
+png 314 15943798 0 0
+html 62 2170749 0 0
+json 1 99 0 0
+cgi 5 89332 0 0
+woff2 3 231480 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 7 5
+win7 12 10
+ios_ipad 1 1
+linux 463 18
+Unknown 36 34
+linuxandroid 148 11
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome53.0.2785.116 1 1
+firefox58.0 1 1
+chrome78.0.3904.108 147 11
+chrome80.0.3987.149 295 14
+firefox62.0 2 2
+safari5.0.4 2 2
+Unknown 30 28
+mozilla 6 6
+safari10.0 1 1
+chrome53.0.2785.143 2 2
+firefox50.0 172 3
+chrome66.0.3359.181 4 4
+chrome40.0.2214.85 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Go-http-client/1.1 20200327131359
+WhatsApp/2.20.64_A 20200325173951
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20200310001015
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20200309085041
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20200310192617
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20200327131359
+WhatsApp/2.20.64_A 20200325173951
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 57 228
+From1 0 0
+From2 2 6
+From3 0 0
+From4 20 433
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_co_in 0 1
+www_google_com 2 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+406 1 246346
+302 3 708
+500 1 0
+404 97 133898
+301 26 6361
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 70
+/store/rss/catalog/review 1 -
+/store/errors/503.php 1 -
+/old/rss/order/new 1 -
+/shop/rss/catalog/review 1 -
+/dev/errors/503.php 1 -
+/shop/index.php/admin 1 -
+/admin 1 -
+/store/admin 1 -
+/old/errors/503.php 1 -
+/dev/rss/order/new 1 -
+/rss/catalog/notifystock 1 -
+/staging/rss/catalog/notifystock 1 -
+/store/pub/errors/503.php 1 -
+/shop/rss/catalog/notifystock 1 -
+/magento/pub/errors/503.php 1 -
+/demo/rss/catalog/review 1 -
+/rss/order/new 1 -
+/demo/index.php/admin 1 -
+/old/downloader/index.php 1 -
+/magento2 1 -
+/magento/downloader/index.php 1 -
+/test/rss/order/new 1 -
+/magento 1 -
+/store/index.php/admin 1 -
+/app-ads.txt 21 -
+/shop/errors/503.php 1 -
+/staging/downloader/index.php 1 -
+/old/index.php/admin 1 -
+/pub/errors/503.php 1 -
+/test/downloader/index.php 1 -
+/dev/downloader/index.php 1 -
+/dev/index.php/admin 1 -
+/demo/errors/503.php 1 -
+/magento/admin 1 -
+/store/rss/order/new 1 -
+/magento/rss/catalog/review 1 -
+/store/downloader/index.php 1 -
+/test/index.php/admin 1 -
+/errors/503.php 1 -
+/dev/rss/catalog/review 1 -
+/test/rss/catalog/review 1 -
+/magento/index.php/admin 1 -
+/index.php/admin 1 -
+/old/rss/catalog/review 1 -
+/downloader/index.php 1 -
+/magento/rss/catalog/notifystock 1 -
+/test/rss/catalog/notifystock 1 -
+/staging/rss/catalog/review 1 -
+/staging/index.php/admin 1 -
+/rss/catalog/review 1 -
+/magento2/admin 1 -
+/store/rss/catalog/notifystock 1 -
+/old/rss/catalog/notifystock 1 -
+/magento2/pub/errors/503.php 1 -
+/demo/rss/catalog/notifystock 1 -
+/shop/rss/order/new 1 -
+/magento/errors/503.php 1 -
+/staging/rss/order/new 1 -
+/shop/pub/errors/503.php 1 -
+/test/errors/503.php 1 -
+/magento/rss/order/new 1 -
+/shop/downloader/index.php 1 -
+/demo/rss/order/new 1 -
+/shop/admin 1 -
+/staging/errors/503.php 1 -
+/ads.txt 2 -
+/demo/downloader/index.php 1 -
+/.well-known/assetlinks.json 7 -
+/store 1 -
+/dev/rss/catalog/notifystock 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 32
+106.207.146.153 14 292 21324756 20200325173951
+35.162.70.167 10 10 0 20200326172712
+52.41.211.72 8 8 0 20200325163602
+223.238.179.250 7 143 10483309 20200325174043
+52.34.24.33 7 7 0 20200327131359
+137.226.113.28 3 3 169706 20200310192617
+137.226.113.27 3 3 162537 20200309085041
+138.246.253.15 3 3 0 20200323233134
+137.226.113.21 3 172 31600585 20200315101231
+223.238.178.10 2 2 38677 20200326063101
+157.47.178.34 2 2 33475 20200326042606
+185.128.26.20 2 2 246514 20200307145404
+18.237.171.46 1 1 61084 20200328170114
+181.215.121.238 1 1 57259 20200304005352
+38.145.112.114 1 1 57244 20200304005209
+38.145.115.154 1 1 57248 20200304005446
+54.212.180.181 1 1 61071 20200329153134
+45.73.171.33 1 1 56715 20200304011340
+52.12.18.95 1 1 60671 20200330160351
+138.246.253.5 1 1 0 20200317174106
+51.255.109.164 1 1 246004 20200302030639
+181.215.77.125 1 1 57249 20200304011401
+35.166.12.122 1 1 49651 20200313153103
+181.215.78.20 1 1 57258 20200304005631
+27.63.114.226 1 1 99 20200325174021
+49.35.6.29 0 1 11196 
+199.187.211.105 0 1 91353 
+47.247.193.3 0 1 31636 
+117.225.43.62 0 1 11196 
+34.213.178.89 1 1 60668 20200331180804
+157.37.168.4 1 1 17180 20200327143315
+103.225.189.228 0 1 64337 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200301 2 2 0 2
+20200302 2 2 246004 2
+20200303 3 3 114517 3
+20200304 8 8 400229 8
+20200306 1 70 4852891 1
+20200307 4 4 246514 3
+20200308 2 2 0 2
+20200309 1 1 48024 1
+20200310 3 3 112446 3
+20200311 1 1 0 1
+20200312 1 1 0 1
+20200313 2 2 49651 2
+20200314 1 1 0 1
+20200315 3 103 26747694 2
+20200316 1 1 0 1
+20200317 2 2 0 2
+20200318 1 1 0 1
+20200319 1 1 0 1
+20200320 1 1 0 1
+20200321 1 1 0 1
+20200322 1 1 0 1
+20200323 2 4 22392 2
+20200324 1 2 31636 1
+20200325 23 437 31808164 5
+20200326 5 5 72152 3
+20200327 2 2 17180 2
+20200328 1 1 61084 1
+20200329 1 1 61071 1
+20200330 1 1 60671 1
+20200331 1 3 216358 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+0s-30s 55
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 62 2170749 53 51
+/cartButton 5 1580 0 0
+/cgi-sys/suspendedpage.cgi 5 89332 3 3
+/public/fonts/fontawesome-webfont.woff2 3 231480 0 1
+/product-detail/surf-excel-easy-wash-detergent-powder 1 34886 0 0
+/getquantity 1 58 0 0
+/shop 1 119257 0 1
+/public/onesignal/manifest.json 1 99 1 1
+END_SIDER

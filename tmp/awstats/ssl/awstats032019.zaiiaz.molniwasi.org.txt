@@ -1,0 +1,678 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201903 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.zaiiaz.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2021                
+POS_TIME 2689                
+POS_VISITOR 32722               
+POS_DAY 33187               
+POS_DOMAIN 3396                
+POS_LOGIN 3661                
+POS_ROBOT 3816                
+POS_WORMS 4198                
+POS_EMAILSENDER 4329                
+POS_EMAILRECEIVER 4472                
+POS_SESSION 33417               
+POS_SIDER 33574               
+POS_FILETYPES 4607                
+POS_DOWNLOADS 4814                
+POS_OS 4862                
+POS_BROWSER 4995                
+POS_SCREENSIZE 5195                
+POS_UNKNOWNREFERER 5269                
+POS_UNKNOWNREFERERBROWSER 5390                
+POS_ORIGIN 5506                
+POS_SEREFERRALS 5638                
+POS_PAGEREFS 5822                
+POS_SEARCHWORDS 5970                
+POS_KEYWORDS 6122                
+POS_MISC 2353                
+POS_ERRORS 6181                
+POS_CLUSTER 3517                
+POS_SIDER_404 6323                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190327064649 5527 1747491 20695010820106
+FirstTime 0
+LastTime 20190324063501
+LastUpdate 20190327074058 4 0 4 0 0
+TotalVisits 12                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 69 129 405130
+1 3 3 43189 79 227 539152
+2 0 0 0 46 158 343087
+3 0 0 0 62 291 857594
+4 0 0 0 75 212 1243491
+5 0 0 0 48 143 1331236
+6 3 3 35309 74 195 938691
+7 1 1 0 65 144 862333
+8 1 1 14475 102 161 1032333
+9 0 0 0 49 128 532056
+10 0 0 0 76 178 564422
+11 0 0 0 55 213 465201
+12 1 1 0 56 193 399943
+13 3 68 4209228 65 177 366956
+14 0 0 0 62 240 491241
+15 0 0 0 54 347 571320
+16 0 0 0 146 484 1704829
+17 1 1 14471 89 221 886329
+18 3 68 4211903 197 513 2334272
+19 0 0 0 28 230 273716
+20 0 0 0 72 236 651009
+21 0 0 0 55 163 399924
+22 0 0 0 40 187 266924
+23 0 0 0 81 211 632996
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 8 73 4281363
+in 5 70 4230059
+de 2 2 0
+fr 1 1 17153
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 618 5191002 20190316101116 0
+Googlebot\-Image/ 195 2440526 20190314062714 0
+bingbot/ 29 821256 20190313050805 0
+bot[\s_+:,\.\;\/\\-] 28 288485 20190313162637 0
+YandexBot/ 14 129944 20190315130404 0
+no_user_agent 12 626094 20190314200942 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 28 148168 0 0
+html 10 115069 0 0
+js 24 245542 0 0
+php 4 52462 0 0
+jpg 64 5156398 0 0
+png 12 2564714 0 0
+gif 2 91902 0 0
+woff2 2 154320 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+win7 6 6
+Unknown 3 3
+macosx12 2 2
+linuxandroid 1 1
+ios_iphone 134 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+safari 67 2
+firefox33.0 1 1
+chrome40.0.2214.85 2 2
+Unknown 3 3
+safari12.0 67 2
+chrome61.0.3163.100 2 2
+chrome73.0.3683.75 1 1
+chrome72.0.3626.121 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Go-http-client/2.0 20190316014832
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/2.0 20190316014832
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 7 8
+From1 1 1
+From2 2 2
+From3 0 0
+From4 6 135
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_co_in 1 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 3 717
+500 29 0
+404 3887 3950307
+302 479 4519952
+403 84 125902
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 398
+/product/5-pcs-lot-rajasthan-jaipuri-parasols-zero-size-wedding-umbrellas-manufacturers/feed 1 -
+/product-tag/yellow 2 -
+/product-category.php 67 -
+/wp-content/uploads/2018/04/97-copy.jpg 3 -
+/product/5-pcs-lot-parasols-ceiling-event-decor-umbrellas-indian-suppliers-2 1 -
+/product-category/bohemian-tapestry 1 -
+/wp-content/uploads/2018/04/97-copy-600x600.jpg 1 -
+/wp-content/uploads/2018/04/87-copy-600x600.jpg 1 -
+/product-tag/indian-henna-decor 1 -
+/wp-content/uploads/2018/04/90-copy.jpg 1 -
+/wp-content/uploads/2018/08/IMG_20180828_201358.jpg 1 -
+/product-tag/cotton-fabric-bedsheet 1 -
+/wp-content/uploads/2018/05/s-l1600-23-600x764.jpg 1 -
+/product/5-yards-indian-geometric-pink-color-hand-dyed-shibori-cotton-fabric-multi-use-fabric 1 -
+/62-2 2 -
+/about.php 1 -
+/product-category/indian-handicrafts-anklets-upbrella-parasols-lanterns-decoration-items 1 -
+/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css 114 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-category/printed-cotton-fabric 1 -
+/wp-content/uploads/2018/03/37.jpg 1 -
+/product/voile-lightweight-running-lot-ladies-garments-sanganeri-jaipur-indian-hand-block-printed-cotton-fabric 1 -
+/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css 113 https://zaiiaz.com/shop/page/3
+/product/5-yards-shibori-hand-dyed-cotton-fabric-bagru-print-green-color-quilting-fabric-garment-dress-use-fabric-furoshiki-gift-wrap-fabric/ 2 -
+/product/indian-suzani-cushion-covers-manufacturers-yellow-uzbekistan-decorative-pillow-cases 1 -
+/wp-includes/js/jquery/jquery-migrate.min.js 46 https://zaiiaz.com/shop/page/3
+/sitemap.xml 1 -
+/shop/ 1 -
+/wp-content/uploads/2018/08/IMG_20180828_210346_Bokeh.jpg 1 https://www.google.com/
+/product-tag/suzani-pillow-cases 1 -
+/wp-content/uploads/2017/12/IMG_20171004_115913032_HDR.jpg 1 https://www.google.com/
+/product-tag/curtain-fabric 1 -
+/product-tag/collapsible-cotton-lampshades/feed 1 -
+/product/jaipur-dabu-hand-block-printed-cotton-bedsheet-floral-bedspread-table-covers-indian-flat-sheets 1 -
+/product-tag/hanging-gypsy-lanterns 1 -
+/product/indian-mandala-chakra-tapestry-gift-for-her-peacock-feathers-tapestries-cotton-bedspreads-bohemian-wall-hangings-jaipur-screen-printed-beach-throws 1 -
+/product-category/indian-handicrafts-anklets-upbrella-parasols-lanterns-decoration-items/lanterns-and-lampshades 2 -
+/product-tag/christmas-special-decor 1 -
+/wp-content/uploads/2018/03/NCSC-2-6-300x300.jpg 1 -
+/product-tag/16x16-inches 2 -
+/product-tag/ceiling-chandeliers/feed 1 -
+/product-tag/banjara-lampshades/ 1 -
+/www.facebook.com/zaiiazenterprises 2 -
+/product-tag/cute-loving-presents 2 -
+/product/pink-blue-ombre-mandala-tapestry-indian-hippie-bedding-cotton-bedspread-twin-queen-wall-hanging-curtains 2 -
+/wp-content/uploads/2018/08/IMG_20180828_171245.jpg 1 -
+/product-tag/ceiling-decore 1 -
+/product-tag/ethnic-indian-cushion-covers/feed 1 -
+/product/5pcs-lot-parasols-ceiling-event-decor-umbrellas-wedding-decor-bagru-embroidered-multicolor-beautiful-home-decoration/ 4 -
+/product-tag/indian-henna-decor/feed 1 -
+/product-tag/jaipuri-umbrellas 2 -
+/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js 41 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-includes/js/wp-util.min.js 18 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/product-tag/collapsible-lanterns/feed 1 -
+/4-copy/ 1 -
+/product-tag/living-room-decor/feed 1 -
+/wp-content/plugins/the-events-calendar/common/src/resources/js/underscore-after.js 12 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/wp-includes/js/underscore.min.js 12 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/product-tag/home-decor/ 1 -
+/product/mandala-tapestry-indian-wall-hanging-decor-deer-elephant-camel-bohemian-hippie-queen-bedspread-throw 1 -
+/wp-content/uploads/2018/03/VHPCF-2-3.jpg 2 -
+/wp-content/uploads/2018/05/s-l1600-17-600x764.jpg 1 https://www.google.com/
+/.well-known/assetlinks.json 10 -
+/product-tag/high-fashion-pillows/feed 1 -
+/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extend.js 73 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/wp-content/uploads/2018/03/8-2-600x600.jpg 2 -
+/product-tag/ceiling-decore/feed 1 -
+/product-tag/woolen-embroidery/feed 1 -
+/wp-content/uploads/2018/02/17-300x300.jpg 1 -
+/product-tag/bedsheet 1 -
+/hello-world/ 2 -
+/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js 115 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/collapsible-lanterns 1 -
+/product-category/suzani-cushion-covers-shibori-folding-technique-hand-printed-pillow-cases-indian-banjara-pillows-uzbekistan-stylish-pillow-covers 1 -
+/product-tag/sanganeri-wooden-hand-block-printed-cotton-fabric 1 -
+/product-tag/indian-umbrella-suppliers 1 -
+/wp-content/uploads/2018/04/84-copy.jpg 1 -
+/product/sanganeri-hand-dyed-shibori-cotton-fabric-garment-use-fabric-5-yards 3 -
+/wp-content/plugins/the-events-calendar/common/src/resources/js/underscore-before.js 12 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/product-tag/collapsible-lamps 1 -
+/wp-content/uploads/2018/05/s-l1600-25.jpg 1 https://www.google.com/
+/product-category/indian-decorations/artificial-flower-strings 1 -
+/wp-content/uploads/2018/08/IMG_20180828_210400_Bokeh.jpg 1 -
+/62-2/ 1 -
+/product/floral-damask-sanganeri-jaipur-wood-indian-hand-block-printed-cotton-fabric-voile-by-the-yards-2/feed 1 -
+/wp-admin/js/password-strength-meter.min.js 1 https://zaiiaz.com/my-account
+/product/5-pcs-lot-indian-jaipuri-parasols-zero-size-wedding-umbrellas 1 -
+/product-tag/ceiling-decor 1 -
+/assets/css/select2.min.css 1 https://zaiiaz.com/product.php
+/product/indian-shibori-cotton-bedsheet-indigo-blue-orange-bedspread-shibory-table-covers-jaipur-flat-sheets 1 -
+/wp-content/uploads/2018/03/24.jpg 13 https://www.google.com/
+/product-tag/beach-tapestries 1 -
+/registration.php 3 -
+/product-tag/psychedelic-home-decor/feed 1 -
+/product-tag/indian-vintage-lamps/feed 1 -
+/product-tag/hippie-bedding 4 -
+/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.srcset.min.js 77 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product/indian-banjara-parasols-vintage-umbrellas/ 2 -
+/wp-content/plugins/akismet/_inc/form.js 36 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product/10-pcslot-indian-festivals-decoration-yellow-and-mango-color-jaidecor-garlands-marigold-10-feet-long-home-decor-toran-natural-color/feed 1 -
+/product-tag/hand-block-printed-running-cotton-fabric 1 -
+/wp-content/uploads/2018/03/IMG_20180819_094206-300x300.jpg 3 https://www.google.fr/
+/product-tag/floral-embroidered-cushions/feed 1 -
+/product-tag/home-decor 2 -
+/product-tag/indian-chess 1 -
+/product/indian-jaipur-manufactures-hand-embroidered-pillow-cases-uzbek-suzani-cushion-covers/ 1 -
+/product-tag/garments-cotton-fabric 1 -
+/contact.php 6 -
+/product-tag/indian-hand-printed-fabric 2 -
+/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js 110 https://zaiiaz.com/product-tag/indian-hand-printed-fabric
+/product-tag/indian-vintage-lamps 1 -
+/product-tag/college-dorm 1 -
+/product-tag/banjara-lampshades 5 -
+/product/mandala-tapestry-indian-wall-hanging-decor-ombre-bohemian-hippie-queen-bedspread-throw 3 -
+/product-tag/embroidered-pillow-cases 4 -
+/product-category/suzani-cushion-covers-shibori-folding-technique-hand-printed-pillow-cases-indian-banjara-pillows-uzbekistan-stylish-pillow-covers/suzani-cushion-covers 1 -
+/product/indian-suzani-cushion-covers-manufacturers-black-uzbek-home-decorative-pillow-cases 1 https://www.google.com/
+/product-tag/alibaba-harem-pants 4 -
+/wp-content/uploads/2018/03/VHPCF-2B-3.jpg 2 https://www.google.com/
+/product-tag/free-shipping/feed 1 -
+/wp-content/uploads/2018/04/96-copy.jpg 1 -
+/product-tag/pillows-cases 2 -
+/product-tag/aluminium-chessman/feed 1 -
+/product-tag/event-decor 1 -
+/feed 1 -
+/product/floral-damask-hand-block-printed-cotton-bedsheet-floral-bedspread-table-covers-indian-flat-sheets-2/feed 1 -
+/product-tag/casement-fabric-pillow-cases 2 -
+/product-tag/yellow/feed 1 -
+/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js 44 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/plugins/contact-form-7/includes/css/styles.css 77 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/uploads/2018/04/104-copy.jpg 1 -
+/product-category/kantha-quilts-bedspreads-gudri-tapestries-bohemian-bedding-hippie-wall-hangings 2 -
+/product-tag/gift-wrap-fabric/feed 1 -
+/product-tag/cushion-covers/feed 1 -
+/product-category/indian-traditional-ethnic-vintage-banjara-garments-shirts-trousers-alibaba-harem-pants 2 -
+/wp-content/uploads/2018/04/125-copy.jpg 1 -
+/product-tag/baby-quilt-cotton-fabric/feed 1 -
+/wp-content/themes/maxstore/js/bootstrap.js 41 https://zaiiaz.com/product-tag/psychedelic-bedding
+/shop 5 -
+/wp-content/uploads/2018/03/VHPCF-2A-2.jpg 1 -
+/product-tag/tie-dyed-tapestries 2 -
+/wp-content/uploads/2018/05/s-l1600-14-600x764.jpg 1 https://www.google.co.uk/
+/wp-content/uploads/2017/12/NCSC-1-6.jpg 1 -
+/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js 46 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/assets/css/bootstrap.min.css 1 https://zaiiaz.com/product.php
+/product-tag/mandala-tapestry/feed 1 -
+/product-tag/collapsible-lamps/feed 1 -
+/wp-content/uploads/2018/03/NCSC-7-5.jpg 2 -
+/product-tag/cotton-tapestries/feed 1 -
+/product-tag/psychedelic-decoration 3 -
+/wp-content/uploads/2018/03/VHPCF-1B-2.jpg 1 -
+/product/floral-damask-hand-block-printed-cotton-bedsheet-floral-bedspread-table-covers-indian-flat-sheets 1 -
+/wp-content/uploads/2018/03/VHPCF-2C-4.jpg 1 -
+/product-tag/12-pillows 1 -
+/www.instagram.com/www_zaiiaz_com 1 -
+/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js 19 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/wp-content/uploads/2018/08/IMG_20180828_171257_Bokeh.jpg 1 -
+/product-tag/gifts-for-her/feed 1 -
+/product-tag/baby-quilt-cotton-fabric 3 -
+/product-tag/pillow-cases 1 -
+/wp-content/uploads/2018/03/NCSC-7-6.jpg 1 -
+/product/indian-jaipur-manufacturers-decorative-sofa-pillow-cases-uzbekistan-suzani-cushion-covers/feed 1 -
+/product.php 126 -
+/my-account 2 -
+/product-category/kantha-quilts-bedspreads-gudri-tapestries-bohemian-bedding-hippie-wall-hangings/shibori-bed-sheets 1 -
+/wp-content/uploads/2018/03/VHPCF-3A-3.jpg 2 -
+/product/indian-banjara-parasols-decorative-vintage-umbrellas 1 -
+/product-tag/wooden-stamp-hand-printed-cotton-fabric 2 -
+/product-tag/cotton-bedspreads 3 -
+/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css 108 https://zaiiaz.com/shop/page/2
+/product-tag/furoshiki-hand-block-printed-cotton-fabric 4 -
+/product-tag/free-shipping 3 -
+/product-tag/jaipuri-umbrellas/feed 1 -
+/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js 72 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/beach-throws 3 -
+/product/floral-damask-hand-block-printed-cotton-bedsheet-floral-bedspread-table-covers-indian-flat-sheets-2 3 -
+/cart/ 1 -
+/feed/ 3 -
+/product-tag/indian-mandala-bedspread/feed 1 -
+/assets/js/select2.full.min.js 2 https://zaiiaz.com/product-category.php
+/product-tag/indian-banjara-parasols 1 -
+/product-tag/banjara-umbrellas/feed 1 -
+/product-tag/indian-mandala-bedspread 3 -
+/wp-content/uploads/2018/03/VHPCF-4-600x600.jpg 2 -
+/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css 76 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/alibaba-harem-pants/feed 1 -
+/wp-content/uploads/2018/05/s-l1600-16.jpg 1 -
+/robots.txt 112 -
+/product-tag/queen-size-handmade-throw 4 -
+/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.css 41 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/henna-decorations 3 -
+/assets/js/bootstrap-touch-slider.js 1 https://zaiiaz.com/product.php
+/wp-content/uploads/2018/04/124-copy.jpg 1 -
+/product-tag/sanganeri-wooden-hand-block-printed-cotton-fabric/feed 1 -
+/product-tag/ikat-printed-cotton-fabric 1 -
+/product-tag/ethnic-indian-cushion-covers 1 -
+/product/voile-lightweight-running-lot-ladies-garments-sanganeri-jaipur-indian-hand-block-printed-cotton-fabric/feed 1 -
+/product-tag/printed-cushion-covers 1 -
+/product-tag/sofa-pillows 1 -
+/wp-content/uploads/2018/03/NCSC-7-2.jpg 1 -
+/product-tag/new-designer-anokhi-printed-cotton-fabric 1 -
+/product-tag/uzbekistan-pillow-covers/feed 1 -
+/wp-content/plugins/kirki/assets/css/kirki-styles.css 94 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css 49 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/suzani-cushion-covers 1 -
+/product-tag/indian-parasols/feed 1 -
+/product-category/indian-traditional-ethnic-vintage-banjara-garments-shirts-trousers-alibaba-harem-pants/trousers-pants 2 -
+/wp-content/uploads/2018/04/94-copy.jpg 1 -
+/product-tag/home-decor/feed 1 -
+/wp-content/uploads/2018/03/VHPCF-4A-1-600x600.jpg 3 -
+/product-tag/patchworked-pillows 1 -
+/product-tag/henna-decorations/feed 1 -
+/wp-content/uploads/2017/12/NCSC-1-8-1.jpg 1 -
+/wp-includes/js/jquery/ui/mouse.min.js 40 https://zaiiaz.com/product-tag/psychedelic-bedding
+/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.min.js 71 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js 92 https://zaiiaz.com/product-tag/indian-hand-printed-fabric
+/product-tag/banjara-umbrellas 1 -
+/wp-includes/js/zxcvbn-async.min.js 1 https://zaiiaz.com/my-account
+/wp-includes/js/wp-embed.min.js 105 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/photo-gallery.php 2 -
+/product-category/kantha-quilts-bedspreads-gudri-tapestries-bohemian-bedding-hippie-wall-hangings/printed-bedspreads 2 -
+/login.php 1 -
+/product-tag/christmas-pillow 1 -
+/wp-content/uploads/2018/03/VHPCF-4B-2.jpg 1 -
+/wp-content/uploads/2018/05/s-l1600-32.jpg 1 -
+/wp-content/uploads/2017/12/27-copy.jpg 1 -
+/checkout 2 -
+/product-tag/hand-block-printed-running-cotton-fabric/feed 1 -
+/product/5pcs-lot-parasols-ceiling-event-decor-umbrellas-wedding-decor-bagru-embroidered-multicolor-beautiful-home-decoration 1 -
+/product-tag/indian-anokhi-printed-cotton-fabric/ 1 -
+/product-tag/new-designer-anokhi-printed-cotton-fabric/feed 1 -
+/shop/page/5 1 -
+/product-category/indian-traditional-ethnic-vintage-banjara-garments-shirts-trousers-alibaba-harem-pants/pareos-and-scarves 1 -
+/wp-content/uploads/2018/03/VHPCF-3A-1.jpg 1 -
+/wp-content/uploads/2018/04/103-copy.jpg 1 -
+/product-tag/sky-blue 1 -
+/assets/js/bootstrap.min.js 4 https://zaiiaz.com/product.php
+/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js 32 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/uploads/2018/03/VHPCF-2A-3.jpg 1 -
+/wp-content/uploads/2018/05/s-l1600-4.jpg 1 -
+/my-account/ 1 -
+/wp-content/uploads/2018/04/107-copy.jpg 2 -
+/product/5-pcs-lot-rajasthan-jaipuri-parasols-zero-size-wedding-umbrellas-manufacturers 2 -
+/product-tag/lightweight-cotton-fabric 1 -
+/wp-content/themes/maxstore/js/customscript.js 45 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/pillow-cases/feed 1 -
+/product/5-pieces-lot-indian-diwali-lamps-chandelier-ceiling-decor-gifts-collapsible-lampshades-cotton-fabric-decorative-lanterns 1 -
+/wp-content/uploads/2018/05/s-l1600-11-300x300.jpg 1 -
+/wp-includes/js/jquery/ui/core.min.js 38 https://zaiiaz.com/product-tag/psychedelic-bedding
+/product-tag/indian-decorative-pillows 1 -
+/product-tag/christmas-gifts/feed 1 -
+/product-tag/event-decor/feed 1 -
+/wp-content/uploads/2018/03/NCSC-8-4.jpg 1 -
+/product-tag/hippie-decor 1 -
+/wp-content/uploads/2018/03/38.jpg 1 -
+/product-tag/cushion-supplier 1 -
+/wp-content/uploads/2017/12/NCSC-1-9-1.jpg 1 -
+/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js 22 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/decorative-pillow-cases 1 -
+/product-tag/indian-anokhi-printed-cotton-fabric 3 -
+/info/ 1 -
+/product-tag/red/feed 1 -
+/product-tag/sequins-colorful-umbrellas/feed 1 -
+/product/patchwork-indigo-blue-hand-block-printed-sanganeri-technique-designer-interior-decoration-christmas-gifts/feed 1 -
+/product-tag/red 1 -
+/product-tag/ikat-hand-block-printed-fabric 1 -
+/product-tag/chakra-tapestries 3 -
+/wp-content/uploads/2017/12/NCQT-1-5.jpg 1 -
+/about-us/ 1 -
+/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js 40 https://zaiiaz.com/product-tag/psychedelic-bedding
+/faq.php 1 -
+/product-tag/sofa-pillows/feed 1 -
+/product-tag/gifts-for-her 1 -
+/product/indian-home-decor-event-decor-pure-cotton-multi-colorful-garden-lamp-collapsible-lampshades-rajasthani-lanterns 1 https://www.google.fr/
+/product-tag/bedsheet-cotton-fabric/feed 1 -
+/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js 1 https://zaiiaz.com/my-account
+/product/50-pieces-lot-indian-decoration-fiber-marigold-floral-strings-party-backdrops-wholesale-lot-real-like-wedding-decor-5feet-thread-linear-strands-copy 3 -
+/wp-content/uploads/2018/03/VHPCF-3B-4.jpg 1 -
+/product/indian-jaipur-hand-block-printed-pareo-geometric-sexy-beach-dress-for-ladies 2 -
+/product-tag/gift-wrap-fabric 2 -
+/wp-includes/js/jquery/ui/widget.min.js 43 https://zaiiaz.com/product-tag/queen-tapestries
+/product-tag/christmas-special-decor/feed 1 -
+/product-tag/square-pillows 1 -
+/product/indian-mirrorwork-parasols-vintage-wedding-umbrellas/feed 1 -
+/product-tag/indian-hand-printed-fabric/feed 1 -
+/wp-content/uploads/2018/05/s-l1600-3.jpg 1 -
+/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js 46 https://zaiiaz.com/product-tag/psychedelic-bedding
+/product/10-pcslot-indian-festivals-decoration-yellow-and-mango-color-jaidecor-garlands-marigold-10-feet-long-home-decor-toran-natural-color 5 -
+/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.css 37 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/19 1 -
+/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js 22 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/plugins/woocommerce/assets/css/woocommerce.css 108 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/uploads/2018/03/NCSC-6-4.jpg 1 -
+/product-tag/12-pillows/feed 1 -
+/product-tag/banjara-lampshades/feed 1 -
+/wp-content/uploads/2018/03/VHPCF-3.jpg 2 -
+/product-tag/indian-decorative-pillows/feed 1 -
+/product-tag/diwali-home-decor 1 -
+/product-tag/floral-bedspread 1 -
+/wp-content/themes/maxstore/css/font-awesome.min.css 46 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/wp-content/uploads/2018/03/NCSC-8-3.jpg 2 -
+/blog-single.php 16 -
+/product-tag/ikat-hand-block-printed-fabric/feed 1 -
+/category.php 6 -
+/product-tag/sanganer-hand-block-printed-cotton-fabric 1 -
+/product-tag/abstract-red-pillows/feed 1 -
+/product-tag/diwali-home-decor/feed 1 -
+/wp-content/themes/maxstore/css/bootstrap.css 44 https://zaiiaz.com/product-tag/psychedelic-bedding
+/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.min.css 45 https://zaiiaz.com/product-tag/psychedelic-bedding
+/wp-content/uploads/2018/03/NCSC-8-1.jpg 1 -
+/cart.php 1 -
+/product/indian-jaipur-hand-tie-dyed-shibori-pareo-sheer-cover-up-beach-sarong-dress 3 -
+/4-copy 1 -
+/product-tag/floral-damask-printed-cotton-fabric 1 -
+/wp-content/uploads/2018/04/58-copy-600x600.jpg 1 -
+/product-tag/brown 3 -
+/wp-content/uploads/2018/03/NCSC-8-5.jpg 1 -
+/product-tag/gift-for-him 1 -
+/ads.txt 20 -
+/wp-content/uploads/2018/08/IMG_20180828_210250-600x283.jpg 2 https://www.google.com/
+/product-tag/indian-parasols 1 -
+/product-tag/cotton-tapestries 3 -
+/wp-content/uploads/2018/03/12.jpg 1 -
+/product-tag/indian-anokhi-printed-cotton-fabric/feed 1 -
+/author/prince619 1 -
+/product-tag/ethnic-tapestries 8 -
+/wp-includes/js/jquery/jquery.js 41 https://zaiiaz.com/product-tag/psychedelic-bedding
+/wp-content/plugins/woocommerce/assets/js/frontend/price-slider.min.js 92 https://zaiiaz.com/product-tag/bedsheet
+/wp-content/uploads/2017/12/NCSC-1-1.jpg 1 -
+/wp-content/uploads/2018/08/IMG_20180804_172749_Bokeh-600x450.jpg 2 -
+/product-tag/furoshiki-gift-wrap-fabric 1 -
+/product-tag/wooden-chessboard 1 -
+/wp-content/uploads/2018/03/VHPCF-1-2.jpg 1 -
+/product-tag/mandala-tapestry 2 -
+/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js 34 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/christmas-gifts 1 -
+/assets/js/owl.carousel.min.js 2 https://zaiiaz.com/product.php
+/product-category/bohemian-tapestry/mandala-tapestry 2 -
+/product/patchwork-indigo-blue-hand-block-printed-sanganeri-technique-designer-interior-decoration-christmas-gifts 2 -
+/wp-content/uploads/2018/03/24-600x600.jpg 1 -
+/wp-content/uploads/2018/08/IMG_20180828_201358-600x600.jpg 3 https://www.google.com/
+/wp-content/uploads/2018/03/VHPCF-3B-1.jpg 1 -
+/about-us 3 -
+/wp-content/uploads/2018/03/VHPCF-3B-2.jpg 1 -
+/product-tag/furoshiki-gift-wrap-fabric/feed 1 -
+/product/indian-jaipur-manufactures-hand-embroidered-pillow-cases-uzbek-suzani-cushion-covers 1 -
+/shop/page/2 4 -
+/product/black-white-ombre-mandala-tapestry-indian-hippie-bedding-cotton-bedspread-twin-queen-wall-hanging-curtains/ 1 -
+/product-tag/sea-green-tapestry 1 -
+/product-tag/queen-tapestries/feed 1 -
+/product/mandala-tapestry-bohemian-wall-hanging-hippie-home-decore-throws 1 -
+/product-tag/psychedelic-bedding 1 -
+/shop/page/4 2 -
+/product-tag/queen-tapestries 4 -
+/wp-content/uploads/2017/12/NCQT-2-3.jpg 2 -
+/wp-content/uploads/2018/04/106-copy.jpg 1 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 85 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/psychedelic-home-decor 1 -
+/product-tag/high-fashion-pillows 1 -
+/product-tag/aluminium-chessman 1 -
+/product-tag/16-cushion-covers 1 -
+/product-tag/tent-decor/feed 1 -
+/wp-content/uploads/2018/04/55-copy.jpg 1 -
+/wp-includes/js/wp-emoji-release.min.js 105 https://zaiiaz.com/shop/page/3
+/assets/css/spacing.css 2 https://zaiiaz.com/product.php
+/product-tag/indian-ethnic-decor 1 -
+/wp-content/uploads/2018/03/NCSC-7-3.jpg 1 -
+/product-tag/living-room-decor 5 -
+/wp-content/uploads/2018/05/s-l1600-38-600x764.jpg 2 -
+/product-tag/suzani-pillow-cases/feed 1 -
+/ 1 -
+/product-tag/bohemian-tapestry 3 -
+/product-tag/uzbekistan-pillow-covers 1 -
+/wp-content/uploads/2018/04/102-copy.jpg 1 -
+/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js 43 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/wp-content/uploads/2018/04/2-copy.jpg 5 -
+/product-tag/furoshiki-hand-block-printed-cotton-fabric/feed 1 -
+/product/blue-ethnic-indian-mandala-chakra-tapestry-bohemian-bedding-peacock-feathers-tapestries-cotton-bed-sheets-beach-throws-curtains 1 -
+/product-tag/embroidered-pillow-cases/feed 1 -
+/product-tag/ethnic-tapestries/feed 1 -
+/product/5pcs-lot-indian-decoration-parasols-ceiling-event-decor-umbrellas-wedding-decor-geometric-cotton-fabric 1 -
+/product-category/home-decor 1 -
+/product-tag/garments-cotton-fabric/feed 1 -
+/wp-content/uploads/2018/03/75-600x600.jpg 1 -
+/wp-content/themes/maxstore/style.css 46 https://zaiiaz.com/product/peacock-elephant-mandala-tapestry-blue-wall-hanging-indian-ethnic-decor-gifts-curtains-wall-hanging
+/my-account/lost-password/ 1 -
+/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js 110 https://zaiiaz.com/product-tag/bedsheet
+/wp-content/uploads/2018/04/123-copy.jpg 1 -
+/forget-password.php 1 -
+/product-tag/printed-cotton-fabric-bedsheet 1 -
+/shop/page/1 1 -
+/wp-includes/js/jquery/ui/slider.min.js 40 https://zaiiaz.com/product-tag/psychedelic-bedding
+/product-tag/mandala-tapestries-wall-hangings-throws-bed-sheets-bedspreads-hippie-bohemian-bedding-paintins-indian-tapestries-cotton-tapestries 2 -
+/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css 105 https://zaiiaz.com/product/wooden-chess-board-marble-pieces-aluminium-chessman-vintage-chessboard-gifts-for-him
+/product-tag/queen-size-handmade-throw/ 1 -
+/product-tag/sky-blue/feed 1 -
+/wp-content/uploads/2018/03/VHPCF-3A-2.jpg 1 -
+/product/indian-mirrorwork-parasols-vintage-wedding-umbrellas 1 -
+/product-tag/cushion-covers 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+106.207.209.56 3 3 35309 20190324063501
+138.246.253.5 2 2 0 20190315125539
+13.57.233.99 2 2 28703 20190315134802
+157.47.181.190 2 67 4195000 20190311135708
+113.193.65.218 2 67 4194750 20190315182524
+54.245.12.170 1 1 14481 20190312013140
+82.230.2.103 1 1 17153 20190317183010
+159.203.196.79 1 1 14471 20190314175915
+18.237.8.18 1 1 14476 20190310012342
+18.237.241.59 1 1 14232 20190316014832
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20190310 1 1 14476 1
+20190311 2 67 4195000 1
+20190312 2 2 28956 2
+20190314 1 1 14471 1
+20190315 5 70 4208978 4
+20190316 1 1 14232 1
+20190317 1 1 17153 1
+20190324 3 3 35309 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 10 115069 10 8
+/errors/MultiDomainHosting.php 4 52462 2 2
+/assets/fonts/fontawesome-webfont.woff2 2 154320 0 2
+END_SIDER

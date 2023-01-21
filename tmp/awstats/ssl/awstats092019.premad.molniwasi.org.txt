@@ -1,0 +1,441 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.premad.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2021                
+POS_TIME 2685                
+POS_VISITOR 12073               
+POS_DAY 12857               
+POS_DOMAIN 3369                
+POS_LOGIN 3635                
+POS_ROBOT 3790                
+POS_WORMS 4298                
+POS_EMAILSENDER 4429                
+POS_EMAILRECEIVER 4572                
+POS_SESSION 13253               
+POS_SIDER 13416               
+POS_FILETYPES 4707                
+POS_DOWNLOADS 4862                
+POS_OS 4910                
+POS_BROWSER 5036                
+POS_SCREENSIZE 5321                
+POS_UNKNOWNREFERER 5395                
+POS_UNKNOWNREFERERBROWSER 5506                
+POS_ORIGIN 5612                
+POS_SEREFERRALS 5745                
+POS_PAGEREFS 5910                
+POS_SEARCHWORDS 6058                
+POS_KEYWORDS 6210                
+POS_MISC 2349                
+POS_ERRORS 6269                
+POS_CLUSTER 3491                
+POS_SIDER_404 6403                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001020926 11 1806 9891579678742
+FirstTime 0
+LastTime 20190930133335
+LastUpdate 20191001045818 11 0 10 0 0
+TotalVisits 29                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 20                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 8 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 7 40599 66 78 91822
+1 4 4 42085 7 13 133670
+2 0 0 0 13 18 76409
+3 0 0 0 5 10 85219
+4 3 3 72136 8 11 136206
+5 3 3 72136 11 29 368833
+6 4 57 2982842 10 23 190229
+7 0 0 0 11 27 145544
+8 2 2 7811 15 57 712778
+9 2 2 7811 13 21 144294
+10 2 2 0 9 31 316496
+11 1 1 36068 11 16 104101
+12 1 1 7811 6 8 69210
+13 1 1 7811 11 13 162472
+14 0 0 0 8 21 262469
+15 0 0 0 8 11 169838
+16 3 3 23433 17 23 100168
+17 15 15 104343 16 25 131753
+18 0 0 0 7 13 84252
+19 0 0 0 86 154 617986
+20 3 3 9211 19 27 191136
+21 0 0 0 8 13 159092
+22 0 0 0 11 26 101605
+23 0 0 0 69 81 212397
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 29 82 3208924
+de 14 14 0
+fr 6 6 189551
+ru 2 2 15622
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+Googlebot/ 104 1017090 20190926103853 0
+aiHitBot/ 85 487636 20190913193927 0
+bingbot/ 64 469675 20190930224523 0
+bot[\s_+:,\.\;\/\\-] 30 1051976 20190928085427 0
+YandexBot/ 27 136466 20190929120114 0
+Googlebot\-Image/ 18 526263 20190917080913 0
+YandexImages/ 3 103368 20190905005248 0
+no_user_agent 2 57104 20190927015111 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 0 20190929002703 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+png 14 304814 0 0
+css 17 157898 0 0
+js 12 106937 0 0
+html 51 448277 0 0
+jpg 10 2396171 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+win7 28 28
+linuxandroid 57 4
+linux 9 9
+win10 9 9
+Unknown 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+msie7.0 5 5
+chrome76.0.3809.100 2 2
+chrome40.0.2214.85 14 14
+edge17 2 2
+firefox67.0 6 6
+chrome63.0.3239.132 2 2
+chrome75.0.3770.142 6 6
+chrome66.0.3359.66 2 2
+firefox58.0 5 5
+Unknown 1 1
+chrome65.0.3298.4 2 2
+chrome38.0.1025.166 57 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+PleskBot 20190926010328
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+PleskBot 20190926010328
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 39 39
+From1 0 0
+From2 4 4
+From3 0 0
+From4 8 61
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_co_in 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+404 325 885700
+206 2 18422
+409 3 249
+301 36 4830
+302 26 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 139
+/framework/css/siliconfolio.min.css 1 https://premad.in/
+/demo/errors/503.php 1 -
+/staging/index.php/admin/ 1 -
+/framework/js/contact-form.js 2 https://premad.in/
+/store/index.php/admin/ 1 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/dev/rss/order/new 1 -
+/demo/downloader/index.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ 6 -
+/framework/css/jquery.pagepiling.min.css 1 https://premad.in/
+/administrator/manifests/files/joomla.xml 2 -
+/dev/rss/catalog/review 1 -
+/framework/css/remodal.css 1 http://premad.in/
+/vb5/ 2 -
+/test/downloader/index.php 1 -
+/dev/rss/catalog/notifystock 1 -
+/server/php/files/up.php 2 -
+/robots.txt 95 -
+/framework/js/jquery-migrate.min.js 1 http://premad.in/
+/public/upload_nhieuanh/server/php/files/up.php 2 -
+/framework/js/isotope.pkgd.min.js 1 https://premad.in/
+/magento/index.php/admin/ 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/magento/rss/order/new 1 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 2 -
+/ficheiros/conteudos/spy.txt 2 -
+/old/downloader/index.php 1 -
+/vbulletin5/ 2 -
+/framework/css/contact-form.css 2 https://premad.in/
+/assets/ckeditor/kcfinder/upload.php 2 -
+/shop/rss/catalog/review 1 -
+/shop/downloader/index.php 1 -
+/demo/rss/order/new 1 -
+/ckeditor/kcfinder/upload.php 2 -
+/shop/rss/catalog/notifystock 1 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 2 -
+/framework/css/page/portfolio-item-10.css 1 https://premad.in/portfolio-item-10.html
+/framework/css/wocommerce.css 1 https://premad.in/portfolio-item-8.html
+/index.php/admin/ 1 -
+/vb/ 2 -
+/libraries/jscripts/kcfinder/upload.php 2 -
+/demo/index.php/admin/ 1 -
+/framework/js/tipso.min.js 1 https://premad.in/
+/test/rss/catalog/review 1 -
+/vehiculo_photos/server/php/files/up.php 2 -
+/framework/js/jquery.waitforimages.js 1 https://premad.in/
+/store/rss/catalog/notifystock 1 -
+/dev/errors/503.php 1 -
+/store/rss/catalog/review 1 -
+/AndroidFileUpload/uploads/up.php 2 -
+/staging/rss/order/new 1 -
+/framework/img/20.jpeg 1 -
+/framework/css/page/main.css 2 https://premad.in/
+/fckeditor/editor/filemanager/connectors/php/connector.php 2 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 2 -
+/info@premad.in 1 -
+/forums/ 2 -
+/admin/ckeditor/kcfinder/upload.php 2 -
+/framework/css/tipso.min.css 1 https://premad.in/
+/magento/rss/catalog/notifystock 1 -
+/dev/index.php/admin/ 1 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 2 -
+/downloader/index.php 1 -
+/adminside/server/php/ 2 -
+/old/rss/catalog/notifystock 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 2 -
+/forum/ 2 -
+/AndroidFileUpload/fileUpload.php 2 -
+/vbulletin/ 2 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/public/upload_nhieuanh/server/php/_index.php 2 -
+/admin/login.php 2 -
+/errors/503.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 2 -
+/web/image/Images/up.php 2 -
+/magento/rss/catalog/review 1 -
+/.well-known/assetlinks.json 5 -
+/old/errors/503.php 1 -
+/framework/js/remodal.min.js 1 https://premad.in/
+/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/old/index.php/admin/ 1 -
+/framework/css/owl.carousel.min.css 1 https://premad.in/
+/framework/css/animate.css 1 https://premad.in/
+/cart.cart 2 -
+/store/errors/503.php 1 -
+/test/rss/order/new 1 -
+/kcfinder-2.51/upload.php 2 -
+/rss/order/new 1 -
+/framework/js/popper.min.js 2 https://premad.in/portfolio-item-1.html
+/staging/rss/catalog/review 1 -
+/assets/js/mylibs/kcfinder/upload.php 2 -
+/shop/index.php/admin/ 1 -
+/vehiculo_photos/server/php/ 2 -
+/test/index.php/admin/ 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/language/en-GB/en-GB.xml 2 -
+/magento/errors/503.php 1 -
+/staging/downloader/index.php 1 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 2 -
+/shop/rss/order/new 1 -
+/web/image/upload.php 2 -
+/demo/rss/catalog/review 1 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/store/rss/order/new 1 -
+/framework/img/handz_lineart_final.jpg 1 https://premad.in/framework/css/page/main.css
+/framework/js/jquery.pagepiling.min.js 1 https://premad.in/
+/magento/downloader/index.php 1 -
+/admin/images/cal_date_over.gif 2 -
+/store/downloader/index.php 1 -
+/scripts/jquery/kcfinder/upload.php 2 -
+/test/rss/catalog/notifystock 1 -
+/staging/rss/catalog/notifystock 1 -
+/framework/css/typicons/style.css 2 https://premad.in/portfolio-item-1.html
+/assets/global/plugins/jquery-file-upload/server/php/ 2 -
+/assets/admin/ckeditor/kcfinder/upload.php 2 -
+/server/php/ 2 -
+/js/ckeditor/kcfinder/upload.php 2 -
+/dev/downloader/index.php 1 -
+/framework/js/imagesloaded.js 1 https://premad.in/
+/framework/css/font-awesome/css/font-awesome.min.css 1 https://premad.in/portfolio-item-8.html
+/framework/css/page/portfolio-item-1.css 1 https://premad.in/portfolio-item-1.html
+/tpl/plugins/upload9.1.0/server/php/up.php 2 -
+/rss/catalog/notifystock 1 -
+/test/errors/503.php 1 -
+/images/block/up.php 2 -
+/demo/rss/catalog/notifystock 1 -
+/ 23 -
+/staging/errors/503.php 1 -
+/rss/catalog/review 1 -
+/kcfinder-2.51/upload/files/up.php.jd 2 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/old/rss/catalog/review 1 -
+/old/rss/order/new 1 -
+/framework/js/bootstrap.min.js 2 https://premad.in/portfolio-item-1.html
+/application/configs/application.ini 2 -
+/framework/css/vc.css 2 https://premad.in/
+/shop/errors/503.php 1 -
+/userfiles/file/spy.txt 2 -
+/framework/js/owl.carousel.min.js 2 https://premad.in/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 20
+157.37.248.28 14 14 109354 20190922175741
+138.246.253.5 14 14 0 20190930084445
+67.83.64.187 8 8 54132 20190913010811
+18.221.92.93 2 2 18422 20190901172628
+66.102.6.187 2 2 15622 20190928081952
+212.83.146.233 2 2 72136 20190915054138
+66.102.6.191 1 1 7811 20190930133335
+195.154.61.206 1 1 36068 20190911113201
+62.4.14.198 1 1 36068 20190915044804
+92.63.111.27 1 1 7811 20190921063246
+63.33.60.27 1 1 28552 20190926010328
+66.249.83.207 1 17 209668 20190916064430
+62.4.14.206 1 1 36068 20190915052805
+188.165.192.220 1 1 9211 20190901205517
+213.159.213.236 1 1 7811 20190930095602
+66.249.88.189 0 5 177751 
+66.249.88.191 0 1 12683 
+66.249.83.205 0 18 1002265 
+66.249.83.209 0 12 1527942 
+66.249.88.187 0 1 44722 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20190901 3 3 27633 2
+20190904 1 1 0 1
+20190905 1 1 0 1
+20190907 2 2 0 2
+20190911 1 1 36068 1
+20190912 2 2 0 2
+20190913 10 10 54132 3
+20190915 5 5 144272 5
+20190916 1 54 2975031 1
+20190921 1 1 7811 1
+20190922 14 14 109354 1
+20190924 1 1 7811 1
+20190926 1 1 28552 1
+20190927 3 3 0 2
+20190928 1 1 7811 1
+20190929 1 1 0 1
+20190930 3 3 15622 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30mn-1h 2
+0s-30s 26
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 47 430989 29 28
+/portfolio-item-3.html 4 17288 0 1
+END_SIDER

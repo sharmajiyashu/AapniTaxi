@@ -1,0 +1,2394 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.premad.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2017                
+POS_TIME 2704                
+POS_VISITOR 24108               
+POS_DAY 65643               
+POS_DOMAIN 3784                
+POS_LOGIN 4358                
+POS_ROBOT 4513                
+POS_WORMS 5602                
+POS_EMAILSENDER 5733                
+POS_EMAILRECEIVER 5876                
+POS_SESSION 66600               
+POS_SIDER 66815               
+POS_FILETYPES 6011                
+POS_DOWNLOADS 6430                
+POS_OS 6527                
+POS_BROWSER 6849                
+POS_SCREENSIZE 8892                
+POS_UNKNOWNREFERER 8966                
+POS_UNKNOWNREFERERBROWSER 9799                
+POS_ORIGIN 10254               
+POS_SEREFERRALS 10403               
+POS_PAGEREFS 10600               
+POS_SEARCHWORDS 11561               
+POS_KEYWORDS 11723               
+POS_MISC 2367                
+POS_ERRORS 11792               
+POS_CLUSTER 4214                
+POS_SIDER_404 12037               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200701001303 1669 384918 10414823833062
+FirstTime 20200601010543
+LastTime 20200630225550
+LastUpdate 20200701071542 1669 0 1668 0 0
+TotalVisits 1122                
+TotalUnique 975                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1027                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 10 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 534 766 15799867 422 1367 336307089
+1 994 1324 19003075 902 2577 395267128
+2 737 1012 19193071 307 541 219290252
+3 1539 2135 48465802 1015 3268 582380647
+4 1908 2808 66458761 1396 3503 794203585
+5 1893 3641 61974492 1001 2817 632968168
+6 3419 6429 108968554 1939 6158 1180964575
+7 1900 3584 108351132 912 3391 561340183
+8 1094 2344 107601490 744 1929 356431918
+9 1549 2869 77853140 1347 2866 698067357
+10 1087 1611 34253373 834 2475 642487866
+11 1587 2891 132886583 991 3074 630599041
+12 1906 3011 66675595 1163 3586 749400714
+13 2758 4152 74153008 1446 5061 929954079
+14 1285 1863 21634976 702 2240 468220132
+15 1360 1524 16364871 955 3406 694396292
+16 1635 2010 42118915 1097 3798 724089346
+17 2042 2276 60349900 1247 3311 705239114
+18 243 411 15896769 472 908 207466358
+19 108 382 47021897 221 556 142461290
+20 225 225 467930 220 779 139763040
+21 32 266 15580764 124 212 2701219
+22 311 429 8644824 296 389 3191081
+23 97 99 473072 191 490 134572289
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+us 15698 25463 674967291
+in 13655 20269 407422459
+ua 256 510 13271013
+ru 230 302 4381730
+gb 132 526 24937366
+ca 125 321 11944995
+au 47 297 15095486
+cn 34 50 1186154
+qa 16 158 7831092
+fr 14 14 945584
+de 8 124 7408876
+se 6 6 107250
+mu 4 4 50026
+my 2 2 35864
+sg 2 2 35770
+gr 2 2 35738
+ch 2 2 150260
+jp 2 2 8466
+nl 2 2 35768
+eu 2 2 35774
+id 2 2 148956
+mx 2 2 148910
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 23
+Dalvik/ 45300 11643058694 20200630151156 0
+bingbot/ 1206 24818944 20200630200053 0
+facebookexternalhit/ 575 11474837 20200630020145 0
+Googlebot/ 358 5474788 20200630221009 0
+Googlebot\-Image/ 350 971726 20200629134142 0
+no_user_agent 168 7693368 20200630100555 0
+PhantomJS 120 7400930 20200630100610 0
+crawl 120 7224036 20200626172808 0
+bingpreview 108 5900284 20200627072420 0
+[\s_+:,\.\;\/\\-]bot 76 6544930 20200622111144 0
+YandexBot/ 64 721360 20200629234741 0
+YisouSpider 44 639916 20200615143341 0
+bot[\s_+:,\.\;\/\\-] 34 2428972 20200630131524 0
+YandexImages/ 22 1209484 20200627050910 0
+Applebot/ 14 250542 20200630032336 0
+Mail\.RU_Bot/ 6 107314 20200614235628 0
+Python\-urllib/ 6 45672 20200626064422 0
+curl 6 449184 20200630095916 0
+DuckDuckGo\-Favicons\-Bot/ 4 76524 20200622202744 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 50104 20200627140112 0
+Baiduspider/ 2 35730 20200619135411 0
+Wget/ 2 15224 20200626105651 0
+aiHitBot/ 2 35774 20200612234346 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 17
+html 2040 24382850 0 0
+woff2 400 31490035 0 0
+jpg 5333 734695504 0 0
+css 5202 35494780 0 0
+ttf 8 1508064 0 0
+map 158 6136898 0 0
+php 874 655372 0 0
+webp 4 27008 0 0
+cgi 786 3327138 0 0
+js 4892 97249920 0 0
+Unknown 25413 97521936 0 0
+jpeg 242 24894988 0 0
+png 1996 96313326 0 0
+svg 8 43706 0 0
+gif 146 7554240 0 0
+jfif 516 3245190 0 0
+woff 44 5636840 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/pcr/uploads/chat_sound/button_tiny.ogg 0 1 7033
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+win7 8748 1682
+linuxandroid 3406 1165
+winlong 36 36
+win8.1 14 14
+win10 8709 2497
+macosx12 4 4
+linux 209 161
+macosx11 286 24
+winxp 148 37
+macosx 428 142
+macosx10 16 16
+linuxfedora 2 2
+macosx9 4 2
+ios_iphone 10 10
+Unknown 25455 24385
+macosx8 2 2
+win8 586 64
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 90
+chrome81.0.4044.138 242 8
+edge18 122 6
+chrome72.0.3626.121 150 12
+chrome80.0.3987.162 2 2
+opera36.0.2130.32 28 28
+chrome74.0.3729.131 6 4
+safari 6 6
+chrome41.0.2228.0 36 36
+chrome67.0.3396.87 2 2
+chrome75.0.3770.143 246 12
+firefox48.0 6 6
+firefox57.0 488 24
+chrome67.0.3396.79 4 4
+firefox11.0 117 6
+chrome48.0.2564.97 2 2
+chrome70.0.3538.80 124 6
+chrome77.0.3865.116 96 8
+chrome74.0.3729.169 120 4
+firefox76.0 2 2
+chrome41.0.2227.1 20 20
+chrome76.0.3809.100 2 2
+chrome66.0.3359.139 24 24
+chrome80.0.3987.149 22 14
+firefox50.0 12 12
+chrome80.0.3987.122 2 2
+chrome34.0.1847.116 10 10
+mozilla 924 578
+safari9.0 2 2
+chrome83.0.4103.106 1552 340
+chrome67.0.3396.99 4 4
+chrome51.0.2704.103 82 82
+msie11.0 374 26
+chrome78.0.3904.108 144 20
+chrome70.0.3538.77 2 2
+chrome70.0.3538.110 128 10
+chrome46.0.2490.80 4 4
+firefox52.0 2 2
+chrome45.0.2454.101 10 10
+chrome83.0.4103.96 124 6
+chrome65.0.3325.181 2 2
+chrome81.0.4044.96 122 4
+firefox53.0 4 4
+opera54.0.2952.71 4 4
+chrome41.0.2227.0 1 1
+chrome49.0.2623.75 12 6
+chrome41.0.2224.3 13 13
+chrome41.0.2225.0 28 28
+chrome80.0.3987.116 120 4
+safari11.0 2 2
+firefox28.0 30 30
+chrome63.0.3239.84 2 2
+firefox52.5.0 2 2
+msie8.0 2 2
+chrome77.0.3865.73 122 4
+chrome73.0.3683.90 12 12
+firefox72.0 10 10
+chrome34.0.1847.131 6 6
+chrome81.0.4044.117 156 20
+chrome67.0.3396.0 4 4
+firefox59.0 4 4
+chrome52.0.2743.116 4 4
+chrome41.0.2226.0 16 16
+chrome61.0.3163.100 122 6
+msie9.0 6 6
+chrome71.0.3578.141 140 12
+chrome76.0.3809.71 720 24
+chrome79.0 62 62
+chrome75.0.3770.142 52 10
+chrome64.0.3282.167 2 2
+chrome35.0.1916.47 2 2
+chrome80.0.3987.87 1570 1025
+chrome26.0.1410.65 2 2
+chrome48.0.2564.109 2 2
+firefox47.0 4 4
+chrome61.0.3163.79 2 2
+chrome62.0.3202.94 2 2
+msie7.0 46 20
+chrome83.0.4103.97 9446 2400
+netscape5.0 8 8
+chrome53.0.2785.143 40 10
+firefox65.0 2 2
+chrome43.0.2357.93 120 4
+chrome83.0.4103.116 988 376
+chrome83.0.4103.61 4225 885
+firefox74.0 16 8
+safari7.0.3 2 0
+Unknown 24535 23811
+chrome63.0.3239.132 14 14
+firefox58.0 10 10
+chrome45.0.2454.94 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 18
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200623102347
+okhttp/3.6.0 20200630151152
+Cpanel-HTTP-Client/1.0 20200630222403
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20200627163049
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200619004537
+WhatsApp/2.20.189_A 20200625124216
+PleskBot 20200619063509
+Mozilla/5.0_zgrab/0.x 20200627145734
+AccompanyBot 20200618073536
+Mozilla/5.0_(compatible;_RSiteAuditor) 20200628011034
+WhatsApp/2.20.172_A 20200623075411
+WhatsApp/2.19.360_A 20200601122022
+AHC/2.1 20200624175017
+okhttp/3.10.0 20200626093135
+Go-http-client/1.1 20200627132455
+WhatsApp/2.20.157_A 20200615132835
+Mozilla/5.0_(compatible;_ips-agent) 20200611163659
+okhttp/3.5.0 20200626100719
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+okhttp/3.10.0 20200626093135
+Go-http-client/1.1 20200627132455
+WhatsApp/2.19.360_A 20200601122022
+WhatsApp/2.20.172_A 20200623075411
+AHC/2.1 20200624175017
+PleskBot 20200619063509
+okhttp/3.5.0 20200626100719
+AccompanyBot 20200618073536
+WhatsApp/2.20.157_A 20200615132835
+Cpanel-HTTP-Client/1.0 20200630222403
+okhttp/3.6.0 20200630151152
+WhatsApp/2.20.189_A 20200625124216
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 25622 26049
+From1 0 0
+From2 70 70
+From3 42 58
+From4 4509 21886
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+bing 12 12
+www_google_co_in 2 2
+www_google_com 56 56
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://www.aawazaapki.com/home/news_description/110 10 10
+http://www.aawazaapki.com/home/news_description/107/%E0%A4%AA%E0%A4%9F%E0%A4%B0%E0%A4%B2-%E0%A4%A1%E0%A4%9C%E0%A4%B2-%E0%A4%95-%E0%A4%AC%E0%A5%9D%E0%A4%A4-%E0%A4%95%E0%A4%AE%E0%A4%A4-%E0%A4%95-%E0%A4%96%E0%A4%B2%E0%A4%AB 4 4
+https://l.facebook.com 4 4
+http://www.brooklynsays.com/view/37234612/profile/ 4 8
+http://www.ideayz.com/view/37234612/profile/ 4 8
+http://premad.in%2 2 2
+http://www.batietiket.com/view/37234612/profile/ 2 4
+http://aawazaapki.com/home/blog_photo_gallery 2 2
+http://www.andrewancheta.com/blog/37234612/profile/ 2 4
+http://sarkarinaukarisearch.com/naukri_new/front/job_listing/3 2 2
+http://www.aawazaapki.com/home/legal/privacy_policy 2 2
+http://www.yjwxc.net/blog/37234612/view/ 2 4
+http://www.nwrcz.com/view/37234612/profile/ 2 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+amazon 12
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+amazon 12
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 13
+404 6568 109105301
+301 30 8456
+409 46 3818
+408 1 0
+500 29 28477
+302 805 187793
+405 2 21270
+307 238 0
+303 43 0
+400 8 4584
+406 842 190292
+206 507 95312876
+403 760 269299
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 297
+/shop.html 4 -
+/sitemap_index.xml.gz 10 -
+/portfolio-single-one.html 2 -
+/kkservices/admin/index3.html 2 http://premad.in/kkservices/admin/dashboard
+/kkservices/admin/Schedule/user.html 2 http://premad.in/kkservices/admin/Schedule/index
+/blog.html 4 -
+/pcr/admin/login 2 -
+/data/backupdata/dede_a~5.txt 2 http://premad.in/data/backupdata/dede_a~5.txt
+/unity/admin/staticpage/reports 4 http://premad.in/unity/admin/Manage_Chips/clientChipAssignment
+/lib/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/v1/ 6 -
+/home/wp-login.php 1 -
+/sitemaps.xml 4 -
+/demo/ 6 -
+/post-sitemap.xml 20 -
+/2019/ 6 -
+/ecom/resources/assets/images/product_images/1585643271.besan+pic.jfif 2 -
+///shell.php 2 -
+/2018/ 6 -
+/data/backupdata/dede_a~1.txt 2 http://premad.in/data/backupdata/dede_a~1.txt
+/kkservices/admin/JobType/getEvents 5 http://premad.in/kkservices/admin/JobType/typeList
+/laravel/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/kkservices/assets/plugins/chart.js/Chart.min.js 62 http://premad.in/kkservices/
+/d3966629-a981-4a8c-a70d-e3b56c3771de/ 2 -
+/tech-friends-services.html 2 -
+/kkservices/assets/plugins/jquery-easing/jquery.easing.min.js 136 http://premad.in/kkservices/admin/login
+/gallery 2 -
+//admin/vendor/phpunit/phpunit/phpunit.xsd 2 -
+//test/vendor/phpunit/phpunit/phpunit.xsd 3 -
+/sitemapindex.xml 20 -
+/old-wp/ 6 -
+/backup/ 6 -
+/site/wp-includes/wlwmanifest.xml 30 -
+/mysqlbackupro/ 2 -
+/foodango/imagess/94517_Margherita%20Pizzat.jpg 14 http://premad.in/foodango/manage_bannerad.php
+/ecom/resources/assets/images/product_images/1585288283.suger+pic+02.jfif 14 -
+/cms/wp-includes/wlwmanifest.xml 30 -
+/admin/includes/general.js 12 -
+/test/wp-includes/wlwmanifest.xml 28 -
+/store/wp-includes/wlwmanifest.xml 2 -
+/website/ 2 -
+/9d462ecb-56cf-421c-928a-41ea44d3bbe0/ 2 -
+/2020/ 6 -
+/test/vendor/phpunit/phpunit/phpunit.xsd 3 -
+/mysql/ 1 -
+/press/wp-login.php 1 -
+/wp-includes/wlwmanifest.xml 32 -
+/blog_masonry.html 2 -
+/www/wp-includes/wlwmanifest.xml 2 -
+/type.php 2 http://premad.in/type.php
+/portal/wp-includes/wlwmanifest.xml 2 -
+/ecom/resources/assets/images/product_images/1585323076.asirbad+atta.jpeg 2 -
+/admin/.env 6 -
+/data/backupdata/dede_a~2.txt 2 http://premad.in/data/backupdata/dede_a~2.txt
+/wp-content/plugins/plugins/GreenGo.php 1 -
+/unity/admin/vendor/jquery/jquery.min.js 16 http://premad.in/unity/admin/login
+/framework/img/sep.png 2 -
+/portfolio-3.html 2 -
+/ecom/resources/assets/images/product_images/1586316279.pyaj+hd.jfif 4 -
+/e/member/member.css 2 -
+/sitemap.txt 20 -
+/old_wp/ 2 -
+/ecom/resources/assets/images/product_images/1586514975.WhatsApp+Image+2020-04-10+at+3.59.01+PM.jpeg 6 -
+/foodango/imagess/52413_28587_17563_KOREAN.jpg 58 -
+/js/header-rollup-554.js 12 -
+/mybackup/ 2 -
+/api/vendor/phpunit/phpunit/phpunit.xsd 3 -
+/robots1.php 2 http://premad.in/robots1.php
+/website/wp-includes/wlwmanifest.xml 28 -
+/grain/admin/uploads/page-banner-1.jpg 4 http://premad.in/grain/admin/page-edit.php
+//laravel/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/unity/admin/staticpage/statics 4 http://premad.in/unity/admin/Manage_Chips/clientChipAssignment
+/SiteFiles/SiteTemplates/sectest/include.aspx 2 http://premad.in/SiteFiles/SiteTemplates/sectest/include.aspx
+/wp-1ogin_bak.php 1 -
+/rss.xml 20 -
+/cgi-sys/403.html 9 -
+//wp-includes/css/css.php 1 -
+/oldsite/wp-includes/wlwmanifest.xml 4 -
+//api/vendor/phpunit/phpunit/phpunit.xsd 3 -
+/wp/ 30 -
+/kkservices/admin/Client/getEvents 1 http://premad.in/kkservices/admin/Client/clientList
+/bk/ 6 -
+/sitemap-official.xml 20 -
+/oldsite/ 2 -
+/x.php 4 http://premad.in/x.php
+/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/ecom/resources/assets/images/product_images/1586673406.guru+ji+thandai+01.jfif 6 -
+//vendor/phpunit/phpunit/phpunit.xsd 2 -
+/index-2.html 2 -
+/sites/wp-login.php 1 -
+/pcr/chat/refresh_chat_users_msg/ 4 http://premad.in/pcr/admin/chat
+/english/wp-login.php 1 -
+/unity/admin/ 4 http://premad.in/unity/admin/Client/clientList
+/contacts.html 14 -
+/ecom/resources/assets/images/product_images/1585322822.asirbad+atta.jpeg 2 -
+/uploadfile/member/0/0x0.php 2 http://premad.in/uploadfile/member/0/0x0.php
+/kkservices/admin/Job/profile.html 2 http://premad.in/kkservices/admin/Job/add
+/kkservices/admin/Job/getEvents 5 http://premad.in/kkservices/admin/Job/jobList
+//backup/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/sitemap.rss 20 -
+/ecom/resources/assets/images/product_images/1590131627.venus+razer.jfif 4 -
+/ecom/resources/assets/images/product_images/1590130350.tata+namak.jfif 4 -
+/site/ 6 -
+/blog/wp-login.php 1 -
+/admin_aspcms/_system/AspCms_SiteSetting.asp 2 http://premad.in/admin_aspcms/_system/AspCms_SiteSetting.asp
+/service.html 6 -
+//demo/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/plus/mytag_js.php 2 http://premad.in/plus/mytag_js.php
+/misc/ajax.js 12 -
+/v2/ 6 -
+/news/wp-login.php 1 -
+/kkservices/admin/Estimate/addEstimate1/9/2 6 -
+/tmp/ 6 -
+/.well-known/acme-challenge/D3AQVA24_UDLTMVJG5KU59NY14VQJHY_ 2 -
+/grain/images/preloaders/1.gif 22 http://premad.in/grain/css/style.css
+/kkservices/admin/getting-started.html 4 http://premad.in/kkservices/admin/dashboard
+/cPanel 4 -
+/blogg/ 2 -
+//vendor/phpunit/phpunit/src/Util/PHP/XsamXadoo_Bot_lara.php 1 -
+/wp/wp-includes/wlwmanifest.xml 30 -
+/sitemap_index.html 20 -
+/data/backupdata/dede_a~4.txt 2 http://premad.in/data/backupdata/dede_a~4.txt
+/wp1/wp-includes/wlwmanifest.xml 26 -
+/kkservices/admin/assets/plugins/styleswitcher/jQuery.style.switcher.js 84 http://premad.in/kkservices/admin/Estimate/estimateList
+/_cms/ 2 -
+/pcr/login 2 -
+/web/wp-includes/wlwmanifest.xml 28 -
+/ecom/resources/assets/images/product_images/1590042570.dettol+refil.jfif 6 -
+/wordpress/ 30 -
+/checkout.html 4 -
+/.well-known/security.txt 2 -
+/blog2/ 2 -
+/ecom/resources/assets/images/product_images/1585314387.patan+jali+ghee.jpeg 4 -
+/services.html 2 -
+/plugins/system/debug/debug.xml 12 -
+/google9f34db64d9502cd5.html 12 -
+/ecom//resources/assets/images/product_images/1502174346.pPOLO2-26314826_standard_v400.jpg 3 http://premad.in/ecom/admin/productsStock
+/portfolio-item-1.html 6 -
+/images/ 1 -
+/wptest/ 2 -
+/SiteServer/Ajax/ajaxOtherService.aspx 2 http://premad.in/SiteServer/Ajax/ajaxOtherService.aspx
+/wp-includes/js/jquery/jquery.js 12 -
+/news/wp-includes/wlwmanifest.xml 28 -
+/function/editor/php/upload_json.php 2 http://premad.in/function/editor/php/upload_json.php
+/client/manage/ourphp_filebox.php 2 http://premad.in/client/manage/ourphp_filebox.php
+/blog/wp-includes/wlwmanifest.xml 30 -
+/old/ 6 -
+/index.html 6 -
+/wp2/ 6 -
+/.well-known/acme-challenge/HXA-7PGMUEHOPGO-052VMM5HCG9B-0C5 2 -
+/test/ 6 -
+/admin/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/old/wp-login.php 1 -
+/portfolio-item.html 6 -
+/kkservices/admin/Team/user.html 2 http://premad.in/kkservices/admin/Team/teamList
+/wp-backup/ 2 -
+/k.htm 4 -
+/2018/wp-includes/wlwmanifest.xml 6 -
+/sitemap_index.xml 24 -
+/old-site/ 6 -
+/joomla/administrator/index.php 2 -
+/sitemap-index.xml 20 -
+/premad.in 1 -
+/home/wp-includes/wlwmanifest.xml 2 -
+/data/cache_template/rss.tpl.php 2 http://premad.in/data/cache_template/rss.tpl.php
+/.git/HEAD 2 -
+/account.html 2 -
+/kkservices/assests/css/sb-admin.css 46 http://premad.in/kkservices/admin/login
+//wp-content/plugins/plugins/GreenGo.php 1 -
+/ecom/resources/assets/images/product_images/1589727747.saptrishi+suji+sooji.jpeg 2 -
+/backup/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/user.php 4 45ea207d7a2b68c49582d2d22adf953aads|a:2:{s:3:\"num\"
+/dev/ 6 -
+/atom.xml 24 -
+/demo/wp-includes/wlwmanifest.xml 2 -
+/06f564ec-4a86-4c04-ad06-3b84f7cf64a0/ 2 -
+/wp-login.php 1 -
+/wp-includes/css/css.php 1 -
+/css/album.css 2 -
+/xmlrpc.php 2 -
+/web2/ 2 -
+/ecom/resources/assets/images/product_images/1586710420.maggi+picture.jpg 6 -
+/about.html 2 -
+/old_site/ 2 -
+/blog/ 30 -
+/site/wp-login.php 1 -
+/images/editor/separator.gif 12 -
+/dfae5c51-b797-4940-a6fd-d9bf5154a69e/ 2 -
+/ecom/resources/assets/images/product_images/1585723098.aalu+02.jpeg 2 -
+/ecom/admin/listingProductspp 4 -
+/blog/robots.txt 40 -
+/blogbackup/ 2 -
+/ecom/resources/assets/images/product_images/1585815279.pooha+pic.jfif 10 -
+/homepage-4.html 2 -
+/sitemap.html 20 -
+/ecom// 1 http://premad.in/ecom/admin/listingCategories
+/_old/ 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/199877.php 4 -
+/news/windows-10-1 2 -
+/googleeb88c255a4dcce76.html 12 -
+/v1/wp-includes/wlwmanifest.xml 2 -
+/wp/wp-login.php 1 -
+/wpmu/wp-login.php 1 -
+/post.html 2 -
+/phpMyAdmin/scripts/setup.php 9 -
+/blogs/wp-login.php 1 -
+/admin/view/javascript/common.js 12 -
+//wp-1ogin_bak.php 1 -
+/about-us.html 2 -
+/shop/wp-includes/wlwmanifest.xml 4 -
+/kkservices/admin/getEvents 45 http://premad.in/kkservices/admin/dashboard
+/portfolio-1.html 2 -
+/pcr/admin/sign_in/ 2 -
+/demo/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/main/ 6 -
+/wordpress2/ 2 -
+/ips_jobs_new 2 -
+/temp/ 6 -
+/wp1/ 6 -
+/plus/moon.php 2 http://premad.in/plus/moon.php
+/kkservices/admin/Estimate/getEvents 20 http://premad.in/kkservices/admin/Estimate/estimateList
+/demos/ 2 -
+/kkservices/admin/vendor/jquery/jquery.min.js 46 http://premad.in/kkservices/admin/login
+/e/admin/index.php 4 -
+/about_us.html 2 -
+/d.php 2 http://premad.in/d.php
+/portfolio-5.html 12 -
+/robots.php 2 http://premad.in/robots.php
+/router.php 2 -
+/cart.html 12 -
+/install/js/install.js 2 -
+/cms/ 6 -
+/blogs/wp-includes/wlwmanifest.xml 2 -
+/foodango/imagess/27633_Thepla.jpg 18 http://premad.in/foodango/manage_bannerad.php
+/info/wp-login.php 1 -
+/support.html 6 -
+/ecom/resources/assets/images/product_images/1588611383.saptrishi+maida.jfif 2 -
+/portfolio.html 8 -
+/pcr/chat/refresh_chat_users/ 2 http://premad.in/pcr/admin/chat
+/kkservices/admin/Team/getEvents 9 http://premad.in/kkservices/admin/Team/teamList
+/2019/wp-includes/wlwmanifest.xml 6 -
+/kkservices/assets/plugins/bootstrap/js/popper.min.js.map 126 -
+/xxxss 4 -
+/ecom/ 3311 -
+/ecom/resources/assets/images/product_images/1502174346.pPOLO2-26314826_standard_v400.jpg 3 http://premad.in/ecom/admin/productsStock
+//lib/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/XsamXadoo_Bot_lara.php 1 -
+/bak/ 6 -
+/admin/themes/simplebootx/Public/assets/css/admin_login.css 2 -
+/kkservices/assets/plugins/bootstrap/js/bootstrap.bundle.min.js 128 http://premad.in/kkservices/admin/login
+/joomla/robots.txt 16 -
+/shell.php 4 -
+/public/uploads/portfolio-5.jpg 2 -
+/robots.txt 585 -
+/sitemap.xml 26 -
+/web/ 6 -
+/new/ 6 -
+/ecom/resources/assets/images/product_images/1588613596.arhar+dal.jfif 4 -
+/vendor/phpunit/phpunit/build.xml 12 -
+/wp-json/oembed/1.0/embed 2 -
+/wp-test/ 2 -
+/sito/wp-includes/wlwmanifest.xml 26 -
+/humans.txt 6 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 12 -
+/web/wp-login.php 1 -
+/new/wp-login.php 1 -
+/12345.php 2 http://premad.in/12345.php
+/app-ads.txt 8 -
+/en/wp-login.php 1 -
+/foodango/imagess/26217_pav%20bhaji.jpg 10 http://premad.in/foodango/manage_bannerad.php
+/sitio/wp-login.php 1 -
+/kkservices/admin/Team/profile.html 4 http://premad.in/kkservices/admin/Team/teamList
+/data/backupdata/dede_a~3.txt 2 http://premad.in/data/backupdata/dede_a~3.txt
+/ecom/resources/assets/images/product_images/1585317742.patanjali+neem.jpeg 6 -
+/ecom/admin 2 -
+/ads.txt 18 -
+/sitemap.xml.gz 12 -
+/data/admin/allowurl.txt 12 -
+/kkservices/assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css.map 124 -
+/administrator/index.php 2 -
+/blog/administrator/index.php 2 -
+/wp2/wp-includes/wlwmanifest.xml 26 -
+/portal/wp-login.php 1 -
+/media/wp-includes/wlwmanifest.xml 4 -
+/new/wp-includes/wlwmanifest.xml 2 -
+/sito/ 6 -
+/news/world-tour-2 2 -
+/staffing 8 -
+/9e9273fc-56a0-43c7-b0ec-68789516e1b2/ 2 -
+/develop/ 2 -
+/wordpress/wp-includes/wlwmanifest.xml 32 -
+/demo/wp-login.php 1 -
+/wordpress/wp-login.php 1 -
+//premad.in 1 -
+/grain/images/testimonial/1.jpg 20 http://premad.in/grain/css/style.css
+/wp-json/wp/v2/users/ 2 -
+/wp-includes/images/rss.png 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1027
+45.127.45.16 1341 1591 12100501 20200608143833
+223.238.214.127 561 590 3943190 20200615173926
+103.21.58.155 484 484 32448 20200630222403
+157.47.228.105 472 472 680096 20200617133032
+157.47.250.44 465 465 513393 20200612074542
+157.37.246.48 426 426 352153 20200616070241
+223.238.210.169 369 535 5730928 20200616023237
+223.238.214.195 323 323 377253 20200605064928
+223.238.208.99 313 313 332880 20200602131455
+157.37.233.192 302 302 236404 20200609032625
+223.238.172.1 282 282 286570 20200620053927
+157.37.138.66 270 2072 36196168 20200612125038
+223.189.151.9 246 434 8014194 20200613120828
+103.211.17.172 240 2056 32467199 20200606051913
+103.82.80.13 227 227 501611 20200610041616
+117.234.126.224 223 223 283495 20200621131104
+157.37.221.240 214 214 217308 20200613142531
+157.37.233.89 212 212 212173 20200623015844
+157.37.245.179 209 209 244095 20200616054932
+157.47.214.102 204 204 186300 20200610164248
+157.37.178.53 200 200 339464 20200602095639
+117.199.208.36 199 593 46880325 20200628082723
+157.37.128.108 197 197 349936 20200609034145
+106.76.71.4 194 194 356557 20200618134025
+157.37.224.226 194 194 250035 20200609074219
+157.37.163.44 62 62 129070 20200610143700
+95.217.186.175 2 2 35776 20200601095307
+157.37.65.38 22 204 9685350 20200617101409
+34.220.111.107 2 2 35766 20200603151043
+223.238.208.97 6 6 7601 20200625041811
+138.197.152.122 1 1 0 20200613134742
+157.37.13.96 67 67 98047 20200623151929
+166.88.81.112 0 18 129872 
+117.234.25.136 67 67 116191 20200621134127
+157.50.176.193 4 104 6224560 20200619083411
+157.37.248.2 10 10 18215 20200605104002
+146.196.37.65 31 41 398546 20200606151215
+207.188.146.148 0 18 129872 
+13.89.247.17 6 6 449762 20200614100637
+157.47.133.146 63 63 111659 20200618130606
+157.47.205.54 62 62 89064 20200616112614
+192.35.168.199 2 2 35734 20200627001312
+157.37.157.43 2 2 27156 20200613062247
+157.47.156.1 6 6 7601 20200606125726
+103.107.160.6 10 10 744770 20200627161316
+158.69.241.134 2 2 35792 20200612140831
+157.37.132.193 55 67 9885213 20200620031922
+157.37.169.170 20 130 2126458 20200622052217
+157.37.207.13 9 9 14673 20200621053951
+157.37.169.85 80 80 222997 20200604125754
+223.238.202.124 11 11 21479 20200624093044
+157.37.248.196 6 124 7460998 20200629221934
+223.238.199.198 10 10 18215 20200606113924
+52.15.254.228 6 6 522 20200619004535
+117.234.10.153 21 21 40626 20200627141034
+139.167.69.136 4 4 16932 20200626061602
+95.217.73.173 2 2 148762 20200624134705
+104.227.246.106 2 2 149012 20200628131012
+157.47.234.13 9 9 14679 20200610064532
+171.79.129.223 2 2 14356 20200629122723
+157.37.247.142 6 6 7601 20200605163925
+157.37.153.8 12 12 15202 20200615031401
+157.47.220.249 1 1 3541 20200617092200
+157.47.134.28 12 12 15202 20200613063446
+107.165.153.234 0 18 129872 
+117.234.191.96 37 37 65204 20200623180047
+18.234.16.132 2 2 35772 20200614192130
+170.178.155.159 0 18 129872 
+103.82.80.49 21 21 123636 20200603124738
+223.238.215.35 33 33 38509 20200609182401
+157.37.193.111 22 22 93126 20200626050013
+192.71.12.140 2 2 35734 20200625025905
+157.37.207.112 58 58 68291 20200606064740
+157.37.8.150 28 28 68665 20200601134535
+157.47.254.10 2 2 27154 20200627162152
+157.37.210.210 11 11 21465 20200613061907
+23.230.53.135 0 2 187472 
+45.127.44.37 2 2 27158 20200630104148
+106.79.201.216 19 19 35025 20200611010703
+157.37.240.180 9 9 14673 20200622032051
+27.60.100.254 2 2 1318 20200604062503
+171.79.178.112 9 9 14675 20200612171530
+157.37.28.52 0 34 1308390 
+35.243.2.4 16 16 60896 20200626093036
+185.255.135.44 2 2 35774 20200607022016
+223.238.210.180 28 28 66166 20200605101114
+117.199.213.231 6 124 7461002 20200630095635
+106.76.71.19 38 38 104093 20200616165705
+38.18.31.251 2 2 15166 20200609060712
+192.35.168.16 2 2 35870 20200627145734
+157.37.146.151 79 143 31691875 20200618180103
+117.234.15.3 186 186 185019 20200624164929
+157.47.211.5 6 6 7601 20200604111641
+207.90.14.120 0 18 129872 
+104.223.28.215 2 2 14222 20200622064601
+157.37.37.157 6 6 7601 20200622055532
+198.252.50.229 0 18 129872 
+157.37.180.60 97 97 139666 20200607130757
+106.76.79.152 69 69 130388 20200615173827
+27.63.99.168 1 1 104 20200618123936
+223.238.148.129 28 28 77080 20200601062018
+103.82.80.229 4 4 189142 20200616054200
+74.125.209.6 4 39 3242971 20200627070645
+157.37.154.206 85 137 20127119 20200609172710
+157.37.253.186 9 9 14675 20200612173822
+144.76.22.147 2 2 35728 20200624135003
+117.234.222.154 2 2 422 20200623033641
+157.37.241.95 12 12 21755 20200602161803
+106.76.71.138 25 25 54334 20200613165849
+34.209.232.166 8 8 696 20200619004535
+157.37.249.122 18 18 28548 20200612151257
+142.252.79.234 2 2 15170 20200611141508
+103.254.56.51 18 18 29351 20200624174028
+178.62.90.125 2 2 35774 20200616004914
+157.47.208.246 33 33 49756 20200608063347
+163.172.150.182 2 2 35786 20200607012554
+142.252.78.113 0 18 129872 
+157.37.156.170 55 57 227840 20200605165619
+171.79.181.87 63 63 86928 20200601053635
+199.192.115.20 2 2 736 20200602085022
+35.243.2.3 16 16 74974 20200626093124
+157.47.211.15 56 56 76363 20200607080600
+223.238.141.76 7 7 11175 20200606160413
+157.37.223.16 154 154 164792 20200624090231
+157.47.206.237 9 9 14678 20200604094852
+223.238.212.3 12 12 24866 20200616070129
+157.37.199.29 24 30 679590 20200613162812
+106.76.71.143 9 9 14673 20200618043604
+157.37.205.7 63 63 155854 20200616004935
+103.82.80.154 22 22 42975 20200603091554
+198.252.50.106 2 2 17434 20200609060734
+38.18.31.223 0 2 171262 
+95.216.15.49 2 2 35754 20200626165602
+157.37.137.202 53 255 3816707 20200606051848
+129.205.124.12 4 122 7264840 20200612032857
+223.238.204.83 10 10 18218 20200607042240
+27.63.78.240 4 4 3918 20200625124446
+117.225.31.246 14 14 28534 20200616090833
+157.47.221.102 47 47 104196 20200617070623
+157.37.170.247 17 17 18306 20200615195834
+106.76.79.177 21 21 21587 20200622161354
+103.82.80.178 67 67 157160 20200607010518
+223.238.197.144 25 25 45372 20200604145848
+157.37.192.113 26 26 70582 20200620115416
+157.37.160.83 9 9 14673 20200616001356
+144.168.162.250 4 4 299000 20200621181420
+223.189.184.153 59 59 117870 20200610113100
+207.90.14.39 2 2 17442 20200611141602
+173.255.116.36 6 6 107306 20200602222928
+157.37.134.65 39 39 63846 20200611163009
+157.37.130.95 15 15 34126 20200611091348
+171.79.144.210 20 20 35795 20200615172749
+157.37.100.182 20 24 693260 20200601043254
+117.233.113.50 33 33 36794 20200609060317
+157.37.87.26 37 37 24683 20200622235216
+85.10.204.252 2 2 148822 20200628005833
+66.102.6.69 2 2 35758 20200624075857
+35.243.2.5 20 20 67592 20200626093135
+157.47.214.172 87 87 84166 20200613072302
+35.203.128.1 6 6 1412 20200610132833
+185.39.11.89 2 2 150260 20200610133808
+157.47.252.12 58 290 9966002 20200627100442
+157.37.225.90 25 25 29463 20200614105238
+187.130.75.77 2 2 148910 20200616190251
+106.76.79.155 52 52 72357 20200609091608
+106.207.168.77 6 6 7601 20200613055224
+116.202.18.68 2 2 35786 20200605125107
+117.234.234.118 87 87 187538 20200610104413
+157.37.120.129 71 71 71454 20200605175809
+223.238.209.204 13 13 28357 20200622145019
+157.47.244.157 9 9 14678 20200605001105
+198.240.122.179 2 2 14460 20200611141500
+223.238.197.243 26 26 70546 20200607155429
+111.93.58.10 24 192 8123370 20200615045758
+223.238.219.236 68 68 67549 20200619202848
+39.111.208.132 2 2 8466 20200626103046
+157.47.197.137 6 6 7601 20200612071437
+223.238.198.130 12 12 21534 20200608091704
+223.238.200.162 10 10 18210 20200603030644
+39.137.69.6 2 2 149822 20200611145134
+157.37.248.113 47 47 121942 20200610095615
+103.195.202.249 4 58 2114160 20200624123619
+157.47.208.11 14 14 24568 20200612073951
+157.37.164.119 15 15 34898 20200625105043
+106.76.71.3 9 9 14673 20200623090347
+157.37.107.37 14 18 1530573 20200607151903
+157.47.229.208 33 33 65796 20200623041631
+117.234.1.166 40 40 64360 20200622053539
+157.47.216.69 15 15 22276 20200613035209
+157.37.238.56 2 2 35770 20200615181534
+157.47.231.161 46 46 90735 20200608170132
+223.238.176.48 46 46 75395 20200629003559
+74.125.212.40 0 2 40778 
+207.188.150.88 0 18 129872 
+157.37.192.231 1 1 88 20200606092216
+142.252.77.190 2 2 16268 20200611141504
+157.47.151.106 73 73 168783 20200610061305
+27.63.75.164 6 6 9437 20200613163307
+3.14.255.131 6 6 522 20200619004535
+51.255.103.170 4 4 201750 20200605044123
+157.37.200.9 5 5 123640 20200603182435
+36.73.33.162 2 2 148956 20200616190203
+157.47.218.26 9 9 14673 20200617075526
+27.63.79.172 17 17 19175 20200606051401
+106.76.79.139 25 25 41084 20200603063752
+117.234.133.59 15 15 28613 20200622144144
+157.37.241.136 4 4 13875 20200609111647
+154.16.47.30 4 4 50026 20200602065849
+223.238.213.81 14 14 31588 20200606132051
+157.37.245.198 10 10 18216 20200610072940
+35.230.61.245 10 242 14644136 20200620080257
+198.240.122.98 2 4 185402 20200609060714
+157.37.158.175 12 12 19135 20200603045041
+74.125.210.8 2 24 1783552 20200628121207
+157.47.228.232 7 7 221075 20200621074325
+223.238.194.217 18 18 44715 20200620012826
+223.238.131.37 6 6 7601 20200618161844
+103.195.202.159 4 4 54252 20200610144125
+157.37.136.220 56 56 160471 20200612074723
+223.238.217.205 6 6 7601 20200619100715
+223.189.183.214 15 15 34840 20200607092746
+157.37.170.67 40 40 75658 20200602025646
+223.238.159.253 7 7 11175 20200606074910
+157.37.201.191 47 63 12778108 20200608084556
+106.76.71.79 131 131 186567 20200606102503
+27.63.91.180 66 66 161828 20200609041841
+117.234.164.46 29 29 44000 20200624044913
+157.37.94.31 4 4 7179 20200623063749
+223.238.140.100 10 10 18210 20200602165337
+157.37.52.2 11 11 18165 20200623053926
+157.37.252.113 11 11 21462 20200615075050
+157.47.202.144 8 10 208608 20200611090507
+183.253.80.70 2 4 36888 20200621041630
+157.47.212.0 73 73 99844 20200609092749
+35.243.2.15 8 8 11355 20200624044808
+27.63.76.172 10 10 18210 20200602165300
+157.37.133.41 20 20 28862 20200604171046
+223.238.217.221 14 14 21947 20200613143107
+106.76.71.25 6 6 7601 20200606065115
+107.165.153.147 0 18 129872 
+199.192.115.21 2 2 58 20200602085021
+157.37.97.128 67 67 70557 20200623151943
+157.47.216.160 12 12 17332 20200612084059
+106.79.193.71 30 30 44182 20200604041513
+157.37.234.125 16 16 34896 20200602140858
+106.79.202.53 40 40 97043 20200604104743
+157.37.62.43 80 80 338640 20200626054752
+157.47.132.1 11 11 21460 20200609160514
+157.37.219.54 15 15 16092 20200625005409
+157.47.151.247 9 9 14680 20200607022512
+157.47.207.137 65 65 120725 20200601131258
+106.76.79.146 8 126 7496872 20200629193344
+142.252.74.225 2 2 14550 20200611141505
+157.37.129.7 9 9 14678 20200601225752
+157.37.124.118 3 5 89327 20200601163251
+157.47.239.251 164 164 257518 20200621094538
+157.37.151.241 12 12 24847 20200602020459
+157.47.201.208 10 10 18227 20200623134606
+157.37.197.235 6 6 4052 20200606092200
+157.47.228.154 53 81 2424109 20200606053951
+157.47.245.127 4 4 54246 20200601173940
+107.183.168.151 2 2 35760 20200622064558
+18.224.72.170 10 52 665746 20200627024807
+157.37.161.156 6 6 7601 20200613074249
+157.37.238.136 93 93 101453 20200626000439
+157.37.163.56 10 10 18227 20200622174827
+157.37.155.234 95 95 94523 20200612121339
+207.90.14.174 0 18 129872 
+106.207.172.127 27 27 53275 20200627130234
+117.234.176.17 34 34 51836 20200623045451
+157.47.137.127 22 22 38926 20200616050520
+103.82.80.53 25 25 42583 20200610063518
+117.234.143.168 23 23 60887 20200626150704
+223.238.220.144 21 21 54476 20200613114100
+157.47.194.123 6 6 7601 20200619042600
+88.99.162.198 80 126 1886840 20200621010804
+157.47.220.231 6 6 55112 20200625173118
+223.238.206.201 11 11 21474 20200619003017
+157.37.164.122 6 6 7601 20200621145226
+104.36.19.128 2 2 35756 20200623173214
+223.238.204.245 6 6 7601 20200614074100
+157.37.154.106 51 61 1778005 20200611041321
+157.47.150.146 6 6 7601 20200614031423
+35.203.128.3 14 14 2048 20200610132835
+146.196.37.54 4 122 7264830 20200611075417
+157.47.254.122 81 93 2072675 20200606171946
+157.37.7.168 3 3 6890 20200601064534
+157.37.244.70 72 72 198617 20200630091148
+157.47.205.230 30 30 44541 20200612104508
+157.37.147.225 7 9 351437 20200616034232
+135.181.30.168 2 2 35740 20200623103714
+157.37.187.89 20 22 241053 20200622052554
+45.127.45.195 2 2 27156 20200620111416
+66.102.8.254 2 2 35876 20200628121203
+95.217.78.96 2 2 148648 20200624175017
+157.37.244.107 8 16 672200 20200629015339
+157.47.228.63 13 13 28585 20200612123238
+49.35.64.68 4 82 2429072 20200608165121
+157.37.120.29 24 24 101592 20200626054752
+157.37.170.234 85 85 106911 20200607110554
+157.37.255.27 25 163 56293479 20200618102226
+103.82.80.46 132 132 558756 20200626112203
+106.76.79.183 21 21 51598 20200616154020
+192.36.71.133 2 2 35768 20200610120254
+117.234.211.232 73 73 119981 20200621075024
+157.47.154.109 14 14 28534 20200602170341
+157.37.138.215 51 51 84354 20200615170227
+157.50.213.208 0 18 1040248 
+157.47.135.102 86 86 114716 20200607135237
+157.37.239.33 4 4 54316 20200613084854
+157.37.215.15 19 19 47938 20200614110525
+157.37.101.160 3 3 7050 20200621052413
+223.238.198.155 20 20 48721 20200614164235
+45.127.45.94 2 2 27154 20200617053709
+64.227.96.62 30 30 536602 20200615095346
+35.243.2.0 16 16 66418 20200626093048
+38.18.31.91 0 2 187472 
+175.44.10.246 2 4 36924 20200607230104
+198.252.50.91 2 2 15172 20200609060734
+157.37.216.100 29 29 48558 20200606092702
+157.37.219.196 31 31 60680 20200611180012
+157.37.199.80 9 9 14678 20200606092142
+157.37.208.201 16 20 559850 20200608170503
+27.63.97.138 15 15 34879 20200607061112
+157.37.192.100 9 15 13509703 20200614030824
+192.36.70.176 2 2 35748 20200618071923
+157.37.152.202 2 2 6860 20200610062451
+157.37.179.171 9 9 14673 20200616134749
+157.47.193.236 6 6 7601 20200606104014
+35.243.2.12 12 12 20622 20200624044730
+172.245.50.218 0 18 129872 
+157.37.167.28 20 34 1959242 20200624134531
+52.250.110.174 6 6 450034 20200616024524
+64.78.149.164 12 12 1044 20200619004535
+157.37.207.23 16 16 26688 20200607152209
+223.189.142.78 10 10 27045 20200606074424
+27.63.79.244 3 3 2477 20200604013154
+216.145.5.42 2 2 35776 20200616113954
+104.171.158.213 0 2 170192 
+223.238.209.78 9 9 14673 20200623135442
+157.37.162.26 9 9 14675 20200613041121
+104.171.158.249 2 2 15606 20200609060720
+106.76.71.16 24 24 40829 20200610172038
+223.238.198.192 20 20 48875 20200613114023
+157.37.39.128 14 56 1201786 20200617095931
+142.252.77.136 4 4 27814 20200611141458
+157.47.194.8 28 28 45978 20200605084351
+106.76.71.17 10 10 21429 20200617074317
+157.37.243.32 8 8 292498 20200629131414
+117.199.215.233 24 24 67048 20200624045847
+38.18.31.33 0 18 129872 
+106.207.150.98 6 6 7601 20200627002757
+157.37.248.101 2 2 27154 20200615080916
+157.37.149.214 47 57 2198467 20200612155626
+207.90.15.39 0 18 129872 
+1.39.222.2 2 2 91274 20200627100717
+35.243.2.11 5 5 6979 20200624044807
+157.37.232.45 74 74 38205 20200608061209
+157.37.131.133 133 133 127971 20200618202322
+207.188.146.248 0 18 129872 
+223.238.177.90 9 9 14678 20200601134123
+157.37.172.192 21 21 39675 20200617152233
+94.158.36.183 4 4 52050 20200615181837
+223.238.141.188 11 11 15592 20200618035539
+103.82.80.220 95 95 94709 20200619014027
+157.37.142.139 27 27 995985 20200611180546
+157.37.133.249 16 16 32371 20200624140719
+20.185.65.20 12 12 893748 20200627154427
+157.47.153.26 166 166 129989 20200603124744
+157.37.201.123 2 2 422 20200621073201
+207.66.17.202 0 18 129872 
+198.252.49.237 0 18 129872 
+157.37.177.132 6 6 7601 20200609174556
+27.63.116.240 111 111 124371 20200620164524
+34.222.229.130 4 4 348 20200619004535
+157.37.204.31 18 18 58580 20200623042638
+223.189.181.32 95 95 166799 20200610161418
+69.140.233.174 67 179 2667565 20200616115707
+104.171.150.220 0 2 166918 
+157.37.147.15 50 50 112312 20200628124629
+166.88.81.27 0 18 129872 
+223.238.206.133 19 19 45222 20200610144938
+23.249.228.249 2 2 16098 20200609060722
+23.230.53.25 0 18 129872 
+223.238.210.231 101 101 80635 20200619143421
+188.143.169.29 8 8 597502 20200625051543
+138.197.148.89 1 1 0 20200613134743
+157.47.132.57 52 52 147060 20200616024605
+94.130.51.22 160 252 3776382 20200628011020
+223.238.142.196 27 27 74313 20200605164757
+223.238.207.44 76 76 202977 20200624171603
+157.37.137.32 9 9 315652 20200619164153
+223.188.160.151 18 18 22803 20200612051210
+223.238.141.24 26 26 50152 20200625134302
+106.76.79.133 17 17 38682 20200613162731
+157.37.170.51 45 57 347788 20200623161519
+193.32.174.176 4 120 7224028 20200617101339
+157.37.240.154 5 5 184472 20200603062531
+146.196.37.163 2 2 27122 20200602142508
+223.238.199.211 10 10 16914 20200605030950
+45.127.45.194 21 131 7564839 20200617115836
+106.76.79.158 6 6 7601 20200624052554
+157.37.222.183 10 108 4624732 20200616064652
+157.37.252.44 32 32 69045 20200628065455
+157.37.239.20 11 11 21479 20200624100834
+170.178.155.168 0 18 129872 
+52.114.6.38 2 2 67696 20200611075614
+157.37.182.194 2 2 15594 20200622122334
+157.47.232.11 12 140 7959085 20200630042102
+83.171.233.134 2 2 35738 20200624214855
+34.207.90.122 2 2 35878 20200629125504
+157.37.171.160 22 22 29867 20200609084832
+157.37.238.162 54 54 56584 20200623142807
+223.238.223.157 19 19 31905 20200628173457
+35.188.148.93 4 4 71548 20200601052308
+223.238.143.148 10 10 18075 20200606051434
+103.82.80.12 7 15 217198 20200604083944
+157.37.118.220 3 3 10680 20200601134526
+101.21.151.199 4 4 71480 20200625200758
+65.154.226.109 16 480 28896344 20200628015007
+106.76.71.160 22 22 36880 20200617041832
+157.47.194.223 6 6 7601 20200609150932
+157.47.132.62 84 84 178762 20200613105926
+157.37.144.253 68 68 77150 20200616103948
+45.127.45.161 34 738 43301214 20200616130953
+74.125.212.36 0 2 40778 
+157.37.151.209 2 78 2895904 20200615165508
+117.234.161.116 20 20 51267 20200625042738
+157.47.210.229 31 31 42888 20200613103220
+157.37.67.85 2 2 27156 20200630193859
+52.149.226.27 4 4 297472 20200624171851
+157.47.242.31 16 16 25023 20200608172534
+223.238.143.220 6 6 7601 20200602020719
+157.37.231.130 169 169 175920 20200607135303
+171.79.178.218 14 134 7398970 20200622112852
+52.28.236.88 4 4 348 20200619004534
+157.37.254.214 6 6 7601 20200603131257
+157.37.238.149 13 13 390566 20200603035319
+157.37.200.181 2 2 571 20200606092323
+157.37.75.139 6 6 7601 20200609035810
+157.47.223.67 27 27 73793 20200602113838
+157.37.138.6 80 80 75292 20200619111059
+35.243.2.10 11 11 19985 20200624044807
+27.63.99.10 8 8 14574 20200602081104
+157.37.235.202 9 11 221513 20200629085343
+103.82.80.191 12 12 87294 20200623165810
+106.76.71.77 11 11 21474 20200619173759
+106.76.71.163 31 31 58793 20200612173136
+106.76.79.162 41 41 57878 20200619061951
+157.37.238.206 28 28 39742 20200610091328
+199.244.88.132 2 2 35764 20200615143442
+52.149.156.30 12 12 893710 20200627171745
+27.63.70.99 65 65 110030 20200613070802
+157.47.203.65 37 37 39188 20200612110319
+157.37.141.220 3 3 7072 20200618142231
+157.47.203.190 2 2 27120 20200602185854
+106.76.79.147 2 2 3319 20200606065148
+157.47.221.115 6 124 7461002 20200629213249
+106.76.71.93 36 36 101158 20200630144624
+103.82.80.18 9 9 14673 20200616072853
+157.47.213.149 33 33 79531 20200608115802
+157.37.146.107 27 27 53256 20200624062257
+157.37.227.39 6 6 7601 20200623153522
+106.76.71.134 23 23 34471 20200622130906
+223.238.178.120 1 1 3392 20200630063633
+65.155.30.101 4 120 7224052 20200607062123
+157.37.221.191 11 11 21460 20200609195553
+223.238.195.170 27 27 41666 20200608043242
+157.37.197.74 30 30 28651 20200628035453
+35.203.128.2 4 4 1758 20200610132802
+157.37.111.121 30 32 1162312 20200607044718
+106.76.79.130 21 21 23961 20200625153435
+104.171.148.243 4 4 32644 20200611141501
+157.37.199.147 31 31 54130 20200607090520
+74.125.209.4 10 53 2900785 20200627163049
+157.47.128.219 9 9 14678 20200605161530
+157.47.201.60 6 124 7301122 20200617051851
+157.37.246.65 15 17 562510 20200609033333
+103.82.80.7 10 20 251640 20200630130907
+223.238.199.16 35 35 19208 20200626154605
+157.37.187.249 11 11 21479 20200625120450
+45.127.45.146 4 4 54312 20200615132820
+157.47.198.210 9 9 14678 20200604134542
+123.245.24.154 2 2 35784 20200612125912
+157.37.240.120 35 41 647051 20200602042355
+117.225.23.157 31 31 49932 20200623133055
+106.76.79.157 10 10 18227 20200624173931
+223.238.201.178 123 123 121439 20200619042614
+104.171.148.180 0 18 129872 
+157.37.150.41 49 369 11013634 20200604063139
+103.82.80.133 7 7 221080 20200620100902
+66.102.6.6 2 4 76634 20200630100558
+223.238.211.119 55 55 159056 20200607045608
+223.238.216.114 33 33 91480 20200613140429
+62.210.5.253 4 4 297392 20200620115814
+27.63.114.24 10 10 18058 20200630063650
+223.238.195.153 16 16 29174 20200604125601
+106.76.71.85 9 9 14678 20200610051506
+157.37.197.191 11 11 21480 20200629033224
+159.65.24.22 10 10 100236 20200606144313
+157.47.249.222 6 94 5260632 20200615101617
+183.253.80.122 2 4 36926 20200609153316
+223.238.217.21 6 6 7601 20200608085227
+192.162.103.35 2 2 149990 20200607031839
+171.79.178.185 4 122 7264838 20200611130208
+117.225.72.2 41 41 44094 20200626164013
+51.161.13.233 26 26 1131594 20200623102319
+103.195.202.101 18 372 22222372 20200601211637
+223.189.161.132 81 81 162947 20200611044133
+157.37.142.39 34 34 50417 20200601053523
+157.37.75.65 9 11 342698 20200607090350
+106.79.194.192 9 9 14678 20200602160037
+106.76.71.83 9 9 14678 20200605052810
+223.188.152.239 4 122 7264808 20200619143453
+58.22.64.215 2 4 36920 20200605092143
+146.196.37.155 10 132 7404988 20200616144056
+157.47.253.166 193 193 227091 20200625132428
+157.37.206.170 14 14 31644 20200622122637
+223.189.168.218 6 124 7301144 20200617052533
+74.125.210.6 2 52 3830848 20200628121208
+157.47.159.186 16 16 26744 20200603171509
+157.47.207.168 9 9 14675 20200613065403
+157.47.134.136 89 89 99523 20200618054526
+223.238.163.192 8 8 14569 20200618123936
+157.37.145.144 32 32 48907 20200618122408
+34.251.27.194 2 2 150080 20200611061136
+223.238.206.248 6 6 7601 20200625042011
+35.226.88.106 6 6 450234 20200613085816
+74.208.31.35 2 2 35744 20200623204002
+223.189.135.6 6 6 7601 20200602135413
+195.154.62.232 2 2 148750 20200620113352
+157.37.158.71 18 18 42211 20200609105801
+223.238.210.183 32 32 75412 20200622152002
+172.252.226.24 0 18 129872 
+157.37.136.135 15 15 32476 20200611104944
+223.238.157.13 9 9 14678 20200609015650
+223.189.149.94 9 9 14673 20200621171249
+157.37.209.192 7 7 4140 20200606092248
+157.37.218.166 29 29 29150 20200606085727
+13.78.132.216 2 2 149028 20200630203220
+157.37.252.25 6 6 7601 20200623090556
+157.37.95.244 12 12 27942 20200601064527
+106.76.71.68 9 9 14673 20200621090819
+157.47.196.249 129 129 132237 20200621121303
+162.213.36.175 2 2 35744 20200625222600
+157.37.242.81 44 162 2406718 20200611045741
+198.50.243.165 6 6 446326 20200623061607
+103.82.80.32 17 17 627388 20200613052213
+104.227.97.122 4 4 71534 20200618124026
+157.47.159.84 19 19 32292 20200604043351
+223.238.155.30 19 19 40229 20200621023031
+223.238.204.228 9 9 14673 20200619125844
+103.253.27.81 2 2 35770 20200604213215
+103.82.80.29 28 28 85096 20200626112349
+34.83.154.172 10 242 14644128 20200620080255
+112.133.246.35 8 126 7336390 20200612055948
+157.37.137.29 12 12 21749 20200613100023
+142.252.78.181 2 2 15136 20200609060714
+157.47.240.79 10 10 18215 20200607174105
+157.47.150.62 79 79 82529 20200603080424
+157.37.18.36 12 18 579262 20200601104630
+223.189.147.142 13 13 28318 20200609030146
+157.37.223.118 6 6 7601 20200608125128
+27.63.76.148 1 1 104 20200603071603
+157.47.211.101 47 47 133237 20200625165020
+157.37.48.114 16 18 233522 20200601042742
+157.37.110.93 19 19 31811 20200606100901
+172.252.226.5 2 2 15596 20200611141530
+173.232.226.195 2 2 35766 20200613063908
+198.252.50.126 0 2 166918 
+223.238.141.220 4 4 10301 20200603172016
+106.76.79.140 80 80 95354 20200616160443
+157.37.236.184 194 194 821202 20200626055003
+157.37.234.200 9 9 14673 20200617151147
+157.37.166.10 11 11 21479 20200620121044
+157.37.138.101 9 9 14679 20200610080200
+223.238.207.22 18 18 29356 20200605091007
+157.37.254.157 10 10 18210 20200602050742
+223.238.163.18 5 5 13635 20200607061051
+157.37.139.188 12 12 406274 20200618034638
+27.63.111.145 9 9 14673 20200618072322
+13.68.240.106 6 6 107324 20200614213019
+157.37.199.166 9 9 14673 20200621135555
+223.238.221.66 147 147 151554 20200629061330
+223.189.148.2 145 145 120510 20200630151152
+157.47.153.39 9 9 14673 20200619032714
+171.79.184.156 19 19 30198 20200603100459
+27.97.69.178 22 22 45751 20200615095246
+117.234.191.241 20 20 45371 20200629101224
+157.37.161.252 110 110 120889 20200617053926
+124.13.22.252 2 2 35864 20200627230832
+106.76.79.143 21 21 51979 20200601050025
+157.37.144.156 6 6 7601 20200627064458
+157.47.141.111 11 11 18898 20200606110448
+157.47.194.237 14 138 7636156 20200625160202
+51.91.218.48 2 118 7069720 20200623102342
+106.79.192.182 152 152 361794 20200614134444
+157.37.182.53 7 13 219566 20200624035817
+157.37.146.68 2 2 27156 20200615132835
+223.189.132.223 14 14 31599 20200610031538
+157.47.139.165 9 9 14678 20200607165142
+104.223.38.177 2 2 35770 20200610022057
+117.225.21.44 68 68 100599 20200622054307
+223.238.161.226 1 1 104 20200602081104
+66.249.93.206 2 2 35872 20200627163018
+103.82.80.212 73 95 832470 20200627105608
+157.47.193.5 6 6 7601 20200610141023
+1.39.204.16 43 43 82952 20200613151944
+35.203.128.0 5 5 1833 20200610132818
+117.234.229.62 12 12 21534 20200606050448
+117.234.193.197 11 11 21462 20200605124512
+157.37.158.252 78 78 53100 20200616142750
+171.79.147.181 116 116 277727 20200626153511
+157.37.242.185 13 13 29440 20200610113826
+106.76.79.138 10 10 18214 20200618094222
+223.238.214.205 6 6 7571 20200630052654
+117.234.56.204 119 119 120265 20200622111456
+117.199.209.137 38 38 88790 20200609082052
+198.240.122.177 4 4 31620 20200609060717
+172.252.226.173 0 18 129872 
+157.37.213.97 10 10 44732 20200614111759
+157.47.139.240 188 188 164698 20200606130946
+117.234.77.130 27 27 31272 20200625082824
+157.37.220.204 10 10 18210 20200603114750
+157.47.159.110 9 9 14673 20200623060845
+107.165.153.108 2 2 16286 20200609060725
+18.196.96.172 8 8 696 20200619004535
+106.76.71.152 20 20 39203 20200604041412
+158.69.241.225 80 80 651238 20200610063759
+223.238.138.0 10 10 23248 20200629101057
+157.37.237.211 38 64 940380 20200620095033
+106.76.71.40 22 22 57620 20200618053726
+157.47.193.15 8 8 33864 20200626054738
+157.37.151.158 13 13 28357 20200621065320
+223.238.180.24 67 67 75858 20200620164524
+157.48.152.156 4 122 7264818 20200621091644
+223.189.131.39 82 82 193192 20200613173222
+157.37.225.248 85 85 90880 20200621082915
+207.90.14.59 0 18 129872 
+106.79.201.213 10 10 18210 20200604115913
+157.37.240.142 6 6 7601 20200602133107
+117.234.186.40 90 90 112607 20200621100508
+157.37.137.117 58 58 67620 20200601140900
+157.37.172.127 131 131 298573 20200614091413
+172.245.50.38 2 2 15168 20200609060724
+117.225.52.243 2 2 422 20200623024654
+198.240.122.208 2 2 16310 20200611141512
+157.37.218.79 2 2 27156 20200624183313
+142.252.74.118 0 18 129872 
+106.76.71.171 26 26 110058 20200626102431
+74.125.209.8 12 45 2293498 20200627163020
+157.37.145.154 7 7 219141 20200610172958
+207.188.164.217 2 2 35764 20200609060722
+27.63.112.0 19 19 37383 20200628044014
+45.127.44.74 2 4 76528 20200623075410
+157.47.247.117 6 6 7601 20200609093412
+103.82.80.79 21 21 54457 20200607084717
+157.37.149.83 39 59 1104659 20200612042729
+157.47.204.192 13 13 25271 20200630005551
+157.37.201.34 11 11 21457 20200602151823
+117.234.185.188 22 22 36720 20200623042658
+120.33.230.151 2 4 36924 20200603060931
+27.63.65.226 89 89 82513 20200601041119
+157.47.207.152 6 6 7601 20200629073829
+157.47.199.183 6 6 7601 20200609115911
+207.188.160.36 2 2 17474 20200609060724
+223.238.179.192 8 8 15696 20200628044014
+103.82.80.25 14 18 478672 20200602141218
+157.47.239.3 138 278 3879909 20200604175838
+52.39.135.192 0 2 40778 
+157.37.22.195 54 54 43877 20200605175809
+157.37.92.180 2 18 726382 20200609074804
+104.171.157.44 2 2 14566 20200609060715
+42.111.17.32 24 40 519964 20200602151059
+223.238.192.64 11 11 18000 20200610164444
+157.37.168.8 17 29 12098195 20200625161225
+104.237.244.207 2 2 15118 20200609060716
+35.205.18.248 2 2 148748 20200626160614
+223.238.133.51 79 79 116708 20200613070811
+157.37.198.151 56 62 971638 20200605043738
+49.34.87.198 8 130 7549370 20200601135150
+117.199.201.14 19 19 43199 20200616041454
+70.42.131.189 4 120 7224062 20200612123754
+157.47.220.185 3 3 89763 20200616060920
+223.189.188.191 8 126 7496660 20200613185209
+157.47.243.251 9 9 14673 20200627023046
+157.37.132.2 9 9 14678 20200604065649
+198.252.50.133 0 18 129872 
+106.79.201.29 12 12 87294 20200617151748
+157.47.141.11 2 2 27156 20200616023522
+104.171.150.50 0 2 171262 
+117.234.240.119 13 13 24779 20200607113926
+223.189.144.62 2 2 35762 20200614092817
+103.82.80.127 13 19 813210 20200606113715
+162.213.36.245 2 2 35766 20200610040512
+103.149.160.176 2 2 796 20200625124411
+157.37.241.239 22 22 93126 20200626042618
+207.188.164.239 0 18 129872 
+27.63.115.189 30 30 83575 20200618034138
+106.76.79.169 18 18 42270 20200621110637
+51.255.109.161 2 2 148838 20200621145036
+157.47.212.44 38 38 65361 20200621062920
+103.82.80.203 10 16 415472 20200606101212
+106.76.71.6 15 15 23343 20200627175943
+223.238.141.52 8 8 14574 20200603071603
+157.37.203.98 4 4 1592 20200625124216
+104.171.158.102 0 18 129872 
+223.238.192.92 11 11 21462 20200615173647
+198.252.50.255 0 18 129872 
+106.76.79.131 8 8 10176 20200616014717
+107.173.68.102 2 2 14222 20200610022100
+157.37.142.78 97 115 8768220 20200616164352
+157.37.129.80 10 10 18802 20200611132646
+35.243.2.2 18 18 43356 20200626093127
+157.37.133.59 52 160 2311670 20200611062654
+157.37.132.218 6 6 3152 20200617022941
+157.37.186.175 9 9 14644 20200630115130
+183.253.80.74 2 4 36918 20200616070319
+117.199.200.32 12 12 59800 20200623001559
+223.238.192.33 22 22 35709 20200610160307
+27.63.79.52 3 3 7040 20200606160429
+157.37.68.226 1 1 3399 20200601132254
+142.252.74.71 2 2 15114 20200611141457
+188.213.215.10 4 120 7224304 20200617093338
+35.203.128.4 4 4 2152 20200610132814
+157.37.87.175 9 9 14678 20200601175523
+223.238.208.203 6 6 7601 20200610012025
+199.192.115.19 6 6 43350 20200602085022
+188.166.67.33 2 2 35768 20200602072442
+157.37.132.48 2 2 27154 20200621043743
+157.245.3.213 20 282 16867120 20200628111724
+223.238.197.242 11 11 21479 20200621040949
+104.171.157.5 0 18 129872 
+157.37.151.62 18 18 29346 20200620034456
+27.63.91.246 14 14 12704 20200621023031
+157.37.177.134 10 10 18227 20200627064538
+157.37.88.253 8 8 11279 20200601064545
+223.238.142.52 15 15 39874 20200604144946
+35.243.2.13 5 5 7814 20200624044807
+157.47.240.156 14 14 24169 20200627091310
+222.188.26.55 4 4 297484 20200624220904
+157.47.196.10 69 69 70941 20200612123336
+23.230.53.148 2 2 15374 20200609060723
+157.37.252.84 40 40 75145 20200609104409
+157.37.9.211 44 58 1516453 20200607151921
+157.37.20.123 6 6 7601 20200625155318
+118.190.53.55 2 2 35866 20200627211529
+184.94.240.92 6 6 446866 20200628233749
+157.37.233.219 48 292 8520368 20200617130832
+104.171.158.74 2 2 17438 20200611141457
+27.63.76.52 6 6 7601 20200605101309
+27.63.77.28 21 21 39690 20200603172041
+54.189.59.14 4 4 1800 20200617085929
+157.37.222.197 9 9 22038 20200609121118
+159.89.165.59 18 214 10737212 20200608043318
+157.47.248.112 63 63 59025 20200610010241
+66.102.6.67 2 2 35770 20200615165737
+35.243.2.1 20 20 48594 20200626093113
+167.172.36.176 2 2 36014 20200617062819
+157.37.201.70 93 93 153348 20200616152429
+157.47.222.231 6 6 7601 20200610144608
+157.37.141.222 2 2 27122 20200608052518
+171.79.180.241 55 55 40704 20200607151732
+157.37.29.199 5 5 123748 20200607090405
+51.89.201.9 6 6 107314 20200613012940
+52.32.240.62 4 120 7224312 20200617091412
+171.79.144.179 20 20 42956 20200616121041
+157.37.188.208 9 9 14678 20200609141609
+223.238.209.178 124 124 292140 20200616041637
+157.47.243.214 9 9 14678 20200610020406
+209.182.239.118 4 6 222148 20200621194634
+157.37.134.90 37 37 98104 20200607112738
+157.37.183.206 35 35 61447 20200619075011
+157.37.24.133 8 8 14574 20200605144756
+106.79.192.201 18 18 24015 20200601120710
+157.37.129.163 109 519 8425680 20200611074459
+86.135.191.89 2 2 149996 20200607042213
+106.207.251.163 2 2 27156 20200614111834
+103.82.80.65 79 97 2758378 20200615143758
+157.37.190.135 6 6 7601 20200618115654
+157.47.195.84 9 9 14679 20200601100527
+157.37.129.136 84 84 54715 20200605171959
+157.47.159.38 17 17 29062 20200618131315
+157.37.250.76 9 9 14183 20200605082654
+157.37.140.12 35 35 899915 20200610034337
+223.238.179.42 12 12 24847 20200602233918
+183.136.225.46 4 4 300384 20200610063506
+157.47.248.62 6 6 7601 20200619140209
+103.82.80.211 47 195 74473575 20200617113741
+157.37.239.114 12 12 21755 20200608144223
+23.230.53.210 2 2 14484 20200609060711
+157.37.137.83 10 10 18227 20200621084645
+106.76.71.23 141 141 190836 20200616142111
+157.37.253.213 21 21 39615 20200612085445
+157.47.136.63 6 6 7601 20200613170104
+163.172.161.137 4 4 71770 20200628041105
+157.47.223.207 4 120 7221428 20200619085535
+54.218.105.10 4 4 298092 20200629095456
+198.240.122.106 0 18 129872 
+157.47.196.218 9 9 14673 20200616122435
+157.37.220.104 9 9 14673 20200616120251
+172.245.50.125 0 18 129872 
+106.207.145.106 12 144 7527578 20200617055713
+94.130.91.180 80 126 1849479 20200602010522
+157.37.151.78 19 19 30733 20200610165138
+157.37.53.184 40 40 51594 20200622235215
+42.111.19.248 4 4 54244 20200601013117
+3.84.243.20 18 18 1350644 20200613013520
+5.188.62.25 16 16 16158 20200617200630
+142.252.74.23 4 4 31898 20200611141457
+157.37.248.198 7 7 267457 20200629050406
+106.79.201.253 87 87 234998 20200614142407
+67.55.66.180 2 2 35874 20200627132455
+157.37.237.99 28 28 258413 20200602185759
+170.178.155.211 2 2 14452 20200609060713
+157.37.175.40 44 44 71982 20200607034852
+54.84.202.135 8 8 600048 20200604020938
+207.90.15.160 0 18 129872 
+157.47.246.92 14 14 43233 20200606101534
+27.56.198.56 4 4 54312 20200613192816
+13.69.169.210 2 2 148744 20200621105634
+223.238.208.28 6 6 7601 20200609144049
+157.37.153.16 20 20 71825 20200615192558
+198.240.123.251 2 2 17434 20200609060800
+66.249.93.208 2 2 35890 20200627163019
+157.37.173.144 23 31 21510706 20200611061151
+106.76.71.35 6 6 9729 20200609091714
+223.238.217.7 9 9 14679 20200605010119
+143.215.247.114 2 2 35872 20200627124043
+223.238.218.66 57 57 56888 20200604092512
+157.37.157.75 4 4 54244 20200601072504
+157.47.131.155 68 68 109998 20200605003344
+157.37.177.158 18 18 44741 20200623050115
+27.63.79.100 48 48 119693 20200605164816
+106.207.140.254 11 11 19174 20200608070549
+157.37.137.212 9 9 14673 20200620115859
+157.37.190.91 9 9 14673 20200624170927
+157.37.212.207 37 37 78191 20200621071727
+52.59.102.42 2 2 35870 20200630100436
+176.113.115.222 18 44 785562 20200602191417
+117.199.211.137 8 8 33864 20200626061201
+106.207.186.126 4 120 7224074 20200612093527
+157.47.133.206 13 13 28326 20200618124851
+157.47.248.147 14 14 22428 20200603152148
+223.238.193.120 12 12 21757 20200604135006
+157.37.220.134 32 32 47463 20200602065616
+106.79.194.174 9 9 14678 20200610022447
+35.243.2.14 6 6 17286 20200626100719
+157.37.155.154 14 14 18369 20200622075322
+69.162.125.74 2 2 35742 20200624131316
+223.238.205.244 20 20 51229 20200615043532
+157.37.246.111 21 21 90393 20200602124555
+117.234.248.96 54 54 56890 20200628154916
+207.90.15.69 2 2 14454 20200609060722
+117.225.64.60 100 100 123101 20200604144856
+171.79.128.239 10 148 7639934 20200629043418
+178.170.219.47 8 8 600088 20200611115719
+223.189.191.29 25 25 45376 20200605134421
+122.180.247.222 2 14 86632 20200615051952
+106.76.71.46 9 9 14673 20200618103522
+223.238.208.48 1 1 3554 20200623161941
+157.37.64.194 6 12 1106952 20200601104600
+157.37.149.252 113 231 10450747 20200620040441
+223.238.202.243 78 78 140666 20200605033352
+157.37.54.200 8 10 222916 20200601165121
+192.162.101.55 2 2 148950 20200625091758
+157.37.231.208 2 2 27158 20200622100959
+23.250.54.187 2 2 14240 20200613063914
+157.37.136.182 6 6 81468 20200619104048
+157.37.223.219 13 13 25299 20200621161251
+157.37.249.156 19 147 37964023 20200619193253
+198.252.50.18 2 2 17440 20200611141458
+72.13.62.26 6 6 65798 20200611163659
+52.34.76.65 2 2 900 20200617085918
+103.82.80.149 13 21 842191 20200610125944
+157.37.196.238 20 20 249913 20200628175759
+27.63.79.124 10 10 13652 20200604144946
+104.171.150.71 2 2 16082 20200611141505
+195.201.106.84 80 126 1885228 20200610011413
+157.47.218.143 15 15 18466 20200606102812
+223.238.208.96 58 58 51356 20200617124333
+157.37.148.68 26 26 70582 20200623062641
+23.27.147.241 2 2 13966 20200611141503
+35.203.128.6 6 6 4072 20200610132809
+223.238.204.175 16 16 33745 20200607075712
+157.37.224.47 9 9 14673 20200624093619
+157.37.173.237 6 6 7601 20200619064224
+223.238.195.40 109 109 210494 20200604121437
+157.37.207.7 50 50 85560 20200613120958
+223.189.166.27 82 82 81431 20200615164433
+192.35.168.128 2 2 35868 20200627121430
+157.37.193.131 16 16 25343 20200618071009
+34.222.71.221 2 2 35770 20200608103052
+207.188.150.45 2 2 14238 20200609060719
+157.47.225.53 37 37 79894 20200618160858
+157.37.131.153 39 39 74511 20200609044922
+103.195.202.107 82 398 7019272 20200610061410
+223.238.196.111 9 9 14679 20200604141938
+157.37.148.46 2 2 27158 20200615173706
+106.79.201.83 13 13 28298 20200601074249
+157.37.150.233 33 33 62235 20200624190002
+117.199.200.2 30 30 83577 20200614131737
+27.63.78.148 15 15 22417 20200605044222
+27.63.94.133 2 2 3503 20200606074910
+51.255.109.174 2 2 148854 20200621082816
+132.148.164.113 2 2 148978 20200627175321
+27.63.73.122 51 51 79770 20200620050126
+18.217.223.118 2 2 149052 20200627215654
+157.37.82.247 2 2 3641 20200605144810
+157.37.168.101 46 46 111641 20200606061319
+157.47.155.236 10 10 18215 20200606162805
+207.90.15.43 2 2 13976 20200609060721
+157.47.155.2 52 52 82321 20200612112731
+1.39.219.114 9 9 233364 20200627100734
+157.47.227.105 44 44 84416 20200601015347
+166.88.81.191 0 18 129872 
+1.39.214.248 3 3 1800 20200622161136
+47.31.89.251 17 17 38687 20200612032046
+157.37.150.171 72 72 107109 20200617105626
+157.37.133.0 22 22 28719 20200611060904
+223.238.130.131 23 23 46962 20200615093636
+23.230.53.139 0 18 129872 
+103.82.80.50 2 2 95104 20200603133023
+157.37.139.253 13 13 28326 20200617031235
+157.47.217.96 6 6 7601 20200616135427
+157.47.247.206 6 6 7601 20200613104403
+157.37.255.77 153 153 162314 20200614112030
+207.90.14.227 0 18 129872 
+103.82.80.84 8 146 7625228 20200619114957
+223.238.142.172 4 4 10476 20200605025003
+142.252.78.115 2 2 16250 20200609060724
+27.63.113.120 50 50 92170 20200629003559
+104.149.216.53 2 2 149042 20200617073417
+117.225.45.180 84 84 355572 20200626124523
+223.238.136.68 45 45 65373 20200613163317
+104.171.150.39 2 2 12674 20200609060723
+172.241.82.138 2 2 35786 20200613090603
+223.238.217.71 10 10 18210 20200601115729
+74.125.210.4 0 44 1769938 
+52.37.118.25 4 4 71486 20200622111135
+54.149.3.254 2 2 900 20200618034853
+223.238.213.0 16 16 18819 20200603151719
+106.207.144.2 110 110 163855 20200610150039
+17.58.59.23 2 2 35746 20200621081426
+157.47.204.184 10 10 18215 20200606153137
+176.203.69.138 16 158 7831092 20200628121421
+223.238.216.235 2 2 34276 20200603024646
+223.238.210.117 56 56 96018 20200604150937
+52.42.70.222 2 2 35736 20200625213724
+27.63.77.0 4 4 7690 20200625133521
+157.37.157.57 5 5 3104 20200610063837
+157.47.213.111 8 8 10527 20200612081700
+27.63.75.168 13 13 23419 20200629101117
+157.47.198.187 49 49 89445 20200602171242
+157.37.175.69 9 9 14673 20200617034345
+106.76.79.132 11 11 21460 20200608151616
+103.82.80.226 34 34 96637 20200611123712
+23.27.147.39 0 18 129872 
+157.37.34.117 9 9 13036 20200606100901
+103.82.80.218 2 2 34276 20200624133943
+157.37.187.27 18 18 42186 20200601115543
+157.47.214.170 4 122 7264830 20200612075314
+157.37.27.161 31 45 22301134 20200607044649
+107.165.153.120 2 2 15360 20200611141504
+107.172.63.206 4 4 50290 20200616181635
+27.56.226.138 20 156 7757784 20200601123145
+157.37.214.205 98 98 209866 20200606135914
+66.119.110.145 4 4 206058 20200605145427
+3.249.51.5 2 2 148938 20200619063510
+157.37.167.179 5 5 188738 20200627121325
+185.234.218.239 2 2 35748 20200620075233
+157.37.159.218 108 108 457164 20200626034303
+223.238.202.203 22 22 57621 20200615145435
+157.37.250.105 23 23 60860 20200612112855
+106.79.202.23 13 13 28298 20200601050654
+157.47.244.164 28 28 59895 20200615181720
+157.37.143.224 9 9 14673 20200619104942
+157.47.251.23 67 67 68924 20200617120433
+150.249.214.253 2 2 8466 20200626103045
+157.47.143.55 4 120 7224040 20200617161414
+193.31.121.45 4 120 7224326 20200617094316
+103.82.80.132 51 51 94930 20200613085914
+45.92.1.126 4 120 7224036 20200617110854
+157.37.153.43 17 17 32136 20200621035221
+117.234.129.149 24 24 59472 20200624175201
+157.47.136.24 67 67 66177 20200604154332
+157.37.44.197 2 2 6932 20200601064614
+52.250.65.149 6 6 450244 20200614063837
+223.238.198.123 15 15 22952 20200627120156
+207.90.14.200 0 18 129872 
+5.188.62.140 92 92 126730 20200622103720
+182.68.117.95 46 46 112852 20200620124328
+157.37.139.196 2 2 27156 20200622101336
+157.37.225.162 6 6 7601 20200620081112
+157.37.239.193 32 32 37346 20200610092653
+157.37.168.252 19 19 47976 20200621140805
+142.252.74.218 0 18 129872 
+223.238.220.81 13 13 28318 20200609065846
+198.252.49.123 2 2 14114 20200611141532
+209.95.163.46 4 100 5928470 20200617092500
+198.252.50.186 0 18 129872 
+157.37.3.58 7 7 11177 20200621052357
+157.37.155.115 168 168 249457 20200624114013
+157.37.137.236 23 29 844331 20200615181647
+157.37.250.231 2 28 469714 20200626130705
+157.47.193.6 7 7 273756 20200603052903
+157.37.248.133 42 42 50089 20200614063730
+223.189.132.60 16 16 29501 20200625035600
+157.47.135.236 9 9 14677 20200604134906
+157.37.134.81 6 6 7601 20200615125942
+106.76.71.147 37 37 46554 20200609181835
+117.199.158.241 14 14 22423 20200620035339
+95.216.20.96 4 120 7224162 20200627130919
+43.224.1.179 12 12 24869 20200612104505
+157.37.212.9 22 32 1575138 20200605164917
+157.37.227.214 9 9 14678 20200606031759
+157.37.148.55 78 600 19774343 20200612100753
+20.188.57.176 6 6 446636 20200630225550
+223.189.128.105 13 13 23992 20200605092100
+223.238.143.100 7 7 11834 20200604013154
+117.225.106.94 36 36 52858 20200627092804
+157.37.82.96 4 4 7334 20200623053048
+157.37.154.21 12 12 21757 20200601022725
+112.111.167.29 2 4 36916 20200611172313
+175.44.42.174 2 4 36918 20200614144109
+103.195.202.252 2 2 27156 20200630051048
+166.88.81.147 2 2 15176 20200611141506
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200601 728 1366 41982426 45
+20200602 1124 1224 6573694 46
+20200603 564 778 6307197 31
+20200604 1114 3203 46251231 36
+20200605 1190 1232 6755904 42
+20200606 1103 1591 20589624 47
+20200607 1113 1615 57739562 49
+20200608 1736 2390 46256008 26
+20200609 1633 2429 35886353 63
+20200610 1480 1553 8484684 54
+20200611 624 1742 54852792 45
+20200612 1539 4479 98141765 40
+20200613 1422 1734 19945034 46
+20200614 773 789 17854018 23
+20200615 1132 1522 24029366 39
+20200616 2407 3631 76349383 47
+20200617 1262 3216 178024542 41
+20200618 731 951 89522465 33
+20200619 744 1364 68575284 33
+20200620 912 1300 37839436 25
+20200621 1265 1433 12008953 44
+20200622 564 800 10780656 27
+20200623 815 945 10024990 35
+20200624 918 994 6740541 37
+20200625 492 636 21585956 28
+20200626 1118 1144 4634629 33
+20200627 414 835 23798592 42
+20200628 583 1659 89233746 23
+20200629 389 893 32430642 21
+20200630 354 614 16992388 21
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 582
+2mn-5mn 127
+30s-2mn 208
+1h+ 9
+15mn-30mn 51
+30mn-1h 31
+5mn-15mn 114
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 585
+/ecom/getAllProducts 10836 25908082 36 378
+/ecom/getFilters 5324 545943 24 101
+/ecom/getBanners 1440 303600 520 4
+/ecom/siteSetting 1432 933664 0 4
+/foodango/api.php 806 190629 11 11
+/pcr/admin/chat/refresh_chat_users_msg/ 788 0 0 2
+/cgi-sys/suspendedpage.cgi 786 3327138 23 23
+/ecom/allCategories 717 988026 2 1
+/ecom/getAllPages 710 3192870 0 67
+/ 638 22741559 206 143
+/ecom/getSearchData 323 279621 2 5
+/ecom/admin/listingProducts 260 12224196 3 7
+/ecom/admin/dashboard/this_month 252 11327072 11 1
+/pcr/admin/ 214 504154 5 2
+/ecom/admin/listingOrders 184 8809402 5 16
+/cpanel 164 2266020 63 56
+/kkservices/admin/Estimate/addEstimate/9/2 164 1603524 0 0
+/ecom/admin/login 160 2743992 65 3
+/pcr/admin/chat/refresh_chatbox 150 0 0 1
+/kkservices/admin/dashboard 132 622660 0 1
+/public/fonts/fontawesome-webfont.woff2 132 10165361 1 30
+/ecom/getCountries 131 18340 1 1
+/ecom/getOrders 124 440215 1 16
+/ecom/admin/productSaleReport 117 15090 0 30
+/ecom/getZones 116 14024 0 1
+/pcr/admin/dashboard/employee_department/ 12 2124 0 0
+/.well-known/acme-challenge/MKOZ69YVTGAXBRWJ_K9PSVMH0WDJ911A 2 128 0 0
+/pcr/admin/employees/employees_list/ 2 7210 0 0
+/ecom/admin/viewOrder/447 4 157716 0 1
+/grain/ 16 105438 0 1
+/kkservices/admin/Job/add 2 27152 0 0
+/.well-known/acme-challenge/KPTM18WNM457932KKUMGF_EUL2UOSAHK 2 128 0 0
+/kkservices/admin/Estimate/addEstimate/10/getEvents 1 10569 0 0
+/ecom/admin/viewOrder/451 10 396188 0 0
+/ecom/admin/editProduct/455 4 172468 0 0
+/pcr/admin/timesheet/project_task_list/1 2 1228 0 0
+/.well-known/acme-challenge/QSUPTNWBN49GJRCGNSXI0YMQJOAFY06F 2 128 0 0
+/.well-known/acme-challenge/VAL1EU1VKYIO9MKPVWME7K5WV6XAWSP9 2 128 0 1
+/ecom/admin/addProductAttribute/423 2 87374 0 0
+/.well-known/acme-challenge/-4X3oSlQKnW5u92Nws_diIG935bdcgepWHbJX2Yid8Q 8 696 3 3
+/ecom/resources/assets/images/product_images/1590131627.venus%20razer.jfif 36 189798 1 0
+/ecom/admin/viewOrder/444 6 234988 0 0
+/.well-known/acme-challenge/KT1Q05EXSU2X9ZB1WY37FQCBBI0-RY08 2 128 0 0
+/.well-known/acme-challenge/E78BROG77OM0CVUOP4DGR_J795Y-0PYJ 2 128 1 0
+/.well-known/acme-challenge/WYIPILKUMPP686806WZ1JYQJ84NLHG_2 2 128 0 0
+/.well-known/acme-challenge/TAPFY2C9NN64Z4F8YMS-ZP09N-8_14LF 2 128 1 0
+/.well-known/acme-challenge/u-IkjnUVHrP9Ld6Oj8hCVfgrucnSqDQv3PnKhaCEJTM 8 696 0 1
+/pcr/admin/employees/contract/6 2 114 0 0
+/.well-known/acme-challenge/964C2DBOH6ZW8I0-W1T23TPT5TNZ_VE2 2 128 0 0
+/foodango/assets/css/icons/icomoon/fonts/icomoon.woff 2 436608 0 0
+/foodango/ 2 2192 1 0
+/.well-known/acme-challenge/KNH36G_0IOZAMBK3GHED9AI56BGN8-OH 2 128 1 0
+/.well-known/acme-challenge/NYILF3SO55NTEGXTNHGYV1NBBMZ9WIX8 2 128 0 0
+/kkservices/assets/plugins/bootstrap/css/bootstrap.min.css.map 52 6064448 0 0
+/grain/admin/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/.well-known/acme-challenge/_C27L4TUR_ASVDEE_BG8YL7T9140N6-R 2 128 0 0
+/testimonial 16 113076 2 1
+/.well-known/acme-challenge/LJL5DLS-PGAR50N9CRCMOBB811VJFWTH 2 128 0 0
+/.well-known/acme-challenge/U_2Z5-W_HX2YX4QFOVYU68HW8RQ7D4H8 2 128 0 0
+/ecom/admin/viewOrder/449 8 313876 0 0
+/.well-known/acme-challenge/U5QEN1TUOHUZTAGJEEM_UMMPLG05XMB9 2 128 0 0
+/ecom/resources/assets/images/product_images/1586673406.guru%20ji%20thandai%2001.jfif 6 42316 0 0
+/ecom/resources/assets/images/product_images/1589022305.tata.jfif 6 49032 0 0
+/.well-known/acme-challenge/46SX2_2Y67JIJVHYVCNK93TS0ZMQCWBN 2 128 0 0
+/grain/page.php 2 9022 0 0
+/team-member/9 12 87238 0 0
+/.well-known/acme-challenge/15P9PMDJIC6W6K4HF8K2A462CMK-EXGQ 2 128 0 1
+/grain/admin/fonts/fontawesome-webfont.woff2 2 154320 0 0
+/.well-known/acme-challenge/OCQ6AX39_SC9WIV5NZPYN92_7TW27EHD 2 128 0 0
+/ecom/admin/viewOrder/434 6 236608 0 0
+/service/view/1 22 208986 2 3
+/ecom/admin/productsStock 16 698310 0 1
+/.well-known/acme-challenge/RHI-O21HE70GBTKCABCNZ1S87XXPVRB0 2 128 0 0
+/.well-known/acme-challenge/AVPR-NRTB2-5N_RM7IE33H_Y4ZNB-YFG 2 128 0 0
+/.well-known/acme-challenge/PXHSA0LGLUKDWVD0PJWERFP9UXHJGH63 2 128 1 0
+/property/ 8 3184 2 3
+/ecom/admin/viewOrder/442 10 399444 0 0
+/.well-known/acme-challenge/ZV1KXU1HF8YE_-HTW1JW1V57SIU209VL 2 128 1 0
+/ecom/resources/assets/images/product_images/1588612460.good%20day%20biscute%2010rupess.jfif 8 11318 0 0
+/.well-known/acme-challenge/BYA_8A3LXES-SFHH4ROC4S2MH5KH8LE1 2 128 0 0
+/.well-known/acme-challenge/9YA773NIBQHNNG5LLMLDO3R78UQD52_Q 2 128 0 0
+/ecom/admin/editProduct/109 2 87114 0 0
+/kkservices/admin/JobType/typeList 10 78946 0 1
+/.well-known/acme-challenge/PVNQH1Q55C3888GVTLPO92_-_L87LMS3 2 128 1 0
+/.well-known/acme-challenge/9ZJ4EHBQUJQRHFD58Y79S0U8GWIW1539 2 128 0 0
+/ecom/admin/editProduct/431 2 88318 0 0
+/.well-known/acme-challenge/HCIFH5EXZK2VP2R1SM5076Z2OBPIE6T8 2 128 0 0
+/ecom/getLanguages 6 1194 0 0
+/ggcnews/api/get_category_index/ 12 4416 2 1
+/ecom/resources/assets/images/product_images/1589635086.WHISPER.jfif 8 50286 0 0
+/pcr/skin/jobs/hrsale/fonts/fontawesome-webfont93e3.html 2 129080 0 0
+/.well-known/acme-challenge/4ZB54-LIKXMYTJH4SBEDFCPHVM4CRRMJ 2 128 1 0
+/team-member/8 12 87310 0 0
+/ecom/resources/assets/images/product_images/1586105391.dhaniya.jfif 6 54916 0 0
+/.well-known/acme-challenge/Q9HCNDG2O_9M83WW5OGYKIYUOGAD1GP5 2 128 0 0
+/.well-known/acme-challenge/8FUYF-AG9QCYNS1V3KEDWZC4637T-RK6 2 128 0 0
+/.well-known/acme-challenge/QWGDU91YDQU8SG6IUMPOIO4BX6R7K-NY 2 128 0 0
+/ecom/admin/viewOrder/439 8 313912 0 1
+/.well-known/acme-challenge/72U_D3STB2YSF6Z7CSMEVTVYU4XJ4_E4 2 128 0 0
+/.well-known/acme-challenge/XCCBZJQC-8MDBPXYU9PMTJ3B4G0KRX3X 2 128 0 0
+/ecom/admin/addProductAttribute/109 2 87340 0 1
+/ecom/resources/assets/images/product_images/1589124762.laung.jfif 6 48284 0 0
+/ecom/admin/addProductAttribute/430 2 86176 0 0
+/.well-known/acme-challenge/AZYPF7V0PZZ85V68F50GXNBKAP3E5ZVJ 2 128 0 0
+/pcr/skin/jobs/hrsale/fonts/lineariconsca27.woff 2 1712696 0 0
+/kkservices/admin/Estimate/saveJobItem 5 10 0 1
+/ecom/admin/addProductAttribute/432 2 86240 0 0
+/pcr/admin/roles 2 36822 0 0
+/.well-known/acme-challenge/ckYVNlOEV9LWLx4gtaJDrmwzbLKR9dxsUElyZvJs8BU 8 696 0 0
+/.well-known/acme-challenge/4J-GY8P3Y7_SMR36OFVHIPY_2MHTHP7Y 2 128 0 0
+/ecom/likeProduct 6 750 0 1
+/portfolio/view/5 20 174608 2 3
+/pcr/admin/employees/documents/6 2 114 0 0
+/ecom/getCoupon 2 118 0 0
+/.well-known/acme-challenge/2C2U8V5G15MZ2CT-H83XY7ZM12YSVXSC 2 128 0 0
+/pcr/skin/hrsale_assets/theme_assets/bower_components/font-awesome/fonts/fontawesome-webfont.woff2 6 462960 0 0
+/.well-known/acme-challenge/30HPLKCCFBK6U35L4HMSG0BFTQMJT1I1 2 128 0 0
+/.well-known/acme-challenge/T8IE23R9S_ANKEPZ-NYQI2B195VV39SA 2 128 0 0
+/ecom/admin/editProduct/212 2 86172 0 0
+/ecom/admin/viewOrder/441 10 392570 0 0
+/.well-known/acme-challenge/OUEMHGLKY9GBDGLR2FRRDLP1XU-YL7M4 2 128 0 0
+/kkservices/assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js.map 54 53730 0 0
+/portfolio/view/2 14 122294 1 0
+/ecom/unlikeProduct 3 320 0 0
+/ecom/admin/viewOrder/457 12 470146 0 0
+/.well-known/acme-challenge/W13TN8WQRDY2WJ5LJE1-P70SGBZLRSJT 2 128 0 0
+/.well-known/acme-challenge/KZI8SJWK8L3MCA8JEL5GC5M1-KJ5_0EJ 2 128 0 0
+/pcr/admin/employees/experience/6 2 114 0 0
+/ecom/admin/viewOrder/445 8 316624 0 1
+/.well-known/acme-challenge/TD70K18HY7ERKJLR_OA2LLWFTTIBOTZ9 2 128 0 0
+/admin/page 6 127770 0 0
+/.well-known/acme-challenge/5ZS_XMWX1O59_L4MEW89AFBWD3WRRMWD 2 128 0 0
+/ecom/admin/editProduct/425 2 85790 0 0
+/.well-known/acme-challenge/X96_U3G9ESI4BHK3HY8GWAJO79CLEKKN 2 128 0 0
+/ecom/resources/assets/images/product_images/1590042570.dettol%20refil.jfif 30 231406 0 0
+/ecom/admin/addProductAttribute/265 2 86176 0 0
+/.well-known/acme-challenge/R9R5Z99-3XQQJZAA6Y_FYPQY32AKZ8_9 2 128 0 0
+/unity_api/TableInfo/saveTableInfo.php 1 15 1 0
+/kkservices/admin/Estimate/addEstimate/3/5 8 86024 0 0
+/ecom/admin/viewOrder/467 2 79950 0 0
+/ecom/resources/assets/images/product_images/1586104058.haldi%20%20powder.jfif 4 49164 0 1
+/pcr/admin/auth/login 5 551 0 0
+/ecom/admin/viewOrder/450 12 473374 0 1
+/kkservices/admin/Team/getTeamDetails 2 391 0 0
+/.well-known/acme-challenge/4H1IRUH5EE3W6BOPTGST221SHR9OQFY9 2 128 0 0
+/admin/feature 4 17842 0 0
+/ecom/resources/assets/images/product_images/1586271718.diaper.jfif 2 20540 0 0
+/grain/fonts/fontawesome-webfont.woff2 4 266496 0 1
+/.well-known/acme-challenge/TSX_0VPN5P4GX6UYOSL5D_NNLPOJ-JNF 2 128 0 0
+/ecom/resources/assets/images/product_images/1588352515.fool%20jhau.jfif 4 10416 0 0
+/.well-known/acme-challenge/_9JL9GOJHQ9M_4FHOI7J6PIK9FKO9U34 2 128 1 0
+/.well-known/acme-challenge/bow4ExyWGpkr-sEtznKHoxBl-eHABvpsd7NEIHjm7vs 8 696 0 0
+/.well-known/acme-challenge/JXV04AVJX83EZY43JIXDY62PUASPQU3E 2 128 0 0
+/kkservices/admin/Job/jobList 12 75144 0 1
+/kkservices/admin/Estimate/EstimatePreview/5 4 5604 0 0
+/team 32 313474 2 4
+/.well-known/acme-challenge/XWR0NUQTCG1S8D2XI9_PB18C6E6LHTZ4 2 128 0 0
+/pcr/admin/employees/qualification/6 2 114 0 0
+/.well-known/acme-challenge/X6PSXXTZ6EMU43GSJJIC78FNEISGET03 2 128 0 0
+/ecom/admin/editProduct/430 2 85912 0 0
+/team-member/7 12 87286 0 0
+/.well-known/acme-challenge/704E9FSNVCIBMM8823VV9VGJEHMUFWEX 2 128 0 0
+/.well-known/acme-challenge/Q25HN6EY4UBKMJ2SHORM2CP_0E9KDMHT 2 128 0 0
+/ggcnews/api/get_recent_posts/ 16 345200 1 3
+/team-member/5 12 87256 0 0
+/.well-known/acme-challenge/UDW7F6MJEFGODTZ7YF1_47FTOM8FQ36O 2 128 0 0
+/.well-known/acme-challenge/LMUG92D6BLY8N8_E44DLDL41V4I_WDM3 2 128 0 0
+/.well-known/acme-challenge/JU8UKIAP3BHRJA_0NQ79Y540AMB1P10U 2 128 0 0
+/.well-known/acme-challenge/0XUNKH2AI0W_9PAC7GU_GHN8S10IGJHF 2 128 0 0
+/.well-known/acme-challenge/CONS4F-_1T-1-XH7-4DD-0DHQGJ-QJ7X 2 128 0 1
+/event 18 138432 2 2
+/ggcnews/api/get_video_posts/ 12 744 0 1
+/ecom/admin/viewOrder/443 16 625170 0 1
+/.well-known/acme-challenge/GY2NV2E0AULXPJ0Q26UGXVV7MZW9TFW- 2 128 0 1
+/ecom/admin/listingCategories 2 79510 0 0
+/foodango/manage_submenu_list.php 2 27952 0 0
+/pricing 16 111870 2 2
+/kkservices/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2 104 10363661 0 1
+/event/view/1 12 95992 0 1
+// 2 148971 0 0
+/.well-known/acme-challenge/MZ1YBXA1EN2R0_YM-R4JU75NQPNSCE6X 2 128 0 0
+/ggcnews/api/get_category_posts&api_key=cda11v2OkqSI1rhQm37PBXKnpisMtlaDzoc4w0U6uNATgZRbJG 18 61074 1 5
+/pcr/admin/project/attachment_list/1 2 114 0 0
+/pcr/admin/employees/salary_all_statutory_deductions/6 2 114 0 0
+/grain/admin/login.php 3 2533 0 0
+/.well-known/acme-challenge/NWDX2T4UZ7NVQI7_7V9-3O3_7UVC42FP 2 128 0 1
+/.well-known/acme-challenge/27Z3KREG0563P_J5PXWL5IWR3KAE2ZN0 2 128 0 0
+/.well-known/acme-challenge/JWQX5XZEA1WMFBDRB2NI6Y-RNEP6R_33 2 128 0 0
+/ecom/admin/addProductAttribute/441 2 87372 0 0
+/admin/setting 4 54462 0 0
+/ecom/admin/viewOrder/436 4 156088 0 0
+/.well-known/acme-challenge/6HLFPCN_GYP-LIDEIS-LK7VM0MPM6KX6 2 128 0 0
+/.well-known/acme-challenge/Y8_799HK0WBJ3XEHT7584OT_APBMYO5W 2 128 0 0
+/news 18 135830 0 0
+/.well-known/acme-challenge/NB7M7B6RUZ-RRQCUERQ_EVVHNOOZGU9W 2 128 0 0
+/ecom/admin/listingDevices 2 79742 0 0
+/.well-known/acme-challenge/4MFPJG8XZ8PZBN5DHN8IL6N6K-DEOZGY 2 128 0 0
+/portfolio/view/3 16 139628 1 0
+/ecom/admin/viewOrder/463 8 313438 0 1
+/unity/ 6 6858 2 0
+/pcr/admin/chat/chat_read/ 2 4298 0 0
+/ecom/getPaymentMethods 108 26460 0 5
+/.well-known/acme-challenge/4PM93CFMA8VVDKFS8U6WTBN_QGWWT7CP 2 128 0 1
+/ecom/admin/addProductAttribute/408 2 87370 0 0
+/ggcnews/api/get_privacy_policy 6 17226 1 0
+/.well-known/acme-challenge/-GPJHD1XWFF41FQJ9UZKZF7OEM9K25DJ 2 128 1 0
+/ecom/resources/views/admin/bootstrap/fonts/glyphicons-halflings-regular.woff2 10 180280 0 1
+/ecom/admin/addProductAttribute/417 2 87342 0 0
+/pcr/employer/sign_in/ 2 7638 0 0
+/pcr/admin/project/discussion_list/1 2 114 0 0
+/.well-known/acme-challenge/MCJ9C9GXJZOWWLDJJJ6H4LSROOZY13QG 2 128 0 0
+/.well-known/acme-challenge/LGREP_E0C7P140PZFT--BCNERTB5CZFD 2 128 0 0
+/ecom/admin/addProductAttribute/405 2 88418 0 0
+/.well-known/acme-challenge/N17HA74F9141FIRD7D0XS3ATYPXB8TP8 2 128 0 0
+/pcr/admin/project/project_timelogs_list/1 2 114 0 0
+/.well-known/acme-challenge/O_U49D3NYVY5GL25M8HQTDB6EMUAY9MF 2 128 0 1
+/.well-known/acme-challenge/W7RH-DOD-80-XOP75NS0BN1_LWB3WNZA 2 128 0 1
+/unity/admin/Client/clientList 16 41664 0 0
+/.well-known/acme-challenge/P3CU5WLA5-V74ELN2J53RKEW5MJUQ8W7 2 128 0 0
+/ecom/resources/assets/images/product_images/1585643271.besan%20pic.jfif 6 14488 0 0
+/ecom/resources/assets/images/product_images/1588611145.saptrishi%20daliya%20photo.jfif 8 88650 0 0
+/foodango/manage_users.php 6 15048 0 0
+/ecom/resources/assets/images/product_images/1585288283.suger%20pic%2002.jfif 8 13788 0 0
+/kkservices/admin/Estimate/addEstimate/3/getEvents 19 200498 0 0
+/foodango/manage_order_list.php 6 16968 0 0
+/.well-known/acme-challenge/5YKAA_FC_ZY-PG9G0T7MT-JCFW15R473 2 128 0 0
+/admin/service/edit/2 2 10026 0 0
+/.well-known/acme-challenge/M9HTYHTDYGBSTWZ10X7JGOGQKLP10_T5 2 128 0 0
+/ecom/admin/addCategory 2 76358 0 1
+/ecom/resources/assets/images/product_images/1585581401.kali%20masur%20dal.jfif 2 0 0 0
+/ecom/resources/assets/images/product_images/1590127353.saunf.jfif 36 537048 0 1
+/.well-known/acme-challenge/B461__02IHGKALG3LY85H38TN_ZEGUK- 2 128 0 0
+/ecom/resources/assets/images/product_images/1588611383.saptrishi%20maida.jfif 10 89970 0 0
+/pcr/admin/employees/salary_all_deductions/6 2 114 0 0
+/.well-known/acme-challenge/I99RLW_WUW7-OQJH_EIG_PY-LE53TY3D 2 128 0 0
+/.well-known/acme-challenge/XIC1IDU3QLE94SOWV6-JI0HCPMKAXDLH 2 128 0 1
+/.well-known/acme-challenge/0AXW18Q1RR9MGHMF_-M_7ETS0N68CBXG 2 128 1 0
+/ecom/admin/editProduct/337 2 88116 0 0
+/foodango/home.php 6 14902 0 0
+/pcr/admin/employees/salary_all_allowances/6 2 114 0 0
+/.well-known/acme-challenge/1JECDJ7E_Y5-HLO07O-9NSSH19VBCJGM 2 128 0 0
+/ecom/admin/editProduct/265 2 85778 0 0
+/.well-known/acme-challenge/VU1FYM_-RF9_46W_AJ29KBISVT27AMNX 2 128 0 0
+/.well-known/acme-challenge/AKWKQS5T-VUMTZ7QKQWU5-70ZI6JZMAA 2 128 0 0
+/.well-known/acme-challenge/HAXRZU3GSMXF_2WQGC_9CRB31584HS9Z 2 128 0 0
+/ggcnews/api/get_package_name 12 456 4 0
+/kkservices/admin/Estimate/createEstimate 2 2 0 0
+/.well-known/acme-challenge/E98WBLCL_COWEO16S66SR33-R3OKMOVK 2 128 0 1
+/pcr/admin/dashboard/employee_designation/ 12 2424 0 0
+/ecom/resources/assets/images/product_images/1590124230.PANTENE%20SAMPO.jfif 28 52740 0 1
+/foodango/user_register_api.php 1 290 0 0
+/pcr/admin/employees 2 31650 0 0
+/.well-known/acme-challenge/53LBSOM2YX-72Y4W-56RTK9RGTPMS_9R 2 128 0 0
+/pcr/admin/chat 4 59556 0 0
+/ecom/admin/viewOrder/446 12 468578 1 0
+/ecom/resources/assets/images/product_images/1589198796.ilaychi.jfif 6 28508 0 0
+/ecom/updateDefaultAddress 2 188 0 0
+/.well-known/acme-challenge/C_ZERSK7FWED2NDAEZDOCOCGFF_SVHA1 2 128 0 0
+/.well-known/acme-challenge/FX2BH_7_NO3LWNAO0LR_31Y3IEESIAD_ 2 128 0 0
+/kkservices/assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 20 1348000 0 1
+/.well-known/acme-challenge/2UA-PE7W-FN63VAJ8OKIRUF_KGB11HRV 2 128 1 0
+/.well-known/acme-challenge/O5B7_T_C5_2D-7DPL9J8DXRX_B6UAUX1 2 128 1 0
+/pcr/admin/dashboard 12 215304 0 0
+/pcr/admin/settings/modules 2 28688 0 0
+/.well-known/acme-challenge/Q-IU2-B0--J0JWZAFQ5IGA_GH3DT8LL7 2 128 1 0
+/kkservices/admin/Estimate/EstimatePreview/2 2 3230 0 0
+/.well-known/acme-challenge/0JGPBF95VV7D8A_7XZNOW1M_FEKS2BA_ 2 128 0 0
+/public/fonts/fontawesome-webfont.woff 34 3332816 1 9
+/.well-known/acme-challenge/UL2PCGVHSQHPSOTRLQEJ_H25OPQ3N_F- 2 128 0 1
+/foodango/manage_bannerad.php 2 7372 0 0
+/ecom/resources/assets/images/product_images/1588612254.good%20day%20biscute%2035%20vala.jfif 8 78120 0 1
+/.well-known/acme-challenge/Q3AIJ7RVDI9HHN-_ZMZVP532OX66HLLT 2 128 0 0
+/ecom/admin/editProduct/423 2 87194 0 0
+/.well-known/acme-challenge/S7RGAUPCK-TUZGFECI-3061_PADSEYDB 2 128 0 1
+/pcr/admin/project/detail/1 2 44164 0 0
+/pcr/admin/timesheet/project_variation_list/1 2 114 0 0
+/.well-known/acme-challenge/VYS3K7S-V1X_9O48QIEKMG3YV_XY_ZHW 2 128 0 0
+/.well-known/acme-challenge/B38YY3O1OKK2MTPIW2HI7O9C7V0I629- 2 128 0 0
+/ecom/resources/assets/images/product_images/1590123483.GILLETE%20VECTOR.jfif 28 109992 0 0
+/grain/admin/food-menu-category.php 2 7964 0 0
+/service/view/4 22 208810 1 3
+/.well-known/acme-challenge/V97DKRIZD17Y544UAD7XMV9LSBD-_VLE 2 128 0 1
+/ecom/admin/viewOrder/464 4 160170 0 1
+/ecom/getAllAddress 78 10038 0 0
+/ecom/admin/viewOrder/461 2 78922 0 0
+/unity_api/TableInfo/updateBalance.php 1 15 0 0
+/.well-known/acme-challenge/WS3LEUP2M281EX0R4XVMVMXI5UG8MJ6L 2 128 1 0
+/team-member/2 12 87298 0 0
+/kkservices/admin/Estimate/addEstimate/9/getEvents 74 677014 0 4
+/.well-known/acme-challenge/0Baeof_4lFbKtQdcUR8OxZpbQiDp5d1WuXYYS5-U8tg 8 696 4 0
+/.well-known/acme-challenge/u-PdlCepH14ALRdIKvhoBeWenPBghDdOsmel6hJCEvA 8 696 0 3
+/.well-known/acme-challenge/2UEGWE9Q2CEFAY6G72E3ND921MIYX7RI 2 128 0 0
+/.well-known/acme-challenge/MA_WYFRN3808D79Q36-XLSZ-88B2GIK- 2 128 1 0
+/.well-known/acme-challenge/BXK25D0C_CBZEJ49G3CJGK3IV0TUUJOL 2 128 0 0
+/pcr/skin/jobs/hrsale/fonts/fontello0bee.woff 2 22136 0 0
+/kkservices/admin/Team/teamList 18 228428 0 0
+/category/3 12 82788 0 5
+/ecom/contactUs 1 79 0 0
+/grain/index.php 4 26366 0 0
+/.well-known/acme-challenge/f36PvVY0vAgWIekQjD4XkfXlrD0m1b2kZzvBFMP6FXw 8 696 0 0
+/.well-known/acme-challenge/42NIQPB7XQ7O8J0519H7F0_359YTOYJT 2 128 0 0
+/unity/admin/Client 8 49808 0 0
+/ecom/allNewsCategories 15 4050 0 0
+/.well-known/acme-challenge/GEI8JPXS5KUC8K_3EXL9EKXCH9OL9JQ_ 2 128 0 0
+/kkservices/admin/Estimate/EstimatePreview/4 8 9754 0 0
+/ecom/admin/viewOrder/438 8 312238 0 0
+/.well-known/acme-challenge/G08DFJ5IDLWSHCAHS0-3YIEZ8H98EQDF 2 128 0 0
+/ecom/admin/viewOrder/456 8 316842 0 0
+/.well-known/acme-challenge/T85QOT6GSLQTINGOP_S1PXDAMSJYPVAJ 2 128 0 0
+/ecom/admin/viewOrder/472 6 240926 0 1
+/ecom/admin/viewOrder/437 4 157196 0 1
+/.well-known/acme-challenge/JJE09K5JYI_05TB3VDHOPC5GYZ7U3653 2 128 0 0
+/ecom/admin/editProduct/408 2 87042 0 0
+/.well-known/acme-challenge/CLA_4FLDLWZVE_SP5D4GZBR2HZPXNVGW 2 128 0 0
+/ecom/processRegistration 15 3301 0 0
+/ecom/resources/assets/images/product_images/1590130350.tata%20namak.jfif 38 185436 0 0
+/.well-known/acme-challenge/QU0WLWP7KTD84P9Q_1MNKMKEB0QUTST0 2 128 0 0
+/ecom/admin/viewOrder/454 8 313094 0 1
+/pcr/admin/dashboard/employee_location/ 2 272 0 0
+/ecom/resources/assets/images/product_images/1589124453.kali%20mirch.jfif 6 68840 0 0
+/.well-known/acme-challenge/2ZQ77DMBHAQ3E0MMFB--VCM4F2CNK_C9 2 128 0 0
+/ecom/addToOrder 36 3060 0 2
+/ecom/admin/editProduct/402 2 88110 0 0
+/.well-known/acme-challenge/VFY3GDGTWXM2DKKB4CGP_VDWUGAF4OW9 2 128 0 0
+/.well-known/acme-challenge/NTF59CDTAD__PJQXF54OF2ILS3QS--N7 2 128 0 0
+/.well-known/acme-challenge/VCUPG6PMRNESVR3QYNDDET53C1H4IH6J 2 128 0 0
+/.well-known/acme-challenge/P-A_XEZVRWWR1ND4UWC-869G6B56ZS1N 2 128 0 1
+/service/view/2 26 239828 1 2
+/kkservices/admin/Job/add/21 4 55020 0 0
+/.well-known/acme-challenge/MIPZPVGNL00F9VAQZ4JZJK7G-_EL9THN 2 128 0 0
+/.well-known/acme-challenge/3E8VZ6SITQDHHU-9G_LA-MPOK2ONB-E7 2 128 0 0
+/ecom/admin/addProductAttribute/425 2 86176 0 0
+/.well-known/acme-challenge/ITY3G-T2S84R9II1O3C0W9Y5JP6-U13T 2 128 0 0
+/.well-known/acme-challenge/I-9K7QKUQJOC2MB8135-JSRLUL4G9X87 2 128 0 0
+/ecom/admin/addProductAttribute/431 2 88416 0 0
+/admin/feature/edit/1 2 8096 0 0
+/kkservices/admin/Schedule/index 20 97380 1 0
+/admin 5 7752 1 0
+/ggcnews/api/get_comments 14 1062 0 2
+/.well-known/acme-challenge/S60ZVX9BFQR45EJ5L-X0-SLOGP66ZD_A 2 128 0 1
+/ecom/admin/editProduct/380 2 88056 0 0
+/ecom/resources/assets/images/product_images/1589198089.ilaychi.jfif 14 71270 1 0
+/ecom/resources/assets/images/product_images/1589636057.whisper%2029.jfif 8 61296 0 0
+/unity/admin/Manage_Chips/transactions 8 20716 0 0
+/pcr/skin/jobs/hrsale/images/loader.html 2 1800 0 0
+/ecom/resources/assets/images/product_images/1589178224.cerelac%206%20to12.jfif 4 42916 0 0
+/.well-known/acme-challenge/FBD_RWLJTA4PLLB55D0N4_K3EMQ1UZHU 2 128 0 0
+/ecom/admin/addProductAttribute/450 2 87342 0 0
+/admin/dashboard 2 7270 0 0
+/pcr/admin/employees/salary_overtime/6 2 114 0 0
+/pcr/admin/employees/salary_all_other_payments/6 2 114 0 0
+/service/view/5 18 178528 2 2
+/.well-known/acme-challenge/YW4C_G6N376H7V6D4SX8OKOMIZIG10IW 2 128 0 1
+/pcr/admin/employees/salary_all_commissions/6 2 114 0 0
+/ecom/admin/listingCustomers 2 119236 0 0
+/.well-known/acme-challenge/44I734PJWKH3S5441FPX3XW5JWCGI6YI 2 128 0 1
+/.well-known/acme-challenge/6VM9NCPJB2LFA2YWPBTUEQIDNJSKSP9M 2 128 0 0
+/ecom/resources/assets/images/product_images/1589199724.oswal%20soap.jfif 8 62718 0 0
+/unity/admin/dashboard 12 26724 0 0
+/.well-known/acme-challenge/6BHITVIZVXCFZ4_I7HKOZTRA1BQGENGN 2 128 0 1
+/foodango/settings.php 2 11534 0 0
+/ecom/resources/assets/images/product_images/1589178999.amla%20candy.webp 4 27008 0 0
+/.well-known/acme-challenge/LOe0IcJRJA_t44dy15uFo3Yh_fSizlVKmHUG8Unb3qg 8 696 3 4
+/ecom/admin/viewOrder/473 8 321918 0 1
+/ecom/admin/addProductAttribute/402 2 88416 0 0
+/.well-known/acme-challenge/KM-M00O2BPEWNIY9HS3VNR-DM9W9N1UM 2 128 0 0
+/ecom/admin/addProductAttribute/375 2 88414 0 0
+/kkservices/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css.map 52 18720 0 0
+/.well-known/acme-challenge/NGZFDPYH542697WQDURJ8PWR4WHYDN2U 2 128 0 0
+/ecom/admin/editProduct/441 2 87044 0 0
+/ecom/admin/editProduct/411 2 87032 0 0
+/.well-known/acme-challenge/KRQ79W16ZFOC1754EQ90C4CY0Y3_Y_GG 2 128 0 1
+/unity/assests/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 2 134800 0 0
+/.well-known/acme-challenge/IQPDGPUEQUFAGON6DELO9_GA17GTIID8 2 128 0 0
+/.well-known/acme-challenge/WzIh3D8dSwFrSuj8nP8uER6mzSskX5-fqfxqxAZpuPM 8 696 1 0
+/pcr/admin/logout 2 0 0 0
+/ecom/resources/assets/images/product_images/1590129575.colgate%20plex.jfif 32 127128 0 0
+/ecom/admin/addProductAttribute/337 2 88414 0 0
+/.well-known/acme-challenge/SIB9_WTVWJUB91NPLZIM6VU-5WVJIKUF 2 128 0 0
+/kkservices/admin/Estimate/estimateList 40 283280 0 2
+/category/4 20 144660 1 3
+/ecom/resources/assets/images/product_images/1586271686.diaper%202.jfif 2 23190 0 0
+/public/admin/fonts/summernote.woff 2 20368 1 0
+/.well-known/acme-challenge/D91-HNM_8O3BS9TG8RO16M4CR-HM7JN2 2 128 0 0
+/.well-known/acme-challenge/SCNW16E9-JVLCT7UV8GSXTJBQVFP2GSS 2 128 0 0
+/.well-known/acme-challenge/HJ4F2LLIOUL07PAD4ON_SRZYLAODT8Y- 2 128 0 0
+/.well-known/acme-challenge/K74APL84ODM-5BTM4Y06CFWG47ION6I1 2 128 0 0
+/.well-known/acme-challenge/CUR3HA3DWLVW-7ZGI_WU4STVM5AEVV1Q 2 128 1 0
+/.well-known/acme-challenge/HS1DWT423P2AU3_2-3CDAR_4-NZ8A7B2 2 128 0 0
+/.well-known/acme-challenge/ZGPIT_LKXY9O_C_I6P33IGZO7G2KYC4G 2 128 0 0
+/.well-known/acme-challenge/YD8DM2MFK4PM-AO8X3MFNQ3B9CV6OA2C 2 128 0 0
+/ecom/admin/editProduct/417 2 87088 0 0
+/.well-known/acme-challenge/33-480O9CWL6PLM78GYP78MWLWW8OSOP 2 128 0 0
+/kkservices/assets/scss/icons/themify-icons/fonts/themify.woff 2 112216 0 0
+/category/2 14 101450 1 1
+/ecom/admin/viewOrder/468 2 81232 0 0
+/index.php 8 255980 2 3
+/ecom/admin/viewOrder/440 10 392282 0 0
+/.well-known/acme-challenge/57S7POFCCTH0OOEV73QDL6XDDCXB8K-N 2 128 0 1
+/.well-known/acme-challenge/JEVQ0KVFBGI0HR_FTWWEDTNTKHEEA913 2 128 1 0
+/.well-known/acme-challenge/NP9OE8EGED9HQ7GGEO-NP3WCX1FDCMQ3 2 128 0 0
+/portfolio/view/4 16 139766 2 2
+/unity/admin/Dashboard 4 8908 0 0
+/service/view/3 16 162926 1 1
+/service/view/6 20 193246 2 2
+/ecom/updateCustomerInfo 4 1348 0 0
+/.well-known/acme-challenge/JI73TZS93AEGWKFPQLH9RP7EISF52HR0 2 128 0 0
+/.well-known/acme-challenge/EFPR1HUKSTRP5YKCDGL03RP2NPAMPFFT 2 128 0 0
+/home/ 6 107312 0 3
+/.well-known/acme-challenge/6NBS1PS1XM3UA07_LJ547PU2IYXRNYI7 2 128 0 1
+/.well-known/acme-challenge/LSQ9988G87N6SY-HRX02-DUKUXM3G5AX 2 128 0 1
+/.well-known/acme-challenge/ASC0TLYANG0COJL7SEOVEH1NROKX6T2J 2 128 0 0
+/.well-known/acme-challenge/32STS77SY6M5K-Z9P0FENFHC1IIW3YBV 2 128 0 0
+/contact 44 355244 7 10
+/.well-known/acme-challenge/ECC5M4F2PM9JCXLCCX6WK10JXT_953JL 2 128 0 0
+/kkservices/admin/Estimate/addEstimate/3/4 30 322418 0 0
+/.well-known/acme-challenge/AF5NKKBTJT6NA0W_V7LOPFP_G6Y83KPQ 2 128 1 0
+/about 28 239652 2 4
+/pcr/admin/roles/role_list/ 2 742 0 0
+/.well-known/acme-challenge/F6R13UZFH490QV6AZ24J7SEFH7UZXPC1 2 128 0 0
+/ecom/admin/editProduct/405 2 88256 0 0
+/ecom/admin/addProductAttribute/212 2 86448 0 0
+/webmail 4 54320 1 2
+/.well-known/acme-challenge/XNWQW9T-97-7B5DX882U4AVZ0NAHI358 2 128 0 0
+/pcr/admin/project/project_list/ 6 4446 0 0
+/.well-known/acme-challenge/JIKWGVTMJJNAM--LTWHW48JT0Z8CKQOM 2 128 1 0
+/.well-known/acme-challenge/YB2_7TWA7D5CS8BSVEXRZ-6_OFOG0VZR 2 128 0 0
+/.well-known/acme-challenge/704KQCJPW_DNOX4RPEU2ZWLOCEV2FN4U 2 128 0 0
+/unity/assests/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 2 29736 0 0
+/.well-known/acme-challenge/4BMO26TR7HFTBIXFEN3_6H0GW9RS3BAQ 2 128 0 0
+/service 36 325486 3 5
+/foodango/user_login_api.php 2 620 0 0
+/ecom/admin/viewOrder/455 10 393020 0 2
+/ecom/getAllNews 57 286437 0 2
+/ecom/resources/assets/images/product_images/1589199049.double%20chabi%20rice.jfif 10 39296 0 0
+/kkservices/admin/login 50 33048 6 1
+/team-member/1 12 87206 0 0
+/.well-known/acme-challenge/N_LJO5PZ05_Y2BGRL68VOV7B1J9JTLRC 2 128 1 0
+/kkservices/admin/Estimate/addJobMapping 2 4 0 0
+/.well-known/acme-challenge/3W85_7EB1XON2_J0UKFVI9_HO5R7EXQK 2 128 0 0
+/ecom/admin/editProduct/450 2 87126 0 0
+/foodango/assets/css/icons/glyphicons/glyphicons-halflings-regular.woff2 2 36056 0 0
+/photo-gallery 20 126902 3 1
+/.well-known/acme-challenge/YCVL5V0_JUSPPWG22914ZK_7CF-6JH5Y 2 128 0 0
+/category/1 12 82818 0 0
+/ecom/addShippingAddress 4 368 0 0
+/.well-known/acme-challenge/JGD19-AN2CEKBMHJNNJF8B5HX4WVM_AO 2 128 0 1
+/admin/ 106 107112 4 5
+/pcr/admin/project 6 88324 0 0
+/ecom/admin/editProduct/375 2 88346 0 0
+/.well-known/acme-challenge/75UO-BTERN38N-5TGEA66HMBH58BUK6S 2 128 0 1
+/public/admin/fonts/fontawesome-webfont.woff2 2 154320 0 0
+/team-member/4 12 87202 0 0
+/grain/admin/menu-main.php 2 9926 0 0
+/ecom/getRate 59 10094 0 1
+/ecom/resources/assets/images/product_images/1589350507.colgate%20200gm.jfif 4 26334 0 0
+/.well-known/acme-challenge/L36-A3P8HWPA8-NXF101YRX-03J8JZ8D 2 128 0 0
+/.well-known/acme-challenge/BB7B-CAJVE21PL-29-JUD13P_QYTH5GN 2 128 1 0
+/ecom/resources/assets/images/product_images/1590125718.GILLETE%20FOAM.jfif 28 73160 0 0
+/.well-known/acme-challenge/EDAZEWDOLT9761P45BSU68X67B2Y5BVD 2 128 0 0
+/.well-known/acme-challenge/R6SZSHW73M9CJHYU_53PCL6_3-S___QR 2 128 1 0
+/.well-known/acme-challenge/SZU24GEIT6JVHAGUHQ9CCZ-TLQZ8J-BX 2 128 0 0
+/.well-known/acme-challenge/8lY-tZ0RdPglzvnnYvqFesHezLkkmRm0TlMn2KOqauY 8 696 0 1
+/pcr/admin/chat/refresh_chat_users/ 110 52910 0 0
+/.well-known/acme-challenge/BL5F0O-NXVRS6Z379OCV02KBAXYXSTB0 2 128 1 0
+/ecom/admin/addProductAttribute/455 4 172642 0 0
+/.well-known/acme-challenge/66OFNHVQIYS2AEM0DMEAVPO6F77CC02M 2 128 0 0
+/ecom/admin/viewOrder/459 4 157634 0 0
+/.well-known/acme-challenge/XOGCHFR-HDTE_4OL23GLG14GDY_3Q-H6 2 128 0 0
+/.well-known/acme-challenge/AK8LYXDKGBLXNKSC--HZU302Y1ADPFYB 2 128 0 0
+/.well-known/acme-challenge/SHUJZ7UNO847Q2DEK81PI139L00IZGF3 2 128 0 1
+/grain/admin/index.php 2 7008 0 0
+/.well-known/acme-challenge/RVJMVJN5HOK-QEQV33YJB3PNY7J7D40G 2 128 0 0
+/faq 16 185036 0 1
+/.well-known/acme-challenge/QN79NKA5K_NADCWE3IHQF5CRIAPMQ9SN 2 128 0 0
+/kkservices/admin/Client/clientList 4 30110 0 0
+/pcr/admin/employees/security_level_list/6 2 114 0 0
+/.well-known/acme-challenge/2EMRQDSUE4S587DA58H766TF65BTIQZ_ 2 128 1 0
+/ecom/resources/assets/images/product_images/1588613596.arhar%20dal.jfif 6 79120 0 0
+/kkservices/admin/Job/add/16 2 27164 0 0
+/ecom/resources/assets/images/product_images/1586272931.BADAM.jfif 6 44364 0 1
+/.well-known/acme-challenge/0G3CBUVBF6M5-M-RFUYBMI3_-XORCNQB 2 128 0 0
+/ecom/admin/addProductAttribute/426 2 88416 0 0
+/ecom/admin/editProduct/280 2 85828 0 0
+/ecom/admin/addProductAttribute/380 2 88418 0 0
+/.well-known/acme-challenge/S33Z-N49NK5GW1QGJXLFXE1BDY4LV77K 2 128 0 1
+/pcr/admin/employees/immigration/6 2 114 0 0
+/.well-known/acme-challenge/iuORE-RGSZXC2maLSpjiZ-9wS07zMUDAaXtpiDwZGDE 8 696 0 0
+/.well-known/acme-challenge/YXAFX_Y7QTA8TLFSC2QDHK1WU_PWASH_ 2 128 1 0
+/.well-known/acme-challenge/W_4OCH7B-91AEU-O4JPSU4QRL-RLN6BX 2 128 0 1
+/kkservices/ 54 73386 8 0
+/.well-known/acme-challenge/U6JAR878WYAQ9M-3XFXMIV9K-0VC06LU 2 128 0 0
+/ecom/admin/addProductAttribute/280 2 86192 0 0
+/.well-known/acme-challenge/3_M29SVYSP4-Y3ELO7PFSOG0G64681KN 2 128 0 0
+/ecom/resources/assets/images/product_images/1589125432.imli.jfif 12 56952 1 2
+/news/view/5 20 163054 2 3
+/.well-known/acme-challenge/6JDLRIOI5T9CRA89LKY4382AO84BM-F6 2 128 0 0
+/portfolio 22 160352 2 3
+/public/admin/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/unity/admin/Manage_Chips/clientChipAssignment 24 72172 0 0
+/.well-known/acme-challenge/1U6T3_0F7YN0-P7_LZA5BJZM7CZYGK-- 2 128 0 1
+/ecom/admin/addProductAttribute/411 2 87370 0 0
+/.well-known/acme-challenge/J0F7JT_1X3Z40JVDT6OXHGMFAG5_KX76 2 128 0 1
+/kkservices/admin/Estimate/addEstimate/10/6 2 21108 0 0
+/kkservices/assets/scss/icons/font-awesome/fonts/fontawesome-webfont.woff2 104 8013765 0 0
+/kkservices/admin/Estimate/getClients 7 499 0 0
+/ecom/resources/assets/images/product_images/1585815279.pooha%20pic.jfif 2 0 0 0
+/ecom/admin/viewOrder/462 4 157588 0 1
+/foodango/index.php 4 4896 0 0
+/.well-known/acme-challenge/3ZGZUUFEH_76A1-M0IT6B7WMMLLPTAXN 2 128 0 0
+/ecom/processLogin 44 7809 1 1
+/team-member/3 12 87180 0 0
+/.well-known/acme-challenge/NKS6BCXQ9QNSYN0VNX4R51J2NDF1GNH3 2 128 0 0
+/grain/admin/page.php 4 17176 0 0
+/.well-known/acme-challenge/5X6GTUCBB1E8UGSRGU6FCJOKGA2-5WLK 2 128 0 0
+/.well-known/acme-challenge/_HI576ZW709XE5UPBZBT4_XLOPP9Y2_5 2 128 1 0
+/ecom/resources/assets/images/product_images/1590127061.nilons%20soya%20badi.jfif 32 88928 0 0
+/ecom/admin/viewOrder/471 6 242396 0 0
+/ggcnews/api/get_user_token 12 936 4 1
+/.well-known/acme-challenge/QXVYLKDKKM8HKPJ0TRZ3_KTSRQPT03WM 2 128 1 0
+/.well-known/acme-challenge/R_KKA2VLGKOP2ZJQO133XQD88SN5WJAH 2 128 1 0
+/news/view/4 20 162644 2 2
+/.well-known/acme-challenge/U4TWOZZI790D4GSS_L1HYKBT-27RXO36 2 128 0 0
+/pcr/admin/employees/hr 2 30160 0 0
+/.well-known/acme-challenge/DAAGN3A6GLMK6MVHQBJ_76B_WC_7WI_4 2 128 0 0
+/ecom/resources/assets/images/product_images/1589645904.oral%20b%20tooth%20brush.jfif 10 72576 0 0
+/ecom/admin/editProduct/432 2 86180 0 0
+//admin 1 3710 0 0
+/ecom/admin/editProduct/426 2 88032 0 0
+/.well-known/acme-challenge/QDUIVWCXD8K0WITJ8V8YAAC-HQ_Y4R5G 2 128 0 0
+/.well-known/acme-challenge/GUDU41JQ55Y-CUATY2X3JKWHMHHCLJP0 2 128 0 0
+/ecom/admin/addProductAttribute/421 2 86780 0 0
+/admin/service 2 7890 0 0
+/.well-known/acme-challenge/FTNNDUW0OF2AASR7WEM7D01U-DH1VDSE 2 128 0 0
+/kkservices/admin/Client/addClient/3 2 18690 0 0
+/ecom/resources/assets/images/product_images/1589515307.surf%20excel.jfif 10 36104 0 0
+/.well-known/acme-challenge/OYCTL05648G93E4HWTAKM9906403Y6FL 2 128 0 0
+/.well-known/acme-challenge/RPCFHAI45XKCQXX2F1O-F3BB1GPAK5ZF 2 128 0 0
+/.well-known/acme-challenge/R4VGUS9OIIKQD1WERBHTXWUE9AFSEQZ8 2 128 0 0
+/pcr/admin/dashboard/employee_company/ 2 292 0 0
+/unity/admin/login 19 15315 0 2
+/ecom/admin/viewOrder/453 12 473550 0 1
+/foodango/manage_category.php 2 9384 0 0
+/portfolio/view/1 24 209614 2 3
+/pcr/skin/hrsale_assets/theme_assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 6 108168 0 0
+/event/view/3 14 105924 0 1
+/pcr/admin 2 4714 0 0
+/.well-known/acme-challenge/9RY2CNSSBXROKGETNM4D3UHT8IGRVGKD 2 128 0 0
+/ecom/resources/assets/images/product_images/1586316279.pyaj%20hd.jfif 4 17806 0 0
+/grain/admin/page-edit.php 3 13963 0 0
+/kkservices/admin/Schedule/getEvents 10 3800 0 6
+/foodango/manage_order_list_view.php 2 5794 0 0
+/.well-known/acme-challenge/5DNUYNH-FSF1VESCTZHKVTUQ95A5GBSL 2 128 1 0
+/.well-known/acme-challenge/rAnSgwe8GjqVh4S9HwgZyhoAg9zr6EyLGazUmcPByMA 8 696 4 0
+/ecom/admin/editProduct/421 2 86554 0 0
+/.well-known/acme-challenge/9MDSKG2LUWFNVYCAODMDEE7ZTS32YGT2 2 128 0 0
+/.well-known/acme-challenge/OWYO0T8XTLAMP8Q_7OL-7P4WL8HBQVXK 2 128 0 1
+/.well-known/acme-challenge/V5UQJ_P_TWBE4YF7IOPT2N9D4KG160-5 2 128 0 0
+/ecom/admin/viewOrder/458 10 394036 0 0
+/.well-known/acme-challenge/bqWI-XqdX0UJW8bRa__MJ-hw74va_cGY4KZ39dlu-Zk 8 696 0 4
+/ecom/admin/viewOrder/452 8 317204 0 0
+/pcr/admin/employees/staff_dashboard 2 30672 0 0
+/pcr/admin/employees/contacts/6 2 114 0 0
+/ecom/admin/viewOrder/448 2 79242 0 0
+/.well-known/acme-challenge/G_g_hon3F8SGW3j_3yYixnUaPQMhv91SjyCZEvB-0-4 8 696 0 0
+/.well-known/acme-challenge/FYTYU42OWIWOYL--D9NM_EDJG-5TM7FT 2 128 0 0
+/pcr/admin/project/bug_list/1 2 114 0 0
+/.well-known/acme-challenge/N580_AW-_XWK291NQM92QI88MAK63CXI 2 128 0 0
+/pcr/skin/hrsale_assets/theme_assets/bower_components/Ionicons/fonts/ionicons.ttf 8 1508064 0 0
+/pcr/admin/employees/bank_account/6 2 114 0 0
+/.well-known/acme-challenge/IAIO46SZRWLY7II514LYJTZMCMH2O_UV 2 128 0 0
+/.well-known/acme-challenge/PZH5XN0-OBZ3S5LAY0WXA0YWLQNDLO1C 2 128 1 0
+/pcr/ 4 19088 0 0
+/ecom/processForgotPassword 5 500 0 2
+/unity_api/TableInfo/winnerInfo.php 1 15 0 1
+/.well-known/acme-challenge/_U5FH8KUGCY70_M5L39XD9FYUUXIWH9X 2 128 0 0
+/ecom/resources/assets/images/product_images/1589355477.LACTOGEN.jfif 8 81996 0 0
+/event/view/2 12 96120 0 0
+/pcr/admin/employees/detail/6 2 96932 0 0
+/ecom/resources/assets/images/product_images/1589175348.methi.jfif 8 141288 0 0
+/.well-known/acme-challenge/NFD8HM7OL-32ZLGIM467ME_-ULD35MQS 2 128 0 0
+/.well-known/acme-challenge/8BWDQLVWP-QXBN5X46JSZATX7F1AE8N3 2 128 1 0
+/ecom/admin/viewOrder/460 10 394302 0 1
+/.well-known/acme-challenge/QO65Z17FAJ8ZE1P2U4J64S59BD8N3NAK 2 128 0 0
+/ecom/resources/assets/images/product_images/1589351092.colgate%20300gm.jfif 8 73692 0 0
+END_SIDER

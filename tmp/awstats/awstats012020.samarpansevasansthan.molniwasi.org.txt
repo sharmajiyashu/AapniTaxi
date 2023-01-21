@@ -1,0 +1,771 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.samarpansevasansthan.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2713                
+POS_VISITOR 11881               
+POS_DAY 17040               
+POS_DOMAIN 3515                
+POS_LOGIN 4034                
+POS_ROBOT 4189                
+POS_WORMS 4725                
+POS_EMAILSENDER 4856                
+POS_EMAILRECEIVER 4999                
+POS_SESSION 17837               
+POS_SIDER 18005               
+POS_FILETYPES 5134                
+POS_DOWNLOADS 5432                
+POS_OS 5480                
+POS_BROWSER 5715                
+POS_SCREENSIZE 7047                
+POS_UNKNOWNREFERER 7121                
+POS_UNKNOWNREFERERBROWSER 7373                
+POS_ORIGIN 7562                
+POS_SEREFERRALS 7700                
+POS_PAGEREFS 7863                
+POS_SEARCHWORDS 8066                
+POS_KEYWORDS 8218                
+POS_MISC 2376                
+POS_ERRORS 8277                
+POS_CLUSTER 3890                
+POS_SIDER_404 8444                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201011031 102 22773 5061585430115
+FirstTime 20200101010323
+LastTime 20200131190611
+LastUpdate 20200202041530 102 0 101 0 0
+TotalVisits 203                 
+TotalUnique 127                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 131                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 10 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 51 107 7953463 89 93 259460
+1 12 12 72462 32 32 57584
+2 26 26 164569 33 54 235497
+3 18 52 5065578 36 39 567101
+4 151 185 5126532 30 31 87905
+5 21 67 6070075 20 24 58324
+6 15 15 59313 19 21 2173614
+7 14 14 65324 21 21 41130
+8 10 44 5016651 12 14 58683
+9 32 32 143373 55 56 38664
+10 12 81 10298763 33 53 120288
+11 23 23 121012 47 49 33415
+12 41 75 5135336 59 60 15213
+13 9 9 45670 12 30 162895
+14 19 19 85085 43 69 246799
+15 29 63 5103656 22 22 6843
+16 24 24 130181 51 68 142844
+17 19 19 85132 21 32 168416
+18 19 19 85319 27 27 7007
+19 37 164 15888491 23 31 44014
+20 8 8 36573 11 11 11746
+21 21 21 88030 47 49 59463
+22 31 69 6512123 31 33 55518
+23 47 115 6050490 25 31 16386
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 192 351 23220393
+ru 131 131 558287
+it 70 70 273783
+gb 48 82 5256176
+in 40 287 37557234
+ca 34 92 5947277
+ro 32 32 126466
+dk 30 30 118623
+no 30 30 118637
+ua 20 20 46202
+il 16 16 62870
+fr 11 11 41369
+eu 10 10 39557
+nl 8 8 46770
+cz 7 7 21716
+jp 4 72 5867247
+al 4 4 63615
+ee 1 1 8967
+de 1 1 9073
+my 0 8 18939
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+Googlebot/ 94 709555 20200131211916 8
+facebookexternalhit/ 24 212779 20200120165400 0
+msnbot/ 22 697743 20200101030508 1
+bot[\s_+:,\.\;\/\\-] 14 144764 20200131215701 1
+bingbot/ 13 87595 20200130142415 3
+crawl 12 56207 20200118001225 0
+unknown 11 264 20200131190615 11
+Dalvik/ 5 25220 20200104025611 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 17932 20200125041130 0
+Googlebot\-Image/ 1 2158426 20200131064427 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+gif 17 865725 0 0
+js 169 1667150 0 0
+woff 3 271236 0 0
+html 106 981676 0 0
+woff2 13 862752 0 0
+jpg 162 56490361 0 0
+jpeg 18 863668 0 0
+png 51 14675036 0 0
+css 157 936959 0 0
+cgi 13 203338 0 0
+xml 29 20378 0 0
+Unknown 525 1564922 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+linux 114 21
+macosx 6 6
+macosx8 1 1
+linuxandroid 298 22
+win7 293 180
+macosx9 2 2
+win10 272 214
+win8.1 84 84
+winvista 1 1
+win8 2 2
+winxp 3 3
+Unknown 182 148
+macosx10 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 59
+chrome41.0.2225.0 1 1
+chrome35.0.1916.47 1 1
+chrome39.0.2171.95 3 3
+firefox59.0 2 2
+chrome41.0.2228.0 1 1
+firefox63.0 46 6
+chrome67.0.3396.99 62 62
+opera53.0.2907.106 10 10
+chrome45.0.2454.94 1 1
+netscape5.0 1 1
+opera54.0.2952.51 17 17
+chrome62.0.3202.84 13 1
+chrome58.0.3029.83 24 2
+chrome68.0.3440.106 54 44
+chrome37.0.2062.120 36 2
+chrome67.0.3396.87 19 19
+opera53.0.2907.68 10 10
+Unknown 135 135
+chrome71.0.3578.98 1 1
+opera36.0.2130.32 4 4
+chrome67.0.3396.62 2 2
+chrome68.0.3440.75 15 15
+firefox66.0 2 2
+opera54.0.2952.71 15 15
+firefox60.0 4 4
+edge16 7 7
+chrome26.0.1410.65 1 1
+chrome67.0.3396.79 15 15
+chrome68.0.3440.84 30 30
+firefox71.0 1 1
+chrome70.0.3538.102 19 7
+opera55.0.2994.44 30 30
+chrome79.0.3945.130 72 4
+chrome76.0.3809.132 43 9
+firefox28.0 2 2
+msie9.0 2 2
+chrome36.0.1985.67 1 1
+opera54.0.2952.64 5 5
+chrome66.0.3359.181 88 88
+safari9.0 72 4
+chrome65.0.3325.146 20 20
+chrome79.0.3945.117 1 0
+chrome78.0.3904.70 27 2
+chrome78.0.3904.97 22 22
+chrome56.0.2925.37 1 1
+edge17 10 4
+chrome79.0.3945.93 43 5
+chrome70.0.3538.80 36 2
+chrome5.0.375.99 2 2
+firefox70.0 4 4
+chrome79.0.3945.116 73 5
+firefox62.0 2 2
+chrome75.0.3770.0 1 1
+chrome64.0.3282.186 1 1
+chrome61.0.3163.98 36 2
+chrome63.0.3239.132 24 24
+mozilla 47 13
+opera54.0.2952.54 10 10
+chrome53.0.2785.134 36 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200129004435
+Go-http-client/1.1 20200116010933
+Cpanel-HTTP-Client/1.0 20200131044015
+WhatsApp/2.19.130_A 20200103195213
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/2.19.130_A 20200103195213
+Cpanel-HTTP-Client/1.0 20200131044015
+Go-http-client/1.1 20200116010933
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 300 300
+From1 2 2
+From2 0 1
+From3 3 3
+From4 384 957
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://l.facebook.com 2 2
+https://lm.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+406 10 345727
+301 10 2479
+302 370 143422
+409 108 8964
+405 1 34753
+404 233 5825
+403 10 4500
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 89
+/libraries/joomla/jmails.php 1 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/modules/modules/modules.php 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-admin/shapes.php 1 -
+/upload.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/web/wp-includes/wlwmanifest.xml 6 -
+/wp-includes/css/modules.php 1 -
+/administrator/templates/bluestork/index.php 1 -
+/libraries/joomla/css.php 1 -
+/test/wp-includes/wlwmanifest.xml 6 -
+/error.php 1 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2016/wp-includes/wlwmanifest.xml 3 -
+/2015/wp-includes/wlwmanifest.xml 3 -
+/plugins/kcfinder/upload.php 1 -
+/components/com_b2jcontact/izoc.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/wp1/wp-includes/wlwmanifest.xml 6 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/plugins/system/debug/debug.xml 1 -
+/RxR.php 1 -
+/signin 1 -
+/sito/wp-includes/wlwmanifest.xml 6 -
+/index.php/component/users 9 -
+/shell.php 1 -
+/tmp/vuln.php 1 -
+/xmlrpc.php 3 -
+/administrator/index.php 2 -
+/configuration.php 3 -
+/blog/administrator/index.php 2 -
+/feed 1 -
+/up.php 1 -
+/XxX.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 8 -
+/assets/kcfinder/upload.php 1 -
+/2017/wp-includes/wlwmanifest.xml 3 -
+/indoxploit.php 4 -
+/sitemap.xml 1 -
+/2018/wp-includes/wlwmanifest.xml 6 -
+/kcfinder/upload.php 1 -
+/blog/robots.txt 4 -
+/admin/kcfinder/upload.php 1 -
+/wp-content/plugins/xichang/x.php 1 -
+/joomla/administrator/index.php 2 -
+/Marvins.php 1 -
+/libraries/joomla/jmail.php 1 -
+/.env 6 -
+/site/wp-includes/wlwmanifest.xml 8 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/media/wp-includes/wlwmanifest.xml 6 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/images/vuln.php 1 -
+/robots.txt 3 -
+/blog 1 -
+/wp2/wp-includes/wlwmanifest.xml 6 -
+/website/wp-includes/wlwmanifest.xml 6 -
+/wp-includes/wlwmanifest.xml 8 -
+/.bitcoin 1 http://samarpansevasansthan.org/.bitcoin/
+/V5.php 1 -
+/.git/config 1 -
+/wp-content/plugins/html404/index.html 1 -
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/V3.php 1 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 1 -
+/cms/wp-includes/wlwmanifest.xml 8 -
+/wp-content/plugins/ubh/index.php 1 -
+/vendor/kcfinder/upload.php 1 -
+/wp-content/plugins/upspy/index.php 1 -
+/.git/HEAD 9 -
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/shop/wp-includes/wlwmanifest.xml 6 -
+/ckeditor/plugins/kcfinder/upload.php 1 -
+/rxr.php 1 -
+/joomla/robots.txt 2 -
+/assets/images/campaign/1496595123first.jpg 4 -
+/wp/wp-includes/wlwmanifest.xml 8 -
+/wso.php 2 -
+/news/wp-includes/wlwmanifest.xml 6 -
+/blog/wp-includes/wlwmanifest.xml 8 -
+/assets/plugin/kcfinder/upload.php 1 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/olux.php 3 -
+/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/editor/kcfinder/upload.php 1 -
+/ads.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 131
+216.10.241.54 114 114 7296 20200125044446
+84.17.53.19 50 50 197652 20200119231208
+195.181.166.142 30 30 118623 20200122030605
+185.112.82.229 25 25 98870 20200110054242
+185.104.187.115 25 25 98905 20200119141734
+37.120.192.22 25 25 98840 20200125150754
+31.13.191.77 20 20 79120 20200110180254
+134.90.149.148 20 20 79105 20200104095943
+178.137.88.65 19 19 31739 20200127232815
+103.21.58.155 18 18 1152 20200131044015
+198.27.124.169 17 75 5836636 20200131190611
+2.58.29.146 16 16 62870 20200118124830
+161.129.66.236 15 15 59363 20200131124824
+84.17.53.22 14 14 55249 20200106140556
+158.69.26.193 12 12 65491 20200129004420
+84.39.112.93 10 10 39557 20200125025341
+185.112.82.237 10 10 39567 20200123005822
+31.13.191.94 10 10 39573 20200114002527
+134.90.149.150 10 10 39532 20200106064356
+185.212.171.153 9 9 35470 20200105042752
+185.81.157.154 7 7 21699 20200127095711
+185.206.224.215 7 7 27629 20200125115402
+77.234.43.186 7 7 21716 20200127155444
+185.112.82.239 5 5 19761 20200111182021
+106.76.82.252 5 43 6389047 20200103221634
+51.68.11.215 2 2 17932 20200129160805
+185.206.224.212 2 2 7848 20200119182109
+185.206.224.216 4 4 15717 20200122092939
+45.118.132.130 4 72 5867247 20200103232719
+80.82.78.95 1 1 8967 20200107031548
+5.157.56.63 1 1 8967 20200104042421
+52.88.241.117 1 1 8969 20200110041913
+217.138.194.121 2 2 7856 20200101010324
+65.154.226.100 3 38 4990296 20200113191839
+34.216.141.33 1 1 8965 20200111043617
+34.212.226.0 1 1 8969 20200106005714
+51.77.111.224 2 2 18146 20200110184731
+54.149.27.67 1 1 8969 20200107031247
+51.77.246.199 2 36 4972231 20200129004434
+52.24.62.176 1 1 8968 20200102031633
+54.187.8.47 1 1 8969 20200109020922
+202.53.73.26 3 3 26898 20200109114411
+69.50.235.201 1 1 8964 20200113153321
+34.219.18.182 1 1 8966 20200119030209
+52.40.158.94 1 1 8968 20200124001835
+106.222.10.79 1 1 9070 20200103195213
+52.41.107.195 1 1 8963 20200131043441
+51.159.18.103 1 1 8966 20200108132826
+51.15.184.151 4 4 19684 20200129232905
+52.37.172.38 1 1 8967 20200116010933
+34.221.206.21 1 1 8966 20200125035514
+37.120.203.72 2 2 7850 20200128145829
+149.129.145.91 0 8 18939 
+54.203.161.78 1 1 8970 20200114024040
+185.112.82.235 4 4 15722 20200130164907
+164.132.195.231 1 1 1111 20200106052609
+178.238.8.112 2 2 18143 20200107040739
+212.83.147.249 4 4 19670 20200101120543
+54.244.182.46 1 1 17273 20200128024720
+34.219.74.117 1 1 8969 20200104015254
+104.255.103.39 2 36 4990645 20200118052513
+34.222.156.17 1 1 8971 20200101023806
+138.197.140.187 1 1 8969 20200105155920
+185.212.171.150 5 5 19801 20200125084216
+54.189.28.33 1 1 8970 20200122223814
+51.75.95.101 1 1 9072 20200129104047
+159.69.249.231 1 1 9073 20200128164742
+106.66.48.41 2 36 4972232 20200112031118
+103.82.211.207 2 36 4972231 20200129100107
+52.12.33.96 1 1 8969 20200118002109
+64.233.173.87 2 22 3698058 20200104000248
+37.120.203.71 5 5 19776 20200130090955
+1.39.222.33 2 36 4972122 20200130105350
+79.142.76.211 5 5 19770 20200129195137
+159.89.138.9 2 2 17934 20200116091103
+31.13.191.86 5 5 19781 20200103001804
+77.247.127.176 4 4 63615 20200112231417
+207.154.206.75 2 2 17934 20200111162413
+54.186.22.49 1 1 8967 20200106023139
+35.165.142.6 1 1 8967 20200129051335
+151.106.8.107 3 3 16822 20200106201536
+100.20.65.40 1 1 8968 20200125232337
+34.208.144.9 1 1 8967 20200120042000
+52.39.35.82 1 1 8965 20200117153159
+51.15.190.240 1 1 8969 20200110073701
+185.234.216.20 2 2 33241 20200126101632
+192.241.148.219 1 1 8965 20200106221345
+31.13.191.107 5 5 19771 20200104221435
+34.213.179.179 1 1 8965 20200117000414
+167.172.125.64 2 2 32815 20200126194545
+157.32.95.172 0 5 981312 
+34.212.138.193 1 1 8969 20200115174544
+34.221.19.122 1 1 8969 20200112001229
+31.13.191.73 5 5 19756 20200103215420
+64.233.173.89 0 18 1010595 
+54.186.199.246 1 1 8969 20200110042211
+1.38.136.135 0 1 292337 
+106.222.73.247 1 5 1005461 20200104050315
+51.15.61.228 1 1 16769 20200127085840
+35.166.164.172 1 1 16778 20200127093813
+27.61.202.180 2 36 4972228 20200104081349
+194.44.61.241 1 1 14463 20200127153839
+34.221.114.210 1 1 8970 20200130021845
+54.186.67.52 1 1 8965 20200122044120
+34.219.246.81 1 1 17223 20200126025914
+64.246.161.42 1 1 9072 20200125055937
+106.77.145.22 2 36 4972226 20200118155142
+171.22.76.11 1 1 8967 20200112043854
+35.183.61.73 2 2 17930 20200110115926
+199.244.88.124 1 1 8966 20200109111139
+185.216.140.77 1 1 8966 20200106215924
+18.236.73.14 1 1 8972 20200113013254
+159.89.84.203 2 2 18142 20200110223418
+216.145.5.42 1 1 9066 20200102132110
+171.22.76.56 2 2 17932 20200109012515
+34.209.73.119 1 1 8966 20200103024526
+34.222.26.90 1 1 8968 20200110171946
+52.12.165.225 1 1 8966 20200105005721
+49.34.100.115 2 36 4972230 20200104045305
+107.175.13.36 1 1 8967 20200105073412
+31.13.191.89 5 5 19756 20200102001326
+185.130.184.212 5 5 19795 20200123220453
+54.212.2.83 1 1 8968 20200108031556
+139.162.1.48 2 2 18033 20200103232718
+54.200.253.132 1 1 8968 20200110041135
+5.62.58.15 2 2 17932 20200129145714
+142.93.145.9 1 1 9074 20200105155909
+157.32.3.64 3 32 3999984 20200116125339
+148.251.138.219 1 1 9073 20200125024638
+84.17.46.27 5 5 19771 20200131045910
+64.233.173.91 2 20 3010905 20200104000247
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200101 12 12 56275 4
+20200102 22 22 97087 6
+20200103 35 175 17343670 11
+20200104 23 125 13789381 11
+20200105 13 13 71473 7
+20200106 23 23 113128 9
+20200107 22 22 83874 7
+20200108 28 28 97367 7
+20200109 25 25 110561 8
+20200110 39 39 186397 14
+20200111 14 14 47044 4
+20200112 26 60 5101572 9
+20200113 21 56 5048173 6
+20200114 14 14 37012 4
+20200115 24 24 76556 6
+20200116 22 56 5048158 6
+20200117 15 15 45958 5
+20200118 28 97 10331674 8
+20200119 24 24 76497 6
+20200120 7 7 9351 2
+20200121 18 18 47814 4
+20200122 20 20 65699 6
+20200123 21 21 59721 4
+20200124 22 22 68646 5
+20200125 27 27 103689 9
+20200126 5 5 83279 3
+20200127 36 36 123164 6
+20200128 9 9 54002 4
+20200129 39 107 10111556 11
+20200130 21 55 5028893 6
+20200131 34 92 5885530 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+0s-30s 198
+30s-2mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 169
+/contact 363 1434407 84 85
+/ 105 972711 84 70
+/cgi-sys/suspendedpage.cgi 13 203338 8 7
+/assets/fonts/fontawesome-webfont.woff2 13 862752 1 10
+/category/nonprofit 4 15446 0 1
+/category/sport 4 13726 0 0
+/category/travel 3 10293 0 1
+/cgi-sys/suspendedpage.cgi/site/wp-includes/wlwmanifest.xml 3 584 0 0
+/assets/fonts/fontawesome-webfont.woff 3 271236 0 1
+/cgi-sys/suspendedpage.cgi/wp-includes/wlwmanifest.xml 3 4267 2 0
+/cgi-sys/suspendedpage.cgi/cms/wp-includes/wlwmanifest.xml 3 7950 0 2
+/about 3 13398 0 0
+/cgi-sys/suspendedpage.cgi/wordpress/wp-includes/wlwmanifest.xml 3 584 0 0
+/cgi-sys/suspendedpage.cgi/wp/wp-includes/wlwmanifest.xml 3 584 0 0
+/cgi-sys/suspendedpage.cgi/blog/wp-includes/wlwmanifest.xml 3 583 0 0
+/user/login 2 7521 0 0
+/blog/4 2 9185 0 0
+/blogs 2 7872 0 0
+/campaigns 2 7717 0 0
+/faq 2 12889 0 0
+/user/registration 2 7672 0 0
+/.well-known/acme-challenge/5-ZEUUDIMX2UN9RLUY4-V7X1BV-MT-KU 1 64 1 0
+/.well-known/acme-challenge/ALVA3VX7LJUD83--GRGFUWGIM_2QM901 1 64 0 0
+/.well-known/acme-challenge/YGDWQU9XZ_JQ01GJ8UTK7GP7P2JYO8NI 1 64 0 1
+/.well-known/acme-challenge/4ENKDKMCLR22PSFSY1MYOD0P933EG5ZF 1 64 0 0
+/.well-known/acme-challenge/I-ZUOSN7LQFYVXCFN82NR-ALVKNBD3UU 1 64 0 0
+/.well-known/acme-challenge/TU2LR6JDRLWULDKC_21RUHMX-PT6SOI2 1 64 0 1
+/.well-known/acme-challenge/U368SVUYUTOXU73_B20858526RYBW4P- 1 64 0 0
+/.well-known/acme-challenge/NK0RV_WX6H_EW1F3WBM01NCH_O2197Z_ 1 64 0 0
+// 1 8965 1 1
+/.well-known/acme-challenge/3DZDCO5JLICSCHTCM8BHORLWISNEXZYN 1 64 0 0
+/.well-known/acme-challenge/E8FKYTAWLD9645CS9327W223U5CPZGTP 1 64 0 0
+/.well-known/acme-challenge/FU_PXZPL2TPMSWFM6I7XC2BI_SCKXNWA 1 64 0 1
+/.well-known/acme-challenge/7-0CHQI6HA2049B5DHRP7GC69FTR1XX1 1 64 1 0
+/.well-known/acme-challenge/K2B1RWF-4TTCD8F4103F8BLF7SXFU5P7 1 64 0 0
+/.well-known/acme-challenge/VO-GU1JGJ-ZVAFG3MZ7NK3363TQ2UVFT 1 64 0 0
+/.well-known/acme-challenge/324W18NWQBL2YFVM9X-K7CIZRVXSLFAG 1 64 0 0
+/.well-known/acme-challenge/89YYZ6NF1KBOLPQ2F8ZJ2XYHG72-I8B3 1 64 0 0
+/.well-known/acme-challenge/94G43BKD2MB2C83O710_RJLFZR-S80AQ 1 64 0 0
+/.well-known/acme-challenge/BG3YMG009LDZDUUV_895RFMRO3Z44TIM 1 64 0 0
+/campaign/3 1 5920 0 1
+/.well-known/acme-challenge/Z9CKNKHEATGT9D8GBF-SYZJR13O0IF0M 1 64 1 0
+/.well-known/acme-challenge/P1R8HP6VW48AU4FMJCF896UIZPXA9A4X 1 64 0 0
+/.well-known/acme-challenge/AMG89Q-0XUT33LESB-ZO6S-VK68PLZVW 1 64 0 1
+/cgi-sys/suspendedpage.cgi/test/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/0RCTV5OYWYKLG5TPI6OM6K3IM38UG-UN 1 64 0 0
+/.well-known/acme-challenge/LA34E_Q45153XE3E6-8O1ZYYDGPP-CFG 1 64 0 0
+/.well-known/acme-challenge/TNNZ5Z21-QF7DZJ9XC4TUE2RA12HYBY3 1 64 0 0
+/.well-known/acme-challenge/R-3D0FBAHVC_UTOZI3H3ZFJF11B0CBAG 1 64 0 1
+/.well-known/acme-challenge/WWPAI4OFOLCSD6D5S9X9KHAR-YI7OIWT 1 64 0 0
+/.well-known/acme-challenge/QKXQHT827P1416KLYBOU1FL9IOQ-CLOJ 1 64 0 0
+/.well-known/acme-challenge/6XFNQXRJR6Q3SV9HZ9SJ_L-23PKNJ1BR 1 64 0 0
+/admin 1 1111 1 1
+/.well-known/acme-challenge/LMYGE5-TG28H9IM10ZP8HS4_W3FIUW1Q 1 64 0 0
+/.well-known/acme-challenge/6Q8-V3-TKWG7Z9NNNCMM3DJO5TZKS361 1 64 0 0
+/.well-known/acme-challenge/L24H38_U880YLDI1-J7_V0C7UIM1BX8- 1 64 0 0
+/.well-known/acme-challenge/EMV1T9CL2ADLO996H5Z_85MST93W83OM 1 64 0 0
+/.well-known/acme-challenge/66YUTFLU41JNFLBJVH6Q-RYO02MJAM_H 1 64 0 0
+/.well-known/acme-challenge/KWE7ZA1DELZJ1E2_M9IP1KJG25KSIC22 1 64 0 0
+/.well-known/acme-challenge/F1N8N75V3P_6-TRWCX1G5HQCMWN8P8KY 1 64 0 0
+/.well-known/acme-challenge/RMANQWPGIFBO5-2H-0M3YYDV49I9UTLA 1 64 0 1
+/.well-known/acme-challenge/4UMU-XB3I48T0INV6WS8DBE62-R3PUJ1 1 64 0 0
+/.well-known/acme-challenge/15R0BYB_FUC19WQ5WHV5ZMV4-AH4BFDG 1 64 0 1
+/.well-known/acme-challenge/S_BI0YRL9XWWOA1J1M63RVM_-4V968KV 1 64 1 0
+/cgi-sys/suspendedpage.cgi/2019/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/W_97BFSBQB37_M5-NCNNGBLXR_NAM2HF 1 64 0 0
+/.well-known/acme-challenge/MO_-VLSUVIKZ0LB5ZE17SGAO-IJNOBR2 1 64 1 0
+/.well-known/acme-challenge/HDGR4-CXD9B3IE5OH9TF0O_ZL8NFVP8R 1 64 0 0
+/.well-known/acme-challenge/KXYGBJ7E5-YJN0GFBG17V046XJMLEVP9 1 64 0 0
+/.well-known/acme-challenge/PE45CQLDLK_VSKTGNOBY956I3-655VTV 1 64 0 0
+/.well-known/acme-challenge/KOG3BTUGNZSM659W1L4QNW0MJ108OSKP 1 64 0 1
+/.well-known/acme-challenge/F2OB3M9CKGHO66P_KQ4AH6WV0JC5-UC4 1 64 1 0
+/.well-known/acme-challenge/RDD-RMJ54RI4FH9F9_3Y_XEQXDA80641 1 64 0 0
+/cgi-sys/suspendedpage.cgi/shop/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/KBRW7M13AMAGYL2SEPZ--W28J5-0_5O- 1 64 0 0
+/.well-known/acme-challenge/9I1NBPJ5H__J84ZH0BI-0IQW2WPZEUW5 1 64 0 0
+/.well-known/acme-challenge/_6GZ3YR8E3S5DX684B3N9WO971-MAO9- 1 64 0 1
+/.well-known/acme-challenge/YA9G7F1GPEYO1ASNTSOY4WG0UI-7CT-7 1 64 0 0
+/.well-known/acme-challenge/22C2T7-P9IN9FK-F94MGT8FEJIBDYKT1 1 64 0 0
+/.well-known/acme-challenge/HF7J6D9QSQL3_3ZCPSVIHORYFWW35WPI 1 64 0 0
+/.well-known/acme-challenge/_GXYKY4H_S5R-LT515AS3Q0ZZOSI99AA 1 64 0 0
+/.well-known/acme-challenge/3WEI34R0JFETMB_YE1HAF61EU5SKJ1PQ 1 64 0 0
+/.well-known/acme-challenge/F46BL5N5PMVSKMQ0HDFPAU6YNSFOGAW2 1 64 1 0
+/.well-known/acme-challenge/SF8FLRWN7RBZJ9RC97CYWMBLLTG473GM 1 64 1 0
+/.well-known/acme-challenge/0EZ-INXVIOPFOA3SSP_F7DCEOD3FOOD0 1 64 0 0
+/cgi-sys/suspendedpage.cgi/news/wp-includes/wlwmanifest.xml 1 194 0 0
+/.well-known/acme-challenge/OVM-9NOSF1HUSAN3_K17EEEVRSJ5B0IW 1 64 0 0
+/.well-known/acme-challenge/54AS8HCSXXZ822QC4R4KN9B0BK904HZB 1 64 0 0
+/cgi-sys/suspendedpage.cgi/2018/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/7ET-D7IW9E_H_OIT9T_4BF3-J5AZEQHG 1 64 1 0
+/.well-known/acme-challenge/0R30DGSW1FOZK_4Z7UWZH8_YWST3BI4P 1 64 0 0
+/.well-known/acme-challenge/1SAVIZ132E3XMJ7A5XRVJTMZ_BN5465Y 1 64 0 0
+/.well-known/acme-challenge/OE0K4QA1WVFDMFBD13KB0_O7J0-Z7GZ_ 1 64 0 0
+/.well-known/acme-challenge/GZON1U3GD44Q9KU0Y_2A530YOAKJXD1- 1 64 0 1
+/cgi-sys/suspendedpage.cgi/wp2/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/I9LVTSNP_ZDM1M38-BLM4RH47VD8HKWX 1 64 0 0
+/.well-known/acme-challenge/KTQ87IPOPNVS74X29WZERT0ITNRA68JQ 1 64 0 0
+/.well-known/acme-challenge/BKFTZAQKO-Y9WQ91U4MU-NU78NCVITYW 1 64 0 0
+/.well-known/acme-challenge/9HKNA826WUFRT79IWYWV-4H9AT8K91RR 1 64 1 0
+/.well-known/acme-challenge/REYJFUH853FKGBY2SG1TAXPBC6UU3AK4 1 64 0 0
+/.well-known/acme-challenge/-V6ZTZ67AFY4MVD-NUNG3JP6_GTX5JUL 1 64 0 0
+/.well-known/acme-challenge/F8TGJ67K4RN8_VHNLXWMWGKMIGIN2ZHS 1 64 0 0
+/.well-known/acme-challenge/HGXTWVIUZKW82YYR1S2AB9353FOXUHCB 1 64 0 0
+/.well-known/acme-challenge/MXM0_6CXJW3BWPP7SA-5PY0BJU0OZAHL 1 64 0 0
+/.well-known/acme-challenge/8C-9P8R7FGM0B1GERX-VI6Z2NZYK640Y 1 64 0 0
+/.well-known/acme-challenge/0D6GYV9DR-ZS585YC1YQPPM0AUTWTS0E 1 64 0 0
+/.well-known/acme-challenge/K75_C1NSG62_I9-V3PA5UE-MB34C-UO9 1 64 1 0
+/.well-known/acme-challenge/0Q2C9WQL17MUT_HANM1F44E9-KILIHD5 1 64 0 0
+/.well-known/acme-challenge/W3WP8EYT-0TRMB04N_3S11Y8VWK9A50H 1 64 0 0
+/.well-known/acme-challenge/6Z6O_4461TOONFI6W_PNKJH5RDQGB14Y 1 64 1 0
+/.well-known/acme-challenge/K0KMX6URFS_Y1TB9NOOMH15LYX_M6RM1 1 64 0 0
+/.well-known/acme-challenge/GZRH0MXN57S-D60ERES5FZ9ZEQEEVTX6 1 64 0 0
+/.well-known/acme-challenge/314EZ1F6Y52XBVPYYKG_UYBZCYNL02JH 1 64 0 0
+/.well-known/acme-challenge/ERGWUAKUXJVZ3QIKHOAAZA0CDSL022XA 1 64 0 1
+/.well-known/acme-challenge/2IDLSONCT92GE_13G1MRRCEII0RMIBN2 1 64 0 0
+/.well-known/acme-challenge/VUOVRUJCMZCN2SW4C25E54OSWE1OH0F4 1 64 0 1
+/.well-known/acme-challenge/O4I3-U_DDN1WSOHR_YXG6HFRMUE1-B-Z 1 64 1 0
+/.well-known/acme-challenge/APMTNXMCT1KQ7G4TV9DKWE9Q4917LCOL 1 64 0 0
+/blog/1 1 5686 0 0
+/.well-known/acme-challenge/X-MWPHYYF2XJJ3SLY4-Y0_G44E2IRA3_ 1 64 0 0
+/.well-known/acme-challenge/WL0F9_X5ONS8Z92R7PVDOYV0FULJ1YMG 1 64 0 0
+/.well-known/acme-challenge/3J7L4LGVM3XSRZ70D0O3ZS1KZ3YXKPRZ 1 64 0 0
+/.well-known/acme-challenge/WXT-9UGIJ3YAD5V1IP1BC8G06DY280H7 1 64 0 0
+/cgi-sys/suspendedpage.cgi/website/wp-includes/wlwmanifest.xml 1 3878 0 0
+/.well-known/acme-challenge/1_Z3TERNZOK9R6BQ41FJIGJ49VOC4JR- 1 64 1 0
+/.well-known/acme-challenge/EKBWXCFVG1JZROHSLK2_FZTPRFJAY3GS 1 64 0 0
+/.well-known/acme-challenge/U3CQ_9DUY6RFT7XFGMQL4HM9_W4OG5RD 1 64 0 0
+/cgi-sys/suspendedpage.cgi/media/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/43_5288X-VNBQ_G8HM2G_-G-8GIQC444 1 64 0 0
+/.well-known/acme-challenge/J14YD16B8DONG36KBWXWKXJ_JFHI0_BD 1 64 1 0
+/.well-known/acme-challenge/47U4PK2MQN1P0LNL7VSE2Q72B8VDOFTS 1 64 0 0
+/.well-known/acme-challenge/04S2SLISG6K4-LN656MO3E6AISJKDRU2 1 64 0 1
+/.well-known/acme-challenge/LD97Q3DWFHPWLXAVBLC9372WRK_KEC68 1 64 1 0
+/.well-known/acme-challenge/SMYO6HD7BH8FL7I1BFJK9MC00R8I0RNC 1 64 0 0
+/.well-known/acme-challenge/IVOOINANELDVPHS-6LOW7DEEOSW7NKHI 1 64 1 0
+/.well-known/acme-challenge/L8UE0EX2-CVY79NB_AXL0R9TYIS0FS93 1 64 0 0
+/.well-known/acme-challenge/BRUEFSCQ985291X8B_ZI-BK3OCZ9BAGL 1 64 0 0
+/.well-known/acme-challenge/6N-V1F_ZWG53M_NPYSD7Z31796J7KRYS 1 64 0 0
+/.well-known/acme-challenge/RNBZL4V3ECBGFH3TT9DBAEW95677J62T 1 64 0 1
+/.well-known/acme-challenge/4Z0ZX00T4615HJOUYUPV9QXE_HENJXP4 1 64 0 0
+/user/forgot 1 3631 0 0
+/cgi-sys/suspendedpage.cgi/sito/wp-includes/wlwmanifest.xml 1 194 0 1
+/.well-known/acme-challenge/E58G0V591LB1NBGQVX98VC4SJ870DT0L 1 64 0 0
+/.well-known/acme-challenge/-369E0JVYG5QRC1E63S73NCYGABFCI2S 1 64 0 0
+/.well-known/acme-challenge/HS596JQQRY_6A277BJSTVB_1DMW5VMIK 1 64 0 0
+/.well-known/acme-challenge/_CJJ1CG9NN-LS3OL9HEME9Q11RNKWZPM 1 64 1 0
+/.well-known/acme-challenge/-0JF5HM-DS20R15F11GKOIY09H_J9Z8- 1 64 0 0
+/.well-known/acme-challenge/I5I7VJOI0BNKTBW493MTLA4I6X6IUMQB 1 64 1 0
+/cgi-sys/suspendedpage.cgi/wp1/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/6EH3YAV6_2--H291YE9CCCINA0K9P8F3 1 64 0 0
+/.well-known/acme-challenge/NSMDNCBJ2TMW-JPPW6YAXRBVL19ODXRF 1 64 0 1
+/.well-known/acme-challenge/Q_RCKZ8UDJ01BA1QAEY099F5S0UJ15AA 1 64 0 0
+/.well-known/acme-challenge/-C81SJORQMIW6993RHBLCD7PIP87HMAI 1 64 0 1
+/.well-known/acme-challenge/N4HZIO2WNO8B6ZZ_-Q5O34L9VJRLV57Q 1 64 0 0
+/.well-known/acme-challenge/C6UE3L3925ID0EPRA-7-VQXI4PNJ-MWC 1 64 1 0
+/.well-known/acme-challenge/L9EGC15987RBLIGCS3SQH_311ZE_S2D2 1 64 0 1
+/.well-known/acme-challenge/JP8LBLTI04WLH3YWI6-HOQHKS-IF-AZI 1 64 0 0
+/.well-known/acme-challenge/752DUHDPRD40DP81IJLUKZBV9QWU4V5Z 1 64 1 0
+/cgi-sys/suspendedpage.cgi/web/wp-includes/wlwmanifest.xml 1 195 0 0
+/.well-known/acme-challenge/N2L4D8TD3T9JP3UBBJYNPXXCKXA-58NU 1 64 0 1
+/.well-known/acme-challenge/DBBW-4N3H76OJYJ-YE5V92UK-6I07RP4 1 64 0 0
+/.well-known/acme-challenge/4SM3-M4VIE61LE0SMR6QGKA2F5NHIBP_ 1 64 0 1
+/.well-known/acme-challenge/3J9HMA83OQRGJ3DQPG_NI90W3T7V8OUR 1 64 0 0
+/.well-known/acme-challenge/2SDJWNE7M7VD5JOYANJNAO5DWFFOPDV0 1 64 0 0
+/.well-known/acme-challenge/SBT_UV6470_KZEUNPWFU2YTPS6193KKF 1 64 0 1
+/.well-known/acme-challenge/GYFFE_MII18I0C8ARHLOIVWHK-QZ26PP 1 64 1 0
+/.well-known/acme-challenge/FPN32XZNOY9428SOYJDRA-BGT04BM0R5 1 64 0 0
+/.well-known/acme-challenge/K_Z7-HM_S2AAA9M5DS1AH_VN_1Z6MZZ9 1 64 0 1
+/.well-known/acme-challenge/V_05G0G-N2R1MK8L592ITGF0ERKI82G2 1 64 0 1
+END_SIDER

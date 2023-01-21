@@ -1,0 +1,1765 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.dr.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2690                
+POS_VISITOR 58044               
+POS_DAY 64569               
+POS_DOMAIN 3525                
+POS_LOGIN 4192                
+POS_ROBOT 4347                
+POS_WORMS 4816                
+POS_EMAILSENDER 4947                
+POS_EMAILRECEIVER 5090                
+POS_SESSION 65332               
+POS_SIDER 65533               
+POS_FILETYPES 5225                
+POS_DOWNLOADS 5444                
+POS_OS 5492                
+POS_BROWSER 5777                
+POS_SCREENSIZE 7134                
+POS_UNKNOWNREFERER 7208                
+POS_UNKNOWNREFERERBROWSER 7619                
+POS_ORIGIN 7773                
+POS_SEREFERRALS 7911                
+POS_PAGEREFS 8096                
+POS_SEARCHWORDS 8244                
+POS_KEYWORDS 8396                
+POS_MISC 2354                
+POS_ERRORS 8455                
+POS_CLUSTER 4048                
+POS_SIDER_404 8589                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001001608 24 5006 9500537927525
+FirstTime 20190901024141
+LastTime 20190930225022
+LastUpdate 20191001045819 24 0 23 0 0
+TotalVisits 187                 
+TotalUnique 152                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 172                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 62 63 468087 83 116 179270
+1 15 48 3851984 1453 1471 1039164
+2 8 14 145718 223 259 235633
+3 15 92 3244959 310 431 429362
+4 15 20 336465 134 196 240630
+5 6 6 151104 28 32 560689
+6 6 6 132621 21 32 73045
+7 5 41 1411306 33 77 25337
+8 6 6 114138 612 616 456230
+9 13 15 332511 92 132 123655
+10 12 50 1652270 855 887 650021
+11 21 21 454932 145 161 88481
+12 7 7 83873 32 92 232561
+13 13 13 253460 195 241 145872
+14 20 32 504934 271 301 62615
+15 13 34 1205333 72 111 92121
+16 35 74 2239388 363 399 287021
+17 11 24 458256 231 295 188514
+18 23 56 1722381 181 229 111320
+19 9 9 171207 67 72 40490
+20 23 39 502473 132 173 121679
+21 12 14 229591 119 163 53197
+22 14 63 1800673 57 93 82064
+23 9 11 173615 730 781 865979
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 32
+us 169 267 5392995
+gb 45 78 2424260
+fr 25 25 574151
+ma 19 19 256700
+za 18 18 342414
+sg 12 12 302208
+ca 11 55 1769618
+in 10 108 4169490
+ru 9 9 134241
+id 6 6 114138
+de 5 5 125920
+il 4 37 3611926
+hu 4 4 100736
+it 4 4 45287
+dk 3 3 57069
+eu 3 3 17458
+tr 3 3 75552
+ro 2 2 50368
+ao 2 2 13402
+sa 2 2 50368
+cz 2 2 50368
+gr 2 2 50368
+tn 2 2 13402
+cn 2 73 1640437
+dz 2 2 50368
+th 1 1 25184
+bg 1 1 25184
+no 1 1 6701
+jp 1 1 25184
+ua 1 1 25184
+kh 1 1 6701
+es 1 9 93897
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Googlebot/ 87 1058217 20190926123624 0
+(firefox/)([0-9]\.|[0-1][0]\.) 16 221575 20190929112049 0
+bingbot/ 16 705671 20190928230555 0
+bingpreview 12 300647 20190928230603 0
+bot[\s_+:,\.\;\/\\-] 5 107437 20190925150339 0
+Baiduspider/ 1 6701 20190910134538 0
+no_user_agent 1 25184 20190917062005 0
+Googlebot\-Image/ 1 4685 20190901135230 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+woff2 7 503272 0 0
+css 35 869950 0 0
+html 326 6034541 0 0
+Unknown 38 3122 0 0
+png 138 2126957 0 0
+jpg 64 10275323 0 0
+woff 2 180824 0 0
+js 148 1647290 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+win2003 5 4
+ios_iphone 27 27
+linuxandroid 96 6
+winxp 42 8
+macosx10 2 2
+win7 35 18
+linux 88 22
+win10 308 194
+winlong 6 3
+macosx11 24 8
+win8.1 14 12
+macosx8 4 3
+win8 2 0
+macosx6 1 0
+Unknown 100 66
+macosx9 3 0
+macosx7 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 66
+chrome71.0.3578.98 9 1
+firefox68.0 1 1
+opera54.0.2952.71 1 1
+msie7.0 5 4
+chrome42.0.2311.90 2 2
+msie11.0 2 1
+firefox42.0 1 1
+chrome67.0.3396.99 2 2
+Unknown 26 26
+firefox57.0 1 1
+chrome34.0.1847.116 3 3
+chrome12.0.742.91 2 0
+mozilla 77 43
+chrome69.0.3494.0 12 1
+chrome71.0.3578.80 2 2
+firefox59.0 2 2
+chrome72.0.3626.121 23 2
+chrome5.0.375.99 1 1
+chrome49.0.2623.75 2 1
+opera36.0.2130.32 17 17
+chrome45.0.2454.94 1 1
+firefox33.0 1 0
+firefox66.0 1 1
+safari5.1 27 27
+chrome31.0.1650.63 10 2
+firefox24.0 1 0
+chrome74.0.3729.169 3 3
+firefox27.0 2 1
+chrome31.0.1650.57 3 0
+firefox25.0 1 1
+firefox31.0 1 0
+chrome33.0.1750.146 2 2
+firefox60.0 1 1
+firefox52.0 24 8
+firefox29.0 1 0
+chrome41.0.2228.0 1 1
+chrome38.0.2125.101 13 2
+msie6.0 35 2
+chrome77.0.3865.73 38 3
+chrome67.0.3396.79 1 1
+chrome68.0.3440.106 1 1
+chrome73.0.3683.86 10 10
+chrome72.0.3626.119 39 2
+chrome75.0.3770.142 34 0
+firefox48.0 1 1
+chrome63.0.3239.132 134 134
+firefox40.0 1 1
+firefox64.0 13 12
+chrome41.0.2227.0 1 0
+chrome12.0.702.0 1 1
+chrome76.0.3809.132 120 10
+edge17 1 1
+msie9.0 1 0
+chrome41.0.2224.3 1 1
+chrome35.0.1916.153 1 0
+firefox26.0 7 1
+chrome26.0.1410.63 6 6
+firefox58.0 6 6
+opera11.61 1 1
+chrome74.0.3729.131 3 3
+chrome26.0.1410.65 2 2
+msie10.0 1 0
+chrome32.0.1700.41 2 0
+chrome61.0.3163.100 10 10
+firefox27.3 1 0
+firefox67.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Cpanel-HTTP-Client/1.0 20190910005312
+Mozilla/5.0_(compatible;_ips-agent) 20190911155837
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190910005328
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190922035358
+Mozilla/6.0_(compatible) 20190907013034
+Go-http-client/1.1 20190929213201
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20190910005312
+Go-http-client/1.1 20190929213201
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 346 463
+From1 3 36
+From2 5 5
+From3 0 0
+From4 19 254
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 3 3
+www_google_com_hk 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+409 643 53369
+404 6249 3645110
+403 318 205986
+206 2 50368
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1174
+/wp-content/themes/ultimatum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/vendors/nice-select/js/jquery.nice-select.min.js 69 http://drfarendra.com/
+/modules/columnadverts/slides/HolaPresME_60376.php 1 -
+//xup.php 5 -
+/admin/controller/extension/module/shell.php 5 -
+/forums/js/ajax.js 1 drfarendra.com
+//images/google-assist.php 10 www.drfarendra.com
+/test/wp-includes/wlwmanifest.xml 11 -
+/by.php 3 -
+//wp-content/_input_3_raiz0.php5 3 -
+/xd.php 8 -
+//site/tmp/cTivrC.php 10 www.drfarendra.com
+/webdav/greenshell.php 3 www.drfarendra.com
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 7 -
+//bin/logo_img.php 5 -
+/public/upload_nhieuanh/server/php/files/up.php 5 -
+//wp-admin/admin-post.php 2 -
+/media/404.php 6 www.drfarendra.com
+/shell.asp 2 www.drfarendra.com
+/uploads/ 1 -
+/wp-content/plugins/webapp-builder/server/images.php 1 -
+//wp-content/themes/twentyfourteen/404.php 1 -
+/modules/bamegamenu/HolaPresME_67337.php 4 -
+/up.php 16 -
+/wp-content/uploads/assets/temp/jsspwned.php 1 -
+//sh-2017.php 3 -
+/wp-admin/08239674.php 5 -
+/wp-json/wp/v2/users 1 -
+/components/RxR_1568821241.php 1 -
+/wp-content/themes/pinboard/themify/themify-ajax.php 2 -
+/images/block/up.php 5 -
+/admin/libraries/ajaxfilemanager/inc/data.php 1 -
+/wp-content/uploads/uigen_YEAR/file.php 1 -
+//tmp/bogel.php 5 -
+/tpl/plugins/upload9.1.0/server/php/files/ddd.php 1 -
+/suitecrm-7.2.1-max/upload/tmp_logo_company_upload/suiteshell.phtml 3 www.drfarendra.com
+/x.php 3 -
+/media/wp-includes/wlwmanifest.xml 11 -
+/wp-content/plugins/magic-fields/RCCWP_upload_ajax.php 1 -
+/al.php 2 www.drfarendra.com
+/vb5/ 3 -
+//libraries/respectMuslims.php 5 -
+/anonymous.php 8 www.drfarendra.com
+/themes/404/404.php 8 www.drfarendra.com
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 3 -
+//includes.php 10 www.drfarendra.com
+/wp-content/plugins/three-column-screen-layout/db.php 1 -
+/templates/beez3/jsstrings.php 5 www.drfarendra.com
+/wp-content/plugins/wordpress-member-private-conversation/doupload.php 2 -
+/wp-content/plugins/simple-ads-manager/upload.php 3 www.drfarendra.com
+/modules/hous.php 3 www.drfarendra.com
+/a.php 8 www.drfarendra.com
+/components/com_b2jcontact/izoc.php 1 -
+//mad.php 1 -
+//wso.php 4 -
+/private.php 8 www.drfarendra.com
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 1 -
+//css/wp-settings.php 3 -
+/css.php 3 -
+/administrator/templates/hathor/index.php 1 -
+/templates/ja-helio-farsi/index.php 8 -
+//media/1ndex.php 10 www.drfarendra.com
+/wp-login.php 6 -
+/assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/news/wp-includes/wlwmanifest.xml 11 -
+/lou-bna.php 3 -
+/img/ 1 -
+//configurationbak.php 10 www.drfarendra.com
+//libraries/joomla/go.php 3 -
+//r3x.php 10 www.drfarendra.com
+/wp-content/uploads/headway/header-uploads/upload.php 3 www.drfarendra.com
+/wp-content/plugins/sfwd-lms/includes/ld-assignment-uploads.php 3 -
+/wp-content/themes/ithemes2/uploads/upload.php 3 www.drfarendra.com
+/modules/mod_simplefileuploadv1.3/elements/udd.php 11 http://www.drfarendra.com/modules/mod_simplefileuploadv1.3/elements/udd.php
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__itzqh.php 1 -
+/doom.php 8 -
+//wp-content/plugins/easyrotator-for-wordpress/a.php 6 www.drfarendra.com
+/symsa2.php 8 -
+/assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+//spamv6.php 1 -
+//wp-configuration.php 5 -
+//images/logo_img.php 5 -
+/tmp/vuln2.php 3 -
+/wp-admin/shapes.php 1 -
+/wp-content/plugins/simple-ads-manager/info.php 3 www.drfarendra.com
+//M-F4r3s.php 6 www.drfarendra.com
+/wp-content/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/media/info.php 3 www.drfarendra.com
+/wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 6 www.drfarendra.com
+//cache/cachee.php 10 www.drfarendra.com
+/wp-content/themes/blogfolio/themify/themify-ajax.php 1 -
+//wp-content/plugins/unicode/info.php 1 -
+//A.php 12 www.drfarendra.com
+/admin/test/systemProperties.asp 3 www.drfarendra.com
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 1 -
+/wp-admin/network/wp-footer.php 1 -
+//authenticating.php 10 www.drfarendra.com
+//spyshell.php 2 -
+/admin/products/lf.php 3 -
+/files/ 1 -
+/administrator/templates/bluestork/error.php 1 -
+/media/jss.php 3 -
+//news.php 10 www.drfarendra.com
+/kcfinder-2.51/upload/files/up.php.jd 5 -
+/wp-content/setting.php 3 www.drfarendra.com
+/cp.php 9 -
+//components/com_sexycontactform/fileupload/ 2 -
+//te.php 3 -
+/images/wp-mail.php 3 -
+//wp-content/themes/wp-log.php 2 -
+//wp-content/uploads/assignments/Raiz0_1568808317.php. 1 -
+//wp-content/plugins/wp-file/lang/up.php 3 -
+/email.php 6 www.drfarendra.com
+/wp-installation.php 3 -
+//files/conn.php 6 www.drfarendra.com
+//images/head.php 10 www.drfarendra.com
+/wp-content/themes/MoneyTheme/uploads/uploads/jsspwned.php 1 -
+/images/payload3.php 3 -
+//libraries/joomla/zipy.php 5 -
+/modules/fieldvmegamenu/uploads/HolaPresME_60376.php 1 -
+/webconfig.txt.php.suspected 6 www.drfarendra.com
+//libraries/joomla/jmail.php 3 -
+/Jijle3.php 3 -
+/wordpress/wp-admin/install.php 1 -
+/xmlrpc.php 34 -
+/joomla/administrator/index.php 7 -
+//media/jmail.php 5 -
+//media/reads.php 10 www.drfarendra.com
+/a.asp 2 www.drfarendra.com
+//D26pQA.php 1 -
+/wp-content/vuln.php 2 -
+//index.php 4 -
+/wp-content/themes/library/visual-editor/lib/upload-header.php 1 -
+/wp-content/plugins/contus-video-galleryversion-10/jsspwned.php 1 -
+/php/connector.php 3 www.drfarendra.com
+/logs.asp 6 www.drfarendra.com
+/images/spy.php 3 www.drfarendra.com
+/joomla/robots.txt 12 -
+/kcfinder-2.51/upload.php 6 -
+//tmp/upxx.php 5 -
+/up14.php 3 -
+/_admin/files/upload/server/php/files/ddd.php 1 -
+//b4.php 1 -
+/repository/indoxx.txt 2 www.drfarendra.com
+/wp-content/plugins/category-page-icons/include/wpdev-flash-uploader.php 3 -
+/assets/tinymce/plugins/imgsurfer/imglist.php 1 -
+/wp-content/themes/medicate/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/templates/system/css/system.css 24 -
+/umapresence/umaservices/umapage/inc/contentCss.php 6 -
+//404.php 1 -
+/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//wp-content/uploads/wysija/themes/Master/un.php 2 -
+//HdsamE.php 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__ptmlx.php 1 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 5 -
+//media/jmails.php 3 -
+//wp-content/themes/twentyeleven-child/footer.php 6 www.drfarendra.com
+/wp-content/plugins/revslider/temp/update_extract/Fp7524.php 1 -
+/vehiculo_photos/server/php/ 6 -
+/default_component.php 3 -
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 6 -
+/tpl/plugins/upload9.1.0/server/php/up.php 5 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/XAttacker.php 3 www.drfarendra.com
+//kk.php 5 -
+/helpdesk/media/editor/plugins/filemanager/inc/izo.php 1 -
+/uploader.php 8 -
+/application/configs/application.ini 6 -
+/zone-h.php 8 -
+//Ricsky.php 6 www.drfarendra.com
+/forum/ 3 -
+/wp-content/plugins/radykal-fancy-gallery/admin/image-upload.php 1 -
+/configurationbak.php.suspected 6 www.drfarendra.com
+/new/wp-admin/install.php 1 -
+/wp-main.php 6 www.drfarendra.com
+/media/jmail.php 3 -
+/web/image/Images/ddd.php 1 -
+/goog1es.php 6 www.drfarendra.com
+/V3.php 1 -
+/wp-content/plugins/xichang/x.php 1 -
+/modules/simpleslideshow/slides/HolaPresME_60376.php 1 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 3 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/files/ 1 -
+/b.php 1 -
+/modules/wg24themeadministration/wg24_ajax.php 3 -
+/log.php 6 www.drfarendra.com
+/ny.php 3 -
+//administrator/includes/readmy.php 10 www.drfarendra.com
+//shootmei.php 6 www.drfarendra.com
+/sito/wp-includes/wlwmanifest.xml 10 -
+/wp-content/uploads/Fp7524.php 1 -
+/rxr.php 6 -
+/wp-content/themes/satoshi/upload-file.php 1 -
+/components/izoc.php 3 www.drfarendra.com
+/maill.php 6 www.drfarendra.com
+//zebda.php 5 -
+//files/files.php 6 www.drfarendra.com
+//tmp.php 26 www.drfarendra.com
+//wp-admin/about.php 6 www.drfarendra.com
+/cache/wcache7675n.PHP 6 www.drfarendra.com
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 1 -
+//bookmark.php 10 www.drfarendra.com
+/wp-content/plugins/revslider/temp/update_extract/payload3.php 3 -
+/wp-content/plugins/fancy-box/shell.php 5 -
+/jconfig.php 6 www.drfarendra.com
+/modules/vtemskitter/img/HolaPresME_60376.php 1 -
+/wp-content/plugins/myshe.php 6 www.drfarendra.com
+//wp-content/plugins/sfn.php 6 www.drfarendra.com
+/vbforum/js/ajax.js 1 drfarendra.com
+/wp-content/plugins/wp-mobile-detector/cache/settings_auto.php 4 -
+/administrator/manifests/files/joomla.xml 5 -
+/admin/lf.php 2 www.drfarendra.com
+/ws0.php 3 -
+/bitrix/admin/index.php 4 -
+/wp-content/uploads/2019/09/jsspwned.php 2 -
+//help.php 7 -
+// 3 -
+/media/reads.php 6 www.drfarendra.com
+/wp-content/plugins/revslider/temp/update_extract/jOwdiS.php 2 -
+/wp-includes/css/oorqfnlzbe.php 5 -
+/u.php 3 -
+/wp-content/uploads/$year/$month/jsspwned.php 3 -
+//wp-includes/upgrade/theme-compat/popup-pomo.php 3 -
+/wp-content/files_mf/jsspwned.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//RoseLeif.php 10 www.drfarendra.com
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__ubgih.php 1 -
+//media/jss.php 5 -
+/wp-content/themes/u-design/scripts/admin/uploadify/upload.php 3 -
+//yjh.php 6 www.drfarendra.com
+/site/wp-includes/wlwmanifest.xml 77 -
+/modules/pk_vertflexmenu/uploads/HolaPresME_69422.php 1 -
+/whmcs.php 8 -
+/manager/ldskflks 1 -
+/uploadify/uploadify.php 3 http://www.drfarendra.com/uploadify/uploadify.php
+/wp-content/uploads/2018/01/RxR__yfbce.php 1 -
+/mad.php 8 -
+/cache/defau1t.php 6 www.drfarendra.com
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/photo.zip 1 -
+/d.php 10 -
+//dcodqg.php 6 www.drfarendra.com
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/media/jmails.php 3 -
+/wp-content/_input_3_RxR.phtml 1 -
+/modules/vtemskitter/img/HolaPresME_67337.php 1 -
+/wp-content/plugins/freedom/post.php 5 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/upload.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 11 -
+//thumb.php 10 www.drfarendra.com
+/wso404.php 8 -
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 1 -
+/images/w0rm.php 3 -
+/2016/wp-includes/wlwmanifest.xml 10 -
+/jOwdiS.php 2 -
+//modules/mod_simplefileuploadv1.3/elements/nFQKS2.php 1 -
+/cache/cache_aqbmkwwx.php 6 www.drfarendra.com
+/app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+//tmp/setting.php 3 -
+/templates/beez5/index.php 9 www.drfarendra.com
+/images/clean.php 3 -
+//images/404.php 10 www.drfarendra.com
+/new_license.php 1 -
+//logs.asp 4 www.drfarendra.com
+//wp-content/themes/colormag/404.php 1 -
+/tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/wp-content/themes/dance-studio/core/libs/imperavi/tests/file_upload.php 1 -
+//wp-content/uploads/HdsamE.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads//jsspwned.php 1 -
+/thumb.php 6 www.drfarendra.com
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads/jsspwned.php 1 -
+/cache/shell.php 1 -
+/cache/cachee.php 6 www.drfarendra.com
+/AndroidFileUpload/uploads/ddd.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/info.php 3 -
+/2.php 9 www.drfarendra.com
+/wp/wp-admin/ 1 -
+/madspot.php 8 -
+/public/upload_nhieuanh/server/php/files/ddd.php 1 -
+/public/upload_nhieuanh/server/php/_index.php 11 -
+//bl.php 1 -
+//wp-installation.php 5 -
+//sql-bak.php 6 www.drfarendra.com
+/tpl/plugins/upload9.1.0/server/php/ddd.php 1 -
+//wp-admin/options-media.php 6 www.drfarendra.com
+/components/com_b2jcontact/uploads/izoc.php 3 www.drfarendra.com
+//functions.php 10 www.drfarendra.com
+/b1.php 3 -
+//jconfig.php 10 www.drfarendra.com
+/install/includes/OsComPayLoad.php 3 -
+/priv8.php 8 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 4 -
+//sites/all/libraries/elfinder/files/HdsamE.php 1 -
+/modules/vtemskitter/uploadimage.php 3 -
+/wp-configuration.php 3 -
+/modules/mod_simplefileuploadv1.3/elements/Fp7524.php 1 -
+//libraries/joomla/web.php 5 -
+/fckeditor/editor/filemanager/connectors/php/jsspwned.php 1 -
+/admin.php 5 -
+/vbulletin/ 3 -
+/wordpress/ 15 -
+/modules/pk_flexmenu/uploads/shellxo.php 5 -
+/wp-content/uploads/upload.php 4 www.drfarendra.com
+/wp-content/themes/andre/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/images/404.php 6 www.drfarendra.com
+/components/Raiz0WorM_1568982140.php 1 -
+/ckeditor/kcfinder/upload.php 6 -
+/wp-content/uploads/contact_files/ 3 www.drfarendra.com
+/wp-admin/network/post.php 5 -
+/news.php 6 www.drfarendra.com
+//aa.php 6 www.drfarendra.com
+/system.php 8 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/administrator 2 -
+//tmp/error.php 3 -
+//maill.php 10 www.drfarendra.com
+//logo_img.php 3 -
+/wp-cache.php 6 www.drfarendra.com
+/vendors/owl-carousel/owl.carousel.min.js 69 http://drfarendra.com/
+/includes/u2p.php 6 www.drfarendra.com
+/components/_func.php 4 www.drfarendra.com
+/vb/ 3 -
+/wp-content/themes/phototouch/themify/themify-ajax.php 1 -
+/wp-content/themes/postline/themify/themify-ajax.php 1 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 5 -
+/robots.txt 85 -
+/media/cloud.php 3 www.drfarendra.com
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 2 -
+//images/sym.php 5 -
+/wp-content/uploads/2018/01/Raiz0__ubgih.php 1 -
+/libraries/joomla/web.php 3 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 1 -
+/assets/uploadify/old/uploadify.php 5 -
+/f.php 3 -
+/assets/admin/ckeditor/kcfinder/upload.php 6 -
+/wp-content/plugins/showbiz/temp/update_extract/RxR__yfbce.php 1 -
+//wp-content/1ndex.php 6 www.drfarendra.com
+/assets/js/mylibs/kcfinder/upload.php 6 -
+//wsdl.php 10 www.drfarendra.com
+/libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+//tmpos.php 6 www.drfarendra.com
+/_admin/files/upload/server/php/ 1 -
+/w.php 8 www.drfarendra.com
+/wp-content/themes/twentyeleven-child/footer.php 6 www.drfarendra.com
+/vendors/counter-up/jquery.waypoints.min.js 75 http://drfarendra.com/
+/images/jdownloads/screenshots/info.php.j 1 -
+/nktt.php 3 -
+/wp-includes/css/ewrldhvfwg.php 5 -
+/modules/wg24themeadministration/img/upload/HolaPresME_69422.php 1 -
+/ 60 -
+//link.php 6 www.drfarendra.com
+/2018/wp-includes/wlwmanifest.xml 11 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/jsspwned.php 1 -
+/tmp/payload.php 3 -
+/wp-content/plugins/wp-mobile-detector/cache/XAttacker.php 3 www.drfarendra.com
+/upload/ 1 -
+/wp-content/themes/index.php 2 www.drfarendra.com
+/lumen/wp-admin/shell.php 5 -
+/wp-content/jsspwned.php 1 -
+//email.php 10 www.drfarendra.com
+/RoseLeif.php 6 www.drfarendra.com
+/blog/robots.txt 23 -
+/wp-content/plugins/cherry-plugin/admin/import-export/jsspwned.php 2 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-deep-gray/designit/cs/upload.php 1 -
+/tmp/payload3.php 3 -
+/img.php 2 www.drfarendra.com
+/fckeditor/editor/filemanager/connectors/php/connector.php 5 -
+/edit_page.php 1 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/webdav/lgxxx.php 3 www.drfarendra.com
+/wp-content/themes/multimedia1/server/php/ 1 -
+/modules/wg24themeadministration/img/upload/HolaPresME_67337.php 1 -
+/install/includes/payload3.php 3 -
+/modules/vtemslideshow/uploadimage.php 3 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 5 -
+/media/tmp.php 6 www.drfarendra.com
+//error-log.php 10 www.drfarendra.com
+/tpl/plugins/upload9.1.0/server/php/files/up.php 5 -
+/wp-content/uploads/headway/header-uploads//jsspwned.php 1 -
+/wp-content/themes/upload.php 2 www.drfarendra.com
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 1 -
+//injctory.php 6 www.drfarendra.com
+/images/vuln.php 4 -
+/forum/js/ajax.js 1 drfarendra.com
+//images/upa.php 5 -
+/.env 13 -
+/modules/fieldvmegamenu/ajax/upload.php 3 -
+//wp-content/uploads/assignments/Raiz0_1568126378.php. 1 -
+/wp-content/plugins/wp-mobile-detector/cache/info.php 3 www.drfarendra.com
+/wp-content/uploads/assignments/assig.php 3 www.drfarendra.com
+/web/image/Images/up.php 5 -
+/vendors/lightbox/simpleLightbox.min.js 73 http://drfarendra.com/
+/google-assist.php 6 www.drfarendra.com
+/wp-content/uploads/assignments/Raiz0_1567608512.php. 1 -
+/tinymce/js/tinymce/plugins/imgsurfer/main.php 1 -
+/images/shell.php 5 -
+/modules/pk_flexmenu/uploads/HolaPresME_60376.php 1 -
+/sql_dump.php 6 www.drfarendra.com
+/wp-admin/admin-post.php 8 www.drfarendra.com
+/admin/modules/admin.php 3 -
+/web/wp-includes/wlwmanifest.xml 10 -
+/wp-content/plugins/easyrotator-for-wordpress/c.php 4 www.drfarendra.com
+/wp-admin/setup-config.php 1 -
+/wp-content/themes/pindol/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/images/1ndex.php 6 www.drfarendra.com
+//administrator/administrator.php 10 www.drfarendra.com
+/js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//xmlrpc-activate.php 6 www.drfarendra.com
+/server/php 6 -
+/wp1/wp-includes/wlwmanifest.xml 11 -
+/server/php/files/up.php 5 -
+/wp-content/uploads/2015/12/upload.php 3 www.drfarendra.com
+/admin/products/info.php 3 www.drfarendra.com
+/wp-content/1ndex.php 6 www.drfarendra.com
+/userfiles/file/spy.txt 5 -
+/images/google-assist.php 6 www.drfarendra.com
+/wp-content/plugins/Premium_Gallery_Manager/uploadify/upload.php 3 www.drfarendra.com
+//Jijle3.php 5 -
+/wp-content/uploads/2018/01/Raiz0__rpugf.php 1 -
+//wp-content/uploads/Fbrrchive.php 10 www.drfarendra.com
+/images/jdownloads/screenshots/spy.php.j 2 www.drfarendra.com
+/help.php 4 -
+//auithorze.php 3 -
+//zibi.php 5 -
+/wp-content/bk.php 6 www.drfarendra.com
+/vehiculo_photos/server/php/files/ddd.php 1 -
+//media/tmp.php 10 www.drfarendra.com
+/sites/default/files/shellxo.php 5 -
+/wp-content/themes/konzept/includes/uploadify/uploads/jsspwned.php 1 -
+/V5.php 2 -
+/doctors.html 9 -
+/ajax/render/widget_php 1 -
+/util/login.aspx 1 -
+/tmp/petx.php 3 -
+/wp-includes/css/modules.php 1 -
+//infos.php 10 www.drfarendra.com
+//xmlsrpc.php 10 www.drfarendra.com
+/images/upa.php 3 -
+/wp-content/themes/margreetalgra/404.php 6 www.drfarendra.com
+/xmlrpc-activate.php 6 www.drfarendra.com
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 1 -
+/blog/wp-login.php 1 -
+/vb/js/ajax.js 1 drfarendra.com
+/media/editor/plugins/filemanager/inc/izo.php 1 -
+/images/payload2.php 3 -
+/install/includes/configure.php 3 -
+/wp-content/plugins/social-networking-e-commerce-1/images/uploads/jsspwned.php 1 -
+/Controller.php 2 www.drfarendra.com
+//wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__isumj.php 1 -
+/scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__rpugf.php 1 -
+/RxR.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__rpugf.php 1 -
+//wp-content/themes/storefront/404.php 1 -
+//admin 1 -
+/M-J!r4ya-F4r3s.php 6 www.drfarendra.com
+//wp-content/upgrade/theme-compat/popup-pomo.php 5 -
+/modules/modules/modules.php 7 www.drfarendra.com
+//anon.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/upload.php 3 www.drfarendra.com
+/wp-content/themes/cubed_v1.2/functions/upload-handler.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 6 -
+/tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+/wp-content/plugins/wp-cache.php 6 www.drfarendra.com
+//media/404.php 10 www.drfarendra.com
+//popup-pomo.php 3 -
+/vendors/lightbox/simpleLightbox.css 56 http://drfarendra.com/
+//error-logs.php 6 www.drfarendra.com
+/images/laj.php 6 www.drfarendra.com
+/administrator/ 1 -
+//wp-content/plugins/wp-footers.php 10 www.drfarendra.com
+//sites/all/libraries/elfinder/files/D26pQA.php 1 -
+/wp-content/themes/atom/uploadify/uploads/upload.php 3 www.drfarendra.com
+//wp-content/plugins/myshe.php 10 www.drfarendra.com
+/modules/mod_simplefileuploadv1.3/elements/mds_v3.php 3 -
+//wp-cache.php 10 www.drfarendra.com
+/wp-content/plugins/disqus-comment-system/disqus.php 8 -
+/wp-content/plugins/pitchprint/uploader/files/jsspwned.php 1 -
+//resd.php 6 www.drfarendra.com
+/admin/editor/plugins/ajaxfilemanager/inc/data.php 1 -
+/wp-content/themes/gaukingo/shell.php 5 -
+/wp-content/plugins/asset-manager/upload.php 1 -
+/tmp/pz.php 3 -
+/templates/system/error.php 1 -
+/wp-content/plugins/html404/index.html 1 -
+/rss.xml 3 -
+//wp-content/uploads/nFQKS2.php 1 -
+/images/al277.php 6 www.drfarendra.com
+/infos.php 6 www.drfarendra.com
+/components/RxR_1568291019.php 1 -
+/modules/up.php 4 www.drfarendra.com
+//mmytc.php 6 www.drfarendra.com
+//wp-content/themes/margreetalgra/404.php 6 www.drfarendra.com
+/administrator/templates/bluestork/index.php 1 -
+//m.php 5 -
+//error.php 3 -
+/index.php 40 -
+/wp-data.php 6 www.drfarendra.com
+/templates/protostar/index.php 1 -
+//default_component.php 5 -
+//libraries/joomla/juser.php 3 -
+/admin/ 2 -
+/modules/mod_bookmark/helper.php 6 www.drfarendra.com
+//al277.php 10 www.drfarendra.com
+/up.asp 2 www.drfarendra.com
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 16 -
+/sql.php 8 www.drfarendra.com
+/templates/system/index.php 1 -
+/images/defau1t.php 6 www.drfarendra.com
+//images/p.php 5 -
+/adminside/server/php/ 12 -
+/wp-content/plugins/cherry-plugin/admin/import-export/XAttacker.php 3 www.drfarendra.com
+/tinybrowser/upload.php 3 -
+/wp-info.php 1 -
+/server/php/files/ddd.php 1 -
+/modules/vtemskitter/img/HolaPresME_69422.php 1 -
+/tmp/setting.php 3 -
+/images/upxx.php 3 -
+/madspotshell.php 8 www.drfarendra.com
+/images/ 1 -
+//css.php 5 -
+//up14.php 5 -
+/wp-content/plugins/barclaycart/uploadify/jsspwned.php 1 -
+/authenticating.php 6 www.drfarendra.com
+/assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//goog1es.php 10 www.drfarendra.com
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/jsspwned.php 1 -
+//root.php 2 -
+/tmp/sfx.php 3 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 3 -
+//4f.php 1 -
+/templates/beez3/error.php 1 -
+/functions.php 6 www.drfarendra.com
+//wp-content/plugins/caches.php 6 www.drfarendra.com
+/info.php 3 -
+/WSO.php 8 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/info.php 3 www.drfarendra.com
+//w.php 1 -
+//bypass.php 2 -
+/ajax/api/hook/decodeArguments 5 -
+/wp-content/plugins/showbiz/temp/update_extract/XAttacker.php 3 www.drfarendra.com
+/vendors/animate-css/animate.css 52 http://drfarendra.com/
+/components/com_sexycontactform/fileupload/ 2 -
+/modules/pk_vertflexmenu/ajax/upload.php 3 -
+//wp-content/bk.php 6 www.drfarendra.com
+/elements.php 6 www.drfarendra.com
+//update.php 10 www.drfarendra.com
+/wp-content/uploads/i-dump-uploads//jsspwned.php 1 -
+/js/ajax.js 1 drfarendra.com
+/wp-content/themes/centum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//images/robots.txt.php 10 www.drfarendra.com
+/sites/default/files/xo.php 5 -
+/forums/ 3 -
+//vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+/actions/photo_uploader.php 3 -
+/wso.php 19 -
+/wp-content/uploads/lo.php 3 www.drfarendra.com
+/magento_version 1 -
+//modules/mod_bookmark/helper.php 6 www.drfarendra.com
+//wp-content/uploads/D26pQA.php 1 -
+/wp-content/uploads/assignments/shell.php.php 3 -
+/wp-content/uploads/user_uploads/test/jsspwned.php 2 -
+/README.txt 1 -
+//components/Raiz0WorM_1568808317.php 1 -
+/wp-content/uploads/wpmp-previews/jsspwned.php 1 -
+/wp/wp-admin/05931467.php 5 -
+/hh.php 3 -
+/modules/pk_flexmenu/ajax/upload.php 3 -
+/wp/wp-includes/wlwmanifest.xml 78 -
+/wp-content/uploads/wysija/themes/v5wysija/jsspwned.php 1 -
+/r3x.php 6 www.drfarendra.com
+/font-awesome/less/post.php 5 -
+/wp-content/_input_3.php5 3 www.drfarendra.com
+/cracker.php 8 www.drfarendra.com
+//images/upxx.php 5 -
+/blog/administrator/index.php 7 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 5 -
+//error_log.php 1 -
+/public/js/plugins/imgsurfer/main.php 6 -
+/admin 3 -
+/webdav/shell.php 3 www.drfarendra.com
+/indoxploit.php 7 www.drfarendra.com
+/sitemap.xml 1 -
+/error.php 1 -
+/components/common.php 3 www.drfarendra.com
+/admin/products/db.php 2 www.drfarendra.com
+/hacked.php 8 -
+//active.php 5 -
+/modules/pk_flexmenu/uploads/HolaPresME_67337.php 1 -
+//mide.php 5 -
+/auithorze.php 3 -
+/cache/cache.php 2 www.drfarendra.com
+//language/en-GB/rnnvhs.php 6 www.drfarendra.com
+/wp-content/uploads/wpstorecart/jsspwned.php 1 -
+//x.php 5 -
+/images/biblestudy/media/upload.php 3 www.drfarendra.com
+/scripts/jquery/kcfinder/upload/files/up.php.jd 5 -
+/wp-content/plugins/wp-simple-cart/request/simple-cart-upload.php 1 -
+/repository/shell.php 2 www.drfarendra.com
+/wp-content/plugins/easyrotator-for-wordpress/b.php 4 www.drfarendra.com
+/mail.html 8 http://drfarendra.com/
+//modules/mod_simplefileuploadv1.3/elements/HdsamE.php 1 -
+/wp-content//plugins//formcraft//file-upload//server//php//files//info.php 3 www.drfarendra.com
+/sh3ll.php 8 www.drfarendra.com
+/vendors/nice-select/css/nice-select.css 55 http://drfarendra.com/
+/modules/pk_vertflexmenu/uploads/HolaPresME_67337.php 1 -
+/modules/columnadverts/slides/HolaPresME_69422.php 1 -
+/wp-includes/js/jquery/jquery.js 2 -
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__ubgih.php 1 -
+/tmp/guide.php 3 -
+/wp-content/plugins/cherry-plugin/admin/import-export/info.php 3 www.drfarendra.com
+/kk.php 3 -
+//cache/cache_aqbmkwwx.php 10 www.drfarendra.com
+//wp-content/advanced-cache.php 6 www.drfarendra.com
+//wp-content/plugins/wpfootes.php 16 www.drfarendra.com
+/wp-content/uploads/assignments/Raiz0_1568982140.php. 1 -
+/components/com_facileforms/libraries/jquery/up.php 3 -
+/media/editor/plugins/filemanager/inc/data.php 1 -
+/web/image/upload.php 6 -
+/admin/language/en-gb/extension/extension/shellxo.php 5 -
+//images/xxx.php 10 www.drfarendra.com
+/modules/fieldvmegamenu/uploads/HolaPresME_69422.php 1 -
+/cfg-contactform-1/inc/upload.php 6 -
+//dswat.org/wsdl.php 10 www.drfarendra.com
+/c22.php 8 www.drfarendra.com
+/wp-content/uploads/settingsimages/jsspwned.php 1 -
+/SessionController.php 6 www.drfarendra.com
+/E.php 3 -
+/downloads/dom.php 8 www.drfarendra.com
+/components/com_hdflvplayer/hdflvplayer/download.php 4 -
+/dswat.org/wsdl.php 6 www.drfarendra.com
+/configbak.php 6 www.drfarendra.com
+//administrator/includes/rnnvhs.php 6 www.drfarendra.com
+//wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 2 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/robot.php 6 www.drfarendra.com
+//wp-coments.php 3 -
+//nFQKS2.php 1 -
+//wp-content/plugins/upspy/sllolx.php 2 -
+//images/clean.php 3 -
+/wp-content/themes/sidepane/themify/themify-ajax.php 1 -
+//oss.php 3 -
+/wp-admin/admin-ajax.php 23 http://www.drfarendra.com/wp-admin/admin-ajax.php
+/editor/plugins/filemanager/inc/izo.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__ubgih.php 1 -
+/xmlsrpc.php 6 www.drfarendra.com
+//wp-content/plugins/Analyser.php 10 www.drfarendra.com
+/wp-content/info.php 2 www.drfarendra.com
+/b374k.php 8 www.drfarendra.com
+/wp-admin/83091746.php 5 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 6 -
+/d00.php 8 www.drfarendra.com
+/media/css.php 3 -
+/user/ 2 -
+//modules/mod_simplefileuploadv1.3/elements/wQPewt.php 1 -
+/js/tinymce/plugins/imgsurfer/main.php 1 -
+/A.php 6 www.drfarendra.com
+/templates/rhuk_milkyway/index.php 1 -
+/public/js/plugins/imgsurfer/imglist.php 1 -
+/wp_logns.php 3 -
+/pdf/ 1 -
+/database.php 8 www.drfarendra.com
+/gaza.php 8 -
+/upload.php 3 -
+//images/laj.php 10 www.drfarendra.com
+/Marvins.php 1 -
+//bk.php 6 www.drfarendra.com
+/oss.php 3 -
+/tinymce/plugins/imgsurfer/imglist.php 1 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 5 -
+/wp-content/themes/shopdock/themify/themify-ajax.php 1 -
+/libraries/joomla/juser.php 3 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 1 -
+/wp-includes/wp-setting.php 2 www.drfarendra.com
+//license.php 5 -
+/wp-admin/m4d.php 6 -
+/um3r.php 8 -
+/admin/ckeditor/kcfinder/upload.php 6 -
+/wp-content/plugins/sql_dump.php 6 www.drfarendra.com
+/sym.php 8 -
+/images/logo_img.php 3 -
+/.ok.php 5 -
+//cache/support.php 9 www.drfarendra.com
+/departments.html 9 -
+/AndroidFileUpload/uploads/up.php 5 -
+//wp-content/themes/Avada/404.php 1 -
+/modules/simpleslideshow/slides/HolaPresME_69422.php 1 -
+//modules/mod_simplefileuploadv1.3/elements/fGXPuX.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 3 www.drfarendra.com
+/images/head.php 6 www.drfarendra.com
+//info.php 3 -
+/scripts/jquery/kcfinder/upload.php 6 -
+/modules/mod_simplefileuploadv1.3/elements/jOwdiS.php 2 -
+//configurationbak.php.suspected 10 www.drfarendra.com
+/cache/clean.php 3 -
+/templates/protostar/error.php 1 -
+/wp-content/plugins/simple-ads-manager/jsspwned.php 1 -
+//images/defau1t.php 10 www.drfarendra.com
+/libraries/joomla/jmails.php 7 www.drfarendra.com
+/repository/index.php 2 www.drfarendra.com
+/cache/asdf.php 3 -
+//ytt.php 6 www.drfarendra.com
+//images/1ndex.php 10 www.drfarendra.com
+//b1.php 5 -
+/wp-includes/wlwmanifest.xml 75 -
+//wp-includes/css/admin-bar-rtl.php 3 -
+/images/block/ddd.php 1 -
+/admin/editor/plugins/ajaxfilemanager/inc/izo.php 1 -
+/wp-content/uploads/2019/09/ 1 -
+/modules/simpleslideshow/uploadimage.php 3 -
+/templates/atomic/error.php 1 -
+//tmp/pz.php 5 -
+/wp-content/plugins/lb-mixed-slideshow/gallery/1/jsspwned.php 1 -
+/elements.html 8 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/xsec.php 3 -
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 6 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/wp-content/jssor-slider/jssor-uploads/jsspwned.php 1 -
+//f.php 3 -
+/wp-content/uploads/settingsimages/2019/09/en/jsspwned.php 25 -
+/license.php 3 -
+/wp-content/themes/basic/themify/themify-ajax.php 1 -
+/%0A/.env 1 -
+/wp-admin/ms-site.php 3 www.drfarendra.com
+/wp-content/uploads/jsspwned.php 2 -
+/templates/beez_20/error.php 1 -
+/wp-content/plugins/ppus/up.php 1 -
+/administrator/templates/isis/error.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser//upload.php 3 www.drfarendra.com
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/jsspwned.php 1 -
+/libraries/jscripts/kcfinder/upload.php 6 -
+/wp-content/plugins/wpstorecart/php/upload.php 1 -
+//cache/asdf.php 3 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/jsspwned.php 2 -
+//imdex.php 6 www.drfarendra.com
+/wp-content//plugins//formcraft//file-upload//server//php//files//xx.php 3 www.drfarendra.com
+/wp-content/plugins/revslider/temp/update_extract/RxR__yfbce.php 1 -
+//tmp/petx.php 5 -
+/components/RxR_156779209.php 1 -
+/cache/log.php 1 -
+/wp-content/plugins/simple-ads-manager/XAttacker.php 3 www.drfarendra.com
+/cpbrute.php 8 www.drfarendra.com
+/show.php 6 www.drfarendra.com
+/sites/all/libraries/elfinder/php/connector.minimal.php 3 http://www.drfarendra.com/sites/all/libraries/elfinder/php/connector.minimal.php
+/ficheiros/conteudos/spy.txt 5 -
+/wp-includes/css/uwchwggzgh.php 5 -
+/cms/wp-includes/wlwmanifest.xml 78 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 19 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 6 -
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__rpugf.php 1 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+/wp-content/uploads/wpallimport/uploads/evil.php 3 www.drfarendra.com
+//sites/all/libraries/elfinder/files/fGXPuX.php 1 -
+//sites/all/libraries/elfinder/files/nFQKS2.php 1 -
+/gallery/ 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 4 -
+/api/file_uploader.php 3 -
+//Abbrevsprl.php 10 www.drfarendra.com
+//pols.php 6 www.drfarendra.com
+/2019/wp-includes/wlwmanifest.xml 1 -
+//components/Raiz0WorM_1568126378.php 1 -
+/wp-content/uploads/uigen_2015/jsspwned.php 1 -
+/whmcskiller.php 8 www.drfarendra.com
+//webconfig.txt.php 10 www.drfarendra.com
+/o.php 1 -
+/wp-content/plugins/custom-background/uploadify/upload.php 3 www.drfarendra.com
+/images/p.php 3 -
+/wp-content/plugins/caches.php 6 www.drfarendra.com
+/shop/wp-includes/wlwmanifest.xml 11 -
+/wp-content/plugins/webapp-builder/jsspwned.php 1 -
+/templates/beez3/index.php 6 -
+/libraries/joomla/css.php 4 -
+/components/RxR_1569444819.php 1 -
+/files/uploadify/uploadify.php 6 -
+/2015/wp-includes/wlwmanifest.xml 10 -
+/wp-content/themes/multimedia1/server/php/files/jsspwned.php 1 -
+/vehiculo_photos/server/php/files/up.php 5 -
+//wp-content/plugins/cherry-plugin/admin/import-export/upload.php 2 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__ptmlx.php 1 -
+/wp-content/_input_3_raiz0.php5 3 -
+/vb5/js/ajax.js 1 drfarendra.com
+/XxX.php 3 -
+/images/jdownloads/screenshots/rxrking.php3.g 4 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 1 -
+/libraries/joomla/go.php 3 -
+/images/vuln2.php 3 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+//administrator/dbconfig.php 10 www.drfarendra.com
+/server/php/ 6 -
+//wp-main.php 10 www.drfarendra.com
+//up.php 5 -
+/wp-admin/install.php 1 -
+/wp-content/plugins/zen-mobile-app-native/jsspwned.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 80 -
+/wp-content/plugins/wp-property/third-party/uploadify/jsspwned.php 1 -
+/wp-content/payload3.php 3 -
+/tmp/mad.php/tmp/1.php 8 -
+/images/robots.txt.php 6 www.drfarendra.com
+/files/files.php 6 www.drfarendra.com
+/roubt.php 6 www.drfarendra.com
+/modules/columnadverts/uploadimage.php 6 -
+/modules/vtemslideshow/slides/HolaPresME_67337.php 1 -
+/assets/tinymce/plugins/imgsurfer/main.php 6 -
+//wp-content/themes/zerif-lite/404.php 2 -
+/wp-content/uploads/Fbrrchive.php 6 www.drfarendra.com
+//v.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/wQPewt.php 1 -
+//hh.php 5 -
+/assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/fGXPuX.php 1 -
+//libraries/joomla/jmails.php 9 -
+//wp-admin/network/rnnvhs.php 12 www.drfarendra.com
+/wp-admin/admin.php 3 -
+//setting.php 3 -
+/Fp7524.php 1 -
+//head.php 6 www.drfarendra.com
+/components/com_jbcatalog/libraries/jsupload/ 4 -
+/administrator/templates/hathor/error.php 1 -
+/images/payload.php 3 -
+/templates/beez_20/index.php 1 -
+//wp-admin/install.php 1 -
+//modules/mod_simplefileuploadv1.3/elements/D26pQA.php 1 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 7 -
+/cms/wp-content/plugins/freedom/post.php 5 -
+//lou-bna.php 3 -
+//reasdme.php 3 -
+/sites/default/files/shell.php 5 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/wp-content/uploads/product_files/jsspwned.php 1 -
+//wp-admin/includes/rnnvhs.php 6 www.drfarendra.com
+/kcfinder-2.51/upload/files/priv.php.jd 1 -
+//wp-content/themes/gaukingo/db.php 1 -
+/wp-content/uploads/wpstorecart/lo.php 3 www.drfarendra.com
+/tmp/payload2.php 3 -
+/images/jdownloads/screenshots/spy.html.j 3 www.drfarendra.com
+/tinymce/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/jsspwned.php 2 -
+/wp-content/themes/parallax/themify/themify-ajax.php 1 -
+/errors.php 1 drfarendra.com
+//robot.php 10 www.drfarendra.com
+/components/com_facileforms/libraries/jquery/uploadify.php 3 -
+/resource/source/shell.php 3 -
+/zibi.php 3 -
+//big.php 1 -
+/cache/support.php 6 www.drfarendra.com
+//wp-content/uploads/wQPewt.php 1 -
+/components/ 3 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 2 -
+//content.php 6 www.drfarendra.com
+/admin/js/tinymce/plugins/imgsurfer/main.php 1 -
+/admin/libraries/ajaxfilemanager/inc/izo.php 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 2 -
+/modules/bamegamenu/HolaPresME_60376.php 4 -
+/wp-content/plugins/SocketIontrol.php 6 www.drfarendra.com
+//nowayfile.php 3 -
+/admin/js/plugins/elfinder/files/ 3 www.drfarendra.com
+/user/login 3 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 4 -
+/wp-content/plugins/dzs-videowhisper/upload.php 1 -
+/vbulletin5/ 3 -
+/joomla/ 2 -
+/files/conn.php 6 www.drfarendra.com
+/c100.php 8 www.drfarendra.com
+/wp-content/themes/ut-strange/addpress/includes/upload.php 3 www.drfarendra.com
+/dz.php 13 www.drfarendra.com
+/vBulletin/js/ajax.js 1 drfarendra.com
+//uploadify/uploadify.php 5 http://www.drfarendra.com//uploadify/uploadify.php
+/r00t.php 8 -
+//ws0.php 5 -
+//wp-content/themes/dw-minion/404.php 1 -
+//zeubda.php 3 -
+//cli/40dd1d.php 10 www.drfarendra.com
+/sites/all/libraries/elfinder/files/Fp7524.php 1 -
+/vendor_extra/elfinder/php/connector.minimal.php 6 -
+/administrator/index.php 10 -
+//SessionController.php 10 www.drfarendra.com
+/assets/ckeditor/kcfinder/upload.php 6 -
+/wp-content/plugins/easyrotator-for-wordpress/a.php 6 www.drfarendra.com
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/helpdesk/media/editor/plugins/filemanager/inc/data.php 1 -
+//wp-content/plugins/sql_dump.php 10 www.drfarendra.com
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/website/wp-includes/wlwmanifest.xml 11 -
+/install.php 7 www.drfarendra.com
+/wp-content/themes/rarebird/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//cache/defau1t.php 10 www.drfarendra.com
+/components/versions.php 3 www.drfarendra.com
+/Abbrevsprl.php 6 www.drfarendra.com
+/wso24.php/ 8 -
+//wp-admin/admin-ajax.php 12 http://www.drfarendra.com//wp-admin/admin-ajax.php
+/tmp/upxx.php 3 -
+/infusions/mp3player_panel/upload.php 5 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/nFQKS2.php 1 -
+//install.php 10 www.drfarendra.com
+/wp-content/plugins/radykal-fancy-gallery/admin/jsspwned.php 1 -
+/modules/pk_flexmenu/uploads/HolaPresME_69422.php 1 -
+/jobseeker_document.php 3 www.drfarendra.com
+/modules/wg24themeadministration/img/upload/HolaPresME_60376.php 1 -
+/modules/fieldvmegamenu/uploads/root.php 2 www.drfarendra.com
+//includes/u2p.php 10 www.drfarendra.com
+/wp-content/plugins/shell.php 5 -
+/setting.php 3 -
+//languages/rnnvhs.php 6 www.drfarendra.com
+/active.php 3 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 2 -
+/templates/up.php 2 www.drfarendra.com
+/wp-content/plugins/revslider/temp/update_extract/revslider/up.php 3 www.drfarendra.com
+/wp-content/plugins/mobile-app-builder-by-wappress/jsspwned.php 1 -
+/installation/index.php 1 -
+/modules/bamegamenu/HolaPresME_69422.php 4 -
+//E.php 5 -
+//wp-content/plugins/three-column-screen-layout/db.php 2 -
+/cv.php 3 -
+/forum/register.php 1 -
+/includes.php 6 www.drfarendra.com
+/wp-content/uploads/assignments/shell.php 3 www.drfarendra.com
+/editor/plugins/filemanager/inc/data.php 1 -
+/blog.html 7 http://www.drfarendra.com/
+/wp-content/plugins/dzs-zoomsounds/admin/upload/jsspwned.php 2 -
+/dam.php 8 -
+/root.php 10 -
+/wp-includes/css/xx.php 5 -
+/templates/jsstrings.php 2 www.drfarendra.com
+/wp-includes/wp-footer.php 3 www.drfarendra.com
+/wp-admin/ 1 -
+/wp-content/plugins/woocommerce-product-options/includes/image-upload.php 4 -
+//images/al277.php 10 www.drfarendra.com
+/wp-content/plugins/showbiz/temp/update_extract/jsspwned.php 1 -
+/libraries/respectMuslims.php 3 -
+/go.php 3 -
+/modules/mod_simplefileuploadv1.3/elements/cloudxv3.php 3 www.drfarendra.com
+/wp-content/404.php 3 www.drfarendra.com
+/wp-content/plugins/social-networking-e-commerce-1/classes/views/social-options/form_cat_add.php 1 -
+//media/css.php 5 -
+//u.php 5 -
+/templates/beez/index.php 1 -
+//libraries/joomla/css.php 5 -
+/admin/modules/bibliography/pop_attach.php 4 www.drfarendra.com
+/wsdl.php 6 www.drfarendra.com
+/wp-admin/options-general.php 1 -
+//wp-content/plugins/SocketIasrgasfontrol.php 10 www.drfarendra.com
+/wp-content/themes/magazine/themify/themify-ajax.php 1 -
+/blog/wp-includes/wlwmanifest.xml 78 -
+/wp-login.php/wp-login.php 1 -
+//cache/wcache7675n.PHP 6 www.drfarendra.com
+/wp-admin/92041853.php 5 -
+/wp-content/themes/beach_apollo/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+//bgeiis.php 4 www.drfarendra.com
+/single-blog.html 7 -
+/wp-content/uploads/pica-photo-gallery/info.php 4 -
+/assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/wp-symposium/server/php/UploadHandler.php 3 -
+//elements.php 10 www.drfarendra.com
+/modules/vtemslideshow/slides/HolaPresME_69422.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/info.php 3 www.drfarendra.com
+/wp-content/themes/agency/themify/themify-ajax.php 1 -
+//cache/news.php 10 www.drfarendra.com
+//codd.php 6 www.drfarendra.com
+//shootme.php 28 www.drfarendra.com
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/modules/vtemslideshow/slides/HolaPresME_60376.php 1 -
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__isumj.php 1 -
+/templates/beez5/error.php 1 -
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 1 -
+/wp-content/themes/konzept/includes/uploadify/xsec.php 3 www.drfarendra.com
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 5 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 5 www.drfarendra.com
+/wp-content/plugins/wp-simple-cart/files/$uploadfolder/temporary/jsspwned.php 1 -
+/killer.php 8 -
+//wp-content/themes/_input_3_lol.php.00 3 -
+/docs/ 1 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/index.php 1 -
+/olux.php 6 -
+/bin/logo.php 1 -
+//sites/all/libraries/elfinder/files/wQPewt.php 1 -
+/shootmei.php 6 www.drfarendra.com
+/modules/soopamobile/uploadimage.php 3 www.drfarendra.com
+/cache/list.php 6 www.drfarendra.com
+//sqlbak.php 10 www.drfarendra.com
+/shootme.php 6 www.drfarendra.com
+/wp-content/themes/dolomitisales/shell.php 5 -
+/wp-content/plugins/Analyser.php 6 www.drfarendra.com
+/images/sym.php 3 -
+/templates/ja_purity/index.php 1 -
+/user/register 1 -
+//go.php 5 -
+/shelled.php 8 -
+/wp47/ 2 -
+/vendors/owl-carousel/owl.carousel.min.css 54 http://drfarendra.com/
+/wp-content/plugins/wpfootes.php 6 www.drfarendra.com
+/cpn.php 8 www.drfarendra.com
+//images/xxu.php 5 -
+/098.php 1 -
+//wp-content/uploads/2018/01/Raiz0__isumj.php 1 -
+/wp-content/themes/fullpane/themify/themify-ajax.php 1 -
+/libraries/joomla/jmail.php 4 -
+//by.php 3 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/uploads/jsspwned.php 2 -
+/vendors/counter-up/jquery.counterup.js 79 http://drfarendra.com/
+/wp-content/themes/fullscreen/themify/themify-ajax.php 1 -
+/user.php 8 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/bin/logo_img.php 3 -
+//wp-data.php 10 www.drfarendra.com
+/tpl/plugins/upload9.1.0/server/php/ 18 -
+/wp-content/plugins/uploader/uploadify/uploadify.php 3 www.drfarendra.com
+/images/xxx.php 6 www.drfarendra.com
+/h4xor.php 8 -
+/robots.txt.php 6 www.drfarendra.com
+/sites/all/libraries/elfinder/files/jOwdiS.php 2 -
+//sql_dump.php 10 www.drfarendra.com
+//wp-admin/users.php 6 www.drfarendra.com
+/administrator/templates/isis/index.php 1 -
+//libraries/joomla/wso.php 5 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 1 -
+//wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 6 www.drfarendra.com
+/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/admin/editor/plugins/filemanager/inc/izo.php 1 -
+/templates/atomic/index.php 9 -
+//log.php 10 www.drfarendra.com
+/wp-content/themes/MoneyTheme/uploads/upload.php 1 -
+/content.php 6 www.drfarendra.com
+//roubt.php 6 www.drfarendra.com
+//wp-content/plugins/revslider/temp/update_extract/D26pQA.php 1 -
+//libraries/joomla/1ndex.php 6 www.drfarendra.com
+/wp-content/uploads/product_files/upload.php 3 -
+/libraries/joomla/zipy.php 3 -
+/webconfig.txt.php 6 www.drfarendra.com
+/wp-content/themes/thememin/themify/themify-ajax.php 1 -
+//shell.php 3 -
+/images/xxu.php 3 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 5 -
+/1.php 10 -
+/cache/defau1ts.php 2 www.drfarendra.com
+/cache/news.php 6 www.drfarendra.com
+/admin/login.php 34 -
+/admin/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/libraries/joomla/1ndex.php 6 www.drfarendra.com
+//google-assist.php 10 www.drfarendra.com
+/media/1ndex.php 6 www.drfarendra.com
+/wp-content/plugins/ubh/index.php 1 -
+//wp-content/uploads/2018/01/Raiz0__ptmlx.php 1 -
+/404.php 8 www.drfarendra.com
+/components/com_foxcontact/_func.php 4 -
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__ptmlx.php 1 -
+//sites/all/libraries/elfinder/php/connector.minimal.php 5 http://www.drfarendra.com//sites/all/libraries/elfinder/php/connector.minimal.php
+/.git/HEAD 1 -
+/editor/plugins/filemanager/ajax_create_folder.php 5 -
+/wp-content/uploads/wysija/themes/rock/payload3.php 3 -
+/wp-content/themes/betheme/muffin-options/fields/upload/field_upload.php 1 -
+/upel.php 1 -
+/update.php 6 www.drfarendra.com
+/wp-includes/upgrade/theme-compat/popup-pomo.php 3 -
+/wp-content/themes/pinboard/uploads/jsspwned.php 1 -
+/modules/pk_vertflexmenu/uploads/HolaPresME_60376.php 1 -
+//cache/list.php 10 www.drfarendra.com
+/wp-content/plugins/downloads-manager/upload/jsspwned.php 1 -
+/wp-content/plugins/SocketIasrgasfontrol.php 6 www.drfarendra.com
+//ku.php 3 -
+//dcodzu.php 6 www.drfarendra.com
+/sym3.php 8 www.drfarendra.com
+/wp-content/2.php 3 www.drfarendra.com
+/sqlbak.php 6 www.drfarendra.com
+//cache/clean.php 5 -
+/wp-content/themes/suco/uploads/upload.php 3 www.drfarendra.com
+/cpanel.php 8 www.drfarendra.com
+//cv.php 3 -
+/tinymce/plugins/imgsurfer/main.php 7 -
+/sites/default/files/payload3.php 3 -
+//robots.txt.php 10 www.drfarendra.com
+/ads.txt 1 -
+/new/wp-content/plugins/freedom/post.php 5 -
+/js/ckeditor/kcfinder/upload.php 6 -
+//feal.php 2 -
+/auth.php 1 -
+/tmp/vuln.php 4 -
+//ny.php 5 -
+//images/rnnvhs.php 6 www.drfarendra.com
+/wp-content/uploads/catpro/upload.php 3 www.drfarendra.com
+//show.php 10 www.drfarendra.com
+/components/com_b2jcontact/common.php 3 -
+/wp/ 15 -
+/wp-content/plugins/pitchprint/uploader/ 1 -
+/wp-content/plugins/dzs-videowhisper/upload/jsspwned.php 1 -
+/admin/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/modules/columnadverts/slides/HolaPresME_67337.php 1 -
+/configurationbak.php 6 www.drfarendra.com
+//fGXPuX.php 1 -
+/cli/40dd1d.php 6 www.drfarendra.com
+/images/info.php 3 www.drfarendra.com
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+/wp-content/satoshi/images/jsspwned.php 1 -
+//media/wso.php 3 -
+//wQPewt.php 1 -
+//modules/modules/modules.php 6 www.drfarendra.com
+//webconfig.txt.php.suspected 10 www.drfarendra.com
+/admin/products/shell.php 2 www.drfarendra.com
+//wp-content/plugins/SocketIontrol.php 10 www.drfarendra.com
+/wp-content/uploads/jOwdiS.php 2 -
+//nktt.php 5 -
+/bookmark.php 6 www.drfarendra.com
+/anon.php 8 -
+/smiley/1.gif 3 -
+//sqldebug.php 6 www.drfarendra.com
+/wp-content/uploads/wysija/themes/Master/un.php 2 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+/vendors/linericon/style.css 51 http://drfarendra.com/
+/shell.php 44 -
+/admin/images/cal_date_over.gif 34 -
+/libraries/shellxo.php 5 -
+/language/en-GB/en-GB.xml 9 -
+//images/w0rm.php 5 -
+/activation.php 1 -
+//wp_logns.php 5 -
+/admin/editor/plugins/filemanager/inc/data.php 1 -
+/modules/simpleslideshow/slides/HolaPresME_67337.php 1 -
+/m.php 5 -
+/admin/test/systemProperties.jsp 3 www.drfarendra.com
+/wp-content/plugins/wp-footers.php 6 www.drfarendra.com
+//images/wp-mail.php 5 -
+/cache/aqbmkwwx.php 2 www.drfarendra.com
+/mide.php 3 -
+/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 5 -
+//modules/mod_simplefileuploadv1.3/elements/udd.php 5 http://www.drfarendra.com//modules/mod_simplefileuploadv1.3/elements/udd.php
+/blog/ 13 -
+/reasdme.php 3 -
+/sites/default/files/up.php 3 -
+/AndroidFileUpload/fileUpload.php 6 -
+//wp-content/plugins/Fbrrchive.php 10 www.drfarendra.com
+/site/tmp/cTivrC.php 6 www.drfarendra.com
+/manager/index.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__isumj.php 1 -
+/tmp.php 12 www.drfarendra.com
+//wp-content/uploads/fGXPuX.php 1 -
+/wp-content/plugins/Fbrrchive.php 6 www.drfarendra.com
+/wp-content/index.php 3 www.drfarendra.com
+/2017/wp-includes/wlwmanifest.xml 10 -
+/assets/uploadify/uploadify.php 5 -
+/xup.php 3 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 1 -
+/wp-content/plugins/upspy/index.php 1 -
+/wp-content/uploads/ 2 -
+//administrator/webconfig.txt.php 10 www.drfarendra.com
+//tmp/sfx.php 5 -
+/tmp/bogel.php 3 -
+/admin/info.php 2 www.drfarendra.com
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-white/designit/cs/uploadImage/$uploadfolder/jsspwned.php 1 -
+//wp-content/plugins/wp-cache.php 10 www.drfarendra.com
+/modules/fieldvmegamenu/uploads/HolaPresME_67337.php 1 -
+//lil.php 1 -
+/components/Raiz0WorM_1567608512.php 1 -
+//images/interface.php 6 www.drfarendra.com
+//keep.php 6 www.drfarendra.com
+/cloud.php 2 www.drfarendra.com
+//wp-content/plugins/revslider/temp/update_extract/HdsamE.php 1 -
+/al277.php 6 www.drfarendra.com
+/wp-content/plugins/akismet/akismet.php 8 -
+//XxX.php 2 -
+//tmp/guide.php 5 -
+/zebda.php 3 -
+//M-J!r4ya-F4r3s.php 6 www.drfarendra.com
+/wp-content/themes/folo/uploads/upload.php 3 www.drfarendra.com
+//configbak.php 10 www.drfarendra.com
+/libraries/joomla/wso.php 3 -
+/error-log.php 6 www.drfarendra.com
+//wp-content/plugins/morepaddy.php 6 www.drfarendra.com
+/wp-content/plugins/zen-mobile-app-native/server/images.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 2 -
+/assets/global/plugins/jquery-file-upload/server/php/ 11 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 172
+51.89.239.211 22 22 554048 20190929163021
+216.10.241.54 20 20 1556 20190910005326
+147.135.167.211 16 16 402944 20190914185027
+34.76.227.142 8 24 217128 20190913205807
+51.68.125.189 8 8 201472 20190914104308
+104.211.22.104 6 6 151104 20190921205033
+35.239.234.36 6 6 151104 20190908160054
+212.83.173.129 6 6 151104 20190919111951
+103.250.142.245 6 6 151104 20190903230930
+37.59.75.130 6 6 151104 20190925182914
+103.250.142.137 6 6 151104 20190922115038
+18.197.227.110 5 5 435 20190910005327
+66.133.109.36 5 5 435 20190910005328
+41.141.117.167 5 5 51988 20190927231443
+158.69.225.33 5 5 114422 20190920044837
+3.14.255.131 5 5 435 20190910005327
+196.65.234.197 4 4 100736 20190905094529
+196.75.40.77 4 4 26804 20190912134639
+34.97.235.115 4 4 26804 20190920122945
+196.127.82.61 4 4 100736 20190913002109
+185.81.157.31 4 4 100736 20190923144543
+67.214.104.177 4 4 100736 20190916173835
+34.70.118.106 4 4 26804 20190918183726
+91.219.236.134 4 4 100736 20190908095617
+69.58.178.58 4 4 21368 20190911155837
+185.246.210.139 2 2 50368 20190927192058
+85.10.207.246 1 1 25184 20190911070405
+217.61.19.234 3 3 57069 20190929203910
+105.159.37.146 1 1 25184 20190918131204
+31.202.101.40 1 1 25184 20190904235853
+192.210.133.5 2 2 50368 20190912231415
+27.115.124.3 0 2 3062 
+159.89.32.141 1 1 25184 20190926054315
+27.115.124.4 0 4 33828 
+69.171.251.10 1 10 300102 20190912105953
+62.4.14.198 2 2 50368 20190914115424
+193.70.34.209 3 3 20103 20190919194327
+35.224.153.36 2 2 50368 20190914014652
+196.65.246.5 2 2 50368 20190915083306
+106.207.176.69 2 23 1026160 20190907151222
+196.75.2.198 2 2 13402 20190910145839
+196.74.174.120 1 1 25184 20190912221110
+54.202.253.200 1 1 6701 20190924000315
+37.120.217.26 1 1 25184 20190909014950
+185.81.157.154 2 2 50368 20190903205141
+54.80.167.137 2 2 13402 20190911150726
+41.104.111.195 2 2 50368 20190907160408
+195.154.61.206 1 1 25184 20190911110617
+54.39.245.135 1 1 25184 20190919122235
+3.214.21.251 1 1 6701 20190911072022
+66.102.6.197 1 2 7968 20190912143353
+46.105.99.163 1 1 6701 20190930045734
+64.246.165.170 1 1 6701 20190907042933
+69.171.251.46 0 12 783693 
+54.39.11.194 2 2 50368 20190913215652
+82.80.249.155 0 1 1284 
+40.87.125.220 3 3 75552 20190926135430
+197.14.159.35 1 1 6701 20190903142047
+5.181.234.172 2 2 50368 20190907161950
+207.182.136.170 1 1 25184 20190929191422
+101.4.60.123 0 9 92945 
+101.4.60.124 0 5 28363 
+102.139.243.246 1 1 6701 20190905200517
+154.233.171.104 2 2 13402 20190904125004
+185.93.3.114 1 1 25184 20190910054019
+105.158.222.206 2 2 50368 20190914202345
+82.80.249.163 0 3 109768 
+160.179.160.196 1 1 25184 20190918102742
+54.149.66.228 1 1 6701 20190926140556
+34.212.108.127 1 1 6701 20190904024210
+52.12.175.63 1 1 6701 20190925203852
+54.218.61.6 1 1 6701 20190908001341
+34.209.218.95 1 1 6701 20190906001736
+51.15.191.81 2 2 50368 20190911121413
+34.216.142.230 1 1 6701 20190907000346
+38.121.232.74 3 3 38586 20190915201333
+117.215.79.16 4 46 1687228 20190903033609
+35.162.246.121 1 1 6701 20190920001225
+101.4.60.63 0 4 1806 
+54.229.16.110 1 1 6701 20190905215609
+52.174.120.228 4 4 100736 20190914064242
+54.244.102.139 1 1 6701 20190911001247
+84.17.61.23 1 1 25184 20190920040334
+18.191.203.177 1 1 6701 20190903210708
+51.15.153.72 4 4 100736 20190920141230
+82.80.249.211 1 1 6701 20190907012802
+62.4.14.206 1 1 25184 20190911133156
+165.22.32.100 1 1 25184 20190921032534
+217.182.16.82 3 3 75552 20190903045942
+111.7.100.24 0 8 314296 
+3.87.105.131 1 1 6701 20190916014048
+197.14.154.231 1 1 6701 20190904180338
+67.214.104.176 4 4 100736 20190916111807
+83.169.227.230 1 1 25184 20190918094303
+51.15.124.33 1 1 6701 20190922075620
+69.171.251.12 0 13 270602 
+27.115.124.5 0 1 0 
+62.210.89.11 1 1 6701 20190912164015
+31.184.215.241 2 2 13402 20190914142302
+111.7.100.26 1 22 970060 20190917225023
+52.37.43.189 1 1 6701 20190919023749
+207.102.138.11 1 1 6701 20190921035219
+54.202.156.250 1 1 6701 20190902021903
+54.187.32.48 1 1 6701 20190901024141
+82.80.249.204 0 3 7523 
+83.34.29.77 1 9 93897 20190903221724
+91.134.154.170 1 1 25184 20190912220010
+212.162.149.69 2 2 50368 20190901064616
+50.7.234.242 1 1 25184 20190930133144
+92.119.160.72 2 2 50368 20190922112406
+148.251.151.235 2 2 50368 20190930225022
+38.132.124.169 1 1 25184 20190905101348
+18.217.223.118 1 1 25184 20190915173343
+111.7.100.27 0 3 65161 
+185.93.3.111 1 1 25184 20190910001919
+104.198.197.96 1 1 25184 20190915034544
+35.167.98.67 1 1 6701 20190918001217
+175.111.128.166 1 1 25184 20190926090503
+178.62.82.141 3 3 17458 20190929001832
+34.68.188.122 1 1 6701 20190928004906
+93.90.201.197 2 2 50368 20190914154235
+23.226.211.147 1 1 25184 20190917153939
+82.80.249.164 0 3 2349398 
+82.80.249.159 3 6 78113 20190907012843
+185.104.184.103 1 1 25184 20190911093128
+37.120.145.94 1 1 25184 20190925151240
+54.185.151.73 1 1 6701 20190923042007
+94.122.209.252 3 3 75552 20190926133343
+82.80.230.228 0 17 961417 
+82.80.249.143 0 1 1209 
+160.179.68.21 4 4 26804 20190906183948
+54.242.181.225 1 1 6701 20190915224642
+23.239.180.192 1 1 25184 20190919022056
+38.100.53.82 4 5 259658 20190906004950
+196.64.208.253 1 1 25184 20190926165853
+104.45.128.122 1 1 25184 20190921035720
+74.208.40.161 2 2 50368 20190908210922
+64.246.165.210 1 1 6701 20190929044614
+101.4.60.64 0 2 8210 
+185.254.68.84 1 1 25184 20190926183343
+204.101.161.159 2 35 1378347 20190917183142
+23.239.180.175 0 1 1267 
+52.43.221.27 1 1 6701 20190922001131
+104.132.20.70 2 36 1361098 20190905071644
+5.188.62.5 2 2 13402 20190928210102
+27.115.124.2 0 7 26010 
+207.102.138.158 2 13 244964 20190917171525
+217.170.202.237 1 1 6701 20190930063838
+35.225.59.66 3 3 75552 20190922175635
+101.51.243.152 1 1 25184 20190929192657
+105.67.128.147 2 2 50368 20190908160843
+157.230.190.77 2 2 50368 20190922202607
+46.105.99.212 1 1 6701 20190928160531
+54.38.183.107 1 1 6701 20190914082432
+103.110.91.155 1 1 25184 20190909164639
+119.82.253.6 1 1 6701 20190927003636
+160.178.231.131 4 4 26804 20190918111106
+34.209.82.148 1 1 6701 20190916000930
+34.222.229.130 3 3 261 20190910005328
+18.237.40.1 1 1 6701 20190929213201
+35.237.151.14 2 2 50368 20190919165300
+36.84.0.44 4 4 100736 20190909054748
+185.191.228.133 1 1 6701 20190906081215
+18.236.79.74 1 1 6701 20190913000948
+36.72.128.215 1 1 6701 20190904145232
+34.217.88.202 1 1 6701 20190910035148
+69.171.251.38 1 1 6701 20190912105951
+82.80.249.157 0 2 96513 
+51.77.246.205 2 35 1359831 20190922035357
+111.7.100.25 1 6 96696 20190917225028
+27.56.249.117 3 38 1430918 20190927162841
+35.203.245.181 1 12 154552 20190915142824
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190901 11 11 221575 5
+20190902 5 5 107437 3
+20190903 19 69 2096735 10
+20190904 10 10 159425 8
+20190905 15 49 1651524 8
+20190906 10 11 299864 4
+20190907 12 66 4752224 7
+20190908 17 17 409645 7
+20190909 9 9 208173 5
+20190910 43 43 73593 9
+20190911 14 14 217759 11
+20190912 15 50 1560376 10
+20190913 16 32 381634 6
+20190914 28 28 649703 15
+20190915 10 21 344242 8
+20190916 6 6 114138 4
+20190917 9 90 3145076 6
+20190918 12 14 156752 6
+20190919 8 9 165773 6
+20190920 13 20 279231 5
+20190921 7 11 169918 5
+20190922 17 50 1700625 7
+20190923 5 9 150573 2
+20190924 1 5 8723 1
+20190925 8 8 182989 3
+20190926 11 20 309110 8
+20190927 11 48 1548185 4
+20190928 3 3 20103 3
+20190929 24 24 490873 7
+20190930 4 6 65301 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 3
+0s-30s 170
+30mn-1h 1
+15mn-30mn 2
+5mn-15mn 7
+30s-2mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ 311 5946958 178 171
+/about-us.html 10 59820 2 3
+/fonts/fontawesome-webfont.woff2 7 503272 2 5
+/contact.html 5 27763 0 1
+/.well-known/acme-challenge/bgj77eY4HRjShGX39TzOwm8_unYsEitT3IMVIRTAvUc 4 348 0 1
+/.well-known/acme-challenge/_bX7sOA7ZQ8hW9fIWKftV26XotmcDZi0ilLAd8RYWVg 4 348 0 0
+/.well-known/acme-challenge/uiee4yePtVZjFQymFp3MlirxsyY-tkSCNJNJmnhLxHQ 4 348 0 0
+/.well-known/acme-challenge/n339u2uvYpkM2TorEXaKNhCcLMCTiidgOuyECa8vaaU 4 348 0 4
+/.well-known/acme-challenge/PQ-Bc2RZ4BvLCQJE5h74vxAJ6u7mUx4WJWdA8xuZpwo 4 348 0 0
+/.well-known/acme-challenge/-3Itcn1NdiBcp_sb4zTDZVw1Y2IG0xOkAPD2ftojH8Q 4 348 1 0
+/.well-known/acme-challenge/C2DV6Mg3gkSuJOZifstUfh3EqHG3-EcBs2C6n9Eh6Js 3 261 3 0
+/.well-known/acme-challenge/cx91UMcuoLDmXmGRwyKy6Dli1gU1HYKl-Zp9Cc84owk 3 261 0 0
+/fonts/fontawesome-webfont.woff 2 180824 0 2
+/.well-known/acme-challenge/L5KV2Z7_1A3EI1GU548G1C2CQSGCXDFW 1 64 0 0
+/.well-known/acme-challenge/-0_MMZIF_PEKUT681DIFU3PH45PNBJQ0 1 64 1 0
+/.well-known/acme-challenge/AQ2UMH68FGLGUTFXNVT8BL0Z8G_U3FU_ 1 64 0 0
+/.well-known/acme-challenge/SE0T2G_LBYDIBF7ZKH0B-IIW46UWCFH- 1 64 0 0
+/.well-known/acme-challenge/AHLL5Y5JJJ_ZY39501ZVNP-7B--LN-RP 1 64 0 0
+/.well-known/acme-challenge/JFOKG7JMFH88L6T0K-WQ5I6BOS7WR_AI 1 64 0 0
+/.well-known/acme-challenge/47FFE0OKD-HI2CLYRVIWTMRYCV33_MGR 1 64 0 0
+/.well-known/acme-challenge/EU87I955S5GRBXU_PJ405-FLP5CQXWP6 1 64 0 0
+END_SIDER

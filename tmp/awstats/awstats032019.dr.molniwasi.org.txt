@@ -1,0 +1,1003 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201903 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.dr.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2692                
+POS_VISITOR 16803               
+POS_DAY 31409               
+POS_DOMAIN 3505                
+POS_LOGIN 4220                
+POS_ROBOT 4375                
+POS_WORMS 4824                
+POS_EMAILSENDER 4955                
+POS_EMAILRECEIVER 5098                
+POS_SESSION 32216               
+POS_SIDER 32396               
+POS_FILETYPES 5233                
+POS_DOWNLOADS 5434                
+POS_OS 5482                
+POS_BROWSER 5765                
+POS_SCREENSIZE 7622                
+POS_UNKNOWNREFERER 7696                
+POS_UNKNOWNREFERERBROWSER 8208                
+POS_ORIGIN 8469                
+POS_SEREFERRALS 8608                
+POS_PAGEREFS 8793                
+POS_SEARCHWORDS 9051                
+POS_KEYWORDS 9203                
+POS_MISC 2356                
+POS_ERRORS 9262                
+POS_CLUSTER 4076                
+POS_SIDER_404 9390                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190401030039 83 20589 11401566908821
+FirstTime 20190301001714
+LastTime 20190331223653
+LastUpdate 20190401060518 83 0 82 0 0
+TotalVisits 528                 
+TotalUnique 361                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 381                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 42 42 212400 39 85 298918
+1 16 16 107216 21 37 643435
+2 23 25 460573 33 58 107206
+3 11 11 73711 16 27 93849
+4 19 19 127319 21 50 94053
+5 15 15 100515 17 21 80837
+6 19 19 145802 25 40 83459
+7 21 21 140721 23 47 79497
+8 13 13 87113 144 184 449301
+9 16 16 125699 29 41 90034
+10 32 32 248753 37 65 82811
+11 16 16 125699 21 33 45178
+12 20 20 134020 26 67 186610
+13 21 21 177687 47 149 514442
+14 21 54 1248752 23 50 96011
+15 28 28 187628 28 40 96961
+16 39 39 360739 99 152 463799
+17 31 52 1238972 31 90 96632
+18 26 177 5780486 16 121 262484
+19 35 154 4174810 32 110 209092
+20 27 63 1844186 35 90 162355
+21 29 29 212812 47 84 224972
+22 26 26 160824 33 94 290083
+23 21 21 177687 28 73 112283
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 36
+us 155 479 12990856
+ru 95 95 673561
+nl 40 40 268040
+gb 39 39 261339
+md 27 27 180927
+ca 26 26 329075
+fr 24 24 197790
+at 22 22 147422
+de 21 21 140721
+ch 19 19 127319
+se 18 18 120618
+zz 13 13 87113
+ro 12 12 80412
+ua 6 6 26804
+in 6 6 453
+lr 6 6 40206
+nz 4 4 26804
+is 4 4 26804
+kr 4 8 368972
+gr 3 3 20103
+no 3 3 20103
+fi 2 2 13402
+hk 2 2 13402
+hu 2 2 13402
+ie 2 36 1361098
+sk 1 1 6701
+es 1 1 6701
+it 1 1 6701
+bg 1 1 6701
+pa 2 2 13402
+cz 1 1 6701
+bd 1 1 25184
+th 1 1 6701
+pt 1 1 25184
+tw 1 1 6701
+lv 1 1 6701
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Googlebot/ 194 1642225 20190330190354 0
+bot[\s_+:,\.\;\/\\-] 17 428128 20190329215324 0
+bingbot/ 15 705671 20190328045228 0
+(firefox/)([0-9]\.|[0-1][0]\.) 11 147643 20190330111318 0
+no_user_agent 4 82253 20190326214258 0
+Googlebot\-Image/ 2 0 20190329171457 0
+Wget/ 2 0 20190309235352 0
+curl 2 50368 20190313161053 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+jpg 55 7670351 0 0
+woff2 12 862752 0 0
+Unknown 16 1208 0 0
+html 539 4045273 0 0
+css 41 1294294 0 0
+js 96 1046352 0 0
+png 170 2733894 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+win8.1 58 58
+macosx 17 17
+winxp 30 30
+winlong 30 30
+linux 15 15
+win10 386 142
+Unknown 48 48
+win2003 4 2
+ios_iphone 35 2
+win7 199 141
+linuxandroid 31 6
+win8 28 28
+macosx11 20 20
+macosx9 2 2
+macosx12 20 20
+macosx10 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 94
+chrome41.0.2272.89 21 21
+chrome 1 1
+chrome34.0.1847.116 4 4
+chrome62.0.3202.89 6 6
+edge17 57 5
+chrome34.0.1847.114 7 3
+chrome71.0.3578.98 1 1
+chrome59.0.3071.115 5 5
+chrome65.0.3325.181 5 5
+chrome71.0.3578.80 1 1
+chrome41.0.2228.0 1 1
+safari10.0.3 5 5
+firefox41.0 4 4
+chrome42.0.2311.90 1 1
+firefox61.0 2 2
+edge18 35 2
+safari9.1.2 3 3
+chrome72.0.3626.121 130 8
+firefox48.0 9 9
+chrome58.0.3029.110 4 4
+safari 39 6
+chrome55.0.2883.87 16 16
+firefox54.0 5 5
+chrome60.0.3112.113 9 9
+chrome44.0.2403.157 3 3
+chrome51.0.2704.63 2 2
+edge13 21 21
+Unknown 35 35
+safari9.0.3 8 8
+chrome73.0.3683.90 23 2
+safari11.1 9 9
+firefox15.0 1 1
+firefox55.0 2 2
+msie11.0 10 10
+chrome40.0.2214.85 31 2
+safari10.1.2 6 6
+opera43.0.2442.991 6 6
+chrome51.0.2704.106 8 8
+chrome61.0.3163.100 11 11
+msie9.0 12 12
+chrome60.0.3112.90 17 17
+chrome63.0.3239.132 6 6
+safari10.0.1 1 1
+chrome64.0.3282.186 4 4
+firefox46.0 3 3
+edge12 16 16
+firefox57.0 3 3
+chrome45.0.2454.93 2 2
+firefox39.0 1 1
+safari10.1.1 2 2
+msie10.0 6 6
+firefox47.0 2 2
+chrome48.0.2564.109 4 4
+firefox34.0 1 1
+chrome60.0.3112.101 2 2
+chrome45.0.2454.94 1 1
+safari9.1 3 3
+chrome46.0.2490.80 4 4
+chrome31.0.1650.57 1 1
+chrome66.0.3359.181 7 7
+opera42.0.2393.94 6 6
+firefox40.1 3 3
+chrome56.0.2924.87 2 2
+chrome54.0.2840.99 9 9
+safari10.1 3 3
+chrome57.0.2987.133 13 13
+safari11.1.2 1 1
+safari9.1.1 2 2
+firefox52.0 20 20
+chrome49.0.2623.112 6 6
+firefox59.0 6 6
+chrome42.0.2311.135 5 5
+firefox65.0 1 1
+edge16 5 5
+edge15 24 24
+msie7.0 4 2
+firefox64.0 2 2
+chrome43.0.2357.65 2 2
+firefox32.0 2 2
+edge14 19 19
+chrome66.0.3359.117 4 4
+chrome67.0.3396.87 1 1
+msie8.0 2 2
+chrome39.0.2171.95 1 1
+opera47.0.2631.39 2 2
+firefox50.0 20 20
+chrome52.0.2743.116 5 5
+chrome73.0.3683.86 70 4
+chrome61.0.3163.79 5 5
+mozilla 23 23
+safari11.0.3 4 4
+firefox44.0 5 5
+safari11.0.2 3 3
+firefox56.0 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Go-http-client/1.1 20190325024541
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190311160230
+Python/3.6_aiohttp/3.4.4 20190318195733
+Cpanel-HTTP-Client/1.0 20190309001249
+panscient.com 20190321145540
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20190302103840
+python-requests/2.18.4 20190321221616
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190309001254
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+panscient.com 20190321145540
+Python/3.6_aiohttp/3.4.4 20190318195733
+python-requests/2.18.4 20190321221616
+Go-http-client/1.1 20190325024541
+Cpanel-HTTP-Client/1.0 20190309001249
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 528 535
+From1 0 0
+From2 2 2
+From3 21 21
+From4 16 371
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 1 1
+www_google_com_hk 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://hundejo.com 8 8
+http://burger-imperia.com 6 6
+http://pizza-imperia.com 4 4
+http://pizza-tycoon.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 1525 1693224
+409 9 747
+403 25 63675
+206 2 50368
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 166
+/js/tinymce/plugins/kcfinder/upload.php 2 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/admin/kcfinder/upload/files/p3p.php.jd 2 -
+/templates/system/css/system.css 1 -
+/uploadify/uploadify.php 1 -
+/admin/tinymce/plugins/jsplus_uploader/uploader.php 1 -
+/plugins/jquery-file-upload/server/php/files/p3p.php 1 -
+/js/tinymce/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/hook-filters.php 1 -
+/admin/server/php.php 1 -
+/plugins/doksoft_uploader/uploader.php 2 -
+/h0d3.txt 2 -
+/blog/robots.txt 4 -
+/vendors/counter-up/jquery.waypoints.min.js 81 http://www.drfarendra.com/
+/tinymce/plugins/kcfinder/upload.php 2 -
+/phpmyadmin/index.php 1 https://google.com
+/media/elfinder/php/connector.php 2 -
+/tinymce/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/file-upload/server/php/files/p3p.php 1 -
+//xmlrpc.php 1 http://www.google.com.hk
+/ads.txt 2 -
+/ckeditor/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/scripts/kcfinder/upload.php 2 -
+/2015/wp-includes/wlwmanifest.xml 1 -
+/admin/login.php 1 -
+/plugins/jsplus_uploader/uploader.php 1 -
+/tinymce/plugins/doksoft_uploader/userfiles/p3p.php 2 -
+/blog.html 6 -
+/tinymce/plugins/jsplus_uploader/uploader.php 1 -
+/p3p.php 3 -
+/js/tinymce/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/assets/tinymce/plugins/doksoft_uploader/uploader.php 2 -
+/ckeditor/plugins/doksoft_uploader/userfiles/p3p.php 1 -
+/plupload/examples/upload.php 2 -
+/assets/global/plugins/ckeditor/plugins/jsplus_uploader/uploader.php 1 -
+/assets/tinymce/plugins/kcfinder/upload.phpp 2 -
+/plugins/kcfinder/upload.php 2 -
+/vendors/counter-up/jquery.counterup.js 78 http://www.drfarendra.com/
+/assets/global/plugins/ckeditor/plugins/doksoft_uploader/userfiles/p3p.php 1 -
+/js/ckeditor/plugins/kcfinder/upload.php 2 -
+/admin/upload.php 4 -
+/upload/uploadify/uploadify.php 1 -
+/assets/kcfinder/upload.php 2 -
+/kcfinder/upload.php 2 -
+/admin/tinymce/doksoft_uploader/userfiles/p3p.php 2 -
+//admin/images/cal_date_over.gif 1 http://www.google.com.hk
+/elements.html 7 -
+/assets/tinymce/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/file-upload/server/uploads/p3p.php 1 -
+/vendors/lightbox/simpleLightbox.min.js 83 http://www.drfarendra.com/
+/upload/p3p.php 1 -
+/server/php/ 1 -
+/ckeditor/plugins/doksoft_uploader/uploader.php 1 -
+/scripts/kcfinder/upload/files/p3p.php.jd 2 -
+/pma/index.php 1 https://google.com
+/server/php/files/p3p.php 1 -
+/plugins/plupload/examples/uploads/h0d3.php 2 -
+/elfinder/php/connector.php 2 -
+/admin/server/php/files/p3p.php 1 -
+/js/ckeditor/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/upload.php 2 -
+/2017/wp-includes/wlwmanifest.xml 1 -
+/admin/server/php/ 1 -
+/assets/global/plugins/ckeditor/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/vendors/lightbox/simpleLightbox.css 72 http://www.drfarendra.com/
+/plugins/doksoft_uploader/userfiles/p3p.php 2 -
+/assets/tinymce/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/admin/tinymce/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/jquery-file-upload/server/php/files/p3p.php 1 -
+/js/ckeditor/plugins/doksoft_uploader/uploader.php 1 -
+/assets/global/plugins/ckeditor/plugins/doksoft_uploader/uploader.php 1 -
+/admin/elfinder/php/connector.php 2 -
+/assets/global/plugins/jquery-file-upload/server/php/ 1 -
+/mail.html 423 http://drfarendra.com/
+//templates/system/css/system.css 1 http://www.google.com.hk
+/plugins/plupload/examples/upload.php 2 -
+/wordpress/ 4 -
+/xmlrpc.php 3 -
+/server/uploads/p3p.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/admin/server/uploads/p3p.php 1 -
+/js/tinymce/plugins/doksoft_uploader/uploader.php 2 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/images/product/p3p.php 2 -
+/js/tinymce/plugins/doksoft_uploader/userfiles/p3p.php 2 -
+/admin/js/kcfinder/upload/files/p3p.php.jd 2 -
+/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/vendors/owl-carousel/owl.carousel.min.css 72 http://www.drfarendra.com/
+/wp-admin/setup-config.php 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/js/ckeditor/plugins/doksoft_uploader/userfiles/p3p.php 1 -
+/tel:+9530123654896 1 -
+/admin/plugins/jquery-file-upload/server/php/files/p3p.php 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/admin/plugins/jquery-file-upload/server/php/ 1 -
+/tinymce/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/2016/wp-includes/wlwmanifest.xml 1 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/vendors/animate-css/animate.css 72 http://www.drfarendra.com/
+/kcfinder/upload/files/p3p.php.jd 2 -
+/jquery-file-upload/server/php/ 1 -
+/assets/tinymce/plugins/jsplus_uploader/uploader.php 1 -
+/robots.txt 62 -
+/wp-craft-report.php 1 http://www.google.com
+/wp-includes/wlwmanifest.xml 2 -
+/vendors/owl-carousel/owl.carousel.min.js 84 http://www.drfarendra.com/
+/doctors.html 7 -
+/cs/js/ckeditor/plugins/ckeditor/plugins/doksoft_uploader/userfiles/p3p.php 1 -
+/ckeditor/plugins/kcfinder/upload.php 2 -
+/js/ckeditor/plugins/jsplus_uploader/uploader.php 1 -
+/files/p3p.php 2 -
+/fileupload/server/php.php 1 -
+/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/assets/global/plugins/ckeditor/plugins/kcfinder/upload.php 2 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/ckeditor/plugins/jsplus_uploader/uploader.php 1 -
+/panel/elfinder/php/connector.php 2 -
+/vendors/nice-select/css/nice-select.css 71 http://www.drfarendra.com/
+/2018/wp-includes/wlwmanifest.xml 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/single-blog.html 5 -
+//admin/login.php 1 http://www.google.com.hk
+/sitemap.xml 2 -
+/file-upload/server/php/ 1 -
+/admin/kcfinder/upload.php 2 -
+/blog/ 5 -
+/plugins/elfinder/php/connector.php 2 -
+/js/ckeditor/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/departments.html 7 -
+/js/tinymce/plugins/jsplus_uploader/uploader.php 1 -
+/fileupload/server/uploads/p3p.php 1 -
+/file-upload/server/php.php 1 -
+/admin/js/kcfinder/upload.php 2 -
+/plupload/examples/uploads/h0d3.php 2 -
+/tinymce/plugins/doksoft_uploader/uploader.php 2 -
+/administrator/index.php 2 https://google.com
+/admin/tinymce/plugins/kcfinder/upload.php 2 -
+/wp/ 4 -
+/vendors/linericon/style.css 77 http://www.drfarendra.com/
+/administrator/ 2 -
+/admin/tinymce/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/user/register/ 4 -
+/cs/js/ckeditor/plugins/doksoft_uploader/uploader.php 1 -
+/plugins/jquery-file-upload/server/php/ 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/fileupload/server/php/files/p3p.php 1 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/server/php.php 1 -
+/scritps/uploadify/uploadify.php 1 -
+/admin/tinymce/doksoft_uploader/uploader.php 2 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/wp-login.php 5 -
+/assets/global/plugins/ckeditor/plugins/kcfinder/upload/files/p3p.php.jd 2 -
+/assets/kcfinder/upload/files/p3p.php.jd 2 -
+/plugins/fileupload/server/uploads/p3p.php 1 -
+/fileupload/server/php/ 1 -
+/admin/images/cal_date_over.gif 1 -
+/vendors/nice-select/js/jquery.nice-select.min.js 83 http://www.drfarendra.com/
+/assets/global/plugins/jquery-file-upload/server/php/files/p3p.php 1 -
+/ckeditor/plugins/jsplus_uploader/userfiles/p3p.php 1 -
+/assets/tinymce/plugins/doksoft_uploader/userfiles/p3p.php 2 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/plugins/fileupload/server/php.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 381
+197.231.221.211 6 6 40206 20190331172409
+103.21.58.155 6 6 453 20190309001253
+18.85.192.253 5 5 33505 20190331023832
+185.220.102.4 5 5 33505 20190329190932
+109.70.100.26 5 5 33505 20190329021133
+185.220.101.24 5 5 33505 20190320155446
+158.69.116.60 5 5 114422 20190311160239
+37.187.129.166 5 5 33505 20190320161751
+171.25.193.25 5 5 33505 20190328043131
+216.10.241.214 5 5 320 20190309001248
+23.129.64.104 5 5 33505 20190330070516
+66.133.109.36 5 5 435 20190309001255
+176.10.99.200 4 4 26804 20190329121053
+169.197.112.26 4 4 26804 20190329053610
+185.220.102.8 4 4 26804 20190327130725
+185.220.102.7 4 4 26804 20190324121037
+100.35.75.170 4 4 21368 20190321145550
+185.100.86.182 4 4 26804 20190331215126
+45.66.32.220 4 4 26804 20190331211040
+178.17.166.150 3 3 20103 20190325191203
+94.242.59.89 3 3 20103 20190328111146
+185.100.87.206 3 3 20103 20190328095324
+51.15.59.9 3 3 20103 20190329151026
+178.175.132.212 3 3 20103 20190328222959
+66.220.149.8 3 15 353039 20190326185636
+34.221.219.103 1 1 6701 20190322065237
+147.135.79.62 1 1 25184 20190306061602
+185.104.120.2 1 1 6701 20190330182909
+85.248.227.164 1 1 6701 20190330210414
+178.17.166.148 1 1 6701 20190322102831
+117.58.242.98 1 1 25184 20190327180208
+185.234.219.116 2 2 13402 20190329174500
+51.15.106.67 1 1 6701 20190311191649
+66.220.149.30 1 9 223120 20190326181908
+178.17.170.23 1 1 6701 20190326105123
+217.115.10.132 2 2 13402 20190323154636
+171.25.193.20 1 1 6701 20190324123605
+209.141.45.212 1 1 6701 20190304160117
+109.70.100.18 2 2 13402 20190327150451
+46.165.245.154 1 1 6701 20190307001500
+185.220.101.30 2 2 13402 20190321023000
+212.47.248.66 1 1 6701 20190313073839
+178.175.132.210 1 1 6701 20190320211456
+192.42.116.18 2 2 13402 20190318171204
+198.98.54.28 2 2 13402 20190322155902
+144.217.7.154 1 1 6701 20190313050740
+87.120.36.157 1 1 6701 20190321174508
+159.65.27.112 1 1 25184 20190309235353
+185.193.125.42 1 1 6701 20190327024603
+64.246.165.140 1 1 6701 20190313185216
+212.47.226.52 1 1 6701 20190314205400
+51.77.201.37 1 1 6701 20190325185015
+185.169.42.141 2 2 13402 20190331160738
+130.149.80.199 1 1 6701 20190321142055
+199.249.230.82 1 1 6701 20190324192215
+82.221.131.102 2 2 13402 20190330043244
+185.220.101.20 1 1 6701 20190322041119
+5.2.77.146 1 1 6701 20190327221013
+173.252.87.20 1 4 268764 20190326201306
+94.242.57.161 1 1 6701 20190306041112
+209.95.51.11 2 2 13402 20190329180828
+217.170.197.83 1 1 6701 20190301213610
+66.220.149.17 0 12 371871 
+178.175.143.163 1 1 6701 20190330231413
+185.165.168.168 1 1 6701 20190328190646
+194.71.109.44 1 1 6701 20190315204107
+185.165.169.165 2 2 13402 20190322125542
+82.102.17.151 1 1 25184 20190331214142
+157.230.89.165 2 2 50368 20190304100648
+162.247.74.200 1 1 6701 20190321083525
+173.252.87.15 1 7 224001 20190326201309
+192.160.102.164 2 2 13402 20190327230012
+94.100.6.72 1 1 6701 20190331070229
+195.176.3.24 1 1 6701 20190303045242
+209.141.52.96 1 1 6701 20190305041210
+178.175.143.165 1 1 6701 20190327141541
+206.180.165.147 1 1 6701 20190326074606
+179.43.134.154 1 1 6701 20190327074107
+199.249.230.74 1 1 6701 20190328223102
+185.104.120.4 2 2 13402 20190329215653
+185.104.120.5 1 1 6701 20190320212304
+185.220.100.252 1 1 6701 20190320183320
+54.39.148.233 1 1 6701 20190320155441
+51.15.43.205 1 1 6701 20190329023034
+185.107.47.171 1 1 6701 20190307192727
+173.252.87.14 0 4 72050 
+51.15.59.175 1 1 6701 20190302202921
+209.141.33.25 1 1 6701 20190327164319
+192.42.116.16 2 2 13402 20190319232722
+34.224.156.180 1 1 6701 20190306234255
+89.203.249.251 1 1 6701 20190321175623
+185.147.80.155 1 1 6701 20190304175229
+158.69.192.200 2 2 13402 20190330221445
+51.15.92.212 1 1 6701 20190304162053
+5.199.130.188 1 1 6701 20190308142139
+178.17.166.149 1 1 6701 20190322121536
+65.19.167.130 1 1 6701 20190313211403
+192.42.116.15 2 2 13402 20190325191147
+198.73.51.73 1 1 6701 20190318135004
+124.109.1.207 1 1 6701 20190321195045
+109.70.100.20 2 2 13402 20190316121214
+71.19.148.20 1 1 6701 20190320000726
+185.220.100.253 1 1 6701 20190326174448
+193.90.12.115 1 1 6701 20190323162242
+66.220.149.3 2 11 317574 20190326192122
+104.244.76.13 2 2 13402 20190322020516
+137.74.167.96 2 2 13402 20190305091000
+199.249.230.65 1 1 6701 20190322171923
+81.17.27.130 1 1 6701 20190304133015
+163.172.41.228 1 1 6701 20190305163652
+178.175.132.225 1 1 6701 20190320021842
+51.38.113.64 1 1 6701 20190330210558
+176.126.83.211 1 1 6701 20190328114506
+34.242.211.111 1 1 6701 20190311044842
+173.252.127.19 1 21 566686 20190326192137
+178.175.148.34 1 1 6701 20190301193848
+199.249.230.88 2 2 13402 20190316082009
+54.184.104.172 1 1 6701 20190301001714
+162.247.74.204 1 1 6701 20190329100617
+173.252.87.3 0 11 699549 
+104.223.32.130 1 1 6701 20190330180755
+81.17.27.134 1 1 6701 20190307012433
+185.220.101.45 1 1 6701 20190325211853
+178.175.148.224 1 1 6701 20190316053510
+91.219.236.171 2 2 13402 20190312102131
+199.87.154.255 2 2 13402 20190331171205
+66.220.149.27 0 8 255855 
+162.247.74.74 1 1 6701 20190331223653
+185.81.157.113 2 2 50368 20190316133122
+23.94.154.87 1 1 25184 20190316161429
+66.220.149.22 0 11 400446 
+62.102.148.69 3 3 20103 20190327022410
+54.202.107.96 1 1 6701 20190318001346
+38.117.96.154 2 2 13402 20190307085426
+64.233.173.134 0 6 330243 
+185.234.219.112 1 1 6701 20190328084948
+52.18.118.124 1 1 6701 20190306231037
+209.141.40.86 2 2 13402 20190306235439
+212.21.66.6 1 1 6701 20190329035801
+31.13.115.19 1 12 647223 20190326183132
+89.234.157.254 2 2 13402 20190320160209
+157.37.130.203 2 35 1126869 20190308144329
+178.17.166.146 1 1 6701 20190330214834
+178.175.135.101 1 1 6701 20190302065507
+204.85.191.9 1 1 6701 20190320083836
+51.15.56.18 1 1 6701 20190313200733
+173.252.87.26 0 9 342253 
+171.25.193.78 2 2 13402 20190307215411
+217.115.10.131 1 1 6701 20190304072911
+46.182.106.190 2 2 13402 20190322100112
+192.157.238.219 1 1 6701 20190321161548
+195.206.105.217 1 1 6701 20190329172301
+51.159.4.172 1 1 6701 20190304224021
+185.220.101.29 2 2 13402 20190330020814
+34.217.132.139 1 1 6701 20190314054053
+82.223.14.245 1 1 6701 20190313194810
+193.30.34.35 1 1 6701 20190301083855
+23.129.64.106 3 3 20103 20190329155832
+173.252.87.17 0 3 78274 
+162.244.80.228 1 1 6701 20190328061246
+185.127.25.192 1 1 6701 20190320010557
+185.220.101.32 2 2 13402 20190320161929
+173.252.127.36 1 1 6701 20190326180446
+81.17.27.140 2 2 13402 20190329200300
+35.0.127.52 2 2 13402 20190312185517
+51.77.193.218 1 1 6701 20190330015413
+167.114.226.133 1 1 6701 20190327013910
+91.210.145.229 1 1 6701 20190310101040
+89.236.112.99 2 2 13402 20190329073747
+34.221.89.147 1 1 6701 20190313051137
+91.121.251.65 2 2 13402 20190310052220
+109.201.133.100 1 1 6701 20190329094715
+180.150.226.99 1 1 6701 20190328125246
+192.42.116.26 1 1 6701 20190315031119
+179.43.134.155 1 1 6701 20190306153123
+178.32.147.150 2 2 13402 20190320160210
+54.190.86.101 1 1 6701 20190320050620
+77.247.181.162 2 2 13402 20190329220708
+79.134.234.247 1 1 6701 20190311034424
+37.187.180.18 1 1 6701 20190304121257
+104.194.228.240 1 1 6701 20190328084817
+54.212.230.100 1 1 6701 20190311001730
+185.107.70.202 1 1 6701 20190306211002
+211.56.145.140 3 7 362271 20190306203949
+185.165.168.77 1 1 6701 20190301065154
+75.126.32.182 1 1 6701 20190303100826
+193.9.115.24 1 1 6701 20190329175702
+185.100.87.207 1 1 6701 20190320135318
+91.203.145.116 1 1 6701 20190313193027
+192.42.116.13 1 1 6701 20190314223734
+192.160.102.165 1 1 6701 20190301182952
+185.220.101.62 1 1 6701 20190329070428
+185.244.151.149 1 1 6701 20190329014002
+192.42.116.20 3 3 20103 20190312010517
+104.218.63.76 1 1 6701 20190322130327
+173.252.127.22 0 10 306681 
+185.248.160.65 2 2 13402 20190329161825
+35.162.252.199 1 1 6701 20190308001913
+31.192.105.56 1 1 25184 20190327180211
+66.220.149.11 0 4 163717 
+144.217.60.239 2 2 13402 20190326134012
+51.15.48.204 1 1 6701 20190328185215
+18.237.77.5 1 1 6701 20190307001249
+62.102.148.67 1 1 6701 20190320124647
+37.139.8.104 2 2 13402 20190329054432
+66.220.149.4 0 7 320309 
+199.249.230.71 1 1 6701 20190331062016
+54.184.125.196 1 1 6701 20190312001643
+54.186.28.191 1 1 6701 20190321002127
+185.220.101.27 1 1 6701 20190307101427
+192.160.102.166 1 1 6701 20190326105747
+66.220.149.2 0 9 333792 
+178.175.132.211 2 2 13402 20190327135501
+144.217.165.223 2 2 13402 20190326211025
+51.77.147.98 1 1 6701 20190307100850
+46.173.214.3 1 1 6701 20190311051217
+162.247.74.27 1 1 6701 20190328051349
+34.220.43.210 1 1 6701 20190310001732
+62.210.37.82 2 2 13402 20190322003856
+178.175.143.157 1 1 6701 20190325230841
+109.70.100.22 2 2 13402 20190321163449
+109.70.100.21 2 2 13402 20190316073826
+162.247.74.199 1 1 6701 20190321130711
+138.197.177.62 1 1 6701 20190328140005
+66.220.149.9 0 1 38017 
+93.174.93.6 3 3 20103 20190318011406
+185.220.101.31 2 2 13402 20190327003627
+46.165.254.166 2 2 13402 20190322221413
+185.220.101.69 1 1 6701 20190303211516
+51.15.125.181 1 1 6701 20190328073641
+185.220.101.26 3 3 20103 20190327115510
+94.230.208.147 1 1 6701 20190329000532
+185.220.101.58 1 1 6701 20190322015606
+185.220.101.6 2 2 13402 20190319040128
+172.245.177.18 1 1 6701 20190318173532
+81.17.27.137 2 2 13402 20190327015531
+162.213.0.243 1 1 6701 20190312211918
+178.17.166.147 1 1 6701 20190312203401
+213.252.140.118 1 1 6701 20190312212420
+23.129.64.101 1 1 6701 20190316042308
+5.188.62.5 1 1 6701 20190317065756
+72.38.143.178 2 2 50368 20190302000701
+185.220.101.13 3 3 20103 20190328020118
+192.42.116.14 2 2 13402 20190326030800
+193.106.30.98 3 3 6701 20190326231234
+158.174.122.199 1 1 6701 20190319162106
+51.15.117.50 1 1 6701 20190312192202
+185.220.101.34 2 2 13402 20190323173016
+173.252.87.9 2 28 653627 20190326185008
+62.210.111.56 1 1 6701 20190325095118
+80.127.116.96 1 1 6701 20190322023115
+94.102.51.78 2 2 13402 20190328074242
+198.98.56.149 1 1 6701 20190308204440
+185.112.254.195 1 1 6701 20190321155434
+193.169.145.66 1 1 6701 20190329062254
+51.75.73.65 1 1 6701 20190307162406
+31.220.40.54 1 1 6701 20190322231447
+66.220.149.14 0 13 641811 
+193.169.145.202 1 1 6701 20190302114611
+31.185.104.21 1 1 6701 20190305065128
+198.98.62.49 2 2 13402 20190329213852
+64.233.173.136 0 9 493431 
+185.220.101.44 3 3 20103 20190319054712
+176.10.104.240 1 1 6701 20190304111739
+31.13.115.17 1 12 344217 20190326183130
+144.217.80.80 1 1 6701 20190319165756
+54.37.234.66 2 2 13402 20190326081803
+54.190.69.238 1 1 6701 20190303042947
+5.196.1.129 1 1 6701 20190321203318
+198.98.59.240 1 1 6701 20190301125516
+199.249.230.76 1 1 6701 20190313111458
+31.220.0.225 3 3 20103 20190322024930
+64.233.173.135 2 8 202486 20190331170010
+82.221.131.71 1 1 6701 20190322080739
+185.220.101.65 1 1 6701 20190321222026
+51.77.177.194 1 1 6701 20190307223152
+178.175.143.164 1 1 6701 20190312040727
+178.175.135.100 1 1 6701 20190328154716
+94.19.150.216 1 1 25184 20190305115639
+149.202.170.60 1 1 6701 20190330015707
+149.202.238.204 1 1 6701 20190301161459
+209.141.58.114 2 2 13402 20190328072635
+138.68.180.18 3 3 17458 20190327103720
+89.234.190.157 1 1 6701 20190322210010
+51.15.68.66 1 1 6701 20190306105357
+204.85.191.31 1 1 6701 20190306225051
+199.249.230.66 2 2 13402 20190320092358
+173.252.127.20 0 9 274588 
+204.85.191.30 2 2 13402 20190322223837
+192.42.116.17 1 1 6701 20190313142244
+185.234.219.111 1 1 6701 20190321010036
+178.175.132.227 1 1 6701 20190325204326
+5.150.254.67 1 1 6701 20190322101105
+178.175.143.155 1 1 6701 20190329173409
+91.206.14.10 1 1 6701 20190306002411
+185.104.120.3 2 2 13402 20190325125726
+109.70.100.24 3 3 20103 20190327230921
+185.220.101.56 1 1 6701 20190301220626
+185.107.47.215 1 1 6701 20190324201713
+193.169.145.194 2 2 13402 20190321195116
+144.217.7.33 2 2 13402 20190328065930
+185.220.101.50 1 1 6701 20190307153440
+104.244.73.126 3 3 20103 20190320161754
+209.141.37.237 1 1 6701 20190312085017
+217.170.197.89 1 1 6701 20190330203550
+185.220.101.3 3 3 20103 20190327150520
+171.25.193.235 1 1 6701 20190328163457
+185.220.100.254 2 2 13402 20190318210725
+109.70.100.19 3 3 20103 20190331164048
+52.13.22.214 1 1 6701 20190325024541
+66.220.149.16 2 14 203603 20190326194124
+199.195.250.77 1 1 6701 20190316102356
+199.249.230.69 1 1 6701 20190319165358
+185.220.101.15 1 1 6701 20190305201045
+173.252.127.33 1 10 246477 20190326180449
+185.104.120.60 2 2 13402 20190322011611
+171.25.193.77 2 2 13402 20190331202413
+54.185.75.225 1 1 6701 20190302001343
+185.220.101.12 1 1 6701 20190312092946
+178.165.72.177 1 1 6701 20190301123529
+5.165.78.204 1 1 6701 20190305174412
+199.249.230.81 1 1 6701 20190322114832
+51.75.71.123 3 3 20103 20190327042754
+94.142.242.84 1 1 6701 20190302184503
+51.68.174.45 1 1 6701 20190331032512
+109.69.67.17 3 3 20103 20190328173341
+192.42.116.19 1 1 6701 20190320044246
+185.220.101.28 1 1 6701 20190319064014
+34.247.38.190 1 1 6701 20190318195733
+192.42.116.25 2 2 13402 20190321105355
+192.160.102.168 2 2 13402 20190311041050
+173.252.127.9 1 11 375215 20190326192135
+185.165.168.229 1 1 6701 20190322114732
+139.162.100.194 1 1 6701 20190320161924
+185.4.132.135 3 3 20103 20190331172616
+159.89.111.196 1 1 25184 20190309171017
+173.252.87.10 0 9 664581 
+178.175.148.227 1 1 6701 20190327005450
+198.255.44.98 1 1 6701 20190312015944
+185.220.101.52 2 2 13402 20190320093703
+144.217.166.59 1 1 6701 20190318143141
+192.42.116.24 2 2 13402 20190329173249
+66.220.149.21 0 11 646920 
+198.98.54.34 1 1 6701 20190306022714
+173.252.87.1 0 3 57282 
+199.249.230.85 2 2 13402 20190330024935
+51.89.19.252 1 1 6701 20190323025204
+157.230.143.163 1 1 25184 20190308095617
+54.229.100.153 1 1 6701 20190308044353
+185.220.101.48 2 2 13402 20190324063111
+158.69.192.239 3 3 20103 20190330170953
+185.227.82.9 1 1 6701 20190306204913
+178.175.143.156 1 1 6701 20190320161918
+173.252.87.23 2 21 496779 20190326193524
+87.118.110.27 2 2 13402 20190330154244
+178.239.176.73 1 1 6701 20190325204450
+185.220.101.35 1 1 6701 20190326194605
+204.17.56.42 1 1 6701 20190327155757
+185.220.101.66 1 1 6701 20190317231512
+52.39.101.219 1 1 6701 20190315000349
+185.34.33.2 1 1 6701 20190316071931
+54.190.233.39 1 1 6701 20190306035437
+51.15.80.14 1 1 6701 20190303194442
+109.70.100.25 2 2 13402 20190320161750
+31.13.115.12 0 12 369658 
+35.165.190.94 1 1 6701 20190309000409
+195.176.3.19 2 2 13402 20190321134036
+195.176.3.20 3 3 20103 20190331194740
+141.255.162.36 1 1 6701 20190330001743
+207.244.70.35 3 3 20103 20190327140333
+51.15.1.72 1 1 6701 20190329195820
+185.220.102.6 2 2 13402 20190305090953
+5.79.86.15 1 1 6701 20190322212916
+166.70.207.2 1 1 6701 20190330151630
+122.147.141.130 1 1 6701 20190311195759
+199.249.230.67 1 1 6701 20190308171239
+51.15.235.211 1 1 6701 20190330232121
+159.89.36.134 1 1 25184 20190302103840
+38.100.21.64 2 4 319852 20190307021740
+104.218.63.74 1 1 6701 20190319053648
+51.15.128.3 2 2 13402 20190321205905
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190301 17 17 113917 17
+20190302 14 14 167746 13
+20190303 10 10 67010 10
+20190304 25 25 186008 25
+20190305 13 13 105596 13
+20190306 30 34 561681 28
+20190307 20 22 440470 19
+20190308 10 43 1198960 9
+20190309 20 20 64978 7
+20190310 5 5 33505 5
+20190311 19 19 208236 15
+20190312 15 15 100515 15
+20190313 14 14 93814 14
+20190314 4 4 26804 4
+20190315 5 5 33505 5
+20190316 22 22 202871 21
+20190317 4 4 26804 4
+20190318 16 16 107216 16
+20190319 15 15 100515 15
+20190320 39 39 261339 36
+20190321 28 28 168790 24
+20190322 28 28 187628 28
+20190323 6 6 40206 6
+20190324 9 9 60309 9
+20190325 13 13 87113 13
+20190326 35 337 11065195 29
+20190327 31 31 242052 29
+20190328 28 28 187628 28
+20190329 35 35 234535 35
+20190330 20 20 134020 20
+20190331 17 38 1145158 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 1
+0s-30s 525
+30s-2mn 1
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 533 4001823 519 511
+/fonts/fontawesome-webfont.woff2 12 862752 5 12
+/about-us.html 5 39540 1 2
+/.well-known/acme-challenge/-ZPNRMNUV6TE71KZ8NLJO4FJIBUCGV0U 1 64 0 0
+/contact.html 1 3910 0 0
+/.well-known/acme-challenge/O4XHRPVAFRFATIE18F17DX5WMCS6RZHH 1 64 0 0
+/.well-known/acme-challenge/UAT50U4Q9Z4036RH935SDEH1CYRXX_7A 1 64 0 1
+/.well-known/acme-challenge/unPzmIcrcrt99G6tThNOiWxRuYYIdTgYWr73wVmrDpA 1 87 0 0
+/.well-known/acme-challenge/I2I2RQELM4TGD5SS-5-L4U79R3_02C1G 1 64 1 0
+/.well-known/acme-challenge/_R9CFPPD_WZE80HZ8OMRCEKZDPMA-5X_ 1 64 0 0
+/.well-known/acme-challenge/5lsgPikZR9KVaVDfnF7OBgcipGAvaMFitSCjhrov9d8 1 87 1 0
+/.well-known/acme-challenge/5J12PRNYRRYACDUVS4XDX0Z56NJX5W42 1 64 0 0
+/.well-known/acme-challenge/Yy-fLY21iUgVwbAVHJqYdxclAob0BhOnagfyD0RLxhg 1 87 0 0
+/.well-known/acme-challenge/siQGeMvOHca3w2sXXH4MwCtbI7IekYl0Ts0wO6DEOuU 1 87 0 0
+/.well-known/acme-challenge/PyW79wKA33XwOakR1IuRk5SiBHyXU5mL08ty5EKco5A 1 87 0 1
+/.well-known/acme-challenge/RPL4YCB34-NPLN_Z0-7HZ2PLI98KF07W 1 64 1 0
+/.well-known/acme-challenge/DYPMC4_E9PG7Y5N0B90QTU0UG-EZK2B0 1 64 0 0
+/.well-known/acme-challenge/bMG77cxEDQo8noLVQsn8s2Ke3AYQA6BfBDZxZI7ALEY 1 87 0 0
+/.well-known/acme-challenge/8y-xCL7xRCVgYWkly-G34FNILVoiTWlXJyuYt1PYzxY 1 87 0 0
+/.well-known/acme-challenge/40Oe5H_QIBWahzio0V99yHFc5ZS1149z_nY5mb3xW0s 1 87 0 1
+END_SIDER

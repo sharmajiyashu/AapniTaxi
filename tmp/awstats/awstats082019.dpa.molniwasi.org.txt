@@ -1,0 +1,2433 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201908 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.dpa.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2696                
+POS_VISITOR 64708               
+POS_DAY 71775               
+POS_DOMAIN 3547                
+POS_LOGIN 4258                
+POS_ROBOT 4413                
+POS_WORMS 4996                
+POS_EMAILSENDER 5127                
+POS_EMAILRECEIVER 5270                
+POS_SESSION 72584               
+POS_SIDER 72785               
+POS_FILETYPES 5405                
+POS_DOWNLOADS 5660                
+POS_OS 5743                
+POS_BROWSER 6050                
+POS_SCREENSIZE 7776                
+POS_UNKNOWNREFERER 7850                
+POS_UNKNOWNREFERERBROWSER 8332                
+POS_ORIGIN 8552                
+POS_SEREFERRALS 8692                
+POS_PAGEREFS 8855                
+POS_SEARCHWORDS 9234                
+POS_KEYWORDS 9386                
+POS_MISC 2360                
+POS_ERRORS 9445                
+POS_CLUSTER 4114                
+POS_SIDER_404 9577                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190901005636 332 80759 16395884809997
+FirstTime 20190801022012
+LastTime 20190831221114
+LastUpdate 20190901044331 332 0 331 0 0
+TotalVisits 171                 
+TotalUnique 162                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 185                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 50 27704439 193 220 249316
+1 9 40 2644532 118 123 128897
+2 9 9 139605 235 239 127651
+3 4 4 86016 281 317 469752
+4 6 6 152638 12 17 45858
+5 6 59 29210831 8 35 179466
+6 7 13 197083 466 475 59195
+7 17 145 83110746 5 25 122513
+8 28 268 156361927 13 28 570419
+9 18 227 48326927 8 15 67234
+10 103 103 2944917 887 891 602224
+11 9 51 27580458 21 24 18296
+12 14 99 100699265 52 60 67141
+13 20 146 104136309 115 127 153582
+14 12 55 5180160 271 300 319273
+15 2 44 4536438 334 356 764963
+16 9 9 252571 20 27 36245
+17 13 13 338587 221 263 48448
+18 6 6 176252 303 309 639105
+19 11 58 27903353 247 307 497457
+20 13 114 55378111 456 490 236790
+21 17 59 5081054 352 371 259161
+22 9 9 252571 203 217 118813
+23 20 21 595487 163 175 133901
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 35
+us 109 394 121214460
+ro 78 78 2598258
+in 37 788 260648599
+it 15 15 381595
+de 12 12 399732
+gb 11 52 4726836
+ru 11 11 342807
+cl 9 9 91780
+fr 8 8 172032
+id 7 7 118241
+iq 7 7 40048
+ma 7 7 109382
+tn 6 6 176252
+vn 5 5 43892
+au 5 5 166555
+cn 5 36 3125123
+ca 4 7 700659
+ie 4 89 32126969
+za 4 4 38788
+my 3 3 99933
+il 3 45 6738002
+ge 2 2 19394
+pl 2 2 66622
+lt 2 2 66622
+kz 2 2 66622
+kh 1 1 9697
+cz 1 1 9697
+si 1 1 9697
+ee 1 1 14801
+mu 1 1 14802
+br 1 1 33311
+at 1 1 33311
+ng 2 2 66622
+lr 1 1 9697
+pt 2 2 66622
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Googlebot/ 99 899989 20190831225336 0
+spider 31 240813 20190816194555 0
+bingbot/ 19 159398 20190820201635 0
+bingpreview 17 459362 20190803152033 0
+(firefox/)([0-9]\.|[0-1][0]\.) 16 194494 20190831155125 0
+facebookexternalhit/ 9 743778 20190819215041 0
+bot[\s_+:,\.\;\/\\-] 5 166555 20190824090829 0
+libwww\-perl 4 78360 20190821141711 0
+no_user_agent 1 33311 20190827065429 0
+PhantomJS 1 703 20190821143221 0
+Python\-urllib/ 1 33311 20190822014733 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+png 116 17824993 0 0
+css 163 1950472 0 0
+htm 3 2109 0 0
+jpg 608 109357534 0 0
+js 347 2676411 0 0
+alfa 1 78 0 0
+html 318 7702293 0 0
+mp4 4 191713054 0 0
+woff2 27 486756 0 0
+php 21 137161 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/images/myvideo.mp4 4 38 294409653
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+win2003 14 4
+winxp 6 5
+macosx9 6 1
+linuxandroid 727 34
+win8.1 55 8
+macosx7 3 0
+winlong 2 1
+Unknown 79 37
+macosx12 1 1
+winnt 1 1
+win8 6 3
+macosx10 2 2
+macosx6 2 2
+win7 43 23
+macosx8 4 1
+win10 272 198
+macosx5 1 1
+linux 94 29
+ios_iphone 328 19
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 83
+chrome26.0.1410.65 1 1
+firefox54.0 14 14
+chrome71.0.3578.99 45 2
+firefox64.0 7 7
+opera54.0.2952.51 2 2
+chrome72.0.3626.119 36 5
+safari6.1 2 0
+chrome46.0.2490.76 91 4
+chrome63.0.3239.132 135 135
+chrome45.0.2454.94 1 1
+chrome41.0.2227.0 1 0
+chrome30.0.1599.13014 2 2
+msie11.0 3 1
+chrome65.0.3325.146 1 1
+firefox57.0 4 4
+chrome68.0.3440.84 6 6
+chrome73.0.3683.90 45 2
+chrome26.0.1410.63 6 6
+safari5.0.4 1 1
+safari12.1.2 45 2
+chrome9.0.600.0 1 1
+chrome41.0.2227.1 1 1
+chrome32.0.1700.41 1 0
+chrome72.0.3626.105 181 9
+chrome38.0.1025.166 43 1
+chrome61.0.3163.128 45 2
+chrome31.0.1650.63 6 0
+android 5 0
+firefox62.0 1 1
+chrome74.0.3729.131 1 1
+safari5.0 1 1
+chrome17.0.963.65 1 1
+chrome41.0.2228.0 1 1
+safari5.1.9 1 1
+firefox27.0 2 1
+chrome65.0.3325.181 2 2
+firefox24.0 6 0
+firefox50.0 4 4
+safari7.0.1 1 0
+opera36.0.2130.32 2 2
+firefox28.0 1 0
+chrome68.0.3440.106 3 3
+opera62.0.3331.99 1 1
+chrome42.0.2311.90 1 1
+mozilla 52 11
+chrome67.0.3396.99 2 2
+firefox27.3 1 0
+Unknown 28 27
+chrome75.0.3770.143 91 4
+chrome12.0.724.100 1 1
+safari5.1 5 5
+msie6.0 1 1
+firefox26.0 10 0
+chrome76.0.3809.89 46 2
+chrome67.0.3396.62 2 2
+chrome31.0.1650.57 1 0
+chrome75.0.3770.142 22 5
+firefox36.0 1 0
+safari5.0.3 1 1
+iphone 278 12
+chrome74.0.3729.169 4 4
+chrome50.0.2661.94 1 1
+chrome46.0.2490.80 1 1
+chrome67.0.3396.79 4 4
+firefox48.0 6 6
+chrome61.0.3163.100 2 2
+msie7.0 15 5
+chrome35.0.1916.153 1 0
+safari7.0.3 1 1
+chrome58.0.3029.110 1 1
+firefox43.0 3 3
+firefox59.0 1 1
+firefox66.0 2 2
+chrome32.0.1700.72 3 0
+chrome10.0.648.133 1 1
+chrome76.0.3809.100 155 23
+msie9.0 3 1
+firefox25.0 2 0
+firefox68.0 1 1
+chrome70.0.3538.77 1 1
+opera54.0.2952.64 2 2
+chrome76.0.3809.111 91 4
+chrome67.0.3396.87 43 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190813091316
+Mozilla/5.0_(compatible) 20190823094806
+python-requests/2.21.0 20190809212957
+Mozilla/5.0_(compatible;_ips-agent) 20190809040314
+Mozilla/6.0_(compatible) 20190823094824
+adreview/1.0 20190824051847
+python-requests/2.22.0 20190806212431
+Go-http-client/1.1 20190831080456
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20190802073640
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Go-http-client/1.1 20190831080456
+adreview/1.0 20190824051847
+python-requests/2.22.0 20190806212431
+python-requests/2.21.0 20190809212957
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 276 410
+From1 0 0
+From2 0 1
+From3 21 21
+From4 73 1214
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+https://l.instagram.com 10 10
+http://l.instagram.com 4 4
+http://m.facebook.com 2 2
+https://www.netcraft.com/survey/ 1 1
+https://l.facebook.com 1 1
+http://l.facebook.com/l.php 1 1
+https://dissiti.com 1 1
+https://lm.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 95 56400
+404 4929 2019672
+206 66 824906
+409 58 4648
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1802
+/sy.php 1 -
+/ena.php 3 -
+/umapresence/style/izoname.php 2 -
+//amad.php 1 -
+/images/shell.php 1 -
+//site.rar 1 -
+//wp-content/themes/antioch/lib/scripts/download.php 1 -
+//index.php 11 -
+/maklo.php 1 -
+/sito/wp-includes/wlwmanifest.xml 42 -
+/wp-includes/js/jquery/jquery.js 4 -
+/modules/mod_bookmark/helper.php 2 www.divaperformingarts.com
+/administrator/includes/readmy.php 2 www.divaperformingarts.com
+/forbiddens.php 2 -
+/media/xWarning.php 1 -
+//cfg-contactform-1/inc/upload.php 1 -
+/Ok.php 1 -
+/.+.php 1 -
+/modules/bamegamenu/HolaPresME_43179.php 4 -
+/dal.php 1 -
+/GreenS.php 2 -
+//components/com_creativecontactform/fileupload/index.php 1 -
+/media/jmail.php 1 -
+/wp-content/plugins/ubh/o.php 1 -
+/wp-load.php 1 -
+/js/ckeditor/kcfinder/upload.php 4 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 http://www.divaperformingarts.com/sites/all/libraries/elfinder/php/connector.minimal.php
+/modules/wg24themeadministration/img/upload/HolaPresME_43179.php 1 -
+/vendor_extra/elfinder/files/XAttacker.php 1 -
+/0x1999.PhP 1 -
+/docs/ 2 -
+/ham.php 1 -
+/configbak.php 2 www.divaperformingarts.com
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/sab3on.php 1 -
+/cloud.php 1 -
+/wp-content/languages/wp-block.php 1 -
+/assets/uploadify/old/uploadify.php 4 -
+/RoseLeif.php 2 www.divaperformingarts.com
+/tzn.php 1 -
+/go.php 1 -
+/user/file_text/shell.php 1 -
+/I.php 1 -
+/2015/wp-includes/wlwmanifest.xml 42 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-white/designit/cs/uploadImage/$uploadfolder/jsspwned.php 6 -
+/me.php 1 -
+/wp-admin/user/user-new.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/wp-content/languages/404.php 1 -
+/wp-xss.php 1 -
+/Sh3ll.php 2 -
+/xWarning.php 4 -
+/file1.php 1 -
+/wp-content/plugins/social-networking-e-commerce-1/images/uploads/jsspwned.php 6 -
+/wp-content/plugins/mobile-app-builder-by-wappress/jsspwned.php 6 -
+/xmlrpc.php 55 -
+/i.php 2 -
+/civil.php 1 -
+/llo.php 1 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/depriving.php 1 -
+/2016/wp-includes/wlwmanifest.xml 42 -
+/doom.php 2 -
+/bestside.php 1 -
+//upload.php 3 -
+/sniper.php 3 -
+/1337w0rm.php 2 -
+/madspotshell.php 4 -
+//media/editor/plugins/filemanager/inc/izo.php 1 -
+/vinex.php 1 -
+/man.php 1 -
+/ran.php 1 -
+/priv8-sym.php 1 -
+/Rweb.php 1 -
+/cloudxv3.php 1 -
+//images/block/ddd.php 1 -
+/zebda.php 1 -
+/z4n.php 1 -
+//error_log 1 -
+//wp-admin/setup-config.php 1 -
+/images/robots.txt.php 2 www.divaperformingarts.com
+/news.php 2 www.divaperformingarts.com
+/mmm.php 1 -
+//scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/blog/ 7 -
+/images/ww.php 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 6 -
+/media.php 1 -
+/wp-content/uploads/2019/media-admin.php 1 -
+/ko.php 1 -
+/tmp/xd.php 1 -
+/p.php 3 -
+/wso.php 12 -
+/tmp/index.php 1 -
+//asset/kcfinder/css.php 1 -
+/themes/404/404.php 2 -
+/sender.php 1 -
+/AnonG.php 1 -
+/tastibeya.php 1 -
+/assets/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/lol.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/RxR__yjamw.php 1 -
+/baba.php 1 -
+/d.php 6 -
+//site.tar.gz 1 -
+/r3x.php 2 www.divaperformingarts.com
+/m3x.php 1 -
+/wp47/ 2 -
+/wp-content/plugins/wordpress-member-private-conversation/doupload.php 12 -
+/images/stories/xWarning.php 1 -
+/indx.php 1 -
+/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+//wp-content/themes/switchblade/framework/_scripts/valums_uploader/php.php 1 -
+/wp-contacts.php 2 -
+/az.php 1 -
+/images/clean.php 1 -
+/modules/pk_vertflexmenu/uploads/HolaPresME_43179.php 1 -
+/orvx.php 3 -
+//cmd.php 1 -
+/shop/wp-includes/wlwmanifest.xml 42 -
+/web/image/upload.php 2 -
+/ddd.php 5 -
+/wp-content/themes/margreetalgra/404.php 2 www.divaperformingarts.com
+/smart.php 1 -
+/wsogold.php 1 -
+/wp-content/uploads/2017/06/20170623054016_bcc.php 2 -
+/editor/plugins/filemanager/inc/izo.php 2 -
+/o.php 3 -
+/templates/ja_purity/index.php 2 -
+/tmp/2.php 1 -
+/administrator/dbconfig.php 2 www.divaperformingarts.com
+/feter.php 1 -
+/xlog..php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 12 -
+/wp-content/plugins/wp-manager/file.php 1 -
+/admin/images/cal_date_over.gif 12 -
+/xx.pl 1 -
+/v5.php 1 -
+//surveys.php 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/wp-content/themes/fossy-speurhondenworst/divi-children-engine/divi_children_engine.php 2 www.divaperformingarts.com
+//shop/filemanager/plugin.min.js 1 -
+/PZUG.php 1 -
+/Cpanel.php 1 -
+/_404.php 1 -
+/ws0.php 2 -
+/modules/mod_simplefileuploadv1.3/elements/GHB67e.php 1 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 3 -
+/modules/columnadverts/slides/HolaPresME_43179.php 1 -
+/V3.php 2 -
+/1han.php 1 -
+/wp-content/jssor-slider/jssor-uploads/jsspwned.php 6 -
+/up.php 13 -
+//helpdesk/media/editor/plugins/filemanager/inc/izo.php 1 -
+//AndroidFileUpload/uploads/ddd.php 1 -
+/ss.php 1 -
+/ajax.php 1 -
+/12.php 2 -
+/wp-content/plugins/akismet/widget.php 1 -
+/Zxboss.php 1 -
+/home.php 1 -
+/GreenMini.php 1 -
+//tinymce/plugins/imgsurfer/main.php 2 -
+/xm2.php 1 -
+/za.php 1 -
+/wp_data.php 1 -
+/css/dzQ.php 1 -
+/wp-content/plugins/dzs-videowhisper/upload.php 6 -
+/images/cp.php 1 -
+/wp-swin.php 1 -
+/404.php 6 -
+/agent.php 1 -
+/wp-content/plugins/upspy/sllolx.php 1 -
+/wp-upgrade.php 1 -
+/olux.php 8 -
+/aaxd.php 1 -
+/mary.php 1 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/index.php 5 -
+/44.php 1 -
+/media/jss.php 1 -
+/gaza.php 4 -
+/maro.php 1 -
+/robots.txt 58 -
+/libraries/jscripts/kcfinder/upload.php 4 -
+/zb.php 1 -
+/def.php 1 -
+/cmd.php 2 -
+/produtos.php 1 -
+/default_component.php 1 -
+/spy.php 2 -
+//wp-admin/admin-ajax.php 7 -
+//_admin/files/upload/server/php/ 1 -
+//helpdesk/media/editor/plugins/filemanager/inc/data.php 1 -
+/images/php_ini.php 1 -
+/rox.php 1 -
+/tmp/king.php 1 -
+/wp-content/plugins/lb-mixed-slideshow/gallery/1/jsspwned.php 6 -
+/media/reads.php 2 www.divaperformingarts.com
+/fonts/glyphicons-halflings-regular.ttf 1 -
+/newps.php 1 -
+/cont.php 1 -
+//libraries/jscripts/kcfinder/upload.php 1 -
+/admin/editor/plugins/filemanager/inc/data.php 2 -
+/files/uploadify/uploadify.php 5 -
+/wp-add.php 1 -
+/Dz.php 1 -
+/templates/system/index.php 2 -
+/killer.php 4 -
+/wkwk.php 1 -
+/pay.php 2 -
+/blog/wp-login.php 2 -
+/xx.php 4 -
+//admin/editor/plugins/ajaxfilemanager/inc/izo.php 1 -
+/jjl.php 1 -
+/see.php 1 -
+/wp-content/plugins/wp-manager/x.php 1 -
+/wp-content/plugins/zen-mobile-app-native/server/images.php 6 -
+//modules/megaproduct/upload/index.php 1 -
+/website/wp-includes/wlwmanifest.xml 42 -
+/wp-content/themes/satoshi/functions/upload-handler.php 1 -
+/uploads/ 2 -
+/templates/default/jQuery-File-Upload/server/php/index.php 1 -
+/eror.php 1 -
+/admin.php 7 -
+/wp-crons.php 1 -
+/wp-content/plugins/myshe.php 2 www.divaperformingarts.com
+/SessionController.php 2 www.divaperformingarts.com
+/wp2/wp-includes/wlwmanifest.xml 42 -
+/templates/ja-helio-farsi/index.php 2 -
+/privmailer.php 1 -
+/info.php 5 -
+/tmp/w.php 1 -
+/669N.php 1 -
+/images/upxx.php 2 -
+/lz.php 1 -
+/wsozo.php 1 -
+//js/server/php/index.php 1 -
+/modules/vtemskitter/uploadimage.php 1 -
+/jscripts/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/newsleter.php 1 -
+/h4xor.php 2 -
+/alfa.php 2 -
+//javascript/filemanager/plugin.min.js 1 -
+/tbon.php 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/server/images.php 6 -
+/shootme.php 2 www.divaperformingarts.com
+/config.php 3 -
+/wp.phtml 1 -
+/public/js/plugins/imgsurfer/imglist.php 2 -
+/cgh.php 1 -
+/dr.php 1 -
+/templates/beez3/error.php 2 -
+/wp-content/plugins/ubh/shelll.php 1 -
+//ftp.txt 1 -
+/address.php 1 -
+/ind.php 2 -
+/wp-content/plugins/SocketIontrol.php 2 www.divaperformingarts.com
+/ww.php 1 -
+/pzug.php 1 -
+//assets/js/mylibs/kcfinder/upload.php 1 -
+/aq032.php 1 -
+/np.php 1 -
+/components/com_jbcatalog/libraries/jsupload/ 2 -
+//tinymce/plugins/imgsurfer/imglist.php 1 -
+/11b.php 1 -
+/4min2.php 1 -
+/luck.php 1 -
+/templates/atomic/html/leaf3.php 1 -
+/tooler.php 1 -
+//wp-content/themes/churchope/lib/downloadlink.php 1 -
+/cgi.pl/ 1 -
+/lolz.php 1 -
+/tpl/plugins/upload9.1.0/server/php/ 8 -
+/m.php 6 -
+/vb.rar 1 -
+/r.php 2 -
+/tmp/sok.php 1 -
+/components/com_b2jcontact/izoc.php 2 -
+/configurationbak.php 2 www.divaperformingarts.com
+/d7.php 1 -
+/images/ini.php 1 -
+/assets/ckeditor/kcfinder/upload.php 4 -
+/anislama.php 1 -
+/wp-content/plugins/wp-cache.php 2 www.divaperformingarts.com
+/.well-known/ZoneDNS.php 1 -
+/com_sexycontactform/fileupload/files/xWarning.php 1 -
+/tmp/readme.php 1 -
+/site/tmp/cTivrC.php 2 www.divaperformingarts.com
+/media/jmails.php 1 -
+/wp-includes/upgrade/theme-compat/popup-pomo.php 1 -
+//Black.php 1 -
+/images/vuln.php 3 -
+/administration/Sym.php 1 -
+/sok.php 1 -
+/tmp/sfx.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/jsspwned.php 6 -
+//vehiculo_photos/server/php/ 1 -
+/wp-content/themes/ultimatum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/wp-copy.php 1 -
+/wp-content/plugins/theme-configurator/mini.php 2 -
+/images/test.php 1 -
+//assets/js/filemanager/plugin.min.js 1 -
+/apara999.php 1 -
+/egyshell.php 1 -
+/2017/wp-includes/wlwmanifest.xml 42 -
+/wp-content/themes/pinboard/themify/themify-ajax.php 6 -
+//public/filemanager/plugin.min.js 1 -
+/.well-known/tmp.php 1 -
+/helpdesk/media/editor/plugins/filemanager/inc/data.php 2 -
+/buck.sql 1 -
+/idx_shell.php 1 -
+/js.phtml 1 -
+/px.php 3 -
+//app/etc/local.xml 1 -
+//modul/tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+//dz.php 1 -
+//data.sql 1 -
+//admin/core/third-party/filemanager/plugin.min.js 1 -
+/xupe.php 1 -
+//wp-content/themes/ninetofive/scripts/doajaxfileupload.php 1 -
+//assets/backend/tinymce/plugins/filemanager/plugin.min.js 1 -
+/saif.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 12 -
+/iyh.php 1 -
+/modules/pk_flexmenu/uploads/HolaPresME_43179.php 1 -
+/m0m.php 1 -
+/SSS.php 1 -
+/shell.php 45 -
+/qq.php 1 -
+/wp-content/uploads/uigen_2015/jsspwned.php 6 -
+/wp-mike.php 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 -
+//options.php 1 -
+//user/login 1 -
+/images/sym.php 1 -
+/c.php 4 -
+/images/b.php 1 -
+/4.php 3 -
+/yusa.php 1 -
+/to.php 1 -
+//admin/libraries/ajaxfilemanager/inc/izo.php 1 -
+/mysql.php 1 -
+/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/king.php 1 -
+/joomla.zip 1 -
+/ande.php 1 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 4 -
+/modules/wg24themeadministration/wg24_ajax.php 1 -
+/xleet.php 1 -
+/mgh.php 1 -
+/iboy.php 1 -
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/clearwp.php 1 -
+/WhiteRose1337.php 1 -
+/tmp/admin.php 2 -
+/administrator 8 -
+/images/block/up.php 2 -
+/wp-content/plugins/social-networking-e-commerce-1/classes/views/social-options/form_cat_add.php 6 -
+/admins.php 1 -
+/libraries/joomla/go.php 1 -
+/flame.php 1 -
+/show.php 2 www.divaperformingarts.com
+/wordpress/wp-admin/ 1 -
+//t00.php 1 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/files/ 5 -
+/wp-content/uploads/GHB67e.php 1 -
+/readme.php 2 -
+/robots.txt.php 2 www.divaperformingarts.com
+/7..php 1 -
+//js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/wp-meta.php 1 -
+/config2.php 1 -
+/assets/tinymce/plugins/imgsurfer/imglist.php 2 -
+//assets/bower_components/filemanager/plugin.min.js 1 -
+/media/tmp.php 2 www.divaperformingarts.com
+/wp-admin/setup-config.php 4 -
+/2018/wp-includes/wlwmanifest.xml 42 -
+/ubh.php 1 -
+/minim.php 1 -
+/help.php 3 -
+/user/file_text/ 1 -
+/azzoulshell.php 1 -
+/sts.php 1 -
+/Amora.php 1 -
+/ox.php 2 -
+/js2.php 1 -
+/lon.php 1 -
+/cache/wcache7675n.PHP 2 www.divaperformingarts.com
+/language/en-GB/en-GB.ini 1 -
+/alfaa.php 1 -
+/00.php 1 -
+/asw.php 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-black/designit/cs/upload.php 1 -
+/wp-content/plugins/wp-simple-cart/request/simple-cart-upload.php 6 -
+/priv.php 3 -
+/wp-includes/wlwmanifest.xml 68 -
+/wp-content/plugins/wp-mobile-detector/cache/settings_auto.php 6 -
+/site/wp-includes/wlwmanifest.xml 69 -
+//tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/s.php 5 -
+/public/upload_nhieuanh/server/php/files/up.php 2 -
+//wp-content/themes/bigfeature/library/timthumb/timthumb.php 2 -
+/wp-content/vuln.php 9 -
+//admin/kcfinder/css.php 1 -
+/olad.php 2 -
+/master.php 1 -
+//forum.rar 1 -
+/err.php 1 -
+/cracker.php 2 -
+/xai.php 1 -
+/error.php 4 -
+/wp-content/plugins/html404/index.html 2 -
+/language/en-GB/en-GB.xml 12 -
+//assets/admin/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/rdp.php 1 -
+/hayquwieorpcll.php 1 -
+/py.php 1 -
+//tpl/plugins/upload9.1.0/server/php/files/ddd.php 1 -
+/meta.php 2 -
+/wp-content/plugins/zen-mobile-app-native/jsspwned.php 6 -
+//wp-content/plugins/dreamworkgallery/js/swfupload/js/upload.php 1 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 12 -
+/wp-content/plugins/sql_dump.php 2 www.divaperformingarts.com
+/wp-info.php 4 -
+/tmps.php 1 -
+/cache/news.php 2 www.divaperformingarts.com
+/modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/wp-menus.php 1 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/components/com_hdflvplayer/hdflvplayer/download.php 2 -
+//admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//server/php/files/ddd.php 1 -
+//assets/tinymce/plugins/imgsurfer/main.php 2 -
+/cocot.php 1 -
+/x.php 5 -
+//home.zip 1 -
+/mrspy.php 1 -
+//public/upload_nhieuanh/server/php/files/ddd.php 1 -
+/dm2.php 1 -
+/images/wp.php 1 -
+//.env 7 -
+/wp.PhP 1 -
+/-_-.php 1 -
+/ 38 -
+/Marvins.php 3 -
+/wp-content/_input_3_xWarning.phtml 1 -
+/rss.xml 4 -
+/prv.php 1 -
+/cpn.php 5 -
+/harishell-1.php 1 -
+//tinymce/js/tinymce/plugins/imgsurfer/main.php 1 -
+/groupusers.php 1 -
+/saa.php 1 -
+/tmp/sa.php 1 -
+//public/js/plugins/imgsurfer/main.php 2 -
+/images/gass.php 1 -
+/hexor.php 1 -
+//libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+/cpbrute.php 2 -
+/joomla.rar 1 -
+/xroot.php 1 -
+/0x.php 2 -
+/sym403.php 1 -
+/xz.php 2 -
+/dark.php 1 -
+/cliente/downloads/h4xor.php 1 -
+/php5.php 1 -
+/secret.php 1 -
+/img/index.php 1 -
+/wahyata.php 1 -
+/GREEN.php 1 -
+/images/404.php 2 www.divaperformingarts.com
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 6 -
+/hh.php 2 -
+//admin 1 -
+/misel.php 1 -
+//media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/administrator/templates/hathor/error.php 2 -
+//wordpress/wp-admin/install.php 1 -
+/images/guide.php 1 -
+//tpl/plugins/upload9.1.0/server/php/ddd.php 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-black/designit/cs/uploadImage/%3Cp%3EAn%20appropriate%20representation%20of%20the%20requested%20resource%20/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/ 1 -
+//tinymce/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/setting.php 2 -
+/M4r0c.php 1 -
+/admin 9 -
+/administrator/templates/bluestork/index.php 2 -
+/promailer.php 1 -
+//app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/modules/mod_banners/tmpl/defult.php 1 -
+/Symlink.php 2 -
+/indexz.php 1 -
+/images/cpanel.php 1 -
+/ls.php 2 -
+/libraries/joomla/web.php 1 -
+/dew.php 1 -
+//assets/global/plugins/File-Upload/server/php/index.php 1 -
+//wp-content/plugins/disqus-comment-system/disqus.php 1 -
+/wp-content/62149921.php 1 -
+/wp-root.php 1 -
+/authenticating.php 2 www.divaperformingarts.com
+//tt.php 1 -
+//plugins/kcfinder/css.php 1 -
+/vvv.php 1 -
+/media/big.php 2 -
+/libraries/joomla/wso.php 1 -
+/xup.php 2 -
+/components/com_foxcontact/fx.php 1 -
+/5.php 2 -
+/tmp/root.php 2 -
+/phpmailer.php 1 -
+/images/upload.php 1 -
+/cho.php 1 -
+//editor/plugins/filemanager/inc/data.php 1 -
+/sitemap.xml 1 -
+/prv8.php 1 -
+/vv.php 1 -
+//js/ckeditor/kcfinder/upload.php 1 -
+/media/editor/plugins/filemanager/inc/izo.php 2 -
+/wp-content/plugins/easyrotator-for-wordpress/a.php 2 www.divaperformingarts.com
+/.php 1 -
+/images/k.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 6 -
+/oss.php 2 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 1 -
+/gallery/ 2 -
+/wp-content/uploads/$year/$month/jsspwned.php 18 -
+/administrator/templates/hathor/index.php 2 -
+//assets/uploadify/uploadify.php 1 -
+/wp-content/plugins/contus-video-galleryversion-10/jsspwned.php 6 -
+/fares.php 1 -
+/rdpl.php 3 -
+/fun.php 1 -
+/as.php 1 -
+/img/newsr.php 1 -
+/wp-admin/admin-ajax.php 38 -
+/9.php 2 -
+/wp-content/w.php 1 -
+/id.php 2 -
+/tinymce/plugins/imgsurfer/main.php 4 -
+/wp-content/plugins/woocommerce-products-filter/lib/simple-ajax-uploader/root.php 1 -
+/qp.php 1 -
+/fonts/glyphicons-halflings-regular.svg 1 -
+//assets/js/bluimp/server/php/index.php 1 -
+/wp-content/uploads/wpstorecart/jsspwned.php 6 -
+/umapresence/umaservices/umapage/inc/contentCss.php 4 -
+/images/X.php 1 -
+//assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+/wp-content/plugins/mobile-friendly-app-builder-by-easytouch/jsspwned.php 6 -
+/bhx1.php 1 -
+/x.php78412628 1 -
+/shellxo.php 1 -
+/j.php 2 -
+//wp-content/plugins/wp-checkout/vendors/timthumb.php 1 -
+/media/editor/plugins/filemanager/inc/data.php 2 -
+/wp-content/uploads/uigen_YEAR/file.php 6 -
+/olx.php 1 -
+/lean.php 1 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+/tmp/Sym.php 1 -
+//wp-content/plugins/user-meta/framework/helper/uploader.php 1 -
+/favicon.php 1 -
+/modules/fieldvmegamenu/ajax/upload.php 1 -
+/simulasi.php 1 -
+/wp-content/themes/multimedia1/server/php/files/jsspwned.php 6 -
+//wp-admin/admin.php 2 -
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images.php 6 -
+/weak.php 1 -
+/root.php 4 -
+/b374k.php 3 -
+/lama.php 1 -
+/tmp/as.php 1 -
+/up2.php 1 -
+/test1.php 1 -
+/functions.php 2 www.divaperformingarts.com
+/indexok.php 1 -
+/tpl/plugins/upload9.1.0/server/php/files/up.php 2 -
+/admin/ 3 -
+/angel.php 1 -
+/smile.php 1 -
+//js/filemanager/plugin.min.js 1 -
+/ficheiros/conteudos/spy.txt 2 -
+/wordpress/wp-includes/wlwmanifest.xml 69 -
+/wp-content/uploads/2018/08/shell.php 2 -
+//sa.php 1 -
+/27126397x.php 1 -
+/mk7ico.php 1 -
+/dd.php 1 -
+/tmp/domaine.php 1 -
+/a1.php 1 -
+//gaza.php 1 -
+/wp-content/themes/centum/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 9 -
+/hb.php 2 -
+/wsoo.php 1 -
+/changeall.php 1 -
+/active.php 1 -
+/wp/wp-admin/ 1 -
+/elements.php 2 www.divaperformingarts.com
+/cpx.php 1 -
+/images/laj.php 2 www.divaperformingarts.com
+//tinymce/filemanager/plugin.min.js 1 -
+/dir2.php 1 -
+/bigdump.php 1 -
+/wp_fox.php 1 -
+/symsa2.php 2 -
+/wp-content/plugins/vr-seo/vr.php 1 -
+//editor/assetmanager/jqueryFileTree/jqueryFileTree.js 1 -
+//components/com_hdflvplayer/hdflvplayer/download.php 1 -
+/z0z.php 1 -
+/system.php 3 -
+/wso26.php 2 -
+/111.php 1 -
+/wp-content/themes/ultimatum/wonderfoundry/addons/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/reasdme.php 1 -
+/hhh.php 1 -
+/mm.php 5 -
+/wp-admin/shapes.php 2 -
+/xp-upload.php 1 -
+/wp-content/wljzlh.php 1 -
+//server/php/ 1 -
+/f0x.php 1 -
+/log.php 3 -
+/golden.php 1 -
+/wp-content/plugins/woocommerce-custom-t-shirt-designer/includes/templates/template-deep-gray/designit/cs/upload.php 6 -
+/administrator/administrator.php 2 www.divaperformingarts.com
+/wp-content/plugins/caches.php 2 www.divaperformingarts.com
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 12 -
+/lou-bna.php 1 -
+/tmp/d0maine.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/RxR__yjamw.php 1 -
+//phpminiadmin.php 1 -
+//admin/libraries/ajaxfilemanager/ajax_create_folder.php 1 -
+/Server.php 2 -
+/alfap.php 1 -
+/spyshell.php 2 -
+/wp-installation.php 1 -
+/ksa.php 1 -
+//wp-config.php.bak 1 -
+/Jijle3.php 1 -
+/phpMyAdmin/00.php 1 -
+//admin/jQuery-File-Upload/server/php/index.php 1 -
+/whmcskiller.php 2 -
+/mini.php 4 -
+//forum.zip 1 -
+/sym.php 3 -
+/405.php 1 -
+//plugins/vmcustom/photoupload/assets/server/php/index.php 1 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/configurationbak.php.suspected 2 www.divaperformingarts.com
+/sajjad.php 1 -
+/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/abuhlail.php 1 -
+//javascript/valums/server/php.php 1 -
+/components/RxR_1566474427.php 1 -
+/wordpress/ 9 -
+/cpcrack.php 1 -
+/wp.rar/ 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/jsspwned.php 12 -
+/wp-waf.php 1 -
+/null.php 1 -
+/sysadmins/ 1 -
+/21.php 1 -
+/wp-content/files_mf/jsspwned.php 6 -
+/mail.php 1 -
+/AndroidFileUpload/fileUpload.php 2 -
+//admin/libraries/ajaxfilemanager/inc/data.php 1 -
+/wp-words.php 1 -
+/hoagy.php 1 -
+/wp-content/themes/pinboard/uploads/jsspwned.php 6 -
+/images/ 2 -
+/pmSDDSD.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload/jsspwned.php 12 -
+/IndoXploit.php 1 -
+/assets/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/web.php 3 -
+//js/tinymce4/plugins/filemanager/plugin.min.js 1 -
+/hacked.php 3 -
+//tinymce/plugins/imagemanager/language/index.php 1 -
+/bb.php 3 -
+/assets/js/mylibs/kcfinder/upload/files/up.php.jd 2 -
+/wp-content/uploads/settingsimages/jsspwned.php 6 -
+/kyuKaz.php 1 -
+/wp-content/plugins/background-image-cropper/content-post.php 1 -
+/wp-content/uploads/user_uploads/test/jsspwned.php 12 -
+/img/ 2 -
+/md.php 1 -
+/bsn.php 1 -
+/aaa.php 3 -
+/editor/plugins/filemanager/ajax_create_folder.php 3 -
+//wp-content/themes/newspro/timthumb.php 1 -
+/index1.php 2 -
+/kcfinder-2.51/upload.php 4 -
+/clients/.env 1 -
+/gassrini.php.php.j 1 -
+/adminside/server/php/ 7 -
+/no.php 1 -
+/Shadow.php 1 -
+/AROn2.php 1 -
+/media/kunena/avatars/resized/size72/ex_liner.php 1 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 1 -
+/wra.php 1 -
+/wp-content/plugins/woocommerce-products-filter/lib/simple-ajax-uploader/action.php 1 -
+/tmp/dz.php 2 -
+/wp.php 4 -
+/l.php 2 -
+/anonymous.php 2 -
+/cPanelCracker.php 1 -
+/BDG.php 1 -
+/google-assist.php 2 www.divaperformingarts.com
+/upel.php 2 -
+/AndroidFileUpload/uploads/up.php 2 -
+/scripts/jquery/kcfinder/upload/files/up.php.jd 2 -
+/2.php 7 -
+/sysadmin.php 2 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/images/Sym.php 2 -
+/admin1/ 1 -
+/vendor/phpunit/phpunit/composer.json 1 -
+/RxR.php 2 -
+/roro.php 1 -
+//templates/beez/index.php 2 -
+//assets/admin/ckeditor/kcfinder/upload.php 1 -
+/helloworld.php 1 -
+/admin2.asp 2 -
+//include/config.php.000 1 -
+//wp-content/themes/saico/framework/_scripts/valums_uploader/php.php 1 -
+/user/file_text/xlog..php 1 -
+/0.php 2 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 6 -
+//2.php 1 -
+/sites/all/libraries/elfinder/files/GHB67e.php 1 -
+/um3r.php 2 -
+/tmp/whmcs.php 2 -
+/cfg-contactform-1/inc/upload.php 5 -
+/wp-admin/admin.php 18 -
+/x0.php 1 -
+/jconfig.php 2 www.divaperformingarts.com
+/ALFA-SHELL-V3.php 1 -
+//js/rokmage_tinymce/tinyupload.js 1 -
+/d0maine.php 1 -
+/os2.php 1 -
+/wp-content/satoshi/images/jsspwned.php 6 -
+/a.php 5 -
+//public/theme/server/fileupload/index.php 1 -
+//tpl/plugins/upload9.1.0/server/php/ 3 -
+/freshrdp.com.php 1 -
+/dz.php 6 -
+/components/com_banners/metadata.php 1 -
+/Symlink.pl 1 -
+/egy.php 1 -
+/media/media/images/mime-icon-16/media-admin.php 1 -
+/.foxcontatx.php 1 -
+/downloads/dom.php 2 -
+/ckeditor/kcfinder/upload.php 4 -
+/k2.php 1 -
+/haider.php 1 -
+/database.php 3 -
+/wp-content/xml.php 1 -
+/tester.php 1 -
+/3.php 5 -
+/admin/editor/plugins/filemanager/ajax_create_folder.php 3 -
+/img/loader.gif 3 http://www.divaperformingarts.com/css/swipebox.css
+//themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 1 -
+/view.php 1 -
+/js.php 2 -
+/098.php 2 -
+/kh.php 1 -
+/shel1.php 1 -
+/V5.php 4 -
+/logo_img.php 1 -
+/blog/administrator/index.php 1 -
+//components/com_contushdvideoshare/hdflvplayer/download.php 1 -
+/v3.php 1 -
+/shx.php 1 -
+/new_license.php 2 -
+/wp-content/plugins/widget-logic/mini.php 2 -
+/q2.php 1 -
+/wp-content/themes/dance-studio/core/libs/imperavi/tests/file_upload.php 6 -
+/p8.php 1 -
+/temp1-1.php 1 -
+/admin/login.php 15 -
+/components/com_jbcatalog/libraries/jsupload/server/php/files/xWarning.php 1 -
+//assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/1w.php 1 -
+/wp-content/plugins/Fbrrchive.php 2 www.divaperformingarts.com
+/tmp/vuln.php 2 -
+/newrs.php 1 -
+/files/ 2 -
+/v3-OLD.php 1 -
+/utilitys.php 1 -
+/forum.zip 1 -
+/dir.php 1 -
+/uploader.php 2 -
+/wsa.php 1 -
+/wp-check.php 1 -
+/wp-log.php 1 -
+/web_xml.php 1 -
+//public/.env 1 -
+/xGassrinix.php 1 -
+//js/tinymce4/js/tinymce/plugins/moxiemanager/api.php 1 -
+/includes/u2p.php 2 www.divaperformingarts.com
+/wp-content/plugins/wp-mobile-detector/resize.php 6 -
+/66.php 3 -
+/assets/tinymce/plugins/imgsurfer/main.php 4 -
+/media/kunena/avatars/resized/size36/users/new_side.php 1 -
+/xaishell.php 1 -
+/sd.php 1 -
+/tmp/r1z.php 1 -
+/xmlrpe.php 1 -
+//getsimple/plugins/items/uploader/server/php.php 1 -
+//sa2.php 1 -
+/wp-content/plugins/GREEN/GREENX.php 1 -
+/kos.php 1 -
+/tmp/guide.php 1 -
+/modules/columnadverts/uploadimage.php 1 -
+/news/wp-includes/wlwmanifest.xml 42 -
+/wp-content/bk.php 2 www.divaperformingarts.com
+//admin/editor/plugins/filemanager/inc/izo.php 1 -
+/files/uploadify/XAttacker.php 1 -
+/bl.php 1 -
+/images/wp-mail.php 1 -
+/wp/ 9 -
+/fckeditor/editor/filemanager/connectors/php/jsspwned.php 6 -
+//tinymce/responsivefilemanager/plugin.min.js 1 -
+/assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 2 -
+/cfq.php 1 -
+/css.php 3 -
+/indexe.php 2 -
+/hph.php 1 -
+/laravel-sites/.env 1 -
+//blog/wp-admin/install.php 1 -
+/wp-content/plugins/wpstorecart/php/upload.php 6 -
+/sqlbak.php 2 www.divaperformingarts.com
+/infusions/mp3player_panel/upload.php 5 -
+/xm1rpc.php 1 -
+/inbox.php 1 -
+/rss.php 1 -
+/wp-content/uploads/2019/07/rsx.php 1 -
+/wp-content/themes/konzept/includes/uploadify/uploads/jsspwned.php 6 -
+//js/tinymce/plugins/moxiemanager/api.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/GHB67e.php 1 -
+/idiot.php 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/imglist.php 2 -
+//editor/plugins/filemanager/ajax_create_folder.php 1 -
+/mini.phtml 1 -
+/zarox.php 2 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/sg_shell.php 1 -
+/xd.php 7 -
+/link.php 1 -
+/templates/beez5/index.php 4 -
+/indoxploit.php 11 -
+/wp-content/plugins/wp-property/third-party/uploadify/jsspwned.php 6 -
+/base.php 1 -
+//kcfinder-2.51/upload.php 1 -
+/wp-content/themes/pindol/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/libraries/joomla/juser.php 1 -
+/administrator/manifests/files/joomla.xml 2 -
+/admin/webroot/cache/59725b922cb18ad815fffe5446463048.php 1 -
+//vb.sql 1 -
+/upload.php 8 -
+/sql.php 4 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 4 -
+/pm.php 1 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 15 -
+/p20.php 1 -
+/kcfinder-2.51/upload/files/up.php.jd 2 -
+/js/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/modules/simpleslideshow/uploadimage.php 1 -
+/kcfinder-2.51/upload/files/ups.php.jd 2 -
+/tinymce/plugins/imgsurfer/imglist.php 2 -
+/worot.php 1 -
+/leaf3.php 1 -
+/needing.php 1 -
+/wp-content/plugins/downloads-manager/upload/jsspwned.php 6 -
+/images/myvideo.ogg 35 http://www.divaperformingarts.com/
+/indo.php 2 -
+/wpmass.php 1 -
+/zzz.php 1 -
+/mlx.php 1 -
+/wp-set.php 1 -
+/dssd.php 1 -
+/13.php 1 -
+/anon.php 2 -
+/bih.php 1 -
+/E.php 1 -
+/kk.php 2 -
+/test/wp-includes/wlwmanifest.xml 42 -
+/joomla/administrator/index.php 1 -
+/images/f.php 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 4 -
+/wp-content/plugins/stats/instoll.php 1 -
+/wp-content/themes/MoneyTheme/uploads/upload.php 6 -
+/templates/atomic/error.php 2 -
+/images/c.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/templates/atomic/index.php 4 -
+//umapresence/umaservices/umapage/inc/contentCss.php 1 -
+/test.php 2 -
+/libraries/respectMuslims.php 1 -
+/mek.php 1 -
+//assets/plugins/ckeditor/kcfinder/upload.php 1 -
+//ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/freshrdp.com2.php 2 -
+/vendor_extra/elfinder/files/DC0mmand3r.php 1 -
+/images/defau1t.php 2 www.divaperformingarts.com
+/mailbotspy.php 1 -
+/wp-content/plugins/SocketIasrgasfontrol.php 2 www.divaperformingarts.com
+/wp-update.php 2 -
+/admin1.php 2 -
+/images/d.php 1 -
+/js/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/wp-includes/css/modules.php 2 -
+/.wp-trc.php 1 -
+/newshell.phtml 1 -
+/mysqli.php 1 -
+/seal.php 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 12 -
+/iiWgga.php 1 -
+/images/ls.php 1 -
+/seter.php 1 -
+/e.php 3 -
+/7.php 3 -
+/com_sexycontactform/fileupload/index.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/cloud.php 1 -
+/priv8.php 6 -
+/modules/vtemslideshow/uploadimage.php 1 -
+/wp-content/plugins/background-image-cropper/new_license.php 1 -
+/gg.php 1 -
+//wp-content/themes/lightspeed/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/admin/editor/plugins/filemanager/inc/izo.php 2 -
+//scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/rxr.php 5 -
+/spy3xp.php 1 -
+/Color.php 1 -
+/toor.php 1 -
+/wp-content/plugins/pitchprint/uploader/files/jsspwned.php 6 -
+//uploads.php 1 -
+/wp-content/plugins/google-sitemap-generator/sitemap-core.php 1 -
+/templates/beez/index.php 4 -
+//wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+//theme/plugins/jquery-file-upload/server/php/index.php 1 -
+/tr.php 1 -
+//assets/global/plugins/jquery-file-upload/server/php/ 2 -
+/mad.php 3 -
+/images/w0rm.php 1 -
+/zz.php 3 -
+/0x55.php 2 -
+/libraries/joomla/jmails.php 4 -
+/wp-content/plugins/disqus-comment-system/disqus.php 3 -
+/oo.php 2 -
+/confiq.php 1 -
+/vendor_extra/elfinder/php/connector.minimal.php 4 -
+/wp-data.php 2 www.divaperformingarts.com
+/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+/user/file_text/wso.php 1 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php 2 -
+/templates/beez_20/error.php 2 -
+/ini.php 3 -
+/modules/modules/modules.php 4 -
+/theme/plugins/jquery-file-upload/server/php/index.php 1 -
+/b.php 4 -
+/tmp/user.php 1 -
+/scripts/jquery/kcfinder/upload.php 4 -
+//wp-login.php 1 -
+/wp-content/uploads/wpmp-previews/jsspwned.php 6 -
+/swah.php 2 -
+/wp-content/plugins/css-ready-selectors/file.php 1 -
+/images/1.php 1 -
+/tmp/changeall.php 1 -
+//admin/editor/plugins/filemanager/inc/data.php 1 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/jsspwned.php 12 -
+/jembot.php 1 -
+/dswat.org/wsdl.php 2 www.divaperformingarts.com
+//File-Upload/server/php/index.php 1 -
+/webr00tv3.php 1 -
+/wp-login.php 13 -
+/ff.php 1 -
+/upil.php 1 -
+/offline.php 2 -
+//helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/c22.php 3 -
+//wp-content/plugins/wp-image-news-slider/js/swfupload/js/upload.php 1 -
+/uploadshell.php 1 -
+/wp-config.php 1 -
+/sim.php 1 -
+/webr00t.php 1 -
+//modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 1 -
+/wp-content/themes/ut-gogreen/addpress/includes/ap_fileupload.php 1 -
+/aa.php 2 -
+//admin/plugin.min.js 1 -
+/shellzsb.php 1 -
+//admin/timthumb.php 1 -
+/sexx.php 1 -
+/images/al277.php 2 www.divaperformingarts.com
+//public/upload_nhieuanh/server/php/_index.php 2 -
+//assets/tinymce/plugins/imgsurfer/imglist.php 1 -
+//wp-content/plugins/wp-checkout.bk/vendors/timthumb.php 1 -
+//tinymce/plugins/filemanager/language/index.php 1 -
+/sheeel.php 1 -
+/gns.php 1 -
+/wp-content/plugins/ppus/suram.php 1 -
+/CPl.php 1 -
+/wp-content/themes/andre/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+//xml.php 1 -
+/public/upload_nhieuanh/server/php/_index.php 7 -
+//forum.sql 1 -
+/nkr.php 1 -
+/modules/vtemslideshow/slides/HolaPresME_43179.php 1 -
+/wp-content/plugins/webapp-builder/server/images.php 6 -
+/d4rk.php 1 -
+/wp-content/upgrade/404.php 1 -
+/ima.php 1 -
+/ym.php 1 -
+/modules/bamegamenu/ajax_phpcode.php 2 -
+/nn.php 1 -
+/server.php 1 -
+/shell2.php 1 -
+/wp-content/uploads/assets/temp/jsspwned.php 6 -
+//phpformbuilder/plugins/filemanager/plugin.min.js 1 -
+/ah.php 1 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 1 -
+/dick.php 1 -
+/tbshell.php 1 -
+/laravel/.env 1 -
+/images/xxu.php 1 -
+/regran.php 1 -
+/tmp/cpn.php 2 -
+/modules/404.php 1 -
+//modules/hdi/hdi-tinymce/tiny_mce4/plugins/moxiemanager/api.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/11.phtml 1 -
+/images/up.php 1 -
+/modules/pk_vertflexmenu/ajax/upload.php 1 -
+/Sym.php 2 -
+//admin/editor/plugins/ajaxfilemanager/inc/data.php 1 -
+//js/tinymce1/plugins/filemanager/language/index.php 1 -
+/server/php/ 2 -
+/alf2.php 1 -
+//address.php 1 -
+/tesl.php 1 -
+/cv.php 2 -
+/wp-admin/network/wp-footer.php 2 -
+/images/2.php 1 -
+/0byte.php 1 -
+/ccp.php 1 -
+/templates/system/error.php 2 -
+/GHB67e.php 1 -
+/403.php 1 -
+/0day.php 2 -
+//assets/global/plugins/jquery-file-upload/server/php/files/ddd.php 1 -
+/configuration.php 3 -
+/win.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/wp-content/plugins/ppus/up.php 3 -
+/images/google-assist.php 2 www.divaperformingarts.com
+/k.php 4 -
+/bbb.php 2 -
+/images/jdownloads/screenshots/rxrking.php3.g 2 -
+/joomla/ 4 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/uploadify.php 2 -
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/jsspwned.php 6 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 3 -
+/187.php 1 -
+/wp-captcha.php 1 -
+/shm.php 1 -
+/robot.php 2 www.divaperformingarts.com
+/q.php 3 -
+/iindex.php 1 -
+/images/stories/w.php 2 -
+//vendor_extra/elfinder/php/connector.minimal.php 1 -
+/goog1es.php 2 www.divaperformingarts.com
+/bypas.php 1 -
+/mode.php 1 -
+//plugins/jquery-file-upload/server/php/index.php 1 -
+/media/404.php 2 www.divaperformingarts.com
+//kcfinder-2.51/upload/files/priv.php.jd 1 -
+/up1.php 2 -
+/ll.php 1 -
+/wp-content/plugins/vr-seo/up.php 1 -
+/install.php 3 -
+/iiq.php 1 -
+/up14.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 12 -
+/images/00.php 1 -
+/wp-content/plugins/simple-ads-manager/jsspwned.php 6 -
+/cache/support.php 2 www.divaperformingarts.com
+/wp-includes/wolfm.php 1 -
+/provisional.php 1 -
+/ads.txt 1 -
+/leafmailer.php 1 -
+/list.php 2 -
+/ccc.php 1 -
+/templates/atomic/html/lndex.php 1 -
+/wp-gs.php 1 -
+/helpdesk/media/editor/plugins/filemanager/inc/izo.php 2 -
+/rip.php 1 -
+/jmx.php 1 -
+//test.txt 1 -
+/fozi.php 2 -
+//files/uploadify/uploadify.php 1 -
+/templates/beez_20/index.php 2 -
+/wp-includes/SimplePie/xsef.php 1 -
+/tmp.php 6 -
+//responsivefilemanager/plugin.min.js 1 -
+//back.sql 1 -
+/shellwow.php 1 -
+/mv.php 1 -
+/wso404.php 2 -
+/joomla/robots.txt 1 -
+/tmp/dz1.php 2 -
+/22.php 2 -
+/g.php 3 -
+//assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/vehiculo_photos/server/php/files/up.php 2 -
+/ZzZ.php 1 -
+/r00t.php 6 -
+/administrator/templates/bluestork/error.php 2 -
+/sphinx.php 1 -
+/images/upa.php 2 -
+//wp/wp-admin/install.php 1 -
+//server/php/index.php 1 -
+/a9.php 1 -
+/includes/up.php 1 -
+/gino/awso.php 1 -
+/xx1.php 1 -
+/forum.rar 1 -
+//js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/tmp/up.php 2 -
+/500.php 1 -
+/hx.php 1 -
+//clients/.env 1 -
+/wg-waf.php 1 -
+//js/tinymce/plugins/imgsurfer/main.php 1 -
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+/ws.php 1 -
+//new/wp-admin/install.php 1 -
+/wp-content/ran.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/jsspwned.php 12 -
+/libraries/joomla/1ndex.php 2 www.divaperformingarts.com
+/components/com_foxcontact/_func.php 1 -
+/upload/ 2 -
+/wp-content/plugins/vcrm/Z586.php 1 -
+/tmp/upload.php 3 -
+/happynes.php 1 -
+/tbmailer.php 1 -
+/xo.php 2 -
+/alf.Php5 1 -
+/rsx.php 3 -
+/sym/root/home/ 1 -
+//user.txt 1 -
+/M-J!r4ya-F4r3s.php 2 www.divaperformingarts.com
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+//modules/hdi/hdi-tinymce/filemanager/plugin.min.js 1 -
+/xzarox.php 1 -
+/admin/ckeditor/kcfinder/upload.php 4 -
+/dac.php 1 -
+/tmp/sql.php 2 -
+/cache/clean.php 1 -
+/wp-content/plugins/upspy/ms.php 1 -
+/good.php 1 -
+/wp-content/sloolx.php 1 -
+/gass.php 1 -
+/wp-content/themes/multimedia1/server/php/ 6 -
+/assets/global/plugins/jquery-file-upload/server/php/files/up.php 2 -
+//tinymce/plugins/ajaxfilemanager/inc/data.php 1 -
+/includes.php 2 www.divaperformingarts.com
+/thumb.php 2 www.divaperformingarts.com
+//Modules/Logo/LogoHandler.ashx 1 -
+/un.php 2 -
+/88.php 1 -
+/modules/mod_simplefileupload.3/elements/xWarning.php 1 -
+/wp-content/uploads/i-dump-uploads//jsspwned.php 6 -
+//vehiculo_photos/server/php/files/ddd.php 1 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/xWarning.php 1 -
+/f.php 4 -
+/xleetwolf.php 1 -
+/themes/dashboard/assets/plugins/jquery-file-upload/server/php/ 4 -
+/tmp/mad.php 2 -
+/public/theme/server/fileupload/index.php 1 -
+/wp-includes/setup.php 1 -
+/wp-content/themes/twentyseventeen/content-post.php 1 -
+/bypass.php 1 -
+/wp-includes/wp-inc.php 1 -
+/long.php 1 -
+/wp-content/plugins/upspy/leafn.php 1 -
+/wp-content/themes/twentynineteen/content-post.php 1 -
+/wp-content/uploads/jsspwned.php 12 -
+/images/xcontact182.php 1 -
+/web/wp-includes/wlwmanifest.xml 41 -
+/tmp/pz.php 2 -
+/wp-content/themes/twentyeleven-child/footer.php 2 www.divaperformingarts.com
+/wp-content/jsspwned.php 6 -
+/XxX.php 2 -
+/dof.php 1 -
+/wp-content/plugins/upspy/lux.php 1 -
+/user/file_text/00.php 1 -
+/roots.php 1 -
+//backup.sql 1 -
+//admin.php 1 -
+/GreenUP.php 1 -
+/templates/beez5/error.php 2 -
+//shop/admin/filemanager/plugin.min.js 1 -
+/x3.php 1 -
+/gelap.php 1 -
+/content.php 2 www.divaperformingarts.com
+/admin/libraries/ajaxfilemanager/inc/data.php 2 -
+/tmp/Cgishell.pl 1 -
+/fire.php 1 -
+/petz.php 1 -
+/55.php 1 -
+/wp-content/plugins/barclaycart/uploadify/jsspwned.php 6 -
+/wsdl.php 2 www.divaperformingarts.com
+/admin/libraries/ajaxfilemanager/inc/izo.php 2 -
+/logs.asp 2 www.divaperformingarts.com
+/wp-content/uploads/wysija/themes/v5wysija/jsspwned.php 6 -
+/bin/logo_img.php 1 -
+/so.php 1 -
+/how.php5 1 -
+/minishell.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/field_upload.php 6 -
+/syrian_shell.php 1 -
+/wp-content/bees.php 1 -
+/new.php 1 -
+/wp-content/uploads/2018/03/xWarning.php 2 -
+/wp-content/themes/cubed_v1.2/functions/upload-handler.php 6 -
+/q1.php 1 -
+/user/ 3 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 2 -
+/wp-content/uploads/headway/header-uploads//jsspwned.php 6 -
+/eee.php 1 -
+/666.php 2 -
+/media/kunena/avatars/media-admin.php 1 -
+/cfg.php 1 -
+//js/kcfinder/css.php 1 -
+//wp-contacts.php 1 -
+/ya3sine.php 1 -
+//jQuery-File-Upload/server/php/index.php 1 -
+/ee.php 1 -
+/dam.php 3 -
+/wsos.php 1 -
+/tmp/upxx.php 1 -
+/tmp/uploads.php 3 -
+/images/xxx.php 2 www.divaperformingarts.com
+/images/1ndex.php 2 www.divaperformingarts.com
+/error-log.php 2 www.divaperformingarts.com
+/77.php 1 -
+/mrx.php 1 -
+//wp-content/plugins/flipbook/php.php 1 -
+/L3b.php 1 -
+/modules/pk_flexmenu/uploads/xWarning.php 1 -
+/zabi.php 1 -
+/wawa.php 2 -
+/public/.env 1 -
+/wp-content/plugins/akismet/akismet.php 4 -
+/uploads.php 2 -
+/zer0x.php 1 -
+/1997.php 1 -
+/wp-admin/options-general.php 6 -
+/wp-time.php 1 -
+/userfiles/file/spy.txt 2 -
+/mailer.php 3 -
+//assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//js/swfupload/js/upload.php 1 -
+/%0A/.env 2 -
+//forum.tar.gz 1 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/weso.php 1 -
+/components/com_finder/views/search/tmpl/souf.php 1 -
+/billing/killer.php 1 -
+/92.php 1 -
+/b1.php 3 -
+/templates/system/css/system.css 16 -
+/wp-content/plugins/ubh/shell.php 1 -
+/2xdfv.php 1 -
+//include/swf_upload.php 1 -
+/why.php 1 -
+/wp-admin/install.php 3 -
+/leaf.php 1 -
+/smiley/1.gif 4 -
+/cw.php 1 -
+//wp-admin/install.php 2 -
+/m.phtml 1 -
+/wp-cofigs.php 2 -
+/wp-content/plugins/ppus/joom.php 1 -
+/wp-content/plugins/spirit-templates/up.php 1 -
+/iq.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads//jsspwned.php 6 -
+/zibi.php 1 -
+/alf.php 2 -
+/.olux.php 1 -
+/shelled.php 2 -
+/ks.php 1 -
+/Uploader.php 1 -
+/wp-content/uploads/product_files/jsspwned.php 6 -
+/t.php 3 -
+/iam.php 1 -
+/images/newsr.php 1 -
+/wp-content/uploads/2019/08/ 2 -
+/zct.php 1 -
+/jijle3.php 1 -
+/libraries/jscripts/kcfinder/upload/files/up.php.jd 2 -
+/tmp/r00t.php 1 -
+//shop/js/rokmage_tinymce/tinyupload.js 1 -
+/application/configs/application.ini 2 -
+//installation/index.php 1 -
+/smtp.php 3 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 2 -
+/wp-includes/SimplePie/Canonical.php 1 -
+/set.php 1 -
+/files/uploadify/DC0mmand3r.php 1 -
+//wp-config.php.000 1 -
+/wp-logs.php 2 -
+//admin/ckeditor/kcfinder/upload.php 1 -
+/mo.php 1 -
+//admin/js/filemanager/plugin.min.js 1 -
+/raw.php 1 -
+/tesmini.php 1 -
+/you.php 1 -
+/wp-content/plugins/radykal-fancy-gallery/admin/jsspwned.php 6 -
+/GreenPxOK.php 2 -
+/h.php 2 -
+//AndroidFileUpload/fileUpload.php 1 -
+//adminside/server/php/ 2 -
+//tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/images.php 1 -
+/wp-content/plugins/vwcleanerplugin/bump.php 2 -
+/ACG.php 1 -
+/tmp/1.php 2 -
+/jtk.php 1 -
+/melex1.php 1 -
+//cms/filemanager/plugin.min.js 1 -
+/wp1/wp-includes/wlwmanifest.xml 42 -
+//laravel/.env 1 -
+/10.php 2 -
+/shells/b374k.php 1 -
+/by.php 5 -
+/minis.php 1 -
+/99.php 1 -
+/Server/ 1 -
+/tmp/ss.php 1 -
+//admin/js/tinymce/plugins/imgsurfer/main.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/jsspwned.php 6 -
+/server/php 3 -
+//public/javascript/filemanager/plugin.min.js 1 -
+/payload3.php 1 -
+/wp-content/plugins/asset-manager/upload.php 6 -
+/modules/megamenu/uploadify/uploadify.php 1 -
+//ckeditor/kcfinder/upload.php 1 -
+/xxx.php 4 -
+/wp-admin/admin-post.php 18 -
+/w.php 9 -
+/xml.php 2 -
+//assets/uploadify/old/uploadify.php 1 -
+/save.php 1 -
+//modul/tinymce/plugins/ajaxfilemanager/inc/izo.php 1 -
+/wp-errer.php 1 -
+/wp-content/logs.php 1 -
+/modules/pk_flexmenu/ajax/upload.php 2 -
+/lel.php 1 -
+//plugins/content/jw_allvideos/includes/download.php 1 -
+/gzaa_spysl 1 -
+/000.php 1 -
+//error 1 -
+/wp-content/plugins/css-ready-seled/file.php 1 -
+//_admin/files/upload/server/php/files/ddd.php 1 -
+/wp-content/plugins/upspy/f.php 1 -
+/tmp/bogel.php 1 -
+/media/1ndex.php 2 www.divaperformingarts.com
+//forum.tar 1 -
+/xnxx.php 2 -
+/simple.php 1 -
+//newsite/wp-admin/install.php 1 -
+/tmp/vaga.php 1 -
+//timthumb.php 1 -
+/pop-side.php 1 -
+/libraries/joomla/jmail.php 3 -
+/sh3ll.php 3 -
+/keceval.php 1 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 6 -
+/big.php 2 -
+/wp-cache.php 2 www.divaperformingarts.com
+/wp12.php 1 -
+/mka7.php5 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 6 -
+/Abbrevsprl.php 2 www.divaperformingarts.com
+//kcfinder/css.php 1 -
+/mi.php 1 -
+/wp-content/plugins/dzs-videowhisper/upload/jsspwned.php 6 -
+/c100.php 5 -
+//home.tar.gz 1 -
+/vuln.php 1 -
+/X1.php 1 -
+/sym1.php 1 -
+/anu.php 1 -
+//administrator 1 -
+/d0mains.php 1 -
+/8.php 2 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 2 -
+/blog/robots.txt 8 -
+//web/image/upload.php 1 -
+/_sheller.php 1 -
+/d00.php 2 -
+/wp-main.php 2 www.divaperformingarts.com
+/wp-content/plugins/wpfootes.php 2 www.divaperformingarts.com
+//wp-content/plugins/gallery-plugin/upload/php.php 1 -
+/vehiculo_photos/server/php/ 4 -
+/tt.php 2 -
+/wp-logins.php 1 -
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 6 -
+/maill.php 2 www.divaperformingarts.com
+/installation/index.php 3 -
+/settings.php 2 -
+/plugins/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/mk.php 1 -
+/mb.php 1 -
+/mSloyw.php 1 -
+/components/com_jbcatalog/libraries/jsupload/server/php/ 1 -
+/wp-content/plugins/spirit-templates/accdb.php 1 -
+/wp-content/bsn.php 1 -
+/cache/list.php 2 www.divaperformingarts.com
+//infusions/mp3player_panel/upload.php 1 -
+/sl.php 1 -
+/fak.php 1 -
+/ww3.php 1 -
+/wp-content/plugins/upspy/up.php 1 -
+/roubt.php 2 www.divaperformingarts.com
+/0x0.php 1 -
+/xvis.php 1 -
+/wp-content/plugins/omni-secure-files/plupload/examples/uploads/jsspwned.php 6 -
+/assets/admin/ckeditor/kcfinder/upload.php 4 -
+/6.php 4 -
+/wp-content/plugins/wp-footers.php 2 www.divaperformingarts.com
+/scripts/jquery/kcfinder/upload/files/ups.php.jd 2 -
+/update.php 5 -
+/edit-site.php 1 -
+/u.php 4 -
+/cc.php 3 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/indox.php 1 -
+/ler.php 1 -
+/fshell.php 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/inc/data.php 2 -
+//media/editor/plugins/filemanager/inc/data.php 1 -
+/sado.php 2 -
+/tool.php 2 -
+/lisx.php 1 -
+/ny.php 1 -
+/wp-2018.php 1 -
+/s2.php 1 -
+/files/conn.php 2 www.divaperformingarts.com
+/wp-content/1ndex.php 2 www.divaperformingarts.com
+/images/gh.php 1 -
+/Meuhy.php 1 -
+//server/php 1 -
+/dom.php 1 -
+//wp-content/plugins/advanced-dewplayer/admin-panel/download-file.php 1 -
+/nktt.php 1 -
+/xb.php 1 -
+/images/WSO.php 1 -
+/mini_shell.php 1 -
+/sa.php 3 -
+/server/php/files/up.php 2 -
+/awso.php 1 -
+//wp-content/plugins/evarisk/include/lib/actionsCorrectives/activite/uploadPhotoApres.php 1 -
+/gator.php 1 -
+//site.sql 1 -
+/xGSx.php 2 -
+//TimThumb.php 1 -
+//assets/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/cache/defau1t.php 2 www.divaperformingarts.com
+/.git/HEAD 1 -
+//wp-content/themes/versatile/lib/includes/timthumb.php 1 -
+/yy.php 1 -
+/whmcs.php 5 -
+/modul/tinymce/plugins/ajaxfilemanager/inc/data.php 2 -
+/sql_dump.php 2 www.divaperformingarts.com
+/cyber.php 1 -
+/pp.php 1 -
+//home.rar 1 -
+/wp-json/wp/v2/users/ 1 -
+/wp-content/themes/beach_apollo/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/v4team.php 1 -
+/default.php 1 -
+/zx.php 1 -
+/img.php 2 -
+/options.php 1 -
+/muri.php 1 -
+//wp-content/themes/modularity/includes/timthumb.php 1 -
+/wp-content/plugins/magic-fields/RCCWP_upload_ajax.php 6 -
+/wp-content/themes/churchope/lib/downloadlink.php 1 -
+/theme.php 2 -
+//awstats 1 -
+/license.php 1 -
+/sfdsfsd.php 1 -
+//ajaxupload.php 1 -
+/wp.zipwp-content/plugins/disqus-comment-system/disqus.php 1 -
+//admin/js/tinymce/plugins/imgsurfer/imglist.php 1 -
+/user/login 7 -
+//tinymce/plugins/moxiemanager/api.php 1 -
+//filemanager/plugin.min.js 1 -
+//editor/plugins/filemanager/inc/izo.php 1 -
+/wp-content/plugins/xichang/x.php 2 -
+/scan.php 1 -
+//assets/ckeditor/kcfinder/upload.php 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 3 -
+/user.php 4 -
+/wp-content/themes/rarebird/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/11.php 3 -
+/abc.php 2 -
+/kil3r.php 1 -
+//home.tar 1 -
+/templates/beez3/index.php 2 -
+/sc.php 1 -
+/images/k2.php 1 -
+/mh.php 1 -
+/psy.php 1 -
+/wptimers.php 1 -
+/ns.php 1 -
+/msss.php 1 -
+/images/head.php 2 www.divaperformingarts.com
+/wp-content/plugins/membership-simplified-for-oap-members-only/download.php 1 -
+/components/com_foxcontact/home.php 1 -
+/wp-puplic.php 1 -
+/file.php 1 -
+/r00t-s3c.php 1 -
+/Cgishell.pl 1 -
+/.env 5 -
+/xc.php 1 -
+/images/DZ.php 1 -
+/mast.php 2 -
+/email.php 2 www.divaperformingarts.com
+/eddy.php 1 -
+/zone-h.php 3 -
+/assets/plugins/ckeditor/kcfinder/upload/files/up.php.jd 2 -
+/c9.php 1 -
+/forum/register.php 3 -
+/cpanel.php 5 -
+//admin/filemanager/plugin.min.js 1 -
+/pdf/ 2 -
+/wp-content/themes/satoshi/upload-file.php 6 -
+/panel.php 1 -
+/wp-mas.php 2 -
+/tmp/L3b.php 1 -
+/noname.php 2 -
+/azshell.php 1 -
+/assets/js/bluimp/server/php/index.php 1 -
+/doc.php 1 -
+/media/gass.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/images/m.php 1 -
+/wp-content/plugins/vr-seo/wp-2017.php 1 -
+/zan.php 1 -
+/whmcs/downloads/dz.php 1 -
+/wso24.php 2 -
+/cgi.php 1 -
+/wp-admin/m4d.php 2 -
+/images/wso.php 1 -
+/mmk.php 1 -
+/wp-content/plugins/ubh/uplo.php 1 -
+/alfa-1.phtml 1 -
+/crazy.php 1 -
+/wsd.php 1 -
+/tmp/d.php 1 -
+//plugins/content/s5_media_player/helper.php 1 -
+/ess.php 3 -
+/sql-new.php 1 -
+/fuck.php 3 -
+/wp-trackback.php 1 -
+/tmp/domaine.pl 1 -
+/xmlsrpc.php 2 www.divaperformingarts.com
+//up.php 1 -
+/wordpress/wp-content/plugins/css-ready-seled/file.php 1 -
+/dz0.php 2 -
+/wp-content/plugins/ubh/index.php 2 -
+/wp-content/uploads/Fbrrchive.php 2 www.divaperformingarts.com
+//app/webroot/js/tinymce/plugins/imgsurfer/main.php 2 -
+/wp-content/plugins/ubh/up.php 1 -
+/media/wp-includes/wlwmanifest.xml 42 -
+//wpnew/wp-admin/install.php 1 -
+/xp.php 2 -
+/webdev.php 1 -
+/lux.php 2 -
+/xmlrpc-activate.php 2 www.divaperformingarts.com
+/abcd.php 1 -
+/zab.php 1 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/upload.php 6 -
+/3xPloiTeR.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 4 -
+/gino/k.php 1 -
+/markindo.php 1 -
+/Shell.php 1 -
+/imdex.php 1 -
+/modules/mod_simplefileupload.3/elements/udd.php 1 -
+/wp-db.php 1 -
+/send.php 1 -
+/media/css.php 1 -
+/upz.php 1 -
+/wp-includes/cm3.php 1 -
+/about-us.php 1 -
+/wp13.php 1 -
+/wp-signup.php 1 -
+/wp-con.php 1 -
+/spymass.php 1 -
+/tmp/setting.php 1 -
+/tmp/madspotshell.php 1 -
+/cms/wp-includes/wlwmanifest.xml 69 -
+/images/logo_img.php 1 -
+/libraries/jscripts/kcfinder/upload/files/ups.php.jd 2 -
+/libraries/joomla/css.php 3 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 6 -
+/templates/protostar/index.php 2 -
+//site.txt 1 -
+/wss.php 1 -
+/lfishell.php 1 -
+/wp-content/themes/MoneyTheme/uploads/uploads/jsspwned.php 6 -
+/wp-content/themes/IncredibleWP/framework/plugins/revslider/temp/update_extract/revslider/izo.php 1 -
+/bitrix/admin/index.php 4 -
+/y.php 2 -
+/ssl.php 1 -
+/nunu.php 1 -
+/assets/uploadify/uploadify.php 5 -
+/blog/wp-includes/wlwmanifest.xml 68 -
+/images/p.php 1 -
+/templates/protostar/error.php 2 -
+//wp-content/plugins/sell-downloads/sell-downloads.php 1 -
+/administrator/ 4 -
+/.root.php 1 -
+/apc.php 1 -
+/webconfig.txt.php.suspected 2 www.divaperformingarts.com
+/public/js/plugins/imgsurfer/main.php 4 -
+/uploadify/uploadify.php 1 http://www.divaperformingarts.com/uploadify/uploadify.php
+/tinymce/plugins/ajaxfilemanager/inc/izo.php 2 -
+/images/g.php 1 -
+/CaZaNoVa163.php 1 -
+/wp-content/plugins/Analyser.php 2 www.divaperformingarts.com
+/wp-content/plugins/pitchprint/uploader/ 7 -
+/idx.php 2 -
+/images/admin.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+//admin/editor/plugins/filemanager/ajax_create_folder.php 1 -
+/modules/fieldvmegamenu/uploads/HolaPresME_43179.php 1 -
+/shell9090.php 1 -
+/ii.php 1 -
+/jwallpapers_files/plupload/xWarning.php 1 -
+/cache/asdf.php 2 -
+/wp-admin/ 9 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 6 -
+/mine.php5 1 -
+/assets/js/mylibs/kcfinder/upload/files/ups.php.jd 2 -
+//thumb.php 1 -
+/dz1.php 2 -
+/tmp/priv8.php 1 -
+/modules/vtemskitter/img/HolaPresME_43179.php 1 -
+//novi/admin/engine/lib/valums/server/php.php 1 -
+/x3d.php 1 -
+/uu.php 1 -
+/components/RxR_1566505747.php 1 -
+/libraries/imports.legacy.php 1 -
+/wp-content/uploads/2019/08/jsspwned.php 12 -
+/tmp/petx.php 1 -
+/mide.php 1 -
+/wp-content/uploads/settingsimages/2019/08/en/jsspwned.php 150 -
+/tpl/plugins/upload9.1.0/server/php/up.php 2 -
+/jj.php 2 -
+/proshell1.php 1 -
+//admin/login.php 2 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php/imglist.php 2 -
+/wp-content/plugins/radykal-fancy-gallery/admin/image-upload.php 6 -
+/administrator/templates/isis/index.php 2 -
+/admins.asp 1 -
+/wp_logns.php 1 -
+//core/third-party/filemanager/plugin.min.js 1 -
+/proshell.php 1 -
+//doajaxfileupload.php 1 -
+/phpMyAdmin/f1.php 1 -
+/components/com_foxcontact/mrpatate.php 1 -
+/useradmin/ 1 -
+//modules/mod_dvfoldercontent/download.php 1 -
+/images/anon.php 1 -
+/tmp/killer.php 2 -
+/pc.php 1 -
+/ajax/api/hook/decodeArguments 2 -
+/1.php 8 -
+/wp-includes/css/css.php 1 -
+/haxor.php 1 -
+/.h..php 1 -
+/templates/beez/beez.php 1 -
+/wp/wp-includes/wlwmanifest.xml 68 -
+/wp-admin.php 1 -
+/dc.php 1 -
+/cli/40dd1d.php 3 -
+/files/files.php 2 www.divaperformingarts.com
+/1234.php 1 -
+/911.php 2 -
+/cfg-contactform-1/upload/ddd.php 2 -
+/pl.php 1 -
+/madspot.php 2 -
+/wp-content/plugins/upspy/index.php 2 -
+/auithorze.php 1 -
+/images/jdownloads/screenshots/xWarning.php 1 -
+/z.php 5 -
+//magmi/web/download_file.php 1 -
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/k2ll3d.php 1 -
+/asp.aspx 1 -
+/modules/megamenu/uploadify/xWarning.php 1 -
+//laravel-sites/.env 1 -
+/.n.php 1 -
+/jscripts/tiny_mce/plugins/ajaxfilemanager/inc/data.php 2 -
+//templates/default/jQuery-File-Upload/server/php/index.php 1 -
+/web/image/Images/up.php 2 -
+/ph.php 1 -
+//ajax/api/hook/decodeArguments 1 -
+/bookmark.php 2 www.divaperformingarts.com
+/wpo.php 1 -
+/editor/plugins/filemanager/inc/data.php 2 -
+/cache/cachee.php 2 www.divaperformingarts.com
+/assets/js/mylibs/kcfinder/upload.php 4 -
+/cp.php 6 -
+/wp-content/themes/library/visual-editor/lib/upload-header.php 6 -
+/vb.zip 1 -
+/WLV790.php 1 -
+/X-Sec.php 1 -
+//panel/kcfinder/css.php 1 -
+/indexx.php 1 -
+/aaaa.php 1 -
+//include/config.php.bak 1 -
+//admin/images/cal_date_over.gif 2 -
+/administrator/index.php 2 -
+/user/file_text/(ls.php 1 -
+/3Turrshell.php 1 -
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 4 -
+//tinymce/js/filemanager/plugin.min.js 1 -
+/WSO.php 4 -
+//timthumb/timthumb.php 1 -
+/secureHigh.php 1 -
+/r0k.php 1 -
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/imglist.php 1 -
+/by.phtml 1 -
+/user.ini.php 1 -
+//web/image/Images/ddd.php 1 -
+/fallaga.php 1 -
+/n.php 2 -
+//admin/tinymce/filemanager/plugin.min.js 1 -
+/admin/ckeditor/kcfinder/upload/files/ups.php.jd 2 -
+/infos.php 2 www.divaperformingarts.com
+/ok.php 1 -
+/webconfig.txt.php 2 www.divaperformingarts.com
+/wp-content/plugins/wp-simple-cart/files/$uploadfolder/temporary/jsspwned.php 6 -
+/wp-content/themes/medicate/framework/plugins/revslider/temp/update_extract/revslider/jsspwned.php 6 -
+/backup.php 2 -
+/wp-content/uploads/ 2 -
+//public/js/plugins/imgsurfer/imglist.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/cloud.php 1 -
+//wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/exp.php 1 -
+/monster.php 1 -
+/2531.php 1 -
+/db.php 1 -
+/templates/rhuk_milkyway/index.php 4 -
+/server/php/files/ddd.php 2 -
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 2 -
+/bio.php 1 -
+/hd.php 2 -
+//scripts/jquery/kcfinder/upload.php 1 -
+/administrator/templates/isis/error.php 2 -
+/wp-configuration.php 1 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/uploads/jsspwned.php 12 -
+/newp.php 1 -
+/modules/simpleslideshow/slides/HolaPresME_43179.php 1 -
+/wp-content/plugins/ppus/ns.php 1 -
+//assets/global/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/cache/cache_aqbmkwwx.php 2 www.divaperformingarts.com
+/shootmei.php 2 www.divaperformingarts.com
+/up3.php 1 -
+/utility.php 1 -
+//templates/system/css/system.css 2 -
+/X.php 3 -
+/33.php 1 -
+/123.php 3 -
+/spy.aspx 1 -
+/index.php 26 -
+/wp-content/plugins/akismet/admin.php 2 -
+/libraries/joomla/zipy.php 1 -
+/145.php 1 -
+/1337.php 2 -
+//admin/includes/filemanager/plugin.min.js 1 -
+/A.php 2 www.divaperformingarts.com
+/S.php 1 -
+/administrator/webconfig.txt.php 2 www.divaperformingarts.com
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 6 -
+/wp-content/plugins/webapp-builder/jsspwned.php 6 -
+/private.php 2 -
+/rootx.php 1 -
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 2 -
+/v.php 2 -
+/al277.php 2 www.divaperformingarts.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 185
+176.223.138.109 78 78 2598258 20190822105636
+5.83.162.60 10 10 333110 20190825230524
+37.237.77.18 7 7 40048 20190822102338
+79.50.5.175 6 6 199866 20190823173521
+50.2.38.57 5 5 48485 20190801022014
+209.234.253.126 5 5 48485 20190822014926
+114.142.169.20 5 5 166555 20190827135830
+2.38.6.72 5 5 48485 20190820105113
+104.215.91.4 4 4 133244 20190826170242
+104.140.22.147 4 4 38788 20190816121844
+196.74.182.100 4 4 38788 20190823194801
+147.135.167.211 4 4 133244 20190824201729
+18.224.57.217 4 21 178792 20190808205004
+197.14.123.253 4 4 133244 20190821234906
+171.79.179.37 4 96 63253634 20190821081854
+145.239.32.197 4 4 18673 20190821114623
+167.114.174.95 4 4 133244 20190813091051
+113.172.34.59 3 3 29091 20190825072653
+185.234.219.246 3 3 99933 20190831080959
+104.192.74.243 3 46 16046175 20190826115332
+105.66.3.241 3 3 29091 20190825174322
+36.69.193.92 3 3 8611 20190821141049
+113.210.119.153 3 3 99933 20190823133050
+185.180.222.171 2 2 66622 20190814044900
+212.129.40.135 2 2 66622 20190827141456
+64.233.173.162 1 20 14507263 20190824073226
+42.107.255.222 0 7 11850082 
+171.79.183.138 2 48 4675845 20190824074311
+42.107.239.175 0 16 13036595 
+50.2.38.221 1 1 9697 20190805203839
+170.244.92.133 1 1 9697 20190827125531
+36.68.83.136 1 1 9697 20190822151845
+54.189.93.81 1 1 9697 20190829081851
+52.208.68.93 1 1 9697 20190828053444
+31.13.127.24 1 19 13312804 20190824051815
+85.206.165.15 2 2 66622 20190827025457
+31.13.127.15 0 16 13444377 
+45.82.50.202 1 1 9697 20190814132949
+36.99.136.143 0 4 856519 
+154.16.88.160 1 1 14802 20190822095321
+35.193.52.161 2 2 66622 20190825214135
+181.214.189.142 1 1 9697 20190809082327
+103.88.223.191 2 45 16036478 20190820134641
+82.80.249.155 0 1 502122 
+1.39.201.57 2 47 26602789 20190819132723
+54.178.182.46 1 1 9697 20190814090939
+37.187.140.31 1 1 9697 20190805162531
+42.107.237.30 2 38 4186396 20190810191101
+34.209.63.242 1 1 9697 20190827171919
+165.22.186.89 2 2 66622 20190806071756
+84.17.58.14 2 2 66622 20190823100308
+216.151.180.166 2 2 66622 20190821165535
+34.222.225.64 1 1 9697 20190828055418
+5.188.62.5 1 1 9697 20190816061412
+188.169.98.50 2 2 19394 20190821192750
+104.194.220.9 1 1 33311 20190827232153
+41.251.121.170 1 1 3972 20190822083736
+82.80.230.228 2 34 5091639 20190823094824
+193.138.1.61 1 1 9697 20190809212957
+87.101.94.75 2 2 66622 20190808072625
+112.196.145.125 2 45 16036478 20190819204356
+51.68.125.189 2 2 66622 20190823125107
+111.7.100.21 1 2 39141 20190828230711
+42.107.252.199 2 29 2999883 20190816131532
+1.39.214.185 1 10 1530629 20190824051751
+188.165.192.220 1 1 9697 20190826074040
+181.214.178.99 1 1 9697 20190805104348
+41.249.106.129 1 1 9697 20190826223153
+45.41.134.54 1 1 9697 20190825030140
+47.247.8.59 0 1 68911 
+27.4.144.47 2 46 4610307 20190809094852
+104.210.152.64 2 2 66622 20190827220219
+196.232.63.1 1 1 9697 20190831025404
+38.145.99.103 1 1 9697 20190812100610
+181.214.209.82 1 1 14204 20190821114845
+34.67.63.216 2 2 66622 20190829001619
+181.215.50.103 1 1 9697 20190813104336
+45.86.247.182 1 1 9697 20190804110241
+13.72.230.96 2 2 66622 20190824210119
+36.99.136.140 0 7 531025 
+34.219.145.163 1 1 9697 20190818082945
+192.162.102.230 1 1 33311 20190831104801
+157.47.202.25 2 47 38645844 20190827122405
+182.70.222.53 2 43 15469065 20190818205804
+35.193.215.37 1 1 9697 20190806212431
+36.99.136.130 1 6 470375 20190823010333
+47.247.102.237 0 2 498504 
+157.47.159.235 1 7 96266 20190824065824
+177.52.48.214 1 1 33311 20190828082814
+5.253.204.6 2 2 66622 20190813135155
+144.202.90.87 2 2 66622 20190824105426
+34.220.35.60 1 1 9697 20190817093326
+106.223.11.214 2 46 4610307 20190819214859
+216.10.241.54 1 1 78 20190822102330
+157.37.183.118 2 45 16036478 20190827122158
+185.81.157.154 1 1 33311 20190824130217
+52.59.104.188 2 2 66622 20190827230814
+1.39.194.36 2 45 16036478 20190807004855
+92.222.236.212 1 1 33311 20190826131354
+36.99.136.131 1 4 233442 20190823010338
+84.17.51.16 2 2 66622 20190828175141
+66.102.6.230 0 15 1700601 
+5.34.240.169 1 1 14801 20190822025339
+52.12.220.143 1 1 9697 20190827105704
+191.96.242.253 1 1 9697 20190811083313
+204.12.194.234 1 1 33311 20190826032321
+63.211.111.51 2 2 66622 20190828200202
+181.214.182.166 1 1 9697 20190803212632
+64.233.173.191 1 15 905965 20190824073228
+45.127.46.128 2 45 16036478 20190805081128
+197.26.74.178 1 1 9697 20190828145557
+82.80.249.164 0 3 180017 
+34.211.44.24 1 1 9697 20190823100035
+34.68.46.113 2 2 66622 20190821230200
+157.47.243.129 2 46 27354804 20190820084353
+66.102.6.228 0 13 1131746 
+54.184.105.76 1 1 9697 20190831080456
+31.13.127.9 0 1 54013 
+38.100.53.89 2 7 283673 20190813011723
+82.102.17.147 2 2 66622 20190805080431
+51.77.246.199 2 43 4541608 20190813091315
+23.98.157.146 2 2 66622 20190826015932
+5.188.84.9 1 1 33311 20190823194806
+31.13.127.7 0 10 965961 
+34.211.53.238 1 1 9697 20190825072412
+45.86.244.116 1 1 9697 20190810124316
+112.215.210.131 1 1 33311 20190830231333
+1.39.213.121 2 34 3562294 20190812084511
+193.32.161.130 1 1 33311 20190827104041
+106.79.206.34 2 46 16037207 20190801075536
+64.233.173.165 0 10 623250 
+185.93.180.213 2 2 66622 20190802002235
+82.80.249.204 0 1 207229 
+52.52.190.187 1 1 9697 20190817085755
+36.99.136.134 1 3 11092 20190823080311
+34.221.192.40 1 1 9697 20190830062029
+34.219.98.221 1 1 9697 20190819124522
+18.234.252.147 2 2 66622 20190827043121
+34.215.183.65 1 1 9697 20190822082856
+167.99.115.129 1 1 0 20190802073640
+181.215.75.62 1 1 9697 20190808085105
+36.99.136.132 0 2 122768 
+31.13.127.14 1 16 1757713 20190824051817
+38.100.53.108 2 7 283673 20190810190831
+66.102.6.232 1 15 1694394 20190810154843
+40.117.212.66 2 2 66622 20190831221114
+114.134.191.166 1 1 9697 20190825191416
+158.115.230.131 1 1 9697 20190815104240
+69.58.178.57 2 2 19394 20190809040315
+64.246.187.42 1 1 9697 20190815220853
+106.207.186.181 2 46 4610307 20190814144056
+36.99.136.142 1 1 9697 20190823010332
+31.13.127.13 2 29 2592101 20190820092454
+82.80.249.227 0 2 436365 
+181.215.78.110 1 1 9697 20190803052257
+182.64.73.209 2 46 4610307 20190822094045
+154.118.42.177 1 1 33311 20190822032001
+64.202.160.250 1 1 9697 20190821070332
+51.254.97.56 1 1 9697 20190810163249
+197.2.97.191 1 1 33311 20190821221427
+3.16.157.192 2 2 66622 20190821211348
+178.162.208.250 2 2 66622 20190802083230
+62.210.83.78 1 1 9697 20190823033611
+102.157.53.175 2 2 66622 20190821232315
+181.214.189.65 1 1 9697 20190807135052
+154.118.14.174 1 1 33311 20190826003950
+202.56.236.238 0 1 11491709 
+38.131.159.45 1 1 9697 20190807012339
+40.74.245.6 1 1 33311 20190826122521
+89.187.178.138 1 1 9697 20190827142540
+41.143.186.94 2 2 66622 20190821174823
+122.161.157.75 2 36 2863209 20190803083742
+36.99.136.138 0 7 851064 
+82.80.249.133 0 1 53857 
+82.80.249.194 0 1 256347 
+137.117.83.231 2 2 7952 20190821233437
+212.24.109.25 1 1 33311 20190823183905
+117.2.97.232 2 2 14801 20190822060713
+52.55.217.163 1 1 703 20190821141504
+82.80.249.143 0 1 729 
+103.251.209.160 0 1 502122 
+185.242.87.39 1 1 33311 20190805210640
+208.98.49.44 1 1 703 20190821141228
+82.80.249.211 1 1 9697 20190823094806
+193.93.195.34 2 2 66622 20190810212940
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190801 7 50 27577401 2
+20190802 5 5 133244 3
+20190803 4 38 2882603 3
+20190804 1 1 9697 1
+20190805 8 50 27657211 6
+20190806 3 3 76319 2
+20190807 4 46 27547581 3
+20190808 7 24 255111 3
+20190809 6 48 4714633 4
+20190810 11 100 32491239 7
+20190811 1 1 9697 1
+20190812 3 35 3571991 2
+20190813 11 57 5034844 5
+20190814 6 48 4761861 4
+20190815 2 2 19394 2
+20190816 7 49 27576672 3
+20190817 2 2 19394 2
+20190818 3 45 27537888 2
+20190819 7 133 80874538 4
+20190820 11 137 105269698 4
+20190821 40 129 72158791 21
+20190822 98 141 7936826 13
+20190823 31 103 10481764 17
+20190824 15 157 84760798 11
+20190825 17 17 353761 7
+20190826 15 57 27890388 9
+20190827 25 109 100880181 14
+20190828 9 10 234787 7
+20190829 3 3 76319 2
+20190830 2 2 43008 2
+20190831 6 6 152638 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 5
+2mn-5mn 2
+0s-30s 160
+5mn-15mn 1
+15mn-30mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 317 7692596 154 131
+/fonts/glyphicons-halflings-regular.woff2 27 486756 3 26
+/shell.php 16 105134 10 8
+/xnxxx.php 5 32027 0 1
+/k.htm 3 2109 2 3
+//alfacgiapi/perl.alfa 1 78 1 1
+// 1 9697 1 1
+END_SIDER

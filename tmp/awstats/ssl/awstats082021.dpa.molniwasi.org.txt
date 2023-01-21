@@ -1,0 +1,546 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202108 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.dpa.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2693                
+POS_VISITOR 12779               
+POS_DAY 15940               
+POS_DOMAIN 3395                
+POS_LOGIN 3775                
+POS_ROBOT 3930                
+POS_WORMS 4220                
+POS_EMAILSENDER 4351                
+POS_EMAILRECEIVER 4494                
+POS_SESSION 16651               
+POS_SIDER 16808               
+POS_FILETYPES 4629                
+POS_DOWNLOADS 4781                
+POS_OS 4829                
+POS_BROWSER 5002                
+POS_SCREENSIZE 5409                
+POS_UNKNOWNREFERER 5483                
+POS_UNKNOWNREFERERBROWSER 6138                
+POS_ORIGIN 6788                
+POS_SEREFERRALS 6924                
+POS_PAGEREFS 7110                
+POS_SEARCHWORDS 7258                
+POS_KEYWORDS 7410                
+POS_MISC 2357                
+POS_ERRORS 7469                
+POS_CLUSTER 3631                
+POS_SIDER_404 7587                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210901045125 5 943 14473249699268
+FirstTime 20210801123202
+LastTime 20210831142558
+LastUpdate 20210901181243 5 0 4 0 0
+TotalVisits 86                  
+TotalUnique 79                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 80                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 19496 10 15 4407
+1 2 2 716 25 35 90152
+2 0 0 0 70 76 12780
+3 2 2 66786 49 65 31061
+4 0 0 0 21 23 23283
+5 4 4 133572 5 8 68142
+6 6 8 261094 21 28 6034
+7 20 68 211556 16 24 23910
+8 0 0 0 29 66 305230
+9 2 2 66786 14 18 42596
+10 20 68 211556 15 23 4991
+11 1 1 9748 19 29 12035
+12 20 68 136472 10 19 71195
+13 0 0 0 4 13 2390
+14 75 99 5025158 5 45 21119
+15 2 2 19496 6 15 4681
+16 0 0 0 14 18 4068
+17 0 0 0 21 29 25050
+18 10 10 192060 6 10 2700
+19 4 16 144940 22 27 71751
+20 5 5 77250 19 35 107028
+21 6 6 58488 11 17 70205
+22 10 10 239350 19 24 7536
+23 8 8 219854 15 23 25689
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 150 296 1951760
+gr 12 12 400716
+de 10 10 78700
+ca 6 30 4277462
+in 4 4 38992
+eu 4 4 133572
+sg 4 4 38992
+ru 2 2 19496
+gb 2 2 19496
+cn 2 14 125444
+fr 2 2 0
+kz 1 1 9748
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Googlebot/ 52 469544 20210819111222 0
+no_user_agent 8 267144 20210811124922 0
+bingbot/ 4 19496 20210810014344 0
+bot[\s_+:,\.\;\/\\-] 3 19496 20210820143458 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 197 2708004 0 0
+js 156 58658 0 0
+php 2 716 0 0
+png 2 108026 0 0
+jpg 24 4218974 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx 4 4
+ios_iphone 2 2
+win10 6 6
+Unknown 60 60
+macosx11 174 30
+win7 10 10
+linux 103 79
+linuxandroid 22 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome60.0.3112.107 4 4
+firefox58.0 6 6
+chrome91.0.4472.114 4 0
+chrome87.0.4472.114 4 0
+firefox52.0 174 30
+firefox88.0 2 2
+android 2 2
+firefox84.0 8 8
+chrome91.0.4472.120 2 0
+firefox72.0 30 6
+safari10.0 2 2
+chrome83.0.4103.97 63 63
+Unknown 60 60
+firefox17.0 4 4
+chrome90.0.4430.85 4 4
+chrome42.0.2311.90 6 6
+chrome88.0.4472.114 4 2
+chrome86.0.4472.114 2 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+panscient.com 20210826214043
+Python/3.8_aiohttp/3.7.4.post0 20210831104233
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210831103223
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210829145457
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210822144528
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210822144528
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210829145457
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210831103223
+Python/3.8_aiohttp/3.7.4.post0 20210831104233
+panscient.com 20210826214043
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 183 339
+From1 4 4
+From2 12 38
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 6 6
+www_google_com 6 32
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 349 75935
+206 14 136472
+406 221 49946
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 152
+/___proxy_subdomain_cpcalendars/stindex.php 1 -
+/___proxy_subdomain_cpcalendars/11index.php 1 -
+/.aws/credentials 2 -
+/___proxy_subdomain_cpcalendars/x.php 1 -
+/___proxy_subdomain_cpanel/robots.txt 4 -
+/4price.php 1 -
+/___proxy_subdomain_cpanel/1index.php%20%20 1 -
+/___proxy_subdomain_webdisk/robots.txt 4 -
+/x.php 1 -
+/mailer.php 1 -
+/cms.php 1 -
+/wp.php 1 -
+/FoxWSO.php 1 -
+/nee.php 1 -
+/shx.php 1 -
+/wp-plugins.php 1 -
+/___proxy_subdomain_cpcalendars/new.php 1 -
+/old-index.php 1 -
+/___proxy_subdomain_webmail/1index.php%20%20 1 -
+/Gel.php 1 -
+/___proxy_subdomain_cpcalendars/wp-plugins.php 1 -
+/xox.php 1 -
+/doc.php 1 -
+/o.php 1 -
+/.git/HEAD 6 -
+/___proxy_subdomain_cpcontacts/.git/config 1 -
+/wp-uploads.php 1 -
+/mar.php 1 -
+/___proxy_subdomain_cpcalendars/mini.php 1 -
+/___proxy_subdomain_cpcalendars/z.php 1 -
+/___proxy_subdomain_cpcalendars/1index.php%20%20 1 -
+/___proxy_subdomain_cpcalendars/doc.php 1 -
+/ 34 -
+/2index.php 19 -
+/___proxy_subdomain_cpcalendars/sh3ll.php 1 -
+/___proxy_subdomain_cpcalendars/wi.php 1 -
+/___proxy_subdomain_cpcalendars/xox.php 1 -
+/___proxy_subdomain_cpcalendars/g.php 1 -
+/phpinfo 2 -
+/___proxy_subdomain_cpcalendars/v.php 1 -
+/c99.php 1 -
+/___proxy_subdomain_cpcalendars/media-admin.php 1 -
+/config.js 2 -
+/___proxy_subdomain_webdisk/2index.php 2 -
+/wi.php 1 -
+/wp-includes/css/wp-config.php 2 anonymousfox.co
+/wp-wso.php 1 -
+/v.php 1 -
+/root.php 1 -
+/1index.php 12 -
+/___proxy_subdomain_webmail/3index.php 1 -
+/___proxy_subdomain_cpcalendars/wp.php 1 -
+/___proxy_subdomain_cpcalendars/4price.php 1 -
+/z.php 1 -
+/ups.php 1 -
+/___proxy_subdomain_cpcalendars/root.php 1 -
+/_profiler/phpinfo 2 -
+/___proxy_subdomain_webdisk/1index.php 1 -
+/___proxy_subdomain_cpcalendars/autoload_classmap.php 1 -
+/___proxy_subdomain_webmail/1index.php 2 -
+/___proxy_subdomain_cpcalendars/alex.php 1 -
+/___proxy_subdomain_cpcontacts/ 6 -
+/___proxy_subdomain_cpcalendars/f.php 1 -
+/___proxy_subdomain_cpcalendars/nee.php 1 -
+/___proxy_subdomain_cpcalendars/shell.php 1 -
+/41.php 1 -
+/___proxy_subdomain_cpanel/1index.php 1 -
+/.git/config 2 -
+/aws.yml 2 -
+/wp-configer.php 1 -
+/___proxy_subdomain_cpanel/2index.php 2 -
+/___proxy_subdomain_cpcalendars/0byte.php 1 -
+/m.php 1 -
+/___proxy_subdomain_cpcalendars/ups.php 1 -
+/___proxy_subdomain_webmail/cgi-sys/404.html 1 anonymousfox.co
+/___proxy_subdomain_cpcalendars/wp-uploads.php 1 -
+/___proxy_subdomain_cpanel/ 12 -
+/wikindex.php 1 -
+/11index.php 1 -
+/mini.php 1 -
+/.fk.php 1 -
+/XxX.php 1 -
+/___proxy_subdomain_cpcalendars/.fk.php 1 -
+/shell.php 1 -
+/___proxy_subdomain_cpcalendars/robots.txt 4 -
+/wp-includes/upload_index.php 2 -
+/wp-admin.php 1 -
+/baindex.php 1 -
+/___proxy_subdomain_cpcalendars/baindex.php 1 -
+/___proxy_subdomain_cpcalendars/wp-wso.php 1 -
+/wp-content/plugins/iva-business-hours-pro/assets/fontello/LICENSE.txt 2 -
+/new.php 1 -
+/info.php 2 -
+/___proxy_subdomain_cpcalendars/Gel.php 1 -
+/___proxy_subdomain_cpcalendars/m.php 1 -
+/sindex.php 1 -
+/___proxy_subdomain_cpcalendars/shx.php 1 -
+/wp-content/wp-admin.php 1 -
+/___proxy_subdomain_cpcalendars/old-index.php 1 -
+/___proxy_subdomain_cpcalendars/XxX.php 1 -
+/___proxy_subdomain_cpcalendars/sindex.php 1 -
+/f.php 1 -
+/stindex.php 1 -
+/___proxy_subdomain_cpanel/3index.php 1 -
+/___proxy_subdomain_cpcalendars/wikindex.php 1 -
+/pass.php 2 -
+/wp-login.php 1 -
+/___proxy_subdomain_webmail/robots.txt 4 -
+/alex.php 1 -
+/sh3ll.php 1 -
+/___proxy_subdomain_cpcalendars/FoxWSO.php 1 -
+/___proxy_subdomain_webmail/2index.php 3 -
+/config/aws.yml 2 -
+/___proxy_subdomain_cpcontacts/robots.txt 4 -
+/___proxy_subdomain_cpcalendars/41.php 1 -
+/___proxy_subdomain_cpcalendars/new-index.php 1 -
+/leaf.php 1 -
+/___proxy_subdomain_cpcalendars/cms.php 1 -
+/g.php 1 -
+/___proxy_subdomain_cpcalendars/ 8 -
+/___proxy_subdomain_cpcalendars/.git/config 1 -
+/___proxy_subdomain_cpcalendars/o.php 1 -
+/3index.php 9 -
+/___proxy_subdomain_cpcalendars/defau1t.php 1 -
+/___proxy_subdomain_cpcontacts/2index.php 1 -
+/___proxy_subdomain_cpcalendars/mar.php 1 -
+/___proxy_subdomain_cpcalendars/3index.php 2 -
+/___proxy_subdomain_webdisk/ 7 -
+/___proxy_subdomain_cpcalendars/leaf.php 1 -
+/___proxy_subdomain_cpcalendars/1index.php 2 -
+/new-index.php 1 -
+/autoload_classmap.php 1 -
+/robots.txt 50 -
+/___proxy_subdomain_webdisk/1index.php%20%20 1 -
+/1index.php%20%20 7 -
+/defau1t.php 1 -
+/___proxy_subdomain_cpcalendars/wp-configer.php 1 -
+/media-admin.php 1 -
+/emergency.php 2 -
+/___proxy_subdomain_cpcalendars/mailer.php 1 -
+/___proxy_subdomain_cpanel/cgi-sys/404.html 1 anonymousfox.co
+/phpinfo.php 2 -
+/___proxy_subdomain_cpcontacts/1index.php%20%20 1 -
+/___proxy_subdomain_cpcalendars/2index.php 3 -
+/___proxy_subdomain_webmail/ 1 -
+/xx.php 1 -
+/MARIJUANA.php 1 -
+/___proxy_subdomain_cpcalendars/xx.php 1 -
+/___proxy_subdomain_cpcalendars/cgi-sys/403.html 1 -
+/___proxy_subdomain_cpcalendars/MARIJUANA.php 1 -
+/___proxy_subdomain_webdisk/3index.php 1 -
+/0byte.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 80
+34.140.254.75 16 64 97480 20210801123316
+35.205.61.148 16 64 77984 20210816075251
+34.79.201.92 16 64 77984 20210831104234
+137.226.113.44 8 8 77984 20210825183542
+208.110.85.69 4 4 38992 20210809121232
+72.79.45.44 4 4 38992 20210826214043
+92.118.160.61 4 4 133572 20210829145457
+92.118.160.5 4 4 133572 20210822071428
+111.221.46.53 4 4 38992 20210820223038
+45.135.187.161 4 4 38992 20210820211045
+192.99.18.108 4 28 4257966 20210811140901
+144.86.173.156 2 2 66786 20210823224423
+144.86.173.133 2 2 66786 20210804093704
+35.166.238.219 2 2 19496 20210807143823
+144.86.173.26 2 2 66786 20210828072726
+93.119.227.91 2 2 66786 20210822225432
+23.88.43.188 2 2 716 20210808013548
+54.201.170.62 2 2 19496 20210830142513
+34.220.200.49 2 2 19496 20210802143726
+35.165.182.67 2 2 19496 20210805141606
+35.162.106.227 2 2 19496 20210801140804
+192.99.18.136 2 2 19496 20210805193121
+69.4.89.106 2 2 66786 20210822231116
+92.118.160.9 2 2 66786 20210822205127
+52.36.17.111 2 2 19496 20210814141328
+34.213.56.118 1 1 9748 20210825141104
+54.218.85.239 1 1 9748 20210810142130
+18.237.126.101 1 1 9748 20210811142451
+54.149.38.141 1 1 9748 20210827143540
+34.219.68.18 1 1 9748 20210801140836
+54.187.128.215 1 1 9748 20210814141423
+35.166.36.23 1 1 9748 20210810141724
+54.184.0.230 2 2 19496 20210823140338
+124.126.78.172 2 14 125444 20210810193147
+144.86.173.75 2 2 66786 20210831103223
+34.211.41.6 1 1 9748 20210820143347
+144.86.173.21 2 2 66786 20210817065333
+54.218.99.119 2 2 19496 20210816142453
+34.217.98.137 2 2 19496 20210821143939
+144.86.173.93 2 2 66786 20210817222950
+5.253.86.170 1 1 9748 20210828202536
+34.212.133.196 1 1 9748 20210811142420
+212.47.231.104 2 2 0 20210822144349
+144.86.173.7 2 2 66786 20210820034918
+18.237.139.235 2 2 19496 20210804141233
+92.118.160.17 2 2 66786 20210813184935
+54.69.213.168 1 1 9748 20210817143310
+35.167.19.98 2 2 19496 20210810141445
+54.201.68.135 1 1 9748 20210805141644
+54.190.141.184 1 1 9748 20210815145440
+34.217.40.123 2 2 19496 20210811142335
+163.172.180.21 2 2 19496 20210822144528
+69.4.87.74 2 2 66786 20210822230937
+52.88.66.13 1 1 9748 20210831142558
+54.189.13.48 2 2 19496 20210825141051
+144.86.173.9 2 2 66786 20210804100454
+34.222.104.247 1 1 9748 20210819143107
+144.86.173.68 2 2 66786 20210821181036
+34.211.52.108 1 1 9748 20210802143738
+54.187.26.83 1 1 9748 20210812142841
+34.220.207.66 2 2 19496 20210820143312
+35.167.243.126 2 2 19496 20210819143056
+54.244.183.106 2 2 19496 20210812142825
+34.219.138.124 1 1 9748 20210822144816
+157.32.221.238 0 2 108026 
+198.204.234.252 2 2 19496 20210801235310
+35.167.135.220 2 2 19496 20210815145411
+144.86.173.17 2 2 66786 20210824064717
+185.130.104.185 2 2 19496 20210817153150
+34.216.26.175 2 2 19496 20210827143513
+34.222.54.176 2 2 19496 20210817143249
+93.119.227.19 2 2 66786 20210822231808
+18.236.126.254 1 1 9748 20210821144003
+144.86.173.12 2 2 66786 20210827140600
+52.37.254.245 2 2 19496 20210822142943
+54.187.215.79 2 2 19496 20210831142551
+82.165.185.18 2 2 716 20210807201859
+54.244.138.70 2 2 19496 20210828141754
+34.221.14.46 1 1 9748 20210828141827
+3.17.13.185 1 1 9748 20210829113215
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210801 21 69 146220 4
+20210802 3 3 29244 2
+20210804 6 6 153068 3
+20210805 7 7 68236 4
+20210806 2 2 19496 1
+20210807 4 4 20212 2
+20210808 2 2 716 1
+20210809 2 2 19496 1
+20210810 6 18 164436 4
+20210811 10 34 4316454 5
+20210812 3 3 29244 2
+20210813 2 2 66786 1
+20210814 3 5 137270 2
+20210815 5 5 96030 3
+20210816 18 66 97480 2
+20210817 9 9 182312 5
+20210818 2 2 19496 1
+20210819 5 5 48740 3
+20210820 11 11 154518 5
+20210821 5 5 96030 3
+20210822 19 19 449456 10
+20210823 4 4 86282 2
+20210824 2 2 66786 1
+20210825 5 5 48740 3
+20210826 4 4 38992 1
+20210827 5 5 96030 3
+20210828 6 6 105778 4
+20210829 5 5 143320 3
+20210830 2 2 19496 1
+20210831 21 69 174014 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 84
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 195 2707288 84 84
+/cgi-sys/404.html 2 716 2 0
+/wp-includes/css/wp-config.php 2 716 0 2
+END_SIDER

@@ -1,0 +1,1051 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202003 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.xamcrackers.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2701                
+POS_VISITOR 18232               
+POS_DAY 23666               
+POS_DOMAIN 3556                
+POS_LOGIN 4076                
+POS_ROBOT 4231                
+POS_WORMS 4799                
+POS_EMAILSENDER 4930                
+POS_EMAILRECEIVER 5073                
+POS_SESSION 24483               
+POS_SIDER 24675               
+POS_FILETYPES 5208                
+POS_DOWNLOADS 5519                
+POS_OS 5567                
+POS_BROWSER 5829                
+POS_SCREENSIZE 7285                
+POS_UNKNOWNREFERER 7359                
+POS_UNKNOWNREFERERBROWSER 7679                
+POS_ORIGIN 7833                
+POS_SEREFERRALS 7973                
+POS_PAGEREFS 8132                
+POS_SEARCHWORDS 8510                
+POS_KEYWORDS 8675                
+POS_MISC 2364                
+POS_ERRORS 8747                
+POS_CLUSTER 3932                
+POS_SIDER_404 8974                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200401001441 37 6640 10381677223121
+FirstTime 20200301011100
+LastTime 20200331165222
+LastUpdate 20200401055241 37 0 36 0 0
+TotalVisits 211                 
+TotalUnique 135                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 135                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+AddToFavourites 0 15 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 28 112 2938329 95 112 616740
+1 28 128 3148278 58 105 1352722
+2 3 3 44750 107 149 287473
+3 17 17 254830 58 82 599789
+4 194 197 309466 72 80 589506
+5 72 72 564787 69 78 149366
+6 36 118 2799688 76 91 146579
+7 35 270 7287593 136 141 5190960
+8 18 68 1599310 39 42 101283
+9 19 97 2534273 47 61 197021
+10 41 141 3319856 198 205 5174362
+11 17 101 2857553 68 70 146904
+12 28 190 5237280 48 64 190272
+13 15 15 145414 48 61 82759
+14 14 14 221607 64 75 157498
+15 15 65 1532385 212 243 3361257
+16 22 162 4655774 86 107 631003
+17 7 7 115215 86 90 152346
+18 18 18 299128 78 95 684902
+19 29 81 1960807 216 340 7119677
+20 8 8 73165 51 113 208735
+21 25 25 267250 102 116 162596
+22 113 1095 27593180 195 222 2944524
+23 15 40 802273 53 75 111469
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+in 212 318 3339464
+us 191 1116 30158318
+ca 109 853 20252784
+ru 93 368 8987801
+gb 59 136 3070302
+fr 47 47 742040
+it 29 29 474301
+nl 20 70 1652687
+de 16 16 84248
+id 10 10 43682
+gr 7 7 60782
+eu 6 6 101172
+ro 5 5 21927
+fi 4 54 1448198
+cn 2 2 38864
+se 2 2 11783
+za 2 2 31897
+pt 1 1 19350
+ua 1 1 3241
+ie 1 1 19350
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bot[\s_+:,\.\;\/\\-] 394 18483297 20200323231520 2
+Googlebot/ 143 2479311 20200331220712 44
+aiHitBot/ 86 1409189 20200327194226 1
+bingbot/ 55 389813 20200330165603 22
+YandexBot/ 35 100257 20200330152545 18
+msnbot/ 35 1012846 20200323180023 5
+unknown 22 0 20200330132645 22
+bingpreview 22 1031530 20200323190118 0
+no_user_agent 8 80048 20200329224901 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 11777 20200315061337 0
+Wget/ 1 0 20200319081123 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+xml 26 48393 0 0
+dist 1 3241 0 0
+js 868 33595497 0 0
+xsd 2 27468 0 0
+php 3 58050 0 0
+css 1150 11977225 0 0
+woff2 54 4182984 0 0
+jpeg 51 1295181 0 0
+env 19 29715 0 0
+cgi 2 56938 0 0
+woff 31 3099604 0 0
+Unknown 679 5358410 0 0
+png 158 10829485 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win10 1930 269
+win8.1 36 36
+macosx5 1 1
+macosx10 9 9
+macosx6 12 12
+macosx12 1 1
+linux 285 122
+winnt 1 1
+linuxandroid 123 11
+Unknown 255 225
+win7 379 118
+macosx9 3 3
+macosx8 1 1
+winxp 6 6
+win8 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 67
+safari5.1 12 12
+opera55.0.2994.44 4 4
+opera53.0.2907.106 13 13
+chrome77.0.3865.90 5 5
+chrome65.0.3325.181 6 6
+firefox62.0 1 1
+firefox58.0 8 8
+firefox52.0 2 2
+chrome80.0.3987.87 149 10
+chrome78.0.3904.97 4 4
+mozilla 66 39
+chrome39.0.2171.95 2 2
+chrome80.0.3987.122 1 1
+chrome67.0.3396.62 7 7
+firefox72.0 71 4
+chrome79.0.3945.88 2 2
+opera62.0.3331.99 1 1
+chrome4.0.249.0 1 1
+chrome26.0.1410.65 1 1
+chrome60.0.3112.107 1 1
+chrome51.0.2704.103 35 35
+opera53.0.2907.99 12 12
+firefox73.0 7 7
+msie8.0 1 1
+chrome70.0.3538.102 221 15
+chrome34.0.1847.131 1 1
+chrome80.0.3987.132 261 39
+chrome62.0.3202.94 1 1
+firefox63.0 276 20
+chrome53.0.2785.134 30 2
+chrome63.0.3239.132 6 6
+firefox57.0 2 2
+chrome76.0.3809.132 4 4
+firefox65.0 3 3
+chrome75.0.3770.101 30 2
+chrome78.0.3904.70 2 2
+opera54.0.2952.64 13 13
+chrome45.0.2454.94 1 1
+firefox28.0 50 50
+edge17 306 24
+chrome50.0.2661.89 61 5
+msie6.0 1 1
+chrome74.0.3729.157 1 1
+chrome68.0.3440.106 18 18
+chrome66.0.3359.181 25 25
+firefox59.0 1 1
+edge16 6 6
+firefox18.0 4 4
+chrome67.0.3396.99 44 44
+chrome65.0.3325.146 5 5
+chrome61.0.3163.100 3 3
+chrome79.0 15 15
+msie9.0 2 2
+chrome35.0.1916.47 3 3
+firefox54.0 1 1
+chrome67.0.3396.79 391 55
+opera54.0.2952.51 1 1
+chrome74.0.3729.131 3 3
+msie7.0 3 3
+chrome58.0.3029.110 1 1
+opera54.0.2952.71 5 5
+chrome79.0.3945.117 1 1
+chrome67.0.3396.87 16 16
+chrome60.0.3112.50 26 1
+Unknown 191 188
+msie11.0 30 3
+chrome73.0.3683.86 567 42
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200303042900
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200310194723
+Go-http-client/1.1 20200330132649
+Cpanel-HTTP-Client/1.0 20200331042805
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20200331042805
+Go-http-client/1.1 20200330132649
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 511 526
+From1 1 1
+From2 1 1
+From3 4 85
+From4 300 2431
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://mail.xamcrackers.com/Themes/themeone/assets/site/css/font-awesome.min.css 3 3
+http://mail.xamcrackers.com 1 1
+http://mail.xamcrackers.com/login 0 51
+http://mail.xamcrackers.com/Themes/themeone/assets/site/css/main.css 0 30
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+1315076858 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+1315076858 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+500 54 2557096
+401 8 224
+406 26 214490
+403 152 72630
+206 80 472813
+302 556 207269
+404 887 1362668
+419 7 11039
+301 42 9977
+405 14 439110
+409 173 14359
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 247
+/cgi-sys/suspendedpage.cgi 1 -
+/.env.production 1 -
+/.env.production.local 1 -
+/personal/.env 1 -
+/old/ 1 -
+/mysqlmanager/print.css 6 -
+/panda.asp 1 http://www.xamcrackers.com/panda.asp
+/admin/login.asp 1 http://www.xamcrackers.com/admin/login.asp
+/.env.local 1 -
+/modules/bamegamenu/ajax_phpcode.php 2 -
+/lms/contents/algebra-a303119e0db6a9bbc428921315f37ce44de97b59-4 1 -
+/search/.env 1 -
+/.env.dist 1 -
+/private/.env 1 -
+/backend/.env 1 -
+/index.php/frontend/index 10 -
+/wp2/wp-includes/wlwmanifest.xml 10 -
+/media/wp-includes/wlwmanifest.xml 10 -
+/zz90.asp 1 http://www.xamcrackers.com/zz90.asp
+/up.php 2 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/new/ 1 -
+/tmp/license.txt 1 -
+/pma/print.css 6 -
+//admin/includes/general.js 1 -
+/mysql-admin/print.css 6 -
+/website/wp-includes/wlwmanifest.xml 10 -
+/vendor/phpunit/phpunit/src/Util/PHP/olux.php 3 -
+/bitrix/admin/index.php 1 -
+/lms/all-categories 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 11 -
+/.env.test.local 1 -
+/blog/wp-includes/wlwmanifest.xml 10 -
+/core/.env 1 -
+/test/license.txt 1 -
+/administrator/help/en-GB/toc.json 1 -
+/modules/vtemskitter/img/up.php 2 -
+/login/wordpress/wp-includes/wlwmanifest.xml 13 -
+/admin 9 http://xamcrackers.com/admin/
+/vendor/phpunit/phpunit/src/Util/PHP/Template/ 1 -
+/modules/jmsslider/ajax_jmsslider.php 2 -
+/plus/laobiao.php 1 http://www.xamcrackers.com/plus/laobiao.php
+/document/.env 1 -
+/.env.live 1 -
+/login/wp2/wp-includes/wlwmanifest.xml 8 -
+/login/wp1/wp-includes/wlwmanifest.xml 8 -
+/login/wp/wp-includes/wlwmanifest.xml 15 -
+/protected/.env 1 -
+/humans.txt 2 -
+/cli/.env 1 -
+/phpmyadmin/print.css 6 -
+/xin.asp 1 http://www.xamcrackers.com/xin.asp
+/web/wp-includes/wlwmanifest.xml 10 -
+/lms/all-categories/maths-formulas-832d885822d1d19e60bf151d237d03d3db14cbb5 1 -
+/lms/contents/calculus-and-analysis-3f78c3f3655aa7bcb4e4f5ea2b2bdf6ab8f52eb6-4 1 -
+/mysql/print.css 6 -
+/login/sito/wp-includes/wlwmanifest.xml 7 -
+/w/license.txt 1 -
+/admin/ProductCheck.asp 1 http://www.xamcrackers.com/admin/ProductCheck.asp
+//vendor/phpunit/phpunit/src/Util/PHP/up3.php 1 -
+/database/print.css 6 -
+/src/.env 1 -
+/2/license.txt 1 -
+/login/administrator/index.php 1 -
+/test/ 1 -
+/public/uploads/exams/categories/23-examimage.png 2 http://xamcrackers.com/exam/categories/chemistry-category-3
+/member/userlogin.asp 1 http://www.xamcrackers.com/member/userlogin.asp
+/shell.php 7 -
+/jG.asp 1 http://www.xamcrackers.com/jG.asp
+/wordpress/wp-admin/install.php 1 -
+/vod_installer/.env 1 -
+/index.php/frontend/contact 1 -
+/bitrix/admin 2 http://xamcrackers.com/bitrix/admin/
+//vendor/phpunit/phpunit/src/Util/PHP/up.php 1 -
+/.env.server 1 -
+/framework/.env 1 -
+/laravel/.env 1 -
+/news/wp-includes/wlwmanifest.xml 10 -
+/license.txt 1 -
+/.env.testing 1 -
+/project/.env 1 -
+//admin/view/javascript/common.js 1 -
+/wordpress/license.txt 1 -
+/.env.staging 1 -
+/Inc/Conn.Asp 3 http://www.xamcrackers.com/Inc/Conn.Asp
+/index.php/frontend/exam 1 -
+/cms/license.txt 1 -
+/lms/contents/number-theory-2e9b0c61e053d6ae4a2e4cd7fe2be5993e8a0b22-6 1 -
+/2017/wp-includes/wlwmanifest.xml 10 -
+/vendor/phpunit/phpunit/src/Util/PHP/up2.php 11 -
+/x.php 1 http://www.xamcrackers.com/x.php
+/Config_Shell.php 1 http://www.xamcrackers.com/Config_Shell.php
+/vue/.env 1 -
+/back/.env 1 -
+/css.asp 1 http://www.xamcrackers.com/css.asp
+/shop/wp-includes/wlwmanifest.xml 10 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/db/print.css 6 -
+/cp/.env 1 -
+//plugins/system/debug/debug.xml 1 -
+/shared/.env 1 -
+/dev/.env 1 -
+//images/editor/separator.gif 1 -
+/lms/contents/mathematical-physics-0a4862bc4960b3b0feb14f26bb0366008e334ba8-7 1 -
+/webdb/print.css 6 -
+/.env.save 1 -
+/index.php/Index/index/name/$%7B@eval($_POST%5Bc%5D)%7D 3 http://www.xamcrackers.com/index.php/Index/index/name/${@eval($_POST[c])}
+/webadmin/print.css 6 -
+/rest/.env 1 -
+/.env.rc 1 -
+/config/aspcms_config.asp 1 http://www.xamcrackers.com/config/aspcms_config.asp
+/utility/convert/data/config.inc.php 1 http://www.xamcrackers.com/utility/convert/data/config.inc.php
+/modules/verticalmegamenus/VerticalMegaMenusUploadImage.php 2 -
+/cms/wp-includes/wlwmanifest.xml 10 -
+/test/wp-includes/wlwmanifest.xml 9 -
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 1 -
+/login/news/wp-includes/wlwmanifest.xml 8 -
+/wp/ 1 -
+/shop/license.txt 1 -
+/laravel-artisan/.env 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/up3.php 11 -
+/engine/.env 1 -
+/admin/print.css 6 -
+/modules/vtemskitter/uploadimage.php 2 -
+/lms/all-categories/physics-beab6e9d5be5ffdf4d99f0366bd72953f085a52e-1 1 -
+/index-2.html 2 -
+/dependencies/.env 1 -
+/joomla/administrator/index.php 2 -
+/sqlweb/print.css 6 -
+/.env.prelive 1 -
+/application/.env 1 -
+/modules/smartprestashopthemeadmin/ajax_smartprestashopthemeadmin.php 2 -
+/.env.jenkins 1 -
+/plus%5Clucas.php 1 http://www.xamcrackers.com/plus\\lucas.php
+/.env 3 -
+/sqlmanager/print.css 6 -
+/modules/groupcategory/GroupCategoryUploadImage.php 2 -
+/wap/Index.asp 1 http://www.xamcrackers.com/wap/Index.asp
+/myship.php 1 http://www.xamcrackers.com/myship.php
+//wp-includes/js/jquery/jquery.js 1 -
+/wp-includes/js/jquery/jquery.js 11 -
+/mysqladmin/print.css 6 -
+/server/.env 1 -
+/administrator/index.php 2 -
+/public/.env 1 -
+/.env.default 1 -
+/blog 1 -
+/joomla/robots.txt 4 -
+/.env.development.local 1 -
+/sitemap.xml 2 -
+/login/site/wp-includes/wlwmanifest.xml 15 -
+/system/.env 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/up.php 11 -
+/images%5Cvar.asp 1 http://www.xamcrackers.com/images\\var.asp
+/dev/license.txt 1 -
+/configuration.php 1 -
+/misc/ajax.js 11 -
+/sito/wp-includes/wlwmanifest.xml 10 -
+/2016/wp-includes/wlwmanifest.xml 10 -
+/lms/contents/number-theory-14c4eb60b5804580be846562d6adb696c6e1037f-10 1 -
+/login/cms/wp-includes/wlwmanifest.xml 15 -
+/plus/mytag_js.php 6 http://www.xamcrackers.com/plus/mytag_js.php
+/new/license.txt 1 -
+/blog/robots.txt 9 -
+/websql/print.css 6 -
+/login/2018/wp-includes/wlwmanifest.xml 8 -
+/plus%5Cread.php 1 http://www.xamcrackers.com/plus\\read.php
+/images/editor/separator.gif 11 -
+//wp-admin/install.php 3 -
+/web/.env 1 -
+/.env.dev 1 -
+/lms/all-categories/history-5de9a37daba64875a5d5fad74880e69555bca034-5 1 -
+//misc/ajax.js 1 -
+/xmlrpc.php 2 -
+/modules/verticalmegamenus/images/temps/up.php 2 -
+/remote.html 1 -
+/phpmanager/print.css 6 -
+/wp/wp-includes/wlwmanifest.xml 10 -
+/admin/index.asp 2 http://www.xamcrackers.com/admin/index.asp
+/plus%5Clucasae.php 1 http://www.xamcrackers.com/plus\\lucasae.php
+/include/md5.asp 1 http://www.xamcrackers.com/include/md5.asp
+/front/index.php/frontend/index 4 -
+/modules/jmsslider/views/img/layers/up.php 2 -
+/master/.env 1 -
+/old/license.txt 1 -
+//js/header-rollup-554.js 1 -
+/js/header-rollup-554.js 11 -
+/administrator 1 -
+/phpMyAdmin/print.css 6 -
+/.env.preprod 1 -
+/login/shop/wp-includes/wlwmanifest.xml 8 -
+/login/2019/wp-includes/wlwmanifest.xml 8 -
+/admin/view/javascript/common.js 11 -
+/.env.development 1 -
+/api/.env 1 -
+/data/config_data.php 1 http://www.xamcrackers.com/data/config_data.php
+/blog/ 1 -
+/login/media/wp-includes/wlwmanifest.xml 7 -
+/plus/90sec.php 1 http://www.xamcrackers.com/plus/90sec.php
+/local/.env 1 -
+/myadmin/print.css 6 -
+/images/Album/config.aspx 3 http://www.xamcrackers.com/images/Album/config.aspx
+/login/wp-includes/wlwmanifest.xml 15 -
+/admin/includes/general.js 11 -
+/apps/.env 1 -
+/admin/.env 1 -
+/administrator/language/en-GB/install.xml 1 -
+/site/wp-includes/wlwmanifest.xml 10 -
+/deployment/.env 1 -
+/Admin/Index.asp 1 http://www.xamcrackers.com/Admin/Index.asp
+/lms/contents/geometry-and-topology-7134f19b23a31a5f254d6ebda1c819fd9a48d94f-5 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/bak.jsp 3 http://www.xamcrackers.com/bak.jsp
+/2015/wp-includes/wlwmanifest.xml 10 -
+/admin/Calendar1.js 5 http://www.xamcrackers.com/admin/Calendar1.js
+/2018/wp-includes/wlwmanifest.xml 10 -
+/.env.test 1 -
+/wp1/wp-includes/wlwmanifest.xml 10 -
+/.env.qa 1 -
+/order/alipay/alipayapi.asp 1 http://www.xamcrackers.com/order/alipay/alipayapi.asp
+/wp-includes/wlwmanifest.xml 9 -
+/index.php/component/users 3 -
+/admin/AdminMaillist.asp 1 http://www.xamcrackers.com/admin/AdminMaillist.asp
+/index.php/frontend/about 4 -
+/plugins/system/debug/debug.xml 11 -
+/wordpress/wp-includes/wlwmanifest.xml 10 -
+/blog/administrator/index.php 2 -
+/.env.localhost 1 -
+/login/website/wp-includes/wlwmanifest.xml 6 -
+/config/AspCms_config.asp 1 http://www.xamcrackers.com/config/AspCms_config.asp
+/app/.env 1 -
+/.env.prod 1 -
+/Inc/Md5.asp 3 http://www.xamcrackers.com/Inc/Md5.asp
+/login/test/wp-includes/wlwmanifest.xml 8 -
+/ads.txt 35 -
+/frontend/.env 1 -
+/docker/.env 1 -
+/development/.env 1 -
+/login/web/wp-includes/wlwmanifest.xml 6 -
+/1/license.txt 1 -
+/lms/contents/applied-mathematics-d7e9b1f2bb663187684226881301fffd4815e687-11 1 -
+/wordpress/ 1 -
+/.env.travis 1 -
+/login/blog/wp-includes/wlwmanifest.xml 13 -
+//vendor/phpunit/phpunit/src/Util/PHP/up2.php 1 -
+/config/.env 1 -
+/lms/all-categories/english-grammer-3e78195ac5113afd87a1e9d19bc54e358e5edaa1-2 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 135
+103.21.58.155 198 198 12948 20200331042805
+167.114.90.33 53 743 18012998 20200312222806
+69.25.58.61 37 289 8378954 20200308165353
+158.69.241.227 35 35 240965 20200317055250
+69.160.160.54 31 169 4705109 20200327224140
+149.202.86.101 25 25 400700 20200305223308
+151.80.47.23 20 20 320560 20200304101238
+212.92.123.142 15 15 240420 20200331010838
+167.71.116.5 15 15 68138 20200326061341
+149.202.87.162 13 13 207728 20200306055657
+34.213.250.221 12 191 5172606 20200321070422
+158.69.225.37 12 12 196634 20200310184516
+178.70.22.92 11 11 133387 20200303191956
+5.83.163.16 10 10 43829 20200324004540
+185.216.34.227 10 10 160280 20200329083922
+38.108.182.2 9 93 2773334 20200306004347
+185.128.25.158 9 9 143934 20200320100539
+194.187.249.37 8 8 127588 20200315231405
+194.187.249.190 8 8 127588 20200326143243
+178.128.125.133 7 7 60782 20200307051717
+46.101.178.189 7 7 60547 20200330230813
+185.234.217.177 6 6 21736 20200310210835
+84.39.112.83 6 6 101172 20200308055756
+104.168.34.150 5 5 80140 20200307194247
+102.156.169.44 5 5 21846 20200315210412
+95.154.228.102 2 2 42064 20200309072442
+51.15.92.128 1 1 5886 20200331015033
+185.220.101.67 4 54 1448214 20200303224025
+173.255.206.130 1 1 19350 20200321031236
+216.151.20.198 1 1 0 20200318104248
+82.165.102.133 1 1 1575 20200315071412
+45.154.255.44 4 54 1448212 20200326221342
+167.99.212.214 2 2 9543 20200327191847
+23.108.48.212 1 1 5887 20200328131108
+198.50.243.189 1 1 5918 20200328175107
+185.220.101.64 4 54 1448206 20200306105005
+89.238.150.15 2 2 31897 20200327034455
+23.108.44.96 2 2 9216 20200328131121
+185.220.101.46 4 54 1448206 20200303121910
+89.238.154.125 4 4 63794 20200322110405
+185.220.103.6 4 54 1448212 20200303101943
+157.37.246.151 3 31 924400 20200307110548
+142.4.219.91 4 58 1747989 20200312223451
+52.15.254.228 2 2 174 20200303042900
+92.204.50.147 1 1 13734 20200330145153
+89.238.154.24 2 2 31897 20200324101936
+94.177.242.122 5 5 21927 20200322134023
+3.14.255.131 1 1 87 20200303042900
+185.132.177.135 1 1 19350 20200324070205
+62.210.80.93 1 1 5889 20200322084254
+51.77.249.201 1 1 5885 20200303193543
+213.136.86.162 1 1 19350 20200304142409
+185.81.157.223 3 3 58050 20200302232732
+116.203.180.196 5 5 21916 20200331012640
+3.8.94.104 1 1 5884 20200331165222
+192.71.3.26 1 1 5890 20200330132649
+209.197.26.93 2 29 853257 20200321070646
+193.128.114.43 1 1 19350 20200321145833
+212.92.106.146 4 4 63794 20200322090224
+54.89.209.177 1 1 19514 20200313223951
+185.220.100.246 4 54 1448194 20200301151448
+66.154.103.135 1 1 19350 20200316030933
+194.53.176.251 5 5 29916 20200316125802
+216.145.14.142 1 1 5907 20200313095806
+34.222.229.130 1 1 87 20200303042900
+157.38.5.44 2 30 918519 20200307110445
+46.166.190.248 5 5 80140 20200324102847
+116.203.96.197 1 1 19350 20200309052245
+23.83.87.186 1 1 5884 20200307152614
+195.154.189.205 4 4 63794 20200310045206
+18.204.20.235 2 27 652696 20200305233235
+212.92.105.227 4 4 63794 20200314184714
+185.236.200.42 5 5 80140 20200307091832
+51.68.152.26 1 1 5890 20200316210516
+89.238.154.184 4 4 63794 20200314225408
+112.215.243.241 5 5 21836 20200320060158
+109.201.152.19 4 4 63794 20200318122315
+51.77.129.167 2 29 853140 20200310194723
+185.136.159.26 1 1 19350 20200301153351
+167.71.79.24 2 4 142594 20200327040606
+163.172.7.237 1 1 1324 20200301113607
+69.50.235.147 1 1 5886 20200310024725
+52.27.211.29 1 1 5883 20200321065811
+66.133.109.36 3 3 261 20200303042900
+185.212.171.170 2 2 31897 20200301011102
+70.37.83.233 5 5 21920 20200320065018
+40.113.157.113 5 5 21925 20200331154436
+165.22.200.133 1 2 71272 20200327040558
+54.234.106.90 1 1 5885 20200303164942
+185.220.100.255 2 27 724096 20200324195130
+159.89.207.86 1 1 19350 20200321031236
+51.79.30.167 4 4 77400 20200305184310
+125.22.93.41 2 30 918523 20200319093851
+192.71.46.21 1 1 5893 20200306215159
+89.236.112.100 4 54 1448198 20200303013955
+51.75.74.253 3 3 51247 20200329172527
+173.82.106.236 3 3 58542 20200304194610
+54.94.195.245 1 1 5888 20200310070528
+185.107.47.171 4 54 1448206 20200317094425
+192.3.144.221 1 1 5886 20200303155341
+84.17.51.85 3 3 51247 20200320232114
+27.56.223.60 2 30 918515 20200307110041
+109.120.151.127 1 1 5891 20200305035248
+134.122.82.213 1 1 19350 20200328173929
+51.79.86.177 4 54 1448204 20200319081934
+134.209.245.211 1 1 19350 20200319111111
+34.223.65.70 1 1 5886 20200325230211
+52.34.76.65 2 29 853123 20200321065813
+84.17.51.72 3 3 51247 20200305143127
+52.28.236.88 1 1 87 20200303042858
+94.62.219.55 1 1 19350 20200309200812
+84.17.51.131 3 3 51247 20200326130223
+35.162.72.223 1 1 5884 20200321065814
+196.52.84.46 2 2 31897 20200328214300
+217.78.1.16 1 1 19350 20200307061434
+34.209.232.166 2 2 174 20200303042900
+54.86.210.135 1 1 19350 20200314043009
+99.106.76.40 1 1 5888 20200329004537
+217.160.40.72 3 3 5760 20200315112645
+199.244.88.131 3 3 17666 20200313114806
+89.238.154.169 4 4 63794 20200318135323
+188.143.169.29 2 2 38700 20200329050510
+62.210.83.78 1 1 5879 20200309123956
+77.120.163.200 1 1 3241 20200327004330
+205.185.113.198 4 54 1448204 20200324014617
+123.139.42.23 1 1 19350 20200313223657
+157.37.144.198 5 61 1842946 20200328071114
+137.135.53.74 5 5 21843 20200329161053
+167.172.109.61 2 2 19644 20200311152737
+47.52.99.123 2 2 9580 20200328081223
+157.37.248.17 2 30 918522 20200309063141
+13.84.168.70 1 1 19350 20200317025016
+49.88.53.240 1 1 19514 20200305024155
+18.194.58.132 2 2 174 20200303042900
+209.95.56.110 1 1 5893 20200320085647
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200301 29 79 1683278 9
+20200302 22 22 251935 7
+20200303 67 267 6121235 19
+20200304 18 18 209663 6
+20200305 29 54 999309 10
+20200306 43 177 4448073 9
+20200307 42 238 6688228 10
+20200308 24 164 4665934 5
+20200309 15 43 1022303 8
+20200310 31 58 1175387 9
+20200311 10 10 51925 4
+20200312 63 807 19761371 3
+20200313 18 18 83327 7
+20200314 13 13 115425 5
+20200315 17 17 61462 5
+20200316 17 17 119334 6
+20200317 46 96 1708905 4
+20200318 13 13 96075 5
+20200319 17 95 2457058 6
+20200320 29 29 245214 8
+20200321 32 265 6971107 10
+20200322 18 18 123891 6
+20200323 6 6 384 1
+20200324 27 102 2357877 8
+20200325 9 9 38167 3
+20200326 24 74 1599494 4
+20200327 50 191 5044180 8
+20200328 25 81 2005318 9
+20200329 22 22 198202 6
+20200330 18 18 121995 5
+20200331 23 23 136135 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 176
+15mn-30mn 1
+2mn-5mn 1
+5mn-15mn 4
+30s-2mn 29
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 266
+/contact-us 176 2769387 53 57
+/login 172 1548429 92 72
+/Themes/themeone/assets/site/fonts/fontawesome-webfont.woff2 52 4012320 0 23
+/register 27 207374 15 3
+/Themes/themeone/assets/site/fonts/fontawesome-webfont.woff 26 2548624 0 1
+/.env 17 22508 4 6
+/vendor/phpunit/phpunit/build.xml 12 34332 0 0
+/site/about-us 6 29727 0 2
+/public/fonts/materialdesignicons-webfont.woff 5 550980 0 1
+/.well-known/acme-challenge/LxmsRC3xBjq0mkkkQB_mz3CoGx7WSGXmK44EPxUgyEU 4 348 1 4
+/.well-known/acme-challenge/sawi43WPgk2wK18xMuG7_ZOlQBilb9eKJU_fMfiMvvs 4 348 2 2
+/.well-known/acme-challenge/1gt9d-YESuEXkQL6xRcsHKtGy8ZxddY48RuywyQuEBY 4 348 4 1
+/site/syllabus 4 29812 0 0
+/.well-known/acme-challenge/hM4iFihkW3DGWLkZ0oea8Kl6BUdxFyyrwlkAuarpLBo 4 348 0 0
+/practice-exams 4 37491 0 0
+/.well-known/acme-challenge/yAp5CjdRmip9kWv3gb3smpN2bQUDcalEl5WD1YdSQN8 4 348 0 0
+/site/pricing 4 20720 0 0
+/site/courses 4 21357 0 0
+/site/terms-conditions 4 40213 0 0
+/home 4 32117 0 0
+/.well-known/acme-challenge/Qbo-4KyZTseVhHgfbvhxDo6TioH7OQv2ityIl8pzNw8 4 348 0 1
+/exam/categories/physics-2 3 19160 0 0
+/exams/start-exam/number-series-83ea7318a8a7c823875d535d7bb1e0c9800f763d-18 3 59507 0 0
+/exam/categories/maths-category 3 16554 0 0
+/site/pattren 3 20206 0 0
+/.well-known/acme-challenge/S104KR4FTPILY6-004SJ087-U4A_24EU 1 64 0 0
+/.well-known/acme-challenge/UA-PWWYQQBMV88ZS89XBBYA7LQEIEGVR 1 64 0 1
+/LMS/contents/physics-7d2d479b3f6c02a4a14e5bd39ecbfdc0f0d1946a-2 1 4436 0 0
+/.well-known/acme-challenge/MY3CB0N2H7ZMQZYF1KX8HVNXUYTK3UWS 1 64 1 0
+/.well-known/acme-challenge/QCHH8S9RVAEQJKBIMYG33-EK6EF_4VJ4 1 64 0 0
+/.well-known/acme-challenge/-RS_0JJ-_4VN-49RLWWL4DJOA-NZA8E0 1 64 0 0
+/.well-known/acme-challenge/175VBHFXBOI_FDS736GQ8K9PVPTHVGNS 1 64 0 0
+/login/wp 1 19350 0 0
+/.well-known/acme-challenge/PFIFWU4WADI0VK7K5F_AWY_UOLE2YT7_ 1 64 0 0
+/.well-known/acme-challenge/E25CJ9TYBX5_FJLHEMX63A-8YE_4GKLP 1 64 1 0
+/.well-known/acme-challenge/9-WHKKGOMR8I61FOA4KE3VPIILBJ_MK5 1 64 0 0
+/.well-known/acme-challenge/NO04WE7D1HCRORDCE48SV0L3RLHQMYTM 1 64 0 0
+/.well-known/acme-challenge/G33TZHJNGCR0VTC0V42I0_EYDC9UO0JW 1 64 0 0
+/.well-known/acme-challenge/4W28D0DOWPNZ5R_VGEGC61CV0R66NJE5 1 64 0 0
+/.well-known/acme-challenge/2Z0BWCEBM_4GUS1O836P9B04JCJO5LW8 1 64 0 0
+/.well-known/acme-challenge/-IQHF2LYVBXSA04P-Z0XG2S5VOQG2_M0 1 64 0 0
+/.well-known/acme-challenge/AFLX9CZRCYPGUVX1QAP32VBE24XINT0I 1 64 0 0
+/.well-known/acme-challenge/219NJMGWK5Y9PZXYQY3U-7UK6B014ST0 1 64 0 0
+/.well-known/acme-challenge/YB75T8K-3E634ICU8Z4DJQ5YB0PI9H6N 1 64 1 0
+/.well-known/acme-challenge/_YOSCA_WJ8TOPBSLPFZYXA8UKMSBIEYC 1 64 0 1
+/.well-known/acme-challenge/SQ70IMHRFKDI7Q_MYWEOKQ-Z9GOZ1XUZ 1 64 0 0
+/.well-known/acme-challenge/WZT0N4W3_U7I9T6OCDKC0Z_D-3L68GTR 1 64 0 0
+/.well-known/acme-challenge/05T9C2I75_3SK8H6T-C3YKIPNG57R0LY 1 64 0 0
+/.well-known/acme-challenge/I38HVMNASRE7L--THGRBO7VNUP8R3QZ3 1 64 0 0
+/.well-known/acme-challenge/-43FW0X3KUNX7YCC5I_AQ4IKIXPYNFY4 1 64 0 1
+/.well-known/acme-challenge/GIT860CXT2E_THJHBCT80A0VDHA058AN 1 64 1 0
+/.well-known/acme-challenge/GGNR_9ZT4-0RN3BLD55VOLBS_2S3FWHB 1 64 0 0
+/.well-known/acme-challenge/UHQ38FFZENF6ZG6S77AY1_04ARXYFLUT 1 64 0 0
+/cgi-sys/suspendedpage.cgi/wp/wp-includes/wlwmanifest.xml 1 7936 0 0
+/.well-known/acme-challenge/WLKB_SFSB-7ROAKQSNWMZZCF-VPSE19F 1 64 0 0
+//.env 1 1324 0 0
+/.well-known/acme-challenge/LC_IIB_AOGD_1XSVJES-0QLG5QT__SQV 1 64 0 0
+/.well-known/acme-challenge/BZY351GA0PA9IRG74ZNQVO_FSK6JD0DQ 1 64 1 0
+/.well-known/acme-challenge/__CQME8EIL8P2U91YBUV__8KGBAZAUYN 1 64 0 0
+/.well-known/acme-challenge/O46GUAHXKMEA7E_7H6Q2WAW1HAGZH70E 1 64 0 0
+/.well-known/acme-challenge/6VP4Y5Y-4X4KTZA_3QBOB6KSCZRHUV8K 1 64 0 1
+/.well-known/acme-challenge/SCXHTIMSEL1D8ABA7R4TEUVI1YWLHEP4 1 64 0 0
+/.well-known/acme-challenge/35HC90P1GKLXBNR074HU0ZVTS9ZNUKAV 1 64 0 0
+/.well-known/acme-challenge/KQDUB--3X237XJR-0HPZEDSLMRSPCO7P 1 64 0 0
+/.well-known/acme-challenge/505LE_M43RKS29H7NW9T-HZ19I-57V6J 1 64 0 0
+/.well-known/acme-challenge/T4SU0JSLOXB9HY-5CG1VSLQT0LNQC0EO 1 64 0 1
+/lms/video/thermodynamics-4fa10a0b4383c3b247703b7cb3ba1cd64977131c-6/7 1 5209 0 0
+/cgi-sys/suspendedpage.cgi/website/wp-includes/wlwmanifest.xml 1 272 0 0
+/LMS/contents/algebra-a303119e0db6a9bbc428921315f37ce44de97b59-4 1 4178 0 0
+/.well-known/acme-challenge/QUELHZ3JWMNARTXKBCVQ2IETD2WO4SUA 1 64 0 0
+/cgi-sys/suspendedpage.cgi/web/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/GDNSPIDW6HCQRZAGC01SHZ55H8DFZQVW 1 64 1 0
+/.well-known/acme-challenge/VWKT1ACCCAOXDH7AH13D-T389ATGYQIU 1 64 1 0
+/.well-known/acme-challenge/EFFA5S8DAWTEVTPZLUAJYJJ82WBS7_F8 1 64 0 1
+/.well-known/acme-challenge/G8-ZEKSVIDUYA0DR-3YH2GWQT1OPIPDZ 1 64 0 0
+/.well-known/acme-challenge/-KAV44T_OQW8P5WUZCQ3J2V0X03-UZKO 1 64 0 0
+/exam/categories/history-category-4 2 10150 0 0
+/LMS/all-categories/physics-beab6e9d5be5ffdf4d99f0366bd72953f085a52e-1 2 9485 0 0
+/.well-known/acme-challenge/HNNBM37OTFR6K8WTZ1U3GK-39FU9I8B6 1 64 0 0
+/.well-known/acme-challenge/6UAO-OT05XBCKT40BL0W1AB-PACQR-ZB 1 64 0 0
+/.well-known/acme-challenge/9AWDHZ15-X5N15OT2IHJIVQXOR8M5QFU 1 64 0 0
+/.well-known/acme-challenge/NP9AE8XLC1HNGO3P67NMII4QADUZGA8G 1 64 0 0
+/.well-known/acme-challenge/GULT_F9WZEFVSUXL10JN2POL2PCNALX7 1 64 1 0
+/.well-known/acme-challenge/9-8IE3STBMJOHR0T2FAISM_IHVHXEQ0K 1 64 0 0
+/exam/categories 2 11018 0 0
+/.well-known/acme-challenge/SGPMEUAKF1AJTRL985DQBQ8BMZNJ4RJU 1 64 0 1
+/.well-known/acme-challenge/70GQN1DNDC3O44D8V4F_Y3Q77VPTOD6V 1 64 1 0
+/.well-known/acme-challenge/P9OEA3JJ2JQG5B68YXBAVBFS10D5JHK5 1 64 1 0
+/.well-known/acme-challenge/ET880SMMQ88J5OOWZASCV5WW_I9I8P4B 1 64 1 0
+/.well-known/acme-challenge/C-Y0MSV9EK7_GOIKWGWZ_7O0EZG22VXL 1 64 1 0
+/public/fonts/materialdesignicons-webfont.woff2 2 170664 0 0
+/exams/start-exam/mechanics-quiz-63064939929acb5c58676d3621e06368ddadb5ee-7 2 51008 0 0
+/.well-known/acme-challenge/QL-00-3_0RV7K6O6IFW9T03-77873ULR 1 64 1 0
+/.well-known/acme-challenge/FILG38KO5AOPFC70XYHWXIIQLIXK214S 1 64 0 1
+/.well-known/acme-challenge/GWVK0PZVSO9DSSOW82EB5PS43--Z0KN8 1 64 0 1
+/.well-known/acme-challenge/4VOEPKM-TNT8H_BEDODDLP1G5ZM3AKOZ 1 64 0 0
+/.well-known/acme-challenge/KBUS_J664NH-L7XB023IHJK25B6EX-Z_ 1 64 0 0
+/LMS/contents/number-theory-14c4eb60b5804580be846562d6adb696c6e1037f-10 1 4440 0 0
+/cgi-sys/suspendedpage.cgi/blog/wp-includes/wlwmanifest.xml 1 272 0 0
+/LMS/all-categories/english-grammer-3e78195ac5113afd87a1e9d19bc54e358e5edaa1-2 1 4759 0 0
+/LMS/contents/applied-mathematics-d7e9b1f2bb663187684226881301fffd4815e687-11 2 9358 0 0
+/.well-known/acme-challenge/W13ER5MGO1Q989E2EFRKDWJN1XCAI2CF 1 64 0 0
+/.well-known/acme-challenge/70RJ31NNZ4ITLLDNCW-LZHUVXT3TO4WL 1 64 0 0
+/.well-known/acme-challenge/O2NAQWVO90LZ94FLYO3SKKCB3JEHKQVI 1 64 0 0
+/login/.env 1 5883 1 0
+/.well-known/acme-challenge/7GKKJKSHJO2UHT7ITCX1EA_LDYU3P3VN 1 64 0 0
+/.well-known/acme-challenge/K3UFYNW9ZORYO3SWKXWK9QE60V9-_N90 1 64 0 0
+/.well-known/acme-challenge/38VEUF5JZ9NLHZQ4DE2GR0_PXUT9UNPB 1 64 0 0
+/.well-known/acme-challenge/XDM86KRV5HX93MJRHRS0W4V7DLHND2RM 1 64 0 0
+/.well-known/acme-challenge/8PFWK_CEA80E244UA9T6C217A4TRBWM2 1 64 0 1
+/exams/start-exam/oscillations-aa1e28d08e2f94a40979e15f604e7fe8571f35e3-11 1 34060 0 0
+/LMS/all-categories/maths-formulas-832d885822d1d19e60bf151d237d03d3db14cbb5 2 11614 0 0
+/download/lms/contents/number-theory-027a83b74bd41863994f834632d9d5cd3a6eefb9-7 1 7945 0 0
+/.well-known/acme-challenge/O80DR7JFG3W8G39S54LBII1HGWLQ79NX 1 64 1 0
+/.well-known/acme-challenge/H33EKWI8YUMPZTH4WQMNSYDFXUQXTIHA 1 64 0 0
+//vendor/phpunit/phpunit/phpunit.xsd 2 27468 2 2
+/.well-known/acme-challenge/3VXC2G2BICZNLS7NC59NMEON_I6_Z3SS 1 64 0 0
+/.well-known/acme-challenge/2GY8DG1KMTW8E0KM7B_IG6-4G72S34Z6 1 64 0 0
+/cgi-sys/suspendedpage.cgi/wp-includes/wlwmanifest.xml 1 272 0 0
+/LMS/contents/geometry-and-topology-7134f19b23a31a5f254d6ebda1c819fd9a48d94f-5 1 4448 0 0
+/.well-known/acme-challenge/_WJ2J5TWP7IFQJ-OUF73310G59XC76PY 1 64 1 0
+/.well-known/acme-challenge/-REYVQ4-ID1N42PQD6WVY5S_4V76A7-Z 1 64 0 0
+/.well-known/acme-challenge/PFRN03X0TS4S1VX0QJIOJO42KVKX7DU- 1 64 0 0
+/login/wp-login.php 1 19350 0 0
+/.well-known/acme-challenge/C04K3LS8B8_XU1B2FSYTTTAMNWYJ8Z-0 1 64 0 0
+/.well-known/acme-challenge/JOE7L_PS64MXYSQ9K9180L42LPFKCVRJ 1 64 0 0
+/lms/video/maths-basics-107ad449a80a7641d61acd2a3b97805c61682016-4/12 1 6647 0 1
+/.well-known/acme-challenge/VU4-D9I04OTX3X9QNQ2TMIV419LQ2XU0 1 64 1 0
+/.well-known/acme-challenge/0CXTR9Z9DJ0RS6UVINWNT-RI2WKBF3DE 1 64 1 0
+/.well-known/acme-challenge/XH0HYZQKY2MGHM3YO9N33QWHZ8TBCVXB 1 64 0 0
+/.well-known/acme-challenge/EPFD8NO_4YO0_V-GGTIU5CTH45HMBO65 1 64 0 0
+/.well-known/acme-challenge/P1-HFK1_NWH-561_HT5KL4QCPYXFFTTV 1 64 0 0
+/.well-known/acme-challenge/JJGH9Z8QX40O-9TINJEMH5Y4K4OTALLP 1 64 0 0
+/cgi-sys/suspendedpage.cgi/test/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/JBMOB_BCIQ-SQF760NLU1FSIUX4FAE11 1 64 0 0
+/.well-known/acme-challenge/Q1AA0327U50T-91ROXBQLD158XSA94_9 1 64 0 0
+/.well-known/acme-challenge/0E85V5NOUB3INEM2I0RNIK5SM2JCDR7L 1 64 0 1
+/.well-known/acme-challenge/-SETAWG1D4N35CM7J_F45SBYLBLT-AAJ 1 64 0 0
+/.well-known/acme-challenge/JZNYL_DYT-J9-AYI2FK9QW-YYOAP290R 1 64 0 0
+/.well-known/acme-challenge/YOTR9ZWJOH2RG6V8U6KQHS7N0QOA6C7- 1 64 1 0
+/.well-known/acme-challenge/UH6WF15LB4BEVZA90QOQKZ200F5MLCYY 1 64 0 0
+/LMS/contents/calculus-and-analysis-3f78c3f3655aa7bcb4e4f5ea2b2bdf6ab8f52eb6-4 1 4447 0 0
+/cgi-sys/suspendedpage.cgi/site/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/RKUKRVXTBW8L72XYGYUN_CTP8A54UC_D 1 64 0 0
+/.well-known/acme-challenge/N4N2ADB4VFQ1RIJYTGSGFY8EPKDBHXUJ 1 64 1 0
+/.well-known/acme-challenge/Z9XE95X6J79PVOFTDQZURH0X5SMYJUSK 1 64 0 0
+/.well-known/acme-challenge/8C2K0W95-TUNQPACV-JZDK3GZ6UU-IWC 1 64 0 0
+/.well-known/acme-challenge/AV2DZ_IZKFY0JSGNQRYOZ2_VL391Q01J 1 64 1 0
+/exams/start-exam/reasoning-ff5f6112ffc91c1745460088e840d89339bb4c5e-16 2 42790 0 0
+/.well-known/acme-challenge/YQ5R6606D03W8UV6MBBY2AY-LHXVWAH0 1 64 0 1
+/login/wordpress 1 19350 0 0
+/.well-known/acme-challenge/AAKD4N0LXX-RZVHEWW4Y5ID7Q5GHKB7_ 1 64 0 0
+/exam/categories/chemistry-category-3 3 12641 0 0
+/download/lms/contents/formulas-89638507510a0a3f95623d4b48c91d9efa304296 1 7945 0 0
+/.well-known/acme-challenge/_UY1SBJUOTSAZIE3BCW-HVZHZ8225HKD 1 64 0 0
+/.well-known/acme-challenge/H0RSOUM4SRYK7X05FWQWA9G31EY-R5AR 1 64 0 1
+/.well-known/acme-challenge/9Y6PNTP9GATX62WDSCP348DIPRHR08W7 1 64 0 0
+/.well-known/acme-challenge/O-0T5TF_QQW56L6RLDVK4OD0V__4PJXA 1 64 0 0
+/.well-known/acme-challenge/LF222XKA28S_CHQ44QJURQ0RMM9453I6 1 64 0 0
+/.well-known/acme-challenge/6CTVDOZ5YCHXU25G6UVR0P2WXQ9QJ50_ 1 64 0 1
+/.well-known/acme-challenge/409IKQD-5O6IM997U1-ZX9UW85AHOI7G 1 64 0 0
+/.well-known/acme-challenge/2H7O_MAQUGZBIDSYIWFI3I35M1XE8VWG 1 64 0 0
+/.well-known/acme-challenge/1TZB52MPMBAFCBE63Y8KVKXDV2JN_-3V 1 64 0 1
+/.well-known/acme-challenge/O6XQ1H1FL65U_3BSTNHO2-YUFGR25BNS 1 64 0 0
+/LMS/all-categories 3 34762 0 0
+/cgi-sys/suspendedpage.cgi/cms/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/2TS_AU738WG_LRUSTV6BI_88PA-E9743 1 64 0 0
+/.well-known/acme-challenge/YSND0O39EEV7A6CL61L3I3BPR6JP-9MJ 1 64 0 1
+/.well-known/acme-challenge/KGFGOLVAENXREUUSDY9M2_EJPQUC5A48 1 64 1 0
+/.well-known/acme-challenge/BKDYLO_HFYKVS3QMVYQ575G9GWHH4K3J 1 64 0 0
+/.well-known/acme-challenge/F4NBHGVC8S3NTFSMO0JTPF4PZQC1L00L 1 64 0 0
+/.well-known/acme-challenge/MM7PI_KYWJE8LFEJZ6BOMZL9PZZ05Q91 1 64 0 0
+/.well-known/acme-challenge/RLWKZBXKYW1ZBONPPNZSX5LRQ66CRZ81 1 64 0 1
+/.well-known/acme-challenge/L05ATK3X2EAL5606DQYSY7Z-9YMP1JGX 1 64 0 0
+/vendor/phpunit/phpunit/LICENSE 2 3150 2 1
+/.well-known/acme-challenge/YH3C-OZIQMHS1OOKDTEVNPO-YJ0RFMOU 1 64 0 0
+/site/privacy-policy 3 22067 0 0
+/LMS/contents/mathematical-physics-0a4862bc4960b3b0feb14f26bb0366008e334ba8-7 2 9358 0 0
+/.well-known/acme-challenge/LAC734ZHW_JKRBLSZG-VMX-BLPAC021F 1 64 0 0
+/cgi-sys/suspendedpage.cgi/wp2/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/S4DDM069UJ3-IUHDULLVXUQZ-JO8OW1M 1 64 0 0
+/.well-known/acme-challenge/_QFE3E361O_F6XOQEB8X50ZXHE6_L5GY 1 64 0 0
+/.well-known/acme-challenge/BICDCZXHD2ZQ7A71CPY2GK416RJZ88EP 1 64 0 0
+/.well-known/acme-challenge/KN_SCCDX-453BSA124CJAPXID4DCDFLV 1 64 0 0
+/.well-known/acme-challenge/4BO_1E1N6DASUXHSO59EMSWAGNULRO3V 1 64 1 0
+/.well-known/acme-challenge/BSEQ99G_A2Q1EKZ266E3OB-7UL51OX8H 1 64 0 1
+/.well-known/acme-challenge/ZDV8UQ0ZAJB9CEXEEEAGR23TE7GR14M3 1 64 0 0
+/.well-known/acme-challenge/QB6G65U60TF0ZNEURL77OSYUY6RVBGYP 1 64 0 0
+/LMS/contents/number-theory-2e9b0c61e053d6ae4a2e4cd7fe2be5993e8a0b22-6 2 9349 0 0
+//vendor/phpunit/phpunit/build.xml 1 2861 0 0
+/exam/categories/chemistry-5 2 7071 0 0
+/.well-known/acme-challenge/FT20Y_WXTE5NXYBHDSUP8U7Y8M37NKMV 1 64 0 0
+/.well-known/acme-challenge/5QH1OVZDW_PDUUEJPKW2XMYW8MI30SPH 1 64 0 0
+/LMS/contents/spotting-errors-98ba23ddfd59e6a0a7e6648831947a44a9252543-12 1 4424 0 1
+/login/xmlrpc.php 2 38700 2 0
+/.well-known/acme-challenge/2HC2PIFJBCPT2__O0FU_24JTFTIP3C12 1 64 0 0
+/.well-known/acme-challenge/0BXTGS35JKVMJ4QQ2DK3NYAOJAHOBTH_ 1 64 0 0
+/.well-known/acme-challenge/AO-KGOVQVUE43S_XC25K5BY9NV3NUV9D 1 64 0 0
+/.well-known/acme-challenge/5ELWIYTTKXY038EV8VKDZMK2N0EKB-Q3 1 64 0 1
+/.well-known/acme-challenge/HA0T1S9V-PFHEH4_LVIA9O62BZJMYCFT 1 64 0 0
+/login/blog 1 19350 0 1
+/.well-known/acme-challenge/2701FW97CO-DVGS4D4E_NUDGBK60HTLJ 1 64 1 0
+/cgi-sys/suspendedpage.cgi/news/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/-2SBOS5K_91UP3HAJIJ2_TYZF5__NFBM 1 64 0 1
+/.well-known/acme-challenge/WSJRYA7PYK9RA8AJNU7WT2NLWQ7R6-B0 1 64 0 0
+/.well-known/acme-challenge/C9KYT7XNL30VYXCA-95AQIBA99PFZP_I 1 64 0 1
+/LMS/contents/electricity-and-magnetism-fc97e568de2d19ea12e149c24870afe2c0d861f7-9 1 4715 0 0
+/.well-known/acme-challenge/RVAFDXJX9QJJ52XLCPTHGU9RGRLHQ85K 1 64 0 0
+/.well-known/acme-challenge/EPQ1TOCEHRHS6M0MC_ZI-SJS-81P197E 1 64 0 1
+/.well-known/acme-challenge/2A6LK995Y17-66SH6U3E6JC4-K260G73 1 64 0 0
+/.well-known/acme-challenge/D_92MK02SX-H2KL6BXYD0VD0-TU2VIWC 1 64 0 0
+/.well-known/acme-challenge/AG3-LLFRABFC_VOLOR63MUESTEQZ3S0B 1 64 0 0
+/.well-known/acme-challenge/20QC63SS14GOMZWZZRJ0IZ_UK8Y4F737 1 64 0 0
+/exams/start-exam/algebra-1b226e24d5b271cfa1ca8938903937e0f6f1150d-17 2 45307 0 0
+/vendor/phpunit/phpunit/src/Util/PHP/Template/TestCaseMethod.tpl.dist 1 3241 1 1
+/.well-known/acme-challenge/3X68YDFUJP-NV_8C2C0JFZDS2F9RW7QE 1 64 0 0
+/.well-known/acme-challenge/_KJHKHJPAOWVPH1M-Z36B6C29RFLYBSQ 1 64 0 0
+/.well-known/acme-challenge/UTO-XAPHNYEIR84HFBEHWUR0-1RO052U 1 64 0 0
+/.well-known/acme-challenge/2YL13SOAZW13BBCMIHKC8KGCPKT7KZRB 1 64 1 0
+/.well-known/acme-challenge/O4Y-A_FQMFPNV5MDPHP5O00CNVMBWNXA 1 64 1 0
+/.well-known/acme-challenge/94EZWN3ZMMG604VOWZ-V-Y6S69LHLD9B 1 64 0 1
+/cgi-sys/suspendedpage.cgi 2 56938 1 0
+/.well-known/acme-challenge/-5U4MR0WD8WEI1DN-KPLBH35UL8HETTX 1 64 0 0
+/.well-known/acme-challenge/7T90L7EIDMEM161BW4KTFDD4P0YN2WI9 1 64 1 0
+/.well-known/acme-challenge/G3O83TJT6B8PQ579_7DGYZ-ZXJXYDESN 1 64 1 0
+/.well-known/acme-challenge/0LDGUBNID95OXI-IE9U9X4NRFA9QK450 1 64 1 0
+/.well-known/acme-challenge/GV4_-NOIEB2_-S49GYQ_8_M763Z7M1A6 1 64 0 0
+/.well-known/acme-challenge/O3LDSR9TAZLY0FIS1V0-ED_R1AV1GL98 1 64 0 0
+/.well-known/acme-challenge/J8QHSMNW6PAQS_TC9HDE_TJ8638TQ5X6 1 64 0 0
+/.well-known/acme-challenge/HMKMMTTWT-GGTGUUVR44LEL6IRBH_CR9 1 64 1 0
+/.well-known/acme-challenge/0MA383XUBJEP4GBTP-I4QP7F12QOWGQB 1 64 0 0
+/.well-known/acme-challenge/5DPS-XJK68P442MI0C4YHIUFMC3X163M 1 64 0 1
+/cgi-sys/suspendedpage.cgi/wp1/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/P55KXA17EQ0I8FS3GXUCD6U5Y6XFR1LR 1 64 0 0
+/.well-known/acme-challenge/563AYX5PY6NYIC6HXZK6F4C_-FPIPHZ4 1 64 0 0
+/.well-known/acme-challenge/DK9_12HHLH-WCQHW2DS032P0P-LOFFBW 1 64 0 0
+/.well-known/acme-challenge/JXRZHHIZSS2-7S-V6OIKRS4M9IPB1SG4 1 64 0 1
+/.well-known/acme-challenge/0ZAZOG5Z41W96UZY1DY3GUEMAGF3T5Q4 1 64 0 0
+/.well-known/acme-challenge/8XMKDSBCAP6ZLL78-_WKFB8MZR9UX218 1 64 0 0
+/.well-known/acme-challenge/VKIGT2V_KEAX_HFW9895AYIVI70_4__Y 1 64 1 0
+/.well-known/acme-challenge/1W8C3PS2E_HBAO7SDB-AI9N20C-RH6R- 1 64 0 0
+/.well-known/acme-challenge/7SREKCXNTFF-HAX0_RY621LJ2FBGY9-_ 1 64 0 0
+/.well-known/acme-challenge/PWXW-K8_RF09V5T752888-YJ96B92VIT 1 64 0 1
+/.well-known/acme-challenge/1WSEQTCED24ENTGWJ8VHUC-1JW9CC8X1 1 64 0 0
+/.well-known/acme-challenge/8C2J6BPXI8A_O2HF9F6-I57LIQASI_H2 1 64 0 0
+/.well-known/acme-challenge/D921KLC08XNT1CDUAG448E1-5SV8EBSK 1 64 0 1
+/.well-known/acme-challenge/8K7-HC_6XD8-HLYLEJ9SZR56MTT4Z3IO 1 64 0 0
+/.well-known/acme-challenge/OS0H0KWCB8ZN081PGY0VW79UTWC2CPZO 1 64 0 1
+/.well-known/acme-challenge/PE__858HWH5890KS-RC0_RPTRY3IDB1K 1 64 0 0
+/.well-known/acme-challenge/9OGL3W2Q85LERYLI3ZG-F9ME9W437P8I 1 64 1 0
+/.well-known/acme-challenge/INJILXPGEMNBWJ652T-C-4Z8DZJZ-467 1 64 0 0
+/.well-known/acme-challenge/LSMRHN5HD86H--LFLJRAF1RTD3TT2JMN 1 64 0 0
+/.well-known/acme-challenge/2_KHQ1G0H6W758093SVXW5RPUOH2E6UU 1 64 0 0
+/.well-known/acme-challenge/EOSMGKIPT9YGJS3L68BNBFPWVTHK--QA 1 64 0 0
+/.well-known/acme-challenge/Y8XAGMJJXNWNCR2BQMK-QH_7R4Z7WDG2 1 64 0 0
+/.well-known/acme-challenge/N3A1JW_YW091Z6KWZG15LY1_SNVTOP4M 1 64 0 0
+/.well-known/acme-challenge/78Q8WV96SNY25DMF8WMNQZOE3CEVTJSA 1 64 0 0
+/.well-known/acme-challenge/7FNN0KCTW47_QLAE-PIMS2J4JL-Q89W1 1 64 0 0
+/LMS/all-categories/history-5de9a37daba64875a5d5fad74880e69555bca034-5 1 4733 0 0
+/cgi-sys/suspendedpage.cgi/wordpress/wp-includes/wlwmanifest.xml 1 272 0 0
+/.well-known/acme-challenge/6CSI6ONVYO19XOWJ9DEKL3B0ONQDT0MG 1 64 0 1
+/exams/start-exam/reasoning-i-34df71e652129e3c25dd86db87bba30b483347de-19 2 42800 0 0
+/.well-known/acme-challenge/MIYRIACLNO9LB2XR-GJR2LWU3_A_GP10 1 64 0 0
+/cgi-sys/suspendedpage.cgi/sito/wp-includes/wlwmanifest.xml 1 272 0 1
+/.well-known/acme-challenge/K4WF7K98ANSC1NW3SF080W0DM71-P0S4 1 64 0 1
+/.well-known/acme-challenge/R-PRHUL3CYCMFXVKQ8Y7ZQZTG740XO2U 1 64 0 0
+END_SIDER

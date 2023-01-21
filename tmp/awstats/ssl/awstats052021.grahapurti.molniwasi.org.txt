@@ -1,0 +1,631 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202105 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.grahapurti.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2705                
+POS_VISITOR 8503                
+POS_DAY 11291               
+POS_DOMAIN 3503                
+POS_LOGIN 3829                
+POS_ROBOT 3984                
+POS_WORMS 4354                
+POS_EMAILSENDER 4485                
+POS_EMAILRECEIVER 4628                
+POS_SESSION 11969               
+POS_SIDER 12136               
+POS_FILETYPES 4763                
+POS_DOWNLOADS 5042                
+POS_OS 5090                
+POS_BROWSER 5236                
+POS_SCREENSIZE 5707                
+POS_UNKNOWNREFERER 5781                
+POS_UNKNOWNREFERERBROWSER 6403                
+POS_ORIGIN 7020                
+POS_SEREFERRALS 7161                
+POS_PAGEREFS 7347                
+POS_SEARCHWORDS 7517                
+POS_KEYWORDS 7669                
+POS_MISC 2368                
+POS_ERRORS 7728                
+POS_CLUSTER 3685                
+POS_SIDER_404 7897                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210601025515 45 9755 13785781280107
+FirstTime 20210501071347
+LastTime 20210531214342
+LastUpdate 20210601180406 45 0 44 0 0
+TotalVisits 70                  
+TotalUnique 61                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 73                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 32 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 723 723 30051850 121 138 9987759
+1 4 4 588766 25 59 192880
+2 1 5 181036 9 58 49360
+3 11 11 520704 6 58 131716
+4 3 3 441154 9 41 41146
+5 8 8 1096410 14 47 504490
+6 5 7 1032750 31 61 1183602
+7 11 11 1892661 10 59 521104
+8 4 6 1203606 68 107 217519
+9 12 16 3476042 17 94 984252
+10 8 16 6313311 18 57 270214
+11 18 190 34977781 8 45 337354
+12 0 2 180422 6 109 439892
+13 2 2 366551 10 38 413386
+14 15 163 33516279 1 47 15838
+15 2 6 1402464 6 54 568708
+16 3 3 164730 7 54 15650
+17 2 2 375627 11 25 2031108
+18 2 2 392220 13 25 1380460
+19 3 3 573522 108 148 1512154
+20 4 6 425498 11 32 322031
+21 31 31 2382647 23 52 750290
+22 7 7 899210 31 60 1138456
+23 2 2 163988 13 62 493968
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 815 829 48036873
+in 40 370 71678134
+de 9 9 0
+cn 8 12 1750481
+gr 4 4 825001
+ca 2 2 164752
+ua 2 2 163988
+se 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bot[\s_+:,\.\;\/\\-] 229 5496 20210531143702 229
+YandexBot/ 173 4253724 20210531232556 87
+Googlebot/ 41 1951546 20210531121615 35
+no_user_agent 14 2956494 20210520063550 0
+unknown 5 120 20210523000124 5
+discover 4 327964 20210506063151 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+woff2 8 585872 0 0
+png 70 18685168 0 0
+js 18 5428896 0 0
+gif 4 16712 0 0
+html 157 17933825 0 0
+cgi 2 15244 0 0
+css 10 1734875 0 0
+Unknown 706 28236698 0 0
+jpeg 34 1842993 0 0
+jpg 212 47250482 0 0
+woff 8 888464 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linux 44 44
+win10 29 17
+win7 16 8
+linuxandroid 364 40
+macosx 6 6
+Unknown 770 766
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome76.0.3809.132 4 4
+chrome89.0.4389.90 1 1
+chrome91.0.4472.77 2 0
+chrome90.0.4430.66 146 10
+chrome81.0.4044.92 2 2
+chrome90.0.4430.210 2 0
+chrome88.0.4324.146 8 8
+Unknown 770 766
+chrome42.0.2311.90 8 8
+chrome90.0.4430.212 16 0
+chrome83.0.4103.101 2 0
+chrome85.0.4183.102 4 4
+chrome71.0.3578.141 32 18
+firefox72.0 2 2
+chrome83.0.4103.97 37 37
+chrome78.0.3904.87 12 8
+chrome73.0.3683.103 1 1
+chrome70.0.3538.80 180 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+panscient.com 20210523004946
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210528094056
+fasthttp 20210508115557
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210524041818
+Jersey/2.25.1_(HttpUrlConnection_1.8.0_141) 20210526011612
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+fasthttp 20210508115557
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210528094056
+Jersey/2.25.1_(HttpUrlConnection_1.8.0_141) 20210526011612
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210524041818
+panscient.com 20210523004946
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 831 835
+From1 0 0
+From2 10 32
+From3 22 22
+From4 18 340
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 2 24
+www_google_com_hk 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://l.wl.co 22 22
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+500 142 12864560
+403 8 2864
+302 28 6278
+405 7 519737
+404 670 574432
+301 4 1024
+406 173 39098
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/catalog/Adminhtml_category 4 -
+//admin/.env 1 -
+/ccaef.php 16 -
+/web/images/miscellaneous/payments.png 6 https://grahapurti.com/
+/xmlrpc.php 4 -
+/_ignition/execute-solution 72 -
+/wp-login.php 2 -
+/ccaef.txt 8 -
+/admin/.env 5 -
+/app-ads.txt 537 -
+/ads.txt 7 -
+/shop-page1.html 6 -
+/.git/HEAD 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 73
+72.79.50.66 718 718 29314784 20210523004946
+122.163.163.249 12 180 34104396 20210512115441
+106.206.170.119 10 146 29856344 20210508141255
+1.39.215.63 8 8 356716 20210506032740
+138.246.253.24 8 8 0 20210528162217
+1.39.198.25 6 6 267519 20210509095306
+171.13.14.76 4 8 1421735 20210508105508
+1.39.201.103 4 14 1828807 20210505142323
+34.86.35.16 4 4 775113 20210526092450
+18.221.38.234 4 4 328746 20210504052155
+8.210.150.89 4 8 506828 20210508115548
+34.96.130.24 4 4 955057 20210528080106
+34.77.162.5 2 2 367415 20210522072209
+34.216.221.202 2 2 163974 20210522215214
+54.212.195.248 2 2 89174 20210529211332
+18.236.197.246 2 2 163978 20210523212208
+35.160.159.33 2 2 163964 20210521220001
+34.210.24.37 2 2 163960 20210526213539
+34.96.130.2 2 2 383817 20210519055218
+52.25.30.241 2 2 163994 20210525211738
+34.214.4.158 2 2 163998 20210519211242
+192.99.18.122 2 2 164752 20210531201003
+54.201.137.160 2 2 163998 20210531214342
+171.13.14.8 2 2 164786 20210531103736
+34.77.162.12 2 2 366557 20210512114524
+71.172.99.3 0 2 95976 
+49.36.129.217 0 2 61062 
+157.38.94.90 0 2 1831128 
+34.213.41.88 2 2 162848 20210514210141
+34.86.35.15 2 2 375627 20210518170226
+157.39.113.14 0 2 29084 
+34.220.81.137 2 2 163974 20210508210805
+92.118.160.57 2 2 441154 20210524041818
+34.77.162.8 2 2 573072 20210528094056
+34.221.184.186 2 2 163992 20210528212244
+103.41.145.199 0 2 1831128 
+34.77.162.3 2 2 366551 20210507131255
+52.11.137.12 2 2 163982 20210526213413
+34.86.35.18 2 2 573522 20210510193403
+103.120.200.250 0 2 61062 
+213.211.241.42 1 1 0 20210506223906
+34.77.162.20 2 2 367423 20210525092448
+157.38.50.242 0 2 2731702 
+107.150.63.171 2 2 163994 20210513002303
+54.172.136.72 2 2 15244 20210526011613
+107.150.63.174 2 2 164770 20210510201119
+54.187.234.68 2 2 163974 20210524221133
+34.86.35.24 2 2 573522 20210521013158
+34.86.35.32 2 2 392220 20210525182033
+54.245.155.255 2 2 163988 20210520232554
+34.219.14.45 2 2 163968 20210507211923
+92.118.160.5 2 2 383847 20210508054044
+165.225.229.115 0 2 151952 
+159.253.31.111 1 1 0 20210519041844
+34.86.35.21 2 2 367439 20210501074418
+34.222.114.63 2 2 162843 20210508211217
+50.112.59.145 2 2 163996 20210519211938
+34.96.130.27 2 2 400416 20210515065343
+171.13.14.23 2 2 163960 20210531104113
+34.96.130.12 2 2 571272 20210504065219
+34.86.35.23 2 2 573072 20210514004004
+1.39.202.222 0 4 1238488 
+3.20.239.197 1 1 0 20210518214905
+43.241.146.59 0 2 61062 
+69.30.225.99 2 2 164730 20210502163155
+69.30.225.102 2 2 163976 20210506153257
+95.217.60.174 2 2 163988 20210503030846
+34.77.162.15 2 2 374747 20210501071347
+14.98.171.30 0 2 180422 
+34.210.54.125 2 2 163968 20210518215446
+34.96.130.13 2 2 571272 20210508084020
+223.238.222.213 0 2 1831128 
+34.96.130.25 2 2 571272 20210517221025
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20210501 4 4 742186 2
+20210502 2 2 164730 1
+20210503 2 2 163988 1
+20210504 6 6 900018 2
+20210505 6 20 3451080 2
+20210506 12 12 520692 4
+20210507 5 5 530519 3
+20210508 26 170 33066843 7
+20210509 6 6 267519 1
+20210510 4 4 738292 2
+20210512 14 182 34470953 2
+20210513 2 4 225056 1
+20210514 5 5 735920 3
+20210515 3 5 2231544 2
+20210517 2 2 571272 1
+20210518 5 11 2647121 3
+20210519 7 9 772873 4
+20210520 3 3 163988 2
+20210521 4 6 798548 2
+20210522 7 9 959748 4
+20210523 720 720 29478762 2
+20210524 4 6 3336830 2
+20210525 6 6 923637 3
+20210526 8 8 719024 4
+20210528 8 10 1460288 5
+20210529 2 2 89174 1
+20210531 8 10 2488624 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30mn-1h 1
+30s-2mn 1
+0s-30s 68
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 229
+/shop 166 6596720 0 1
+/ 156 17851828 69 65
+/login 12 328216 0 0
+/product-detail/biicano-aloo-bhujia-400gm 4 162132 0 0
+/product-detail/doms-zoom-ultimate-dark-triangle-pencils 4 165062 0 0
+/product-detail/gaia-lite-sugarfree-cookies-coconut-multigrains-200gm 4 162174 0 0
+/product-detail/amul-burger-patty-6-piece 4 160854 0 0
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2 4 297280 0 0
+/product-detail/maheshwari-tea-250gm 4 160798 0 0
+/product-detail/bann-royal-bake-jeera-bite-cookies-400gm 4 162144 0 0
+/product-detail/unibic-cashew-badam-cookies 4 166094 0 0
+/product-detail/whisper-choice-wings-7s 4 167608 0 0
+/product-detail/kesh-kanti-milk-protein-shampoo-200ml 4 163656 0 0
+/product-detail/grahapurti-kaju-cashew-whole-500gm 4 160842 0 0
+/product-detail/maggi-noodles 4 127570 0 0
+/product-detail/best-quality-suger-chini 4 164258 0 0
+/product-detail/mc-caun-crazy-fries-masalamik-400gm 4 160940 0 0
+/product-detail/mc-caun-smiles-crispy-happy-potatoes-200gm 4 162160 0 0
+/viewcart 4 106626 0 0
+/product-detail/red-bull-enrrgy-drink 4 113274 0 0
+/product-detail/lux-soft-touch-french-rose-almond-oil-soap-bar-1 4 163670 0 0
+/product-detail/patanjali-kesh-kanti-hair-cleanser-reetha-shampoo-200ml 4 163714 0 0
+/product-detail/shree-ajab-bhujia-namkeen-400gm 4 161990 0 0
+/product-detail/grahapurti-badam-almonds-500gm 4 160880 0 0
+/fonts/Montserrat-Bold.woff 4 444400 0 0
+/product-detail/patanjali-saundarya-aloe-vera-gel 2 83872 0 0
+/product-detail/johnson-s-baby-soap-1 2 77044 0 0
+/product-detail/colgate-visible-white-tooth-paste 2 83796 0 0
+/product-detail/index-key-chain-quality-of-excellence 2 82576 0 0
+/product-detail/bratannia-toastea-rusk-300gm 2 80430 0 0
+/product-detail/dettol-hand-wash-with-free-refill 2 83866 0 0
+/product-detail/superia-gangajal-with-silk-lemon-and-mint-oil 2 83934 0 0
+/product-detail/shyam-cumin-seed-jeera 2 82468 0 0
+/product-detail/reflect-lemon-power-dishwash-bar 2 82854 0 0
+/product-detail/johnson-s-baby-cream 2 77194 0 0
+/product-detail/ponds-white-beauty-bb-cream-18gm 2 83586 0 0
+/product-detail/kellogg-s-corn-flakes-original 2 82090 0 0
+/product-detail/head-shoulders-anti-dandruff-shampoo 2 83902 0 0
+/product-detail/dabur-anmol-gold-coconut-hair-oil-with-dabur-red-toothpaste 2 83742 0 0
+/product-detail/dyna-lime-aloevera-extracts-pack-of-4 2 83890 0 0
+/product-detail/himalaya-baby-powder-200g-with-free-refreshing-baby-soap 2 77304 0 0
+/product-detail/lux-soft-touch-french-rose-almond-oil-soap-bar 2 83972 0 0
+/product-detail/everyuth-naturals-lemon-cherry-face-wash-50gm 2 83640 0 0
+/product-detail/dabur-anmol-gold-jasmine-coconut-hair-oil 2 83892 0 0
+/product-detail/nilons-pasta-masala-pack-of-5 2 82176 0 1
+/product-detail/doms-dust-free-erasers 2 82516 0 0
+/product-detail/cadbury-dairy-milk-silk-bubbly 2 82716 0 0
+/contact 2 54066 0 0
+/product-detail/sat-isabgol-best-quality-psyllium-bhusi 2 83886 0 0
+/product-detail/biicano-rasogolla-1-25kg 2 82788 0 0
+/product-detail/zandu-balm 2 83790 0 0
+/product-detail/nivea-body-lotion-express-hydration-200ml 2 83520 0 0
+/product-detail/parle-hide-seek-platina-choco-rolls 2 75368 0 0
+/product-detail/gr-coriander-powder-dhaniya-powder-200g 2 82118 0 0
+/product-detail/kinder-joy-with-surprise 2 82974 0 0
+/product-detail/balaji-i-que-fine-ball-pen 2 82500 0 0
+/product-detail/bikaji-gol-m-gol-gulab-jamun-01-kg 2 82728 0 0
+/product-detail/sensodyne-toothbrush-soft 2 83760 0 0
+/product-detail/maggi-nutri-licious-masala-veg-atta-noodles 2 63820 0 0
+/product-detail/listerine-cool-mint-mouthwash 2 83774 0 0
+/product-detail/jalani-pani-puri-magic-treat 2 82090 0 0
+/product-detail/kanha-baked-delight-pistachio-cookies 2 75786 0 0
+/product-detail/black-pepper-kali-mirch-100gm 2 80430 0 0
+/product-detail/godrej-fair-glow-soap-75g-pack-of-4 2 83790 0 0
+/product-detail/lakda-ji-maida-fine-flour-01-kg 2 82078 0 0
+/product-detail/sensodyne-fresh-gel 2 83734 0 0
+/product-detail/limex-dish-wash-bar-500gm 2 81400 0 0
+/product-detail/dabur-chameli-oil-hair 2 83610 0 0
+/product-detail/himalaya-natural-glow-kesar-face-cream-50gm 2 83512 0 0
+/product-detail/himalaya-fresh-start-oil-clear-face-wash 2 83510 0 0
+/product-detail/saras-ghee-01-lit 2 82086 0 0
+/product-detail/dyna-soap-milk-cream-almond 2 83656 0 0
+/product-detail/tresemme-ks-keratin-smooth-shampoo-580ml 2 83632 0 0
+/product-detail/dry-coconut-sukha-nariyal-1pc 2 80996 0 0
+/product-detail/lifebuoy-silver-shield-formula 2 83884 0 0
+/product-detail/maggi-magic-masala-pack-of-5 2 82506 0 0
+/product-detail/mdh-peacock-kasoori-methi 2 82464 0 0
+/product-detail/dabur-almond-hair-oil 2 83612 0 0
+/product-detail/dabur-hing-goli 2 82668 0 0
+/product-detail/dabur-sarson-amla-hair-oil 2 83612 0 0
+/product-detail/lux-velvet-touch-body-wash-with-jasmine-and-almond-oil 2 83980 0 0
+/product-detail/cadbury-celebrations-premium-selection 2 82784 0 0
+/product-detail/ayur-herbal-all-purpose-cream-with-aloe-vera 2 83670 0 0
+/product-detail/oral-b-toothbrush 2 83744 0 0
+/product-detail/garnier-power-white-anti-dark-cells-face-wash 2 83936 0 0
+/product-detail/britannia-50-50-sweet-salty-1 2 82768 0 0
+/product-detail/imli-tamarind-without-seed-200gm 2 82120 0 0
+/product-detail/patanjali-dant-kanti-aloevera-gel-toothpaste 2 83896 0 0
+/product-detail/unpolished-chana-dal-pulses-1kg 2 82158 0 0
+/product-detail/johnson-s-baby-wipes 2 77008 0 0
+/product-detail/ayur-herbal-all-purpose-cream-with-aloe-vera-1 2 83674 0 0
+/product-detail/kamasutra-urge-deodorant-spray-for-men 2 83888 0 0
+/product-detail/lotus-ghee-1-lit 2 82016 0 0
+/product-detail/grahpurti-unpolished-masoor-dal-pulses01kg 2 82142 0 0
+/product-detail/fab-df-pen 2 82414 0 0
+/product-detail/fogg-napoleon-body-spray-for-men 2 83896 0 0
+/product-detail/johnson-s-buds-1 2 77046 0 0
+/product-detail/channa-brown-01kg 2 80400 0 0
+/product-detail/joy-skin-fruits-200ml 2 83462 0 0
+/product-detail/surf-excel-matic-liquid-top-load-500ml 2 81030 0 0
+/product-detail/zandu-balm-1 2 83614 0 0
+/product-detail/dove-nutritive-solutions-intense-repair-shampoo 2 83706 0 0
+/product-detail/nivea-men-dark-spot-reduction-moisturiser-cream 2 83634 0 0
+/product-detail/cinthol-lime-bath-soap-75g-pack-of-4 2 83886 0 0
+/product-detail/oreo-original-chocolatey-sandwich-biscuits 2 83114 0 0
+/product-detail/fortune-soyabean-oil 4 164884 0 0
+/product-detail/ramdev-powder-hing 2 82430 0 0
+/product-detail/garnier-man-power-white-face-wash 4 166832 0 0
+/product-detail/cadbury-gems 2 83018 0 0
+/product-detail/ching-s-chowmein-hakka-noodle-masala 2 63776 0 0
+/product-detail/johnson-s-buds 2 77022 0 0
+/product-detail/amul-pure-ghee 2 82432 0 0
+/product-detail/colgate-strogh-teeth-toothpaste-200gm 2 81818 0 0
+/product-detail/special-tulsi-dakh-munakka-250-gm 4 164096 0 0
+/product-detail/vim-liquid-dish-wash-750ml 2 75340 0 0
+/product-detail/dettol-original-trusted-protection-75g-4-pack-of-4 2 84032 0 0
+/product-detail/park-avenue-beer-shampoo 2 83580 0 0
+/product-detail/denver-hamilton-deodorant-spray-for-men 2 83954 0 0
+/product-detail/parachute-advansed-aloe-vera-enriched-coconut-hair-oil 2 83894 0 0
+/product-detail/kanha-soan-papdi 2 82976 0 0
+/product-detail/bicano-navratan-mixture-1-kg-buy-01-get-01-1 4 162058 0 0
+/product-detail/nivea-deodorant-whitening-smooth-skin 4 166880 0 0
+/product-detail/kanha-baked-delight-jeera-cookies 2 75750 0 0
+/product-detail/tops-ketchup-tomato 2 63768 0 0
+/product-detail/odonil-jasmine-mist 2 83678 0 0
+/product-detail/v-wash-plus-expert-intimate-hygiene-ph3-5 4 167492 0 0
+/cgi-sys/suspendedpage.cgi 2 15244 1 1
+/product-detail/ariel-matic-liquid-detergent-01lit 2 80990 0 0
+/product-detail/gr-red-chilli-powder-500-gm 2 82144 0 0
+/product-detail/bicano-navratan-mixture-1-kg-buy-01-get-01 4 162142 0 0
+/product-detail/ariel-perfect-wash-detergent-powder 2 81388 0 0
+/product-detail/vaseline-intensive-care-vaseline-jelly-400ml 2 83548 0 0
+/product-detail/godrej-ezee-liquid-detergent 2 81396 0 0
+/product-detail/kanha-malpua 2 82896 0 0
+/product-detail/red-onion-lal-pyaj-01kg 2 82128 0 0
+/product-detail/lakda-ji-suji-semolina-sooji-01-kg 4 164206 0 0
+/product-detail/mc-caun-mini-samosa-cheese-pizza-175-gm 4 160946 0 0
+/product-detail/dabur-vatika-health-shampoo 2 83814 0 0
+/product-detail/nivea-men-dark-spot-reduction-face-wash 4 167226 0 0
+/product-detail/shakti-detergent-powder 2 81364 0 0
+/product-detail/jhalak-dishwash-bar 2 82938 0 0
+/product-detail/tata-salt 4 164942 0 0
+/product-detail/kanha-baked-delight-ajwain-cookies 2 75782 0 0
+/product-detail/oswal-oil-detergent-bar-oswal-sabun-singal-peace-pack 2 81032 0 0
+/product-detail/ching-s-secret-manchow-soup 2 57020 0 0
+/product-detail/moong-dal-dhuli-1kg-pulses 2 82106 0 0
+/product-detail/vim-bar-with-free-scrubber 2 81328 0 0
+/product-detail/mc-caun-chilli-garlic-potato-bites-400gm 4 126858 0 0
+/product-detail/arhar-dal-or-toor-dal-1kg-dall 4 160802 0 0
+/product-detail/dholpur-desi-ghee 2 82428 0 0
+/product-detail/lakda-ji-besan-01-kg 2 82040 0 0
+/product-detail/elaichi-cardamom-green-green-50gm 4 160936 0 0
+/product-detail/whisper-choice-ultra-clean-xl-30pads 2 83468 0 0
+/product-detail/amul-ghee-5-lit 2 82036 0 0
+/product-detail/c 2 82356 0 0
+/product-detail/amricana-orginal-butter-cookies-200gm 4 162090 0 0
+/product-detail/nivea-body-lotion-cool-sensation-200ml 2 83540 0 0
+/product-detail/rasoi-king-aluminium-foil-full-72-mtr 4 161000 0 0
+/product-detail/venus-natural-cream-bar 2 83826 0 0
+/product-detail/emani-kesh-king-ayurvedic-oil-100gm 4 163622 0 0
+/product-detail/cadbury-celebration 2 82698 0 0
+/product-detail/kellogg-s-chocos 2 82448 0 0
+/product-detail/britannia-milk-biksi 4 165424 0 0
+/product-detail/osf-premium-basmati-rice-01kg 2 82048 0 0
+/product-detail/parle-monaco-classic-regular-snack-200gm 2 82766 0 0
+/product-detail/kellogg-s-chocos-high-in-protein 2 82516 0 0
+/product-detail/eno-powder-lemon 2 83814 0 0
+/product-detail/aalu-01kg 2 82048 0 0
+/product-detail/lotus-herbals-safe-sun-cream 2 83578 0 0
+/product-detail/listerine-fresh-burst-mouthwash 2 83794 0 0
+/product-detail/brooke-bond-tea-taaza-250gm-1 4 160828 0 0
+/product-detail/dove-cream-beauty-bathing-bar-1 2 83810 0 0
+/product-detail/johnson-s-baby-powder 2 77228 0 0
+/product-detail/bikaji-aslee-bikaneri-gol-matol-rasgull 2 83078 0 0
+/product-detail/himalaya-herbal-gentle-baby-soap 2 77160 0 0
+/product-detail/parle-milano-cookies-biscute 2 75338 0 0
+/product-detail/cadbury-bourn-vita-biscute 4 150670 0 0
+/product-detail/baba-mixture-namkeen-400gm 2 81054 0 0
+/product-detail/surf-excel-matic-liquid-500ml 2 81042 0 0
+/product-detail/nivea-men-fresh-active-long-lasting-freshness-deodorant-spray-1 4 163610 0 0
+/product-detail/daawat-super-basmati-rice-01kg 2 82200 0 0
+/product-detail/kanha-baked-delight-cashew-nut-cookies 2 83078 0 0
+/product-detail/pidilite-steelgrip-self-adhesive-pvc-electrical-insulation-tape 2 82520 0 0
+/product-detail/tresemme-nr-nourish-replenish-shampoo-580ml 2 83710 0 0
+/product-detail/colgate-toothpaste-cibaca-175-g-anti-cavity 2 83910 0 0
+/product-detail/johnson-s-baby-soap 2 77226 0 0
+/product-detail/britannia-pure-magic-chocolish-cookies-biscuits 2 82892 0 0
+/fonts/Montserrat-Regular.woff 4 444064 0 0
+/product-detail/colgate-max-fresh-mega-pack-300-gm 2 81832 0 0
+/product-detail/kanha-rassogulla 2 83022 0 0
+/product-detail/cadbury-dairy-silk-chocolate-bar 2 83064 0 0
+/product-detail/kanha-baked-delight-choco-chips-cookies 2 75766 0 0
+/product-detail/lal-ghora-dhunseri-tea-250gm 2 80428 0 0
+/product-detail/taj-mahal-tea-with-long-leaves-500gm 2 80434 0 0
+/product-detail/joy-skin-fruits-cream-100ml 2 83534 0 0
+/product-detail/rosted-pista-250gm 4 160824 0 0
+/product-detail/parle-g-biscute-1-kg-70-m-r-p 2 80990 0 0
+/product-detail/doms-y1-extra-dark-triangle-pencil 2 82592 0 0
+/product-detail/dabur-anmol-gold-jasmine-coconut-hair-oil-1 2 83698 0 0
+/product-detail/himalaya-baby-massage-oil 2 77202 0 0
+/product-detail/hair-care-fruit-hair-oil 2 83798 0 0
+/product-detail/nivea-deodorant-whitening-smooth-skin-1 2 83928 0 0
+/product-detail/ayur-herbal-all-purpose-cream 2 83602 0 0
+/product-detail/snow-spray 2 82434 0 0
+/product-detail/mdh-garam-masala 2 82434 0 0
+/product-detail/grahapurti-peanut-granule-mungfali-dana-moong-fali-dana 2 82168 0 0
+/product-detail/sunfeast-moms-magic-rich-butter-biscuits 2 75788 0 0
+/product-detail/fevikwik-instant-glue-pack-of-5 2 82544 0 0
+/product-detail/pepsodent-germicheck-plus-cavity-protection-toothpaste 2 83880 0 0
+/product-detail/ghadi-detergent-cake-sabun 2 82650 0 0
+/product-detail/bikaji-sadabhar-soanpapdi-450-gm 2 82786 0 0
+/product-detail/nivea-men-dark-spot-reduction-50gm 4 167108 0 0
+/product-detail/clean-clear-foaming-face-wash 2 83934 0 0
+/product-detail/grahapurti-moong-dal-01kg 4 164144 0 0
+/product-detail/vaseline-intensive-care-100ml 2 83464 0 0
+/product-detail/saptrishi-meat-masala 2 82412 0 0
+/product-detail/patanjali-dant-kanti-tooth-paste-100gm 2 81814 0 0
+/product-detail/whisper-ultra-nights-xl15pads 2 83472 0 0
+/product-detail/kanha-bhujia-2 2 82948 0 0
+/product-detail/johnson-s-baby-shampoo 2 77244 0 0
+// 1 81997 0 1
+/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2 4 288592 0 1
+/product-detail/cadbury-dairy-milk-fruit-nut-chocolate-bar 2 83116 0 0
+/forgotPassword 2 53198 0 0
+/product-detail/dettol-cool-soap-125g-buy-4-get-1-free-of-125g-cool-soap 2 83902 0 0
+/product-detail/tide-plus-extra-power-detergent-washing-powder-jasmine-and-rose 2 81460 0 0
+/product-detail/stayfree-secure-cottony-soft-7-s 2 83488 0 0
+/product-detail/johnson-s-baby-lotion 2 77024 0 0
+/product-detail/oswal-oil-detergent-bar 2 83060 0 0
+END_SIDER

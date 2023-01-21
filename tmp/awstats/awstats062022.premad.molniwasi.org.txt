@@ -1,0 +1,1951 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202206 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/awstats.premad.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2699                
+POS_VISITOR 37474               
+POS_DAY 54617               
+POS_DOMAIN 3648                
+POS_LOGIN 4350                
+POS_ROBOT 4505                
+POS_WORMS 5513                
+POS_EMAILSENDER 5644                
+POS_EMAILRECEIVER 5787                
+POS_SESSION 55497               
+POS_SIDER 55707               
+POS_FILETYPES 5922                
+POS_DOWNLOADS 6327                
+POS_OS 6409                
+POS_BROWSER 6718                
+POS_SCREENSIZE 9627                
+POS_UNKNOWNREFERER 9701                
+POS_UNKNOWNREFERERBROWSER 11538               
+POS_ORIGIN 12718               
+POS_SEREFERRALS 12866               
+POS_PAGEREFS 13064               
+POS_SEARCHWORDS 13502               
+POS_KEYWORDS 13654               
+POS_MISC 2363                
+POS_ERRORS 13713               
+POS_CLUSTER 4206                
+POS_SIDER_404 13937               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220701000002 188 32752 9718769094113
+FirstTime 20220601025635
+LastTime 20220630230458
+LastUpdate 20220701181622 188 0 187 0 0
+TotalVisits 655                 
+TotalUnique 387                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 457                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 4 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 138 337 6729734 672 792 693939
+1 78 133 2898096 593 704 563878
+2 207 330 4206120 610 722 619994
+3 391 464 2817466 595 640 381765
+4 207 723 17180348 1165 1318 2998353
+5 197 539 8472244 741 900 1669348
+6 255 853 14456455 1008 1186 6176183
+7 331 557 7329155 1143 1359 4424396
+8 322 580 8111152 808 1033 870431
+9 181 373 5145056 882 1013 409706
+10 305 741 11329451 772 939 684393
+11 335 607 9276669 707 864 1233772
+12 148 301 6995866 810 1061 4008437
+13 194 656 13025919 984 1078 739037
+14 129 322 4239655 633 699 393646
+15 61 89 2075785 637 737 1182562
+16 118 199 3873350 718 867 1601181
+17 93 180 2570635 659 726 329056
+18 183 250 4307049 627 759 510627
+19 117 121 1884422 775 827 1062174
+20 88 90 1273179 682 747 482938
+21 141 143 2151205 622 685 278666
+22 533 587 2306607 815 901 1203005
+23 55 64 1424889 591 693 517426
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 32
+in 1863 4177 59017457
+us 1745 3340 43301274
+ru 812 900 26213761
+jp 52 52 19297
+gb 52 52 1203338
+cn 46 91 1524645
+np 37 37 44931
+ca 31 31 951950
+de 30 30 928976
+au 14 14 427784
+sc 14 14 108624
+pk 13 108 2274057
+ar 11 57 1678797
+nl 9 9 221039
+kr 8 80 1180340
+se 8 8 70192
+cl 7 7 54312
+ua 7 7 84664
+my 6 51 1060239
+fr 5 5 171900
+br 5 47 1078318
+id 5 49 1096590
+bd 5 50 1051465
+il 4 4 18264
+gr 3 4 123529
+sg 3 3 35096
+ch 2 2 17548
+pl 2 2 716
+ir 2 2 17548
+ro 2 2 17548
+eu 2 2 17548
+at 2 2 68760
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+Wget/ 9674 52616 20220630235402 0
+bingbot/ 409 7367159 20220629083223 0
+Googlebot/ 314 4060304 20220630021931 0
+no_user_agent 116 3978172 20220630230632 0
+crawl 115 1558518 20220629141458 0
+YandexBot/ 77 815297 20220630104501 0
+Applebot/ 56 556644 20220630184916 0
+bingpreview 39 2176946 20220625165822 0
+YisouSpider 39 638594 20220624195411 0
+Dalvik/ 34 2057939 20220614062227 0
+bot[\s_+:,\.\;\/\\-] 32 227149 20220626220621 1
+baidu 22 249957 20220603131535 0
+DuckDuckGo\-Favicons\-Bot/ 8 105037 20220616201924 0
+curl 4 86308 20220607135857 0
+Apache\-HttpClient/ 4 0 20220628225247 0
+Googlebot\-Image/ 3 28855 20220626054620 0
+facebookexternalhit/ 3 60143 20220616101737 0
+YandexImages/ 2 11815 20220610114704 0
+MixrankBot 2 17548 20220610111113 0
+Baiduspider/ 2 17548 20220603131510 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 68760 20220601031111 0
+yandex 1 20389 20220614050021 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 17
+html 1227 24764001 0 0
+woff 59 1798048 0 0
+css 987 19426975 0 0
+gif 3 12534 0 0
+otf 40 2847080 0 0
+png 426 33126226 0 0
+cgi 44 220042 0 0
+js 1820 21214239 0 0
+alfa 8 4664 0 0
+Unknown 2118 1141779 0 0
+webp 4 198896 0 0
+php 1177 17722347 0 0
+jpg 524 11384040 0 0
+woff2 46 3277736 0 0
+map 74 147383 0 0
+ttf 10 2062328 0 0
+jpeg 672 4732189 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/ads.txt 7 0 0
+/app-ads.txt 7 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+winvista 2 2
+macosx11 154 112
+win8 2 2
+win8.1 155 113
+macosx7 2 2
+winxp 38 37
+macosx9 4 4
+macosx10 44 44
+ios_iphone 122 34
+Unknown 2837 2069
+win10 3683 1590
+win2000 2 2
+macosx8 2 2
+linuxandroid 932 339
+linux 534 141
+macosx 174 83
+win7 552 231
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 130
+chrome96.0.4664.104 12 3
+chrome50.0.2661.102 33 33
+firefox99.0 2 2
+chrome79.0.3945.130 42 42
+chrome80.0.3987.122 2 2
+chrome78.0.3904.70 55 5
+chrome83.0.4096.0 20 20
+chrome83.0.4093.3 67 67
+chrome83.0.4103.14 35 35
+chrome83.0.4102.0 38 38
+chrome29.0.1547.2 2 2
+chrome99.0.4844.84 6 6
+chrome102.0.5005.115 262 186
+chrome41.0.2227.0 1 1
+chrome83.0.4103.34 88 88
+firefox101.0 277 69
+chrome55.0.2883.87 4 3
+chrome90.0.4430.85 4 4
+firefox57.0 50 6
+chrome78.0.3904.108 97 97
+chrome81.0.4044.113 65 21
+chrome87.0.4280.88 51 7
+chrome94.0.4606.71 4 4
+chrome52.0.2743.116 22 22
+chrome79.0.3945.88 4 4
+opera69.0.3686.7 15 15
+chrome90.0.4430.93 7 7
+chrome83.0.4087.0 30 30
+firefox11.0 1 0
+chrome60.0.3112.107 38 38
+netscape 2 2
+chrome101.0.0.0 181 29
+chrome83.0.4103.44 20 20
+chrome83.0.4103.0 20 20
+chrome77.0.3835.0 39 4
+chrome88.0.4324.181 4 4
+chrome71.0.3578.98 1 1
+chrome95.0.4638.69 3 3
+safari5.0.3 4 4
+safari10.0 2 2
+chrome83.0.4103.24 50 50
+chrome87.0.4280.141 57 6
+chrome102.0.0.0 1399 340
+chrome80.0.3987.106 14 14
+firefox21.0 2 2
+chrome100.0.4896.88 2 2
+firefox89.0 4 4
+chrome83.0.4086.0 54 54
+chrome80.0.3987.149 19 19
+chrome91.0.4472.114 20 20
+firefox56.0 2 2
+chrome100.0.4896.127 365 45
+chrome80.0.3987.87 4 4
+chrome100.0.4896.75 48 4
+firefox58.0 5 5
+chrome58.0.3029.110 2 2
+chrome83.0.4089.0 5 5
+firefox40.1 2 2
+chrome103.0.0.0 57 12
+chrome88.0.4240.193 19 19
+chrome26.0.1410.65 2 2
+chrome79.0.3945.0 171 21
+chrome85.0.4183.83 59 8
+chrome102.0.5005.61 265 133
+firefox61.0 17 17
+firefox47.0 10 10
+chrome95.0.4638.54 4 4
+chrome83.0.4103.97 27 27
+firefox59.0 2 2
+firefox90.0 58 11
+chrome76.0.3809.100 4 4
+safari14.1.1 2 2
+chrome98.0.4758.80 8 8
+firefox53.0 6 6
+firefox52.0 94 52
+chrome102.0.5005.98 112 40
+chrome74.0.3729.169 50 50
+chrome60.0.3112.90 2 2
+chrome76.0.3809.132 2 2
+chrome88.0.4324.190 12 12
+chrome89.0.4389.114 5 5
+msie10.0 2 2
+chrome98.0.4758.102 2 2
+chrome66.0.3359.139 3 3
+chrome67.0.3396.87 10 10
+msie6.0 4 4
+chrome101.0.4951.64 106 54
+safari9.0 114 26
+firefox 6 6
+firefox62.0 5 5
+firefox28.0 4 4
+msie11.0 12 12
+chrome27.0.1453.93 2 2
+chrome51.0.2704.106 20 20
+safari14.0.3 2 2
+chrome100.0.4758.11 8 8
+chrome83.0.4099.2 24 24
+chrome66.0.3359.181 14 14
+chrome103.0.5060.53 56 10
+chrome83.0.4098.0 19 19
+chrome40.0.2214.93 2 2
+mozilla 112 66
+chrome81.0.4044.138 4 4
+chrome46.0.2490.80 1 1
+chrome53.0.2785.143 7 7
+chrome83.0.4103.61 263 263
+chrome83.0.4103.116 2 2
+chrome63.0.3239.0 72 2
+chrome102.0.5005.99 54 6
+chrome102.0.5005.78 140 59
+safari11.0 2 2
+msie9.0 70 4
+chrome94.0.4606.85 57 6
+chrome52.0.2777.85 7 7
+chrome51.0.2704.84 8 8
+chrome41.0.2227.1 2 2
+chrome41.0.2225.0 2 2
+firefox33.0 2 2
+chrome102.0.5005.63 303 49
+chrome83.0.4100.3 15 15
+chrome101.0.4951.67 81 28
+chrome76.0.3809.71 101 13
+chrome36.0.1985.125 4 4
+Unknown 2739 2017
+msie7.0 7 7
+chrome90.0.4400.8 4 4
+firefox100.0 103 13
+edge18 4 4
+safari 2 2
+chrome84.0.4147.105 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 30
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220628112918
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20220621224508
+PostmanRuntime/7.29.0 20220622084740
+\\\ 20220612134853
+PlayStore-Google 20220626145714
+Google-adstxt 20220626161637
+Python/3.8_aiohttp/3.7.4 20220620024712
+\ 20220620093643
+Python/3.9_aiohttp/3.8.1 20220619143839
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220630183716
+Mozilla 20220626033503
+WordPress/6.0;_https://www.premad.in/licence_app_web1/home_page 20220611163132
+okhttp/3.12.0 20220602073920
+Cpanel-HTTP-Client/1.0 20220630221843
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_(namespace:_domainValidationHttpClient)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20220630203219
+Mozilla/5.0_(compatible;_ThinkChaos/0.3.0;__In_the_test_phase,_if_the_ThinkChaos_brings_you_trouble,_please_add_disallow._Thank_you.) 20220612075016
+Mozilla/5.0_Firefox/33.0 20220618033529
+Mozilla/5.0_(compatible;_Yeti/1.1;__http://naver.me/spd) 20220627175841
+okhttp/3.10.0 20220618083808
+Dart/2.16_(dart:io) 20220614100734
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20220602002552
+tc-lib-file 20220614060301
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220603133928
+Pixalate.com/1.0 20220628081042
+Python/3.8_aiohttp/3.8.1 20220623072950
+Mozilla/5.0_(compatible;_ips-agent) 20220618070540
+Ruby 20220607081321
+Go-http-client/1.1 20220630223253
+got_(https://github.com/sindresorhus/got) 20220626083952
+okhttp/3.6.0 20220625044604
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 21
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_(namespace:_domainValidationHttpClient)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20220630203219
+WordPress/6.0;_https://www.premad.in/licence_app_web1/home_page 20220611163132
+okhttp/3.12.0 20220602073920
+Cpanel-HTTP-Client/1.0 20220630221843
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220628112918
+tc-lib-file 20220614060301
+okhttp/3.10.0 20220618083808
+Dart/2.16_(dart:io) 20220614100734
+PlayStore-Google 20220626145714
+Pixalate.com/1.0 20220628081042
+Python/3.8_aiohttp/3.8.1 20220623072950
+Ruby 20220607081321
+\ 20220620093643
+Google-adstxt 20220626161637
+Python/3.8_aiohttp/3.7.4 20220620024712
+PostmanRuntime/7.29.0 20220622084740
+\\\ 20220612134853
+got_(https://github.com/sindresorhus/got) 20220626083952
+okhttp/3.6.0 20220625044604
+Python/3.9_aiohttp/3.8.1 20220619143839
+Go-http-client/1.1 20220630223253
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3081 3959
+From1 40 40
+From2 24 24
+From3 41 41
+From4 1621 5175
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+bing 1 1
+in_search_yahoo_com 2 2
+www_google_com 21 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://103.21.58.155:80 20 20
+https://l.wl.co 6 6
+https://webtechsurvey.com/website/premad.in 6 6
+https://www.goodfirms.co/directory/services/list-blockchain-technology-companies 3 3
+http://www.ucban.xyz 2 2
+https://www.goodfirms.co/game-development-companies 2 2
+http://www.azuker.xyz 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+307 8 0
+404 6250 4997574
+301 1235 281432
+303 15 0
+400 14 8022
+500 283 3069733
+206 6 17846
+403 89 31862
+406 1845 416066
+409 328 27224
+302 133 28552
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 556
+/sites/default/files/alfacgiapi 20 www.bing.com
+/plugins/jquery-file-upload/server/php/ 2 -
+/wp-content/outcms.php 20 www.bing.com
+/wp-admin/install.php 1 -
+/web/assets/images/games/star-chef/CYO_BG.png 1 http://premad.in/web/
+/wp-content/uploads/alfacgiapi 20 www.bing.com
+/web/assets/images/games/india-story/99-logo.png 1 http://premad.in/web/
+/.well-known/xleet.php 4 www.google.com
+/foodango/foodango_privacy_policy.html 172 -
+/election/assets/css/nice-select.min.css.map 9 -
+/new_project/admin 6 -
+/test 4 www.google.com
+/forum 2 www.google.com
+/web/assets/css/bootstrap/bootstrap-reboot.min.css.map 2 -
+/wp-admin/user/xleet.php 1 www.google.com
+/bkp_site 2 www.google.com
+/web/assets/images/icons/dots_active.png 1 http://premad.in/web/
+/2010 2 www.google.com
+/wp-content/uploads/cgialfa 20 www.bing.com
+/.well-known/security.txt 2 -
+/web/assets/img/post-1@2x.jpg 1 http://premad.in/web/blog.php
+/wp-content/ 6 -
+/web/assets/images/games/star-chef/Applelogo.png 1 http://premad.in/web/
+/util/login.aspx 2 -
+/wp-admin/includes/xleet.php 2 www.google.com
+/wordpress/ 6 -
+/contact 24 -
+/web//xmlrpc.php 1 -
+//assets/image_a/logo.png 1 -
+/css.php 6 www.bing.com
+/api.services.php 8 -
+/wp-content/uploads/ALFA_DATA 20 www.bing.com
+/s_ne.php 20 www.bing.com
+/assets/test/bootstrap.css 3 -
+/wp-content/export.php 20 www.bing.com
+/BLOG 2 www.google.com
+/about 4 http://premad.in/about
+/2009 2 www.google.com
+/admin/controller/extension/extension/cgialfa 20 www.bing.com
+/portfolio/view/1 34 -
+/webfonts/fa-brands-400.woff2 82 http://premad.in/web/mix2.min.css
+//assets/img/favicon.png 1 -
+/web/assets/images/story-page/wrestling-with-premi.png 1 http://premad.in/web/
+/horde/login.php 4 -
+/sitemap.xml 4 -
+/web/assets/img/case-3@2x.jpg 3 -
+/Blog 2 www.google.com
+/backup/wp-admin/install.php 1 -
+/election/assets/js/vendor/swiper.min.js.map 9 -
+/amember/admin-users/ 4 -
+/2018 2 www.google.com
+/index.php/coins/markets 4 -
+/assets/img/favicon-48.png 1 -
+/3index.php 8 www.bing.com
+/old_phpinfo.php 2 -
+/horde-webmail/imp/login.php 2 -
+/assets/img/favicon-62.png 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 2 -
+/s_e.php 20 www.bing.com
+/wp-content/mu-plugins-old/index.php 8 www.bing.com
+/web/assets/images/story-page/hollywood-hiccup.png 1 http://premad.in/web/
+/web/assets/images/games/star-chef/Content-BG.png 1 http://premad.in/web/
+/portfolio/view/3 46 -
+/img/bottom-round.png 1 http://premad.in/web/
+/icons/sport.jpg 1 -
+/site/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/login.php 4 -
+/webfonts/fa-solid-900.ttf 160 http://premad.in/web/mix2.min.css
+/web/assets/images/games/india-story/left-arrow-black.png 1 http://premad.in/web/
+/webfonts/fa-regular-400.svg 1 http://premad.in/web/
+/wp-22.php 2 -
+/web/assets/images/games/star-chef/google_logo.png 1 http://premad.in/web/
+/wp-content/db-cache.php 20 www.bing.com
+/wp-admin/admin-ajax.php 1 www.google.com
+/backup-core 2 www.google.com
+/web/assets/img/author-3.jpg 1 -
+/radio.txt 2 -
+/2019 2 www.google.com
+/sites/default/files/cgialfa 20 www.bing.com
+/wp-content/xleet.php 4 www.google.com
+/site/wp-content/themes/sketch/404.php 4 www.google.com
+/assets/css/default/lineicons.min.css 13 http://premad.in/dc_jewellry/login-with-password.php
+/webfonts/fa-solid-900.woff2 81 http://premad.in/web/mix2.min.css
+/telescope/requests 4 -
+/app-ads.txt 368 -
+/inbexw.php 4 www.google.com
+/web/assets/images/home-page/awards/awards-background.png 1 http://premad.in/web/
+//vendor/phpunit/phpunit/phpunit.xsd 6 -
+/web/assets/img/author-2@2x.jpg 1 http://premad.in/web/blog.php
+/qindex.php 6 www.bing.com
+/radio.php 20 www.bing.com
+/gank.php.PhP 20 www.bing.com
+/site 4 www.google.com
+/web/assets/images/games/star-chef/GamesBG.png 1 http://premad.in/web/
+/wp-content/ALFA_DATA 20 www.bing.com
+/img/industries-serve-box-bg.png 1 http://premad.in/web/
+/election/assets/js/vendor/bootstrap.min.js.map 9 -
+/dc_jewellry/assets/uploads/product_20210623123400_60d2dce0eff0f_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/Old 2 www.google.com
+/web/assets/img/pageheader-blog@2x.jpg 1 http://premad.in/web/blog.php
+/wp-includes/xleet.php 4 www.google.com
+/web/assets/images/forms/selectDropdown.png 1 http://premad.in/web/
+/web/assets/images/games/india-story/right-arrow-white.png 1 http://premad.in/web/
+/web/js/lib 2 https://www.google.com/
+/dc_jewellry/assets/uploads/product_20210622034324_60d1b7c451397_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/xlet.php 2 -
+/test_404_page/ 4 -
+/plugins/system/debug/debug.xml 4 -
+/shell.php 20 www.bing.com
+/test/wp-admin/install.php 1 -
+/web/assets/images/games/star-chef2/sky.png 1 http://premad.in/web/
+/2013 2 www.google.com
+/dc_jewellry/assets/uploads/product_20210701121455_60dd6467e3bcc_compressed.jpg 6 http://premad.in/dc_jewellry/agent/index.php
+/contact.php 6 -
+/qfcvogoq.php 2 www.google.com
+/2014 2 www.google.com
+/webfonts/fa-regular-400.woff2 1 http://premad.in/web/
+/olux.php 20 www.bing.com
+/web/assets/css/bootstrap/bootstrap-grid.min.css.map 2 -
+/web/assets/images/radioButton/nonselected.png 1 http://premad.in/web/
+/.remote 2 https://www.google.com/
+/web/assets/images/games/remy/Remy_1440/set_01_bg_01.png 1 http://premad.in/web/
+/web/assets/img/author-1@2x.jpg 1 http://premad.in/web/blog.php
+/web/assets/images/games/india-story/right-arrow-black.png 1 http://premad.in/web/
+/assets/img/favicon-96.png 1 -
+/web/assets/images/games/star-chef/ever-changing-BG.png 1 http://premad.in/web/
+/.DS_Store 4 -
+/web/assets/css/owl.video.play.png 1 http://premad.in/web/
+/_ignition/execute-solution 2 -
+/index.html 2 -
+/dc_jewellry/assets/uploads/product_20210701121411_60dd643b9fd38_compressed.jpg 6 http://premad.in/dc_jewellry/agent/index.php
+/new/Telerik.Web.UI.WebResource.axd 4 -
+/web/js/lib/stats.js 137 http://premad.in/web/
+/wordpress 4 www.google.com
+/election/assets/js/vendor/popper.min.js.map 9 -
+/app-development.php 8 -
+/web/assets/jquery-file-upload/server/php/index.php 2 -
+/dc_jewellry/assets/uploads/product_20210622040621_60d1bd2525d26_compressed.JPG 18 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/mix2.min.css 1 http://premad.in/
+/wp-load.php 26 www.bing.com
+/.well-known/assetlinks.json 30 -
+/icons/poker.jpg 1 -
+/web/assets/img/author-2.jpg 1 -
+/apple-touch-icon.png 2 -
+/web-design.php 10 -
+/wp-includes/images/css.php 20 www.bing.com
+/blog.php 4 -
+/web/assets/images/games/star-chef/Play.png 1 http://premad.in/web/
+/web/assets/img/pageheader-portfolio.jpg 2 http://premad.in/web/portfolio.php
+/assets/css/animate.css 13 http://premad.in/dc_jewellry/login-with-password.php
+/wp-content/alfacgiapi 20 www.bing.com
+/portfolio/view/4 32 -
+/phpinfo 8 -
+/election/assets/img/image/image/kailash-chaudhary.jpg 11 http://premad.in/election/portfolio.php
+/web/assets/img/author-5.jpg 1 -
+/dc_jewellry/assets/uploads/product_20210701121230_60dd63d6e04b1_compressed.jpg 1 http://premad.in/dc_jewellry/agent/index.php
+/rwyooiox.php 2 www.google.com
+/web/assets/images/home-page/background-image/jobs-background.png 1 http://premad.in/web/
+/about.php 34 www.bing.com
+/a 4 -
+/admin/controller/extension/extension/ALFA_DATA 20 www.bing.com
+/login 2 http://premad.in/
+/portfolio 2 -
+/NEW 2 www.google.com
+/service/view/1 24 -
+/wp_wrong_datlib.php 20 www.bing.com
+/alfa.php 20 www.bing.com
+/x.php 20 www.bing.com
+/wp-includes/css/wp-config.php 20 www.bing.com
+/dc_jewellry/assets/uploads/product_20210701121541_60dd64959cd1d_compressed.JPG 12 http://premad.in/dc_jewellry/agent/index.php
+/2020 4 www.google.com
+/web/assets/images/icons/left-black-arrow.png 1 http://premad.in/web/
+/web/assets/fonts/montserrat/Montserrat-regular/Montserrat-Regular.ttf 220 http://premad.in/web/assets/test/styles.css
+/oldwebsite 2 www.google.com
+/Demo 4 www.google.com
+/.aws/ 2 -
+/web/assets/images/games/star-chef/Ever-Changing-BG2.png 1 http://premad.in/web/
+/web/assets/images/home-page/leadership/dots-inactive.png 1 http://premad.in/web/
+/wp-includes/css/css.php 20 www.bing.com
+/infos.php 2 -
+/wp-content/plugins/ubh/up.php 20 www.bing.com
+/ewkfstpn.php 2 www.google.com
+/old 4 www.google.com
+/wp-admin/style.php 10 www.bing.com
+/web/assets/images/games/remy/Remy_1440/set_03_bg.png 1 http://premad.in/web/
+/web/wp-includes/ID3/license.txt 8 -
+/icons/unity.jpg%090144943079 1 -
+/assets/css/style.css 2 -
+/robots.txt 590 -
+/GYM/Api/loginUser 1 -
+/admin/login.php 2 http://premad.in/
+/xmlrpc.php 2 -
+/wp-booking.php 20 www.bing.com
+/trending.php 10 -
+/web/assets/img/post-2@2x.jpg 1 http://premad.in/web/blog.php
+/dc_j 2 -
+/STORE 2 www.google.com
+/news/view/4 26 -
+/wso.php 20 www.bing.com
+/legion.php 20 www.bing.com
+/ups.php 20 www.bing.com
+/web/assets/images/games/star-chef/Mask.png 1 http://premad.in/web/
+//wordpress///wp-admin/setup-config.php 1 bing.com
+/php-info.php 2 -
+/web/assets/images/forum/fantasticchef_bg.png 1 http://premad.in/web/
+/digital-marketing.php 10 -
+/templates/beez3/alfacgiapi 20 www.bing.com
+/service/view/4 30 -
+/webfonts/fa-solid-900.woff 82 http://premad.in/web/mix2.min.css
+/blog/wp-admin/install.php 1 -
+/web/assets/images/icons/facebook.png 1 http://premad.in/web/
+/assets/test/animate.css 2 http://premad.in/
+/ggcnews/ggc_privacy.html 200 -
+/debug/default/view 4 -
+/googlea64404175cdef03f.html 2 -
+/old_core 2 www.google.com
+/config.php 20 www.bing.com
+/cms/wp-admin/install.php 1 -
+/wp-admin.php 3 www.bing.com
+/new_project/index.php/admin/ 2 -
+/credentials 2 -
+/ads.txt 146 -
+/shop 2 www.google.com
+/site/wp-content/plugins/wpyii2/wpyii2.php 2 -
+/assets/css/font-awesome.min.css 13 http://premad.in/dc_jewellry/login-with-password.php
+/web/assets/images/games/star-chef/Right-Arrow.png 1 http://premad.in/web/
+/templates/beez3/index.php 20 www.bing.com
+/web/assets/images/careers/career-image-header/img_CurrentOpenings.png 1 http://premad.in/web/
+/z.php 20 www.bing.com
+/web/assets/test/jquery.responsivegallery.js 1 -
+/wp-content/mu-plugins/db-safe-mode.php 20 www.bing.com
+/wp-admin/network/xleet.php 2 www.google.com
+/apps/assets/uploads/product_20210701121541_60dd64959cd1d_compressed.JPG 2 -
+/WP 4 www.google.com
+/cms 2 www.google.com
+/assets/css/font-awesome/css/font-awesome.css 2 http://premad.in/
+/web/js 2 https://www.google.com/
+/2017 2 www.google.com
+/123 2 www.google.com
+/assets/global/plugins/jquery-file-upload/server/php/ 2 -
+/New 2 www.google.com
+/old-site 2 www.google.com
+/xindex.php 6 www.bing.com
+/wp-content/themes/twentyfive/include.php 24 www.google.com
+/portfolio/view/%3Cdiv%20style= 24 -
+/web/debug/default/view 2 -
+/shells.php 20 www.bing.com
+/webfonts/fa-solid-900.svg 1 http://premad.in/web/
+/wp-content/plugins/dzs-zoomsounds/savepng.php 2 -
+/dc_jewellry/assets/uploads/product_20210701121335_60dd64178cfb2_compressed.JPG 2 http://premad.in/dc_jewellry/agent/index.php
+/assets/global/plugins/jQuery-File-Upload/server/php/ 2 -
+/jindex.php 2 -
+/images/computer-menu-img.png 1 http://premad.in/web/
+/.local 2 https://www.google.com/
+/WORDPRESS 4 www.google.com
+/dc_jewellry/assets/uploads/product_20210622040741_60d1bd75f1780_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/wp-content/plugins/wpyii2/wpyii2.php 2 -
+/backup 4 www.google.com
+/wordpress-old 2 www.google.com
+/web/assets/global/plugins/jquery-file-upload/server/php/index.php 2 -
+/web/assets/js/jquery.min.js%20 2 -
+/bkp2 2 www.google.com
+/service/view/3 32 -
+/config.json 4 -
+/.git/HEAD 4 -
+/old_files 4 www.google.com
+/export.php 20 www.bing.com
+/wp-admin/images/xleet.php 2 www.google.com
+/.production 2 https://www.google.com/
+/dc_jewellry/assets/uploads/product_20210624030745_60d4526946cfa_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/.git/config 8 -
+/old/wp-admin/install.php 1 -
+/magento_version 2 -
+/icons/3patti.jpg 1 -
+/dc_jewellry/assets/uploads/product_20210622040817_60d1bd9978576_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/src/environments/environment.ts 2 -
+/old-index.php 6 www.bing.com
+/wp-includes/wp-atom.php 20 www.bing.com
+/web/assets/image_a/city_3.jpg 5 -
+/magmi/conf/magmi.ini 4 -
+/DEMO 2 www.google.com
+////wp-admin/setup-config.php 1 bing.com
+/cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/bin/sh 2 -
+/wp-admin/meta/xleet.php 2 www.google.com
+/phpinfo.php 8 -
+/portfolio.php 8 -
+/wordpress/wp-admin/install.php 1 -
+/takeout.php 2 -
+///wp-admin/install.php 1 bing.com
+/webfonts/fa-regular-400.ttf 2 http://premad.in/web/
+/web/assets/images/radioButton/selected.png 1 http://premad.in/web/
+/portfolio/view/2 32 -
+/defau11.php 20 www.bing.com
+/web/assets/images/games/remy/Remy_1440/footer_art.png 1 http://premad.in/web/
+/wp-content/themes/sketch/404.php 20 www.google.com
+/assets/plugins/jquery-fileupload/server/php/ 2 -
+/category/3 8 -
+/assets/test/slick.css 2 -
+/service/view/6 28 -
+/2012 2 www.google.com
+/icons/unity.jpg%090463278155 1 -
+/SHOP 2 www.google.com
+/admin/controller/extension/extension/alfacgiapi 20 www.bing.com
+/web/assets/images/games/star-chef/Left-Arrow.png 1 http://premad.in/web/
+/hordewm/imp/login.php 2 -
+/web/assets/images/games/star-chef/BG_CapturingImaginatio.png 1 http://premad.in/web/
+/photo-gallery 2 http://premad.in/photo-gallery
+/wp-content/plugins/easy-wp-smtp/ 2 -
+/web/assets/images/forms/selectDropdownSimple.png 1 http://premad.in/web/
+/wikindex.php 10 www.bing.com
+/web/feed/ 9 -
+/web/assets/images/games/india-story/left-arrow-white.png 1 http://premad.in/web/
+/newsite 2 www.google.com
+/web/assets/img/case-2@2x.jpg 4 -
+/web-development.php 8 -
+/wordpress/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/templates/beez3/ALFA_DATA 20 www.bing.com
+/icons/ludo.jpg 1 -
+/store 2 www.google.com
+/assets/test/slick-theme.min.css.map 2 -
+/info.php 12 -
+/web/xmlrpc.php 1 -
+/horde3/imp/login.php 4 -
+/s/3130332e32312e35382e313535/_/ 4 -
+/assets/plugins/jquery-file-upload/server/php/ 2 -
+/humans.txt 6 -
+/web/webslidemenu.js 174 http://premad.in/web/contact.php
+/assets/img/favicon-32.png 2 -
+/xleet-shell.php 6 -
+/web/assets/images/logo_footer.png 1 http://premad.in/web/
+/moduless.php 20 www.bing.com
+/defau1t.php 20 www.bing.com
+/.well-known/alfacgiapi 20 www.bing.com
+/wp-includes/ALFA_DATA 20 www.bing.com
+/credentials/credentials 2 -
+/home 4 www.google.com
+/wp-admin/css/xleet.php 2 www.google.com
+/administrator/help/en-GB/toc.json 1 -
+/web/assets/images/story-page/Header_IMG.png 1 http://premad.in/web/
+/wp-login.php 1 -
+/web//wp-includes/ID3/license.txt 8 -
+/web/assets/images/games/remy/Remy_1440/set_02_bg_01.png 1 http://premad.in/web/
+/images/select_arrow.png 1 http://premad.in/web/
+/game.php 4 -
+/media-admin.php 20 www.bing.com
+/web/assets/images/showcase-page/showcase.png 1 http://premad.in/web/
+/index.php 28 www.bing.com
+/assets/css/font-awesome/css/font-awesome.min.css 1 http://premad.in/
+/tool/view/phpinfo.view.php 2 -
+/install.php 2 -
+/archives.php 20 www.bing.com
+/blog 6 www.google.com
+/magmi-importer/conf/magmi.ini 2 -
+/assets/img/favicon.png 2 -
+/wp-admin/alfacgiapi 10 www.bing.com
+/wp-signin.php 20 www.bing.com
+/.well-known/ALFA_DATA 20 www.bing.com
+/wp-includes/alfacgiapi 20 www.bing.com
+/s3cmd.ini 2 -
+/web/assets/images/games/remy/Remy_1440/set_03_art.png 1 http://premad.in/web/
+/web/assets/images/games/star-chef/GameBgMob.png 1 http://premad.in/web/
+/wp-includes/wp-class.php 20 www.bing.com
+/WordPress 4 www.google.com
+/web/assets/images/icons/select-dropdown.png 1 http://premad.in/web/
+/new 4 www.google.com
+/blog/ 4 -
+/web//feed/ 9 -
+/web/assets/img/case-1@2x.jpg 2 -
+/blog/wp-content/plugins/wpyii2/wpyii2.php 2 -
+/sites/default/files/ALFA_DATA 20 www.bing.com
+/login.aspx 2 http://premad.in/
+/\" 1 -
+/web/assets/images/games/star-chef/HeaderBG.png 1 http://premad.in/web/
+/lock360.php 6 www.bing.com
+/up.php 20 www.bing.com
+/assets/css/owl.carousel.min.css 13 http://premad.in/dc_jewellry/login-with-password.php
+/new_project//monster-html/css/icons/material-design-iconic-font/css/materialdesignicons.min.css.map 1 -
+/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/admin/assets/plugins/jquery-file-upload/server/php/ 2 -
+/wp-content/plugins/apikey/nocap.php 4 www.google.com
+/web/phpformbuilder/plugins/jQuery-File-Upload/server/php/index.php 2 -
+/web/assets/img/author-4.jpg 2 -
+/installer.php 4 -
+/.env.local 2 -
+/web/assets/images/games/india-story/map.png 1 http://premad.in/web/
+/web/assets/plugins/jquery-file-upload/server/php/index.php 2 -
+/horde-webmail-1.0/login.php 2 -
+/2016 2 www.google.com
+/wp-admin/css/ 14 binance.com
+/system_log.php 20 www.bing.com
+/new/wp-admin/install.php 1 -
+/web/assets/images/home-page/leadership/dots-active.png 1 http://premad.in/web/
+/bkp 2 www.google.com
+/web/js/ 2 https://www.google.com/
+/xleet.php 26 www.bing.com
+/_profiler/phpinfo 8 -
+/admin 4 -
+/web/assets/images/games/star-chef/iPhone.png 1 http://premad.in/web/
+/web/assets/images/games/star-chef/wave2.png 1 http://premad.in/web/
+/dc_jewellry/assets/uploads/product_20210622040935_60d1bde78186d_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/particles.js-master/demo/css/style.css 2 -
+/.env.production.local 2 -
+/debug/default/view.html 2 -
+/category/2 2 http://premad.in/category/2
+/language/en-GB/en-GB.xml 2 -
+/assets/jquery-file-upload/server/php/ 2 -
+/wp 4 www.google.com
+/ALFA_DATA 20 www.bing.com
+/config/aws.yml 2 -
+/apps/assets/uploads/image-not-available.jpg 1 -
+/web/assets/images/careers/career-image-header/img_LiveWork&Play.png 1 http://premad.in/web/
+/web/assets/test/bootstrap.css.map 2 -
+/environment.ts 2 -
+/election/assets/css/bootstrap.min.css.map 18 -
+/doc.php 20 www.bing.com
+/environments/environment.ts 2 -
+/wp-content/plugins/backup_index.php 20 www.bing.com
+/web/assets/images/checkbox/checked.png 1 http://premad.in/web/
+/site/wp-admin/install.php 1 -
+/wp/wp-admin/install.php 1 -
+/wp-includes 2 www.google.com
+/img/dotbg.png 1 http://premad.in/web/
+/400.shtml 4 -
+/.aws/config 2 -
+/portfolio/view/5 30 -
+/web/assets/js/swiper.min.js.map 2 -
+/sapi/debug/default/view 2 -
+/web/assets/images/icons/twitter.png 1 http://premad.in/web/
+/beence.php 20 www.bing.com
+/web/assets/images/games/remy/Remy_1440/header_art.png 1 http://premad.in/web/
+/wp-includes/ID3/license.txt 4 -
+/.msmtprc 2 -
+/web/assets/img/author-6.jpg 1 -
+/web/assets/images/careers/career-image-header/trekking.png 1 http://premad.in/web/
+/old.file 2 www.google.com
+/wp-admin/ALFA_DATA 10 www.bing.com
+/wp-includes/js/jquery/jquery-migrate.min.js 2 -
+/webfonts/fa-brands-400.woff 78 http://premad.in/web/mix2.min.css
+/a.php 20 www.bing.com
+/wp-content/cgialfa 20 www.bing.com
+/wp/ 4 -
+/administrator/language/en-GB/en-GB.xml 2 -
+/Premad 4 www.google.com
+/webfonts/fa-brands-400.svg 1 http://premad.in/web/
+/premad 4 www.google.com
+/web/assets/images/forum/starchef_bg.png 1 http://premad.in/web/
+/.well-known/cgialfa 20 www.bing.com
+/defaul1.php 4 www.google.com
+/web/assets/images/icons/medium.png 1 http://premad.in/web/
+/assets/test/styles.css 1 http://premad.in/
+/web/assets/images/story-page/brief-stumbles.png 1 http://premad.in/web/
+/service 6 -
+/election/assets/img/image/0x0.jpg 1 http://premad.in/election/portfolio.php
+/wp-content/uploads/xleet.php 4 www.google.com
+/login.action 4 -
+/phpdebugbar 2 -
+/blog/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/blogs 2 www.google.com
+/horde-webmail2/imp/login.php 2 -
+/xmlrpcs.php 6 www.bing.com
+/xmrlpc.php 6 www.bing.com
+/dc_jewellry/assets/uploads/product_20210622040451_60d1bccb01f30_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/img/banner-leftimg.png 1 http://premad.in/web/
+/error.php 20 www.bing.com
+/images/kitchen-menu-img.png 1 http://premad.in/web/
+/admin/.env 2 -
+/dc_jewellry/assets/uploads/product_20210623123953_60d2de41b2b18_compressed.JPG 18 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/alfacgiapi 20 www.bing.com
+/cgialfa 20 www.bing.com
+/wp/wp-content/themes/sketch/404.php 4 www.google.com
+/copy 2 www.google.com
+/webfonts/fa-brands-400.ttf 160 http://premad.in/web/mix2.min.css
+/web/assets/images/icons/right-black-arrow.png 1 http://premad.in/web/
+/blog/wp-content/themes/sketch/404.php 4 www.google.com
+/web/image/about-us-section.jpg 1 -
+/1.php 20 www.bing.com
+/webfonts/fa-regular-400.woff 1 http://premad.in/web/
+//wordpress//wp-admin/install.php 1 bing.com
+/infophp.php 2 -
+/test.php 20 www.bing.com
+/phpminiadmin.php 4 -
+/upload.php 20 www.bing.com
+/assets/plugins/jQuery-File-Upload/server/php/ 2 -
+/FORUM 2 www.google.com
+/vendor/phpunit/phpunit/phpunit.xsd 6 -
+/web/wp-admin/install.php 1 -
+/BACKUP 4 www.google.com
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 4 -
+/admin.php 6 -
+/web/assets/images/icons/arrow.png 1 http://premad.in/web/
+/config.js 1 -
+/style.php 24 www.bing.com
+/horde3/login.php 2 -
+/wordpress/wp-content/themes/twentyfive/include.php 4 www.google.com
+/web/assets/images/icons/dots_inactive.png 1 http://premad.in/web/
+/dc_jewellry/assets/uploads/20220330060854_62444f5e451cb.JPG 56 http://premad.in/dc_jewellry/inc/invoice/pdf.php
+/about.html 2 -
+/wp-plugins.php 20 www.bing.com
+/xl33t.php 4 www.google.com
+/new1 2 www.google.com
+/web/assets/images/icons/scroll-top.png 1 http://premad.in/web/
+/service/view/2 34 -
+/assets/admin/plugins/jquery-file-upload/server/php/ 2 -
+/e-commerce.php 6 -
+/admin/assets/plugins/jQuery-File-Upload/server/php/ 2 -
+/web/assets/images/careers/career-image-header/current-openings.png 1 http://premad.in/web/
+/web/assets/images/checkbox/unchecked.png 1 http://premad.in/web/
+/%22 1 -
+/.env.prod.local 2 -
+/dc_jewellry/assets/uploads/product_20210623123541_60d2dd458039b_compressed.jpg 9 http://premad.in/dc_jewellry/inc/invoice/invoice_show.php
+/2015 4 www.google.com
+/horde/imp/login.php 2 -
+/2index.php 2 -
+/sh3llx.php 2 -
+/web/assets/js/%25url%25 2 -
+/web/assets/img/author-1.jpg 1 -
+/wp-backup-sql-302.php 20 www.bing.com
+/linusadmin-phpinfo.php 2 -
+/.aws/credentials 4 -
+/apple-touch-icon-precomposed.png 2 -
+/frontend/web/debug/default/view 2 -
+/wp.php 20 www.bing.com
+/wordpress/wp-content/plugins/wpyii2/wpyii2.php 2 -
+/dashboard/phpinfo.php 2 -
+/web/assets/test/assets/img/arrow-right.png 2 http://premad.in/web/
+/wordpress/wp-content/themes/sketch/404.php 8 www.google.com
+/web/assets/test/assets/img/arrow-left.png 2 http://premad.in/web/
+/GYM/login 8 -
+/web/assets/images/story-page/breaking-the-icewit.png 1 http://premad.in/web/
+/admin/login 2 http://premad.in/
+/templates/beez3/cgialfa 20 www.bing.com
+/web/assets/img/case-6@2x.jpg 1 -
+/news/view/5 2 -
+/wp-content/uploads/typehub/custom/knnbpggk/.sp3ctra_XO.php 2 www.google.com
+/service/view/5 30 -
+/wp-admin/maint/xleet.php 2 www.google.com
+/Backup 4 www.google.com
+/blog/robots.txt 4 -
+/icons/unity.jpg 6 -
+/tljpoutp.php 2 www.google.com
+/.config 2 -
+/ecom/ 84 -
+/assets/test/slick-theme.min.css 3 -
+/.env.prod 2 -
+/oldsite/wp-admin/install.php 1 -
+/wp-includes/cgialfa 20 www.bing.com
+/1index.php 20 www.bing.com
+/web/assets/img/case-5@2x.jpg 3 -
+/wp-admin/cgialfa 10 www.bing.com
+/assets/css/bootstrap.min.css 13 http://premad.in/dc_jewellry/login-with-password.php
+/about-us.html 2 -
+/dc_jewellry/assets/uploads/product_20210701121113_60dd63899b66a_compressed.jpg 1 http://premad.in/dc_jewellry/agent/index.php
+/assets/test/jquery-responsiveGallery.css 2 http://premad.in/
+/web/assets/images/games/remy/Remy_1440/set_04_bg_01.png 1 http://premad.in/web/
+/demo 4 www.google.com
+/new_project/admin/ 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 457
+46.161.11.82 535 535 16156230 20220619192529
+103.21.58.155 473 478 98456 20220630221843
+157.38.223.196 356 356 26460 20220608033909
+157.38.94.211 342 342 26509 20220601083655
+46.161.11.244 212 212 6393732 20220625084658
+49.36.232.238 187 398 3311915 20220603120715
+49.36.237.139 157 409 2301710 20220601124013
+49.36.236.103 150 274 757413 20220602131341
+49.204.160.227 134 181 821276 20220615041611
+49.36.236.225 126 412 11544198 20220621135434
+157.38.77.138 125 169 121823 20220602024702
+49.36.236.74 109 185 2355482 20220615112946
+157.38.5.95 89 89 7832 20220603104013
+106.79.192.185 55 72 1255018 20220622191910
+34.140.219.57 52 94 419248 20220610144531
+160.251.81.68 50 50 1749 20220606210623
+49.36.237.50 43 47 56945 20220610115323
+49.36.238.19 39 61 916737 20220604121612
+120.89.97.134 37 37 44931 20220607080046
+54.177.166.204 33 33 125844 20220603050257
+69.160.160.50 31 81 1319654 20220625003028
+49.36.239.167 31 138 3267940 20220607105741
+157.38.128.172 28 81 1449261 20220601141032
+34.79.238.21 28 28 224008 20220619213805
+49.36.233.208 27 97 4454901 20220614100734
+125.209.235.185 0 1 21657 
+172.105.113.139 1 1 34380 20220606235354
+51.145.93.11 2 2 68760 20220619201101
+34.222.171.136 6 50 1105364 20220622022122
+110.93.150.50 0 4 59330 
+223.238.195.169 6 57 1159919 20220627135108
+139.59.124.78 3 3 103140 20220628151442
+198.74.58.30 2 2 17548 20220627105935
+125.209.235.178 0 2 3708 
+147.92.153.20 0 4 50552 
+49.44.86.10 4 48 1022302 20220629065902
+64.233.172.235 2 14 145920 20220629103453
+159.223.53.242 2 2 68760 20220630230458
+147.92.153.16 0 7 134531 
+104.160.11.181 7 7 54312 20220615000242
+20.40.52.227 3 3 103140 20220621223840
+114.111.32.163 0 4 101127 
+125.209.235.172 0 3 29190 
+147.92.153.10 0 3 2821 
+114.111.32.198 2 4 18692 20220623143951
+157.38.74.242 18 120 2503510 20220622005003
+88.80.186.250 4 4 54574 20220610143808
+118.179.64.97 5 50 1051465 20220619102836
+176.118.32.245 2 2 17548 20220607010328
+54.174.56.190 1 1 0 20220616203244
+35.162.125.152 3 3 103140 20220613113535
+27.150.192.247 2 2 8466 20220626011057
+211.249.46.206 0 1 8220 
+206.189.80.99 5 5 171900 20220609065644
+125.209.235.182 0 1 5741 
+174.138.26.80 3 3 103140 20220616132024
+147.92.153.19 2 6 35110 20220625040802
+40.77.167.26 0 3 29094 
+45.32.124.199 4 4 17548 20220614061837
+51.195.232.197 2 2 17548 20220606120626
+34.123.118.79 2 2 17548 20220603045956
+34.212.137.163 1 1 8774 20220611122526
+23.99.191.56 3 3 103140 20220605211254
+196.240.51.2 7 7 54312 20220625233058
+58.19.49.125 2 2 17548 20220601122203
+3.238.98.42 2 2 17548 20220601132419
+44.193.74.73 2 2 17548 20220604013039
+5.188.62.140 2 2 17548 20220617071423
+125.209.235.175 1 4 19878 20220609143928
+205.210.31.6 2 2 68760 20220611155330
+34.68.86.128 2 2 358 20220628081042
+49.36.235.38 4 4 35096 20220624044911
+3.145.60.145 2 2 174 20220621224508
+205.210.31.152 2 2 68760 20220606093509
+148.153.85.4 2 2 17548 20220629172302
+110.93.150.76 0 1 14401 
+3.236.213.247 2 2 358 20220614041852
+207.46.13.178 0 2 14920 
+49.36.238.214 2 2 158 20220607093501
+181.215.16.211 7 7 54312 20220624100504
+52.204.244.96 1 1 0 20220614041948
+34.204.205.113 2 2 358 20220614041911
+157.38.44.121 1 1 285 20220602041322
+34.228.82.247 2 2 358 20220614041844
+147.92.153.8 0 6 48883 
+42.48.78.210 2 2 17548 20220618013654
+38.18.33.84 2 2 17548 20220624011554
+184.94.240.88 4 4 137520 20220627105907
+3.101.60.185 4 39 656021 20220603050246
+49.36.233.87 7 59 1677867 20220624100944
+13.65.94.85 2 2 68760 20220616051402
+54.187.20.202 1 1 8774 20220607123350
+109.169.34.24 3 3 103140 20220621180959
+95.181.218.74 7 7 54312 20220601192137
+3.95.34.172 2 2 15224 20220626093557
+157.90.212.83 17 61 1201878 20220623003757
+94.66.136.195 3 4 123529 20220606082611
+171.113.200.178 6 51 1125753 20220606062557
+40.77.167.48 0 8 95794 
+111.85.200.79 2 2 17548 20220625022623
+162.142.125.8 2 2 17548 20220601202604
+157.55.39.105 0 2 58568 
+165.231.168.197 7 7 54312 20220611221514
+147.92.153.9 1 6 181808 20220618070200
+93.158.91.250 2 2 17548 20220617051447
+106.205.197.61 6 6 7321 20220605103515
+35.203.128.13 1 1 3262 20220614062203
+205.210.31.135 2 2 15224 20220626161759
+170.106.152.92 14 14 481320 20220614063236
+110.93.150.159 0 2 6325 
+52.226.210.206 2 2 17548 20220623182321
+172.105.113.156 2 2 68760 20220607022409
+1.39.206.123 9 55 1661249 20220603100634
+45.129.18.142 2 2 17548 20220615163551
+81.169.136.222 2 2 17548 20220605194047
+207.46.13.36 0 13 131680 
+23.106.22.69 3 3 21610 20220609003708
+157.38.193.5 2 2 8466 20220626163527
+185.181.60.12 4 4 35096 20220627114326
+34.140.241.128 13 57 1166782 20220620093643
+193.202.81.239 2 2 17548 20220603001036
+23.99.141.12 1 1 34380 20220614004840
+159.65.141.77 3 3 103140 20220603152235
+157.38.68.181 0 28 230870 
+35.88.26.77 2 2 17548 20220606122011
+157.38.224.68 0 6 0 
+185.107.80.193 3 3 82803 20220609181836
+183.82.118.137 10 10 73728 20220616103504
+151.106.120.184 4 4 137520 20220608033934
+54.190.81.60 2 2 17548 20220607122930
+157.55.39.222 0 1 12063 
+3.84.231.231 2 2 17548 20220606013051
+167.248.133.47 2 2 17548 20220610185936
+35.90.90.205 1 1 8774 20220629121243
+113.35.251.98 2 2 17548 20220619143839
+134.209.98.13 1 1 34380 20220603182631
+20.28.235.178 3 3 103140 20220614232030
+35.89.245.199 2 2 17548 20220605121006
+49.36.236.100 2 2 27158 20220608084340
+100.26.162.46 3 3 358 20220614041940
+114.111.32.54 0 1 20389 
+49.36.232.47 4 8 22959 20220618061351
+54.184.50.0 1 1 8774 20220629121251
+45.152.199.252 7 7 54312 20220608170618
+157.38.216.28 8 12 767 20220603023203
+20.248.182.85 4 4 137520 20220621083131
+205.210.31.134 2 2 68760 20220628022248
+141.95.91.126 2 2 17548 20220630102823
+159.223.39.104 2 2 68760 20220608062804
+110.93.150.37 0 2 28771 
+106.52.240.60 4 4 35096 20220612075016
+167.248.133.118 2 2 17548 20220630183716
+20.221.203.165 2 2 68760 20220614011347
+91.246.193.204 2 2 17548 20220627075430
+3.85.33.118 1 1 0 20220614042018
+49.36.234.180 2 3 9820 20220620054418
+154.51.131.142 6 6 52644 20220623064703
+135.181.217.158 2 2 8466 20220626083952
+167.172.78.67 2 2 68760 20220614155920
+46.161.11.4 3 3 103140 20220612132746
+72.14.199.129 2 2 8466 20220626145714
+147.92.153.14 0 6 42394 
+35.203.128.12 1 1 3268 20220614062145
+40.81.28.16 2 2 68760 20220615105338
+13.56.233.215 2 2 68760 20220603050238
+42.105.57.54 3 25 262504 20220611035332
+175.44.42.232 2 2 17548 20220602001012
+13.67.34.80 2 2 68760 20220621072819
+51.210.78.62 8 8 19696 20220620205927
+3.85.21.52 2 2 17548 20220608013059
+119.155.250.34 7 52 1134527 20220617095851
+20.242.21.134 6 6 71092 20220601090456
+157.38.133.143 11 58 1696090 20220628135305
+65.21.206.44 2 2 17548 20220619062112
+147.92.153.15 0 2 7157 
+34.214.103.251 1 1 8774 20220621121748
+147.92.153.7 4 9 216204 20220611040029
+106.206.169.162 6 57 1159919 20220604074526
+211.249.46.56 0 2 116207 
+114.111.32.157 2 2 17548 20220627175841
+20.70.15.25 2 2 68760 20220621145954
+52.90.97.170 7 57 1213818 20220614041823
+45.154.140.128 3 3 21576 20220620220929
+176.59.17.73 8 54 1652475 20220601161840
+34.216.77.240 2 2 17548 20220611122454
+85.10.204.252 18 18 618840 20220625214623
+157.55.39.78 0 4 35866 
+198.235.24.153 2 2 68760 20220605154442
+66.249.84.20 0 1 56089 
+85.202.169.169 2 2 716 20220602032716
+125.209.235.176 0 2 15334 
+88.99.136.18 4 4 34486 20220609104355
+49.36.237.174 14 62 1199290 20220613065920
+54.214.208.68 2 2 17548 20220618121213
+122.161.52.222 4 55 1142371 20220628055253
+3.80.57.230 2 2 17548 20220609013123
+18.218.117.42 4 4 23690 20220626033504
+223.188.85.162 6 6 7321 20220616120823
+159.69.87.226 2 2 8466 20220626150959
+159.223.94.19 1 1 34380 20220622195156
+167.94.138.62 2 2 17548 20220601101629
+20.238.49.209 3 3 103140 20220605093341
+54.218.70.7 2 2 17548 20220629120809
+106.206.133.9 12 12 14642 20220625044604
+54.159.239.193 2 2 17548 20220604030718
+125.209.235.186 0 1 826 
+159.223.59.111 5 5 171900 20220609090723
+205.210.31.146 2 2 68760 20220621102626
+128.14.188.197 2 2 17548 20220627125911
+94.158.36.183 1 1 34380 20220615114925
+139.59.104.121 2 2 68760 20220619092102
+49.36.234.251 7 58 1178299 20220609131255
+103.59.75.111 2 2 15224 20220626092827
+35.86.98.199 2 2 17548 20220630122444
+125.209.235.168 0 3 17944 
+92.223.85.112 2 2 68760 20220613122049
+147.92.153.5 4 6 58470 20220604060836
+183.87.43.172 6 51 1060239 20220621104921
+45.129.18.61 2 2 17548 20220618170700
+198.235.24.141 2 2 68760 20220620001541
+167.94.138.44 2 2 17548 20220601025635
+168.119.172.53 2 2 8466 20220626100753
+211.249.46.69 0 1 4597 
+52.43.135.77 2 2 17548 20220625123432
+125.209.235.183 0 1 6905 
+125.209.235.170 0 1 113736 
+157.55.39.195 0 4 23690 
+206.84.188.17 6 57 1159919 20220630065941
+147.92.153.6 1 3 352718 20220604060826
+167.172.82.199 3 3 103140 20220625204545
+165.22.52.19 3 3 103140 20220619151636
+35.212.239.193 2 2 17548 20220609190038
+182.68.185.174 10 85 1846397 20220625083122
+157.38.28.93 4 4 11962 20220624080611
+54.245.62.42 1 1 8774 20220605121347
+201.21.214.70 5 47 1078318 20220629065956
+35.203.128.8 1 1 3262 20220614062203
+135.148.32.55 7 57 1213818 20220630024302
+157.55.39.205 0 1 624 
+20.224.28.31 2 2 68760 20220615024704
+3.66.75.129 10 10 71150 20220611163131
+45.137.20.212 8 8 275040 20220630015135
+173.232.146.251 2 2 17548 20220608104330
+110.93.150.133 1 2 57769 20220623143952
+103.17.80.86 6 6 7321 20220621092216
+54.174.56.126 1 1 0 20220609203209
+180.151.229.74 14 116 2337386 20220603060738
+128.199.137.233 2 2 68760 20220607084320
+76.236.30.200 2 2 17548 20220612134853
+149.56.150.104 6 50 1039850 20220603133928
+139.162.53.87 2 2 68760 20220602061254
+52.140.52.60 6 6 71092 20220618185256
+20.213.121.85 3 3 103140 20220602001014
+64.246.165.190 2 2 17548 20220613161308
+1.39.192.67 4 4 54310 20220608045322
+103.14.127.196 4 48 1022302 20220629065903
+157.55.39.74 0 7 41161 
+193.142.58.22 2 2 68760 20220604180205
+138.128.118.130 6 6 48192 20220619170233
+185.158.104.84 3 3 21576 20220613151219
+110.50.80.68 5 49 1096590 20220629065956
+20.242.68.26 1 1 34380 20220623060345
+125.209.235.167 0 2 39870 
+34.221.158.66 7 51 1114138 20220615041117
+147.92.153.13 2 9 172133 20220618070159
+139.162.83.173 2 2 716 20220621224716
+92.205.27.204 2 2 17548 20220609131318
+157.38.79.128 0 12 12 
+20.28.179.64 2 2 17548 20220611152004
+159.223.40.119 1 1 34380 20220614211301
+124.220.171.131 2 2 17548 20220607145300
+45.129.18.97 2 2 17548 20220613162025
+52.59.117.121 2 2 174 20220621224507
+125.209.235.180 0 2 9079 
+125.209.235.173 0 2 2488 
+51.255.62.3 2 2 68760 20220624005326
+223.226.222.70 12 64 1721737 20220609114359
+192.46.227.139 2 2 68760 20220615190505
+147.92.153.1 2 7 44419 20220618070203
+34.216.32.147 2 2 17548 20220621121631
+66.249.79.92 2 2 8466 20220626161637
+3.123.227.159 6 51 1125753 20220602074455
+176.9.151.26 6 6 206280 20220625005254
+52.226.227.211 2 2 17548 20220601233050
+157.38.64.37 2 2 5930 20220623083035
+20.69.123.229 2 2 17548 20220625081129
+157.55.39.176 0 7 46264 
+117.26.88.224 2 2 8466 20220626181125
+103.253.147.252 2 2 716 20220607041726
+20.214.8.177 6 6 71092 20220622135746
+157.38.77.141 6 6 7321 20220604191940
+207.46.13.180 0 8 57207 
+125.209.235.171 0 1 47352 
+125.209.235.179 0 2 15414 
+72.14.199.117 2 2 106 20220602002552
+167.94.138.120 2 2 17548 20220629183610
+5.62.43.203 2 2 68760 20220622070736
+110.93.150.82 0 1 9603 
+162.222.179.246 2 2 358 20220627220318
+117.207.139.46 0 8 12 
+125.209.235.184 0 2 6131 
+3.239.158.141 2 2 17548 20220618185050
+207.46.13.83 0 3 21465 
+43.224.1.203 10 78 1867168 20220629105025
+188.165.87.102 2 2 68760 20220607083311
+35.238.1.97 2 2 17548 20220603045955
+94.24.228.10 5 47 1094026 20220629070014
+125.84.237.154 2 2 17548 20220606053544
+3.238.33.182 2 2 8466 20220627015813
+35.88.86.132 4 4 137520 20220627114151
+147.92.153.2 2 5 392245 20220625040810
+52.25.95.46 2 2 17548 20220624024322
+185.181.60.39 4 4 35096 20220625190920
+49.36.232.245 12 18 71974 20220606103112
+101.68.211.2 2 2 68760 20220603165721
+124.223.197.74 2 2 17548 20220627110553
+198.46.201.163 4 4 32736 20220613151213
+36.250.182.184 4 4 16932 20220626181045
+125.209.235.174 0 2 87666 
+157.38.115.56 3 59 759920 20220601160549
+49.204.161.66 24 25 225609 20220605195332
+49.35.182.51 6 57 1159919 20220601085353
+34.201.162.108 7 57 1213818 20220614041845
+35.89.124.247 3 3 103140 20220606113649
+110.93.150.145 0 1 19892 
+152.57.207.129 5 50 1051465 20220615054109
+20.227.165.238 2 2 68760 20220601042348
+20.83.152.152 1 1 34380 20220622163200
+139.59.98.117 9 9 255884 20220627014348
+62.20.171.206 2 2 17548 20220615193144
+69.164.220.109 2 2 17548 20220624032733
+49.36.232.131 4 4 35096 20220616073307
+3.231.158.113 1 1 0 20220614041829
+167.94.138.117 2 2 17548 20220601101621
+203.82.54.122 6 56 1139530 20220630065818
+125.209.235.181 0 4 100540 
+20.219.105.219 6 6 71092 20220609004920
+18.209.36.71 7 57 1213818 20220614041833
+157.45.50.63 19 75 2256045 20220628040925
+157.38.124.17 0 4 0 
+77.125.93.154 2 2 17548 20220619161605
+106.205.205.17 6 57 1159919 20220609132119
+223.188.174.213 5 56 1151145 20220609175409
+13.56.155.21 7 52 1134527 20220602051325
+188.165.87.96 1 1 34380 20220622073351
+125.78.216.216 2 2 8466 20220626215807
+165.22.111.186 1 1 34380 20220623035606
+118.101.246.21 6 51 1060239 20220627074653
+35.203.128.15 3 3 9786 20220614062203
+49.36.232.80 14 14 88036 20220622111440
+20.82.144.206 2 2 68760 20220615144024
+45.129.18.182 2 2 17548 20220614172719
+103.221.235.254 7 7 54312 20220608192658
+146.70.117.113 2 2 68760 20220604005637
+34.77.35.166 0 1 42595 
+116.202.193.26 2 2 716 20220603055954
+5.161.127.109 2 2 17548 20220610151801
+198.235.24.35 2 2 68760 20220628112918
+158.69.251.186 6 6 206280 20220619121723
+49.36.232.107 3 46 1036815 20220617091659
+64.78.149.164 2 2 174 20220621224508
+44.192.74.53 2 2 17548 20220617145151
+157.38.214.251 4 4 16932 20220626204840
+3.133.132.142 2 2 17548 20220611214730
+162.142.125.211 2 2 17548 20220601194542
+81.17.21.242 2 2 17548 20220623072950
+3.236.211.245 1 1 0 20220614042008
+128.199.95.117 6 6 206280 20220630133821
+49.36.236.38 16 67 1311953 20220602082800
+157.38.13.101 3 12 259138 20220616070212
+50.17.145.63 1 1 0 20220614041931
+147.92.153.11 0 4 47355 
+49.37.43.250 2 2 68760 20220606063918
+95.216.15.49 2 2 17548 20220621202518
+193.30.121.226 2 2 68760 20220619041206
+5.188.62.26 6 6 52644 20220629044344
+172.58.235.68 8 54 1652475 20220625052109
+211.249.46.97 0 2 3767 
+147.92.153.3 0 4 18791 
+110.93.150.118 0 2 2136 
+114.111.32.213 0 1 8495 
+142.93.254.70 3 3 103140 20220630152426
+147.92.153.4 0 3 17212 
+54.227.4.133 2 2 17548 20220611021119
+3.84.152.189 2 2 17548 20220603013031
+34.222.168.180 1 1 8774 20220630124412
+157.38.131.9 7 58 1234207 20220618015729
+49.204.160.229 26 50 490267 20220610025437
+17.58.63.196 2 2 17548 20220621130644
+157.55.39.154 0 2 7730 
+8.41.221.54 2 2 68760 20220618033529
+168.91.82.148 3 3 21610 20220619182912
+34.200.224.243 2 2 358 20220614041921
+147.92.153.17 2 9 203342 20220618070209
+112.111.162.15 2 2 8466 20220626045814
+59.173.181.223 2 2 17548 20220606012046
+161.35.44.7 1 1 0 20220603083715
+23.229.113.138 6 6 48192 20220629175132
+54.174.55.220 1 1 0 20220623203221
+198.235.24.154 2 2 68760 20220607041618
+40.122.173.72 2 2 68760 20220612144014
+207.46.13.96 0 1 2883 
+34.210.173.137 4 4 137520 20220620113444
+139.162.51.173 2 2 68760 20220624040759
+157.38.129.254 13 13 1768 20220601093319
+34.67.63.102 22 22 180674 20220607081327
+103.253.25.16 1 1 34380 20220618030634
+143.110.225.198 7 57 1213818 20220621042135
+198.74.58.118 2 2 17548 20220605170850
+114.111.32.188 0 3 11395 
+34.220.137.250 1 1 8774 20220625123506
+106.206.181.244 1 1 74 20220610131925
+54.153.113.210 2 2 17548 20220611144423
+157.38.15.198 0 2 0 
+165.22.45.9 2 2 17548 20220603121018
+114.111.32.154 0 1 20389 
+159.242.227.128 1 1 34380 20220622055746
+167.172.76.208 2 2 68760 20220603174125
+159.242.227.32 1 1 34380 20220621080144
+65.154.226.169 7 51 1114138 20220603030146
+110.93.150.178 0 3 87259 
+147.92.153.18 2 5 46352 20220604060826
+205.169.39.32 6 50 1039850 20220621224706
+64.233.172.233 0 18 649062 
+211.249.46.53 2 2 17548 20220609143926
+101.34.177.68 2 2 68760 20220615001230
+184.94.240.140 2 2 68760 20220604102642
+157.38.97.59 0 4 0 
+54.174.54.90 1 1 0 20220602203248
+64.233.172.237 4 18 310382 20220629103452
+54.174.54.96 1 1 0 20220630203219
+175.44.42.180 2 2 17548 20220615200821
+149.56.150.173 2 2 68760 20220603133859
+60.13.138.114 2 2 17548 20220629115949
+44.192.51.180 2 2 17548 20220605013021
+72.13.46.6 6 6 46018 20220618070540
+146.70.86.121 6 6 165606 20220614190107
+107.172.170.115 1 1 7594 20220609092315
+193.107.201.216 4 4 32736 20220609092306
+172.104.90.39 2 2 716 20220630223253
+176.74.192.85 2 2 17548 20220608234230
+52.36.72.129 1 1 8774 20220618121312
+46.161.11.83 16 16 468732 20220610022041
+34.219.1.92 2 2 174 20220621224508
+186.122.17.81 11 57 1678797 20220610185631
+87.117.225.135 2 2 68760 20220619204610
+3.87.237.19 2 2 17548 20220607013111
+130.255.166.97 2 2 17548 20220625110025
+46.161.11.6 1 1 34380 20220620022300
+114.111.32.127 0 2 3021 
+171.33.253.57 2 2 8466 20220626055608
+65.21.206.45 2 2 17548 20220609121952
+42.105.48.8 2 2 5732 20220623043644
+35.203.128.14 6 6 7321 20220614061604
+205.210.31.15 2 2 68760 20220611060936
+147.92.153.12 0 6 53491 
+2.56.57.178 2 2 716 20220606020533
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20220601 629 1152 8007307 29
+20220602 320 613 4857524 17
+20220603 412 905 11137594 31
+20220604 84 212 3432980 15
+20220605 68 69 802396 14
+20220606 165 306 5162736 32
+20220607 176 200 2736189 27
+20220608 425 430 1816629 23
+20220609 121 371 7494509 29
+20220610 178 298 3376657 15
+20220611 107 181 3232733 27
+20220612 68 99 1684122 14
+20220613 96 106 2009964 21
+20220614 275 503 10257136 42
+20220615 211 398 6588566 27
+20220616 84 93 1726331 17
+20220617 82 170 3709765 18
+20220618 98 202 3839289 25
+20220619 124 179 3394431 24
+20220620 93 139 2831840 17
+20220621 240 665 16671527 31
+20220622 163 326 6511588 23
+20220623 103 183 3349201 25
+20220624 72 124 2756888 16
+20220625 119 290 5825325 21
+20220626 40 40 196352 18
+20220627 54 150 2625558 15
+20220628 61 215 5405308 9
+20220629 79 407 8544430 19
+20220630 60 213 4095632 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 13
+1h+ 8
+0s-30s 592
+30s-2mn 19
+2mn-5mn 6
+30mn-1h 6
+5mn-15mn 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 392
+/web/ 1076 23282748 473 270
+/chitfund_api/Api/CustomerRegister 649 47956 7 7
+/web/contact.php 551 13813283 10 183
+/chitfund_api/Api/otpVerify 292 24903 3 4
+/chitfund_api/Api/CustomerLogin 211 18902 2 2
+/dc_jewellry/inc/invoice/pdf.php 168 891684 7 8
+/chitfund_api/Api/createOtp 145 13183 7 7
+/web/assets/test/slick-theme.min.css.map 73 33215 4 7
+/web/assets/fonts/feather.woff 58 1711000 1 6
+/dc_jewellry/inc/ajax/cart_management.php 52 1092 0 1
+/election/portfolio.php 44 240706 0 1
+/cgi-sys/suspendedpage.cgi 44 220042 20 20
+/new_project/ 42 102408 5 4
+/web/assets/fonts/fa-brands-400.woff2 34 2525792 2 18
+/web/web-design.php 32 235414 1 4
+/dc_jewellry/agent/auto_slab_prod.php 30 132450 0 0
+/web/index.php 27 228124 0 0
+/cab/admin/Dashboard 26 213554 4 1
+/chitfund_api/Api/updateMembers 26 2625 1 2
+/ecom/siteSetting 26 16952 0 1
+/ecom/getBanners 26 1898 8 0
+/web/about.php 25 164472 0 0
+/cgi-sys/404.html 25 11425 16 0
+/dc_jewellry/agent/index.php 24 380106 0 0
+/chitfund_api/Api/getMembersDetails 23 17065 2 2
+/.well-known/acme-challenge/YPZ5Q5TPG6RDI7V86P9WJ-R6DG2PAQFM 2 128 0 0
+/Wp 1 0 0 0
+/.well-known/acme-challenge/XBM4EJZDW6S1-MSSLNXZS3THI3NGSWN4 2 128 0 0
+/web/app-development.php 19 134280 2 1
+/.well-known/acme-challenge/45O3F69G1N6S1X1R5WSE0XXMTW2B8L5V 2 128 0 0
+/.well-known/acme-challenge/Z2RJ6_E2EL98G91QC07XTS8L_OZZ-Y_A 2 128 1 0
+/.well-known/acme-challenge/DSUV23_TEOPOMOTBJE_I7H3PNPC5WATD 2 128 0 0
+/.well-known/acme-challenge/OMPWQM1PUGNUMRP2-6W1EDNP-2W74EBV 2 128 1 0
+/.well-known/acme-challenge/J2VGWRSXKWQI5O1-UKZMZXK1FIX8KISZ 2 128 0 0
+/cab/assests/admin/plugins/icomoon/fonts/icomoon7c04.ttf 8 1685312 0 0
+/.well-known/acme-challenge/9NAAT74D6GXNF_BI1RXCV2-PB2WOO8M4 2 128 0 0
+/.well-known/acme-challenge/9QHT96-JJADIQBZIPHCUNZA7OG22-BBQ 2 128 0 1
+/.well-known/acme-challenge/QJS5J61SKB033UAMJH0S7AH_AG3YTLVX 2 128 0 1
+/.well-known/acme-challenge/TT32K1C7K324HKH2EA18UD8ULELQWC-4 2 128 0 0
+/.well-known/acme-challenge/T6677_YUCPUNJD0L2T_4I234US55HXXS 2 128 0 0
+/.well-known/acme-challenge/6K8XI68ANK-OK_BX9W-333P4UYE0HHLP 2 128 0 0
+/.well-known/acme-challenge/Z56ZNRQVL3CEZBYU4QSW-TWZK-PZCUG7 2 128 0 0
+/dc_jewellry/public/store.php 2 108 0 0
+/.well-known/acme-challenge/8KXOR6M17_Z3VBF73C2X2XPBJC2ANFK_ 2 128 0 0
+/.well-known/acme-challenge/PPFUTUU_SWNBV_HF999K0MP-B9GXGSKO 2 128 0 1
+/.well-known/acme-challenge/I03IBRUJ8AY-XWTUB55GLA6SIPCL1RN0 2 128 0 0
+/web/assets/fonts/fa-brands-400.woff 1 87048 0 1
+/.well-known/acme-challenge/CS9CY36KENH-ZXVFFXIS3KODRR2J-45U 2 128 0 0
+/.well-known/acme-challenge/6AJ0UO291L3A5-UODATJULLPO1PTFIKD 2 128 0 0
+/.well-known/acme-challenge/XL-811Z51MPVLJ987L_X7LHJXA16TZ7L 2 128 0 0
+/.well-known/acme-challenge/_7ZPVSDLG5IAVNIIM9DE2A3LIIWA7A5L 2 128 0 0
+/.well-known/acme-challenge/0M7PSSRMRUNJHXUUPS17GCFH7M0TSO18 2 128 0 0
+/chitfund_api/Api/getProfile 14 1773 1 0
+/chitfund_api/Api/UserCurrentAuction 5 1225 1 1
+/.well-known/acme-challenge/F4ZJUK_GQWKOPM1OR-RV66XYJZGXXQXO 2 128 0 0
+/.well-known/acme-challenge/G26E79AHBDWX4QQW93ELMN0E1-W2LUA1 2 128 0 0
+/new_project/index.php/Dashboard/ 20 49924 0 0
+/.well-known/acme-challenge/3ME7HL427PLJI6VHIA39BXXIBRHJ0N43 2 128 1 0
+/_profiler 1 358 0 0
+/Test 1 0 0 0
+/.well-known/acme-challenge/Z7L04TB_S18X0CX6W4FCSTRXL2TRWWZP 2 128 0 0
+/.well-known/acme-challenge/5GFNT8XPOBRRDFWNW8SIUWO6VZ2_073O 2 128 0 1
+/.well-known/acme-challenge/O2QD-5EZW1K1GWGJGFJEV9O8HH-YDY03 2 128 0 0
+/chitfund_api/Api/getPlansAvailableForAuction 2 1194 1 2
+/.well-known/acme-challenge/WEG3_E72RK9FKZECLO56TU0GPTHWXQMU 2 128 0 1
+/.well-known/acme-challenge/BALKRQU4IZZ234QRQ54IYU2EZ60DZDMD 2 128 0 0
+/demo 1 0 0 0
+/.well-known/acme-challenge/L3M53FGVCVD-9NOFWYU7--L-8QNRYPPC 2 128 0 0
+/.well-known/acme-challenge/6-GZZXPMUQEFOOJLPMZ_C02X1W0RSULF 2 128 0 0
+/www 1 0 0 0
+/dc_jewellry/assets/uploads/20200910012945_5f59dcf12e299.webp 2 94660 0 0
+/dc_jewellry/inc/login_check.php 2 580 0 0
+/Backup 1 0 0 0
+/.well-known/acme-challenge/UU7BM-940BWQNSWYMUCWQWX_U97RY1CC 2 128 0 0
+/.well-known/acme-challenge/GCZWJ_SMV84AVQL3ZDX-ZYHN9QTWD80S 2 128 0 0
+/.well-known/acme-challenge/95-XZ1MFA2NRPE72L_GYCOOU7O_2DIKK 2 128 0 0
+/.well-known/acme-challenge/SXVUZDXF_8XUP1JSOF-SR0MYYH8LSIS5 2 128 0 0
+/.well-known/acme-challenge/TI4_L8S_FOW2PR9UQU1SK7N23JU4N-1D 2 128 0 0
+/.well-known/acme-challenge/5HROYMKZXM11CYZQR3W7S9FSKJNMN10E 2 128 0 0
+/.well-known/acme-challenge/BXW2E19733HJKAOFPV3R_-QAJ115WTQ9 2 128 1 0
+/bk 1 0 0 0
+/chitfund_api/Api/getbidsforauction 2 974 0 0
+/.well-known/acme-challenge/7XHRYO0JDM6TWCZCXP2KK5B-D753-4_6 2 128 0 0
+/.well-known/acme-challenge/VV7CTYNEUDLXNQFL3TRQO_CW1XXON616 2 128 0 0
+/.well-known/acme-challenge/0EAU1XRKZW-S6C_S-WX3J-9WUDD2OIWC 2 128 0 0
+/.well-known/acme-challenge/5_O5AFV2CU1WHTJREK7W6LG3WSYKWZJ0 2 128 0 1
+/.well-known/acme-challenge/PDQ-LUE-85LSRY-JEM3VJ_HX8DDZIZCM 2 128 0 0
+/cgi-sys/403.html 2 716 0 2
+/.well-known/acme-challenge/D9VQANHJ2A0JF_XMSDMU_OHJ5VL3CE5I 2 128 0 0
+/.well-known/acme-challenge/N31UUN6P563Z58AFISMLC5G2UNT5MS3E 2 128 1 0
+/.well-known/acme-challenge/DYLQDM38DY-GIJ9WLGBS6I373Y5TY1TP 2 128 0 1
+/.well-known/acme-challenge/TCARVPDN_PAX_WQ7O099_HLUJ6LX75TV 2 128 1 0
+/.well-known/acme-challenge/Y9_8MN2BR_RFFNL1YN845U8WFPSS-1JS 2 128 0 0
+/.well-known/acme-challenge/Q1A7G7R-UABU4T9MW76JKAW9ZP3_K8XE 2 128 0 1
+/.well-known/acme-challenge/NX41KN48T8QBE66GIS94ER9MZT4QV7B3 2 128 0 0
+/.well-known/acme-challenge/Q9I3QPOPLOUS5NQW8F8M-TQ8FF_HX4EC 2 128 0 0
+/cab/admin/Driver/driverListing 12 67818 0 1
+/.well-known/acme-challenge/PH1R6D47E12YGLKVLUDL8TUET7V8GWS8 2 128 0 0
+/e-commerce.php 1 0 0 1
+/.well-known/acme-challenge/-WXW9_TV2U7B4Y6CF2PTB9EIK49LTSHA 2 128 0 0
+/web/blog.php 18 152442 0 4
+/.well-known/acme-challenge/65_G-9WR6DE2K-BR31ICJYSCKU-KZ9R4 2 128 0 0
+/.well-known/acme-challenge/B030U5GYFFVTODGEZT1TWWR5T4675HU0 2 128 0 1
+/.well-known/acme-challenge/EIMFUOFD_LEY-P3G4YFXUQ6U-CY31957 2 128 0 0
+/cab/admin/Driver/addressDetail/4 3 17948 0 0
+/.well-known/acme-challenge/9B6AY7GZTJ26ORYI_9IS6Y2G-32N0Y20 2 128 0 0
+/election/assets/fonts/CircularStd-Medium.otf 10 741160 0 0
+/.well-known/acme-challenge/_B0XG2Z7IU85URACM0Q5M_HHB3XKP1M2 2 128 0 0
+/.well-known/acme-challenge/FW3SXG4N9WX7ONDI58PF8C-N9267F2EO 2 128 0 0
+/BACKUP 1 0 0 0
+/.well-known/acme-challenge/IBHP__OKAX73TRTYGHTZ6Q0ITHHO_J3J 2 128 0 0
+/blog 1 0 0 0
+/wp-old 1 0 0 0
+/.well-known/acme-challenge/2_3P9T703JJJUNSNR5G8ELJ8F_NBTZD9 2 128 0 0
+/Www 1 0 0 0
+/.well-known/acme-challenge/AO_73LLT3AL7VWNR_BZ9GM3N15GXZUT8 2 128 0 0
+/.well-known/acme-challenge/9LXR-N2GQXL8X_6D6-3F5LF6SZZ13B-K 2 128 0 1
+/.well-known/acme-challenge/YJ3AWM2MFXVPI2CA53CBTPTWV-KFUW59 2 128 1 0
+/.well-known/acme-challenge/I0L0JUF03U4Z0T81_H1Q0N2KM357_O1X 2 128 0 0
+/web/api.services.php 10 73820 0 1
+/.well-known/acme-challenge/4O_Y5EL9S-ZZ4S2APXXUKPUVHZFIZIFE 2 128 0 0
+/TEST 1 0 0 0
+/.well-known/acme-challenge/FS8KM5F2JQP2GXQOXIYLQQJ-MV16UGZM 2 128 0 0
+/index.php 1 0 1 1
+/election/assets/fonts/Flaticon.html 12 127056 0 0
+/.well-known/acme-challenge/AIT_4YUB-4YWJB99O28KWMM52JNET_02 2 128 1 0
+/.well-known/acme-challenge/517AKI27ALWY_H_U897K-GPR48K8RLSK 2 128 0 0
+/.well-known/acme-challenge/Y8BJ966IDF4EP6TT--CZXY1T3NK1W_NT 2 128 0 1
+/google9d0f42f6d3bbff9a.html 2 106 1 1
+/.well-known/acme-challenge/0DTAL39SG50GVB8W5O_P7GX0DZP5LS32 2 128 0 1
+/.well-known/acme-challenge/HIKROUFEXLG6UYI8EZGDH0_PHIS4BNXG 2 128 0 0
+/dc_jewellry/logout.php 4 348 0 0
+/.well-known/acme-challenge/XGL2-KH5VGTQYAAN2UVG-GIO87KL-HFE 2 128 0 0
+/.well-known/acme-challenge/INIZH9B16TX7K_1QAKUU2SW0EI3LSK4U 2 128 0 0
+/.well-known/acme-challenge/B0WK1_E6FCKQ2XA5C8QQGR6QWQB_LK_G 2 128 0 0
+/.well-known/acme-challenge/9O3PLS-BQ5GAGKDFU3_1UDAAGOCYFX8H 2 128 0 0
+/.well-known/acme-challenge/Y5IUCQF-19IT3E10-ZIJXRSSO02-XEUL 2 128 0 0
+/.well-known/acme-challenge/8CECM2EW9BZX5_I2-YUYNE-LHW2V9L-P 2 128 0 0
+/web/web-development.php 17 120640 1 1
+/ALFA_DATA/alfacgiapi/perl.alfa 4 2332 0 0
+/.well-known/acme-challenge/SC773DHUM0SVF7LS0R6MFRXK92EHZG4I 2 128 0 0
+/.well-known/acme-challenge/ODXU0G-D9ESQSVTBN-NP02IWV0UQA96X 2 128 0 0
+/.well-known/acme-challenge/WXBIVXI0CH49VPCR5QV62CQ6Z_L99JLZ 2 128 0 0
+/server-status 2 716 2 0
+/web-development.php 1 0 0 1
+/.well-known/acme-challenge/69JKGMBGS2PC8TZ2H11N9FCNKMD3NNKP 2 128 1 0
+/.well-known/acme-challenge/Y_5PR2U6K9JBBVG29RKNDJSUW7BSJPDW 2 128 0 0
+/.well-known/acme-challenge/OQNCNYW-R3I47A_ZWEGPQD2XQG5DT5NK 2 128 0 0
+/cab/admin/Driver/add/3 8 80460 0 2
+/.well-known/acme-challenge/2WQ1AE0I2K0DFDIGYBT9FLKO7_BWNFC8 2 128 0 0
+/ecom/allCategories 13 17862 0 0
+/SHOP 1 0 0 0
+/.well-known/acme-challenge/PFU3KJGOVGNVNKKJPR9E1A3M3-XJ3U5F 2 128 0 0
+/.well-known/acme-challenge/BSRZD877NZT1ITV86A3K9-8CJ-NVLYV_ 2 128 1 0
+/.well-known/acme-challenge/LM7RQXK429IHY0B4GNDSSXKXG05YN0BO 2 128 0 0
+/.well-known/acme-challenge/42RXPL2--6GW7BCON4ZZKFYYSXCOIM_B 2 128 0 0
+/.well-known/acme-challenge/1I20U0XETW41Y_WU5YEV4-46E_HXD-VH 2 128 0 0
+/dc_jewellry/agent/orders.php 10 105338 0 0
+/.well-known/acme-challenge/5AD4R18024GB4GB8A7_65KI1Z1RVHN12 2 128 0 0
+/.well-known/acme-challenge/-I5I8FL80FK946KRT6HFUM908DUII83Z 2 128 0 0
+/.well-known/acme-challenge/ERFA_VM_2-7CB2FYT-EHUGV832-YL70K 2 128 0 1
+/ecom/getAllPages 12 53964 0 7
+/web/game.php 14 156562 0 1
+/.well-known/acme-challenge/BI8S2SG50VB_H_II_I04YA78U56AE63L 2 128 0 1
+/.well-known/acme-challenge/6R5GP_RXLHA7LW7B210HOWGUDUTZCHH_ 2 128 0 0
+/cab/admin/CabCategory/add 10 49910 0 0
+/wp 1 0 0 0
+/.well-known/acme-challenge/U9MJSIY7WI9NIMO7VGYBV2-BN5YP2JII 2 128 0 0
+/OLD 1 0 0 0
+/dc_jewellry/agent/settings.php 2 25594 0 0
+/dc_jewellry/assets/uploads/20200910012945_5f59dcf12fa7b.webp 2 104236 0 0
+/.well-known/acme-challenge/ZMP1_BRUQT4ZRSD3XTVKYIL8V9WQ7BU- 2 128 0 0
+/.well-known/acme-challenge/9LA6PX64GKXS8SDYJ8T8QQI-B815WO4H 2 128 0 1
+/.well-known/acme-challenge/CJ6QFE7NCYT1NZM4_CY-5LGNJKB4UQRU 2 128 0 0
+/election/assets/fonts/fontawesome-webfont3e6e.html 10 772072 0 0
+/.well-known/acme-challenge/VB5PRB-DLLOOLZW-S_XKG9KRRW7V4HZW 2 128 0 0
+/.well-known/acme-challenge/JC0LGBUKI_UPQGPJN1C4I302KDU1Y6J0 2 128 0 0
+/cab/assests/admin/css/fontawesome-webfont.woff2 2 133248 0 0
+/.well-known/acme-challenge/5RDNM2C43P8K56LU72IN0O_W3WVJ2IFW 2 128 0 0
+/.well-known/acme-challenge/_SB17941IBBJFFHM8DQ-BK0AZZ51SOAS 2 128 1 0
+/webmail/login.php 2 27250 0 1
+/.well-known/acme-challenge/9HTR-PT3V4RP9FX9CYS54L9ABCC3AZHX 2 128 0 0
+/.well-known/acme-challenge/-DZMZT9LDBGRQUEZU7J1550STZ0LWURM 2 128 0 0
+/sito 1 0 0 0
+/.well-known/acme-challenge/UDPEV5PNFSCHI2QKZPW5V_F0NC1SOIQV 2 128 0 0
+/.well-known/acme-challenge/VH90D0EDT06RRR0XGD2EZ-G7-GBEAHB1 2 128 0 0
+/.well-known/acme-challenge/08VBS1CNF3GAEWFUZDPSRAL68Q5VEP2A 2 128 0 0
+/.well-known/acme-challenge/JXJNSLOL1-V12A-DFHWQ__R7NVOCV5ND 2 128 0 0
+/licence_app_web1/home_page/ 10 71150 5 5
+/cpanel 16 217244 6 6
+/web/portfolio.php 16 114480 0 1
+/.well-known/acme-challenge/1B42VCS1U9EI2LG649N8NCJKXZ4CAI_U 2 128 0 0
+/.well-known/acme-challenge/V7B53IWGN7GYJY6M_1Q1SY7T96782UGV 2 128 0 0
+/.well-known/acme-challenge/960_9Y0_S5S4FOHY8T0JCEHZ5UR1L_A1 2 128 1 0
+/new 1 0 0 0
+/WordPress 1 0 0 0
+/.well-known/acme-challenge/BZSYW6S_I8XAN8G5K11W7LBKSKV-2_VS 2 128 1 0
+/.well-known/acme-challenge/BLFP_97HALXJXR0EXOF8XYPLKHB5NKZQ 2 128 0 0
+/ggcnews/ggc_privacy.html 1 0 0 1
+/.well-known/acme-challenge/MZERI7X5TC7FJZ02W1K2YQZMMGGQ2Q3- 2 128 0 0
+/.well-known/acme-challenge/FOYBFGNL3Y24I4ZSGO8_BXNULCZ5-VGR 2 128 0 1
+/.well-known/acme-challenge/GL9A19A5F8NO7PFLGLNB-ENG2L49VYVH 2 128 1 0
+/cab/admin/CabFarCalculated/add 14 85036 1 2
+/Wordpress 1 0 0 0
+/.well-known/acme-challenge/_KJ54BNN1SGFH5GWLQG5ERAN21WGL9B6 2 128 0 0
+/digital-marketing.php 1 0 1 1
+/.well-known/acme-challenge/I2-STBKLYHC5_QX23VBDA7JI75N5Z-I4 2 128 0 1
+/.well-known/acme-challenge/KZ9Q8ZG12JZZ19-UNR_I9Q0UE8AKA6ED 2 128 0 0
+/.well-known/acme-challenge/4A4ELAFYX6GJFUOH498F9446UT9RXN26 2 128 0 0
+/.well-known/acme-challenge/-7DSER02TYV3THD99DPXDOJ_S63USZR9 2 128 0 0
+/.well-known/acme-challenge/9P3MPX93929E02SU4UCC57NXH9FVPUHI 2 128 0 0
+/.well-known/acme-challenge/Z9NT00A5ODC9YBNVXHD5-U8ICALPO0XM 2 128 0 0
+/trending.php 1 0 0 1
+/.well-known/acme-challenge/H7MFFW-1YRFSSM-DXKU-VHH3MDL7E0BE 2 128 0 1
+/.well-known/acme-challenge/3HC9UH6DSV_3MXAF2R6DUJU0VIEO3LXY 2 128 0 0
+/.well-known/acme-challenge/G0Y37D-3S8C513W59CHIBNE-GHF0M2EX 2 128 0 0
+/chitfund_api/Api/saveBidByAgent 2 1250 0 0
+/.well-known/acme-challenge/V2IX8TM72ADFM82L9M_H9CM2BMY5D82T 2 128 0 1
+/app_dev.php/_profiler 1 358 0 0
+/.well-known/acme-challenge/YNPWMRW53_1UPBU-QOXG0QSB2T9N7GNW 2 128 0 0
+/.well-known/acme-challenge/WB9IMI93WGJWMY5EMU--GQ-LA8GO3-1Q 2 128 0 1
+/.well-known/acme-challenge/M_N7I_G968T70GAYR8GTNFXO4P9YTRIX 2 128 0 1
+/.well-known/acme-challenge/92O0T9PVFRFNVTD9TDJJIDUVNVJ0P23A 2 128 0 0
+/old 1 0 0 0
+/.well-known/acme-challenge/H2U1_5Q0SA64N44BJO-ONNDXY6GKWA_V 2 128 1 0
+/election/assets/fonts/CircularStd-BookItalic.otf 10 672840 0 0
+/election/assets/fonts/CircularStd-Bold.otf 10 743680 0 0
+/.well-known/acme-challenge/ABJBU1SP20M702P6WVB5ISHDIH_52_8I 2 128 0 0
+/.well-known/acme-challenge/HMOJ-IX07AYOUY-WHSNLXMPR2HJ40PXX 2 128 0 0
+/.well-known/acme-challenge/U08Q4VZN4Y65_VFYI9BVU1D8DPYGZ629 2 128 0 0
+/.well-known/acme-challenge/JQI1UG5U574_E0JLMTNKM3VH_VBG2SEZ 2 128 0 0
+/2020 1 0 0 0
+/.well-known/acme-challenge/4QWR5MGAPK9WGNUCOOV84786U551BT1P 2 128 0 0
+/.well-known/acme-challenge/ACHCNQ294RJ-22D3EQTX_4B04_9VV59W 2 128 0 0
+/.well-known/acme-challenge/8LVMX-S4Q-DISSQXILPTOEA8SHNAUM0T 2 128 0 0
+/NEW 1 0 0 0
+/.well-known/acme-challenge/YTP836C4KJEICB5OIGBHYKDRL2YQV8KA 2 128 0 0
+/about.php 1 0 0 1
+/.well-known/acme-challenge/F7FYQ6RGBCHNO3WU5RNNF70R5F0OHU7K 2 128 0 0
+/2021 1 0 0 0
+/.well-known/acme-challenge/2561T--JMZUTJ8S_II33JX_VR5V30O3E 2 128 0 0
+/.well-known/acme-challenge/H0NQPCFCAM868LQKJCN2UQ3ZDE1P85FY 2 128 0 0
+/.well-known/acme-challenge/PZTC-0IY_EJZF1NXLDE8OQF9NJPEYQ8I 2 128 0 0
+/bc 1 0 0 0
+/web-design.php 1 0 1 1
+/.well-known/acme-challenge/0OF95G88FDOVDIF0LNS5HZCHL2D75SP1 2 128 0 0
+/.well-known/acme-challenge/2DBILCVNQC1YM772RAIBBWLH647KGQ2I 2 128 1 0
+/new_project/assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js.map 1 114168 0 1
+/.well-known/acme-challenge/ZT8PKB5B6ZYZC8UCWGM7LGADVXVV4I_U 2 128 0 0
+/.well-known/acme-challenge/VPHP2REGI4OYEME1QKQ6VUTIKDPDD6RP 2 128 0 0
+/Shop 1 0 0 0
+/chitfund_api/Api/getPlans 2 1194 0 0
+/.well-known/acme-challenge/UC4R75G9IGDHOVCS2Z5WJJ0Q396PW7V4 2 128 1 0
+/.well-known/acme-challenge/TC3U_CIZ5I6RGBIYYQXXWV166EPRN_SR 2 128 0 0
+/.well-known/acme-challenge/F-OXBPV5NZ3EVUBQOG_NSN3-4SZ1AQGW 2 128 0 0
+/.well-known/acme-challenge/35Z2KNTNWWWZ81H6WW3RV_TPRLPFXS9L 2 128 1 0
+/.well-known/acme-challenge/PCMEZTR6Z1G9I0EFB0RA14N0CBDCXUHM 2 128 1 0
+/.well-known/acme-challenge/50U97OLYC8PIR8FL_0YWNE_61G2V-H2H 2 128 0 0
+/.well-known/acme-challenge/72KB8FG-Y08BSZ3ZQ96XFSH2DCK34CMO 2 128 0 0
+/.well-known/acme-challenge/G74JID-IEPTIEEB6J44U2IRQAJIS5J-A 2 128 1 0
+/dc_jewellry/assets/fonts/LineIcons.woff2 6 310056 0 3
+/oldsite 1 0 0 0
+/cab/admin/Driver/add/4 2 17262 0 0
+/backup 1 0 0 0
+/WORDPRESS 1 0 0 0
+/SITE 1 0 0 0
+/.well-known/acme-challenge/5WYL9T09N2ZA8QUZEBN6EBLT29DN7NHI 2 128 0 1
+/.well-known/acme-challenge/8BTUBM_ON5R7KROG2E63OT_DIIEJF7GW 2 128 0 0
+/.well-known/acme-challenge/1U3_W0OV__5V_KMWSRITGWNN3Y3-EZAV 2 128 0 0
+/dc_jewellry/inc/invoice/invoice_show.php 8 27344 1 0
+/old-site 1 0 0 0
+/New 1 0 0 0
+/.well-known/acme-challenge/D5IBRZM0Q161OU_0ZKDR819BWMWUEPE9 2 128 0 0
+/.well-known/acme-challenge/P-Z3JFXWJPV3BL00KB_LDQ8NVRRYVBE1 2 128 1 0
+/WP 1 0 0 0
+/.well-known/acme-challenge/LB3-M19MI6ZPES9V1S35B4KUEHIVIGES 2 128 0 0
+/dc_jewellry/assets/fonts/fontawesome-webfont3e6e.woff2 4 308640 0 0
+/.well-known/acme-challenge/X8GAFU7AVYYSQIQI5MH4J2QB40DCKHG9 2 128 0 0
+/.well-known/acme-challenge/K2L826-U0TTLC0841AS35RE0MUGYDQIN 2 128 1 0
+/dc_jewellry/login.php 12 35278 3 0
+/election/index.php 2 38048 0 0
+/.well-known/acme-challenge/VCT55SLLF_3TGV5O9X7OW6M05G8J89TN 2 128 0 0
+/.well-known/acme-challenge/HST-IDMWZNR36MBQ7FBG9VA03E-GZU1L 2 128 0 0
+/cab/admin/Driver/add 4 23724 0 0
+/.well-known/acme-challenge/750TJOQOQJHFXYLZYW72U7LNXPIBK-JX 2 128 1 0
+/.well-known/acme-challenge/UEX68_G4TIT0OGYC-QIUB_OXLM7KGQI- 2 128 0 0
+/shop 1 0 0 0
+/licence_app_web1/home_page/wp-cron.php 7 0 4 5
+/.well-known/acme-challenge/YCKFXBLQN21NTWGRQVR2604GWOZ3Z9_E 2 128 0 0
+/.well-known/acme-challenge/_5BQ0MHIQ-3J6QGBLSKRCF306-WK4BEK 2 128 0 0
+/cab/admin/Login 14 22250 1 1
+/cab/admin/CabFarCalculated/CabFarCalculatedListing 6 32724 0 0
+/.well-known/acme-challenge/CXJ0JYMXCRU7XHLXGBIJEJ0VRLW6ECM- 2 128 0 0
+/.well-known/acme-challenge/0IO61FZZRB5R_2M8MWM4_FP87LNHH5Y6 2 128 0 0
+/webmail/horde/imp/login.php 2 27324 1 0
+/.well-known/acme-challenge/LR-U2T1R2ZXBXN2VIWOG4JG50SIA2C-M 2 128 0 0
+/.well-known/acme-challenge/B9QH6V8OPLXJYUGB86OK153Z8D8C129J 2 128 0 0
+/.well-known/acme-challenge/K6BEQDX4LW1E0NB6CAGNU6RN-YT6SG9Z 2 128 0 0
+/debug/default/view 1 358 0 0
+/.well-known/acme-challenge/BVNMQOUXX7E0O_F6CYCU21RXEVPG-3HS 2 128 0 0
+/WWW 1 0 0 0
+/.well-known/acme-challenge/KAUDW8FSPQ4PR7ZLSR8MM_SA03WMVT_I 2 128 0 0
+/bac 1 0 0 0
+/.well-known/acme-challenge/CN1AC922UZJ_TFUEXCZ4_RSKZ1I4K3X5 2 128 0 0
+/.well-known/acme-challenge/U-WRFGFN6YAG8H9C0P18KY5GTC_VLXDY 2 128 0 0
+/cab/admin/CabCategory/categoryListing 6 31968 0 0
+/.well-known/acme-challenge/OSTQXT1YTZH10YXNO4TU4XHFP7NQI3C0 2 128 0 0
+/.well-known/acme-challenge/9LLTA-J-P3GQTYS76JHDU3HKNVBS4QZD 2 128 0 0
+/.well-known/acme-challenge/2MVR1Q_IMGGHI3LH7F66PJTI_WS4MQI7 2 128 0 0
+/.well-known/acme-challenge/P763BSMW-MIKH83D_MJ__A19LD8IV9C_ 2 128 0 0
+/chitfund_api/Api/getprofile 3 311 1 0
+/.well-known/acme-challenge/WXBL-_0JHHE-2-I2C334--86_9VF6Z25 2 128 0 0
+/.well-known/acme-challenge/R5HDX30K_B2JDCPJ_2RNIQ7_S67LPKPP 2 128 0 1
+/.well-known/acme-challenge/STLER_0JZTZWHU-N5U-DGJPGDB0FGDQ0 2 128 0 0
+/main 1 0 0 0
+/web/e-commerce.php 12 89496 0 0
+/2018 1 0 0 0
+/.well-known/acme-challenge/_N_HXTFG781V6E7D5VS8BFC0H2JG-AB- 2 128 0 0
+/.well-known/acme-challenge/HFZ7F8CGNU56914KXHF-DYTJ3LW1U3LZ 2 128 0 0
+/.well-known/acme-challenge/RD8C6O_9M5X96H9B5PDED32EZRB3W1P8 2 128 0 1
+/.well-known/acme-challenge/5CT-G1OE6YNRFCZVL6GXK8GGNL6AVG51 2 128 0 0
+/.well-known/acme-challenge/L0W-T_M0-USA3Q1RL_4E0Y9ZFW_XQSW6 2 128 0 1
+/wp-plain.php 4 1432 0 4
+/Blog 1 0 0 1
+/.well-known/acme-challenge/LQJ26OKIRQ5C32SAGN9OYJVFS0ZV_5EH 2 128 0 0
+/.well-known/acme-challenge/HWXATTVU7VPO9G5X3TMGWQZ-9RHMN2IN 2 128 0 0
+/.well-known/acme-challenge/9G4XTGSEF7R428H86I6G2BX89LNOH08N 2 128 0 0
+/.well-known/acme-challenge/S1CFVNXQZB23OESH-QF5D6EN6ZB9O4B4 2 128 1 0
+/BLOG 1 0 0 0
+/api.services.php 1 0 0 0
+/chitfund_api/Api/conformPassword 4 352 1 0
+/.well-known/acme-challenge/8U67CKNB69ULTE563FZC38YC81L4H0C1 2 128 0 0
+/.well-known/acme-challenge/E944_B0FADIZ69F1LZMNJY25371B_91J 2 128 0 1
+/.well-known/acme-challenge/MIX5MKVW5VKOEPU22JYFSSKOA6QYIACT 2 128 0 0
+/.well-known/acme-challenge/4D0HAAHOEUNFX757RY7IO8VQ_SOMBC1E 2 128 0 0
+/.well-known/acme-challenge/AK12LQY4BTV6OZ6VHVW7N-UTHHOC-0V0 2 128 1 0
+/.well-known/acme-challenge/HNW_ZHM0XQQVPD1PREBMBLSTK-0-EQ4G 2 128 0 0
+/.well-known/acme-challenge/A6GAW_3MGJQ_MW5-M3GX-ISS8I3TK-47 2 128 0 0
+/.well-known/acme-challenge/5POF151CMLCQID5D6L4IA2RZXE-N42IK 2 128 0 0
+/.well-known/acme-challenge/IO8ATYJC-C2PCSC5SKOIT5HGX2T83V90 2 128 0 0
+/bak 1 0 0 0
+/.well-known/acme-challenge/JSHBU65BIZQQGSJX-C3BBM0XB1_92RFG 2 128 0 0
+/.well-known/acme-challenge/G1HE3ZS0W4YWLNF-KLAPD6N8R67BI1V0 2 128 1 0
+/web/assets/fonts/ionicons.ttf 2 377016 0 0
+/sitio 1 0 0 0
+/.well-known/acme-challenge/FL4U6GZJK8KBRX71MA6LSYDEJKSZFY-5 2 128 0 0
+/alfacgiapi/perl.alfa 4 2332 0 0
+/election/ 18 340800 1 0
+/web/trending.php 8 59480 0 0
+/test 1 0 0 0
+/.well-known/acme-challenge/BGEBH1Y2FRD3ZEH985DQBVQLV60CC3C8 2 128 1 0
+/.well-known/acme-challenge/EXHXUFMBJ75K7KLH3C0YHMAA1CSNV_ER 2 128 0 0
+/foodango/foodango_privacy_policy.html 1 0 0 1
+/chitfund_api/Api/AddKyc 1 70 0 0
+/app-development.php 1 0 0 1
+/chitfund_api/Api/getuserchit 4 808 1 1
+/.well-known/acme-challenge/-31UNAYD-E42LGON8FLOR39DCSY74IAC 2 128 0 0
+/wordpress 1 0 0 0
+/.well-known/acme-challenge/OL1D_NDY1DZ2FZ9G5-LLO1624X1N1U-X 2 128 0 0
+/.well-known/acme-challenge/A8DNoFKV1_75IwYTg0vc4fj8ti7GZA06WKbOYBkQNXM 8 696 4 4
+/.well-known/acme-challenge/0WZ5MYSW-9ERUOAZU291K8N01V1DB7HM 2 128 0 0
+/.well-known/acme-challenge/GYI5QCQ76IPADQMYTJAPKVT09YILLK-B 2 128 0 0
+/contact.php 1 0 1 1
+/dc_jewellry/ 8 5596 2 0
+/.well-known/acme-challenge/JEW04D2L84NYUXU8B3DIJE8TMSGE8H3O 2 128 0 0
+/chitfund_api/Api/signIn 2 158 1 1
+/.well-known/acme-challenge/_BSJ4OKI0NTW-HSJKW22JQBOYA9NVT-7 2 128 0 0
+/.well-known/acme-challenge/8ORO_-2JAC8_C1APXP-HDP180ZLIQE5F 2 128 0 0
+/.well-known/acme-challenge/8B5KIKH8VJ8DP4DJDGZ3BI5OPOJ5CPA9 2 128 0 1
+/.well-known/acme-challenge/X3GC3ZXATV_21RAVY8KPI2EKC1XZZU2_ 2 128 0 0
+/Site 1 0 0 0
+/.well-known/acme-challenge/TPF1I00OXWIIDOEZ6OLGWNRGAMC84068 2 128 0 0
+/Old 1 0 0 0
+/.well-known/acme-challenge/C68K9F7BUQ2OBF78FC01S6L-EMRUD0UK 2 128 0 0
+/dc_jewellry/login-with-password.php 14 41132 3 2
+/.well-known/acme-challenge/PRQC9CNO5RUPDABAY3F351M0XSITAHUF 2 128 1 0
+/.well-known/acme-challenge/E7VPX8_7SN43SI131DOE9B7DJTQ4WWRY 2 128 0 1
+/web/digital-marketing.php 13 104820 0 0
+/dev 2 0 0 1
+/election/assets/fonts/CircularStd-Book.otf 10 689400 0 0
+/.well-known/acme-challenge/GIYXR6HXKBBBM4EVN6RLCO4JO0KICAPO 2 128 0 0
+/.well-known/acme-challenge/O7SBKXQ_NI9QJQ097RXX31T104ZO6DI9 2 128 0 0
+/.well-known/acme-challenge/A1KV1GARZL-T3SFBSN5ZF2G2CHUK3_XQ 2 128 0 0
+/site 1 0 0 0
+/dc_jewellry/agent/orders-customers.php 16 299220 0 0
+/.well-known/acme-challenge/NAM-56H8HK5UCNRF26H0C9QFQC_PZPXB 2 128 0 0
+/.well-known/acme-challenge/WDD3FL8IDC3TMSC24YB68DNQ653OWE45 2 128 0 0
+/ecom/getAllProducts 8 25080 4 4
+/2019 1 0 0 0
+/.well-known/acme-challenge/86E_XQ-339ER-QF111_LN_E1L5Z8NTEC 2 128 0 0
+/.well-known/acme-challenge/QJZD5OX9GLU1AGQF_V8G0BK4MDJWNG2L 2 128 1 0
+/.well-known/acme-challenge/QIJ_OVM38LAM7PY5J0H-8YFU6QB1FX34 2 128 0 0
+END_SIDER

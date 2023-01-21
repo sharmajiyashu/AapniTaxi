@@ -1,0 +1,1275 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201912 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.dr.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2690                
+POS_VISITOR 27136               
+POS_DAY 30889               
+POS_DOMAIN 3452                
+POS_LOGIN 3951                
+POS_ROBOT 4106                
+POS_WORMS 4655                
+POS_EMAILSENDER 4786                
+POS_EMAILRECEIVER 4929                
+POS_SESSION 31606               
+POS_SIDER 31785               
+POS_FILETYPES 5064                
+POS_DOWNLOADS 5252                
+POS_OS 5300                
+POS_BROWSER 5553                
+POS_SCREENSIZE 6715                
+POS_UNKNOWNREFERER 6789                
+POS_UNKNOWNREFERERBROWSER 7114                
+POS_ORIGIN 7257                
+POS_SEREFERRALS 7394                
+POS_PAGEREFS 7579                
+POS_SEARCHWORDS 7764                
+POS_KEYWORDS 7916                
+POS_MISC 2354                
+POS_ERRORS 7975                
+POS_CLUSTER 3807                
+POS_SIDER_404 8091                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200101003514 26 4580 7932309825400
+FirstTime 20191201023351
+LastTime 20191231195532
+LastUpdate 20200101041659 26 0 25 0 0
+TotalVisits 117                 
+TotalUnique 91                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 96                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 9 408806 20 48 98609
+1 11 11 147643 23 41 53985
+2 8 8 109057 10 66 332641
+3 10 10 122459 21 39 585804
+4 9 42 1506138 476 518 39935
+5 11 32 1215850 15 58 64787
+6 8 8 164506 36 47 70688
+7 2 22 793198 7 55 89909
+8 5 5 107437 27 60 176089
+9 8 8 92864 40 57 58380
+10 6 6 132621 10 24 45042
+11 4 4 70755 171 217 246911
+12 12 72 2257840 52 97 62760
+13 8 8 164506 49 134 562179
+14 6 6 95655 13 33 71780
+15 20 20 390275 132 152 172035
+16 5 5 82253 20 34 110562
+17 2 2 31885 12 25 27933
+18 3 3 57069 42 47 50814
+19 9 9 128805 124 143 51405
+20 1 1 25184 4 28 78347
+21 4 4 82253 34 50 47952
+22 8 8 136531 29 55 95134
+23 5 5 125920 47 47 42994
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 21
+us 71 99 2225514
+ru 28 28 501839
+gb 25 58 1846648
+ca 8 8 134525
+au 6 6 40206
+in 5 60 2412442
+jp 5 5 33505
+no 3 3 75552
+il 3 3 75552
+it 2 2 50368
+sa 2 22 793198
+id 2 2 13402
+lv 2 2 50368
+pt 2 2 50368
+ro 2 2 50368
+fr 1 1 25184
+cl 1 1 6701
+de 1 1 25184
+sc 1 1 6701
+md 1 1 25184
+se 1 1 6701
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Googlebot/ 92 881736 20191229223553 0
+bingbot/ 34 431364 20191231031705 0
+Googlebot\-Image/ 17 263238 20191211131958 0
+msnbot/ 13 692269 20191208031815 0
+bot[\s_+:,\.\;\/\\-] 8 182989 20191231154300 0
+YandexBot/ 2 13402 20191216064908 0
+no_user_agent 2 31885 20191213184730 0
+Python\-urllib/ 2 0 20191217120739 0
+KomodiaBot/ 1 25184 20191210143135 0
+Baiduspider/ 1 6701 20191211163702 0
+curl 1 6701 20191217230438 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+png 56 863472 0 0
+woff2 5 359480 0 0
+html 163 2880269 0 0
+css 17 572759 0 0
+js 40 435980 0 0
+jpg 23 3337550 0 0
+php 4 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+macosx8 1 1
+winxp 4 4
+macosx12 1 1
+win7 88 33
+ios_iphone 26 6
+macosx9 1 1
+linuxandroid 1 1
+linux 16 16
+win8 4 4
+win2003 4 2
+Unknown 51 18
+macosx11 1 1
+win10 99 73
+win8.1 6 6
+macosx10 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 55
+chrome55.0.2883.87 1 1
+opera53.0.2907.99 2 2
+Unknown 8 8
+chrome56.0.2925.37 1 1
+opera54.0.2952.51 1 1
+chrome67.0.3396.62 3 3
+msie7.0 4 2
+msie9.0 1 1
+chrome39.0.2171.95 1 1
+chrome67.0.3396.87 7 7
+firefox15.0.1 1 1
+firefox54.0 1 1
+chrome68.0.3440.106 35 9
+chrome45.0.2454.101 3 3
+firefox50.0 4 4
+chrome74.0.3729.169 2 2
+chrome32.0.1700.102 1 1
+chrome31.0.1650.57 2 2
+safari12.1 22 2
+chrome76.0.3809.132 17 17
+chrome65.0.3325.146 1 1
+chrome79.0.3945.79 59 4
+netscape5.0 1 1
+firefox26.0 1 1
+chrome68.0.3440.84 2 2
+chrome33.0.1750.146 1 1
+chrome46.0.2490.80 1 1
+chrome77.0.3865.90 4 4
+firefox57.0 1 1
+chrome63.0.3239.132 21 21
+chrome41.0.2228.0 1 1
+firefox28.0 10 10
+edge18 1 1
+firefox59.0 1 1
+chrome42.0.2311.90 3 3
+firefox51.0 1 1
+chrome65.0.3325.181 1 1
+edge16 1 1
+chrome45.0.2454.94 1 1
+chrome67.0.3396.99 4 4
+chrome26.0.1410.65 1 1
+opera36.0.2130.32 2 2
+opera53.0.2907.68 3 3
+opera54.0.2952.71 4 4
+safari5.1 4 4
+chrome67.0.3396.79 2 2
+chrome32.0.1700.107 1 1
+mozilla 44 11
+opera55.0.2994.44 1 1
+chrome41.0.2227.1 2 2
+chrome66.0.3359.181 2 2
+chrome74.0.3729.131 2 2
+opera46.0.2597.57 1 1
+edge17 2 2
+firefox7 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_Dataprovider.com) 20191216045328
+ia_archiver 20191206150959
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20191230161815
+Mozilla/5.0_(compatible;_ips-agent) 20191230192339
+Go-http-client/1.1 20191229093253
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+ia_archiver 20191206150959
+Go-http-client/1.1 20191229093253
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 108 136
+From1 0 0
+From2 6 6
+From3 1 1
+From4 57 165
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 3 3
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.netcraft.com/survey/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 1779 690560
+409 114 9296
+403 4 1350
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 801
+/wp-content/plugins/wp-manager/file.php 1 -
+/administrator/templates/hathor/index.php 1 -
+//account.php 1 -
+/unzipper.php 1 -
+/cpcrack.php 1 -
+/templates/system/error.php 1 -
+/up2.php 1 -
+/1337.php 1 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 1 -
+/up1.php 1 -
+/images/ 1 -
+/administrator/templates/hathor/error.php 1 -
+/confiq.php 1 -
+/madspot.php 1 -
+/single-blog.html 10 -
+/adm.php 1 -
+//admin_area/admin.html 1 -
+//panel-administracion/login.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 15 -
+/ee.php 1 -
+/database.php 1 -
+/hx.php 1 -
+/images/ww.php 1 -
+/images/shell.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/phpmyadmin/ 1 -
+/mailer.php 1 -
+/dz1.php 1 -
+/hh.php 1 -
+/images/WSO.php 1 -
+/indoxploit.php 4 -
+/d.php 1 -
+/wp-content/plugins/vr-seo/vr.php 1 -
+//modelsearch/admin.php 1 -
+/lol.php 1 -
+/scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/xz.php 1 -
+/wp-content/xml.php 1 -
+/GreenPxOK.php 1 -
+//admincp/index.asp 1 -
+/wp-content/uploads/2019/12/ 1 -
+/mail.html 48 http://drfarendra.com/
+//adminLogin.html 1 -
+/sa.php 1 -
+/media/media/images/mime-icon-16/media-admin.php 1 -
+/connect.php 1 -
+/q1.php 1 -
+/cpn.php 1 -
+/ess.php 1 -
+/images/cpanel.php 1 -
+/I.php 1 -
+/gino/awso.php 1 -
+/whmcs.php 1 -
+/misc/ajax.js 2 -
+//admincp/login.asp 1 -
+/s2.php 1 -
+/cms/wp-includes/wlwmanifest.xml 15 -
+//admincontrol.php 1 -
+//admin1/ 1 -
+/admin/view/javascript/common.js 2 -
+/as.php 1 -
+/up.php 4 -
+/dir.php 1 -
+/web_xml.php 1 -
+/wp-content/bees.php 1 -
+//admin_area/admin.php 1 -
+//bb-admin/index.php 1 -
+/cpanel.php 1 -
+/idx.php 1 -
+/tmp/vuln.php 1 -
+//pages/admin/admin-login.html 1 -
+/site/wp-includes/wlwmanifest.xml 15 -
+//moderator/admin.html 1 -
+/w.php 1 -
+//admin5/ 1 -
+/why.php 1 -
+//account.html 1 -
+/lama.php 1 -
+/sender.php 1 -
+/dz.php 1 -
+/robots.txt 70 -
+/wp-includes/setup.php 1 -
+//adm.html 1 -
+/wp-content/plugins/upspy/index.php 1 -
+/v5.php 1 -
+//admin/images/cal_date_over.gif 3 http://www.google.com.hk
+/xmlrpc.php 2 -
+/bbb.php 1 -
+/v3.php 1 -
+/0day.php 1 -
+/assets/admin/ckeditor/kcfinder/upload.php 1 -
+/wawa.php 1 -
+/images/xcontact182.php 1 -
+/wp-content/plugins/upspy/xleet.php 1 -
+//webadmin/index.php 1 -
+/wp-admin/user/user-new.php 1 -
+/wp-content/plugins/upspy/tbmailer.php 1 -
+/dick.php 1 -
+/images/newsr.php 1 -
+/fuck.php 1 -
+/alf.php 1 -
+/11.php 1 -
+/IndoXploit.php 1 -
+/tbshell.php 1 -
+/m.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 1 -
+/lfishell.php 1 -
+//memberadmin.php 1 -
+/adminer-4.2.5-mysql.php 1 -
+/license.txt 1 -
+//adm/admloginuser.php 1 -
+/indo.php 1 -
+/prv.php 1 -
+/images/editor/separator.gif 2 -
+/azzoulshell.php 1 -
+/SSS.php 1 -
+/sok.php 1 -
+/raw.php 1 -
+/images/b.php 1 -
+/phpmailer.php 1 -
+/vendors/nice-select/js/jquery.nice-select.min.js 49 http://drfarendra.com/
+/index.php/component/users 3 -
+/pp.php 1 -
+/uploads.php 1 -
+/images/f.php 1 -
+/kk.php 1 -
+/misc/drupal.js 1 -
+/unzip.php 1 -
+/wp-waf.php 1 -
+//user.html 1 -
+/wp-admin/shapes.php 1 -
+/wp-includes/cm3.php 1 -
+/administrator/templates/bluestork/index.php 1 -
+/libraries/joomla/css.php 1 -
+/leaf.php 1 -
+//adm/ 1 -
+/y.php 1 -
+/up3.php 1 -
+//panel-administracion/index.php 1 -
+//admin/admin-login.php 1 -
+/help.php 1 -
+/index.php 6 -
+/user/login 2 -
+/adminer-4.6.2.php 1 -
+/10.php 1 -
+//admin/cp.php 1 -
+/GreenS.php 1 -
+//usuarios/ 1 -
+//adm.php 1 -
+/replace.php 1 -
+/application/configs/application.ini 1 -
+/send.php 1 -
+/js.phtml 1 -
+//adminpanel.html 1 -
+//instadmin/ 1 -
+/admin 2 -
+/wp/wp-includes/wlwmanifest.xml 15 -
+//moderator.php 1 -
+/wp-login.php 11 -
+//modelsearch/index.html 1 -
+//admin/admin.html 1 -
+/media/kunena/avatars/media-admin.php 1 -
+/blog/administrator/index.php 1 -
+/gg.php 1 -
+/abc.php 1 -
+/wp-includes/js/underscore.min.js 1 -
+//adm/index.php 1 -
+/scripts/jquery/kcfinder/upload.php 1 -
+/vvv.php 1 -
+/wp-admin/network/wp-footer.php 1 -
+/ssl.php 1 -
+/4.php 1 -
+/images/ls.php 1 -
+/images/Sym.php 1 -
+/css/dzQ.php 1 -
+//adminarea/login.php 1 -
+/uploads/ 1 -
+/2016/wp-includes/wlwmanifest.xml 8 -
+/admin/webroot/cache/59725b922cb18ad815fffe5446463048.php 1 -
+/xaishell.php 1 -
+/webr00tv3.php 1 -
+/wp-content/plugins/GREEN/xleet.php 1 -
+//bb-admin/index.html 1 -
+/sysadmin.php 1 -
+/thinkphp/think 1 -
+/wp-content/plugins/ubh/shell.php 1 -
+/wp13.php 1 -
+/favicon.php 1 -
+/alf2.php 1 -
+/img/ 1 -
+/images/k2.php 1 -
+/simulasi.php 1 -
+/vendors/counter-up/jquery.waypoints.min.js 48 http://drfarendra.com/
+/wp-content/plugins/upspy/ms.php 1 -
+/ok.php 1 -
+/administrator/templates/isis/error.php 1 -
+/wp-content/plugins/ubh/raw.php 1 -
+/xleet.php 1 -
+/images/g.php 1 -
+/wp-2018.php 1 -
+/mail.php 1 -
+//webadmin/index.html 1 -
+/saa.php 1 -
+//adminarea/ 1 -
+/00.php 1 -
+/images/upload.php 1 -
+/components/com_sexycontactform/fileupload/ 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/king.php 1 -
+/ckeditor/kcfinder/upload.php 1 -
+//siteadmin/login.php 1 -
+/media/wp-includes/wlwmanifest.xml 15 -
+/alfa.php 1 -
+/r.php 1 -
+/wp-xss.php 1 -
+/oo.php 1 -
+/readme.php 1 -
+/ler.php 1 -
+/images/test.php 1 -
+/cw.php 1 -
+/admins.asp 1 -
+/roots.php 1 -
+/templates/atomic/error.php 1 -
+//webadmin.php 1 -
+/logo_img.php 1 -
+/wp/ 5 -
+//moderator/login.php 1 -
+/nn.php 1 -
+/index1.php 1 -
+//panel-administracion/admin.php 1 -
+/wp-content/plugins/upspy/f.php 1 -
+//admin.html 1 -
+/v.php 1 -
+/wp-admin/admin-post.php 1 -
+/spyshell.php 1 -
+//admin2/ 1 -
+/link.php 1 -
+/rsx.php 1 -
+/images/X.php 1 -
+/x3.php 1 -
+/upload/ 1 -
+/vendors/counter-up/jquery.counterup.js 48 http://drfarendra.com/
+/js.php 1 -
+//admin/account.html 2 -
+/wp-content/plugins/ppus/suram.php 1 -
+//memberadmin/ 1 -
+/user.ini.php 1 -
+/gaza.php 1 -
+//moderator/ 1 -
+/killer.php 1 -
+/cp.php 1 -
+/assets/ckeditor/kcfinder/upload.php 1 -
+/Server.php 1 -
+/xupe.php 1 -
+/templates/beez3/index.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/Raiz0__wgmzk.php 1 -
+/templates/protostar/index.php 1 -
+/admin2.asp 1 -
+/gallery/ 1 -
+/js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/administrator/templates/bluestork/error.php 1 -
+//adminarea/index.html 1 -
+//user.php 1 -
+/wp-mas.php 2 -
+//controlpanel.php 1 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/templates/rhuk_milkyway/index.php 1 -
+//admin/ 1 -
+/wp-time.php 1 -
+/privmailer.php 1 -
+/images/DZ.php 1 -
+/templates/atomic/html/lndex.php 1 -
+//admin/login.php 1 -
+/includes/up.php 1 -
+/admins.php 1 -
+/wp-json/wp/v2/users/ 1 -
+//admin2.php 1 -
+/docs/ 1 -
+/olux.php 3 -
+//webadmin/admin.html 1 -
+/bb.php 1 -
+/dz0.php 1 -
+/ 13 -
+/orvx.php 1 -
+/_adminer 1 -
+/wp-content/plugins/ubh/uplo.php 1 -
+//login/admin.php 1 -
+/null.php 1 -
+/adminer-4.2.4.php 1 -
+//usuarios/login.php 1 -
+/sito/wp-includes/wlwmanifest.xml 15 -
+/tmp/uploads.php 1 -
+//bb-admin/admin.html 1 -
+//admin/admin_login.html 1 -
+/js2.php 1 -
+//admin/controlpanel.html 1 -
+/website/wp-includes/wlwmanifest.xml 15 -
+/panel.php 1 -
+/css.php 1 -
+/components/Raiz0WorM_1575805217.php 1 -
+/webdev.php 1 -
+/wp-content/plugins/upspy/t.php 1 -
+/rox.php 1 -
+/i.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 15 -
+//admin3/ 1 -
+/components/com_banners/metadata.php 1 -
+/wp-includes/SimplePie/Canonical.php 1 -
+/modules/404.php 1 -
+/vv.php 1 -
+/ad.php 1 -
+/home.php 1 -
+/ads.txt 1 -
+/kcfinder-2.51/upload/files/priv.php.jd 1 -
+//templates/system/css/system.css 3 http://www.google.com.hk
+/yy.php 1 -
+/wp-content/plugins/css-ready-seled/file.php 1 -
+/ajax.php 1 -
+/9.php 1 -
+/wp-content/uploads/assignments/Raiz0_1575805217.php. 1 -
+//acceso.php 1 -
+/vendors/owl-carousel/owl.carousel.min.css 46 http://drfarendra.com/
+/weak.php 1 -
+//admin/account.php 2 -
+//adminarea/admin.html 1 -
+/angel.php 1 -
+/wp-content/plugins/html404/index.html 1 -
+/Sym.php 1 -
+/Marvins.php 2 -
+//login.php 1 -
+/xx.php 1 -
+//admin2/index.php 1 -
+/1337w0rm.php 1 -
+/system.php 1 -
+/jj.php 1 -
+//admin_area/index.php 1 -
+/l.php 1 -
+/images/m.php 1 -
+/pma.php 1 -
+/js/ckeditor/kcfinder/upload.php 1 -
+/ALFA-SHELL-V3.php 1 -
+//admin/adminLogin.html 2 -
+//admin_area/login.php 1 -
+//admin-login.html 1 -
+/adminer-4.3.1-mysql.php 1 -
+/adminer-4.1.0.php 1 -
+/smtp.php 1 -
+/images/anon.php 1 -
+//admin_area/login.html 1 -
+//admin/adminLogin.php 1 -
+/bypass.php 1 -
+/.git/HEAD 5 -
+//modelsearch/login.html 1 -
+/libraries/joomla/jmails.php 1 -
+/wp-admin/setup-config.php 1 -
+/sado.php 1 -
+/5.php 1 -
+/msss.php 1 -
+/h.php 1 -
+/components/com_finder/views/search/tmpl/souf.php 1 -
+/templates/ja_purity/index.php 1 -
+//admin/index.html 1 -
+/wp-admin.php 1 -
+//admin_area/index.html 1 -
+/assets/js/mylibs/kcfinder/upload.php 1 -
+/wp-content/uploads/wysija/themes/Master/un.php 1 -
+//admin2/login.php 1 -
+/config.php 1 -
+//admincp/index.html 1 -
+/ks.php 1 -
+//admin/home.html 1 -
+/kcfinder-2.51/upload.php 1 -
+/lel.php 1 -
+/n.php 1 -
+//webadmin/admin.php 1 -
+//panel-administracion/ 1 -
+/s.php 1 -
+/000.php 1 -
+/base.php 1 -
+/wp-includes/wp-inc.php 1 -
+/wp-content/62149921.php 1 -
+/wp-crons.php 1 -
+/xml.php 1 -
+/error.php 2 -
+/wsos.php 1 -
+/offline.php 1 -
+/wp-content/plugins/upspy/leafn.php 1 -
+/images/cp.php 1 -
+/xx1.php 1 -
+/administrator 1 -
+/cc.php 1 -
+//bb-admin/admin.php 1 -
+//admin_login.php 1 -
+/2019/wp-includes/wlwmanifest.xml 7 -
+/0.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/a9.php 1 -
+/wp-content/plugins/ubh/Meuhy.php 1 -
+/iindex.php 1 -
+/templates/protostar/error.php 1 -
+/u.php 1 -
+/shells/b374k.php 1 -
+/t.php 1 -
+/templates/beez3/error.php 1 -
+/098.php 1 -
+/22.php 1 -
+/wp-content/plugins/upspy/orvx.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__wgmzk.php 1 -
+//modelsearch/login.php 1 -
+/wp12.php 1 -
+/adminer.php 1 -
+/405.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+//controlpanel.html 1 -
+//login.html 1 -
+/wp-content/_input_3_raiz0.php5 1 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/list.php 1 -
+/.env 8 -
+/ww.php 1 -
+/_404.php 1 -
+/baba.php 1 -
+/db.php 2 -
+/tt.php 1 -
+/lean.php 1 -
+/wp-admin/admin-ajax.php 3 -
+/xp.php 1 -
+/settings.php 1 -
+//rcjakar/admin/login.php 1 -
+//panel-administracion/login.html 1 -
+/wp-content/plugins/ubh/up.php 1 -
+/inbox.php 1 -
+/c9.php 1 -
+/cfg.php 1 -
+/dew.php 1 -
+/config2.php 1 -
+/vendors/owl-carousel/owl.carousel.min.js 50 http://drfarendra.com/
+/xleetwolf.php 1 -
+/admin/images/cal_date_over.gif 2 -
+/blog.html 9 -
+/joomla/robots.txt 1 -
+/theme.php 1 -
+/wp.php 1 -
+/configuration.php 2 -
+/rxr.php 1 -
+/plugins/system/debug/debug.xml 2 -
+/j.php 1 -
+/vendor/phpunit/phpunit/phpunit.xml 2 -
+/wp-content/plugins/ubh/index.php 1 -
+/rdpl.php 1 -
+/zz.php 1 -
+/wp-content/plugins/upspy/sllolx.php 1 -
+/templates/atomic/html/leaf3.php 1 -
+/b374k.php 1 -
+/wp-update.php 1 -
+//admin/home.php 1 -
+//admin/admin.php 1 -
+/wp-content/plugins/ppus/up.php 2 -
+/XxX.php 2 -
+/wp-includes/SimplePie/xsef.php 1 -
+/js/vbcache.js 2 -
+/8.php 1 -
+/priv8.php 1 -
+/wp-content/themes/twentynineteen/content-post.php 1 -
+/hhh.php 1 -
+/spy.php 1 -
+/1.php 1 -
+/media/kunena/avatars/resized/size36/users/new_side.php 1 -
+/e.php 1 -
+/no.php 1 -
+/aaa.php 1 -
+/qq.php 1 -
+/noname.php 1 -
+/temp1-1.php 1 -
+/upel.php 1 -
+/vendors/lightbox/simpleLightbox.min.js 44 http://drfarendra.com/
+/wpmass.php 1 -
+/images/php_ini.php 1 -
+/wp-content/plugins/vcrm/Z586.php 1 -
+/indx.php 1 -
+/md.php 1 -
+//home.php 1 -
+/V3.php 1 -
+/V5.php 2 -
+/wp-includes/js/jquery/jquery.js 2 -
+/z.php 1 -
+/leafmailer.php 1 -
+/ws0.php 1 -
+//login/ 1 -
+/test/wp-includes/wlwmanifest.xml 15 -
+//admin/controlpanel.php 1 -
+/cmd.php 1 -
+/templates/beez5/index.php 1 -
+/wss.php 1 -
+/vendors/lightbox/simpleLightbox.css 45 http://drfarendra.com/
+//adminarea/admin.php 1 -
+/newrs.php 1 -
+/images/d.php 1 -
+/img/newsr.php 1 -
+/wp-content/upgrade/404.php 1 -
+/libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+//affiliate.php 1 -
+/adminer-4.2.4-mysql.php 1 -
+/wp-content/plugins/upspy/pleet.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/Raiz0__wgmzk.php 1 -
+//webadmin.html 1 -
+/wp-add.php 1 -
+//adm/index.html 1 -
+/x0.php 1 -
+/leaf3.php 1 -
+/wp-content/plugins/background-image-cropper/new_license.php 1 -
+/.well-known/tmp.php 1 -
+/mini.php 1 -
+/wp-content/plugins/spirit-templates/accdb.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 1 -
+/aa.php 1 -
+/q.php 1 -
+/2018/wp-includes/wlwmanifest.xml 15 -
+/xxx.php 1 -
+/images/up.php 1 -
+/scan.php 1 -
+//adminarea/index.php 1 -
+/images/ini.php 1 -
+/assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//admin.php 2 -
+/wp-content/logs.php 1 -
+/administrator/index.php 2 -
+/xd.php 1 -
+/o.php 1 -
+/ls.php 1 -
+/abcd.php 1 -
+/wp-admin/install.php 1 -
+/doctors.html 7 -
+/admin/includes/general.js 2 -
+/.well-known/ZoneDNS.php 1 -
+/wp-content/plugins/stats/instoll.php 1 -
+/adminer-4.3.1.php 1 -
+//admin/admin_login.php 1 -
+/jmx.php 1 -
+/vendors/animate-css/animate.css 42 http://drfarendra.com/
+/libraries/jscripts/kcfinder/upload.php 1 -
+/admin/login.php 1 -
+/wso.php 4 -
+/modules/mod_banners/tmpl/defult.php 1 -
+/mb.php 1 -
+/pdf/ 1 -
+/wp-content/plugins/css-ready-selectors/file.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/p.php 1 -
+/0x0.php 1 -
+/blog/wp-includes/wlwmanifest.xml 15 -
+/Symlink.php 1 -
+//moderator/login.html 1 -
+/wp-content/plugins/GREEN/GREENX.php 1 -
+/adminer-4.1.0-mysql.php 1 -
+/tmp/dz1.php 1 -
+/cfq.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/k.php 1 -
+/Sh3ll.php 1 -
+//panel-administracion/index.html 1 -
+/images/guide.php 1 -
+/wp-content/plugins/ppus/ns.php 1 -
+/403.php 1 -
+/templates/system/index.php 1 -
+/images/gh.php 1 -
+//siteadmin/login.html 1 -
+/CHANGELOG.txt 1 -
+/admin1.php 1 -
+/wp-json/wp/v2/users 1 -
+/p8.php 1 -
+/wp-content/plugins/upspy/lux.php 1 -
+/produtos.php 1 -
+/ww3.php 1 -
+//webadmin/ 1 -
+//cp.php 1 -
+/searchreplacedb2.php 1 -
+/cgi.php 1 -
+/vendor/composer/installed.json 1 -
+/r00t.php 1 -
+//pages/admin/admin-login.php 1 -
+/upload.php 4 -
+//panel-administracion/admin.html 1 -
+/ss.php 1 -
+/xGSx.php 1 -
+//moderator.html 1 -
+/media/kunena/avatars/resized/size72/ex_liner.php 1 -
+/wp-content/plugins/spirit-templates/up.php 1 -
+/blog/ 5 -
+/dd.php 1 -
+/webr00t.php 1 -
+/hacked.php 1 -
+//bb-admin/ 1 -
+/un.php 1 -
+//admincontrol.html 1 -
+/files/ 1 -
+/wp-content/sloolx.php 1 -
+/mini.phtml 1 -
+/tooler.php 1 -
+/wp-content/plugins/ubh/shelll.php 1 -
+/sql.php 1 -
+//adminarea/login.html 1 -
+//admin_login.html 1 -
+/img/index.php 1 -
+/log.php 1 -
+/ajax/render/widget_php 2 -
+/fun.php 1 -
+/admin/ckeditor/kcfinder/upload.php 1 -
+/images/admin.php 1 -
+/_adminer.php 2 -
+/px.php 1 -
+/rss.php 1 -
+/123.php 1 -
+/templates/beez_20/error.php 1 -
+/default.php 1 -
+/libraries/imports.legacy.php 1 -
+/gino/k.php 1 -
+/news/wp-includes/wlwmanifest.xml 15 -
+/404.php 1 -
+/2017/wp-includes/wlwmanifest.xml 8 -
+/uu.php 1 -
+/wp-includes/wolfm.php 1 -
+//nsw/admin/login.php 1 -
+/web/wp-includes/wlwmanifest.xml 15 -
+/911.php 1 -
+/az.php 1 -
+/wp-content/plugins/ppus/joom.php 1 -
+/xup.php 1 -
+/fozi.php 1 -
+//adminpanel.php 1 -
+//webadmin/login.php 1 -
+/info.php 1 -
+/assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/dr.php 1 -
+/ff.php 1 -
+//admin/index.php 1 -
+/js/header-rollup-554.js 2 -
+/sitemap.xml 3 -
+/ii.php 1 -
+/wp-content/plugins/wp-manager/x.php 1 -
+//admin4/ 1 -
+/wp-content/uploads/ 1 -
+//adminLogin/ 1 -
+//adm_auth.php 1 -
+/images/2.php 1 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+//admin_area/ 1 -
+/web.php 1 -
+/anu.php 1 -
+/mm.php 1 -
+/adminer 1 -
+/elements.html 6 -
+/wp-content/wljzlh.php 1 -
+/vuln.php 1 -
+/components/com_foxcontact/home.php 1 -
+/images/k.php 1 -
+/sd.php 1 -
+/wp-signup.php 1 -
+//bb-admin/login.php 1 -
+/img.php 1 -
+/vendors/nice-select/css/nice-select.css 45 http://drfarendra.com/
+/g.php 1 -
+/templates/beez_20/index.php 1 -
+//siteadmin/index.php 1 -
+//admin-login.php 1 -
+/wp-content/plugins/xichang/x.php 1 -
+/a.php 1 -
+/user.php 1 -
+/3.php 1 -
+//usuario/ 1 -
+/good.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 15 -
+/setting.php 1 -
+/b.php 1 -
+/id.php 1 -
+/vendors/linericon/style.css 42 http://drfarendra.com/
+/eror.php 1 -
+/wp-contacts.php 1 -
+/awso.php 1 -
+/wordpress/wp-content/plugins/css-ready-seled/file.php 1 -
+/c.php 1 -
+/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//admin/admin-login.html 1 -
+/templates/system/css/error.css 1 -
+/wp-content/plugins/ubh/o.php 1 -
+//admloginuser.php 1 -
+/admin.php 1 -
+/js/varien/menu.js 1 -
+/f.php 1 -
+//cp.html 1 -
+/new_license.php 1 -
+/tmp/upload.php 1 -
+/modules/modules/modules.php 1 -
+/joomla/administrator/index.php 1 -
+/1234.php 1 -
+/ande.php 1 -
+/ox.php 1 -
+/wp-upgrade.php 1 -
+/k2.php 1 -
+/ll.php 1 -
+/images/c.php 1 -
+/wp-info.php 2 -
+/ini.php 1 -
+/prv8.php 1 -
+//modelsearch/index.php 1 -
+/root.php 2 -
+/libraries/joomla/jmail.php 1 -
+/sc.php 1 -
+/d7.php 1 -
+/mysql.php 1 -
+/uploadshell.php 1 -
+/proshell.php 1 -
+/shell.php 8 -
+/shop/wp-includes/wlwmanifest.xml 15 -
+/wp-log.php 1 -
+/components/com_foxcontact/mrpatate.php 1 -
+/adminer-4.2.5.php 1 -
+/RxR.php 1 -
+/admin/ 2 -
+/Uploader.php 1 -
+/wp-content/bsn.php 1 -
+/idiot.php 1 -
+//home.html 1 -
+/shellwow.php 1 -
+/components/com_b2jcontact/izoc.php 1 -
+/priv.php 1 -
+/administrator/templates/isis/index.php 1 -
+/departments.html 8 -
+/wp-load.php 1 -
+/tmp/pz.php 1 -
+/think 1 -
+/tbmailer.php 1 -
+/images/wso.php 1 -
+/images/vuln.php 2 -
+//webadmin/login.html 1 -
+//adminLogin.php 1 -
+/adminer-4.6.2-mysql.php 1 -
+/6.php 1 -
+/wp-content/plugins/vr-seo/up.php 1 -
+/azshell.php 1 -
+/wp-content/themes/twentyseventeen/content-post.php 1 -
+//admin/login.html 1 -
+//admincontrol/login.php 1 -
+/language/en-GB/en-GB.xml 3 -
+/2015/wp-includes/wlwmanifest.xml 8 -
+/king.php 1 -
+/xai.php 1 -
+/wp-content/plugins/upspy/up.php 1 -
+/err.php 1 -
+/2.php 1 -
+/za.php 1 -
+/vendor/phpunit/php-token-stream/build.xml 1 -
+//moderator/admin.php 1 -
+/wp-content/uploads/2019/07/rsx.php 1 -
+//bb-admin/login.html 1 -
+/zx.php 1 -
+/ccp.php 1 -
+/cocot.php 1 -
+/blog/robots.txt 6 -
+/wp-content/w.php 1 -
+/backup.php 1 -
+/wp-content/vuln.php 2 -
+/components/com_foxcontact/fx.php 1 -
+/xo.php 1 -
+//admin/cp.html 1 -
+/cv.php 1 -
+//admincontrol/login.html 1 -
+/templates/beez/index.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 1 -
+/tmp/up.php 1 -
+/wp-includes/css/modules.php 1 -
+/wp-includes/wlwmanifest.xml 15 -
+/0x.php 1 -
+/vendor/phpunit/phpunit/build.xml 2 -
+/tool.php 1 -
+/wp-con.php 1 -
+/mary.php 1 -
+/README.txt 3 -
+/images/00.php 1 -
+/imdex.php 1 -
+/images/wp.php 1 -
+/installation/index.php 1 -
+/wp-content/plugins/background-image-cropper/content-post.php 1 -
+/worot.php 1 -
+/templates/atomic/index.php 1 -
+/12.php 1 -
+/license.php 2 -
+//modelsearch/admin.html 1 -
+/wp-content/plugins/vr-seo/wp-2017.php 1 -
+/wp-content/uploads/2018/01/Raiz0__wgmzk.php 1 -
+/templates/beez5/error.php 1 -
+/tmp.php 1 -
+/hb.php 1 -
+/7.php 1 -
+/wordpress/ 5 -
+/cPanelCracker.php 1 -
+/components/com_foxcontact/_func.php 1 -
+/py.php 1 -
+/wp-content/plugins/upspy/lama.php 1 -
+/X.php 1 -
+/images/1.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 96
+77.68.5.243 14 14 352576 20191226121226
+34.77.187.23 12 12 302208 20191230214535
+114.142.169.51 6 6 40206 20191210011032
+158.69.225.34 5 5 114422 20191216044814
+3.95.37.22 5 5 102924 20191206150959
+170.247.124.77 4 4 10611 20191221092141
+185.246.210.138 4 4 26804 20191208120027
+133.18.211.89 4 4 26804 20191217034757
+173.234.151.213 3 3 10611 20191219153937
+134.90.149.148 3 3 75552 20191231091604
+69.58.178.59 3 3 14667 20191230192339
+2.58.29.145 3 3 75552 20191225085410
+206.217.139.200 2 2 50368 20191229105442
+107.175.92.123 2 2 3910 20191221224324
+223.190.67.199 2 23 1026160 20191219054706
+217.138.194.121 2 2 50368 20191229163702
+51.77.246.76 2 35 1359831 20191216045328
+49.36.134.53 2 36 1361098 20191217120931
+54.38.235.1 2 2 13402 20191208030000
+185.253.96.27 2 2 50368 20191221161712
+192.99.36.177 2 2 13402 20191226121213
+69.12.94.118 2 2 50368 20191220140917
+74.208.239.244 2 2 50368 20191207132630
+31.13.191.85 2 2 50368 20191228182139
+31.13.191.71 2 2 50368 20191221083948
+13.70.154.68 1 1 6701 20191221180649
+206.217.139.198 1 1 25184 20191226103856
+47.89.244.225 1 1 25184 20191203011215
+136.27.62.24 1 1 25184 20191225094455
+198.46.214.160 1 1 6701 20191221224256
+178.175.132.72 1 1 25184 20191219033216
+85.10.207.246 1 1 25184 20191220003551
+54.212.190.176 1 1 6701 20191225171752
+167.172.243.194 1 1 25184 20191219052312
+37.120.156.13 1 1 25184 20191213054143
+37.120.217.58 1 1 25184 20191209091006
+185.234.219.246 1 1 25184 20191230022545
+198.27.81.94 1 1 6701 20191229064807
+64.225.20.89 1 1 0 20191230161815
+77.222.96.144 1 1 6701 20191215054958
+67.227.33.95 1 1 6701 20191219104847
+102.156.206.107 2 2 13402 20191206150940
+143.137.164.61 1 1 6701 20191219140351
+87.2.20.87 2 2 50368 20191217221343
+167.99.105.195 2 2 50368 20191220080515
+5.41.170.1 2 22 793198 20191229075710
+64.246.161.190 1 1 6701 20191226014208
+185.232.21.143 1 1 25184 20191209225904
+128.199.34.210 2 2 13402 20191207141802
+13.56.164.105 1 1 6701 20191228111222
+185.136.159.26 1 1 25184 20191210020154
+173.252.127.23 0 5 9052 
+185.112.82.229 1 1 25184 20191227060801
+23.94.74.109 2 2 50368 20191224113043
+173.44.36.101 2 2 50368 20191225055709
+85.254.72.26 2 2 50368 20191230064906
+5.188.62.147 1 1 6701 20191227024700
+35.175.129.96 1 1 6701 20191220132819
+172.241.131.139 2 2 50368 20191223232537
+173.252.127.5 1 5 160800 20191228122220
+167.172.102.238 1 1 6701 20191210000220
+82.102.18.43 2 2 50368 20191222031710
+74.208.183.53 1 1 25184 20191207212103
+109.248.149.20 1 1 25184 20191230182702
+207.244.108.248 2 2 50368 20191209235039
+51.159.18.103 1 1 6701 20191225212034
+34.217.10.74 1 1 6701 20191212025938
+173.252.127.21 0 1 39779 
+78.24.217.236 1 1 6701 20191229093253
+69.28.90.163 1 1 6701 20191217053743
+173.252.127.13 0 6 113628 
+196.245.186.137 1 1 6701 20191228003433
+51.158.121.89 1 1 6701 20191227025221
+45.132.192.8 1 1 25184 20191224045224
+185.130.184.250 1 1 25184 20191219052624
+178.238.8.112 1 1 6701 20191228135431
+185.253.96.26 1 1 25184 20191231155848
+95.73.138.11 2 2 50368 20191216133325
+34.215.178.19 1 1 6701 20191211034028
+5.188.62.5 1 1 6701 20191208042740
+45.76.30.26 1 1 6701 20191203160105
+107.150.119.142 1 1 6701 20191209080259
+173.252.127.36 0 7 431772 
+18.220.32.16 1 1 25184 20191205055007
+185.219.168.116 2 2 13402 20191231195532
+179.61.153.50 1 1 6701 20191201023351
+173.252.127.17 0 3 25953 
+94.247.172.129 1 1 6701 20191203034959
+185.81.157.154 1 1 25184 20191207014441
+144.217.85.241 1 1 25184 20191203052535
+192.162.101.55 1 1 25184 20191217105215
+38.100.53.90 2 4 319852 20191204005617
+20.40.147.38 1 1 25184 20191215002311
+77.51.133.248 1 1 25184 20191214050550
+173.252.127.25 1 1 6701 20191228122212
+185.59.221.233 1 1 25184 20191228161446
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20191201 1 1 6701 1
+20191203 4 4 63770 4
+20191204 2 4 319852 1
+20191205 4 4 89238 3
+20191206 4 4 52272 2
+20191207 6 6 114138 4
+20191208 7 7 46907 3
+20191209 5 5 107437 4
+20191210 8 8 72091 3
+20191211 1 1 6701 1
+20191212 1 1 6701 1
+20191213 1 1 25184 1
+20191214 1 1 25184 1
+20191215 3 3 57069 3
+20191216 8 41 1499437 3
+20191217 10 44 1470155 5
+20191218 1 1 25184 1
+20191219 11 32 1150909 8
+20191220 6 6 132621 5
+20191221 11 11 103475 7
+20191222 14 14 352576 3
+20191223 4 4 100736 4
+20191224 4 4 82253 4
+20191225 5 5 88954 5
+20191226 6 6 114138 5
+20191227 5 5 88954 5
+20191228 15 41 1059628 13
+20191229 8 28 907336 6
+20191230 12 12 216139 8
+20191231 4 4 63770 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 114
+30s-2mn 1
+5mn-15mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 153 2811403 111 108
+/about-us.html 6 53226 4 0
+/fonts/fontawesome-webfont.woff2 5 359480 1 5
+/contact_process.php 4 0 0 3
+/contact.html 4 15640 1 1
+END_SIDER

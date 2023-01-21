@@ -1,0 +1,807 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201911 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/awstats.xamcrackers.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2701                
+POS_VISITOR 16759               
+POS_DAY 17796               
+POS_DOMAIN 3433                
+POS_LOGIN 3760                
+POS_ROBOT 3915                
+POS_WORMS 4518                
+POS_EMAILSENDER 4649                
+POS_EMAILRECEIVER 4792                
+POS_SESSION 18180               
+POS_SIDER 18358               
+POS_FILETYPES 4927                
+POS_DOWNLOADS 5177                
+POS_OS 5225                
+POS_BROWSER 5386                
+POS_SCREENSIZE 5829                
+POS_UNKNOWNREFERER 5903                
+POS_UNKNOWNREFERERBROWSER 6024                
+POS_ORIGIN 6140                
+POS_SEREFERRALS 6275                
+POS_PAGEREFS 6419                
+POS_SEARCHWORDS 6567                
+POS_KEYWORDS 6719                
+POS_MISC 2364                
+POS_ERRORS 6778                
+POS_CLUSTER 3616                
+POS_SIDER_404 6966                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191201022909 24 5030 17240874217858
+FirstTime 20191101042830
+LastTime 20191130012221
+LastUpdate 20191201063229 24 0 23 0 0
+TotalVisits 26                  
+TotalUnique 25                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 25                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+AddToFavourites 0 76 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 87 91 3745140
+1 1 1 0 83 121 1121624
+2 0 0 0 43 56 430824
+3 0 0 0 17 23 385242
+4 1 1 5923 20 22 386507
+5 2 30 895723 70 81 903684
+6 15 15 40382 32 49 394231
+7 13 64 1470702 55 60 710477
+8 1 1 4072 176 187 1418267
+9 3 3 6119 160 183 1312426
+10 0 0 0 121 126 648105
+11 24 97 1565607 285 311 1670034
+12 2 2 11814 976 1061 952147
+13 0 0 0 47 288 1023184
+14 1 1 0 42 73 1406132
+15 2 2 19366 82 94 752541
+16 0 0 0 37 41 464541
+17 44 44 290588 42 53 394084
+18 12 12 50902 62 94 608229
+19 0 0 0 35 75 1599902
+20 2 2 4188 55 86 932584
+21 1 1 5963 144 156 862067
+22 0 0 0 37 51 774796
+23 0 0 0 22 28 359356
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 38 139 2507035
+ca 36 36 253426
+id 31 31 122650
+in 11 62 1468872
+sg 3 3 0
+nl 2 2 0
+it 1 1 0
+au 1 1 0
+gb 1 1 19366
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+Googlebot/ 128 1406621 20191130210035 42
+YandexBot/ 66 1448178 20191123141737 11
+bot[\s_+:,\.\;\/\\-] 63 3188197 20191106004713 0
+bingpreview 45 1225312 20191104204426 0
+bingbot/ 13 11804 20191130194636 11
+curl 8 57909 20191103064540 0
+unknown 6 0 20191122140019 6
+YandexImages/ 5 277596 20191123141740 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 0 20191125153314 0
+Googlebot\-Image/ 1 108231 20191104194436 0
+no_user_agent 1 5928 20191105230429 0
+aiHitBot/ 1 0 20191123124307 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+php 41 126835 0 0
+png 27 589703 0 0
+Unknown 71 577925 0 0
+env 1 1327 0 0
+jpeg 3 0 0 0
+woff2 8 556464 0 0
+css 71 726708 0 0
+ttf 1 42140 0 0
+js 51 1747386 0 0
+xml 1 2861 0 0
+html 1 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx10 2 2
+winxp 61 10
+winlong 1 1
+linux 39 39
+win10 132 59
+win7 31 3
+macosx6 1 1
+Unknown 9 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+chrome58.0.1145.75 1 1
+chrome51.0.2704.103 36 36
+firefox59.0 1 1
+firefox60.0 1 1
+firefox28.0 1 1
+chrome44.0.2403.89 1 1
+Unknown 9 9
+edge18 50 11
+chrome78.0.3904.97 13 13
+chrome77.0.3865.120 47 13
+chrome78.0.3904.70 11 11
+chrome78.0.3904.87 7 7
+chrome74.0.3729.131 1 1
+firefox70.0 1 1
+firefox64.0 2 2
+chrome78.0.3904.108 30 2
+chrome49.0.2623.112 61 10
+firefox62.0 1 1
+opera4 1 1
+safari5.1 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Go-http-client/1.1 20191125153314
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20191125153314
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 68 68
+From1 1 1
+From2 0 0
+From3 0 0
+From4 55 207
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+302 476 188064
+409 98 8134
+500 1180 13275685
+406 20 59041
+301 7 1678
+403 10 6192
+404 1186 1822530
+206 18 165024
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 415
+/ntah.php 1 -
+/IR.zip 1 -
+/spyshell.php 1 -
+/znD.zip 1 -
+/linked.zip 1 -
+/gmail.zip 1 -
+/Verify_now.zip 1 -
+/wp-content/vuln.php 6 -
+/adobe.zip 1 -
+/index2.php 1 http://xamcrackers.com/index2.php
+/agreement_docs2.zip 1 -
+//tinymce/plugins/imgsurfer/main.php 5 -
+/admin/images/cal_date_over.gif 1 -
+/sad.php 1 -
+/install 1 -
+/wp-includes/css/modules.php 6 -
+/olux.php 18 -
+/web.zip 1 -
+/templates/beez_20/index.php 6 -
+/upload/ 6 -
+/logs.zip 1 -
+/mysql-adminer.php 1 xamcrackers.com
+/verify.zip 1 -
+/hec.php 1 -
+/css.zip 1 -
+/V5.php 12 -
+/base.zip 1 -
+/m2uSession.zip 1 -
+/box.zip 1 -
+//public/upload_nhieuanh/server/php/_index.php 11 -
+/upload.php 18 -
+/gol.zip 1 -
+/host.zip 1 -
+/no.php 1 http://xamcrackers.com/no.php
+/modules/modules/modules.php 6 -
+/wp-content/plugins/ubh/index.php 6 -
+//helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 7 -
+/succes.txt 1 -
+/ali.txt 1 -
+/wso32.php 1 -
+/info.php 1 -
+/newhotmail.zip 1 -
+/blog/wp-includes/wlwmanifest.xml 4 -
+//public/js/plugins/imgsurfer/main.php 7 -
+/con2.php 1 -
+/New.zip 1 -
+/index.php/frontend/exam 1 -
+//server/php 11 -
+/drop.zip 1 -
+/Account.zip 1 -
+/admn.php 1 -
+/admin.zip 1 -
+/imdex.php 1 http://xamcrackers.com/imdex.php
+/spamtools.be.php 1 -
+/joomla/administrator/index.php 1 -
+//admin/images/cal_date_over.gif 9 -
+/wp-info.php 6 -
+/man.txt 1 -
+/GD1.zip 1 -
+/templates/beez5/index.php 6 -
+/alibaba.zip 1 -
+/dhl.zip 1 -
+/yah.zip 1 -
+/dontme.php 1 -
+/yh.txt 1 -
+/db.zip 1 -
+/sidwso.php 1 -
+/info.txt 1 -
+/eogpr.zip 1 -
+/new2015.zip 1 -
+/nato.zip 1 -
+/irs.zip 1 -
+/W.zip 1 -
+//templates/admin/js/tinymce/plugins/imgsurfer/main.php 7 -
+/templates/system/css/system.css 1 -
+/.git/index 1 -
+/web/wp-includes/wlwmanifest.xml 2 -
+//zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 6 -
+/adobelatest.zip 1 -
+/files/ 6 -
+/melog-india.txt 1 -
+/fresh1.php 1 -
+/skin.zip 1 -
+/drive.zip 1 -
+/V3.php 6 -
+/mn.zip 1 -
+//scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 7 -
+//adminside/server/php/ 8 -
+/FE4Nt3a.zip 1 -
+/joomla/robots.txt 1 -
+/note.txt 1 -
+/laXa1a1.txt 1 -
+/domain.zip 1 -
+/Ed.zip 1 -
+/remax.zip 1 -
+/Fjgv.7z 1 -
+/feal.php 1 -
+/wp-admin/network/wp-footer.php 6 -
+/aol.zip 1 -
+/credits.txt 1 -
+/login/blog/wp-includes/wlwmanifest.xml 3 -
+//tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 12 -
+/boo.php 1 -
+/GoogleDoc.zip 1 -
+/b1.txt 1 -
+/dropbox.zip 1 -
+/login/wp-includes/wlwmanifest.xml 4 -
+/wp-content/uploads/2019/11/ 6 -
+/gduc.zip 1 -
+//templates/system/css/system.css 10 -
+/cO9nI8C.zip 1 -
+/index.php/frontend/index 6 -
+/IlOyTgNjFrGtHtEwVo.zip 1 -
+/Marvins.php 6 -
+/up.php 18 -
+/newpage.zip 1 -
+/bhx1.php 1 -
+/www.zip 1 -
+/libraries/joomla/jmails.php 6 -
+/yahoo%202.txt 1 -
+/.git/config 1 -
+/wp-admin/mysql-adminer.php 1 xamcrackers.com
+/G550.zip 1 -
+/login/site/wp-includes/wlwmanifest.xml 4 -
+/olad.php 2 -
+/wells.zip 1 -
+/config.php 1 -
+/webmail.zip 1 -
+/vv.php 1 -
+/License_linux.txt 1 -
+/wp-content/plugins/theme-configurator/mini.php 6 -
+//media/editor/plugins/filemanager/ajax_create_folder.php 7 -
+/wellsfargo.zip 1 -
+/Dropfile.zip 1 -
+/googledrive.zip 1 -
+/login.zip 1 -
+/GD.zip 1 -
+/docs/ 6 -
+/Gdoc.zip 1 -
+/Doc.zip 1 -
+/templates/rhuk_milkyway/index.php 6 -
+/templates/beez3/error.php 6 -
+/wp-login.php 1 -
+/ayb.php 1 -
+/wp-includes/wlwmanifest.xml 4 -
+/wp_asx.php 1 -
+/templates/system/index.php 6 -
+/web1.zip 1 -
+/free-mobile.zip 1 -
+/auto.php 1 -
+/login.alibaba.com.zip 1 -
+/wp-content/plugins/widget-logic/mini.php 6 -
+/action.zip 1 -
+/Ameli.zip 1 -
+/html.zip 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 12 -
+/2017/wp-includes/wlwmanifest.xml 2 -
+/accepted_visitors.txt 1 -
+/freemobilemoncompte.zip 1 -
+/pi9sI3ca6.zip 1 -
+/ScreenDrop.zip 1 -
+/sito/wp-includes/wlwmanifest.xml 2 -
+/adobeCom.zip 1 -
+/AOL.zip 1 -
+//infusions/mp3player_panel/upload.php 12 -
+/upgrade.zip 1 -
+/data.txt 1 -
+/changes.txt 1 -
+/balha.php 1 -
+/share.zip 1 -
+/images/vuln.php 6 -
+/china.zip 1 -
+/la4BA0Re3L.zip 1 -
+/BDBB.zip 1 -
+//assets/uploadify/uploadify.php 10 -
+/GOOGLENEWW.zip 1 -
+/templates/ja_purity/index.php 6 -
+/ayo1.zip 1 -
+/blog/robots.txt 2 -
+/page.zip 1 -
+/dropbox2016.zip 1 -
+//admin/editor/plugins/filemanager/ajax_create_folder.php 9 -
+/wp-content/plugins/upspy/index.php 6 -
+/visit.txt 1 -
+/chq.zip 1 -
+//admin/login.php 7 -
+/shellku.php 1 -
+/login.live.com.zip 1 -
+/blog/administrator/index.php 1 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+/hotmail.zip 1 -
+/pageo.zip 1 -
+/templates/system/error.php 6 -
+/as.txt 1 -
+/error_log.txt 1 -
+//vendor_extra/elfinder/php/connector.minimal.php 17 -
+/msn.zip 1 -
+/art.zip 1 -
+/bts.php 1 -
+/.svn/all-wcprops 1 -
+/ipic.zip 1 -
+/error.php 6 -
+/log.txt 1 -
+/Arch.zip 1 -
+/website/wp-includes/wlwmanifest.xml 2 -
+/indoxploit.php 24 -
+/confirmation.zip 1 -
+/login/wp/wp-includes/wlwmanifest.xml 4 -
+/dropboxz.zip 1 -
+//tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 9 -
+/gdoc.zip 1 -
+/cap1-360.zip 1 -
+/Alibaba.com.zip 1 -
+/office.zip 1 -
+/index.php/frontend/about 1 -
+/test/wp-includes/wlwmanifest.xml 2 -
+/RxR.php 6 -
+/filez.zip 1 -
+/ipad.zip 1 -
+/wp-content/plugins/html404/index.html 6 -
+/templates/protostar/index.php 6 -
+/x.txt 1 -
+/aw.php 1 -
+/gdocc.zip 1 -
+/ca7nA4la2.zip 1 -
+/2016/wp-includes/wlwmanifest.xml 2 -
+/Counter.zip 1 -
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/olux2.php 1 -
+/excel.zip 1 -
+/index.php/frontend/contact 2 -
+/home.zip 1 -
+/wp/wp-includes/wlwmanifest.xml 4 -
+/christianmingle.zip 1 -
+/wp-content/plugins/ppus/up.php 6 -
+/cms/wp-includes/wlwmanifest.xml 4 -
+/docs.zip 1 -
+/um3.php 1 -
+/pdf.zip 1 -
+/templates/protostar/error.php 6 -
+/docx.zip 1 -
+/wp-content/uploads/ 6 -
+/Yahoo.zip 1 -
+/drpbox.zip 1 -
+/ww.zip 1 -
+/netflix.zip 1 -
+/site/wp-includes/wlwmanifest.xml 4 -
+/g-doc-secure.zip 1 -
+/u1.zip 1 -
+/survey.zip 1 -
+/adminer.php 1 xamcrackers.com
+/pdf/ 6 -
+/Full.txt 1 -
+/templates/atomic/index.php 6 -
+/info.zip 1 -
+/wlft.zip 1 -
+/review.zip 1 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/img/ 6 -
+/lux.php 1 -
+/wp-content/plugins/vwcleanerplugin/bump.php 6 -
+//assets/tinymce/plugins/imgsurfer/main.php 5 -
+/Ourtimee.zip 1 -
+/dbfile.zip 1 -
+/wp-content/plugins/xichang/x.php 6 -
+/BT.txt 1 -
+//editor/plugins/filemanager/ajax_create_folder.php 10 -
+/mam.txt 1 -
+/account.zip 1 -
+/cnm.zip 1 -
+/onedrive.zip 1 -
+/wso.php 18 -
+/wp-content.zip 1 -
+/bookmark.zip 1 -
+/dex.php 1 -
+/users.txt 1 -
+/public/uploads/exams/categories/5-catimage.jpeg 3 http://xamcrackers.com/exams/student/categories
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 6 -
+/new_license.php 6 -
+/l0gz.txt 1 -
+/.env 3 -
+/templates/atomic/error.php 6 -
+/files.zip 1 -
+/administrator/index.php 3 -
+/templates/beez_20/error.php 6 -
+/usaa.zip 1 -
+/wp-admin.zip 1 -
+/admin/login.php 1 -
+/id.zip 1 -
+//admin/libraries/ajaxfilemanager/ajax_create_folder.php 6 -
+/Goldencat.zip 1 -
+//cfg-contactform-1/inc/upload.php 15 -
+/1.txt 1 -
+/dpbx.zip 1 -
+//files/uploadify/uploadify.php 12 -
+/Adobe.zip 1 -
+/logs.txt 1 -
+/wp-admin/shapes.php 6 -
+/TT.zip 1 -
+/vu.txt 1 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/templates/beez/index.php 6 -
+/blackhat.php 1 -
+/8-login-form.zip 1 -
+/shell.php 34 -
+/libraries/joomla/css.php 6 -
+/doc.zip 1 -
+/ads.txt 27 -
+/Zone1.zip 1 -
+/newp.zip 1 -
+/Contact%20Logs.txt 1 -
+/WellsLINK.zip 1 -
+/components/com_b2jcontact/izoc.php 6 -
+/2015.zip 1 -
+/nD.zip 1 -
+/admin 4 -
+/office365.zip 1 -
+/new.zip 1 -
+/ox.txt 1 -
+/file.zip 1 -
+/c7.zip 1 -
+/m.zip 1 -
+/098.php 6 -
+/godaddy.zip 1 -
+/aol..txt 1 -
+/newdocxb.zip 1 -
+/godaddyac.zip 1 -
+/16.php 1 -
+//app/webroot/js/tinymce/plugins/imgsurfer/main.php 7 -
+/m2u.zip 1 -
+/apple.zip 1 -
+//admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 8 -
+/paypal.zip 1 -
+//assets/global/plugins/jquery-file-upload/server/php/ 14 -
+//ajax/api/hook/decodeArguments 9 -
+/zonalzone.zip 1 -
+/db.php 1 -
+/Dropbox.zip 1 -
+/auth.zip 1 -
+/php.php 1 -
+/yahoo.zip 1 -
+/Aol.txt 1 -
+/STD.zip 1 -
+/google.zip 1 -
+/outlook.zip 1 -
+/chase.zip 1 -
+/upel.php 6 -
+/templates/beez5/error.php 6 -
+/auto.zip 1 -
+/Goldbook.zip 1 -
+/rxr.php 6 -
+/XxX.php 6 -
+/googledocs.zip 1 -
+/googledoc.zip 1 -
+/libraries/joomla/jmail.php 6 -
+/Login.zip 1 -
+/app.zip 1 -
+/gallery/ 6 -
+//umapresence/umaservices/umapage/inc/contentCss.php 13 -
+/b4.txt 1 -
+/templates/beez3/index.php 6 -
+/rhb.com.my.zip 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 6 -
+/CO9La3.zip 1 -
+/1.zip 1 -
+/Online%20chase.zip 1 -
+/secure-dropbox.zip 1 -
+/front/index.php/frontend/index 3 -
+/Thiland.txt 1 -
+/mobile.free.fr.zip 1 -
+/login/wordpress/wp-includes/wlwmanifest.xml 4 -
+/http.zip 1 -
+//assets/uploadify/old/uploadify.php 10 -
+/tmp/vuln.php 6 -
+/sl.php 1 -
+/mgsnew..zip 1 -
+/rof.txt 1 -
+/bmg.zip 1 -
+/2014gdocs.zip 1 -
+/AmEx.zip 1 -
+/ollx.php 1 -
+/IRS.zip 1 -
+/DHL.zip 1 -
+/Drop.zip 1 -
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/revalidate.zip 1 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/mo.php 2 -
+/ipaad.zip 1 -
+/ourtime.zip 1 -
+/PDF%20-01.zip 1 -
+/login/cms/wp-includes/wlwmanifest.xml 4 -
+/update.zip 1 -
+/secure.zip 1 -
+/document.zip 1 -
+/tb.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+/neter.php 1 -
+/DS/index.html 3 -
+/wp-content/plugins/admin.php 1 xamcrackers.com
+/USAA2014.zip 1 -
+/xmlrpc.php 1 -
+/remote.html 1 -
+/docss.zip 1 -
+/fA3NT3A.zip 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+//modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 8 -
+/nobody.php 1 http://xamcrackers.com/nobody.php
+/Google.zip 1 -
+/ID.txt 1 -
+/account-liemted.info.zip 1 -
+/License_windows.txt 1 -
+/2018/wp-includes/wlwmanifest.xml 2 -
+/PDF.zip 1 -
+/bundle.zip 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 25
+158.69.241.223 36 36 253426 20191102173805
+157.47.202.249 24 97 1565607 20191106110412
+42.107.226.162 10 61 1464800 20191102073324
+182.0.173.253 10 10 34481 20191103065306
+182.0.200.87 8 8 37162 20191117174035
+114.124.133.154 7 7 31412 20191110181923
+182.0.231.196 5 5 19490 20191112182534
+203.116.18.250 3 3 0 20191119061140
+139.162.15.45 2 2 0 20191119063642
+157.47.208.105 2 30 895723 20191124053203
+35.192.101.63 2 2 11814 20191103120948
+3.86.251.123 2 2 4188 20191124202446
+64.246.165.170 1 1 5923 20191101042830
+79.137.34.35 1 1 0 20191119140611
+34.214.122.24 1 1 5901 20191104065304
+114.124.205.153 1 1 105 20191104091205
+165.22.244.98 1 1 0 20191125153314
+13.209.83.112 1 1 113 20191104091031
+103.208.221.183 1 1 4072 20191108083220
+139.59.14.115 1 1 0 20191116075626
+147.192.52.185 1 1 0 20191130012221
+34.214.92.235 1 1 5902 20191105070947
+51.159.30.33 1 1 19366 20191105152003
+18.229.132.123 1 1 5963 20191104211134
+52.43.24.128 1 1 5901 20191101091921
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20191101 2 2 11824 2
+20191102 46 97 1718226 2
+20191103 12 12 46295 2
+20191104 4 4 12082 4
+20191105 2 2 25268 2
+20191106 24 97 1565607 1
+20191108 1 1 4072 1
+20191110 7 7 31412 1
+20191112 5 5 19490 1
+20191116 1 1 0 1
+20191117 8 8 37162 1
+20191118 1 1 0 1
+20191119 5 5 0 3
+20191124 4 32 899911 2
+20191125 1 1 0 1
+20191130 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 21
+30s-2mn 2
+5mn-15mn 2
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 60
+/vendor/phpunit/php-file-iterator/src/yah.php 26 101595 6 7
+/login 15 102190 11 7
+/index.php 7 0 5 5
+/vendor/phpunit/phpunit/src/Util/PHP/phr.php 6 25016 1 0
+/Themes/themeone/assets/site/fonts/fontawesome-webfont.woff2 4 231480 0 1
+/dashboard 3 13788 0 0
+/exams/student/exams/railway-exam-5 3 13516 0 0
+/Themes/themeone/assets/fonts/materialdesignicons-webfont.woff2 2 170664 0 0
+/exams/categories/getList 2 17786 0 0
+/exams/quizzes 2 9424 0 0
+/Themes/themeone/assets/font-awesome/fonts/fontawesome-webfont.woff2 2 154320 0 0
+/exams/student/categories 2 6462 0 0
+/exams/quiz/getList 2 36977 0 0
+/exams/student/quiz/getList/railway-exam-5 2 2634 0 1
+/LMS/all-categories/maths-formulas-832d885822d1d19e60bf151d237d03d3db14cbb5 1 5823 0 0
+/LMS/contents/calculus-and-analysis-3f78c3f3655aa7bcb4e4f5ea2b2bdf6ab8f52eb6-4 1 4466 0 0
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 0 1 1
+/LMS/all-categories/english-grammer-3e78195ac5113afd87a1e9d19bc54e358e5edaa1-2 1 4777 0 0
+/exam/categories/chemistry-5 1 3551 0 0
+/LMS/contents/algebra-a303119e0db6a9bbc428921315f37ce44de97b59-4 1 4196 0 0
+/LMS/all-categories/physics-beab6e9d5be5ffdf4d99f0366bd72953f085a52e-1 1 4760 0 0
+/download/lms/contents/formulas-89638507510a0a3f95623d4b48c91d9efa304296 1 7945 0 0
+/LMS/contents/geometry-and-topology-7134f19b23a31a5f254d6ebda1c819fd9a48d94f-5 1 4468 0 0
+/student/bookmarks/getSavedList 1 2 0 1
+/LMS/contents/number-theory-14c4eb60b5804580be846562d6adb696c6e1037f-10 1 4460 0 0
+/exams/start-exam/number-series-83ea7318a8a7c823875d535d7bb1e0c9800f763d-18 1 19865 0 0
+/site/pricing 1 3311 0 0
+/LMS/all-categories/history-5de9a37daba64875a5d5fad74880e69555bca034-5 1 4750 0 0
+/exams/start-exam/reasoning-ff5f6112ffc91c1745460088e840d89339bb4c5e-16 1 21406 0 0
+/site/privacy-policy 1 4446 0 0
+/LMS/all-categories 1 5779 0 0
+/exam/categories/chemistry-category-3 1 4231 0 0
+/home 1 8474 0 0
+/site/terms-conditions 1 7218 0 0
+/LMS/contents/applied-mathematics-d7e9b1f2bb663187684226881301fffd4815e687-11 1 4697 0 0
+/exam/categories/physics-2 1 6403 0 0
+/LMS/contents/mathematical-physics-0a4862bc4960b3b0feb14f26bb0366008e334ba8-7 1 4697 0 0
+/exams/categories/edit/railway-exam-5 1 5667 0 0
+/vendor/phpunit/phpunit/build.xml 1 2861 1 0
+/exam/categories 1 5955 0 0
+/site/pattren 1 3978 0 0
+/LMS/contents/spotting-errors-98ba23ddfd59e6a0a7e6648831947a44a9252543-12 1 4443 0 1
+/.env 1 1327 0 1
+/exams/student/start-exam/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23 1 108835 0 0
+/exams/student/quiz/take-exam/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23 1 5890 0 0
+/exams/start-exam/algebra-1b226e24d5b271cfa1ca8938903937e0f6f1150d-17 1 22667 0 0
+/exam/categories/history-category-4 1 5091 0 0
+/exams/start-exam/reasoning-i-34df71e652129e3c25dd86db87bba30b483347de-19 1 21417 0 0
+/vendor/phpunit/phpunit/src/Util/PHP/yi.php 1 224 0 0
+/exams/quiz/edit/railway-abb1f1940500fb05099fb643f4c55f89087aa8b9-23 1 8503 0 0
+/exam/categories/maths-category 1 5964 0 0
+/exams/start-exam/udaan-demo-c6cbfce0617ba3c13117245323de0e3bb482c16f-21 1 10152 0 0
+/practice-exams 1 5955 0 0
+/exams/categories 1 4620 0 0
+// 1 0 1 1
+/site/about-us 1 3669 0 0
+/site/courses 1 3425 0 0
+/site/syllabus 1 4500 0 0
+/LMS/contents/number-theory-2e9b0c61e053d6ae4a2e4cd7fe2be5993e8a0b22-6 1 4692 0 0
+/Themes/themeone/assets/fonts/university-system.ttf 1 42140 0 0
+END_SIDER

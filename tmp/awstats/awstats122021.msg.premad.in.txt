@@ -1,0 +1,311 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/awstats.msg.premad.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2670                
+POS_VISITOR 7214                
+POS_DAY 7549                
+POS_DOMAIN 3234                
+POS_LOGIN 3485                
+POS_ROBOT 3640                
+POS_WORMS 3772                
+POS_EMAILSENDER 3903                
+POS_EMAILRECEIVER 4046                
+POS_SESSION 7648                
+POS_SIDER 7794                
+POS_FILETYPES 4181                
+POS_DOWNLOADS 4297                
+POS_OS 4345                
+POS_BROWSER 4434                
+POS_SCREENSIZE 4550                
+POS_UNKNOWNREFERER 4624                
+POS_UNKNOWNREFERERBROWSER 4852                
+POS_ORIGIN 4972                
+POS_SEREFERRALS 5104                
+POS_PAGEREFS 5248                
+POS_SEARCHWORDS 5396                
+POS_KEYWORDS 5548                
+POS_MISC 2334                
+POS_ERRORS 5607                
+POS_CLUSTER 3341                
+POS_SIDER_404 5756                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101023934 1 0 17646673751672
+FirstTime 0
+LastTime 20211226132708
+LastUpdate 20220101180910 1 0 0 0 0
+TotalVisits 7                   
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 7                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 5 5 1398
+1 0 0 0 5 5 1751
+2 0 0 0 7 7 1978
+3 6 6 25422 7 9 2415
+4 0 0 0 4 4 1169
+5 0 0 0 189 189 53938
+6 0 0 0 1 1 226
+7 0 0 0 1 1 358
+8 0 0 0 2 2 454
+9 0 0 0 14 14 799
+10 0 0 0 14 14 3521
+11 0 0 0 5 5 1476
+12 0 0 0 1 1 228
+13 17 17 129540 19 19 5860
+14 0 0 0 2 2 584
+15 0 0 0 7 7 1835
+16 0 0 0 1 1 228
+17 0 0 0 2 2 584
+18 0 0 0 7 9 1560
+19 0 0 0 3 3 894
+20 0 0 0 2 2 311
+21 0 0 0 5 5 1623
+22 6 6 476 3 3 810
+23 0 0 0 23 24 6746
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 21 21 129888
+pt 6 6 25422
+in 2 2 128
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+Unknown 6 476 0 0
+cgi 7 33042 0 0
+xml 16 121920 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+win10 23 23
+Unknown 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+Unknown 2 2
+mozilla 4 4
+chrome88.0.4240.193 17 17
+firefox88.0 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20211205222753
+Cpanel-HTTP-Client/1.0 20211205221720
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20211205221720
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 29 29
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+404 119 42602
+409 9 747
+403 18 8019
+406 165 34804
+302 7 1610
+301 14 2964
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 43
+/blog/wp-admin/install.php 1 -
+/blog/mt-xmlrpc.cgi 19 -
+/config/aws.yml 1 -
+/cgi-bin/MT/mt-xmlrpc.cgi 4 -
+/backup/wp-admin/install.php 1 -
+/wp-content/plugins/backup_index.php 1 -
+/config.js 1 -
+/wp-content/ 6 -
+/haders.php 1 -
+/cms/mt-xmlrpc.cgi 4 -
+/old/wp-admin/install.php 1 -
+/.aws/credentials 1 -
+/wp-booking.php 1 -
+/cgi-bin/mt-xmlrpc.cgi 8 -
+/wp-load.php 1 -
+/wp-includes/lfx.php 1 -
+/cgi-bin/mt/mt-xmlrpc.cgi 8 -
+/test.php 1 -
+/_profiler/phpinfo 1 -
+/phpinfo 1 -
+/ 1 -
+/wp-admin/css/ 6 binance.com
+/wp/wp-admin/install.php 1 -
+/phpinfo.php 1 -
+/mt-xmlrpc.cgi 12 -
+/MT/mt-xmlrpc.cgi 8 -
+/wp-admin/install.php 1 -
+/info.php 1 -
+/new/wp-admin/install.php 1 -
+/wp-content/mu-plugins/db-safe-mode.php 1 -
+/wp-content/plugins/t_file_wp/t_file_wp.php 1 -
+/aws.yml 1 -
+/index.php 1 http://www.msg.premad.in/index.php
+/mtos/mt-xmlrpc.cgi 4 -
+/wordpress/wp-admin/install.php 1 -
+/wp-content/langar.php 1 -
+/oldsite/wp-admin/install.php 1 -
+/cms/wp-admin/install.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/mt/mt-xmlrpc.cgi 8 -
+/web/wp-admin/install.php 1 -
+/site/wp-admin/install.php 1 -
+/test/wp-admin/install.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 7
+159.242.227.96 17 17 129540 20211226132708
+193.27.14.216 6 6 25422 20211226031058
+103.21.58.155 2 2 128 20211205221720
+34.219.87.132 1 1 87 20211205222753
+64.78.149.164 1 1 87 20211205222753
+18.159.196.172 1 1 87 20211205222753
+3.142.122.14 1 1 87 20211205222753
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20211205 6 6 476 5
+20211226 23 23 154962 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/cgi-sys/suspendedpage.cgi 7 33042 2 1
+/.well-known/acme-challenge/6Zy-53J3dFu9BzSL1YBggVZehJ2XdtHQsHNCqOgTpsU 4 348 4 4
+/cgi-sys/suspendedpage.cgi/wordpress/wp-includes/wlwmanifest.xml 1 7620 0 0
+/.well-known/acme-challenge/5VO4NFYKGEJ1180TKE_KX3_P4C1GU8TN 1 64 1 0
+/cgi-sys/suspendedpage.cgi/wp/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/site/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/2020/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/cms/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/website/wp-includes/wlwmanifest.xml 1 7620 0 0
+/.well-known/acme-challenge/85UQD34N4ZKF0GIC67WI4VEC_WO2_EEJ 1 64 0 1
+/cgi-sys/suspendedpage.cgi/2019/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/test/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/shop/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/blog/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/wp2/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/wp1/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/news/wp-includes/wlwmanifest.xml 1 7620 0 0
+/cgi-sys/suspendedpage.cgi/sito/wp-includes/wlwmanifest.xml 1 7620 0 1
+/cgi-sys/suspendedpage.cgi/web/wp-includes/wlwmanifest.xml 1 7620 0 0
+END_SIDER

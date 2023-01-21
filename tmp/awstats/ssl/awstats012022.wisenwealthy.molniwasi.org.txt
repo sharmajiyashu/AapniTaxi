@@ -1,0 +1,332 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202201 will be lost/reset.
+# Last config file used to build this data file was /home1/molni2j8/tmp/awstats/ssl/awstats.wisenwealthy.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2028                
+POS_TIME 2702                
+POS_VISITOR 7319                
+POS_DAY 8548                
+POS_DOMAIN 3298                
+POS_LOGIN 3611                
+POS_ROBOT 3766                
+POS_WORMS 3974                
+POS_EMAILSENDER 4105                
+POS_EMAILRECEIVER 4248                
+POS_SESSION 8929                
+POS_SIDER 9076                
+POS_FILETYPES 4383                
+POS_DOWNLOADS 4624                
+POS_OS 4708                
+POS_BROWSER 4864                
+POS_SCREENSIZE 5183                
+POS_UNKNOWNREFERER 5257                
+POS_UNKNOWNREFERERBROWSER 5733                
+POS_ORIGIN 6204                
+POS_SEREFERRALS 6340                
+POS_PAGEREFS 6504                
+POS_SEARCHWORDS 6675                
+POS_KEYWORDS 6827                
+POS_MISC 2366                
+POS_ERRORS 6886                
+POS_CLUSTER 3467                
+POS_SIDER_404 6994                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220201133700 3 350 12895206953875
+FirstTime 20220101041639
+LastTime 20220131123641
+LastUpdate 20220201180406 3 0 2 0 0
+TotalVisits 26                  
+TotalUnique 24                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 59 682318 2 2 452
+1 2 2 85545 0 1 16915
+2 1 2 85545 3 4 17759
+3 0 0 0 3 4 17950
+4 3 3 102460 4 6 55610
+5 0 0 0 0 0 0
+6 1 1 16915 0 1 226
+7 0 0 0 0 0 0
+8 1 1 0 1 1 68630
+9 1 1 1229 0 0 0
+10 1 1 68630 0 0 0
+11 2 2 33830 0 0 0
+12 3 70 479026 0 0 0
+13 2 18 168173 0 0 0
+14 1 1 68630 2 3 17533
+15 0 0 0 1 1 226
+16 2 2 33830 0 0 0
+17 0 0 0 0 0 0
+18 1 1 68630 0 0 0
+19 12 57 596773 0 1 226
+20 2 4 104845 0 1 16915
+21 1 3 36215 0 1 16915
+22 0 0 0 0 0 0
+23 0 0 0 1 2 17498
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 29 144 1538769
+in 11 56 579858
+gr 4 4 274520
+jp 2 2 33830
+ru 2 3 20529
+ca 2 18 168173
+fr 0 1 16915
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+YandexBot/ 5 84575 20220131231709 0
+no_user_agent 2 106064 20220120042056 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+html 27 853510 0 0
+txt 1 16915 0 0
+png 5 43505 0 0
+js 79 687231 0 0
+woff2 2 143792 0 0
+jpeg 3 189522 0 0
+svg 2 4770 0 0
+css 88 357876 0 0
+php 1 12859 0 0
+Unknown 20 322614 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/.well-known/security.txt 1 0 16915
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+win10 52 3
+macosx 4 4
+linuxandroid 58 13
+Unknown 8 7
+winxp 1 1
+linux 63 18
+ios_iphone 42 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome94.0.4606.61 6 2
+firefox96.0 56 11
+chrome58.0.3029.110 2 2
+safari 42 4
+android 2 2
+Unknown 8 7
+chrome97.0.4692.99 46 1
+chrome79.0.3945.0 56 11
+firefox52.0 4 4
+chrome41.0.2224.3 1 1
+chrome92.0.4515.107 1 1
+firefox83.0 1 1
+chrome91.0.4472.114 2 2
+safari14.1.1 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+ZaldomoSearchBot(www.zaldamo.com/search.html) 20220121191640
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220125043717
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220129202545
+Go-http-client/1.1 20220125021645
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Go-http-client/1.1 20220125021645
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220129202545
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220125043717
+ZaldomoSearchBot(www.zaldamo.com/search.html) 20220121191640
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 23 28
+From1 2 2
+From2 2 18
+From3 1 1
+From4 22 179
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 18
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://tracxn.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+401 2 70
+406 11 2486
+404 5 2915
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/robots.txt 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+106.207.191.106 11 56 579858 20220123004505
+52.90.183.48 11 56 579858 20220127192008
+64.179.169.12 4 4 67660 20220114112314
+192.99.18.136 2 18 168173 20220126134913
+92.118.160.1 2 2 137260 20220123144731
+18.219.143.176 2 2 33830 20220101041639
+133.242.174.119 1 1 16915 20220110003113
+16.170.37.31 1 1 16915 20220108065218
+168.151.103.84 1 2 49357 20220113124326
+34.86.35.27 1 1 68630 20220129100937
+3.249.12.147 1 1 16915 20220110013548
+157.45.153.232 1 46 355727 20220131123641
+5.188.62.214 1 1 1229 20220131093646
+34.86.35.4 1 1 68630 20220129202545
+35.86.211.25 1 1 0 20220105085020
+3.86.65.89 1 1 68630 20220127184445
+153.120.6.148 1 1 16915 20220110003113
+92.118.160.41 1 1 68630 20220123020702
+176.53.220.149 1 1 16915 20220111204836
+216.19.223.79 1 4 24558 20220113124335
+75.15.244.98 1 1 16915 20220121191640
+45.90.63.120 1 3 36215 20220110214302
+54.87.37.116 1 1 68630 20220123003543
+92.118.160.37 1 1 68630 20220125043717
+45.90.63.44 0 1 16915 
+168.151.131.140 0 2 3103 
+74.85.216.180 0 1 1550 
+168.151.120.83 0 1 1747 
+37.187.110.9 0 1 16915 
+198.240.90.207 0 1 1103 
+168.151.113.1 0 9 26167 
+89.104.110.118 0 1 2385 
+209.242.204.48 0 4 15714 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20220101 2 2 33830 1
+20220105 1 1 0 1
+20220108 3 3 50745 2
+20220110 4 6 86960 4
+20220111 1 3 36215 1
+20220113 2 24 123299 2
+20220114 2 2 33830 1
+20220121 1 1 16915 1
+20220122 1 1 68630 1
+20220123 14 59 785748 4
+20220125 1 2 85545 1
+20220126 2 18 168173 1
+20220127 12 57 648488 2
+20220129 2 2 137260 2
+20220131 2 47 356956 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 26
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/ 27 853510 24 21
+/tickerBarData 6 101490 0 1
+/static/css/compass/css3 3 50745 1 1
+/index/SENSEX/prices 2 33830 0 0
+/api/banner 2 33830 0 0
+/index/NIFTYPHARMA/prices 2 33830 0 1
+/index/BANKNIFTY/prices 2 33830 0 0
+/index/NIFTY/prices 2 33830 0 0
+/static/fonts/fontawesome-webfont5b62.woff2 2 143792 0 0
+/about.php 1 12859 0 1
+/admin/Login 1 1229 1 1
+END_SIDER

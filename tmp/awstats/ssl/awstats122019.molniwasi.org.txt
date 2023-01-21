@@ -1,0 +1,539 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201912 will be lost/reset.
+# Last config file used to build this data file was /home/molni2j8/tmp/awstats/ssl/awstats.molniwasi.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2692                
+POS_VISITOR 10673               
+POS_DAY 14580               
+POS_DOMAIN 3454                
+POS_LOGIN 3935                
+POS_ROBOT 4090                
+POS_WORMS 4583                
+POS_EMAILSENDER 4714                
+POS_EMAILRECEIVER 4857                
+POS_SESSION 15305               
+POS_SIDER 15486               
+POS_FILETYPES 4992                
+POS_DOWNLOADS 5198                
+POS_OS 5246                
+POS_BROWSER 5419                
+POS_SCREENSIZE 6159                
+POS_UNKNOWNREFERER 6233                
+POS_UNKNOWNREFERERBROWSER 6658                
+POS_ORIGIN 7082                
+POS_SEREFERRALS 7216                
+POS_PAGEREFS 7360                
+POS_SEARCHWORDS 7539                
+POS_KEYWORDS 7691                
+POS_MISC 2356                
+POS_ERRORS 7750                
+POS_CLUSTER 3791                
+POS_SIDER_404 7896                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200101024113 11 1477 10091191962492
+FirstTime 20191201060721
+LastTime 20191231173813
+LastUpdate 20200101041657 11 0 10 0 0
+TotalVisits 201                 
+TotalUnique 99                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 99                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 57 1938193 17 19 208714
+1 10 10 99333 15 17 333168
+2 8 8 61878 14 15 183490
+3 6 6 82866 15 19 251280
+4 8 8 60556 10 32 796308
+5 4 4 21956 36 38 191978
+6 11 11 136683 47 48 180574
+7 6 6 52222 10 28 814421
+8 7 7 69587 5 6 162407
+9 58 58 1198370 16 19 283228
+10 11 11 82689 34 39 444720
+11 14 58 1910394 14 38 414052
+12 11 11 77996 8 11 326111
+13 11 11 99333 8 13 205011
+14 9 9 66045 6 7 140407
+15 11 11 60379 10 12 191359
+16 8 8 45234 9 11 155855
+17 9 9 67367 11 27 235952
+18 8 8 43912 36 41 457578
+19 9 9 77200 5 9 285387
+20 12 12 103122 13 18 246633
+21 6 6 27445 16 18 297278
+22 13 13 54890 11 11 157901
+23 7 7 71711 22 45 373978
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 106 106 1450462
+gb 95 95 521455
+nl 12 12 263472
+zz 10 10 54890
+de 9 97 3627965
+ru 6 6 97386
+cn 5 5 33363
+za 5 5 110665
+dk 4 4 103052
+gr 3 3 80919
+il 3 3 44266
+fr 3 3 66399
+ro 2 2 0
+tw 1 1 5489
+au 1 1 5489
+ca 1 1 5489
+it 1 1 5489
+is 1 1 22133
+cz 1 1 5489
+in 1 1 5489
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 76 1798268 20191231174849 0
+no_user_agent 62 1412976 20191231003218 0
+spider 41 406234 20191209235727 0
+bingbot/ 39 2093120 20191225014227 0
+bingpreview 37 1173555 20191213040220 0
+msnbot/ 19 191640 20191204113402 0
+curl 3 66399 20191215162202 0
+libwww\-perl 3 80919 20191230194126 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 12300 20191209034258 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+svg 10 108416 0 0
+jpg 6 49260 0 0
+css 16 111952 0 0
+js 12 162912 0 0
+png 18 1067748 0 0
+jpeg 26 2111210 0 0
+html 269 2897764 0 0
+php 1 99 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win7 69 69
+winlong 1 1
+win10 37 37
+winvista 1 1
+winxp 2 2
+macosx11 5 5
+Unknown 44 44
+linux 196 108
+win8 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 34
+firefox26.0 2 2
+chrome52.0.2743.116 51 51
+chrome66.0.3359.117 3 3
+chrome72.0.3602.2 4 4
+chrome78.0.3904.108 95 95
+netscape 2 2
+firefox58.0 1 1
+opera12.01 1 1
+netscape5.0 22 22
+chrome79.0.3945.79 3 3
+chrome57.0.2987.133 4 4
+firefox57.0 1 1
+Unknown 23 23
+chrome13.0.782.112 1 1
+firefox65.0 1 1
+msie6.0 1 1
+chrome65.0.3325.181 1 1
+chrome55.0.3085.76 1 1
+chrome50.0.2661.102 3 3
+chrome41.0.2227.0 1 1
+chrome41.0.2225.0 1 1
+chrome34.0.1847.137 1 1
+chrome36.0.1985.125 2 2
+chrome74.0.3729.169 2 2
+firefox51.0 1 1
+firefox62.0 1 1
+chrome41.0.2228.0 4 4
+safari10.0.3 1 1
+opera53.0.2907.99 3 3
+chrome40.0.2214.85 6 6
+firefox50.0 90 2
+firefox68.0 2 2
+chrome60.0.3112.113 22 22
+chrome27.0.1453.93 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla 20191216002230
+Mozilla/5.0_zgrab/0.x 20191231134729
+Z 20191231110328
+Go-http-client/1.1 20191230174605
+fasthttp 20191202083927
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20191224031456
+HTTP_Banner_Detection_(https://security.ipip.net) 20191231173813
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20191224031456
+fasthttp 20191202083927
+Z 20191231110328
+Go-http-client/1.1 20191230174605
+kubectl/v1.12.0_(linux/amd64)_kubernetes/0ed3388 20191224002624
+HTTP_Banner_Detection_(https://security.ipip.net) 20191231173813
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 268 356
+From1 0 0
+From2 0 0
+From3 1 1
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://216.10.241.214:443 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 2 22269
+421 1 322
+301 66 15361
+403 16 9456
+404 171 52588
+409 1 83
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 85
+/assets/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+//admin/config.php 3 -
+/images/portfolio/item-2.png 2 -
+/store/ 1 -
+/contact/6EF0B8049D8397444E0D1AA9U2DQG/markup 1 -
+/magento/admin/ 1 -
+/sitemap.xml 3 -
+/.vscode/sftp.json 1 -
+/libraries/jscripts/kcfinder/upload.php 1 -
+/magento2/pub/errors/503.php 1 -
+/_VTI_BIN/WSTS 1 -
+/version 3 -
+/.well-known/security.txt 1 -
+/admin/login.php 1 -
+/wp-admin/setup-config.php 1 -
+/deployment-config.json 1 -
+/remote/login 3 -
+/tbl_add.php 1 -
+/dana-na/../dana/html5acc/guacamole/../../../../../../../etc/passwd 1 -
+/solr/ 1 -
+/api/v1/namespaces/default/pods 1 -
+/installation/index.php 1 -
+/user/login 1 -
+/.remote-sync.json 1 -
+/admin/ckeditor/kcfinder/upload.php 1 -
+/MAPI/API 1 -
+/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/api/v1/pods 3 -
+/.vscode/ftp-sync.json 1 -
+/sftp-config.json 1 -
+/.env 3 -
+/MNEGES 1 -
+/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/images/portfolio/item-6.png 4 -
+/cgi-bin/config.exp 3 -
+/administrator 1 -
+/images/portfolio/item-4.png 2 -
+/assets/admin/ckeditor/kcfinder/upload.php 1 -
+/libraries/jscripts/kcfinder/upload/files/priv.php.jd 1 -
+/store/pub/errors/503.php 1 -
+/assets/plugins/ckeditor/kcfinder/upload.php 1 -
+/wp-login.php 1 -
+/nmaplowercheck1576705296 1 -
+/shop/admin/ 1 -
+/scripts/jquery/kcfinder/upload/files/priv.php.jd 1 -
+/images/portfolio/item-1.png 1 -
+/store/admin/ 1 -
+/robots.txt 18 -
+/kcfinder-2.51/upload.php 1 -
+/magento2/ 1 -
+/magento/ 1 -
+/assets/js/mylibs/kcfinder/upload/files/priv.php.jd 1 -
+/assets/plugins/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/application/configs/application.ini 1 -
+/nmaplowercheck1576708521 1 -
+/ 41 -
+/evox/about 2 -
+/magento/pub/errors/503.php 1 -
+/HNAP1/ 1 https://216.10.241.214/
+/admin/ 1 -
+/login/submit/only 2 -
+/assets/js/mylibs/kcfinder/upload.php 1 -
+/assets/ckeditor/kcfinder/upload.php 1 -
+/shop/pub/errors/503.php 1 -
+/api/v1 1 -
+/shop/ 1 -
+/README.txt 1 -
+/wp-json/wp/v2/users 1 -
+/HNAP1 2 -
+/wp-admin/install.php 1 -
+/images/portfolio/item-3.png 4 -
+/ckeditor/kcfinder/upload.php 1 -
+/magento2/admin/ 1 -
+/js/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/pub/errors/503.php 1 -
+/.ftpconfig 1 -
+/language/en-GB/en-GB.xml 1 -
+/.git/config 5 -
+/manager/html 1 -
+/scripts/jquery/kcfinder/upload.php 1 -
+/assets/admin/ckeditor/kcfinder/upload/files/priv.php.jd 1 -
+/js/ckeditor/kcfinder/upload.php 1 -
+/kcfinder-2.51/upload/files/priv.php.jd 1 -
+/admin/images/cal_date_over.gif 1 -
+/ftpsync.settings 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 99
+54.196.229.208 52 52 1134272 20191224090807
+139.162.113.204 10 10 221330 20191231173813
+51.158.123.170 9 9 49401 20191214205451
+51.158.98.255 8 8 43912 20191214192543
+163.172.154.242 8 8 43912 20191214233738
+138.246.253.5 6 6 0 20191219112019
+163.172.164.113 6 6 32934 20191214185640
+163.172.186.227 6 6 32934 20191214175449
+51.158.122.97 6 6 32934 20191214180632
+51.158.122.212 6 6 32934 20191214191810
+51.15.192.148 6 6 32934 20191214192148
+51.158.117.104 6 6 32934 20191214232129
+51.158.109.172 6 6 32934 20191215001613
+163.172.161.137 5 5 27445 20191225054642
+128.14.133.58 5 5 28767 20191228112221
+51.158.102.212 5 5 27445 20191224190854
+163.172.157.154 5 5 27445 20191214150720
+213.32.122.82 4 4 103052 20191223104110
+71.6.232.7 4 4 23278 20191225014230
+169.197.108.42 4 4 21956 20191222065105
+169.197.108.6 4 4 21956 20191228022939
+128.14.134.170 4 4 21956 20191230041722
+163.172.158.127 4 4 21956 20191214183016
+77.125.5.188 3 3 44266 20191216131312
+128.14.134.134 3 3 17789 20191219173706
+188.165.211.181 1 1 22133 20191227031025
+52.53.190.208 1 1 5489 20191221101718
+58.19.92.234 1 1 22133 20191213110203
+13.70.154.68 1 1 5489 20191221180640
+13.228.25.231 1 1 5489 20191231010405
+5.8.10.202 2 2 42142 20191228034234
+163.172.141.149 1 1 5489 20191214231339
+45.79.152.7 1 1 0 20191216002230
+159.203.100.175 1 1 6811 20191201070533
+151.217.176.75 1 1 5489 20191227105223
+52.178.99.94 1 1 5489 20191221122110
+52.79.212.94 1 1 5489 20191207113725
+34.210.6.206 1 1 5489 20191230113716
+198.143.158.178 1 1 5489 20191204222254
+104.197.32.38 1 1 5489 20191222171300
+169.197.108.38 2 2 10978 20191226061300
+138.197.137.225 1 1 0 20191205220024
+45.83.64.63 1 1 5489 20191228163543
+62.4.14.198 1 1 22133 20191210061458
+49.83.20.93 2 2 2920 20191210121511
+163.172.164.17 3 3 16467 20191214214549
+185.100.87.191 2 2 0 20191218223525
+142.93.172.21 1 1 5489 20191223221039
+35.193.129.95 1 1 5489 20191228091826
+151.80.47.126 1 1 5489 20191215222026
+172.105.4.227 1 1 36653 20191202125207
+198.108.66.80 1 1 5489 20191209024226
+13.52.181.35 1 1 6811 20191202163516
+198.143.155.138 1 1 5489 20191214212139
+159.203.201.81 1 1 5489 20191207060455
+108.178.61.58 2 2 10978 20191230000842
+213.159.213.236 2 2 10978 20191217121011
+198.108.66.96 1 1 5489 20191223084426
+82.221.105.6 1 1 22133 20191211201831
+198.108.66.32 1 1 5489 20191231134729
+196.52.43.94 1 1 22133 20191227074741
+80.82.77.227 1 1 5489 20191209184128
+196.52.43.88 1 1 22133 20191213193258
+138.197.144.119 1 1 0 20191205220022
+45.9.148.123 1 1 0 20191203135153
+51.15.240.29 1 1 5489 20191214155941
+157.245.4.67 2 2 10978 20191219125235
+18.144.19.187 1 1 5489 20191229123544
+198.108.67.80 1 1 6811 20191203175923
+198.108.67.16 1 1 6811 20191202200502
+196.52.43.55 1 1 22133 20191209204617
+159.203.201.78 1 1 6811 20191203202846
+185.43.221.135 1 1 5489 20191230174605
+128.14.209.250 1 1 5489 20191217140039
+112.64.199.58 1 1 5489 20191222223123
+137.226.113.20 2 90 3622476 20191221005404
+45.148.10.16 1 1 5489 20191223114940
+139.162.116.133 1 1 36653 20191201060721
+159.203.197.172 1 1 5489 20191230081510
+218.211.168.178 1 1 5489 20191231110328
+117.93.32.242 1 1 2821 20191208063258
+54.153.23.101 1 1 5489 20191216122430
+43.240.98.93 1 1 5489 20191209184123
+134.209.225.113 1 1 5489 20191230113051
+92.118.160.53 1 1 22133 20191224031456
+51.15.241.250 1 1 5489 20191224000917
+196.52.84.46 1 1 22133 20191207101433
+198.108.66.112 1 1 5489 20191216113628
+185.173.35.57 1 1 22133 20191218143938
+92.118.161.25 1 1 36653 20191203064017
+51.158.103.247 2 2 10978 20191214191058
+185.220.101.50 1 1 22133 20191212192858
+163.172.163.25 1 1 5489 20191224153858
+96.127.169.2 1 1 5489 20191209181004
+92.118.161.57 1 1 22133 20191220014123
+68.183.66.203 1 1 5489 20191209133103
+196.52.43.97 1 1 22133 20191206232745
+195.154.200.161 1 1 22133 20191227033338
+159.203.193.251 1 1 5489 20191215203354
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20191201 2 2 43464 2
+20191202 6 6 130392 6
+20191203 5 5 57086 5
+20191204 2 2 12300 2
+20191205 4 4 10978 4
+20191206 3 3 49755 3
+20191207 5 5 33111 5
+20191208 4 4 30443 4
+20191209 7 7 71711 7
+20191210 6 6 58164 5
+20191211 2 2 27622 2
+20191212 2 2 27622 2
+20191213 14 14 110134 10
+20191214 82 126 2272491 74
+20191215 3 3 16467 3
+20191216 8 8 99510 6
+20191217 4 4 21956 3
+20191218 6 6 55244 5
+20191219 6 6 16467 5
+20191220 1 1 22133 1
+20191221 4 48 1827705 4
+20191222 4 4 38600 4
+20191223 5 5 44089 5
+20191224 58 58 1183850 7
+20191225 3 3 16467 3
+20191226 3 3 33111 3
+20191227 5 5 94021 5
+20191228 5 5 27445 5
+20191229 1 1 5489 1
+20191230 6 6 32934 6
+20191231 4 4 38600 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 4
+15mn-30mn 3
+5mn-15mn 4
+0s-30s 190
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 267 2892122 199 199
+/contact-us.html 2 5642 2 1
+/sendemail.php 1 99 0 1
+END_SIDER
