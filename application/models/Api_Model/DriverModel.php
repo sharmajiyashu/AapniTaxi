@@ -12,6 +12,50 @@ Class DriverModel extends CI_Model {
 			return  false;
 		}
 	}
+
+	function save_driver_refferal($insert_id,$referral_code){
+        $user_data = $this->db->where('referral_code',$referral_code)->get('driver')->row_array();
+        $referral_from = isset($user_data['user_id']) ? $user_data['user_id'] :'';
+        $refferal_to = isset($insert_id) ? $insert_id :'';
+        $refferal_bonus = $this->db->where('type','driver_referral_bonus')->get('referral_master')->row_array();
+        $refferal_bonus = isset($refferal_bonus['amount']) ? $refferal_bonus['amount'] :'0';
+
+        $refferal_data = array(
+            'driver_id' => isset($user_data['id']) ? $user_data['id'] :'',
+            'mobile'  => isset($user_data['mobile']) ? $user_data['mobile'] :'',
+            'email'  => isset($user_data['email']) ? $user_data['email'] :'',
+			'type' => 'driver',
+			'referral_to' => isset($insert_id) ? $insert_id :'',
+            'referral_date'  => date('Y-m-d h:i:s'),
+            'referral_earn_amount' => isset($refferal_bonus) ? $refferal_bonus :'0',            
+        );
+        $this->db->insert('referral_mapping',$refferal_data);
+
+        $user_wallet = $this->db->where('user_id',$user_data['id'])->where('type','Driver')->get('wallet')->row_array();
+        if(empty($user_wallet)){
+            $wallet_amount = $refferal_bonus;
+            $wallet_data = array(
+                'user_id' => $user_data['id'],
+                'wallet_amount' => $refferal_bonus,
+                'type' => 'Driver',
+                'created_at' => date('Y-m-d h:i:s'),
+                'updated_at' => date('Y-m-d h:i:s'),
+            );
+            $this->db->insert('wallet',$wallet_data);
+        }else{
+            $wallet_amount = $refferal_bonus + $user_wallet['wallet_amount'];
+            $wallet_data = array(
+                'wallet_amount' => $refferal_bonus + $user_wallet['wallet_amount'],
+                'updated_at' => date('Y-m-d h:i:s'),
+            );
+            $this->db->where('wallet_id',$user_wallet['wallet_id'])->update('wallet',$wallet_data);
+        }
+
+        $data2 = ['user_id'=>$user_data['id'],'wallet_amount'=>$wallet_amount,'transaction_amount'=>$refferal_bonus,'transaction_type'=>'cr','type' => 'Driver','created_by'=>$user_data['id'],'created_at'=>date('Y-m-d h:i:s')];
+        $this->db->insert('wallet_history', $data2);
+
+
+    }
 	
 	public function driverLogin($postData,$otp) {     
 	    extract($postData);
@@ -116,21 +160,55 @@ Class DriverModel extends CI_Model {
 	public function apiSaveBasicDetail($postdata,$otp) {
 		  //  $otp1 = '1234';
 		extract($postdata);
-		$data = array(
-			'first_name'=>isset($first_name) ? $first_name : '',
-			'last_name'=>isset($last_name) ? $last_name : '',
-			'mobile'=> isset($mobile) ? $mobile : '',
-			'email'=> isset($email) ? $email : '',
-			'password'=> isset($password) ? md5($password) : '',
-			'otp'=>$otp,
-			'dob'=>isset($dob) ? $dob : '',
-			'gender'=>isset($gender) ? $gender : '',
-			'basic-step'=>1,
-			'updated_at'=>date('Y-m-d h:i:s'),
-			'created_at'=>date('Y-m-d h:i:s'),
-		);
-		$this->db->insert('driver', $data);
-		$insert = $this->db->insert_id();
+
+		$referral_code = isset($postdata['referral_code']) ? $postdata['referral_code'] :'';
+		if(!empty($referral_code)){
+			$data = array(
+				'first_name'=>isset($first_name) ? $first_name : '',
+				'last_name'=>isset($last_name) ? $last_name : '',
+				'mobile'=> isset($mobile) ? $mobile : '',
+				'from_referral_code' => $referral_code,
+				'email'=> isset($email) ? $email : '',
+				'password'=> isset($password) ? md5($password) : '',
+				'otp'=>$otp,
+				'dob'=>isset($dob) ? $dob : '',
+				'gender'=>isset($gender) ? $gender : '',
+				'basic-step'=>1,
+				'updated_at'=>date('Y-m-d h:i:s'),
+				'created_at'=>date('Y-m-d h:i:s'),
+			);
+			
+			$this->db->insert('driver', $data);
+			$insert = $this->db->insert_id();
+			$this->save_driver_refferal($insert,$referral_code);
+		}else{
+			$data = array(
+				'first_name'=>isset($first_name) ? $first_name : '',
+				'last_name'=>isset($last_name) ? $last_name : '',
+				'mobile'=> isset($mobile) ? $mobile : '',
+				'email'=> isset($email) ? $email : '',
+				'password'=> isset($password) ? md5($password) : '',
+				'otp'=>$otp,
+				'dob'=>isset($dob) ? $dob : '',
+				'gender'=>isset($gender) ? $gender : '',
+				'basic-step'=>1,
+				'updated_at'=>date('Y-m-d h:i:s'),
+				'created_at'=>date('Y-m-d h:i:s'),
+			);
+			$this->db->insert('driver', $data);
+			$insert = $this->db->insert_id();
+		}
+		
+		if(!empty($insert)){
+            $id = str_pad($insert, 6, "0", STR_PAD_LEFT);
+            $refferal_code = strrev ($id);
+            $refferal_code = 'ATD'.$refferal_code;
+            $update_refferal = array(
+                'referral_code' => $refferal_code
+            );
+            $this->db->where('id',$insert)->update('driver',$update_refferal);
+        } 
+		
 		if ($insert > 0) {
 		    $driverDetail = $this->getDriverDetail($insert);
 			return  $driverDetail;

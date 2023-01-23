@@ -3334,6 +3334,19 @@ class Api extends MY_Controller
         } else {
             $postData = $this->input->post();
             $id = (isset($postData['id']) && $postData['id'] != '') ? $postData['id'] : '';
+            //check refferal code is valid 
+            $referral_code = isset($_POST['referral_code']) ? $_POST['referral_code'] :''; 
+            if(!empty($referral_code)){
+                $data = $this->db->where('referral_code',$referral_code)->get('driver')->row_array();
+               if(empty($data)){
+                    $output = array(
+                        'status' => Failure,
+                        'message' => 'Invalid referral code',
+                        'data' => array(),
+                    );
+                    echo json_encode($output);die;
+               }
+            } 
             $checkUniqueMobile = $this->DriverModel->checkUniqueMobile($postData['mobile'], $id);
             if ($checkUniqueMobile) {
                 $output = array(
@@ -3344,6 +3357,7 @@ class Api extends MY_Controller
             } else {
                 $otp = rand(1000, 9999);
                 if ($id == '') {
+                    // print_r($_POST);die;
                     $data = $this->DriverModel->apiSaveBasicDetail($_POST, $otp);
                 } else {
                     //check the $id of the driver

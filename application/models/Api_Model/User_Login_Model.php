@@ -78,6 +78,8 @@ Class User_Login_Model extends MY_Model {
             'mobile'  => isset($user_data['mobile']) ? $user_data['mobile'] :'',
             'email'  => isset($user_data['email']) ? $user_data['email'] :'',
             'referral_date'  => date('Y-m-d h:i:s'),
+            'type' => 'user',
+            'referral_to' => isset($refferal_to) ? $refferal_to :'',
             'referral_earn_amount' => isset($refferal_bonus) ? $refferal_bonus :'0',            
         );
         $this->db->insert('referral_mapping',$refferal_data);
