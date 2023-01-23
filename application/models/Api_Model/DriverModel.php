@@ -134,22 +134,55 @@ Class DriverModel extends CI_Model {
 
 	public function saveBasicDetail($postdata) {
 		extract($postdata);
-		$data = array(
-		    'first_name'=>isset($first_name) ? $first_name : '',
-			'last_name'=>isset($last_name) ? $last_name : '',
-			'mobile'=> isset($mobile) ? $mobile : '',
-			'email'=> isset($email) ? $email : '',
-			'basic-step'=>1,
-			'dob'=>isset($dob) ? $dob : '',
-			'gender'=>isset($gender) ? $gender : '',
-			'updated_at'=>date('Y-m-d h:i:s'),
-			'updated_by' => $this->session->userdata('user_id'),
-			'created_at'=>date('Y-m-d h:i:s'),
-			'created_by' => $this->session->userdata('user_id'),
-		);
 
-		$this->db->insert('driver', $data);
-		$insert = $this->db->insert_id();
+		$referral_code = isset($postdata['referral_code']) ? $postdata['referral_code'] :'';
+		if(!empty($referral_code)){
+			$data = array(
+				'first_name'=>isset($first_name) ? $first_name : '',
+				'last_name'=>isset($last_name) ? $last_name : '',
+				'from_referral_code' => $referral_code,
+				'mobile'=> isset($mobile) ? $mobile : '',
+				'email'=> isset($email) ? $email : '',
+				'basic-step'=>1,
+				'dob'=>isset($dob) ? $dob : '',
+				'gender'=>isset($gender) ? $gender : '',
+				'updated_at'=>date('Y-m-d h:i:s'),
+				'updated_by' => $this->session->userdata('user_id'),
+				'created_at'=>date('Y-m-d h:i:s'),
+				'created_by' => $this->session->userdata('user_id'),
+			);
+	
+			$this->db->insert('driver', $data);
+			$insert = $this->db->insert_id();
+			$this->save_driver_refferal($insert,$referral_code);
+		}else{
+			$data = array(
+				'first_name'=>isset($first_name) ? $first_name : '',
+				'last_name'=>isset($last_name) ? $last_name : '',
+				'mobile'=> isset($mobile) ? $mobile : '',
+				'email'=> isset($email) ? $email : '',
+				'basic-step'=>1,
+				'dob'=>isset($dob) ? $dob : '',
+				'gender'=>isset($gender) ? $gender : '',
+				'updated_at'=>date('Y-m-d h:i:s'),
+				'updated_by' => $this->session->userdata('user_id'),
+				'created_at'=>date('Y-m-d h:i:s'),
+				'created_by' => $this->session->userdata('user_id'),
+			);
+			$this->db->insert('driver', $data);
+			$insert = $this->db->insert_id();
+		}
+
+		if(!empty($insert)){
+            $id = str_pad($insert, 6, "0", STR_PAD_LEFT);
+            $refferal_code = strrev ($id);
+            $refferal_code = 'ATD'.$refferal_code;
+            $update_refferal = array(
+                'referral_code' => $refferal_code
+            );
+            $this->db->where('id',$insert)->update('driver',$update_refferal);
+        } 
+		
 		if ($insert > 0) {
 			return  $insert;
 		} else {         

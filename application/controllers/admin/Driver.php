@@ -27,6 +27,16 @@ class Driver extends CI_Controller {
 		extract($_POST);
 		// debug($_POST);die;
 		$error = array();
+
+		
+		if(!empty($referral_code)){
+			$check_refferal = $this->db->where('referral_code',$referral_code)->get('driver')->num_rows();
+			if($check_refferal == 0){
+				$error['referral_code'] = 'Invalid referral code';
+			}
+		}
+		
+
 		if (trim($first_name)== '') {
 			$error['first_name'] = 'First Name can not be blank';
 		}
@@ -74,6 +84,7 @@ class Driver extends CI_Controller {
 			$error = $this->basicDetailValidation($_POST,$id);			
 			if (empty($error)) {				
 				if ($id == '') {
+					// print_r($_POST);die;
 					$save = $this->DriverModel->saveBasicDetail($_POST);				
 				}else{
 					$update = $this->DriverModel->updateBasicDetail($_POST,$id);	

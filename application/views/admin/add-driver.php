@@ -133,6 +133,15 @@
                                                 <div><font color="#f00000" size="2px"><?php if (isset($error['password'])) echo $error['password']; ?></font></div>
                                              </div>
                                           </div>
+
+                                          <div class="col-lg-6 p-t-20">
+                                             <div
+                                                class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                                <input class="mdl-textfield__input" type="text"  name="referral_code" value="<?= isset($data['from_referral_code']) ? $data['from_referral_code'] : ''; ?>">
+                                                <label class="mdl-textfield__label">Referral Code</label>
+                                                <div><font color="#f00000" size="2px"><?php if (isset($error['referral_code'])) echo $error['referral_code']; ?></font></div>
+                                             </div>
+                                          </div>
                                           
                                           <?php 
                                             if(isset($data['profile_pic'])){ ?>
