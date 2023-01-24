@@ -147,8 +147,10 @@
 												<tr>
 													<?php
 														if($val['type'] == 'referral_bonus'){ ?>
-															<td>Referral Bonus</td>
-														<?php }else{
+															<td>User Referral Bonus</td>
+														<?php }elseif($val['type'] == 'driver_referral_bonus'){
+															echo "<td>Driver Referral Bonus</td>";
+														}else{
 															echo '<td>'.$val['type'].'</td>';
 														}
 													?>	
