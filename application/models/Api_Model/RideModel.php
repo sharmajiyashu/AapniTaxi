@@ -708,6 +708,38 @@ Class RideModel extends CI_Model {
             return  false;
         }
     }
+
+
+    public function cancelpackageRide($postdata) {
+        extract($postdata);
+        
+        $driver_id = $this->getDriverDetail($postdata['ride_id']);
+        
+        //added by lgarg to get the driver id
+        $ride_data = $this->db->select('driver_id')->where('id',$ride_id)->get('package_ride')->row_array();
+        $driver_id_new = isset($ride_data['driver_id']) ? $ride_data['driver_id'] : '';
+        
+        # User Cancelled driver changed status online 
+        $this->db->where('id',$driver_id_new)->update('driver',['driver_current_status' => 'online']);
+        
+        $data = array(
+            'canceled_type'=> isset($postdata['canceled_type']) ? $postdata['canceled_type'] : '',
+            'canceled_reason'=> isset($canceled_reason) ? $canceled_reason : '',
+            'canceled'=> 1,
+            'location_status' => 3,
+            'updated_at'=>date('Y-m-d h:i:s'),
+            'updated_by'=> isset($postdata['id']) ? $postdata['id'] : ''
+        );
+    
+        $this->db->where('id',$postdata['ride_id']);
+        $update = $this->db->update('package_ride', $data);
+        
+        if ($update) {
+            return  true;
+        } else {         
+            return  false;
+        }
+    }
     
     public function checkDriveOnlineStatus($driver_id){
       $data = $this->db->where('driver_current_status','online')->where('id',$driver_id)->get('driver')->num_rows();

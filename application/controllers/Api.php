@@ -2358,6 +2358,50 @@ class Api extends MY_Controller
         die;
     }
 
+    public function cancelPackageRide()
+    {
+        $method = $this->input->server('REQUEST_METHOD');
+        if ($method != 'POST') {
+            $output = array(
+                'status' => Failure,
+                'message' => 'Bad request.',
+                'data' => array(),
+            );
+        } else {
+            extract($_POST);
+            if (!empty($ride_id) && $ride_id != '' && $ride_id != 'null' && trim($ride_id) != '') {
+                $update = $this->RideModel->cancelpackageRide($_POST);
+
+
+                if ($update) {
+                    $output = array(
+                        'status' => Success,
+                        'message' => 'ride cancel successfully',
+                        'data' => array(),
+                    );
+                } else {
+                    $output = array(
+                        'status' => Failure,
+                        'message' => 'something wrong',
+                        'data' => array(),
+                    );
+                }
+            } else {
+                $output = array(
+                        'status' => Success,
+                        'message' => 'ride cancel successfully',
+                        'data' => array(),
+                    );
+            }
+        }
+		$now_date = Date('Y-m-d h:i:s');
+        $url = $this->input->server('REQUEST_URI');
+        $error_log = $now_date.': API_NAME  => '.$url.''.' RESPONSE_DATA : '.json_encode($output);
+        write_file(APPPATH.'../Api_log.txt', $error_log."\n", 'a+');
+        echo json_encode($output);
+        die;
+    }
+
     public function getAllDestination()
     {
         $method = $this->input->server('REQUEST_METHOD');
@@ -4737,6 +4781,66 @@ class Api extends MY_Controller
                 if (!empty($_POST)) {
                     extract($_POST);
                     $cab = $this->db->select('driver_id')->where('id', $ride_id)->get('cab_ride')->row_array();
+                    $data = array(
+                     'cab_ride_id' => isset($ride_id) ? $ride_id : '',
+                     'to_user' => isset($user_id) ? $user_id : '',
+                     'by_driver' => isset($cab['driver_id']) ? $cab['driver_id'] : '',
+                     'rating' => isset($rating) ? $rating : '',
+                     'comment' => isset($comment) ? $comment : '',
+                     'created_at' => date('Y-m-d h:i:s')
+                  );
+                    $this->db->insert('rating_user', $data);
+                    $LastID = $this->db->insert_id();
+                    if ($LastID != '') {
+                        $output = array(
+                        'status' => Success,
+                        'message' => 'Thanku For Review',
+                        'data' => array(),
+                    );
+                    } else {
+                        $output = array(
+                        'status' => Failure,
+                        'message' => 'Review not be insert',
+                        'data' => array(),
+                    );
+                    }
+                } else {
+                    $output = array(
+                    'status' => Failure,
+                    'message' => 'Invalid Data',
+                    'data' => array(),
+                );
+                }
+            }
+        } catch (\Throwable $e) {
+            $output = array(
+            'status' => Failure,
+            'message' => $e->getMessage() . ' on line ' . $e->getLine(),
+            'data' => array(),
+        );
+        }
+		$now_date = Date('Y-m-d h:i:s');
+        $url = $this->input->server('REQUEST_URI');
+        $error_log = $now_date.': API_NAME  => '.$url.''.' RESPONSE_DATA : '.json_encode($output);
+        write_file(APPPATH.'../Api_log.txt', $error_log."\n", 'a+');
+        echo json_encode($output);
+        die;
+    }
+
+    public function userPackageReview()
+    {
+        try {
+            $method = $this->input->server('REQUEST_METHOD');
+            if ($method != 'POST') {
+                $output = array(
+                'status' => Failure,
+                'message' => 'Bad request.',
+                'data' => array(),
+            );
+            } else {
+                if (!empty($_POST)) {
+                    extract($_POST);
+                    $cab = $this->db->select('driver_id')->where('id', $ride_id)->get('package_ride')->row_array();
                     $data = array(
                      'cab_ride_id' => isset($ride_id) ? $ride_id : '',
                      'to_user' => isset($user_id) ? $user_id : '',
