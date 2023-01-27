@@ -1353,6 +1353,106 @@ class Api extends MY_Controller
         return $data2;
     }
 
+
+    public function bookPackageRide()
+    {
+        $method = $this->input->server('REQUEST_METHOD');
+        if ($method != 'POST') {
+            $output = array(
+                'status' => Failure,
+                'message' => 'Bad request.',
+                'data' => array(),
+            );
+        } else {
+            sleep(3);
+            $this->db->insert('json_test2', array('data' => json_encode($_POST)));
+
+            $distance_from_source_destination = isset($_POST['distance']) ? $_POST['distance'] : '';
+
+            $date = date('Y-m-d');
+            # Check Driver Will be Online or Not.
+            $driverOnline = $this->RideModel->checkDriveOnline();
+            if ($driverOnline) {
+                # Get Driver Near By.
+                # If the user has stucked the bike, then the driver will also be the bike.
+                $cabData = $this->RideModel->getCabNearBy($_POST);
+                
+                $user_ride_data = $this->db->where('user_id',$_POST['user_id'])->where_in('location_status', [0,1])->get('package_ride')->row_array();
+                if(empty($user_ride_data)){
+                    if (!empty($cabData)) {
+                        $cancledcab = $this->db->select('cab_id')->where(['user_id' => $_POST['user_id'], 'canceled' => 1, 'canceled_type' => 'Driver'])->where('DATE(created_at)', $date)->get('package_ride')->row();
+                        $cancledcabid  = $cancledcab->cab_id ?? 0;
+                        $cabData2 = [];
+                        foreach ($cabData as $key => $val):
+                            if ($val['cab_id'] == $cancledcabid):
+                                unset($val[$key]); else:
+                                    $cabData2[$key] = $val;
+                                endif;
+                        endforeach;
+                        // print_r($cabData2);die;
+                        # Get All Cab Under 20Km Radius In Lal Kothi
+
+                        $desination_latitude = isset($_POST['destination_latitude']) ? $_POST['destination_latitude'] : '';
+                        $destination_longitude = isset($_POST['destination_longitude']) ? $_POST['destination_longitude'] : '';
+
+                        $UnderDriverTwentyKm = $this->calculateAllCabDistanceUnderTwentyKm($cabData, $desination_latitude, $destination_longitude);
+                        
+                        // print_r($UnderDriverTwentyKm);die;
+                        if (!empty($UnderDriverTwentyKm)) {
+                            // echo "dd";die;
+                            # Get All Cab Distance Calculate
+                            #Old Code
+                            // $data = $this->calculateAllCabDistance($cabData, $_POST);
+
+                            #New Code  Written By Pulkit Mangal (15-7-2022)
+                            $data = $this->calculateAllCabDistance($cabData, $_POST);
+                            // print_r($data);die;
+                            $distance = array_column($data, 'distance');
+                            $min_distance = $data[array_search(min($distance), $distance)];
+                            // print_r($min_distance);die;
+                            $cabAndDriverdata = $this->RideModel->savePackageRide($_POST, $min_distance, $distance_from_source_destination);
+                            $output = array(
+                                    'status' => Success,
+                                    'message' => 'package ride booked successfully',
+                                    'data' => $cabAndDriverdata,
+                                );
+                        } else {
+                            $output = array(
+                                'status' => Failure,
+                                'message' => 'Sorry! Unable to find driver.Kindly try again.',
+                                'data' => array(),
+                            );
+                        }
+                    } else {
+                        $output = array(
+                            'status' => Failure,
+                            'message' => 'Driver not found',
+                            'data' => array(),
+                        );
+                    }
+                } else {
+                    $output = array(
+                        'status' => Failure,
+                        'message' => 'Sorry! Unable to find driver.',
+                        'data' => "",
+                    );
+                }
+            } else {
+                $output = array(
+                'status' => Failure,
+                'message' => 'Sorry! Unable to find driver.',
+                'data' => "",
+            );
+            }
+        }
+		$now_date = Date('Y-m-d h:i:s');
+        $url = $this->input->server('REQUEST_URI');
+        $error_log = $now_date.': API_NAME  => '.$url.''.' RESPONSE_DATA : '.json_encode($output);
+        write_file(APPPATH.'../Api_log.txt', $error_log."\n", 'a+');
+        echo json_encode($output);
+        die;
+    }
+
     public function bookRide()
     {
         $method = $this->input->server('REQUEST_METHOD');
@@ -1848,6 +1948,42 @@ class Api extends MY_Controller
             // }
 
             if (!empty($city)) {
+                $output = array(
+                    'status' => Success,
+                    'message' => 'Ride Details fetch successfully',
+                    'data' => $city,
+                );
+            } else {
+                $output = array(
+                    'status' => Failure,
+                    'message' => 'Something wrong',
+                    'data' => array(),
+                );
+            }
+        }
+		$now_date = Date('Y-m-d h:i:s');
+        $url = $this->input->server('REQUEST_URI');
+        $error_log = $now_date.': API_NAME  => '.$url.''.' RESPONSE_DATA : '.json_encode($output);
+        write_file(APPPATH.'../Api_log.txt', $error_log."\n", 'a+');
+        echo json_encode($output);
+        die;
+    }
+
+    public function getPackageRiderDetail()
+    {
+        $method = $this->input->server('REQUEST_METHOD');
+        if ($method != 'POST') {
+            $output = array(
+                'status' => Failure,
+                'message' => 'Bad request.',
+                'data' => array(),
+            );
+        } else {
+                $ride_id_new = $_POST['id'];
+                $city = $this->RideModel->getPackageRiderDetail($ride_id_new);
+            if (!empty($city)) {
+                $profile_pic = $this->db->where('id',$city['rideData']['driver_id'])->get('driver')->row_array();
+                $city['rideData']['profile_pic'] = isset($profile_pic['profile_pic']) ? $profile_pic['profile_pic'] : '';
                 $output = array(
                     'status' => Success,
                     'message' => 'Ride Details fetch successfully',
@@ -6207,6 +6343,52 @@ class Api extends MY_Controller
     
 
 
+    public function calculateFareForPackage (){
+        $method = $this->input->server('REQUEST_METHOD');
+        if($method != 'POST'){
+            $output = array(
+                'status' => 'Failure',
+                'message' => 'Bad request',
+                'data' => array(),
+            );
+        }else{
+            $distance = $_POST['distance'];
+            $all_cab_fare_data = $this->RideModel->getPackageFareOnTheBasisOfCity('Jaipur');
+            if(!empty($all_cab_fare_data)){
+                foreach($all_cab_fare_data as $key=>$fare_data){
+                    $cab_fare = $this->calculatePackageFare($fare_data,$distance);
+                    $all_cab_fare_data[$key]['finalPrice'] = $cab_fare.'.00';
+                    $all_cab_fare_data[$key]['aprox_time'] = '';
+                    $all_cab_fare_data[$key]['per_km_price'] = '';
+                    $all_cab_fare_data[$key]['farPrice'] = '';
+                    $all_cab_fare_data[$key]['cab_icon'] = CAB_ICON_DOMAIN_URL.$fare_data['cab_icon'];
+                }
+            }
+            // print_r($all_cab_fare_data);die;
+          if(!empty($all_cab_fare_data)){
+            $cab_type_id = array_column($all_cab_fare_data, 'cab_type_id');
+            array_multisort($cab_type_id, SORT_ASC, $all_cab_fare_data);
+            $output = array(
+                'status' => Success,
+                'message' => 'Success',
+                'data' => $all_cab_fare_data,
+            );
+          }else{
+            $output = array(
+                'status' => Failure,
+                'message' => 'Failure',
+                'data' => array(),
+            );  
+          }
+        }
+		$now_date = Date('Y-m-d h:i:s');
+        $url = $this->input->server('REQUEST_URI');
+        $error_log = $now_date.': API_NAME  => '.$url.''.' RESPONSE_DATA : '.json_encode($output);
+        write_file(APPPATH.'../Api_log.txt', $error_log."\n", 'a+');
+        echo json_encode($output); die;  
+    }
+
+
     public function calculateFareForAllCategories(){
         $method = $this->input->server('REQUEST_METHOD');
         if($method != 'POST'){
@@ -6253,6 +6435,37 @@ class Api extends MY_Controller
 
 
     function calculateCabFare($fare_data,$distance){
+        $distance = $this->convertDistanceInMeter($distance);
+        $final_fare = 0;
+        if($distance != ''){
+            $surcharge = $this->getSurcharges();
+            $min_fare = (double) $fare_data['minimum_fare'];
+            $per_km_fare = (double) $fare_data['fare_after_5_km'];
+
+            if($surcharge == 0){
+                $distance = $distance/1000;
+                $cab_fare_subtotal = $min_fare + ($distance * $per_km_fare);
+            } else {
+                $fare_per_km_surcharges = $per_km_fare + (($per_km_fare * $surcharge)/100);
+                $cab_fare_subtotal = $min_fare + ($distance * $fare_per_km_surcharges);
+            }
+
+            
+            //CAB_FARE_COMMISSION_IN_PERCENT
+            $cab_fare_commission = (double) ($cab_fare_subtotal * CAB_FARE_COMMISSION_IN_PERCENT)/ 100;
+            
+
+            //CAB_FARE_GST_IN_PERCENT
+            $cab_fare_gst = (double) ($cab_fare_subtotal * CAB_FARE_GST_IN_PERCENT)/ 100;
+
+            $final_fare = number_format(($cab_fare_subtotal + $cab_fare_commission + $cab_fare_gst),2);
+
+            $final_fare = ceil($final_fare);
+        }
+        return $final_fare;
+    }
+
+    function calculatePackageFare($fare_data,$distance){
         $distance = $this->convertDistanceInMeter($distance);
         $final_fare = 0;
         if($distance != ''){

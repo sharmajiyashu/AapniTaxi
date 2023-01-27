@@ -97,6 +97,29 @@ Class RideModel extends CI_Model {
             return  array();
         }
     }
+
+    public function getPackageRiderDetail($ride) {
+        
+        $this->db->select('cr.id,cr.driver_id,cr.per_km_price,cr.final_fare_amt,cr.user_id,cr.cab_id,cr.cab_type,cr.otp,cr.otp_status,cr.distance,cr.estimated_time,cr.source_latitude,cr.source_longitude,cr.destination_latitude,cr.destination_longitude,cr.canceled,cr.canceled_type,cr.canceled_reason,cr.vechicle_name,cr.price,cr.per_km_price,cr.status,cr.location_status,cr.updated_type, d.mobile as driver_mobile, c.registration_number as cab_number, c.cab_category_name as cab_name, CONCAT(d.first_name, " ",'.', d.last_name) AS driver_name', FALSE );
+        $this->db->from('package_ride as cr');
+        $this->db->join('driver as d','d.id = cr.driver_id','left');
+        $this->db->join('cab as c','c.id = cr.cab_id');
+        $this->db->where('cr.id',$ride); 
+        $query = $this->db->get('package_ride');
+        
+        $data = $query->row_array();
+        if ($query->num_rows() > 0) {
+            $sourceLocation = array('latitude'=>$data['source_latitude'],'longitude'=>$data['source_longitude']);
+            $destinationLocation = array('latitude'=>$data['destination_latitude'],'longitude'=>$data['destination_longitude']);
+            return $output = array(
+                    'sourceLocation' => $sourceLocation,
+                    'destinationLocation' => $destinationLocation,
+                    'rideData' => $data,
+                );
+        } else {         
+            return  array();
+        }
+    }
     
     public function updateDastination($postdata,$distances,$farPrice) {
         extract($postdata);
@@ -247,21 +270,20 @@ Class RideModel extends CI_Model {
             # 3 Km Condition  
             $querys = $this->db->query("SELECT *, ( 6371 * acos ( cos ( radians($source_latitude) ) * cos( radians( `latitude` ) ) * cos( radians( `longitude` ) - radians($source_longitude) ) + sin ( radians($source_latitude) ) * sin( radians( `latitude` ) ) ) ) AS distance FROM user_current_locations WHERE `user_type` = 'Driver' HAVING distance < 3
                 ORDER BY distance LIMIT 0 , 20");
-            
-                
-                // $querys = $this->db->query("SELECT * FROM user_current_locations WHERE `user_type` = 'Driver'");
+            // $querys = $this->db->query("SELECT * FROM user_current_locations WHERE `user_type` = 'Driver'");
             //  print_r($querys->result());die;
              $calculate_distance = $querys->result();
             if(!empty($calculate_distance)){
                  $user_id = [];
                  foreach($calculate_distance as $key => $value){
-                    //  print_r($value);die;
+                     
                      //$user_id[$key] = $value->user_id;
                      $check = $this->checkDriverIsOnlineOrNot($value->user_id);
                      if($check){
                         $user_id[$key] = $value->user_id;
                      }
                  }
+
                  if(!empty($user_id)){
                     $user_ids = implode(',',$user_id);
                     
@@ -274,7 +296,6 @@ Class RideModel extends CI_Model {
                  } else {
                      return array();
                  }
-                // print_r($user_ids);die;
                 
             } else {
                 return array();
@@ -377,6 +398,23 @@ Class RideModel extends CI_Model {
     public function getCabFareOnTheBasisOfCity($city) {
         $query = $this->db->query("SELECT cabfareprice.*,cabcat.* 
                             FROM `all_cab_far_price` as cabfareprice, 
+                            `cab-category` as cabcat
+                            WHERE 
+                            cabfareprice.citi_name = 'Jaipur' 
+                            and cabfareprice.cab_type_id = cabcat.id 
+                            and cabfareprice.state_name = 'Rajasthan'
+                        ");
+        if ($query->num_rows() > 0) {
+            return  $query->result_array();
+        } else {         
+            return  array();
+        }
+
+    }
+
+    public function getPackageFareOnTheBasisOfCity($city) {
+        $query = $this->db->query("SELECT cabfareprice.*,cabcat.* 
+                            FROM `package_far_price` as cabfareprice, 
                             `cab-category` as cabcat
                             WHERE 
                             cabfareprice.citi_name = 'Jaipur' 
@@ -523,6 +561,92 @@ Class RideModel extends CI_Model {
                     'cab_name'=> isset($cabDetail['cab_model_name']) ? $cabDetail['cab_model_name'] : '',
                     'cab_number'=> isset($cabDetail['registration_number']) ? $cabDetail['registration_number'] : '',
                     'ride_id'=> isset($insert) ? $insert : '',
+                    'otp'=> $otp
+                    );
+                     return $save_ride;
+            } else {         
+                return  false;
+            }
+        } else {
+            return false;
+        }
+    }
+
+
+    public function savePackageRide($postdata,$cab_data,$distance_from_source_destination) {
+        if($this->checkDriveOnlineStatus($cab_data['driver_id'])){
+            $this->db->insert('json_test2',['data'=>json_encode($_POST)]);
+            extract($postdata);
+
+
+            $new_estimated_time = $this->convertEstimatedTimeInMin($estimated_time);
+            
+            $otp = rand(1000,9999);
+            $distances = isset($cab_data['distance']) ? $cab_data['distance'] : '';
+            $final_distance = str_replace("km","",$distances);
+            $final_distance = (double) $final_distance;
+            
+            $driver_id = isset($cab_data['driver_id']) ? $cab_data['driver_id'] : '';
+            $cab_id =    isset($cab_data['cab_id']) ? $cab_data['cab_id'] : '';
+            
+            # User assigned driver changed status offline 
+            $this->db->where('id',$driver_id)->update('driver',['driver_current_status' => 'offline']);
+            
+
+            //get $surcharges value from the DB table gst-commission
+            //Getting surcharges from gst-commision table and there is only one record in this table that's why using where('id',1)
+            $surcharges_data = $this->db->select('surcharges')->where('id',1)->get('gst-commission')->row_array();
+            $surcharges = 0;
+            if(!empty($surcharges_data)){
+                if(isset($surcharges_data['surcharges'])){
+                    $surcharges = $surcharges_data['surcharges'];
+                }
+            }
+
+
+            $data = array(
+            'user_id'=>isset($user_id) ? $user_id : '',
+            'driver_id'=>$driver_id,
+            'estimated_time'=>isset($new_estimated_time) ? $new_estimated_time : '',
+            'cab_id'=>$cab_id,
+            'cab_type'=>isset($cab_type) ? $cab_type : '',
+            'source_latitude'=>isset($source_latitude) ? $source_latitude : '',
+            'source_longitude'=>isset($source_longitude) ? $source_longitude : '',
+            'destination_latitude'=>isset($destination_latitude) ? $destination_latitude : '',
+            'destination_longitude'=>isset($destination_longitude) ? $destination_longitude : '',
+            'ride_start_time'=>date('Y-m-d H:i:s'),
+            // 'ride_end_time'=>isset($ride_end_time) ? $ride_end_time : '',
+            'surcharges' => $surcharges,
+            'price'=>isset($price) ? $price : '',
+            'distance'=>isset($distance_from_source_destination) ? $distance_from_source_destination : '',
+            'vechicle_name'=>isset($vechicle_name) ? $vechicle_name : '',
+            'created_at'=>date('Y-m-d h:i:s'),
+            'updated_at'=>date('Y-m-d h:i:s'),
+            'created_by'=> isset($user_id) ? $user_id : '',
+            'updated_by'=> isset($user_id) ? $user_id : '',
+            'otp'=> $otp,
+            );
+            // debug($data);die;
+            $this->db->insert('package_ride', $data);
+            $insert = $this->db->insert_id();
+            // echo $insert;die;
+            if ($insert > 0) {
+                // echo $cab_id;die;
+                $driverDetail = $this->getDriverDetail($driver_id);
+                // print_r($driverDetail);die;
+                $cabDetail = $this->getCabDetail($cab_id);
+                // print_r($cabDetail);die;
+                $first_name = isset($driverDetail['first_name']) ? $driverDetail['first_name'] : '';
+                $last_name = isset($driverDetail['last_name']) ? $driverDetail['last_name'] : '';
+                $driver_name = $first_name.' '.$last_name;
+                $save_ride =  array(
+                    'driver_id'=>$driver_id,
+                    'driver_name'=>$driver_name,
+                    'mobile'=> isset($driverDetail['mobile']) ? $driverDetail['mobile'] : '',
+                    'cab_id'=>isset($cabDetail['id']) ? $cabDetail['id'] : '',
+                    'cab_name'=> isset($cabDetail['cab_model_name']) ? $cabDetail['cab_model_name'] : '',
+                    'cab_number'=> isset($cabDetail['registration_number']) ? $cabDetail['registration_number'] : '',
+                    'package_ride_id'=> isset($insert) ? $insert : '',
                     'otp'=> $otp
                     );
                      return $save_ride;
