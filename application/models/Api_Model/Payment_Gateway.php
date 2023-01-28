@@ -4,11 +4,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 Class Payment_Gateway extends MY_Model {
 
-        public function saveUserPaymentInfo($user_id,$name,$email,$contact,$description,$payment_amount,$ride_id) {
+        public function saveUserPaymentInfo($user_id,$name,$email,$contact,$description,$payment_amount,$ride_id ,$ride_type) {
             
             //get driver id from cab_ride id
-            $ride_data = $this->db->select('driver_id')->where('id',$ride_id)->get('cab_ride')->row_array();
-            $driver_id = isset($ride_data['driver_id']) ? $ride_data['driver_id'] : '';
+            if($ride_type == 'package_ride'){
+                $ride_data = $this->db->select('driver_id')->where('id',$ride_id)->get('package_ride')->row_array();
+                $driver_id = isset($ride_data['driver_id']) ? $ride_data['driver_id'] : '';
+                $cab_ride_id = 0;
+                $package_ride_id = $ride_id;
+            }else{
+                $ride_data = $this->db->select('driver_id')->where('id',$ride_id)->get('cab_ride')->row_array();
+                $driver_id = isset($ride_data['driver_id']) ? $ride_data['driver_id'] : '';
+                $cab_ride_id = $ride_id;
+                $package_ride_id = 0;
+            }
+            
             //EOC
             
         $data = array(  
@@ -16,7 +26,8 @@ Class Payment_Gateway extends MY_Model {
             'name'=>isset($name) ? $name : '',
             'email'=> isset($email) ? $email : '',
             'driver_id' => isset($driver_id) ? $driver_id : 0,
-            'cab_ride_id' => isset($ride_id) ? $ride_id : 0,
+            'cab_ride_id' => isset($cab_ride_id) ? $cab_ride_id : 0,
+            'package_ride_id' => isset($package_ride_id) ? $package_ride_id : 0,
             'contact'=> isset($contact) ? $contact : '',
             'payment_amount'=> isset($payment_amount) ? ($payment_amount/100) : '',
             'description'=> isset($description) ? $description : '',
@@ -61,6 +72,7 @@ Class Payment_Gateway extends MY_Model {
         if($razor_pay_transaction_detail_data_arr['status'] == 'authorized'){
            $postData['status_code'] = 200; 
         } 
+        
         
         if($postData['status_code'] == 200){
             $data = array(  

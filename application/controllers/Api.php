@@ -4342,7 +4342,8 @@ class Api extends MY_Controller
             $contact = $postData['contact'];
             $description = $postData['description'];
             $payment_amount = $postData['payment_amount'];
-            $data = $this->Payment_Gateway->saveUserPaymentInfo($user_id, $name, $email, $contact, $description, $payment_amount, $ride_id);
+            $ride_type = isset($postData['ride_type']) ? $postData['ride_type'] :'cab_ride';
+            $data = $this->Payment_Gateway->saveUserPaymentInfo($user_id, $name, $email, $contact, $description, $payment_amount, $ride_id ,$ride_type);
             if ($data) {
                 $output = array(
                     'status' => Success,
@@ -5056,14 +5057,27 @@ class Api extends MY_Controller
             } else {
                 if (!empty($_POST)) {
                     extract($_POST);
-                    $cab = $this->db->where('id', $ride_id)->get('cab_ride')->row_array();
+                    // edit by kapil 
+                    $ride_type = isset($_POST['ride_type']) ? $_POST['ride_type'] : 'cab_ride';
+                    if($ride_type == 'package_ride'){
+                        $cab = $this->db->where('id', $ride_id)->get('package_ride')->row_array();
+                        $cab_ride_id = 0;
+                        $package_ride_id = $ride_id;
+                    }else{
+                        $cab = $this->db->where('id', $ride_id)->get('cab_ride')->row_array();
+                        $cab_ride_id = $ride_id;
+                        $package_ride_id = 0;
+                    }
+                    // end
                     //$txn_id = $ride_id.time().uniqid(mt_rand(),true);  //removed by lgarg
                     $data = array(
-                      'cab_ride_id' => isset($ride_id) ? $ride_id : '',
+                      'cab_ride_id' => isset($cab_ride_id) ? $cab_ride_id : '',
+                      'package_ride_id' => isset($package_ride_id) ? $package_ride_id : '',
                       'user_id' => isset($user_id) ? $user_id : '',
                       'driver_id' => isset($cab['driver_id']) ? $cab['driver_id'] : '',
                       'payment_amount' => isset($cab['price']) ? $cab['price'] : '',   //price is not correct saving for payment history table
                       'payment_mode' => 'Cash',
+                      'ride_type' => $ride_type,
                       'txn_id' => '',
                       'txn_date' => date('Y-m-d h:i:s'),
                       'status' => isset($status) ? $status : '',
